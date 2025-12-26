@@ -1,6 +1,17 @@
 # AI Gym Suite
 
-AI-powered fitness application with smart workout recommendations, personalized training plans, and progress tracking. Built with Node.js, Express, TypeScript, and Supabase.
+AI-powered fitness application with smart workout recommendations, personalized training plans, and progress tracking.
+
+## Monorepo Structure
+
+```
+ai-gym-suite/
+├── apps/
+│   ├── api/          # Express.js backend API
+│   └── web/          # Next.js frontend app
+├── docs/             # Architecture documentation
+└── package.json      # Root workspace config
+```
 
 ## Features
 
@@ -13,33 +24,85 @@ AI-powered fitness application with smart workout recommendations, personalized 
 
 ## Tech Stack
 
-- **Backend**: Node.js, Express.js, TypeScript
-- **Database**: PostgreSQL (Supabase) with Prisma ORM
-- **AI**: Anthropic Claude API for intelligent coaching
-- **Authentication**: JWT-based auth
+| App | Stack |
+|-----|-------|
+| **API** | Node.js, Express.js, TypeScript, Prisma, PostgreSQL (Supabase) |
+| **Web** | Next.js 14, React 18, TypeScript, Tailwind CSS, Zustand |
 
 ## Quick Start
 
+### Prerequisites
+
+- Node.js 18+
+- PostgreSQL database (or Supabase account)
+- Anthropic API key (optional, for AI features)
+
+### Installation
+
 ```bash
-# Install dependencies
+# Install all dependencies
 npm install
 
-# Copy environment variables
-cp .env.example .env
-# Edit .env with your Supabase credentials
+# Set up API environment
+cp apps/api/.env.example apps/api/.env
+# Edit apps/api/.env with your credentials
 
 # Generate Prisma client
 npm run db:generate
 
-# Push database schema to Supabase
+# Push database schema
 npm run db:push
 
-# Seed the database with exercises
+# Seed the database
 npm run db:seed
 
-# Start development server
+# Start both apps in development
 npm run dev
 ```
+
+### Running Individually
+
+```bash
+# API only (runs on http://localhost:3001)
+npm run dev:api
+
+# Web only (runs on http://localhost:3000)
+npm run dev:web
+```
+
+## App Screenshots Flow
+
+### 1. Landing Page
+- Welcome hero with features overview
+- Sign up / Sign in buttons
+
+### 2. Authentication
+- Email/password registration and login
+- JWT-based session management
+
+### 3. Onboarding Flow
+- **Phase 1**: Basic profile (name, age, height, weight)
+- **Phase 2**: Goals & motivation
+- **Phase 3**: Fitness assessment (activity level, experience)
+- **Phase 4**: Logistics (location, equipment, schedule)
+- **Phase 5**: Health considerations (injuries, conditions)
+- **Phase 6**: Personalization (preferences, reminders)
+
+### 4. Dashboard
+- Today's workout card
+- Weekly stats (streak, workouts, volume)
+- Quick links to exercises, history, progress
+
+### 5. Workout Session
+- Exercise list with sets/reps targets
+- Set logging with weight and rep tracking
+- Rest timer between sets
+- Workout completion summary
+
+### 6. Exercise Library
+- Searchable exercise database
+- Filter by muscle group
+- Detailed exercise pages with form cues
 
 ## API Endpoints
 
@@ -48,13 +111,11 @@ npm run dev
 |--------|----------|-------------|
 | POST | `/api/v1/auth/register` | Register new user |
 | POST | `/api/v1/auth/login` | Login |
-| POST | `/api/v1/auth/refresh` | Refresh access token |
 | GET | `/api/v1/auth/me` | Get current user |
 
 ### Onboarding
 | Method | Endpoint | Description |
 |--------|----------|-------------|
-| GET | `/api/v1/onboarding/status` | Get onboarding status |
 | GET | `/api/v1/onboarding/questions` | Get all questions |
 | POST | `/api/v1/onboarding/responses` | Submit responses |
 | POST | `/api/v1/onboarding/complete` | Complete onboarding |
@@ -62,70 +123,24 @@ npm run dev
 ### Workouts
 | Method | Endpoint | Description |
 |--------|----------|-------------|
-| GET | `/api/v1/workouts/today` | Get today's AI-generated workout |
-| POST | `/api/v1/workouts/generate` | Generate new workout |
-| GET | `/api/v1/workouts` | List workout history |
-| POST | `/api/v1/workouts/:id/start` | Start workout session |
+| GET | `/api/v1/workouts/today` | Get today's workout |
+| POST | `/api/v1/workouts/:id/start` | Start workout |
+| POST | `/api/v1/workouts/:wid/exercises/:eid/log` | Log a set |
 | POST | `/api/v1/workouts/:id/complete` | Complete workout |
 
 ### Exercises
 | Method | Endpoint | Description |
 |--------|----------|-------------|
-| GET | `/api/v1/exercises` | List all exercises |
+| GET | `/api/v1/exercises` | List exercises |
 | GET | `/api/v1/exercises/:id` | Get exercise details |
-| GET | `/api/v1/exercises/:id/coaching` | Get AI coaching tips |
 
 ### Progress
 | Method | Endpoint | Description |
 |--------|----------|-------------|
 | GET | `/api/v1/progress/dashboard` | Dashboard stats |
-| GET | `/api/v1/progress/weekly-summary` | AI weekly summary |
-| GET | `/api/v1/progress/strength` | Strength progression |
-| POST | `/api/v1/progress/body` | Log body measurement |
+| GET | `/api/v1/progress/streaks` | Streak info |
 
-## Project Structure
-
-```
-ai-gym-suite/
-├── prisma/
-│   ├── schema.prisma          # Database schema
-│   ├── seed.ts                # Database seeding
-│   └── data/                  # Seed data
-├── src/
-│   ├── config/                # Configuration
-│   ├── lib/                   # Prisma & Supabase clients
-│   ├── middleware/            # Auth, error handling
-│   ├── routes/                # API routes
-│   ├── services/              # Business logic
-│   │   ├── ai.service.ts
-│   │   ├── auth.service.ts
-│   │   ├── onboarding.service.ts
-│   │   └── workout-generator.service.ts
-│   └── index.ts               # App entry point
-└── docs/
-    └── ARCHITECTURE.md        # Detailed architecture
-```
-
-## Onboarding Phases
-
-1. **Basic Profile**: Name, age, gender, height, weight, target weight
-2. **Goals & Motivation**: Primary goal, secondary goal, motivations
-3. **Fitness Assessment**: Activity level, experience, baseline tests (push-ups, plank)
-4. **Logistics**: Workout location, equipment, days per week, session duration
-5. **Health & Limitations**: Injuries, chronic conditions, special considerations
-6. **Personalization**: Exercise preferences, rest periods, reminders
-
-## Workout Generation
-
-The AI generates personalized workouts based on:
-
-- **Training Split**: PPL, Upper/Lower, or Full Body based on days/week
-- **Exercise Selection**: Matches target muscles, available equipment, skill level
-- **Rep Ranges**: Adjusted for goals (strength: 3-6, hypertrophy: 8-12, endurance: 15-20)
-- **Progressive Overload**: Tracks performance and suggests weight increases
-- **Injury Prevention**: Filters exercises based on user's health profile
-
-## Environment Variables
+## Environment Variables (API)
 
 ```env
 # Supabase
@@ -137,8 +152,21 @@ DATABASE_URL=postgresql://...
 # JWT
 JWT_SECRET=your-32-character-secret-key
 
-# AI (optional - enables smart coaching)
+# AI (optional)
 ANTHROPIC_API_KEY=your-anthropic-key
+```
+
+## Development
+
+```bash
+# Run both apps
+npm run dev
+
+# Build all apps
+npm run build
+
+# Open Prisma Studio
+npm run db:studio
 ```
 
 ## License
