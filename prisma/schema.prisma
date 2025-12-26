@@ -1,0 +1,630 @@
+// Prisma schema for AI Gym Suite
+// Supports PostgreSQL with pgvector extension for similarity search
+
+generator client {
+  provider        = "prisma-client-js"
+  previewFeatures = ["postgresqlExtensions"]
+}
+
+datasource db {
+  provider   = "postgresql"
+  url        = env("DATABASE_URL")
+  extensions = [pgvector(map: "vector", schema: "public")]
+}
+
+// ============================================================================
+// USER MODELS
+// ============================================================================
+
+model User {
+  id                   String    @id @default(uuid())
+  email                String    @unique
+  hashedPassword       String    @map("hashed_password")
+  isActive             Boolean   @default(true) @map("is_active")
+  isVerified           Boolean   @default(false) @map("is_verified")
+  onboardingCompleted  Boolean   @default(false) @map("onboarding_completed")
+  onboardingStep       Int       @default(0) @map("onboarding_step")
+  lastLogin            DateTime? @map("last_login")
+  createdAt            DateTime  @default(now()) @map("created_at")
+  updatedAt            DateTime  @updatedAt @map("updated_at")
+
+  // Relations
+  profile              UserProfile?
+  preferences          UserPreferences?
+  health               UserHealth?
+  onboardingResponses  OnboardingResponse[]
+  workouts             Workout[]
+  exerciseLogs         ExerciseLog[]
+  progressSnapshots    ProgressSnapshot[]
+  achievements         UserAchievement[]
+
+  @@map("users")
+}
+
+model UserProfile {
+  id                String   @id @default(uuid())
+  userId            String   @unique @map("user_id")
+
+  // Basic Info
+  firstName         String?  @map("first_name")
+  lastName          String?  @map("last_name")
+  age               Int?
+  gender            Gender?
+  heightCm          Float?   @map("height_cm")
+  currentWeightKg   Float?   @map("current_weight_kg")
+  targetWeightKg    Float?   @map("target_weight_kg")
+
+  // Fitness Assessment
+  fitnessLevel      FitnessLevel?     @map("fitness_level")
+  experienceLevel   ExperienceLevel?  @map("experience_level")
+  primaryGoal       FitnessGoal?      @map("primary_goal")
+  secondaryGoal     FitnessGoal?      @map("secondary_goal")
+  motivation        String[]          @default([])
+
+  // Baseline Assessments
+  pushupCapacity    String?  @map("pushup_capacity")
+  plankCapacity     String?  @map("plank_capacity")
+  squatComfort      String?  @map("squat_comfort")
+
+  // Calculated Metrics
+  bmi               Float?
+  tdee              Int?     // Total Daily Energy Expenditure
+  recommendedCalories Int?   @map("recommended_calories")
+
+  // AI Profile Vector (stored as float array for pgvector)
+  profileVector     Float[]  @map("profile_vector") @default([])
+
+  createdAt         DateTime @default(now()) @map("created_at")
+  updatedAt         DateTime @updatedAt @map("updated_at")
+
+  // Relations
+  user              User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@map("user_profiles")
+}
+
+model UserPreferences {
+  id                    String   @id @default(uuid())
+  userId                String   @unique @map("user_id")
+
+  // Workout Schedule
+  workoutDaysPerWeek    Int      @default(3) @map("workout_days_per_week")
+  sessionDurationMin    Int      @default(45) @map("session_duration_min")
+  preferredWorkoutTime  WorkoutTime? @map("preferred_workout_time")
+  preferredDays         String[] @default([]) @map("preferred_days")
+
+  // Location & Equipment
+  workoutLocation       WorkoutLocation? @map("workout_location")
+  availableEquipment    String[] @default([]) @map("available_equipment")
+
+  // Exercise Preferences
+  preferredExerciseTypes String[] @default([]) @map("preferred_exercise_types")
+  dislikedExercises     String[] @default([]) @map("disliked_exercises")
+  restPreference        RestPreference @default(MODERATE) @map("rest_preference")
+
+  // Notifications
+  workoutReminders      Boolean  @default(true) @map("workout_reminders")
+  reminderTime          String?  @map("reminder_time")
+
+  // Music
+  musicGenre            String?  @map("music_genre")
+
+  createdAt             DateTime @default(now()) @map("created_at")
+  updatedAt             DateTime @updatedAt @map("updated_at")
+
+  // Relations
+  user                  User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@map("user_preferences")
+}
+
+model UserHealth {
+  id                        String    @id @default(uuid())
+  userId                    String    @unique @map("user_id")
+
+  // Injuries
+  injuries                  String[]  @default([])
+  injuryDetails             String?   @map("injury_details")
+
+  // Chronic Conditions
+  chronicConditions         String[]  @default([]) @map("chronic_conditions")
+  conditionDetails          String?   @map("condition_details")
+
+  // Special Considerations
+  isPregnant                Boolean   @default(false) @map("is_pregnant")
+  recentSurgery             Boolean   @default(false) @map("recent_surgery")
+  surgeryDetails            String?   @map("surgery_details")
+  surgeryDate               DateTime? @map("surgery_date")
+
+  // Medications
+  relevantMedications       String[]  @default([]) @map("relevant_medications")
+
+  // Medical Clearance
+  hasMedicalClearance       Boolean   @default(false) @map("has_medical_clearance")
+  clearanceDate             DateTime? @map("clearance_date")
+
+  // AI-Derived Contraindications
+  contraindicatedMovements  String[]  @default([]) @map("contraindicated_movements")
+  contraindicatedExercises  String[]  @default([]) @map("contraindicated_exercises")
+
+  createdAt                 DateTime  @default(now()) @map("created_at")
+  updatedAt                 DateTime  @updatedAt @map("updated_at")
+
+  // Relations
+  user                      User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@map("user_health")
+}
+
+// ============================================================================
+// ONBOARDING MODELS
+// ============================================================================
+
+model OnboardingQuestion {
+  id              String            @id @default(uuid())
+  phase           Int               // 1-6 phases
+  order           Int               // Order within phase
+  questionKey     String            @unique @map("question_key")
+  questionText    String            @map("question_text")
+  questionType    QuestionType      @map("question_type")
+  options         Json?             // For multiple choice/select
+  validation      Json?             // Validation rules
+  isRequired      Boolean           @default(true) @map("is_required")
+  dependsOn       String?           @map("depends_on") // Conditional display
+  helpText        String?           @map("help_text")
+
+  createdAt       DateTime          @default(now()) @map("created_at")
+  updatedAt       DateTime          @updatedAt @map("updated_at")
+
+  // Relations
+  responses       OnboardingResponse[]
+
+  @@unique([phase, order])
+  @@map("onboarding_questions")
+}
+
+model OnboardingResponse {
+  id              String   @id @default(uuid())
+  userId          String   @map("user_id")
+  questionId      String   @map("question_id")
+  response        Json     // Flexible response storage
+
+  createdAt       DateTime @default(now()) @map("created_at")
+  updatedAt       DateTime @updatedAt @map("updated_at")
+
+  // Relations
+  user            User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  question        OnboardingQuestion @relation(fields: [questionId], references: [id])
+
+  @@unique([userId, questionId])
+  @@map("onboarding_responses")
+}
+
+// ============================================================================
+// EXERCISE MODELS
+// ============================================================================
+
+model Exercise {
+  id                    String   @id @default(uuid())
+
+  // Basic Info
+  name                  String
+  slug                  String   @unique
+  description           String
+  instructions          String
+
+  // Classification
+  category              ExerciseCategory
+  movementPattern       MovementPattern @map("movement_pattern")
+  exerciseType          ExerciseType    @map("exercise_type")
+
+  // Muscle Targeting
+  primaryMuscles        String[] @map("primary_muscles")
+  secondaryMuscles      String[] @default([]) @map("secondary_muscles")
+  muscleActivationMap   Json     @default("{}") @map("muscle_activation_map")
+
+  // Difficulty & Skill
+  difficultyLevel       Int      @default(3) @map("difficulty_level") // 1-5
+  skillRequirement      Int      @default(2) @map("skill_requirement") // 1-5
+  isBeginnerFriendly    Boolean  @default(false) @map("is_beginner_friendly")
+
+  // Equipment & Location
+  equipmentRequired     String[] @default([]) @map("equipment_required")
+  equipmentOptional     String[] @default([]) @map("equipment_optional")
+  suitableLocations     String[] @default([]) @map("suitable_locations")
+
+  // Performance Parameters
+  repRanges             Json     @default("{}") @map("rep_ranges")
+  typicalSets           Json     @default("{}") @map("typical_sets")
+  restSeconds           Json     @default("{}") @map("rest_seconds")
+
+  // Intensity & Calories
+  metValue              Float    @default(5.0) @map("met_value")
+  intensityFactor       Float    @default(0.7) @map("intensity_factor")
+
+  // Safety
+  contraindications     String[] @default([])
+  formCues              String[] @default([]) @map("form_cues")
+  commonMistakes        String[] @default([]) @map("common_mistakes")
+
+  // Variations
+  easierVariation       String?  @map("easier_variation")
+  harderVariation       String?  @map("harder_variation")
+  alternativeExercises  String[] @default([]) @map("alternative_exercises")
+
+  // Media
+  videoUrl              String?  @map("video_url")
+  thumbnailUrl          String?  @map("thumbnail_url")
+  animationUrl          String?  @map("animation_url")
+
+  // Vector Embedding for Semantic Search
+  embedding             Float[]  @default([])
+
+  // Metadata
+  tags                  String[] @default([])
+  suitableGoals         String[] @default([]) @map("suitable_goals")
+  popularityScore       Float    @default(0.5) @map("popularity_score")
+  effectivenessRating   Float    @default(4.0) @map("effectiveness_rating")
+  timesRecommended      Int      @default(0) @map("times_recommended")
+  timesCompleted        Int      @default(0) @map("times_completed")
+
+  isActive              Boolean  @default(true) @map("is_active")
+
+  createdAt             DateTime @default(now()) @map("created_at")
+  updatedAt             DateTime @updatedAt @map("updated_at")
+
+  // Relations
+  workoutExercises      WorkoutExercise[]
+  exerciseLogs          ExerciseLog[]
+
+  @@index([category])
+  @@index([movementPattern])
+  @@index([difficultyLevel])
+  @@map("exercises")
+}
+
+// ============================================================================
+// WORKOUT MODELS
+// ============================================================================
+
+model Workout {
+  id                String         @id @default(uuid())
+  userId            String         @map("user_id")
+
+  // Scheduling
+  scheduledDate     DateTime       @map("scheduled_date")
+  dayOfWeek         Int            @map("day_of_week") // 0-6
+  weekNumber        Int            @map("week_number")
+
+  // Workout Details
+  workoutType       WorkoutSplitType @map("workout_type")
+  focusMuscles      String[]       @map("focus_muscles")
+  title             String         // e.g., "Push Day - Chest & Shoulders"
+  description       String?
+
+  // Timing
+  estimatedDuration Int            @map("estimated_duration") // minutes
+  actualDuration    Int?           @map("actual_duration")
+
+  // Status
+  status            WorkoutStatus  @default(SCHEDULED)
+  startedAt         DateTime?      @map("started_at")
+  completedAt       DateTime?      @map("completed_at")
+
+  // Performance
+  totalVolume       Float?         @map("total_volume") // total weight lifted
+  caloriesBurned    Int?           @map("calories_burned")
+  averageRpe        Float?         @map("average_rpe")
+
+  // Notes
+  userNotes         String?        @map("user_notes")
+  aiNotes           String?        @map("ai_notes")
+
+  createdAt         DateTime       @default(now()) @map("created_at")
+  updatedAt         DateTime       @updatedAt @map("updated_at")
+
+  // Relations
+  user              User           @relation(fields: [userId], references: [id], onDelete: Cascade)
+  exercises         WorkoutExercise[]
+
+  @@index([userId, scheduledDate])
+  @@index([status])
+  @@map("workouts")
+}
+
+model WorkoutExercise {
+  id              String   @id @default(uuid())
+  workoutId       String   @map("workout_id")
+  exerciseId      String   @map("exercise_id")
+
+  // Order & Grouping
+  orderIndex      Int      @map("order_index")
+  supersetGroup   Int?     @map("superset_group")
+
+  // Target Performance
+  targetSets      Int      @map("target_sets")
+  targetReps      String   @map("target_reps") // Can be "8-12" or "AMRAP"
+  targetWeight    Float?   @map("target_weight")
+  targetRpe       Int?     @map("target_rpe")
+  restSeconds     Int      @map("rest_seconds")
+
+  // Status
+  status          ExerciseStatus @default(PENDING)
+  skipped         Boolean  @default(false)
+  skipReason      String?  @map("skip_reason")
+
+  // Notes
+  notes           String?
+
+  createdAt       DateTime @default(now()) @map("created_at")
+  updatedAt       DateTime @updatedAt @map("updated_at")
+
+  // Relations
+  workout         Workout  @relation(fields: [workoutId], references: [id], onDelete: Cascade)
+  exercise        Exercise @relation(fields: [exerciseId], references: [id])
+  logs            ExerciseLog[]
+
+  @@unique([workoutId, orderIndex])
+  @@map("workout_exercises")
+}
+
+model ExerciseLog {
+  id                  String   @id @default(uuid())
+  userId              String   @map("user_id")
+  workoutExerciseId   String   @map("workout_exercise_id")
+  exerciseId          String   @map("exercise_id")
+
+  // Performance
+  performedAt         DateTime @default(now()) @map("performed_at")
+  totalVolume         Float?   @map("total_volume")
+
+  // Aggregate Metrics
+  averageRpe          Float?   @map("average_rpe")
+  formRating          Int?     @map("form_rating") // 1-5
+
+  notes               String?
+
+  createdAt           DateTime @default(now()) @map("created_at")
+  updatedAt           DateTime @updatedAt @map("updated_at")
+
+  // Relations
+  user                User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  workoutExercise     WorkoutExercise @relation(fields: [workoutExerciseId], references: [id], onDelete: Cascade)
+  exercise            Exercise @relation(fields: [exerciseId], references: [id])
+  sets                SetLog[]
+
+  @@map("exercise_logs")
+}
+
+model SetLog {
+  id              String   @id @default(uuid())
+  exerciseLogId   String   @map("exercise_log_id")
+
+  setNumber       Int      @map("set_number")
+  repsCompleted   Int      @map("reps_completed")
+  weightUsed      Float?   @map("weight_used")
+  rpe             Int?     // 1-10 scale
+  restTaken       Int?     @map("rest_taken") // seconds
+  formRating      Int?     @map("form_rating") // 1-5
+  isWarmup        Boolean  @default(false) @map("is_warmup")
+  isDropSet       Boolean  @default(false) @map("is_drop_set")
+
+  notes           String?
+
+  createdAt       DateTime @default(now()) @map("created_at")
+
+  // Relations
+  exerciseLog     ExerciseLog @relation(fields: [exerciseLogId], references: [id], onDelete: Cascade)
+
+  @@map("set_logs")
+}
+
+// ============================================================================
+// PROGRESS & ACHIEVEMENTS
+// ============================================================================
+
+model ProgressSnapshot {
+  id              String   @id @default(uuid())
+  userId          String   @map("user_id")
+
+  recordedAt      DateTime @default(now()) @map("recorded_at")
+
+  // Body Metrics
+  weightKg        Float?   @map("weight_kg")
+  bodyFatPercent  Float?   @map("body_fat_percent")
+
+  // Measurements (cm)
+  chestCm         Float?   @map("chest_cm")
+  waistCm         Float?   @map("waist_cm")
+  hipsCm          Float?   @map("hips_cm")
+  bicepsCm        Float?   @map("biceps_cm")
+  thighsCm        Float?   @map("thighs_cm")
+
+  // Photos
+  frontPhotoUrl   String?  @map("front_photo_url")
+  sidePhotoUrl    String?  @map("side_photo_url")
+  backPhotoUrl    String?  @map("back_photo_url")
+
+  notes           String?
+
+  createdAt       DateTime @default(now()) @map("created_at")
+
+  // Relations
+  user            User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@map("progress_snapshots")
+}
+
+model Achievement {
+  id              String   @id @default(uuid())
+  key             String   @unique
+  name            String
+  description     String
+  category        String   // strength, consistency, milestone, etc.
+  iconUrl         String?  @map("icon_url")
+  points          Int      @default(10)
+
+  // Unlock Criteria
+  criteria        Json     // e.g., { "type": "workout_count", "value": 10 }
+
+  createdAt       DateTime @default(now()) @map("created_at")
+
+  // Relations
+  userAchievements UserAchievement[]
+
+  @@map("achievements")
+}
+
+model UserAchievement {
+  id              String   @id @default(uuid())
+  userId          String   @map("user_id")
+  achievementId   String   @map("achievement_id")
+
+  unlockedAt      DateTime @default(now()) @map("unlocked_at")
+
+  // Relations
+  user            User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  achievement     Achievement @relation(fields: [achievementId], references: [id])
+
+  @@unique([userId, achievementId])
+  @@map("user_achievements")
+}
+
+// ============================================================================
+// ENUMS
+// ============================================================================
+
+enum Gender {
+  MALE
+  FEMALE
+  OTHER
+  PREFER_NOT_TO_SAY
+}
+
+enum FitnessGoal {
+  WEIGHT_LOSS
+  MUSCLE_GAIN
+  ENDURANCE
+  FLEXIBILITY
+  GENERAL_FITNESS
+  SPORT_SPECIFIC
+  STRENGTH
+  REHABILITATION
+  MAINTAIN
+}
+
+enum FitnessLevel {
+  SEDENTARY
+  LIGHTLY_ACTIVE
+  MODERATELY_ACTIVE
+  VERY_ACTIVE
+  ATHLETE
+}
+
+enum ExperienceLevel {
+  NEVER
+  BEGINNER       // < 6 months
+  INTERMEDIATE   // 6 months - 2 years
+  ADVANCED       // 2-5 years
+  EXPERT         // 5+ years
+}
+
+enum WorkoutLocation {
+  HOME
+  GYM
+  OUTDOOR
+  MIXED
+}
+
+enum WorkoutTime {
+  EARLY_MORNING  // 5-7am
+  MORNING        // 7-10am
+  MIDDAY         // 10am-2pm
+  AFTERNOON      // 2-5pm
+  EVENING        // 5-8pm
+  NIGHT          // 8pm+
+}
+
+enum RestPreference {
+  MINIMAL
+  MODERATE
+  FULL
+}
+
+enum QuestionType {
+  TEXT
+  NUMBER
+  SINGLE_SELECT
+  MULTI_SELECT
+  SLIDER
+  BOOLEAN
+  DATE
+}
+
+enum ExerciseCategory {
+  STRENGTH
+  CARDIO
+  FLEXIBILITY
+  BALANCE
+  PLYOMETRIC
+  CALISTHENICS
+}
+
+enum MovementPattern {
+  HORIZONTAL_PUSH
+  HORIZONTAL_PULL
+  VERTICAL_PUSH
+  VERTICAL_PULL
+  SQUAT
+  HINGE
+  LUNGE
+  CARRY
+  ROTATION
+  ANTI_ROTATION
+  FLEXION
+  EXTENSION
+  ISOLATION
+  CARDIO
+}
+
+enum ExerciseType {
+  COMPOUND
+  ISOLATION
+  CARDIO_STEADY
+  CARDIO_HIIT
+  FLEXIBILITY
+  MOBILITY
+  WARMUP
+  COOLDOWN
+}
+
+enum WorkoutSplitType {
+  FULL_BODY
+  UPPER_BODY
+  LOWER_BODY
+  PUSH
+  PULL
+  LEGS
+  CHEST_TRICEPS
+  BACK_BICEPS
+  SHOULDERS_ARMS
+  CORE
+  CARDIO
+  HIIT
+  ACTIVE_RECOVERY
+}
+
+enum WorkoutStatus {
+  SCHEDULED
+  IN_PROGRESS
+  COMPLETED
+  SKIPPED
+  PARTIAL
+}
+
+enum ExerciseStatus {
+  PENDING
+  IN_PROGRESS
+  COMPLETED
+  SKIPPED
+}
