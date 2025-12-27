@@ -34,31 +34,144 @@ ai-gym-suite/
 ### Prerequisites
 
 - Node.js 18+
-- PostgreSQL database (or Supabase account)
-- Anthropic API key (optional, for AI features)
+- Supabase account (free tier works)
+- Anthropic API key (optional, for AI coaching features)
 
-### Installation
+---
+
+## Supabase Database Setup
+
+### Step 1: Create a Supabase Project
+
+1. Go to [supabase.com](https://supabase.com) and sign in
+2. Click **"New Project"**
+3. Enter a project name (e.g., `ai-gym-suite`)
+4. Set a strong **database password** (save this!)
+5. Choose a region close to you
+6. Click **"Create new project"** and wait for setup
+
+### Step 2: Get Your Connection String
+
+1. In your Supabase dashboard, go to **Project Settings** → **Database**
+2. Click **"Connect"** button
+3. Select **"Connection String"** tab → **"URI"**
+4. **Important**: Change Method from "Direct connection" to **"Transaction"** or **"Session"** pooler
+   - Direct connection (port 5432) is NOT IPv4 compatible
+   - Session Pooler (port **6543**) works on all networks
+5. Copy the connection string
+
+Your connection string should look like:
+```
+postgresql://postgres.PROJECT_REF:YOUR_PASSWORD@aws-0-REGION.pooler.supabase.com:6543/postgres
+```
+
+### Step 3: Get API Keys
+
+1. Go to **Project Settings** → **API**
+2. Copy these keys:
+   - **Project URL** → `SUPABASE_URL`
+   - **Publishable key** (anon) → `SUPABASE_ANON_KEY`
+   - **Secret key** (service_role) → `SUPABASE_SERVICE_ROLE_KEY`
+
+---
+
+## Installation
+
+### Step 1: Clone and Install
 
 ```bash
+git clone <repo-url>
+cd ai-gym-suite
+
 # Install all dependencies
 npm install
+```
 
-# Set up API environment
+### Step 2: Configure Environment
+
+```bash
+# Copy example env file
 cp apps/api/.env.example apps/api/.env
-# Edit apps/api/.env with your credentials
+```
 
+Edit `apps/api/.env` with your Supabase credentials:
+
+```env
+# Supabase
+SUPABASE_URL="https://YOUR_PROJECT_REF.supabase.co"
+SUPABASE_ANON_KEY="your-publishable-key"
+SUPABASE_SERVICE_ROLE_KEY="your-secret-key"
+
+# Database - USE PORT 6543 (Session Pooler)
+DATABASE_URL="postgresql://postgres.YOUR_PROJECT_REF:YOUR_PASSWORD@aws-0-REGION.pooler.supabase.com:6543/postgres"
+DIRECT_URL="postgresql://postgres.YOUR_PROJECT_REF:YOUR_PASSWORD@aws-0-REGION.pooler.supabase.com:6543/postgres"
+
+# JWT Secret (generate a random 32+ character string)
+JWT_SECRET="your-super-secret-key-min-32-chars"
+
+# Optional: AI Features
+ANTHROPIC_API_KEY=""
+```
+
+### Step 3: Setup Database
+
+```bash
 # Generate Prisma client
 npm run db:generate
 
-# Push database schema
+# Push schema to Supabase
 npm run db:push
 
-# Seed the database
+# Seed with exercises and onboarding questions
 npm run db:seed
+```
 
-# Start both apps in development
+### Step 4: Run the Apps
+
+```bash
+# Start both API and Web in development mode
 npm run dev
 ```
+
+- **API**: http://localhost:3001
+- **Web**: http://localhost:3000
+
+---
+
+## Troubleshooting
+
+### Error: Can't reach database server at port 5432
+
+**Cause**: Direct connection is not IPv4 compatible.
+
+**Fix**: Use Session Pooler with port **6543**:
+```env
+DATABASE_URL="postgresql://postgres.XXX:PASSWORD@aws-0-REGION.pooler.supabase.com:6543/postgres"
+```
+
+### Error: Password contains brackets
+
+**Cause**: Don't include `[` `]` around your password.
+
+**Fix**:
+```env
+# Wrong
+DATABASE_URL="postgresql://postgres:[MyPassword]@..."
+
+# Correct
+DATABASE_URL="postgresql://postgres:MyPassword@..."
+```
+
+### Error: Module not found (seed.ts)
+
+**Fix**: Make sure you have the latest code:
+```bash
+git pull
+npm install
+npm run db:seed
+```
+
+---
 
 ### Running Individually
 
