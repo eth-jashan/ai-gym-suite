@@ -1,61 +1,48 @@
 {
   "expo": {
-    "name": "AI Gym Suite",
-    "slug": "ai-gym-suite",
+    "name": "mobile",
+    "slug": "mobile",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "aigym",
+    "scheme": "mobile",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
-    "splash": {
-      "image": "./assets/images/splash-icon.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#0f172a"
-    },
     "ios": {
-      "supportsTablet": true,
-      "bundleIdentifier": "com.aigymsuite.app",
-      "config": {
-        "usesNonExemptEncryption": false
-      }
+      "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
-        "backgroundColor": "#0f172a"
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/images/android-icon-foreground.png",
+        "backgroundImage": "./assets/images/android-icon-background.png",
+        "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
-      "package": "com.aigymsuite.app"
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false
     },
     "web": {
-      "bundler": "metro",
       "output": "static",
       "favicon": "./assets/images/favicon.png"
     },
     "plugins": [
       "expo-router",
-      "expo-font",
-      "expo-secure-store",
       [
         "expo-splash-screen",
         {
           "image": "./assets/images/splash-icon.png",
           "imageWidth": 200,
           "resizeMode": "contain",
-          "backgroundColor": "#0f172a"
+          "backgroundColor": "#ffffff",
+          "dark": {
+            "backgroundColor": "#000000"
+          }
         }
       ]
     ],
     "experiments": {
-      "typedRoutes": true
-    },
-    "extra": {
-      "router": {
-        "origin": false
-      },
-      "eas": {
-        "projectId": "your-project-id"
-      }
+      "typedRoutes": true,
+      "reactCompiler": true
     }
   }
 }
