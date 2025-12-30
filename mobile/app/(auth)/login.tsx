@@ -1,3 +1,4 @@
+import React from 'react';
 import { useState } from 'react';
 import { View, Text, TextInput, Pressable, StyleSheet, KeyboardAvoidingView, Platform } from 'react-native';
 import { Link, router } from 'expo-router';
@@ -81,7 +82,7 @@ export default function LoginScreen() {
           </Pressable>
 
           <View style={styles.footer}>
-            <Text style={styles.footerText}>Don't have an account? </Text>
+            {/* <Text style={styles.footerText}>Don't have an account? </Text> */}
             <Link href="/(auth)/register" asChild>
               <Pressable>
                 <Text style={styles.linkText}>Sign Up</Text>
