@@ -8,7 +8,8 @@ AI-powered fitness application with smart workout recommendations, personalized 
 ai-gym-suite/
 ├── apps/
 │   ├── api/          # Express.js backend API
-│   └── web/          # Next.js frontend app
+│   ├── web/          # Next.js frontend app
+│   └── mobile/       # Expo React Native app
 ├── docs/             # Architecture documentation
 └── package.json      # Root workspace config
 ```
@@ -28,6 +29,7 @@ ai-gym-suite/
 |-----|-------|
 | **API** | Node.js, Express.js, TypeScript, Prisma, PostgreSQL (Supabase) |
 | **Web** | Next.js 14, React 18, TypeScript, Tailwind CSS, Zustand |
+| **Mobile** | Expo SDK 52, React Native, TypeScript, NativeWind, Expo Router, Zustand |
 
 ## Quick Start
 
@@ -181,7 +183,121 @@ npm run dev:api
 
 # Web only (runs on http://localhost:3000)
 npm run dev:web
+
+# Mobile only (starts Expo development server)
+npm run dev:mobile
 ```
+
+---
+
+## Mobile App
+
+The mobile app is built with Expo SDK 52 and React Native, featuring file-based routing with Expo Router and NativeWind for Tailwind CSS styling.
+
+### Mobile Features
+
+- **Authentication**: Welcome screen, login, registration, password reset
+- **Home Dashboard**: Today's workout, quick stats, recent activity
+- **Workouts**: AI-generated workout library with filtering by status
+- **Exercise Library**: Searchable database with muscle group filters
+- **Progress Tracking**: Stats, achievements, weekly activity calendar
+- **Profile**: Settings, preferences, theme toggle
+- **Onboarding**: Goal selection, fitness level, schedule preferences
+- **Active Workout**: Timer, exercise progression, haptic feedback
+
+### Mobile Tech Stack
+
+- **Expo SDK 52** - Latest React Native platform
+- **Expo Router** - File-based navigation
+- **NativeWind** - Tailwind CSS for React Native
+- **React Native Reanimated** - Smooth animations
+- **Zustand** - State management (shared patterns with web)
+- **Expo SecureStore** - Secure token storage
+- **Expo Haptics** - Touch feedback
+
+### Mobile Development
+
+```bash
+# Start Expo development server
+npm run dev:mobile
+
+# Run on iOS Simulator
+npm run mobile:ios
+
+# Run on Android Emulator
+npm run mobile:android
+
+# Run in web browser
+npm run mobile:web
+```
+
+### Mobile Structure
+
+```
+apps/mobile/
+├── app/                    # Expo Router pages
+│   ├── (auth)/            # Auth screens
+│   │   ├── welcome.tsx    # Welcome/landing
+│   │   ├── login.tsx      # Sign in
+│   │   ├── register.tsx   # Sign up
+│   │   └── forgot-password.tsx
+│   ├── (tabs)/            # Main tab navigation
+│   │   ├── index.tsx      # Home dashboard
+│   │   ├── workouts.tsx   # Workout list
+│   │   ├── exercises.tsx  # Exercise library
+│   │   ├── progress.tsx   # Progress & achievements
+│   │   └── profile.tsx    # Settings & profile
+│   ├── onboarding/        # User onboarding
+│   └── workout/[id].tsx   # Workout detail/session
+├── src/
+│   ├── components/        # React Native components
+│   │   ├── ui/           # Button, Input, Card
+│   │   └── workout/      # WorkoutCard, ExerciseCard
+│   ├── stores/           # Zustand stores
+│   │   ├── auth.store.ts
+│   │   ├── workout.store.ts
+│   │   ├── exercise.store.ts
+│   │   ├── progress.store.ts
+│   │   └── theme.store.ts
+│   ├── hooks/            # Custom hooks
+│   ├── lib/              # API client
+│   ├── types/            # TypeScript types
+│   ├── constants/        # App config
+│   └── utils/            # Helper functions
+├── app.json              # Expo config
+├── tailwind.config.js    # NativeWind config
+└── eas.json              # EAS Build config
+```
+
+### Building Mobile for Production
+
+```bash
+cd apps/mobile
+
+# Install EAS CLI globally if not already
+npm install -g eas-cli
+
+# Development build (with dev client)
+npm run build:dev
+
+# Preview build (internal testing)
+npm run build:preview
+
+# Production build (App Store / Play Store)
+npm run build:prod
+```
+
+### Mobile Environment Configuration
+
+Configure the API URL in `apps/mobile/src/constants/config.ts`:
+
+```typescript
+export const API_URL = __DEV__
+  ? 'http://localhost:3001/api/v1'  // Development
+  : 'https://api.yourdomain.com/api/v1';  // Production
+```
+
+**Note for physical devices**: Replace `localhost` with your computer's local IP address.
 
 ## App Screenshots Flow
 
