@@ -1,12 +1,11 @@
-import React from 'react';
 import { useState, useRef } from 'react';
 import { View, Text, Pressable, StyleSheet, Dimensions, FlatList } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { Ionicons } from '@expo/vector-icons';
-import { useRouter } from 'expo-router';
 import { LinearGradient } from 'expo-linear-gradient';
 
-import { useColorScheme } from '@/hooks/use-color-scheme';
+import { useTheme } from '../../../providers/theme-provider';
+import { useAuthStore } from '../../../stores/auth-store';
 
 const { width } = Dimensions.get('window');
 
@@ -38,34 +37,36 @@ const ONBOARDING_STEPS = [
 ];
 
 export default function OnboardingScreen() {
-  const colorScheme = useColorScheme();
-  const isDark = colorScheme === 'dark';
-  const router = useRouter();
+  const { colors } = useTheme();
+  const { completeOnboarding } = useAuthStore();
   const [currentIndex, setCurrentIndex] = useState(0);
   const flatListRef = useRef<FlatList>(null);
 
-  const handleNext = () => {
+  const handleNext = async () => {
     if (currentIndex < ONBOARDING_STEPS.length - 1) {
       flatListRef.current?.scrollToIndex({ index: currentIndex + 1, animated: true });
       setCurrentIndex(currentIndex + 1);
     } else {
-      router.replace('/(tabs)');
+      await completeOnboarding({});
     }
   };
 
-  const handleSkip = () => {
-    router.replace('/(tabs)');
+  const handleSkip = async () => {
+    await completeOnboarding({});
   };
 
   const renderItem = ({ item }: { item: typeof ONBOARDING_STEPS[0] }) => (
     <View style={styles.slide}>
       <View style={styles.iconContainer}>
-        <LinearGradient colors={['#3b82f6', '#8b5cf6']} style={styles.iconGradient}>
-          <Ionicons name={item.icon as any} size={64} color="white" />
+        <LinearGradient
+          colors={colors.gradient.primary as unknown as [string, string]}
+          style={styles.iconGradient}
+        >
+          <Ionicons name={item.icon as any} size={64} color={colors.text.onPrimary} />
         </LinearGradient>
       </View>
-      <Text style={[styles.title, isDark && styles.textWhite]}>{item.title}</Text>
-      <Text style={[styles.description, isDark && styles.textLight]}>{item.description}</Text>
+      <Text style={[styles.title, { color: colors.text.primary }]}>{item.title}</Text>
+      <Text style={[styles.description, { color: colors.text.secondary }]}>{item.description}</Text>
     </View>
   );
 
@@ -76,10 +77,10 @@ export default function OnboardingScreen() {
   }).current;
 
   return (
-    <SafeAreaView style={[styles.container, isDark && styles.containerDark]}>
+    <SafeAreaView style={[styles.container, { backgroundColor: colors.background.base }]}>
       <View style={styles.header}>
         <Pressable onPress={handleSkip}>
-          <Text style={[styles.skipText, isDark && styles.textLight]}>Skip</Text>
+          <Text style={[styles.skipText, { color: colors.text.secondary }]}>Skip</Text>
         </Pressable>
       </View>
 
@@ -103,19 +104,22 @@ export default function OnboardingScreen() {
               key={index}
               style={[
                 styles.dot,
-                index === currentIndex && styles.dotActive,
-                isDark && index !== currentIndex && styles.dotDark,
+                { backgroundColor: colors.border.default },
+                index === currentIndex && [styles.dotActive, { backgroundColor: colors.primary.base }],
               ]}
             />
           ))}
         </View>
 
         <Pressable style={styles.nextButton} onPress={handleNext}>
-          <LinearGradient colors={['#3b82f6', '#8b5cf6']} style={styles.nextButtonGradient}>
-            <Text style={styles.nextButtonText}>
+          <LinearGradient
+            colors={colors.gradient.primary as unknown as [string, string]}
+            style={styles.nextButtonGradient}
+          >
+            <Text style={[styles.nextButtonText, { color: colors.text.onPrimary }]}>
               {currentIndex === ONBOARDING_STEPS.length - 1 ? 'Get Started' : 'Next'}
             </Text>
-            <Ionicons name="arrow-forward" size={20} color="white" />
+            <Ionicons name="arrow-forward" size={20} color={colors.text.onPrimary} />
           </LinearGradient>
         </Pressable>
       </View>
@@ -124,10 +128,9 @@ export default function OnboardingScreen() {
 }
 
 const styles = StyleSheet.create({
-  container: { flex: 1, backgroundColor: '#f8fafc' },
-  containerDark: { backgroundColor: '#0f172a' },
+  container: { flex: 1 },
   header: { flexDirection: 'row', justifyContent: 'flex-end', paddingHorizontal: 24, paddingVertical: 16 },
-  skipText: { fontSize: 16, color: '#64748b' },
+  skipText: { fontSize: 16 },
   flatList: { flex: 1 },
   slide: { width, alignItems: 'center', justifyContent: 'center', paddingHorizontal: 40 },
   iconContainer: { marginBottom: 48 },
@@ -138,13 +141,12 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
-  title: { fontSize: 28, fontWeight: 'bold', color: '#0f172a', textAlign: 'center', marginBottom: 16 },
-  description: { fontSize: 16, color: '#64748b', textAlign: 'center', lineHeight: 24 },
+  title: { fontSize: 28, fontWeight: 'bold', textAlign: 'center', marginBottom: 16 },
+  description: { fontSize: 16, textAlign: 'center', lineHeight: 24 },
   footer: { paddingHorizontal: 24, paddingBottom: 24 },
   pagination: { flexDirection: 'row', justifyContent: 'center', marginBottom: 32 },
-  dot: { width: 8, height: 8, borderRadius: 4, backgroundColor: '#cbd5e1', marginHorizontal: 4 },
-  dotActive: { width: 24, backgroundColor: '#3b82f6' },
-  dotDark: { backgroundColor: '#334155' },
+  dot: { width: 8, height: 8, borderRadius: 4, marginHorizontal: 4 },
+  dotActive: { width: 24 },
   nextButton: { borderRadius: 12, overflow: 'hidden' },
   nextButtonGradient: {
     flexDirection: 'row',
@@ -153,7 +155,5 @@ const styles = StyleSheet.create({
     paddingVertical: 16,
     gap: 8,
   },
-  nextButtonText: { fontSize: 18, fontWeight: '600', color: 'white' },
-  textWhite: { color: 'white' },
-  textLight: { color: '#94a3b8' },
+  nextButtonText: { fontSize: 18, fontWeight: '600' },
 });
