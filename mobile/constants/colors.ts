@@ -47,20 +47,20 @@ export const palette = {
     950: '#09090B',
   },
 
-  // === NEON GREEN (Primary) ===
-  // The signature accent - electric, energetic, motivating
+  // === EMERALD/TEAL (Primary) ===
+  // Sophisticated, energetic yet easy on the eyes
   neon: {
-    50: '#EAFFF0',
-    100: '#D0FFE0',
-    200: '#A3FFC2',
-    300: '#6AFF9A',
-    400: '#39FF75',
-    500: '#00FF57', // Primary neon
-    600: '#00E64D',
-    700: '#00CC44',
-    800: '#00A336',
-    900: '#007A29',
-    950: '#004D1A',
+    50: '#ECFDF5',
+    100: '#D1FAE5',
+    200: '#A7F3D0',
+    300: '#6EE7B7',
+    400: '#34D399',
+    500: '#10B981', // Primary - sophisticated emerald
+    600: '#059669',
+    700: '#047857',
+    800: '#065F46',
+    900: '#064E3B',
+    950: '#022C22',
   },
 
   // === LIME (Secondary accent) ===
@@ -104,7 +104,7 @@ export const palette = {
 export const alpha = {
   black: (opacity: number) => `rgba(0, 0, 0, ${opacity})`,
   white: (opacity: number) => `rgba(255, 255, 255, ${opacity})`,
-  neon: (opacity: number) => `rgba(0, 255, 87, ${opacity})`,
+  neon: (opacity: number) => `rgba(16, 185, 129, ${opacity})`, // #10B981
 } as const;
 
 export type Palette = typeof palette;
