@@ -1,0 +1,5076 @@
+[
+    {
+      "name": "Arm Circles",
+      "slug": "arm-circles",
+      "description": "A dynamic shoulder warm-up exercise rotating the arms in circular motions. This fundamental movement increases blood flow to the shoulder joint and prepares the upper body for activity.",
+      "instructions": [
+        "Stand with feet shoulder-width apart, arms extended to sides",
+        "Make small circles with arms, gradually increasing size",
+        "Perform 10-15 circles forward",
+        "Reverse direction for 10-15 circles backward",
+        "Keep core engaged and posture upright"
+      ],
+      "category": "FLEXIBILITY",
+      "movementPattern": "ROTATION",
+      "exerciseType": "WARMUP",
+      "primaryMuscles": [
+        "shoulders"
+      ],
+      "secondaryMuscles": [
+        "upper_back",
+        "chest"
+      ],
+      "muscleActivationMap": {
+        "shoulders": 0.5,
+        "upper_back": 0.3,
+        "chest": 0.25
+      },
+      "difficultyLevel": 1,
+      "skillRequirement": 1,
+      "isBeginnerFriendly": true,
+      "equipmentRequired": [],
+      "equipmentOptional": [],
+      "suitableLocations": [
+        "home",
+        "gym",
+        "outdoor"
+      ],
+      "repRanges": {
+        "strength": {
+          "min": 10,
+          "max": 15
+        },
+        "hypertrophy": {
+          "min": 15,
+          "max": 20
+        },
+        "endurance": {
+          "min": 20,
+          "max": 30
+        }
+      },
+      "typicalSets": {
+        "min": 2,
+        "max": 3
+      },
+      "restSeconds": {
+        "strength": 15,
+        "hypertrophy": 10,
+        "endurance": 5
+      },
+      "metValue": 2.0,
+      "intensityFactor": 0.15,
+      "contraindications": [
+        "shoulder_injury"
+      ],
+      "formCues": [
+        "Keep arms straight",
+        "Controlled circles",
+        "Gradually increase size",
+        "Both directions",
+        "Shoulders down from ears"
+      ],
+      "commonMistakes": [
+        "Circles too fast",
+        "Only one direction",
+        "Hunched shoulders",
+        "Bending elbows",
+        "Holding breath"
+      ],
+      "easierVariation": null,
+      "harderVariation": "weighted-arm-circles",
+      "alternativeExercises": [
+        "shoulder-rolls",
+        "arm-swings"
+      ],
+      "tags": [
+        "dynamic",
+        "warm-up",
+        "shoulders",
+        "mobility",
+        "beginner-friendly"
+      ],
+      "suitableGoals": [
+        "FLEXIBILITY",
+        "GENERAL_FITNESS"
+      ],
+      "fitnessLevelSuitability": {
+        "sedentary": 5,
+        "lightlyActive": 5,
+        "moderatelyActive": 5,
+        "veryActive": 5,
+        "athlete": 5
+      },
+      "experienceLevelSuitability": {
+        "never": 5,
+        "lessThan6Mo": 5,
+        "sixTo24Mo": 5,
+        "twoTo5Yr": 5,
+        "fivePlusYr": 5
+      },
+      "goalEffectiveness": {
+        "weightLoss": 0.1,
+        "muscleGain": 0.05,
+        "strength": 0.1,
+        "endurance": 0.15,
+        "flexibility": 0.92,
+        "generalFitness": 0.6
+      },
+      "estimatedTimePerSet": 30,
+      "setupTimeSeconds": 0,
+      "homeCompatibility": 1.0,
+      "gymCompatibility": 1.0,
+      "outdoorCompatibility": 1.0
+    },
+    {
+      "name": "Leg Swings",
+      "slug": "leg-swings",
+      "description": "A dynamic hip mobility exercise swinging the leg forward and backward or side to side. This movement opens the hips and prepares the lower body for running, jumping, or leg exercises.",
+      "instructions": [
+        "Stand next to wall or support for balance",
+        "Swing one leg forward and backward in controlled arc",
+        "Keep leg relatively straight, allow natural knee bend",
+        "Perform 10-15 swings, then switch legs",
+        "Option: perform lateral swings across body"
+      ],
+      "category": "FLEXIBILITY",
+      "movementPattern": "HIP_MOBILITY",
+      "exerciseType": "WARMUP",
+      "primaryMuscles": [
+        "hip_flexors",
+        "hamstrings"
+      ],
+      "secondaryMuscles": [
+        "glutes",
+        "quadriceps",
+        "hip_abductors"
+      ],
+      "muscleActivationMap": {
+        "hip_flexors": 0.55,
+        "hamstrings": 0.5,
+        "glutes": 0.4,
+        "quadriceps": 0.35,
+        "hip_abductors": 0.4
+      },
+      "difficultyLevel": 1,
+      "skillRequirement": 1,
+      "isBeginnerFriendly": true,
+      "equipmentRequired": [],
+      "equipmentOptional": [
+        "wall"
+      ],
+      "suitableLocations": [
+        "home",
+        "gym",
+        "outdoor"
+      ],
+      "repRanges": {
+        "strength": {
+          "min": 10,
+          "max": 15
+        },
+        "hypertrophy": {
+          "min": 15,
+          "max": 20
+        },
+        "endurance": {
+          "min": 20,
+          "max": 30
+        }
+      },
+      "typicalSets": {
+        "min": 2,
+        "max": 3
+      },
+      "restSeconds": {
+        "strength": 15,
+        "hypertrophy": 10,
+        "endurance": 5
+      },
+      "metValue": 2.5,
+      "intensityFactor": 0.2,
+      "contraindications": [
+        "hip_injury"
+      ],
+      "formCues": [
+        "Controlled swings",
+        "Keep standing leg stable",
+        "Gradually increase range",
+        "Core engaged",
+        "Both directions"
+      ],
+      "commonMistakes": [
+        "Swinging too fast",
+        "Losing balance",
+        "Rotating pelvis",
+        "Tensing up",
+        "Not enough range"
+      ],
+      "easierVariation": "small-leg-swings",
+      "harderVariation": "leg-swings-no-support",
+      "alternativeExercises": [
+        "hip-circles",
+        "walking-knee-hugs"
+      ],
+      "tags": [
+        "dynamic",
+        "warm-up",
+        "hips",
+        "mobility",
+        "running-prep"
+      ],
+      "suitableGoals": [
+        "FLEXIBILITY",
+        "GENERAL_FITNESS"
+      ],
+      "fitnessLevelSuitability": {
+        "sedentary": 5,
+        "lightlyActive": 5,
+        "moderatelyActive": 5,
+        "veryActive": 5,
+        "athlete": 5
+      },
+      "experienceLevelSuitability": {
+        "never": 5,
+        "lessThan6Mo": 5,
+        "sixTo24Mo": 5,
+        "twoTo5Yr": 5,
+        "fivePlusYr": 5
+      },
+      "goalEffectiveness": {
+        "weightLoss": 0.1,
+        "muscleGain": 0.05,
+        "strength": 0.1,
+        "endurance": 0.15,
+        "flexibility": 0.94,
+        "generalFitness": 0.6
+      },
+      "estimatedTimePerSet": 40,
+      "setupTimeSeconds": 5,
+      "homeCompatibility": 1.0,
+      "gymCompatibility": 1.0,
+      "outdoorCompatibility": 1.0
+    },
+    {
+      "name": "Walking Lunge with Twist",
+      "slug": "walking-lunge-with-twist",
+      "description": "A dynamic stretch combining a forward lunge with a torso rotation toward the front leg. This compound movement opens hips while mobilizing the thoracic spine.",
+      "instructions": [
+        "Step forward into lunge position",
+        "Lower until both knees at approximately 90 degrees",
+        "Rotate torso toward front leg, arms extended or hands together",
+        "Return to center, step forward into next lunge",
+        "Alternate legs, rotating toward each front leg"
+      ],
+      "category": "FLEXIBILITY",
+      "movementPattern": "LUNGE",
+      "exerciseType": "WARMUP",
+      "primaryMuscles": [
+        "hip_flexors",
+        "quadriceps",
+        "obliques"
+      ],
+      "secondaryMuscles": [
+        "glutes",
+        "hamstrings",
+        "thoracic_spine"
+      ],
+      "muscleActivationMap": {
+        "hip_flexors": 0.6,
+        "quadriceps": 0.55,
+        "obliques": 0.5,
+        "glutes": 0.45,
+        "hamstrings": 0.4
+      },
+      "difficultyLevel": 2,
+      "skillRequirement": 2,
+      "isBeginnerFriendly": true,
+      "equipmentRequired": [],
+      "equipmentOptional": [],
+      "suitableLocations": [
+        "home",
+        "gym",
+        "outdoor"
+      ],
+      "repRanges": {
+        "strength": {
+          "min": 6,
+          "max": 10
+        },
+        "hypertrophy": {
+          "min": 10,
+          "max": 14
+        },
+        "endurance": {
+          "min": 14,
+          "max": 20
+        }
+      },
+      "typicalSets": {
+        "min": 2,
+        "max": 3
+      },
+      "restSeconds": {
+        "strength": 20,
+        "hypertrophy": 15,
+        "endurance": 10
+      },
+      "metValue": 2.5,
+      "intensityFactor": 0.25,
+      "contraindications": [
+        "knee_injury",
+        "lower_back_injury"
+      ],
+      "formCues": [
+        "Deep lunge position",
+        "Rotate from thoracic spine",
+        "Keep hips facing forward",
+        "Core engaged",
+        "Control the movement"
+      ],
+      "commonMistakes": [
+        "Shallow lunge",
+        "Rotating from lower back",
+        "Knee past toes",
+        "Losing balance",
+        "Rushing the twist"
+      ],
+      "easierVariation": "stationary-lunge-twist",
+      "harderVariation": "walking-lunge-overhead-reach",
+      "alternativeExercises": [
+        "worlds-greatest-stretch",
+        "walking-knee-hugs"
+      ],
+      "tags": [
+        "dynamic",
+        "warm-up",
+        "hips",
+        "thoracic",
+        "compound"
+      ],
+      "suitableGoals": [
+        "FLEXIBILITY",
+        "GENERAL_FITNESS"
+      ],
+      "fitnessLevelSuitability": {
+        "sedentary": 3,
+        "lightlyActive": 4,
+        "moderatelyActive": 5,
+        "veryActive": 5,
+        "athlete": 5
+      },
+      "experienceLevelSuitability": {
+        "never": 3,
+        "lessThan6Mo": 4,
+        "sixTo24Mo": 5,
+        "twoTo5Yr": 5,
+        "fivePlusYr": 5
+      },
+      "goalEffectiveness": {
+        "weightLoss": 0.15,
+        "muscleGain": 0.1,
+        "strength": 0.15,
+        "endurance": 0.2,
+        "flexibility": 0.92,
+        "generalFitness": 0.7
+      },
+      "estimatedTimePerSet": 60,
+      "setupTimeSeconds": 0,
+      "homeCompatibility": 0.9,
+      "gymCompatibility": 1.0,
+      "outdoorCompatibility": 1.0
+    },
+    {
+      "name": "Inchworm",
+      "slug": "inchworm",
+      "description": "A dynamic full-body stretch walking hands out to plank position then walking feet to hands. This flowing movement stretches hamstrings and calves while engaging the core and shoulders.",
+      "instructions": [
+        "Stand with feet hip-width apart",
+        "Hinge at hips, place hands on floor (bend knees if needed)",
+        "Walk hands forward to plank position",
+        "Hold briefly, then walk feet toward hands",
+        "Stand up and repeat"
+      ],
+      "category": "FLEXIBILITY",
+      "movementPattern": "FULL_BODY",
+      "exerciseType": "WARMUP",
+      "primaryMuscles": [
+        "hamstrings",
+        "core",
+        "shoulders"
+      ],
+      "secondaryMuscles": [
+        "calves",
+        "chest",
+        "hip_flexors"
+      ],
+      "muscleActivationMap": {
+        "hamstrings": 0.6,
+        "core": 0.55,
+        "shoulders": 0.5,
+        "calves": 0.45,
+        "chest": 0.35
+      },
+      "difficultyLevel": 2,
+      "skillRequirement": 1,
+      "isBeginnerFriendly": true,
+      "equipmentRequired": [],
+      "equipmentOptional": [
+        "mat"
+      ],
+      "suitableLocations": [
+        "home",
+        "gym",
+        "outdoor"
+      ],
+      "repRanges": {
+        "strength": {
+          "min": 5,
+          "max": 8
+        },
+        "hypertrophy": {
+          "min": 8,
+          "max": 12
+        },
+        "endurance": {
+          "min": 12,
+          "max": 15
+        }
+      },
+      "typicalSets": {
+        "min": 2,
+        "max": 3
+      },
+      "restSeconds": {
+        "strength": 20,
+        "hypertrophy": 15,
+        "endurance": 10
+      },
+      "metValue": 2.5,
+      "intensityFactor": 0.28,
+      "contraindications": [
+        "wrist_injury",
+        "shoulder_injury"
+      ],
+      "formCues": [
+        "Keep legs as straight as possible",
+        "Strong plank position",
+        "Controlled pace",
+        "Small hand/foot steps",
+        "Core engaged throughout"
+      ],
+      "commonMistakes": [
+        "Rushing through",
+        "Sagging hips in plank",
+        "Not walking feet close enough",
+        "Holding breath",
+        "Bending knees excessively"
+      ],
+      "easierVariation": "inchworm-bent-knees",
+      "harderVariation": "inchworm-with-push-up",
+      "alternativeExercises": [
+        "worlds-greatest-stretch",
+        "cat-cow"
+      ],
+      "tags": [
+        "dynamic",
+        "warm-up",
+        "full-body",
+        "hamstrings",
+        "core"
+      ],
+      "suitableGoals": [
+        "FLEXIBILITY",
+        "GENERAL_FITNESS"
+      ],
+      "fitnessLevelSuitability": {
+        "sedentary": 3,
+        "lightlyActive": 4,
+        "moderatelyActive": 5,
+        "veryActive": 5,
+        "athlete": 5
+      },
+      "experienceLevelSuitability": {
+        "never": 4,
+        "lessThan6Mo": 5,
+        "sixTo24Mo": 5,
+        "twoTo5Yr": 5,
+        "fivePlusYr": 5
+      },
+      "goalEffectiveness": {
+        "weightLoss": 0.15,
+        "muscleGain": 0.1,
+        "strength": 0.15,
+        "endurance": 0.2,
+        "flexibility": 0.9,
+        "generalFitness": 0.72
+      },
+      "estimatedTimePerSet": 60,
+      "setupTimeSeconds": 0,
+      "homeCompatibility": 1.0,
+      "gymCompatibility": 1.0,
+      "outdoorCompatibility": 0.9
+    },
+    {
+      "name": "World's Greatest Stretch",
+      "slug": "worlds-greatest-stretch",
+      "description": "A comprehensive dynamic stretch combining a lunge, hip opener, and thoracic rotation. This multi-planar movement addresses hip flexors, hamstrings, thoracic spine, and groin in one flowing sequence.",
+      "instructions": [
+        "Step into deep lunge, back knee can hover or touch ground",
+        "Place same-side hand as front leg inside the foot",
+        "Drop elbow toward inside of front foot",
+        "Rotate and reach opposite arm toward ceiling",
+        "Return hand to ground, switch sides"
+      ],
+      "category": "FLEXIBILITY",
+      "movementPattern": "FULL_BODY",
+      "exerciseType": "WARMUP",
+      "primaryMuscles": [
+        "hip_flexors",
+        "groin",
+        "thoracic_spine"
+      ],
+      "secondaryMuscles": [
+        "hamstrings",
+        "glutes",
+        "obliques",
+        "shoulders"
+      ],
+      "muscleActivationMap": {
+        "hip_flexors": 0.7,
+        "groin": 0.65,
+        "thoracic_spine": 0.6,
+        "hamstrings": 0.5,
+        "glutes": 0.45,
+        "obliques": 0.4
+      },
+      "difficultyLevel": 2,
+      "skillRequirement": 2,
+      "isBeginnerFriendly": true,
+      "equipmentRequired": [],
+      "equipmentOptional": [
+        "mat"
+      ],
+      "suitableLocations": [
+        "home",
+        "gym",
+        "outdoor"
+      ],
+      "repRanges": {
+        "strength": {
+          "min": 4,
+          "max": 6
+        },
+        "hypertrophy": {
+          "min": 6,
+          "max": 10
+        },
+        "endurance": {
+          "min": 10,
+          "max": 14
+        }
+      },
+      "typicalSets": {
+        "min": 2,
+        "max": 3
+      },
+      "restSeconds": {
+        "strength": 20,
+        "hypertrophy": 15,
+        "endurance": 10
+      },
+      "metValue": 2.5,
+      "intensityFactor": 0.28,
+      "contraindications": [
+        "knee_injury",
+        "hip_injury"
+      ],
+      "formCues": [
+        "Deep lunge position",
+        "Elbow drives toward ankle",
+        "Full thoracic rotation",
+        "Eyes follow top hand",
+        "Breathe into each position"
+      ],
+      "commonMistakes": [
+        "Shallow lunge",
+        "Not rotating fully",
+        "Rushing through positions",
+        "Holding breath",
+        "Back knee collapsing"
+      ],
+      "easierVariation": "modified-greatest-stretch",
+      "harderVariation": "worlds-greatest-stretch-with-reach",
+      "alternativeExercises": [
+        "walking-lunge-with-twist",
+        "pigeon-pose"
+      ],
+      "tags": [
+        "dynamic",
+        "warm-up",
+        "full-body",
+        "comprehensive",
+        "mobility"
+      ],
+      "suitableGoals": [
+        "FLEXIBILITY",
+        "GENERAL_FITNESS"
+      ],
+      "fitnessLevelSuitability": {
+        "sedentary": 3,
+        "lightlyActive": 4,
+        "moderatelyActive": 5,
+        "veryActive": 5,
+        "athlete": 5
+      },
+      "experienceLevelSuitability": {
+        "never": 3,
+        "lessThan6Mo": 4,
+        "sixTo24Mo": 5,
+        "twoTo5Yr": 5,
+        "fivePlusYr": 5
+      },
+      "goalEffectiveness": {
+        "weightLoss": 0.12,
+        "muscleGain": 0.08,
+        "strength": 0.12,
+        "endurance": 0.18,
+        "flexibility": 0.96,
+        "generalFitness": 0.75
+      },
+      "estimatedTimePerSet": 90,
+      "setupTimeSeconds": 0,
+      "homeCompatibility": 1.0,
+      "gymCompatibility": 1.0,
+      "outdoorCompatibility": 0.95
+    },
+    {
+      "name": "Cat-Cow",
+      "slug": "cat-cow",
+      "description": "A flowing spinal mobility exercise alternating between arching and rounding the back. This yoga-derived movement gently mobilizes the entire spine while coordinating with breath.",
+      "instructions": [
+        "Start on hands and knees, wrists under shoulders, knees under hips",
+        "Inhale: drop belly, lift chest and tailbone (Cow)",
+        "Exhale: round spine, tuck chin and tailbone (Cat)",
+        "Flow smoothly between positions with breath",
+        "Continue for 10-15 cycles"
+      ],
+      "category": "FLEXIBILITY",
+      "movementPattern": "SPINAL_FLEXION",
+      "exerciseType": "WARMUP",
+      "primaryMuscles": [
+        "erector_spinae",
+        "rectus_abdominis"
+      ],
+      "secondaryMuscles": [
+        "shoulders",
+        "hip_flexors",
+        "glutes"
+      ],
+      "muscleActivationMap": {
+        "erector_spinae": 0.55,
+        "rectus_abdominis": 0.5,
+        "shoulders": 0.3,
+        "hip_flexors": 0.25,
+        "glutes": 0.2
+      },
+      "difficultyLevel": 1,
+      "skillRequirement": 1,
+      "isBeginnerFriendly": true,
+      "equipmentRequired": [],
+      "equipmentOptional": [
+        "mat"
+      ],
+      "suitableLocations": [
+        "home",
+        "gym",
+        "outdoor"
+      ],
+      "repRanges": {
+        "strength": {
+          "min": 10,
+          "max": 15
+        },
+        "hypertrophy": {
+          "min": 15,
+          "max": 20
+        },
+        "endurance": {
+          "min": 20,
+          "max": 30
+        }
+      },
+      "typicalSets": {
+        "min": 2,
+        "max": 3
+      },
+      "restSeconds": {
+        "strength": 15,
+        "hypertrophy": 10,
+        "endurance": 5
+      },
+      "metValue": 2.0,
+      "intensityFactor": 0.15,
+      "contraindications": [
+        "wrist_injury"
+      ],
+      "formCues": [
+        "Move with breath",
+        "Full spinal range",
+        "Initiate from tailbone",
+        "Shoulders away from ears",
+        "Smooth transitions"
+      ],
+      "commonMistakes": [
+        "Moving too fast",
+        "Limited range of motion",
+        "Holding breath",
+        "Only moving mid-back",
+        "Wrists not positioned correctly"
+      ],
+      "easierVariation": "seated-cat-cow",
+      "harderVariation": "cat-cow-with-leg-extension",
+      "alternativeExercises": [
+        "thoracic-spine-rotation",
+        "childs-pose"
+      ],
+      "tags": [
+        "dynamic",
+        "warm-up",
+        "spine",
+        "yoga",
+        "breathing"
+      ],
+      "suitableGoals": [
+        "FLEXIBILITY",
+        "GENERAL_FITNESS"
+      ],
+      "fitnessLevelSuitability": {
+        "sedentary": 5,
+        "lightlyActive": 5,
+        "moderatelyActive": 5,
+        "veryActive": 5,
+        "athlete": 5
+      },
+      "experienceLevelSuitability": {
+        "never": 5,
+        "lessThan6Mo": 5,
+        "sixTo24Mo": 5,
+        "twoTo5Yr": 5,
+        "fivePlusYr": 5
+      },
+      "goalEffectiveness": {
+        "weightLoss": 0.05,
+        "muscleGain": 0.05,
+        "strength": 0.08,
+        "endurance": 0.1,
+        "flexibility": 0.94,
+        "generalFitness": 0.65
+      },
+      "estimatedTimePerSet": 45,
+      "setupTimeSeconds": 10,
+      "homeCompatibility": 1.0,
+      "gymCompatibility": 1.0,
+      "outdoorCompatibility": 0.85
+    },
+    {
+      "name": "Hip Circles",
+      "slug": "hip-circles",
+      "description": "A dynamic mobility exercise rotating the hips in circular motions while standing. This movement lubricates the hip joint and prepares the pelvis for lower body activities.",
+      "instructions": [
+        "Stand with feet shoulder-width apart, hands on hips",
+        "Make large circles with hips, as if hula hooping",
+        "Perform 10-15 circles in one direction",
+        "Reverse direction for 10-15 circles",
+        "Keep upper body relatively stable"
+      ],
+      "category": "FLEXIBILITY",
+      "movementPattern": "HIP_MOBILITY",
+      "exerciseType": "WARMUP",
+      "primaryMuscles": [
+        "hip_flexors",
+        "glutes"
+      ],
+      "secondaryMuscles": [
+        "obliques",
+        "lower_back",
+        "hip_abductors"
+      ],
+      "muscleActivationMap": {
+        "hip_flexors": 0.45,
+        "glutes": 0.45,
+        "obliques": 0.35,
+        "lower_back": 0.3,
+        "hip_abductors": 0.35
+      },
+      "difficultyLevel": 1,
+      "skillRequirement": 1,
+      "isBeginnerFriendly": true,
+      "equipmentRequired": [],
+      "equipmentOptional": [],
+      "suitableLocations": [
+        "home",
+        "gym",
+        "outdoor"
+      ],
+      "repRanges": {
+        "strength": {
+          "min": 10,
+          "max": 15
+        },
+        "hypertrophy": {
+          "min": 15,
+          "max": 20
+        },
+        "endurance": {
+          "min": 20,
+          "max": 30
+        }
+      },
+      "typicalSets": {
+        "min": 2,
+        "max": 3
+      },
+      "restSeconds": {
+        "strength": 15,
+        "hypertrophy": 10,
+        "endurance": 5
+      },
+      "metValue": 2.0,
+      "intensityFactor": 0.15,
+      "contraindications": [
+        "hip_injury"
+      ],
+      "formCues": [
+        "Large controlled circles",
+        "Both directions",
+        "Stable upper body",
+        "Feet stay planted",
+        "Full range of motion"
+      ],
+      "commonMistakes": [
+        "Circles too small",
+        "Only one direction",
+        "Moving upper body",
+        "Going too fast",
+        "Feet shifting"
+      ],
+      "easierVariation": null,
+      "harderVariation": "hip-circles-single-leg",
+      "alternativeExercises": [
+        "leg-swings",
+        "hip-flexor-stretch"
+      ],
+      "tags": [
+        "dynamic",
+        "warm-up",
+        "hips",
+        "mobility",
+        "beginner-friendly"
+      ],
+      "suitableGoals": [
+        "FLEXIBILITY",
+        "GENERAL_FITNESS"
+      ],
+      "fitnessLevelSuitability": {
+        "sedentary": 5,
+        "lightlyActive": 5,
+        "moderatelyActive": 5,
+        "veryActive": 5,
+        "athlete": 5
+      },
+      "experienceLevelSuitability": {
+        "never": 5,
+        "lessThan6Mo": 5,
+        "sixTo24Mo": 5,
+        "twoTo5Yr": 5,
+        "fivePlusYr": 5
+      },
+      "goalEffectiveness": {
+        "weightLoss": 0.08,
+        "muscleGain": 0.05,
+        "strength": 0.08,
+        "endurance": 0.12,
+        "flexibility": 0.9,
+        "generalFitness": 0.6
+      },
+      "estimatedTimePerSet": 30,
+      "setupTimeSeconds": 0,
+      "homeCompatibility": 1.0,
+      "gymCompatibility": 1.0,
+      "outdoorCompatibility": 1.0
+    },
+    {
+      "name": "Torso Twist",
+      "slug": "torso-twist",
+      "description": "A dynamic rotational stretch twisting the upper body side to side. This movement warms up the spine and engages the obliques while improving rotational mobility.",
+      "instructions": [
+        "Stand with feet shoulder-width apart",
+        "Extend arms in front or place hands on shoulders",
+        "Rotate torso to the right, then to the left",
+        "Allow arms to swing naturally with the rotation",
+        "Keep hips facing forward as much as possible"
+      ],
+      "category": "FLEXIBILITY",
+      "movementPattern": "ROTATION",
+      "exerciseType": "WARMUP",
+      "primaryMuscles": [
+        "obliques",
+        "erector_spinae"
+      ],
+      "secondaryMuscles": [
+        "shoulders",
+        "hip_flexors"
+      ],
+      "muscleActivationMap": {
+        "obliques": 0.55,
+        "erector_spinae": 0.45,
+        "shoulders": 0.25,
+        "hip_flexors": 0.2
+      },
+      "difficultyLevel": 1,
+      "skillRequirement": 1,
+      "isBeginnerFriendly": true,
+      "equipmentRequired": [],
+      "equipmentOptional": [],
+      "suitableLocations": [
+        "home",
+        "gym",
+        "outdoor"
+      ],
+      "repRanges": {
+        "strength": {
+          "min": 15,
+          "max": 20
+        },
+        "hypertrophy": {
+          "min": 20,
+          "max": 30
+        },
+        "endurance": {
+          "min": 30,
+          "max": 40
+        }
+      },
+      "typicalSets": {
+        "min": 2,
+        "max": 3
+      },
+      "restSeconds": {
+        "strength": 15,
+        "hypertrophy": 10,
+        "endurance": 5
+      },
+      "metValue": 2.0,
+      "intensityFactor": 0.18,
+      "contraindications": [
+        "lower_back_injury"
+      ],
+      "formCues": [
+        "Rotate from mid-back",
+        "Keep hips stable",
+        "Controlled speed",
+        "Full range each side",
+        "Breathe naturally"
+      ],
+      "commonMistakes": [
+        "Rotating hips",
+        "Moving too fast",
+        "Limited range",
+        "Jerky movements",
+        "Holding breath"
+      ],
+      "easierVariation": "seated-torso-twist",
+      "harderVariation": "torso-twist-with-weight",
+      "alternativeExercises": [
+        "thoracic-spine-rotation",
+        "russian-twist"
+      ],
+      "tags": [
+        "dynamic",
+        "warm-up",
+        "spine",
+        "rotation",
+        "core"
+      ],
+      "suitableGoals": [
+        "FLEXIBILITY",
+        "GENERAL_FITNESS"
+      ],
+      "fitnessLevelSuitability": {
+        "sedentary": 5,
+        "lightlyActive": 5,
+        "moderatelyActive": 5,
+        "veryActive": 5,
+        "athlete": 5
+      },
+      "experienceLevelSuitability": {
+        "never": 5,
+        "lessThan6Mo": 5,
+        "sixTo24Mo": 5,
+        "twoTo5Yr": 5,
+        "fivePlusYr": 5
+      },
+      "goalEffectiveness": {
+        "weightLoss": 0.08,
+        "muscleGain": 0.05,
+        "strength": 0.1,
+        "endurance": 0.15,
+        "flexibility": 0.9,
+        "generalFitness": 0.62
+      },
+      "estimatedTimePerSet": 30,
+      "setupTimeSeconds": 0,
+      "homeCompatibility": 1.0,
+      "gymCompatibility": 1.0,
+      "outdoorCompatibility": 1.0
+    },
+    {
+      "name": "High Kicks",
+      "slug": "high-kicks",
+      "description": "A dynamic hamstring stretch kicking the leg high while walking forward. This movement actively stretches the hamstrings while warming up the hip flexors.",
+      "instructions": [
+        "Stand tall, arms extended forward at shoulder height",
+        "Kick one leg up toward opposite hand",
+        "Keep kicking leg straight",
+        "Step forward and repeat with opposite leg",
+        "Maintain upright posture throughout"
+      ],
+      "category": "FLEXIBILITY",
+      "movementPattern": "HIP_MOBILITY",
+      "exerciseType": "WARMUP",
+      "primaryMuscles": [
+        "hamstrings",
+        "hip_flexors"
+      ],
+      "secondaryMuscles": [
+        "quadriceps",
+        "calves",
+        "core"
+      ],
+      "muscleActivationMap": {
+        "hamstrings": 0.65,
+        "hip_flexors": 0.6,
+        "quadriceps": 0.4,
+        "calves": 0.3,
+        "core": 0.35
+      },
+      "difficultyLevel": 2,
+      "skillRequirement": 2,
+      "isBeginnerFriendly": true,
+      "equipmentRequired": [],
+      "equipmentOptional": [],
+      "suitableLocations": [
+        "home",
+        "gym",
+        "outdoor"
+      ],
+      "repRanges": {
+        "strength": {
+          "min": 10,
+          "max": 14
+        },
+        "hypertrophy": {
+          "min": 14,
+          "max": 20
+        },
+        "endurance": {
+          "min": 20,
+          "max": 30
+        }
+      },
+      "typicalSets": {
+        "min": 2,
+        "max": 3
+      },
+      "restSeconds": {
+        "strength": 20,
+        "hypertrophy": 15,
+        "endurance": 10
+      },
+      "metValue": 2.5,
+      "intensityFactor": 0.25,
+      "contraindications": [
+        "hamstring_injury",
+        "hip_injury"
+      ],
+      "formCues": [
+        "Keep leg straight",
+        "Kick toward opposite hand",
+        "Control the descent",
+        "Stand tall",
+        "Controlled pace"
+      ],
+      "commonMistakes": [
+        "Bending kicking leg",
+        "Leaning back",
+        "Kicking too fast",
+        "Losing balance",
+        "Rounding back"
+      ],
+      "easierVariation": "low-kicks",
+      "harderVariation": "explosive-high-kicks",
+      "alternativeExercises": [
+        "leg-swings",
+        "toy-soldier"
+      ],
+      "tags": [
+        "dynamic",
+        "warm-up",
+        "hamstrings",
+        "active-stretch",
+        "walking"
+      ],
+      "suitableGoals": [
+        "FLEXIBILITY",
+        "GENERAL_FITNESS"
+      ],
+      "fitnessLevelSuitability": {
+        "sedentary": 3,
+        "lightlyActive": 4,
+        "moderatelyActive": 5,
+        "veryActive": 5,
+        "athlete": 5
+      },
+      "experienceLevelSuitability": {
+        "never": 3,
+        "lessThan6Mo": 4,
+        "sixTo24Mo": 5,
+        "twoTo5Yr": 5,
+        "fivePlusYr": 5
+      },
+      "goalEffectiveness": {
+        "weightLoss": 0.12,
+        "muscleGain": 0.08,
+        "strength": 0.12,
+        "endurance": 0.18,
+        "flexibility": 0.92,
+        "generalFitness": 0.65
+      },
+      "estimatedTimePerSet": 40,
+      "setupTimeSeconds": 0,
+      "homeCompatibility": 0.8,
+      "gymCompatibility": 1.0,
+      "outdoorCompatibility": 1.0
+    },
+    {
+      "name": "Dynamic Butt Kicks",
+      "slug": "dynamic-butt-kicks",
+      "description": "A dynamic quadriceps stretch jogging while kicking heels toward glutes. This movement stretches the quads while warming up for running activities.",
+      "instructions": [
+        "Stand tall and begin jogging in place or forward",
+        "Kick heels back toward glutes with each step",
+        "Keep thighs perpendicular to ground",
+        "Pump arms naturally as if jogging",
+        "Maintain quick, light foot contacts"
+      ],
+      "category": "FLEXIBILITY",
+      "movementPattern": "RUNNING",
+      "exerciseType": "WARMUP",
+      "primaryMuscles": [
+        "quadriceps",
+        "hamstrings"
+      ],
+      "secondaryMuscles": [
+        "calves",
+        "glutes",
+        "hip_flexors"
+      ],
+      "muscleActivationMap": {
+        "quadriceps": 0.45,
+        "hamstrings": 0.55,
+        "calves": 0.5,
+        "glutes": 0.35,
+        "hip_flexors": 0.3
+      },
+      "difficultyLevel": 1,
+      "skillRequirement": 1,
+      "isBeginnerFriendly": true,
+      "equipmentRequired": [],
+      "equipmentOptional": [],
+      "suitableLocations": [
+        "home",
+        "gym",
+        "outdoor"
+      ],
+      "repRanges": {
+        "strength": {
+          "min": 20,
+          "max": 30
+        },
+        "hypertrophy": {
+          "min": 30,
+          "max": 50
+        },
+        "endurance": {
+          "min": 50,
+          "max": 80
+        }
+      },
+      "typicalSets": {
+        "min": 2,
+        "max": 3
+      },
+      "restSeconds": {
+        "strength": 20,
+        "hypertrophy": 15,
+        "endurance": 10
+      },
+      "metValue": 2.5,
+      "intensityFactor": 0.22,
+      "contraindications": [
+        "knee_injury"
+      ],
+      "formCues": [
+        "Heels touch glutes",
+        "Stay on balls of feet",
+        "Quick rhythm",
+        "Arms swing naturally",
+        "Stay upright"
+      ],
+      "commonMistakes": [
+        "Heels not reaching glutes",
+        "Leaning forward",
+        "Going too slow",
+        "Flat-footed",
+        "Poor arm coordination"
+      ],
+      "easierVariation": "walking-butt-kicks",
+      "harderVariation": "fast-butt-kicks",
+      "alternativeExercises": [
+        "high-knees",
+        "quad-stretch"
+      ],
+      "tags": [
+        "dynamic",
+        "warm-up",
+        "quads",
+        "running-prep",
+        "cardio"
+      ],
+      "suitableGoals": [
+        "FLEXIBILITY",
+        "GENERAL_FITNESS",
+        "ENDURANCE"
+      ],
+      "fitnessLevelSuitability": {
+        "sedentary": 4,
+        "lightlyActive": 5,
+        "moderatelyActive": 5,
+        "veryActive": 5,
+        "athlete": 5
+      },
+      "experienceLevelSuitability": {
+        "never": 5,
+        "lessThan6Mo": 5,
+        "sixTo24Mo": 5,
+        "twoTo5Yr": 5,
+        "fivePlusYr": 5
+      },
+      "goalEffectiveness": {
+        "weightLoss": 0.15,
+        "muscleGain": 0.08,
+        "strength": 0.1,
+        "endurance": 0.25,
+        "flexibility": 0.9,
+        "generalFitness": 0.7
+      },
+      "estimatedTimePerSet": 30,
+      "setupTimeSeconds": 0,
+      "homeCompatibility": 0.95,
+      "gymCompatibility": 1.0,
+      "outdoorCompatibility": 1.0
+    },
+    {
+      "name": "Shoulder Rolls",
+      "slug": "shoulder-rolls",
+      "description": "A gentle mobility exercise rolling the shoulders forward and backward in circular motions. This simple movement releases shoulder tension and increases blood flow to the upper body.",
+      "instructions": [
+        "Stand or sit with arms relaxed at sides",
+        "Raise shoulders toward ears",
+        "Roll shoulders back, squeezing shoulder blades",
+        "Lower and roll forward to complete circle",
+        "Perform 10-15 rolls, then reverse direction"
+      ],
+      "category": "FLEXIBILITY",
+      "movementPattern": "ROTATION",
+      "exerciseType": "WARMUP",
+      "primaryMuscles": [
+        "trapezius",
+        "shoulders"
+      ],
+      "secondaryMuscles": [
+        "rhomboids",
+        "neck"
+      ],
+      "muscleActivationMap": {
+        "trapezius": 0.45,
+        "shoulders": 0.4,
+        "rhomboids": 0.35,
+        "neck": 0.25
+      },
+      "difficultyLevel": 1,
+      "skillRequirement": 1,
+      "isBeginnerFriendly": true,
+      "equipmentRequired": [],
+      "equipmentOptional": [],
+      "suitableLocations": [
+        "home",
+        "gym",
+        "outdoor"
+      ],
+      "repRanges": {
+        "strength": {
+          "min": 10,
+          "max": 15
+        },
+        "hypertrophy": {
+          "min": 15,
+          "max": 20
+        },
+        "endurance": {
+          "min": 20,
+          "max": 30
+        }
+      },
+      "typicalSets": {
+        "min": 2,
+        "max": 3
+      },
+      "restSeconds": {
+        "strength": 10,
+        "hypertrophy": 5,
+        "endurance": 5
+      },
+      "metValue": 1.5,
+      "intensityFactor": 0.1,
+      "contraindications": [],
+      "formCues": [
+        "Full circular motion",
+        "Both directions",
+        "Relaxed arms",
+        "Slow and controlled",
+        "Breathe naturally"
+      ],
+      "commonMistakes": [
+        "Moving too fast",
+        "Incomplete circles",
+        "Only one direction",
+        "Tensing arms",
+        "Shallow movement"
+      ],
+      "easierVariation": null,
+      "harderVariation": "shoulder-rolls-with-resistance",
+      "alternativeExercises": [
+        "arm-circles",
+        "neck-rolls"
+      ],
+      "tags": [
+        "dynamic",
+        "warm-up",
+        "shoulders",
+        "gentle",
+        "office-friendly"
+      ],
+      "suitableGoals": [
+        "FLEXIBILITY",
+        "GENERAL_FITNESS"
+      ],
+      "fitnessLevelSuitability": {
+        "sedentary": 5,
+        "lightlyActive": 5,
+        "moderatelyActive": 5,
+        "veryActive": 5,
+        "athlete": 5
+      },
+      "experienceLevelSuitability": {
+        "never": 5,
+        "lessThan6Mo": 5,
+        "sixTo24Mo": 5,
+        "twoTo5Yr": 5,
+        "fivePlusYr": 5
+      },
+      "goalEffectiveness": {
+        "weightLoss": 0.02,
+        "muscleGain": 0.02,
+        "strength": 0.05,
+        "endurance": 0.08,
+        "flexibility": 0.9,
+        "generalFitness": 0.55
+      },
+      "estimatedTimePerSet": 25,
+      "setupTimeSeconds": 0,
+      "homeCompatibility": 1.0,
+      "gymCompatibility": 1.0,
+      "outdoorCompatibility": 1.0
+    },
+    {
+      "name": "Neck Rolls",
+      "slug": "neck-rolls",
+      "description": "A gentle neck mobility exercise rotating the head in semi-circular motions. This movement relieves neck tension and increases cervical spine mobility.",
+      "instructions": [
+        "Stand or sit with shoulders relaxed",
+        "Drop chin toward chest",
+        "Slowly roll head to one side, ear toward shoulder",
+        "Continue to other side in semi-circle (avoid full back extension)",
+        "Reverse direction after several reps"
+      ],
+      "category": "FLEXIBILITY",
+      "movementPattern": "ROTATION",
+      "exerciseType": "WARMUP",
+      "primaryMuscles": [
+        "neck"
+      ],
+      "secondaryMuscles": [
+        "trapezius"
+      ],
+      "muscleActivationMap": {
+        "neck": 0.5,
+        "trapezius": 0.3
+      },
+      "difficultyLevel": 1,
+      "skillRequirement": 1,
+      "isBeginnerFriendly": true,
+      "equipmentRequired": [],
+      "equipmentOptional": [],
+      "suitableLocations": [
+        "home",
+        "gym",
+        "outdoor"
+      ],
+      "repRanges": {
+        "strength": {
+          "min": 5,
+          "max": 8
+        },
+        "hypertrophy": {
+          "min": 8,
+          "max": 12
+        },
+        "endurance": {
+          "min": 12,
+          "max": 15
+        }
+      },
+      "typicalSets": {
+        "min": 2,
+        "max": 3
+      },
+      "restSeconds": {
+        "strength": 10,
+        "hypertrophy": 5,
+        "endurance": 5
+      },
+      "metValue": 1.5,
+      "intensityFactor": 0.08,
+      "contraindications": [
+        "neck_injury",
+        "cervical_issues"
+      ],
+      "formCues": [
+        "Very slow movement",
+        "Avoid extending back",
+        "Semi-circles only",
+        "Relaxed shoulders",
+        "Breathe naturally"
+      ],
+      "commonMistakes": [
+        "Moving too fast",
+        "Full circles (straining neck)",
+        "Tensing shoulders",
+        "Jerky movements",
+        "Extending too far back"
+      ],
+      "easierVariation": null,
+      "harderVariation": null,
+      "alternativeExercises": [
+        "shoulder-rolls",
+        "neck-stretches"
+      ],
+      "tags": [
+        "dynamic",
+        "warm-up",
+        "neck",
+        "gentle",
+        "office-friendly"
+      ],
+      "suitableGoals": [
+        "FLEXIBILITY",
+        "GENERAL_FITNESS"
+      ],
+      "fitnessLevelSuitability": {
+        "sedentary": 5,
+        "lightlyActive": 5,
+        "moderatelyActive": 5,
+        "veryActive": 5,
+        "athlete": 5
+      },
+      "experienceLevelSuitability": {
+        "never": 5,
+        "lessThan6Mo": 5,
+        "sixTo24Mo": 5,
+        "twoTo5Yr": 5,
+        "fivePlusYr": 5
+      },
+      "goalEffectiveness": {
+        "weightLoss": 0.01,
+        "muscleGain": 0.01,
+        "strength": 0.03,
+        "endurance": 0.05,
+        "flexibility": 0.9,
+        "generalFitness": 0.5
+      },
+      "estimatedTimePerSet": 20,
+      "setupTimeSeconds": 0,
+      "homeCompatibility": 1.0,
+      "gymCompatibility": 1.0,
+      "outdoorCompatibility": 1.0
+    },
+    {
+      "name": "Ankle Circles",
+      "slug": "ankle-circles",
+      "description": "A mobility exercise rotating the ankle joint in circular motions. This movement prepares the ankles for weight-bearing activities and improves ankle range of motion.",
+      "instructions": [
+        "Stand on one leg or sit with leg extended",
+        "Lift foot off ground",
+        "Rotate ankle making circles with toes",
+        "Perform 10-15 circles in each direction",
+        "Switch feet and repeat"
+      ],
+      "category": "FLEXIBILITY",
+      "movementPattern": "ROTATION",
+      "exerciseType": "WARMUP",
+      "primaryMuscles": [
+        "calves",
+        "tibialis_anterior"
+      ],
+      "secondaryMuscles": [
+        "foot_muscles"
+      ],
+      "muscleActivationMap": {
+        "calves": 0.4,
+        "tibialis_anterior": 0.45,
+        "foot_muscles": 0.35
+      },
+      "difficultyLevel": 1,
+      "skillRequirement": 1,
+      "isBeginnerFriendly": true,
+      "equipmentRequired": [],
+      "equipmentOptional": [
+        "chair"
+      ],
+      "suitableLocations": [
+        "home",
+        "gym",
+        "outdoor"
+      ],
+      "repRanges": {
+        "strength": {
+          "min": 10,
+          "max": 15
+        },
+        "hypertrophy": {
+          "min": 15,
+          "max": 20
+        },
+        "endurance": {
+          "min": 20,
+          "max": 30
+        }
+      },
+      "typicalSets": {
+        "min": 2,
+        "max": 3
+      },
+      "restSeconds": {
+        "strength": 10,
+        "hypertrophy": 5,
+        "endurance": 5
+      },
+      "metValue": 1.5,
+      "intensityFactor": 0.08,
+      "contraindications": [
+        "ankle_injury"
+      ],
+      "formCues": [
+        "Full range circles",
+        "Both directions",
+        "Controlled movement",
+        "Toes lead the circle",
+        "Both ankles"
+      ],
+      "commonMistakes": [
+        "Circles too small",
+        "Only one direction",
+        "Moving too fast",
+        "Skipping one ankle",
+        "Limited range"
+      ],
+      "easierVariation": "seated-ankle-circles",
+      "harderVariation": "standing-ankle-circles",
+      "alternativeExercises": [
+        "ankle-mobility-wall",
+        "calf-raises"
+      ],
+      "tags": [
+        "dynamic",
+        "warm-up",
+        "ankles",
+        "mobility",
+        "injury-prevention"
+      ],
+      "suitableGoals": [
+        "FLEXIBILITY",
+        "GENERAL_FITNESS"
+      ],
+      "fitnessLevelSuitability": {
+        "sedentary": 5,
+        "lightlyActive": 5,
+        "moderatelyActive": 5,
+        "veryActive": 5,
+        "athlete": 5
+      },
+      "experienceLevelSuitability": {
+        "never": 5,
+        "lessThan6Mo": 5,
+        "sixTo24Mo": 5,
+        "twoTo5Yr": 5,
+        "fivePlusYr": 5
+      },
+      "goalEffectiveness": {
+        "weightLoss": 0.02,
+        "muscleGain": 0.02,
+        "strength": 0.05,
+        "endurance": 0.08,
+        "flexibility": 0.9,
+        "generalFitness": 0.52
+      },
+      "estimatedTimePerSet": 30,
+      "setupTimeSeconds": 5,
+      "homeCompatibility": 1.0,
+      "gymCompatibility": 1.0,
+      "outdoorCompatibility": 1.0
+    },
+    {
+      "name": "Walking Knee Hugs",
+      "slug": "walking-knee-hugs",
+      "description": "A dynamic hip and glute stretch pulling the knee to the chest while walking forward. This movement opens the hips and stretches the glutes with each step.",
+      "instructions": [
+        "Stand tall, take a step forward",
+        "Lift opposite knee toward chest",
+        "Grasp knee with both hands, pull toward chest",
+        "Rise onto toes of standing leg for additional calf stretch",
+        "Release and step forward to repeat on other side"
+      ],
+      "category": "FLEXIBILITY",
+      "movementPattern": "HIP_MOBILITY",
+      "exerciseType": "WARMUP",
+      "primaryMuscles": [
+        "glutes",
+        "hip_flexors"
+      ],
+      "secondaryMuscles": [
+        "calves",
+        "hamstrings",
+        "lower_back"
+      ],
+      "muscleActivationMap": {
+        "glutes": 0.55,
+        "hip_flexors": 0.5,
+        "calves": 0.35,
+        "hamstrings": 0.35,
+        "lower_back": 0.3
+      },
+      "difficultyLevel": 1,
+      "skillRequirement": 1,
+      "isBeginnerFriendly": true,
+      "equipmentRequired": [],
+      "equipmentOptional": [],
+      "suitableLocations": [
+        "home",
+        "gym",
+        "outdoor"
+      ],
+      "repRanges": {
+        "strength": {
+          "min": 8,
+          "max": 12
+        },
+        "hypertrophy": {
+          "min": 12,
+          "max": 16
+        },
+        "endurance": {
+          "min": 16,
+          "max": 24
+        }
+      },
+      "typicalSets": {
+        "min": 2,
+        "max": 3
+      },
+      "restSeconds": {
+        "strength": 15,
+        "hypertrophy": 10,
+        "endurance": 5
+      },
+      "metValue": 2.0,
+      "intensityFactor": 0.18,
+      "contraindications": [
+        "knee_injury"
+      ],
+      "formCues": [
+        "Pull knee to chest",
+        "Stand tall",
+        "Rise onto toes",
+        "Balance briefly",
+        "Controlled movement"
+      ],
+      "commonMistakes": [
+        "Rounding back",
+        "Not pulling knee high enough",
+        "Rushing",
+        "Losing balance",
+        "Skipping calf raise"
+      ],
+      "easierVariation": "standing-knee-hug",
+      "harderVariation": "knee-hug-to-lunge",
+      "alternativeExercises": [
+        "leg-swings",
+        "hip-circles"
+      ],
+      "tags": [
+        "dynamic",
+        "warm-up",
+        "hips",
+        "glutes",
+        "walking"
+      ],
+      "suitableGoals": [
+        "FLEXIBILITY",
+        "GENERAL_FITNESS"
+      ],
+      "fitnessLevelSuitability": {
+        "sedentary": 4,
+        "lightlyActive": 5,
+        "moderatelyActive": 5,
+        "veryActive": 5,
+        "athlete": 5
+      },
+      "experienceLevelSuitability": {
+        "never": 5,
+        "lessThan6Mo": 5,
+        "sixTo24Mo": 5,
+        "twoTo5Yr": 5,
+        "fivePlusYr": 5
+      },
+      "goalEffectiveness": {
+        "weightLoss": 0.1,
+        "muscleGain": 0.05,
+        "strength": 0.1,
+        "endurance": 0.15,
+        "flexibility": 0.92,
+        "generalFitness": 0.62
+      },
+      "estimatedTimePerSet": 40,
+      "setupTimeSeconds": 0,
+      "homeCompatibility": 0.9,
+      "gymCompatibility": 1.0,
+      "outdoorCompatibility": 1.0
+    },
+    {
+      "name": "Toy Soldier",
+      "slug": "toy-soldier",
+      "description": "A dynamic marching exercise kicking straight legs up toward opposite hands. This movement actively stretches hamstrings while improving coordination and balance.",
+      "instructions": [
+        "Stand tall with arms extended straight forward",
+        "Kick right leg up toward left hand, keeping leg straight",
+        "Lower leg and step forward",
+        "Kick left leg up toward right hand",
+        "Continue alternating in marching pattern"
+      ],
+      "category": "FLEXIBILITY",
+      "movementPattern": "HIP_MOBILITY",
+      "exerciseType": "WARMUP",
+      "primaryMuscles": [
+        "hamstrings",
+        "hip_flexors"
+      ],
+      "secondaryMuscles": [
+        "quadriceps",
+        "core",
+        "calves"
+      ],
+      "muscleActivationMap": {
+        "hamstrings": 0.6,
+        "hip_flexors": 0.55,
+        "quadriceps": 0.4,
+        "core": 0.35,
+        "calves": 0.3
+      },
+      "difficultyLevel": 2,
+      "skillRequirement": 2,
+      "isBeginnerFriendly": true,
+      "equipmentRequired": [],
+      "equipmentOptional": [],
+      "suitableLocations": [
+        "home",
+        "gym",
+        "outdoor"
+      ],
+      "repRanges": {
+        "strength": {
+          "min": 10,
+          "max": 14
+        },
+        "hypertrophy": {
+          "min": 14,
+          "max": 20
+        },
+        "endurance": {
+          "min": 20,
+          "max": 30
+        }
+      },
+      "typicalSets": {
+        "min": 2,
+        "max": 3
+      },
+      "restSeconds": {
+        "strength": 20,
+        "hypertrophy": 15,
+        "endurance": 10
+      },
+      "metValue": 2.5,
+      "intensityFactor": 0.22,
+      "contraindications": [
+        "hamstring_injury"
+      ],
+      "formCues": [
+        "Keep kicking leg straight",
+        "Opposite hand to foot",
+        "Stay upright",
+        "Controlled pace",
+        "Full range of motion"
+      ],
+      "commonMistakes": [
+        "Bending kicking leg",
+        "Leaning back",
+        "Same-side hand to foot",
+        "Rushing",
+        "Losing balance"
+      ],
+      "easierVariation": "low-toy-soldier",
+      "harderVariation": "fast-toy-soldier",
+      "alternativeExercises": [
+        "high-kicks",
+        "leg-swings"
+      ],
+      "tags": [
+        "dynamic",
+        "warm-up",
+        "hamstrings",
+        "coordination",
+        "marching"
+      ],
+      "suitableGoals": [
+        "FLEXIBILITY",
+        "GENERAL_FITNESS"
+      ],
+      "fitnessLevelSuitability": {
+        "sedentary": 3,
+        "lightlyActive": 4,
+        "moderatelyActive": 5,
+        "veryActive": 5,
+        "athlete": 5
+      },
+      "experienceLevelSuitability": {
+        "never": 4,
+        "lessThan6Mo": 5,
+        "sixTo24Mo": 5,
+        "twoTo5Yr": 5,
+        "fivePlusYr": 5
+      },
+      "goalEffectiveness": {
+        "weightLoss": 0.12,
+        "muscleGain": 0.08,
+        "strength": 0.1,
+        "endurance": 0.18,
+        "flexibility": 0.92,
+        "generalFitness": 0.65
+      },
+      "estimatedTimePerSet": 40,
+      "setupTimeSeconds": 0,
+      "homeCompatibility": 0.85,
+      "gymCompatibility": 1.0,
+      "outdoorCompatibility": 1.0
+    },
+    {
+      "name": "Hamstring Stretch",
+      "slug": "hamstring-stretch",
+      "description": "A fundamental stretch targeting the hamstrings by hinging forward at the hips. Can be performed standing or seated for varied intensity. This essential stretch addresses posterior chain tightness common from sitting.",
+      "instructions": [
+        "Stand with feet hip-width apart",
+        "Hinge forward at hips, keeping back flat",
+        "Reach toward toes or shins",
+        "Hold stretch, breathing deeply",
+        "Option: Perform seated with legs extended for deeper stretch"
+      ],
+      "category": "FLEXIBILITY",
+      "movementPattern": "HIP_HINGE",
+      "exerciseType": "COOLDOWN",
+      "primaryMuscles": [
+        "hamstrings"
+      ],
+      "secondaryMuscles": [
+        "calves",
+        "lower_back",
+        "glutes"
+      ],
+      "muscleActivationMap": {
+        "hamstrings": 0.7,
+        "calves": 0.4,
+        "lower_back": 0.35,
+        "glutes": 0.3
+      },
+      "difficultyLevel": 1,
+      "skillRequirement": 1,
+      "isBeginnerFriendly": true,
+      "equipmentRequired": [],
+      "equipmentOptional": [],
+      "suitableLocations": [
+        "home",
+        "gym",
+        "outdoor"
+      ],
+      "repRanges": {
+        "strength": {
+          "min": 30,
+          "max": 45
+        },
+        "hypertrophy": {
+          "min": 45,
+          "max": 60
+        },
+        "endurance": {
+          "min": 60,
+          "max": 90
+        }
+      },
+      "typicalSets": {
+        "min": 2,
+        "max": 3
+      },
+      "restSeconds": {
+        "strength": 15,
+        "hypertrophy": 10,
+        "endurance": 10
+      },
+      "metValue": 1.8,
+      "intensityFactor": 0.12,
+      "contraindications": [
+        "lower_back_injury"
+      ],
+      "formCues": [
+        "Hinge at hips not waist",
+        "Keep back flat",
+        "Soft knee bend okay",
+        "Breathe into stretch",
+        "Don't bounce"
+      ],
+      "commonMistakes": [
+        "Rounding back",
+        "Locking knees",
+        "Bouncing",
+        "Holding breath",
+        "Forcing too deep"
+      ],
+      "easierVariation": "bent-knee-hamstring-stretch",
+      "harderVariation": "single-leg-forward-fold",
+      "alternativeExercises": [
+        "lying-hamstring-stretch",
+        "standing-single-leg-forward-fold"
+      ],
+      "tags": [
+        "static",
+        "cooldown",
+        "hamstrings",
+        "classic",
+        "accessible"
+      ],
+      "suitableGoals": [
+        "FLEXIBILITY",
+        "GENERAL_FITNESS"
+      ],
+      "fitnessLevelSuitability": {
+        "sedentary": 5,
+        "lightlyActive": 5,
+        "moderatelyActive": 5,
+        "veryActive": 5,
+        "athlete": 5
+      },
+      "experienceLevelSuitability": {
+        "never": 5,
+        "lessThan6Mo": 5,
+        "sixTo24Mo": 5,
+        "twoTo5Yr": 5,
+        "fivePlusYr": 5
+      },
+      "goalEffectiveness": {
+        "weightLoss": 0.02,
+        "muscleGain": 0.02,
+        "strength": 0.05,
+        "endurance": 0.1,
+        "flexibility": 0.94,
+        "generalFitness": 0.55
+      },
+      "estimatedTimePerSet": 45,
+      "setupTimeSeconds": 0,
+      "homeCompatibility": 1.0,
+      "gymCompatibility": 1.0,
+      "outdoorCompatibility": 1.0
+    },
+    {
+      "name": "Standing Quad Stretch",
+      "slug": "standing-quad-stretch",
+      "description": "A classic standing stretch pulling the heel toward the glutes to stretch the quadriceps. This fundamental stretch addresses the front of the thigh and hip flexors.",
+      "instructions": [
+        "Stand on one leg, use wall for balance if needed",
+        "Bend other knee, grab ankle behind you",
+        "Pull heel toward glutes",
+        "Keep knees close together",
+        "Hold, then switch legs"
+      ],
+      "category": "FLEXIBILITY",
+      "movementPattern": "KNEE_FLEXION",
+      "exerciseType": "COOLDOWN",
+      "primaryMuscles": [
+        "quadriceps"
+      ],
+      "secondaryMuscles": [
+        "hip_flexors"
+      ],
+      "muscleActivationMap": {
+        "quadriceps": 0.75,
+        "hip_flexors": 0.5
+      },
+      "difficultyLevel": 1,
+      "skillRequirement": 1,
+      "isBeginnerFriendly": true,
+      "equipmentRequired": [],
+      "equipmentOptional": [
+        "wall"
+      ],
+      "suitableLocations": [
+        "home",
+        "gym",
+        "outdoor"
+      ],
+      "repRanges": {
+        "strength": {
+          "min": 30,
+          "max": 45
+        },
+        "hypertrophy": {
+          "min": 45,
+          "max": 60
+        },
+        "endurance": {
+          "min": 60,
+          "max": 90
+        }
+      },
+      "typicalSets": {
+        "min": 2,
+        "max": 3
+      },
+      "restSeconds": {
+        "strength": 15,
+        "hypertrophy": 10,
+        "endurance": 10
+      },
+      "metValue": 1.8,
+      "intensityFactor": 0.1,
+      "contraindications": [
+        "knee_injury"
+      ],
+      "formCues": [
+        "Knees together",
+        "Stand tall",
+        "Tuck pelvis slightly",
+        "Breathe steadily",
+        "Balance on standing leg"
+      ],
+      "commonMistakes": [
+        "Knee drifting out",
+        "Leaning forward",
+        "Arching back",
+        "Holding breath",
+        "Pulling too hard"
+      ],
+      "easierVariation": "lying-quad-stretch",
+      "harderVariation": "couch-stretch",
+      "alternativeExercises": [
+        "lying-quad-stretch",
+        "kneeling-quad-stretch"
+      ],
+      "tags": [
+        "static",
+        "cooldown",
+        "quads",
+        "classic",
+        "balance"
+      ],
+      "suitableGoals": [
+        "FLEXIBILITY",
+        "GENERAL_FITNESS"
+      ],
+      "fitnessLevelSuitability": {
+        "sedentary": 5,
+        "lightlyActive": 5,
+        "moderatelyActive": 5,
+        "veryActive": 5,
+        "athlete": 5
+      },
+      "experienceLevelSuitability": {
+        "never": 5,
+        "lessThan6Mo": 5,
+        "sixTo24Mo": 5,
+        "twoTo5Yr": 5,
+        "fivePlusYr": 5
+      },
+      "goalEffectiveness": {
+        "weightLoss": 0.02,
+        "muscleGain": 0.02,
+        "strength": 0.05,
+        "endurance": 0.1,
+        "flexibility": 0.94,
+        "generalFitness": 0.55
+      },
+      "estimatedTimePerSet": 45,
+      "setupTimeSeconds": 5,
+      "homeCompatibility": 1.0,
+      "gymCompatibility": 1.0,
+      "outdoorCompatibility": 1.0
+    },
+    {
+      "name": "Kneeling Hip Flexor Stretch",
+      "slug": "kneeling-hip-flexor-stretch",
+      "description": "A deep stretch for the hip flexors performed in a half-kneeling position. This essential stretch counteracts the effects of prolonged sitting and improves hip extension.",
+      "instructions": [
+        "Kneel on one knee, other foot flat in front",
+        "Both knees at approximately 90 degrees",
+        "Tuck pelvis under, engaging glutes",
+        "Shift weight forward slightly",
+        "Hold stretch, then switch sides"
+      ],
+      "category": "FLEXIBILITY",
+      "movementPattern": "HIP_EXTENSION",
+      "exerciseType": "COOLDOWN",
+      "primaryMuscles": [
+        "hip_flexors"
+      ],
+      "secondaryMuscles": [
+        "quadriceps",
+        "psoas"
+      ],
+      "muscleActivationMap": {
+        "hip_flexors": 0.8,
+        "quadriceps": 0.45,
+        "psoas": 0.6
+      },
+      "difficultyLevel": 1,
+      "skillRequirement": 1,
+      "isBeginnerFriendly": true,
+      "equipmentRequired": [],
+      "equipmentOptional": [
+        "mat",
+        "pad"
+      ],
+      "suitableLocations": [
+        "home",
+        "gym",
+        "outdoor"
+      ],
+      "repRanges": {
+        "strength": {
+          "min": 30,
+          "max": 60
+        },
+        "hypertrophy": {
+          "min": 45,
+          "max": 90
+        },
+        "endurance": {
+          "min": 60,
+          "max": 120
+        }
+      },
+      "typicalSets": {
+        "min": 2,
+        "max": 3
+      },
+      "restSeconds": {
+        "strength": 15,
+        "hypertrophy": 10,
+        "endurance": 10
+      },
+      "metValue": 1.8,
+      "intensityFactor": 0.12,
+      "contraindications": [
+        "knee_injury"
+      ],
+      "formCues": [
+        "Posterior pelvic tilt",
+        "Squeeze back glute",
+        "Tall posture",
+        "Breathe deeply",
+        "Don't overarch back"
+      ],
+      "commonMistakes": [
+        "Arching lower back",
+        "Leaning forward",
+        "Not tucking pelvis",
+        "Knee too far forward",
+        "Holding breath"
+      ],
+      "easierVariation": "standing-hip-flexor-stretch",
+      "harderVariation": "couch-stretch",
+      "alternativeExercises": [
+        "couch-stretch",
+        "pigeon-pose"
+      ],
+      "tags": [
+        "static",
+        "cooldown",
+        "hip-flexors",
+        "essential",
+        "desk-worker"
+      ],
+      "suitableGoals": [
+        "FLEXIBILITY",
+        "GENERAL_FITNESS"
+      ],
+      "fitnessLevelSuitability": {
+        "sedentary": 5,
+        "lightlyActive": 5,
+        "moderatelyActive": 5,
+        "veryActive": 5,
+        "athlete": 5
+      },
+      "experienceLevelSuitability": {
+        "never": 5,
+        "lessThan6Mo": 5,
+        "sixTo24Mo": 5,
+        "twoTo5Yr": 5,
+        "fivePlusYr": 5
+      },
+      "goalEffectiveness": {
+        "weightLoss": 0.02,
+        "muscleGain": 0.02,
+        "strength": 0.05,
+        "endurance": 0.1,
+        "flexibility": 0.95,
+        "generalFitness": 0.6
+      },
+      "estimatedTimePerSet": 60,
+      "setupTimeSeconds": 10,
+      "homeCompatibility": 1.0,
+      "gymCompatibility": 1.0,
+      "outdoorCompatibility": 0.9
+    },
+    {
+      "name": "Pigeon Pose",
+      "slug": "pigeon-pose",
+      "description": "A yoga pose deeply stretching the hip rotators and glutes. This powerful hip opener targets the piriformis and external rotators while stretching the hip flexors of the back leg.",
+      "instructions": [
+        "From all fours, bring right knee toward right wrist",
+        "Slide left leg back, straightening it",
+        "Right shin angles across the mat (adjust based on flexibility)",
+        "Square hips toward front of mat",
+        "Fold forward or stay upright, hold and switch sides"
+      ],
+      "category": "FLEXIBILITY",
+      "movementPattern": "HIP_ROTATION",
+      "exerciseType": "COOLDOWN",
+      "primaryMuscles": [
+        "glutes",
+        "piriformis"
+      ],
+      "secondaryMuscles": [
+        "hip_flexors",
+        "groin"
+      ],
+      "muscleActivationMap": {
+        "glutes": 0.75,
+        "piriformis": 0.8,
+        "hip_flexors": 0.5,
+        "groin": 0.4
+      },
+      "difficultyLevel": 2,
+      "skillRequirement": 2,
+      "isBeginnerFriendly": true,
+      "equipmentRequired": [],
+      "equipmentOptional": [
+        "mat",
+        "yoga_block"
+      ],
+      "suitableLocations": [
+        "home",
+        "gym"
+      ],
+      "repRanges": {
+        "strength": {
+          "min": 45,
+          "max": 90
+        },
+        "hypertrophy": {
+          "min": 60,
+          "max": 120
+        },
+        "endurance": {
+          "min": 90,
+          "max": 180
+        }
+      },
+      "typicalSets": {
+        "min": 1,
+        "max": 2
+      },
+      "restSeconds": {
+        "strength": 15,
+        "hypertrophy": 10,
+        "endurance": 10
+      },
+      "metValue": 1.8,
+      "intensityFactor": 0.15,
+      "contraindications": [
+        "knee_injury",
+        "hip_injury"
+      ],
+      "formCues": [
+        "Square hips",
+        "Flex front foot",
+        "Support with block if needed",
+        "Breathe deeply",
+        "Don't force depth"
+      ],
+      "commonMistakes": [
+        "Hips not square",
+        "Collapsing into stretch",
+        "Forcing too deep",
+        "Back knee discomfort",
+        "Holding breath"
+      ],
+      "easierVariation": "figure-four-stretch",
+      "harderVariation": "king-pigeon",
+      "alternativeExercises": [
+        "figure-four-stretch",
+        "90-90-hip-switch"
+      ],
+      "tags": [
+        "static",
+        "cooldown",
+        "hips",
+        "yoga",
+        "deep-stretch"
+      ],
+      "suitableGoals": [
+        "FLEXIBILITY",
+        "GENERAL_FITNESS"
+      ],
+      "fitnessLevelSuitability": {
+        "sedentary": 3,
+        "lightlyActive": 4,
+        "moderatelyActive": 5,
+        "veryActive": 5,
+        "athlete": 5
+      },
+      "experienceLevelSuitability": {
+        "never": 3,
+        "lessThan6Mo": 4,
+        "sixTo24Mo": 5,
+        "twoTo5Yr": 5,
+        "fivePlusYr": 5
+      },
+      "goalEffectiveness": {
+        "weightLoss": 0.02,
+        "muscleGain": 0.02,
+        "strength": 0.05,
+        "endurance": 0.1,
+        "flexibility": 0.96,
+        "generalFitness": 0.6
+      },
+      "estimatedTimePerSet": 90,
+      "setupTimeSeconds": 15,
+      "homeCompatibility": 1.0,
+      "gymCompatibility": 1.0,
+      "outdoorCompatibility": 0.8
+    },
+    {
+      "name": "Figure Four Stretch",
+      "slug": "figure-four-stretch",
+      "description": "A supine hip stretch crossing one ankle over the opposite knee. This accessible stretch targets the piriformis and glutes while lying on the back for support.",
+      "instructions": [
+        "Lie on back, knees bent, feet flat",
+        "Cross right ankle over left knee",
+        "Thread hands behind left thigh or around left shin",
+        "Gently pull left leg toward chest",
+        "Hold, then switch sides"
+      ],
+      "category": "FLEXIBILITY",
+      "movementPattern": "HIP_ROTATION",
+      "exerciseType": "COOLDOWN",
+      "primaryMuscles": [
+        "glutes",
+        "piriformis"
+      ],
+      "secondaryMuscles": [
+        "hip_rotators"
+      ],
+      "muscleActivationMap": {
+        "glutes": 0.7,
+        "piriformis": 0.75,
+        "hip_rotators": 0.6
+      },
+      "difficultyLevel": 1,
+      "skillRequirement": 1,
+      "isBeginnerFriendly": true,
+      "equipmentRequired": [],
+      "equipmentOptional": [
+        "mat"
+      ],
+      "suitableLocations": [
+        "home",
+        "gym",
+        "outdoor"
+      ],
+      "repRanges": {
+        "strength": {
+          "min": 30,
+          "max": 60
+        },
+        "hypertrophy": {
+          "min": 45,
+          "max": 90
+        },
+        "endurance": {
+          "min": 60,
+          "max": 120
+        }
+      },
+      "typicalSets": {
+        "min": 2,
+        "max": 3
+      },
+      "restSeconds": {
+        "strength": 15,
+        "hypertrophy": 10,
+        "endurance": 10
+      },
+      "metValue": 1.5,
+      "intensityFactor": 0.1,
+      "contraindications": [
+        "knee_injury"
+      ],
+      "formCues": [
+        "Keep head down",
+        "Flex crossed foot",
+        "Relax shoulders",
+        "Breathe deeply",
+        "Gentle pull"
+      ],
+      "commonMistakes": [
+        "Lifting head",
+        "Forcing too deep",
+        "Tensing shoulders",
+        "Holding breath",
+        "Knee pain from position"
+      ],
+      "easierVariation": "seated-figure-four",
+      "harderVariation": "pigeon-pose",
+      "alternativeExercises": [
+        "pigeon-pose",
+        "seated-piriformis-stretch"
+      ],
+      "tags": [
+        "static",
+        "cooldown",
+        "glutes",
+        "supine",
+        "accessible"
+      ],
+      "suitableGoals": [
+        "FLEXIBILITY",
+        "GENERAL_FITNESS"
+      ],
+      "fitnessLevelSuitability": {
+        "sedentary": 5,
+        "lightlyActive": 5,
+        "moderatelyActive": 5,
+        "veryActive": 5,
+        "athlete": 5
+      },
+      "experienceLevelSuitability": {
+        "never": 5,
+        "lessThan6Mo": 5,
+        "sixTo24Mo": 5,
+        "twoTo5Yr": 5,
+        "fivePlusYr": 5
+      },
+      "goalEffectiveness": {
+        "weightLoss": 0.02,
+        "muscleGain": 0.02,
+        "strength": 0.05,
+        "endurance": 0.1,
+        "flexibility": 0.94,
+        "generalFitness": 0.58
+      },
+      "estimatedTimePerSet": 60,
+      "setupTimeSeconds": 10,
+      "homeCompatibility": 1.0,
+      "gymCompatibility": 1.0,
+      "outdoorCompatibility": 0.9
+    },
+    {
+      "name": "Chest Doorway Stretch",
+      "slug": "chest-doorway-stretch",
+      "description": "A pectoral stretch using a doorway to open the chest and front shoulders. This counteracts rounded posture from desk work and improves shoulder positioning.",
+      "instructions": [
+        "Stand in doorway, forearm on door frame",
+        "Elbow at shoulder height, 90-degree bend",
+        "Step through with same-side foot",
+        "Lean forward until stretch felt in chest",
+        "Hold, then switch sides"
+      ],
+      "category": "FLEXIBILITY",
+      "movementPattern": "SHOULDER_EXTENSION",
+      "exerciseType": "COOLDOWN",
+      "primaryMuscles": [
+        "chest"
+      ],
+      "secondaryMuscles": [
+        "anterior_deltoid",
+        "biceps"
+      ],
+      "muscleActivationMap": {
+        "chest": 0.7,
+        "anterior_deltoid": 0.55,
+        "biceps": 0.35
+      },
+      "difficultyLevel": 1,
+      "skillRequirement": 1,
+      "isBeginnerFriendly": true,
+      "equipmentRequired": [
+        "doorway"
+      ],
+      "equipmentOptional": [],
+      "suitableLocations": [
+        "home",
+        "gym"
+      ],
+      "repRanges": {
+        "strength": {
+          "min": 30,
+          "max": 45
+        },
+        "hypertrophy": {
+          "min": 45,
+          "max": 60
+        },
+        "endurance": {
+          "min": 60,
+          "max": 90
+        }
+      },
+      "typicalSets": {
+        "min": 2,
+        "max": 3
+      },
+      "restSeconds": {
+        "strength": 15,
+        "hypertrophy": 10,
+        "endurance": 10
+      },
+      "metValue": 1.5,
+      "intensityFactor": 0.1,
+      "contraindications": [
+        "shoulder_injury"
+      ],
+      "formCues": [
+        "Elbow at shoulder height",
+        "Gentle lean forward",
+        "Keep core engaged",
+        "Breathe into stretch",
+        "Adjust arm height for different fibers"
+      ],
+      "commonMistakes": [
+        "Arm too high or low",
+        "Twisting body",
+        "Overextending shoulder",
+        "Holding breath",
+        "Rushing the stretch"
+      ],
+      "easierVariation": "wall-chest-stretch",
+      "harderVariation": "floor-chest-stretch",
+      "alternativeExercises": [
+        "wall-chest-stretch",
+        "lying-chest-stretch"
+      ],
+      "tags": [
+        "static",
+        "cooldown",
+        "chest",
+        "posture",
+        "desk-worker"
+      ],
+      "suitableGoals": [
+        "FLEXIBILITY",
+        "GENERAL_FITNESS"
+      ],
+      "fitnessLevelSuitability": {
+        "sedentary": 5,
+        "lightlyActive": 5,
+        "moderatelyActive": 5,
+        "veryActive": 5,
+        "athlete": 5
+      },
+      "experienceLevelSuitability": {
+        "never": 5,
+        "lessThan6Mo": 5,
+        "sixTo24Mo": 5,
+        "twoTo5Yr": 5,
+        "fivePlusYr": 5
+      },
+      "goalEffectiveness": {
+        "weightLoss": 0.02,
+        "muscleGain": 0.02,
+        "strength": 0.05,
+        "endurance": 0.08,
+        "flexibility": 0.92,
+        "generalFitness": 0.55
+      },
+      "estimatedTimePerSet": 45,
+      "setupTimeSeconds": 5,
+      "homeCompatibility": 1.0,
+      "gymCompatibility": 0.9,
+      "outdoorCompatibility": 0.3
+    },
+    {
+      "name": "Tricep Stretch",
+      "slug": "tricep-stretch",
+      "description": "An overhead stretch for the triceps reaching the hand down the back. This simple stretch addresses the often-neglected back of the upper arm.",
+      "instructions": [
+        "Raise one arm overhead",
+        "Bend elbow, reaching hand down toward upper back",
+        "Use other hand to gently press on elbow",
+        "Hold stretch, feeling it in back of arm",
+        "Switch arms"
+      ],
+      "category": "FLEXIBILITY",
+      "movementPattern": "SHOULDER_FLEXION",
+      "exerciseType": "COOLDOWN",
+      "primaryMuscles": [
+        "triceps"
+      ],
+      "secondaryMuscles": [
+        "shoulders",
+        "lats"
+      ],
+      "muscleActivationMap": {
+        "triceps": 0.7,
+        "shoulders": 0.35,
+        "lats": 0.3
+      },
+      "difficultyLevel": 1,
+      "skillRequirement": 1,
+      "isBeginnerFriendly": true,
+      "equipmentRequired": [],
+      "equipmentOptional": [],
+      "suitableLocations": [
+        "home",
+        "gym",
+        "outdoor"
+      ],
+      "repRanges": {
+        "strength": {
+          "min": 20,
+          "max": 30
+        },
+        "hypertrophy": {
+          "min": 30,
+          "max": 45
+        },
+        "endurance": {
+          "min": 45,
+          "max": 60
+        }
+      },
+      "typicalSets": {
+        "min": 2,
+        "max": 3
+      },
+      "restSeconds": {
+        "strength": 10,
+        "hypertrophy": 5,
+        "endurance": 5
+      },
+      "metValue": 1.5,
+      "intensityFactor": 0.08,
+      "contraindications": [
+        "shoulder_injury",
+        "elbow_injury"
+      ],
+      "formCues": [
+        "Keep elbow pointing up",
+        "Gentle pressure only",
+        "Stand tall",
+        "Breathe naturally",
+        "Reach down the spine"
+      ],
+      "commonMistakes": [
+        "Elbow drifting forward",
+        "Pressing too hard",
+        "Leaning to side",
+        "Holding breath",
+        "Rushing"
+      ],
+      "easierVariation": null,
+      "harderVariation": "towel-tricep-stretch",
+      "alternativeExercises": [
+        "overhead-tricep-extension-stretch"
+      ],
+      "tags": [
+        "static",
+        "cooldown",
+        "triceps",
+        "upper-body",
+        "simple"
+      ],
+      "suitableGoals": [
+        "FLEXIBILITY",
+        "GENERAL_FITNESS"
+      ],
+      "fitnessLevelSuitability": {
+        "sedentary": 5,
+        "lightlyActive": 5,
+        "moderatelyActive": 5,
+        "veryActive": 5,
+        "athlete": 5
+      },
+      "experienceLevelSuitability": {
+        "never": 5,
+        "lessThan6Mo": 5,
+        "sixTo24Mo": 5,
+        "twoTo5Yr": 5,
+        "fivePlusYr": 5
+      },
+      "goalEffectiveness": {
+        "weightLoss": 0.01,
+        "muscleGain": 0.02,
+        "strength": 0.05,
+        "endurance": 0.08,
+        "flexibility": 0.9,
+        "generalFitness": 0.52
+      },
+      "estimatedTimePerSet": 30,
+      "setupTimeSeconds": 0,
+      "homeCompatibility": 1.0,
+      "gymCompatibility": 1.0,
+      "outdoorCompatibility": 1.0
+    },
+    {
+      "name": "Cross-Body Shoulder Stretch",
+      "slug": "cross-body-shoulder-stretch",
+      "description": "A stretch for the posterior deltoid and rotator cuff pulling the arm across the body. This essential stretch improves shoulder mobility and addresses tension in the back of the shoulder.",
+      "instructions": [
+        "Bring one arm across chest at shoulder height",
+        "Use other hand to press arm toward body",
+        "Keep shoulders level, don't rotate torso",
+        "Hold stretch in back of shoulder",
+        "Switch arms"
+      ],
+      "category": "FLEXIBILITY",
+      "movementPattern": "SHOULDER_ADDUCTION",
+      "exerciseType": "COOLDOWN",
+      "primaryMuscles": [
+        "posterior_deltoid"
+      ],
+      "secondaryMuscles": [
+        "rotator_cuff",
+        "upper_back"
+      ],
+      "muscleActivationMap": {
+        "posterior_deltoid": 0.7,
+        "rotator_cuff": 0.55,
+        "upper_back": 0.35
+      },
+      "difficultyLevel": 1,
+      "skillRequirement": 1,
+      "isBeginnerFriendly": true,
+      "equipmentRequired": [],
+      "equipmentOptional": [],
+      "suitableLocations": [
+        "home",
+        "gym",
+        "outdoor"
+      ],
+      "repRanges": {
+        "strength": {
+          "min": 20,
+          "max": 30
+        },
+        "hypertrophy": {
+          "min": 30,
+          "max": 45
+        },
+        "endurance": {
+          "min": 45,
+          "max": 60
+        }
+      },
+      "typicalSets": {
+        "min": 2,
+        "max": 3
+      },
+      "restSeconds": {
+        "strength": 10,
+        "hypertrophy": 5,
+        "endurance": 5
+      },
+      "metValue": 1.5,
+      "intensityFactor": 0.08,
+      "contraindications": [
+        "shoulder_injury"
+      ],
+      "formCues": [
+        "Arm at shoulder height",
+        "Shoulders level",
+        "Gentle pressure",
+        "Don't rotate body",
+        "Breathe steadily"
+      ],
+      "commonMistakes": [
+        "Arm too high or low",
+        "Rotating torso",
+        "Shrugging shoulder",
+        "Pressing too hard",
+        "Holding breath"
+      ],
+      "easierVariation": null,
+      "harderVariation": "sleeper-stretch",
+      "alternativeExercises": [
+        "sleeper-stretch",
+        "thread-the-needle"
+      ],
+      "tags": [
+        "static",
+        "cooldown",
+        "shoulders",
+        "rotator-cuff",
+        "accessible"
+      ],
+      "suitableGoals": [
+        "FLEXIBILITY",
+        "GENERAL_FITNESS"
+      ],
+      "fitnessLevelSuitability": {
+        "sedentary": 5,
+        "lightlyActive": 5,
+        "moderatelyActive": 5,
+        "veryActive": 5,
+        "athlete": 5
+      },
+      "experienceLevelSuitability": {
+        "never": 5,
+        "lessThan6Mo": 5,
+        "sixTo24Mo": 5,
+        "twoTo5Yr": 5,
+        "fivePlusYr": 5
+      },
+      "goalEffectiveness": {
+        "weightLoss": 0.01,
+        "muscleGain": 0.02,
+        "strength": 0.05,
+        "endurance": 0.08,
+        "flexibility": 0.92,
+        "generalFitness": 0.52
+      },
+      "estimatedTimePerSet": 30,
+      "setupTimeSeconds": 0,
+      "homeCompatibility": 1.0,
+      "gymCompatibility": 1.0,
+      "outdoorCompatibility": 1.0
+    },
+    {
+      "name": "Standing Lat Stretch",
+      "slug": "standing-lat-stretch",
+      "description": "A lateral stretch reaching overhead and bending to the side to lengthen the latissimus dorsi. This stretch opens the side body and improves overhead mobility.",
+      "instructions": [
+        "Stand with feet hip-width apart",
+        "Raise both arms overhead, clasp hands",
+        "Lean to one side, creating a C-curve with body",
+        "Feel stretch along side of torso and under arm",
+        "Hold, return to center, repeat other side"
+      ],
+      "category": "FLEXIBILITY",
+      "movementPattern": "LATERAL_FLEXION",
+      "exerciseType": "COOLDOWN",
+      "primaryMuscles": [
+        "lats"
+      ],
+      "secondaryMuscles": [
+        "obliques",
+        "intercostals",
+        "shoulders"
+      ],
+      "muscleActivationMap": {
+        "lats": 0.7,
+        "obliques": 0.5,
+        "intercostals": 0.45,
+        "shoulders": 0.35
+      },
+      "difficultyLevel": 1,
+      "skillRequirement": 1,
+      "isBeginnerFriendly": true,
+      "equipmentRequired": [],
+      "equipmentOptional": [],
+      "suitableLocations": [
+        "home",
+        "gym",
+        "outdoor"
+      ],
+      "repRanges": {
+        "strength": {
+          "min": 20,
+          "max": 30
+        },
+        "hypertrophy": {
+          "min": 30,
+          "max": 45
+        },
+        "endurance": {
+          "min": 45,
+          "max": 60
+        }
+      },
+      "typicalSets": {
+        "min": 2,
+        "max": 3
+      },
+      "restSeconds": {
+        "strength": 10,
+        "hypertrophy": 5,
+        "endurance": 5
+      },
+      "metValue": 1.5,
+      "intensityFactor": 0.1,
+      "contraindications": [
+        "shoulder_injury"
+      ],
+      "formCues": [
+        "Reach up before bending",
+        "Hips stay level",
+        "Don't twist",
+        "Breathe into stretch",
+        "Equal time each side"
+      ],
+      "commonMistakes": [
+        "Twisting forward",
+        "Hips shifting",
+        "Not reaching up first",
+        "Holding breath",
+        "Rushing"
+      ],
+      "easierVariation": "seated-lat-stretch",
+      "harderVariation": "hanging-lat-stretch",
+      "alternativeExercises": [
+        "child-pose-lat-focus",
+        "doorway-lat-stretch"
+      ],
+      "tags": [
+        "static",
+        "cooldown",
+        "lats",
+        "side-body",
+        "accessible"
+      ],
+      "suitableGoals": [
+        "FLEXIBILITY",
+        "GENERAL_FITNESS"
+      ],
+      "fitnessLevelSuitability": {
+        "sedentary": 5,
+        "lightlyActive": 5,
+        "moderatelyActive": 5,
+        "veryActive": 5,
+        "athlete": 5
+      },
+      "experienceLevelSuitability": {
+        "never": 5,
+        "lessThan6Mo": 5,
+        "sixTo24Mo": 5,
+        "twoTo5Yr": 5,
+        "fivePlusYr": 5
+      },
+      "goalEffectiveness": {
+        "weightLoss": 0.02,
+        "muscleGain": 0.02,
+        "strength": 0.05,
+        "endurance": 0.1,
+        "flexibility": 0.92,
+        "generalFitness": 0.55
+      },
+      "estimatedTimePerSet": 40,
+      "setupTimeSeconds": 0,
+      "homeCompatibility": 1.0,
+      "gymCompatibility": 1.0,
+      "outdoorCompatibility": 1.0
+    },
+    {
+      "name": "Standing Calf Stretch",
+      "slug": "standing-calf-stretch",
+      "description": "A wall-assisted stretch for the gastrocnemius and soleus muscles. This essential stretch addresses calf tightness from walking, running, and heel-wearing.",
+      "instructions": [
+        "Face wall, hands on wall at shoulder height",
+        "Step one foot back, keeping heel on ground",
+        "Bend front knee, keep back leg straight",
+        "Press back heel into floor",
+        "Hold, then switch legs"
+      ],
+      "category": "FLEXIBILITY",
+      "movementPattern": "ANKLE_DORSIFLEXION",
+      "exerciseType": "COOLDOWN",
+      "primaryMuscles": [
+        "calves"
+      ],
+      "secondaryMuscles": [
+        "achilles"
+      ],
+      "muscleActivationMap": {
+        "calves": 0.75,
+        "achilles": 0.6
+      },
+      "difficultyLevel": 1,
+      "skillRequirement": 1,
+      "isBeginnerFriendly": true,
+      "equipmentRequired": [],
+      "equipmentOptional": [
+        "wall"
+      ],
+      "suitableLocations": [
+        "home",
+        "gym",
+        "outdoor"
+      ],
+      "repRanges": {
+        "strength": {
+          "min": 30,
+          "max": 45
+        },
+        "hypertrophy": {
+          "min": 45,
+          "max": 60
+        },
+        "endurance": {
+          "min": 60,
+          "max": 90
+        }
+      },
+      "typicalSets": {
+        "min": 2,
+        "max": 3
+      },
+      "restSeconds": {
+        "strength": 15,
+        "hypertrophy": 10,
+        "endurance": 10
+      },
+      "metValue": 1.5,
+      "intensityFactor": 0.08,
+      "contraindications": [
+        "achilles_injury",
+        "calf_strain"
+      ],
+      "formCues": [
+        "Back heel stays down",
+        "Back leg straight",
+        "Lean into wall",
+        "Toe points forward",
+        "Breathe steadily"
+      ],
+      "commonMistakes": [
+        "Heel lifting",
+        "Back knee bending",
+        "Toe pointing out",
+        "Not leaning enough",
+        "Holding breath"
+      ],
+      "easierVariation": "step-calf-stretch",
+      "harderVariation": "straight-leg-calf-raise-stretch",
+      "alternativeExercises": [
+        "step-calf-stretch",
+        "downward-dog"
+      ],
+      "tags": [
+        "static",
+        "cooldown",
+        "calves",
+        "essential",
+        "running"
+      ],
+      "suitableGoals": [
+        "FLEXIBILITY",
+        "GENERAL_FITNESS"
+      ],
+      "fitnessLevelSuitability": {
+        "sedentary": 5,
+        "lightlyActive": 5,
+        "moderatelyActive": 5,
+        "veryActive": 5,
+        "athlete": 5
+      },
+      "experienceLevelSuitability": {
+        "never": 5,
+        "lessThan6Mo": 5,
+        "sixTo24Mo": 5,
+        "twoTo5Yr": 5,
+        "fivePlusYr": 5
+      },
+      "goalEffectiveness": {
+        "weightLoss": 0.02,
+        "muscleGain": 0.02,
+        "strength": 0.05,
+        "endurance": 0.1,
+        "flexibility": 0.94,
+        "generalFitness": 0.55
+      },
+      "estimatedTimePerSet": 45,
+      "setupTimeSeconds": 5,
+      "homeCompatibility": 1.0,
+      "gymCompatibility": 1.0,
+      "outdoorCompatibility": 1.0
+    },
+    {
+      "name": "Child's Pose",
+      "slug": "childs-pose",
+      "description": "A restful yoga position stretching the back, hips, and shoulders. This grounding pose promotes relaxation while gently opening the posterior chain.",
+      "instructions": [
+        "Kneel on floor, big toes touching",
+        "Sit back on heels, separate knees hip-width or wider",
+        "Fold forward, extending arms in front or alongside body",
+        "Rest forehead on mat",
+        "Breathe deeply, relaxing into position"
+      ],
+      "category": "FLEXIBILITY",
+      "movementPattern": "SPINAL_FLEXION",
+      "exerciseType": "COOLDOWN",
+      "primaryMuscles": [
+        "lower_back",
+        "lats"
+      ],
+      "secondaryMuscles": [
+        "glutes",
+        "shoulders",
+        "hips"
+      ],
+      "muscleActivationMap": {
+        "lower_back": 0.55,
+        "lats": 0.5,
+        "glutes": 0.4,
+        "shoulders": 0.35,
+        "hips": 0.45
+      },
+      "difficultyLevel": 1,
+      "skillRequirement": 1,
+      "isBeginnerFriendly": true,
+      "equipmentRequired": [],
+      "equipmentOptional": [
+        "mat",
+        "pillow"
+      ],
+      "suitableLocations": [
+        "home",
+        "gym"
+      ],
+      "repRanges": {
+        "strength": {
+          "min": 45,
+          "max": 90
+        },
+        "hypertrophy": {
+          "min": 60,
+          "max": 120
+        },
+        "endurance": {
+          "min": 90,
+          "max": 180
+        }
+      },
+      "typicalSets": {
+        "min": 1,
+        "max": 2
+      },
+      "restSeconds": {
+        "strength": 10,
+        "hypertrophy": 10,
+        "endurance": 10
+      },
+      "metValue": 1.5,
+      "intensityFactor": 0.08,
+      "contraindications": [
+        "knee_injury"
+      ],
+      "formCues": [
+        "Relax completely",
+        "Breathe into back",
+        "Hips toward heels",
+        "Shoulders away from ears",
+        "Let go of tension"
+      ],
+      "commonMistakes": [
+        "Hips not reaching heels",
+        "Tensing shoulders",
+        "Shallow breathing",
+        "Head not resting",
+        "Not relaxing"
+      ],
+      "easierVariation": "supported-childs-pose",
+      "harderVariation": "extended-puppy-pose",
+      "alternativeExercises": [
+        "cat-cow",
+        "forward-fold"
+      ],
+      "tags": [
+        "static",
+        "cooldown",
+        "restorative",
+        "yoga",
+        "relaxation"
+      ],
+      "suitableGoals": [
+        "FLEXIBILITY",
+        "GENERAL_FITNESS"
+      ],
+      "fitnessLevelSuitability": {
+        "sedentary": 5,
+        "lightlyActive": 5,
+        "moderatelyActive": 5,
+        "veryActive": 5,
+        "athlete": 5
+      },
+      "experienceLevelSuitability": {
+        "never": 5,
+        "lessThan6Mo": 5,
+        "sixTo24Mo": 5,
+        "twoTo5Yr": 5,
+        "fivePlusYr": 5
+      },
+      "goalEffectiveness": {
+        "weightLoss": 0.01,
+        "muscleGain": 0.01,
+        "strength": 0.03,
+        "endurance": 0.08,
+        "flexibility": 0.92,
+        "generalFitness": 0.6
+      },
+      "estimatedTimePerSet": 90,
+      "setupTimeSeconds": 10,
+      "homeCompatibility": 1.0,
+      "gymCompatibility": 1.0,
+      "outdoorCompatibility": 0.7
+    },
+    {
+      "name": "Cobra Stretch",
+      "slug": "cobra-stretch",
+      "description": "A prone backbend opening the chest and stretching the abdominals. This yoga-derived position counteracts forward flexion and improves spinal extension.",
+      "instructions": [
+        "Lie face down, hands under shoulders",
+        "Press hands into floor, lifting chest",
+        "Keep hips on ground",
+        "Elbows can stay bent or straighten based on flexibility",
+        "Hold, breathing into chest"
+      ],
+      "category": "FLEXIBILITY",
+      "movementPattern": "SPINAL_EXTENSION",
+      "exerciseType": "COOLDOWN",
+      "primaryMuscles": [
+        "rectus_abdominis",
+        "hip_flexors"
+      ],
+      "secondaryMuscles": [
+        "chest",
+        "erector_spinae"
+      ],
+      "muscleActivationMap": {
+        "rectus_abdominis": 0.55,
+        "hip_flexors": 0.5,
+        "chest": 0.45,
+        "erector_spinae": 0.4
+      },
+      "difficultyLevel": 1,
+      "skillRequirement": 1,
+      "isBeginnerFriendly": true,
+      "equipmentRequired": [],
+      "equipmentOptional": [
+        "mat"
+      ],
+      "suitableLocations": [
+        "home",
+        "gym"
+      ],
+      "repRanges": {
+        "strength": {
+          "min": 20,
+          "max": 30
+        },
+        "hypertrophy": {
+          "min": 30,
+          "max": 45
+        },
+        "endurance": {
+          "min": 45,
+          "max": 60
+        }
+      },
+      "typicalSets": {
+        "min": 2,
+        "max": 3
+      },
+      "restSeconds": {
+        "strength": 15,
+        "hypertrophy": 10,
+        "endurance": 10
+      },
+      "metValue": 1.8,
+      "intensityFactor": 0.12,
+      "contraindications": [
+        "lower_back_injury",
+        "pregnancy"
+      ],
+      "formCues": [
+        "Hips stay down",
+        "Shoulders away from ears",
+        "Lengthen spine",
+        "Don't crunch neck back",
+        "Breathe into chest"
+      ],
+      "commonMistakes": [
+        "Hips lifting",
+        "Shrugging shoulders",
+        "Overextending neck",
+        "Holding breath",
+        "Going too high too fast"
+      ],
+      "easierVariation": "sphinx-pose",
+      "harderVariation": "upward-dog",
+      "alternativeExercises": [
+        "sphinx-pose",
+        "cat-cow"
+      ],
+      "tags": [
+        "static",
+        "cooldown",
+        "back-extension",
+        "yoga",
+        "posture"
+      ],
+      "suitableGoals": [
+        "FLEXIBILITY",
+        "GENERAL_FITNESS"
+      ],
+      "fitnessLevelSuitability": {
+        "sedentary": 4,
+        "lightlyActive": 5,
+        "moderatelyActive": 5,
+        "veryActive": 5,
+        "athlete": 5
+      },
+      "experienceLevelSuitability": {
+        "never": 4,
+        "lessThan6Mo": 5,
+        "sixTo24Mo": 5,
+        "twoTo5Yr": 5,
+        "fivePlusYr": 5
+      },
+      "goalEffectiveness": {
+        "weightLoss": 0.02,
+        "muscleGain": 0.03,
+        "strength": 0.08,
+        "endurance": 0.1,
+        "flexibility": 0.92,
+        "generalFitness": 0.58
+      },
+      "estimatedTimePerSet": 30,
+      "setupTimeSeconds": 10,
+      "homeCompatibility": 1.0,
+      "gymCompatibility": 1.0,
+      "outdoorCompatibility": 0.8
+    },
+    {
+      "name": "Butterfly Stretch",
+      "slug": "butterfly-stretch",
+      "description": "A seated groin stretch with soles of feet together and knees falling to sides. This classic stretch opens the inner thighs and hip adductors.",
+      "instructions": [
+        "Sit on floor, bring soles of feet together",
+        "Hold ankles or feet with hands",
+        "Allow knees to fall toward floor",
+        "Sit tall and gently press knees down with elbows",
+        "Hold, breathing into the stretch"
+      ],
+      "category": "FLEXIBILITY",
+      "movementPattern": "HIP_ABDUCTION",
+      "exerciseType": "COOLDOWN",
+      "primaryMuscles": [
+        "groin",
+        "hip_adductors"
+      ],
+      "secondaryMuscles": [
+        "hips",
+        "lower_back"
+      ],
+      "muscleActivationMap": {
+        "groin": 0.75,
+        "hip_adductors": 0.7,
+        "hips": 0.45,
+        "lower_back": 0.25
+      },
+      "difficultyLevel": 1,
+      "skillRequirement": 1,
+      "isBeginnerFriendly": true,
+      "equipmentRequired": [],
+      "equipmentOptional": [
+        "mat"
+      ],
+      "suitableLocations": [
+        "home",
+        "gym",
+        "outdoor"
+      ],
+      "repRanges": {
+        "strength": {
+          "min": 45,
+          "max": 60
+        },
+        "hypertrophy": {
+          "min": 60,
+          "max": 90
+        },
+        "endurance": {
+          "min": 90,
+          "max": 120
+        }
+      },
+      "typicalSets": {
+        "min": 2,
+        "max": 3
+      },
+      "restSeconds": {
+        "strength": 15,
+        "hypertrophy": 10,
+        "endurance": 10
+      },
+      "metValue": 1.5,
+      "intensityFactor": 0.1,
+      "contraindications": [
+        "groin_injury",
+        "hip_injury"
+      ],
+      "formCues": [
+        "Sit tall",
+        "Feet close to body",
+        "Gentle elbow pressure",
+        "Don't force knees",
+        "Breathe deeply"
+      ],
+      "commonMistakes": [
+        "Rounding back",
+        "Forcing knees down",
+        "Feet too far from body",
+        "Holding breath",
+        "Bouncing"
+      ],
+      "easierVariation": "reclined-butterfly",
+      "harderVariation": "forward-fold-butterfly",
+      "alternativeExercises": [
+        "frog-stretch",
+        "straddle-stretch"
+      ],
+      "tags": [
+        "static",
+        "cooldown",
+        "groin",
+        "hips",
+        "classic"
+      ],
+      "suitableGoals": [
+        "FLEXIBILITY",
+        "GENERAL_FITNESS"
+      ],
+      "fitnessLevelSuitability": {
+        "sedentary": 5,
+        "lightlyActive": 5,
+        "moderatelyActive": 5,
+        "veryActive": 5,
+        "athlete": 5
+      },
+      "experienceLevelSuitability": {
+        "never": 5,
+        "lessThan6Mo": 5,
+        "sixTo24Mo": 5,
+        "twoTo5Yr": 5,
+        "fivePlusYr": 5
+      },
+      "goalEffectiveness": {
+        "weightLoss": 0.02,
+        "muscleGain": 0.02,
+        "strength": 0.05,
+        "endurance": 0.1,
+        "flexibility": 0.94,
+        "generalFitness": 0.55
+      },
+      "estimatedTimePerSet": 60,
+      "setupTimeSeconds": 10,
+      "homeCompatibility": 1.0,
+      "gymCompatibility": 1.0,
+      "outdoorCompatibility": 0.9
+    },
+    {
+      "name": "Frog Stretch",
+      "slug": "frog-stretch",
+      "description": "An intense groin and hip opener on hands and knees with knees spread wide. This deep stretch targets the hip adductors and inner thighs.",
+      "instructions": [
+        "Start on all fours",
+        "Spread knees as wide as comfortable",
+        "Turn feet out, inside edges on floor",
+        "Rock hips back toward heels",
+        "Hold, adjusting depth as needed"
+      ],
+      "category": "FLEXIBILITY",
+      "movementPattern": "HIP_ABDUCTION",
+      "exerciseType": "COOLDOWN",
+      "primaryMuscles": [
+        "groin",
+        "hip_adductors"
+      ],
+      "secondaryMuscles": [
+        "hips",
+        "quadriceps"
+      ],
+      "muscleActivationMap": {
+        "groin": 0.85,
+        "hip_adductors": 0.8,
+        "hips": 0.55,
+        "quadriceps": 0.3
+      },
+      "difficultyLevel": 2,
+      "skillRequirement": 2,
+      "isBeginnerFriendly": false,
+      "equipmentRequired": [],
+      "equipmentOptional": [
+        "mat",
+        "pad"
+      ],
+      "suitableLocations": [
+        "home",
+        "gym"
+      ],
+      "repRanges": {
+        "strength": {
+          "min": 45,
+          "max": 90
+        },
+        "hypertrophy": {
+          "min": 60,
+          "max": 120
+        },
+        "endurance": {
+          "min": 90,
+          "max": 180
+        }
+      },
+      "typicalSets": {
+        "min": 1,
+        "max": 2
+      },
+      "restSeconds": {
+        "strength": 20,
+        "hypertrophy": 15,
+        "endurance": 15
+      },
+      "metValue": 1.8,
+      "intensityFactor": 0.15,
+      "contraindications": [
+        "groin_injury",
+        "hip_injury",
+        "knee_injury"
+      ],
+      "formCues": [
+        "Go slowly into position",
+        "Breathe deeply",
+        "Adjust width to comfort",
+        "Keep back neutral",
+        "Don't force depth"
+      ],
+      "commonMistakes": [
+        "Going too deep too fast",
+        "Holding breath",
+        "Arching back",
+        "Knees on hard surface",
+        "Forcing the stretch"
+      ],
+      "easierVariation": "butterfly-stretch",
+      "harderVariation": "pancake-stretch",
+      "alternativeExercises": [
+        "butterfly-stretch",
+        "straddle-stretch"
+      ],
+      "tags": [
+        "static",
+        "cooldown",
+        "groin",
+        "intense",
+        "hip-opener"
+      ],
+      "suitableGoals": [
+        "FLEXIBILITY"
+      ],
+      "fitnessLevelSuitability": {
+        "sedentary": 2,
+        "lightlyActive": 3,
+        "moderatelyActive": 5,
+        "veryActive": 5,
+        "athlete": 5
+      },
+      "experienceLevelSuitability": {
+        "never": 2,
+        "lessThan6Mo": 3,
+        "sixTo24Mo": 5,
+        "twoTo5Yr": 5,
+        "fivePlusYr": 5
+      },
+      "goalEffectiveness": {
+        "weightLoss": 0.02,
+        "muscleGain": 0.02,
+        "strength": 0.05,
+        "endurance": 0.08,
+        "flexibility": 0.96,
+        "generalFitness": 0.55
+      },
+      "estimatedTimePerSet": 90,
+      "setupTimeSeconds": 15,
+      "homeCompatibility": 1.0,
+      "gymCompatibility": 1.0,
+      "outdoorCompatibility": 0.7
+    },
+    {
+      "name": "Seated Spinal Twist",
+      "slug": "seated-spinal-twist",
+      "description": "A seated rotational stretch twisting the spine to improve thoracic mobility. This classic stretch addresses spinal rotation and stretches the glutes and outer hip.",
+      "instructions": [
+        "Sit with legs extended",
+        "Bend right knee, place foot outside left thigh",
+        "Place right hand behind you for support",
+        "Twist torso to right, left elbow outside right knee",
+        "Hold, breathe deeply, then switch sides"
+      ],
+      "category": "FLEXIBILITY",
+      "movementPattern": "ROTATION",
+      "exerciseType": "COOLDOWN",
+      "primaryMuscles": [
+        "obliques",
+        "erector_spinae"
+      ],
+      "secondaryMuscles": [
+        "glutes",
+        "thoracic_spine",
+        "hips"
+      ],
+      "muscleActivationMap": {
+        "obliques": 0.6,
+        "erector_spinae": 0.55,
+        "glutes": 0.45,
+        "thoracic_spine": 0.5,
+        "hips": 0.4
+      },
+      "difficultyLevel": 1,
+      "skillRequirement": 1,
+      "isBeginnerFriendly": true,
+      "equipmentRequired": [],
+      "equipmentOptional": [
+        "mat"
+      ],
+      "suitableLocations": [
+        "home",
+        "gym",
+        "outdoor"
+      ],
+      "repRanges": {
+        "strength": {
+          "min": 30,
+          "max": 45
+        },
+        "hypertrophy": {
+          "min": 45,
+          "max": 60
+        },
+        "endurance": {
+          "min": 60,
+          "max": 90
+        }
+      },
+      "typicalSets": {
+        "min": 2,
+        "max": 3
+      },
+      "restSeconds": {
+        "strength": 15,
+        "hypertrophy": 10,
+        "endurance": 10
+      },
+      "metValue": 1.5,
+      "intensityFactor": 0.1,
+      "contraindications": [
+        "lower_back_injury",
+        "spinal_disc_issues"
+      ],
+      "formCues": [
+        "Sit tall first",
+        "Twist from mid-back",
+        "Look over shoulder",
+        "Breathe into twist",
+        "Equal time each side"
+      ],
+      "commonMistakes": [
+        "Rounding back",
+        "Forcing the twist",
+        "Not sitting tall",
+        "Holding breath",
+        "Uneven time per side"
+      ],
+      "easierVariation": "supine-spinal-twist",
+      "harderVariation": "full-spinal-twist",
+      "alternativeExercises": [
+        "supine-spinal-twist",
+        "thoracic-rotation"
+      ],
+      "tags": [
+        "static",
+        "cooldown",
+        "spine",
+        "rotation",
+        "yoga"
+      ],
+      "suitableGoals": [
+        "FLEXIBILITY",
+        "GENERAL_FITNESS"
+      ],
+      "fitnessLevelSuitability": {
+        "sedentary": 5,
+        "lightlyActive": 5,
+        "moderatelyActive": 5,
+        "veryActive": 5,
+        "athlete": 5
+      },
+      "experienceLevelSuitability": {
+        "never": 5,
+        "lessThan6Mo": 5,
+        "sixTo24Mo": 5,
+        "twoTo5Yr": 5,
+        "fivePlusYr": 5
+      },
+      "goalEffectiveness": {
+        "weightLoss": 0.02,
+        "muscleGain": 0.02,
+        "strength": 0.05,
+        "endurance": 0.1,
+        "flexibility": 0.94,
+        "generalFitness": 0.58
+      },
+      "estimatedTimePerSet": 50,
+      "setupTimeSeconds": 10,
+      "homeCompatibility": 1.0,
+      "gymCompatibility": 1.0,
+      "outdoorCompatibility": 0.9
+    },
+    {
+      "name": "90/90 Hip Switch",
+      "slug": "90-90-hip-switch",
+      "description": "A seated hip mobility drill transitioning between internal and external rotation positions. This movement improves hip rotation range and control essential for athletic performance.",
+      "instructions": [
+        "Sit with right leg in front, bent 90 degrees (external rotation)",
+        "Left leg behind, bent 90 degrees (internal rotation)",
+        "Sit tall, knees touching ground if possible",
+        "Lift knees and switch leg positions",
+        "Alternate sides fluidly"
+      ],
+      "category": "FLEXIBILITY",
+      "movementPattern": "HIP_ROTATION",
+      "exerciseType": "MOBILITY",
+      "primaryMuscles": [
+        "glutes",
+        "hip_rotators"
+      ],
+      "secondaryMuscles": [
+        "groin",
+        "hip_flexors"
+      ],
+      "muscleActivationMap": {
+        "glutes": 0.65,
+        "hip_rotators": 0.7,
+        "groin": 0.5,
+        "hip_flexors": 0.45
+      },
+      "difficultyLevel": 2,
+      "skillRequirement": 2,
+      "isBeginnerFriendly": true,
+      "equipmentRequired": [],
+      "equipmentOptional": [
+        "mat"
+      ],
+      "suitableLocations": [
+        "home",
+        "gym",
+        "outdoor"
+      ],
+      "repRanges": {
+        "strength": {
+          "min": 8,
+          "max": 12
+        },
+        "hypertrophy": {
+          "min": 12,
+          "max": 16
+        },
+        "endurance": {
+          "min": 16,
+          "max": 24
+        }
+      },
+      "typicalSets": {
+        "min": 2,
+        "max": 3
+      },
+      "restSeconds": {
+        "strength": 20,
+        "hypertrophy": 15,
+        "endurance": 10
+      },
+      "metValue": 2.0,
+      "intensityFactor": 0.18,
+      "contraindications": [
+        "hip_injury",
+        "knee_injury"
+      ],
+      "formCues": [
+        "Knees at 90 degrees",
+        "Sit tall",
+        "Controlled transitions",
+        "Both knees toward floor",
+        "Use hands minimally"
+      ],
+      "commonMistakes": [
+        "Knees not at 90 degrees",
+        "Using hands too much",
+        "Rushing transitions",
+        "Leaning back",
+        "Knees high off ground"
+      ],
+      "easierVariation": "static-90-90",
+      "harderVariation": "90-90-hip-lift",
+      "alternativeExercises": [
+        "pigeon-pose",
+        "figure-four-stretch"
+      ],
+      "tags": [
+        "mobility",
+        "hips",
+        "rotation",
+        "athletic",
+        "functional"
+      ],
+      "suitableGoals": [
+        "FLEXIBILITY",
+        "GENERAL_FITNESS"
+      ],
+      "fitnessLevelSuitability": {
+        "sedentary": 3,
+        "lightlyActive": 4,
+        "moderatelyActive": 5,
+        "veryActive": 5,
+        "athlete": 5
+      },
+      "experienceLevelSuitability": {
+        "never": 3,
+        "lessThan6Mo": 4,
+        "sixTo24Mo": 5,
+        "twoTo5Yr": 5,
+        "fivePlusYr": 5
+      },
+      "goalEffectiveness": {
+        "weightLoss": 0.05,
+        "muscleGain": 0.05,
+        "strength": 0.1,
+        "endurance": 0.15,
+        "flexibility": 0.95,
+        "generalFitness": 0.65
+      },
+      "estimatedTimePerSet": 60,
+      "setupTimeSeconds": 10,
+      "homeCompatibility": 1.0,
+      "gymCompatibility": 1.0,
+      "outdoorCompatibility": 0.9
+    },
+    {
+      "name": "Couch Stretch",
+      "slug": "couch-stretch",
+      "description": "An intense hip flexor and quad stretch performed with the rear foot elevated against a wall or couch. This deep stretch addresses chronic hip flexor tightness from prolonged sitting.",
+      "instructions": [
+        "Place one knee at base of wall, foot pointing up the wall",
+        "Other foot flat on ground in lunge position",
+        "Squeeze glute of back leg, tuck pelvis",
+        "Hold stretch, progressing upright as flexibility allows",
+        "Switch sides"
+      ],
+      "category": "FLEXIBILITY",
+      "movementPattern": "HIP_EXTENSION",
+      "exerciseType": "MOBILITY",
+      "primaryMuscles": [
+        "hip_flexors",
+        "quadriceps"
+      ],
+      "secondaryMuscles": [
+        "rectus_femoris",
+        "psoas"
+      ],
+      "muscleActivationMap": {
+        "hip_flexors": 0.9,
+        "quadriceps": 0.8,
+        "rectus_femoris": 0.75,
+        "psoas": 0.7
+      },
+      "difficultyLevel": 3,
+      "skillRequirement": 2,
+      "isBeginnerFriendly": false,
+      "equipmentRequired": [],
+      "equipmentOptional": [
+        "wall",
+        "couch",
+        "pad"
+      ],
+      "suitableLocations": [
+        "home",
+        "gym"
+      ],
+      "repRanges": {
+        "strength": {
+          "min": 60,
+          "max": 120
+        },
+        "hypertrophy": {
+          "min": 90,
+          "max": 180
+        },
+        "endurance": {
+          "min": 120,
+          "max": 240
+        }
+      },
+      "typicalSets": {
+        "min": 1,
+        "max": 2
+      },
+      "restSeconds": {
+        "strength": 20,
+        "hypertrophy": 15,
+        "endurance": 15
+      },
+      "metValue": 2.0,
+      "intensityFactor": 0.2,
+      "contraindications": [
+        "knee_injury",
+        "hip_injury"
+      ],
+      "formCues": [
+        "Squeeze back glute",
+        "Tuck pelvis under",
+        "Progress slowly upright",
+        "Breathe through intensity",
+        "Pad the knee"
+      ],
+      "commonMistakes": [
+        "Arching lower back",
+        "Not tucking pelvis",
+        "Going too deep too fast",
+        "Knee pain from floor",
+        "Holding breath"
+      ],
+      "easierVariation": "kneeling-hip-flexor-stretch",
+      "harderVariation": "couch-stretch-upright",
+      "alternativeExercises": [
+        "kneeling-hip-flexor-stretch",
+        "pigeon-pose"
+      ],
+      "tags": [
+        "mobility",
+        "hip-flexors",
+        "intense",
+        "desk-worker",
+        "athletes"
+      ],
+      "suitableGoals": [
+        "FLEXIBILITY"
+      ],
+      "fitnessLevelSuitability": {
+        "sedentary": 2,
+        "lightlyActive": 3,
+        "moderatelyActive": 4,
+        "veryActive": 5,
+        "athlete": 5
+      },
+      "experienceLevelSuitability": {
+        "never": 2,
+        "lessThan6Mo": 3,
+        "sixTo24Mo": 4,
+        "twoTo5Yr": 5,
+        "fivePlusYr": 5
+      },
+      "goalEffectiveness": {
+        "weightLoss": 0.02,
+        "muscleGain": 0.03,
+        "strength": 0.08,
+        "endurance": 0.1,
+        "flexibility": 0.98,
+        "generalFitness": 0.6
+      },
+      "estimatedTimePerSet": 120,
+      "setupTimeSeconds": 15,
+      "homeCompatibility": 1.0,
+      "gymCompatibility": 0.9,
+      "outdoorCompatibility": 0.4
+    },
+    {
+      "name": "Thoracic Spine Rotation",
+      "slug": "thoracic-spine-rotation",
+      "description": "A targeted mobility drill rotating the thoracic spine while stabilizing the lower back. This exercise improves mid-back rotation essential for golf, throwing, and daily activities.",
+      "instructions": [
+        "Start on all fours or side-lying position",
+        "Place one hand behind head",
+        "Rotate that elbow toward ceiling, opening chest",
+        "Reverse, bringing elbow toward supporting arm",
+        "Repeat, then switch sides"
+      ],
+      "category": "FLEXIBILITY",
+      "movementPattern": "ROTATION",
+      "exerciseType": "MOBILITY",
+      "primaryMuscles": [
+        "thoracic_spine",
+        "obliques"
+      ],
+      "secondaryMuscles": [
+        "erector_spinae",
+        "shoulders"
+      ],
+      "muscleActivationMap": {
+        "thoracic_spine": 0.75,
+        "obliques": 0.55,
+        "erector_spinae": 0.45,
+        "shoulders": 0.35
+      },
+      "difficultyLevel": 1,
+      "skillRequirement": 1,
+      "isBeginnerFriendly": true,
+      "equipmentRequired": [],
+      "equipmentOptional": [
+        "mat"
+      ],
+      "suitableLocations": [
+        "home",
+        "gym",
+        "outdoor"
+      ],
+      "repRanges": {
+        "strength": {
+          "min": 8,
+          "max": 12
+        },
+        "hypertrophy": {
+          "min": 12,
+          "max": 16
+        },
+        "endurance": {
+          "min": 16,
+          "max": 24
+        }
+      },
+      "typicalSets": {
+        "min": 2,
+        "max": 3
+      },
+      "restSeconds": {
+        "strength": 15,
+        "hypertrophy": 10,
+        "endurance": 10
+      },
+      "metValue": 2.0,
+      "intensityFactor": 0.15,
+      "contraindications": [
+        "spinal_disc_issues"
+      ],
+      "formCues": [
+        "Rotate from mid-back only",
+        "Keep hips stable",
+        "Eyes follow elbow",
+        "Full range of motion",
+        "Breathe into rotation"
+      ],
+      "commonMistakes": [
+        "Rotating from lower back",
+        "Hips moving",
+        "Limited range",
+        "Rushing",
+        "Not following with eyes"
+      ],
+      "easierVariation": "open-book-stretch",
+      "harderVariation": "thoracic-rotation-with-reach",
+      "alternativeExercises": [
+        "thread-the-needle",
+        "cat-cow"
+      ],
+      "tags": [
+        "mobility",
+        "thoracic",
+        "rotation",
+        "posture",
+        "golf"
+      ],
+      "suitableGoals": [
+        "FLEXIBILITY",
+        "GENERAL_FITNESS"
+      ],
+      "fitnessLevelSuitability": {
+        "sedentary": 5,
+        "lightlyActive": 5,
+        "moderatelyActive": 5,
+        "veryActive": 5,
+        "athlete": 5
+      },
+      "experienceLevelSuitability": {
+        "never": 5,
+        "lessThan6Mo": 5,
+        "sixTo24Mo": 5,
+        "twoTo5Yr": 5,
+        "fivePlusYr": 5
+      },
+      "goalEffectiveness": {
+        "weightLoss": 0.03,
+        "muscleGain": 0.03,
+        "strength": 0.08,
+        "endurance": 0.12,
+        "flexibility": 0.95,
+        "generalFitness": 0.65
+      },
+      "estimatedTimePerSet": 45,
+      "setupTimeSeconds": 10,
+      "homeCompatibility": 1.0,
+      "gymCompatibility": 1.0,
+      "outdoorCompatibility": 0.9
+    },
+    {
+      "name": "Wall Ankle Mobility",
+      "slug": "wall-ankle-mobility",
+      "description": "A drill stretching the ankle into dorsiflexion using a wall for resistance. This exercise improves squat depth and reduces risk of ankle-related movement compensations.",
+      "instructions": [
+        "Face wall, place one foot a few inches back",
+        "Keep heel down, drive knee toward wall",
+        "Knee should pass over toes toward wall",
+        "Hold at end range or perform controlled reps",
+        "Switch feet"
+      ],
+      "category": "FLEXIBILITY",
+      "movementPattern": "ANKLE_DORSIFLEXION",
+      "exerciseType": "MOBILITY",
+      "primaryMuscles": [
+        "calves",
+        "tibialis_anterior"
+      ],
+      "secondaryMuscles": [
+        "achilles"
+      ],
+      "muscleActivationMap": {
+        "calves": 0.7,
+        "tibialis_anterior": 0.5,
+        "achilles": 0.6
+      },
+      "difficultyLevel": 1,
+      "skillRequirement": 1,
+      "isBeginnerFriendly": true,
+      "equipmentRequired": [],
+      "equipmentOptional": [
+        "wall"
+      ],
+      "suitableLocations": [
+        "home",
+        "gym",
+        "outdoor"
+      ],
+      "repRanges": {
+        "strength": {
+          "min": 10,
+          "max": 15
+        },
+        "hypertrophy": {
+          "min": 15,
+          "max": 20
+        },
+        "endurance": {
+          "min": 20,
+          "max": 30
+        }
+      },
+      "typicalSets": {
+        "min": 2,
+        "max": 3
+      },
+      "restSeconds": {
+        "strength": 15,
+        "hypertrophy": 10,
+        "endurance": 10
+      },
+      "metValue": 1.8,
+      "intensityFactor": 0.12,
+      "contraindications": [
+        "ankle_injury",
+        "achilles_injury"
+      ],
+      "formCues": [
+        "Heel stays down",
+        "Knee tracks over toes",
+        "Progressive distance from wall",
+        "Control the movement",
+        "Both ankles equally"
+      ],
+      "commonMistakes": [
+        "Heel lifting",
+        "Knee caving in",
+        "Starting too far from wall",
+        "Rushing",
+        "Only one ankle"
+      ],
+      "easierVariation": "seated-ankle-stretch",
+      "harderVariation": "weighted-ankle-mobility",
+      "alternativeExercises": [
+        "ankle-circles",
+        "calf-stretch"
+      ],
+      "tags": [
+        "mobility",
+        "ankle",
+        "squat-prep",
+        "functional",
+        "injury-prevention"
+      ],
+      "suitableGoals": [
+        "FLEXIBILITY",
+        "GENERAL_FITNESS"
+      ],
+      "fitnessLevelSuitability": {
+        "sedentary": 5,
+        "lightlyActive": 5,
+        "moderatelyActive": 5,
+        "veryActive": 5,
+        "athlete": 5
+      },
+      "experienceLevelSuitability": {
+        "never": 5,
+        "lessThan6Mo": 5,
+        "sixTo24Mo": 5,
+        "twoTo5Yr": 5,
+        "fivePlusYr": 5
+      },
+      "goalEffectiveness": {
+        "weightLoss": 0.02,
+        "muscleGain": 0.02,
+        "strength": 0.08,
+        "endurance": 0.1,
+        "flexibility": 0.94,
+        "generalFitness": 0.58
+      },
+      "estimatedTimePerSet": 40,
+      "setupTimeSeconds": 5,
+      "homeCompatibility": 1.0,
+      "gymCompatibility": 1.0,
+      "outdoorCompatibility": 1.0
+    },
+    {
+      "name": "Wrist Circles",
+      "slug": "wrist-circles",
+      "description": "A mobility exercise rotating the wrists in circular motions to improve range of motion. Essential warm-up for any pressing, gripping, or wrist-loading activities.",
+      "instructions": [
+        "Extend arms in front or interlock fingers",
+        "Make circles with wrists, moving hands",
+        "Perform 10-15 circles in each direction",
+        "Vary size of circles",
+        "Include flexion, extension, and rotation"
+      ],
+      "category": "FLEXIBILITY",
+      "movementPattern": "ROTATION",
+      "exerciseType": "MOBILITY",
+      "primaryMuscles": [
+        "forearms"
+      ],
+      "secondaryMuscles": [
+        "wrist_flexors",
+        "wrist_extensors"
+      ],
+      "muscleActivationMap": {
+        "forearms": 0.5,
+        "wrist_flexors": 0.45,
+        "wrist_extensors": 0.45
+      },
+      "difficultyLevel": 1,
+      "skillRequirement": 1,
+      "isBeginnerFriendly": true,
+      "equipmentRequired": [],
+      "equipmentOptional": [],
+      "suitableLocations": [
+        "home",
+        "gym",
+        "outdoor"
+      ],
+      "repRanges": {
+        "strength": {
+          "min": 10,
+          "max": 15
+        },
+        "hypertrophy": {
+          "min": 15,
+          "max": 20
+        },
+        "endurance": {
+          "min": 20,
+          "max": 30
+        }
+      },
+      "typicalSets": {
+        "min": 2,
+        "max": 3
+      },
+      "restSeconds": {
+        "strength": 10,
+        "hypertrophy": 5,
+        "endurance": 5
+      },
+      "metValue": 1.5,
+      "intensityFactor": 0.08,
+      "contraindications": [
+        "wrist_injury"
+      ],
+      "formCues": [
+        "Full range circles",
+        "Both directions",
+        "Vary circle size",
+        "Include all planes",
+        "Relaxed shoulders"
+      ],
+      "commonMistakes": [
+        "Only one direction",
+        "Too fast",
+        "Limited range",
+        "Tensing arms",
+        "Forgetting one wrist"
+      ],
+      "easierVariation": null,
+      "harderVariation": "weighted-wrist-circles",
+      "alternativeExercises": [
+        "wrist-flexion-extension",
+        "prayer-stretch"
+      ],
+      "tags": [
+        "mobility",
+        "wrists",
+        "warm-up",
+        "office-friendly",
+        "typing-relief"
+      ],
+      "suitableGoals": [
+        "FLEXIBILITY",
+        "GENERAL_FITNESS"
+      ],
+      "fitnessLevelSuitability": {
+        "sedentary": 5,
+        "lightlyActive": 5,
+        "moderatelyActive": 5,
+        "veryActive": 5,
+        "athlete": 5
+      },
+      "experienceLevelSuitability": {
+        "never": 5,
+        "lessThan6Mo": 5,
+        "sixTo24Mo": 5,
+        "twoTo5Yr": 5,
+        "fivePlusYr": 5
+      },
+      "goalEffectiveness": {
+        "weightLoss": 0.01,
+        "muscleGain": 0.02,
+        "strength": 0.05,
+        "endurance": 0.08,
+        "flexibility": 0.9,
+        "generalFitness": 0.5
+      },
+      "estimatedTimePerSet": 25,
+      "setupTimeSeconds": 0,
+      "homeCompatibility": 1.0,
+      "gymCompatibility": 1.0,
+      "outdoorCompatibility": 1.0
+    },
+    {
+      "name": "Shoulder Dislocates",
+      "slug": "shoulder-dislocates",
+      "description": "A shoulder mobility drill passing a stick or band in an arc from front to back over the head. This exercise improves shoulder flexion and extension range despite its alarming name.",
+      "instructions": [
+        "Hold stick or band with wide grip in front",
+        "Keeping arms straight, raise overhead",
+        "Continue arc until stick/band is behind you",
+        "Reverse the motion to return to start",
+        "Narrow grip as flexibility improves"
+      ],
+      "category": "FLEXIBILITY",
+      "movementPattern": "SHOULDER_ROTATION",
+      "exerciseType": "MOBILITY",
+      "primaryMuscles": [
+        "shoulders"
+      ],
+      "secondaryMuscles": [
+        "chest",
+        "upper_back",
+        "rotator_cuff"
+      ],
+      "muscleActivationMap": {
+        "shoulders": 0.7,
+        "chest": 0.5,
+        "upper_back": 0.5,
+        "rotator_cuff": 0.55
+      },
+      "difficultyLevel": 2,
+      "skillRequirement": 2,
+      "isBeginnerFriendly": true,
+      "equipmentRequired": [],
+      "equipmentOptional": [
+        "pvc_pipe",
+        "resistance_band",
+        "broomstick"
+      ],
+      "suitableLocations": [
+        "home",
+        "gym",
+        "outdoor"
+      ],
+      "repRanges": {
+        "strength": {
+          "min": 10,
+          "max": 15
+        },
+        "hypertrophy": {
+          "min": 15,
+          "max": 20
+        },
+        "endurance": {
+          "min": 20,
+          "max": 30
+        }
+      },
+      "typicalSets": {
+        "min": 2,
+        "max": 3
+      },
+      "restSeconds": {
+        "strength": 15,
+        "hypertrophy": 10,
+        "endurance": 10
+      },
+      "metValue": 2.0,
+      "intensityFactor": 0.15,
+      "contraindications": [
+        "shoulder_injury",
+        "rotator_cuff_injury"
+      ],
+      "formCues": [
+        "Keep arms straight",
+        "Wide grip to start",
+        "Slow controlled motion",
+        "Don't force range",
+        "Progress grip width slowly"
+      ],
+      "commonMistakes": [
+        "Bending elbows",
+        "Grip too narrow initially",
+        "Rushing the movement",
+        "Forcing through pain",
+        "Shrugging shoulders"
+      ],
+      "easierVariation": "band-shoulder-stretch",
+      "harderVariation": "narrow-grip-dislocates",
+      "alternativeExercises": [
+        "arm-circles",
+        "wall-slides"
+      ],
+      "tags": [
+        "mobility",
+        "shoulders",
+        "overhead",
+        "warm-up",
+        "weightlifting"
+      ],
+      "suitableGoals": [
+        "FLEXIBILITY",
+        "GENERAL_FITNESS"
+      ],
+      "fitnessLevelSuitability": {
+        "sedentary": 3,
+        "lightlyActive": 4,
+        "moderatelyActive": 5,
+        "veryActive": 5,
+        "athlete": 5
+      },
+      "experienceLevelSuitability": {
+        "never": 3,
+        "lessThan6Mo": 4,
+        "sixTo24Mo": 5,
+        "twoTo5Yr": 5,
+        "fivePlusYr": 5
+      },
+      "goalEffectiveness": {
+        "weightLoss": 0.02,
+        "muscleGain": 0.03,
+        "strength": 0.1,
+        "endurance": 0.12,
+        "flexibility": 0.95,
+        "generalFitness": 0.62
+      },
+      "estimatedTimePerSet": 40,
+      "setupTimeSeconds": 10,
+      "homeCompatibility": 1.0,
+      "gymCompatibility": 1.0,
+      "outdoorCompatibility": 1.0
+    },
+    {
+      "name": "Deep Squat Hold",
+      "slug": "deep-squat-hold",
+      "description": "A primal resting position holding the bottom of a squat to improve hip, ankle, and thoracic mobility. This fundamental position is natural for humans but lost with modern chair-sitting.",
+      "instructions": [
+        "Stand with feet shoulder-width or wider",
+        "Squat down as deep as possible",
+        "Keep heels on ground (elevate if needed)",
+        "Hold position, working on depth over time",
+        "Use support initially if needed"
+      ],
+      "category": "FLEXIBILITY",
+      "movementPattern": "SQUAT",
+      "exerciseType": "MOBILITY",
+      "primaryMuscles": [
+        "hip_flexors",
+        "glutes",
+        "calves"
+      ],
+      "secondaryMuscles": [
+        "quadriceps",
+        "lower_back",
+        "ankles"
+      ],
+      "muscleActivationMap": {
+        "hip_flexors": 0.6,
+        "glutes": 0.55,
+        "calves": 0.6,
+        "quadriceps": 0.5,
+        "ankles": 0.65
+      },
+      "difficultyLevel": 2,
+      "skillRequirement": 2,
+      "isBeginnerFriendly": true,
+      "equipmentRequired": [],
+      "equipmentOptional": [
+        "heel_wedge",
+        "post_for_support"
+      ],
+      "suitableLocations": [
+        "home",
+        "gym",
+        "outdoor"
+      ],
+      "repRanges": {
+        "strength": {
+          "min": 30,
+          "max": 60
+        },
+        "hypertrophy": {
+          "min": 60,
+          "max": 120
+        },
+        "endurance": {
+          "min": 120,
+          "max": 300
+        }
+      },
+      "typicalSets": {
+        "min": 2,
+        "max": 4
+      },
+      "restSeconds": {
+        "strength": 20,
+        "hypertrophy": 15,
+        "endurance": 15
+      },
+      "metValue": 2.0,
+      "intensityFactor": 0.18,
+      "contraindications": [
+        "knee_injury",
+        "ankle_injury"
+      ],
+      "formCues": [
+        "Heels down if possible",
+        "Chest up",
+        "Knees track over toes",
+        "Breathe deeply",
+        "Relax into position"
+      ],
+      "commonMistakes": [
+        "Heels lifting",
+        "Falling backward",
+        "Knees caving",
+        "Rounding excessively",
+        "Holding breath"
+      ],
+      "easierVariation": "supported-squat-hold",
+      "harderVariation": "overhead-squat-hold",
+      "alternativeExercises": [
+        "goblet-squat-hold",
+        "cossack-squat"
+      ],
+      "tags": [
+        "mobility",
+        "primal",
+        "hips",
+        "ankles",
+        "functional"
+      ],
+      "suitableGoals": [
+        "FLEXIBILITY",
+        "GENERAL_FITNESS"
+      ],
+      "fitnessLevelSuitability": {
+        "sedentary": 3,
+        "lightlyActive": 4,
+        "moderatelyActive": 5,
+        "veryActive": 5,
+        "athlete": 5
+      },
+      "experienceLevelSuitability": {
+        "never": 3,
+        "lessThan6Mo": 4,
+        "sixTo24Mo": 5,
+        "twoTo5Yr": 5,
+        "fivePlusYr": 5
+      },
+      "goalEffectiveness": {
+        "weightLoss": 0.05,
+        "muscleGain": 0.08,
+        "strength": 0.15,
+        "endurance": 0.18,
+        "flexibility": 0.95,
+        "generalFitness": 0.7
+      },
+      "estimatedTimePerSet": 90,
+      "setupTimeSeconds": 5,
+      "homeCompatibility": 1.0,
+      "gymCompatibility": 1.0,
+      "outdoorCompatibility": 1.0
+    },
+    {
+      "name": "Jefferson Curl",
+      "slug": "jefferson-curl",
+      "description": "A controlled spinal flexion exercise rolling down vertebra by vertebra with weight. This advanced mobility drill improves spinal segmentation and hamstring flexibility progressively.",
+      "instructions": [
+        "Stand on elevated surface, light weight in hands",
+        "Tuck chin, round upper back first",
+        "Continue rolling down one vertebra at a time",
+        "Let weight pull you into deep forward fold",
+        "Reverse, uncurling from bottom up"
+      ],
+      "category": "FLEXIBILITY",
+      "movementPattern": "SPINAL_FLEXION",
+      "exerciseType": "MOBILITY",
+      "primaryMuscles": [
+        "erector_spinae",
+        "hamstrings"
+      ],
+      "secondaryMuscles": [
+        "glutes",
+        "calves"
+      ],
+      "muscleActivationMap": {
+        "erector_spinae": 0.7,
+        "hamstrings": 0.75,
+        "glutes": 0.4,
+        "calves": 0.35
+      },
+      "difficultyLevel": 3,
+      "skillRequirement": 3,
+      "isBeginnerFriendly": false,
+      "equipmentRequired": [
+        "light_weight"
+      ],
+      "equipmentOptional": [
+        "box",
+        "step"
+      ],
+      "suitableLocations": [
+        "gym",
+        "home"
+      ],
+      "repRanges": {
+        "strength": {
+          "min": 5,
+          "max": 8
+        },
+        "hypertrophy": {
+          "min": 8,
+          "max": 12
+        },
+        "endurance": {
+          "min": 12,
+          "max": 15
+        }
+      },
+      "typicalSets": {
+        "min": 2,
+        "max": 3
+      },
+      "restSeconds": {
+        "strength": 30,
+        "hypertrophy": 20,
+        "endurance": 15
+      },
+      "metValue": 2.5,
+      "intensityFactor": 0.25,
+      "contraindications": [
+        "lower_back_injury",
+        "spinal_disc_issues",
+        "acute_back_pain"
+      ],
+      "formCues": [
+        "Start with very light weight",
+        "Control every vertebra",
+        "Slow movement",
+        "Don't force range",
+        "Progress weight slowly over months"
+      ],
+      "commonMistakes": [
+        "Too heavy too soon",
+        "Moving too fast",
+        "Not segmenting spine",
+        "Forcing depth",
+        "Jerky movements"
+      ],
+      "easierVariation": "bodyweight-forward-fold",
+      "harderVariation": "weighted-jefferson-curl",
+      "alternativeExercises": [
+        "standing-forward-fold",
+        "seated-forward-fold"
+      ],
+      "tags": [
+        "mobility",
+        "advanced",
+        "spine",
+        "hamstrings",
+        "progressive"
+      ],
+      "suitableGoals": [
+        "FLEXIBILITY"
+      ],
+      "fitnessLevelSuitability": {
+        "sedentary": 1,
+        "lightlyActive": 2,
+        "moderatelyActive": 3,
+        "veryActive": 4,
+        "athlete": 5
+      },
+      "experienceLevelSuitability": {
+        "never": 1,
+        "lessThan6Mo": 2,
+        "sixTo24Mo": 3,
+        "twoTo5Yr": 4,
+        "fivePlusYr": 5
+      },
+      "goalEffectiveness": {
+        "weightLoss": 0.02,
+        "muscleGain": 0.05,
+        "strength": 0.15,
+        "endurance": 0.12,
+        "flexibility": 0.95,
+        "generalFitness": 0.55
+      },
+      "estimatedTimePerSet": 60,
+      "setupTimeSeconds": 20,
+      "homeCompatibility": 0.8,
+      "gymCompatibility": 1.0,
+      "outdoorCompatibility": 0.5
+    },
+    {
+      "name": "Prone Scorpion",
+      "slug": "prone-scorpion",
+      "description": "A prone spinal rotation stretch reaching one foot toward the opposite hand behind the body. This dynamic mobility drill opens the hip flexors and rotates the thoracic spine.",
+      "instructions": [
+        "Lie face down, arms extended to sides at shoulder height",
+        "Keeping shoulders down, lift right leg",
+        "Rotate and reach right foot toward left hand",
+        "Feel stretch in hip flexor, chest, and spine",
+        "Return and repeat on other side"
+      ],
+      "category": "FLEXIBILITY",
+      "movementPattern": "ROTATION",
+      "exerciseType": "MOBILITY",
+      "primaryMuscles": [
+        "hip_flexors",
+        "thoracic_spine"
+      ],
+      "secondaryMuscles": [
+        "glutes",
+        "chest",
+        "obliques"
+      ],
+      "muscleActivationMap": {
+        "hip_flexors": 0.65,
+        "thoracic_spine": 0.6,
+        "glutes": 0.5,
+        "chest": 0.45,
+        "obliques": 0.45
+      },
+      "difficultyLevel": 2,
+      "skillRequirement": 2,
+      "isBeginnerFriendly": true,
+      "equipmentRequired": [],
+      "equipmentOptional": [
+        "mat"
+      ],
+      "suitableLocations": [
+        "home",
+        "gym"
+      ],
+      "repRanges": {
+        "strength": {
+          "min": 6,
+          "max": 10
+        },
+        "hypertrophy": {
+          "min": 10,
+          "max": 14
+        },
+        "endurance": {
+          "min": 14,
+          "max": 20
+        }
+      },
+      "typicalSets": {
+        "min": 2,
+        "max": 3
+      },
+      "restSeconds": {
+        "strength": 15,
+        "hypertrophy": 10,
+        "endurance": 10
+      },
+      "metValue": 2.0,
+      "intensityFactor": 0.18,
+      "contraindications": [
+        "lower_back_injury",
+        "shoulder_injury"
+      ],
+      "formCues": [
+        "Keep shoulders on ground",
+        "Control the rotation",
+        "Reach foot toward opposite hand",
+        "Don't force range",
+        "Breathe into stretch"
+      ],
+      "commonMistakes": [
+        "Shoulders lifting",
+        "Forcing too deep",
+        "Rushing",
+        "Not reaching far enough",
+        "Holding breath"
+      ],
+      "easierVariation": "supine-scorpion",
+      "harderVariation": "weighted-scorpion",
+      "alternativeExercises": [
+        "thoracic-spine-rotation",
+        "windshield-wipers"
+      ],
+      "tags": [
+        "mobility",
+        "rotation",
+        "hip-flexors",
+        "thoracic",
+        "dynamic"
+      ],
+      "suitableGoals": [
+        "FLEXIBILITY",
+        "GENERAL_FITNESS"
+      ],
+      "fitnessLevelSuitability": {
+        "sedentary": 3,
+        "lightlyActive": 4,
+        "moderatelyActive": 5,
+        "veryActive": 5,
+        "athlete": 5
+      },
+      "experienceLevelSuitability": {
+        "never": 3,
+        "lessThan6Mo": 4,
+        "sixTo24Mo": 5,
+        "twoTo5Yr": 5,
+        "fivePlusYr": 5
+      },
+      "goalEffectiveness": {
+        "weightLoss": 0.03,
+        "muscleGain": 0.03,
+        "strength": 0.08,
+        "endurance": 0.12,
+        "flexibility": 0.94,
+        "generalFitness": 0.62
+      },
+      "estimatedTimePerSet": 50,
+      "setupTimeSeconds": 10,
+      "homeCompatibility": 1.0,
+      "gymCompatibility": 1.0,
+      "outdoorCompatibility": 0.8
+    },
+    {
+      "name": "Thread the Needle",
+      "slug": "thread-the-needle",
+      "description": "A quadruped thoracic rotation stretch threading one arm under the body. This gentle mobility drill opens the upper back and shoulder while improving spinal rotation.",
+      "instructions": [
+        "Start on all fours",
+        "Reach right arm under body toward left side",
+        "Let right shoulder and temple rest on ground",
+        "Left arm can stay planted or reach overhead",
+        "Hold, then return and switch sides"
+      ],
+      "category": "FLEXIBILITY",
+      "movementPattern": "ROTATION",
+      "exerciseType": "MOBILITY",
+      "primaryMuscles": [
+        "thoracic_spine",
+        "shoulders"
+      ],
+      "secondaryMuscles": [
+        "upper_back",
+        "obliques"
+      ],
+      "muscleActivationMap": {
+        "thoracic_spine": 0.7,
+        "shoulders": 0.55,
+        "upper_back": 0.5,
+        "obliques": 0.4
+      },
+      "difficultyLevel": 1,
+      "skillRequirement": 1,
+      "isBeginnerFriendly": true,
+      "equipmentRequired": [],
+      "equipmentOptional": [
+        "mat"
+      ],
+      "suitableLocations": [
+        "home",
+        "gym",
+        "outdoor"
+      ],
+      "repRanges": {
+        "strength": {
+          "min": 30,
+          "max": 45
+        },
+        "hypertrophy": {
+          "min": 45,
+          "max": 60
+        },
+        "endurance": {
+          "min": 60,
+          "max": 90
+        }
+      },
+      "typicalSets": {
+        "min": 2,
+        "max": 3
+      },
+      "restSeconds": {
+        "strength": 15,
+        "hypertrophy": 10,
+        "endurance": 10
+      },
+      "metValue": 1.8,
+      "intensityFactor": 0.12,
+      "contraindications": [
+        "shoulder_injury"
+      ],
+      "formCues": [
+        "Reach far under body",
+        "Rest on shoulder and temple",
+        "Breathe into upper back",
+        "Keep hips stable",
+        "Equal time each side"
+      ],
+      "commonMistakes": [
+        "Not reaching far enough",
+        "Hips shifting",
+        "Holding breath",
+        "Rushing",
+        "Unequal time per side"
+      ],
+      "easierVariation": "supine-twist",
+      "harderVariation": "thread-the-needle-with-reach",
+      "alternativeExercises": [
+        "thoracic-spine-rotation",
+        "cat-cow"
+      ],
+      "tags": [
+        "mobility",
+        "thoracic",
+        "gentle",
+        "shoulders",
+        "rotation"
+      ],
+      "suitableGoals": [
+        "FLEXIBILITY",
+        "GENERAL_FITNESS"
+      ],
+      "fitnessLevelSuitability": {
+        "sedentary": 5,
+        "lightlyActive": 5,
+        "moderatelyActive": 5,
+        "veryActive": 5,
+        "athlete": 5
+      },
+      "experienceLevelSuitability": {
+        "never": 5,
+        "lessThan6Mo": 5,
+        "sixTo24Mo": 5,
+        "twoTo5Yr": 5,
+        "fivePlusYr": 5
+      },
+      "goalEffectiveness": {
+        "weightLoss": 0.02,
+        "muscleGain": 0.02,
+        "strength": 0.05,
+        "endurance": 0.1,
+        "flexibility": 0.94,
+        "generalFitness": 0.6
+      },
+      "estimatedTimePerSet": 60,
+      "setupTimeSeconds": 10,
+      "homeCompatibility": 1.0,
+      "gymCompatibility": 1.0,
+      "outdoorCompatibility": 0.85
+    }
+  ]
