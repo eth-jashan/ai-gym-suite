@@ -1,0 +1,3897 @@
+[
+    {
+      "name": "Barbell Back Squat High Bar",
+      "slug": "barbell-back-squat-high-bar",
+      "description": "The foundational compound lower body exercise with the barbell positioned on the upper traps, promoting a more upright torso and greater quad emphasis. This Olympic-style squat allows for deep knee flexion and is essential for building overall leg strength and mass.",
+      "instructions": [
+        "Position barbell on upper traps, grip bar wider than shoulders with elbows down",
+        "Unrack bar, step back and set feet shoulder-width apart, toes slightly out",
+        "Brace core, initiate descent by breaking at hips and knees simultaneously",
+        "Descend until hip crease is below knee level, keeping torso upright",
+        "Drive through feet to stand, extending hips and knees together"
+      ],
+      "category": "STRENGTH",
+      "movementPattern": "SQUAT",
+      "exerciseType": "COMPOUND",
+      "primaryMuscles": [
+        "quads",
+        "glutes"
+      ],
+      "secondaryMuscles": [
+        "hamstrings",
+        "core",
+        "back"
+      ],
+      "muscleActivationMap": {
+        "quads": 0.92,
+        "glutes": 0.85,
+        "hamstrings": 0.55,
+        "core": 0.6,
+        "back": 0.5
+      },
+      "difficultyLevel": 4,
+      "skillRequirement": 4,
+      "isBeginnerFriendly": false,
+      "equipmentRequired": [
+        "barbell",
+        "squat_rack"
+      ],
+      "equipmentOptional": [
+        "belt"
+      ],
+      "suitableLocations": [
+        "gym"
+      ],
+      "repRanges": {
+        "strength": {
+          "min": 1,
+          "max": 5
+        },
+        "hypertrophy": {
+          "min": 6,
+          "max": 12
+        },
+        "endurance": {
+          "min": 15,
+          "max": 20
+        }
+      },
+      "typicalSets": {
+        "min": 3,
+        "max": 5
+      },
+      "restSeconds": {
+        "strength": 240,
+        "hypertrophy": 120,
+        "endurance": 75
+      },
+      "metValue": 8.0,
+      "intensityFactor": 0.95,
+      "contraindications": [
+        "knee_injury",
+        "lower_back_injury",
+        "hip_injury"
+      ],
+      "formCues": [
+        "Keep chest up throughout",
+        "Knees track over toes",
+        "Full depth - hip crease below knee",
+        "Drive knees out",
+        "Maintain neutral spine"
+      ],
+      "commonMistakes": [
+        "Knees caving inward",
+        "Forward lean/good morning squat",
+        "Rising on toes",
+        "Cutting depth short",
+        "Butt wink at bottom"
+      ],
+      "easierVariation": "goblet-squat",
+      "harderVariation": "front-squat",
+      "alternativeExercises": [
+        "front-squat",
+        "leg-press",
+        "hack-squat-machine"
+      ],
+      "tags": [
+        "compound",
+        "squat",
+        "quads",
+        "barbell",
+        "fundamental",
+        "powerlifting"
+      ],
+      "suitableGoals": [
+        "STRENGTH",
+        "MUSCLE_GAIN"
+      ],
+      "fitnessLevelSuitability": {
+        "sedentary": 1,
+        "lightlyActive": 2,
+        "moderatelyActive": 4,
+        "veryActive": 5,
+        "athlete": 5
+      },
+      "experienceLevelSuitability": {
+        "never": 1,
+        "lessThan6Mo": 2,
+        "sixTo24Mo": 4,
+        "twoTo5Yr": 5,
+        "fivePlusYr": 5
+      },
+      "goalEffectiveness": {
+        "weightLoss": 0.7,
+        "muscleGain": 0.95,
+        "strength": 1.0,
+        "endurance": 0.4,
+        "flexibility": 0.3,
+        "generalFitness": 0.85
+      },
+      "estimatedTimePerSet": 50,
+      "setupTimeSeconds": 90,
+      "homeCompatibility": 0.2,
+      "gymCompatibility": 1.0,
+      "outdoorCompatibility": 0.0
+    },
+    {
+      "name": "Barbell Back Squat Low Bar",
+      "slug": "barbell-back-squat-low-bar",
+      "description": "A powerlifting-style squat variation with the barbell positioned lower on the rear deltoids, creating greater forward lean and posterior chain engagement. This position typically allows for heavier loads and emphasizes hip drive.",
+      "instructions": [
+        "Position barbell across rear deltoids below the spine of scapula",
+        "Grip bar with narrower grip, wrists straight, elbows up and back",
+        "Unrack and set feet slightly wider than shoulder width",
+        "Initiate by pushing hips back, then bend knees",
+        "Descend to parallel or below, drive hips forward to ascend"
+      ],
+      "category": "STRENGTH",
+      "movementPattern": "SQUAT",
+      "exerciseType": "COMPOUND",
+      "primaryMuscles": [
+        "quads",
+        "glutes",
+        "hamstrings"
+      ],
+      "secondaryMuscles": [
+        "back",
+        "core"
+      ],
+      "muscleActivationMap": {
+        "quads": 0.85,
+        "glutes": 0.9,
+        "hamstrings": 0.7,
+        "back": 0.6,
+        "core": 0.6
+      },
+      "difficultyLevel": 4,
+      "skillRequirement": 4,
+      "isBeginnerFriendly": false,
+      "equipmentRequired": [
+        "barbell",
+        "squat_rack"
+      ],
+      "equipmentOptional": [
+        "belt"
+      ],
+      "suitableLocations": [
+        "gym"
+      ],
+      "repRanges": {
+        "strength": {
+          "min": 1,
+          "max": 5
+        },
+        "hypertrophy": {
+          "min": 5,
+          "max": 10
+        },
+        "endurance": {
+          "min": 12,
+          "max": 15
+        }
+      },
+      "typicalSets": {
+        "min": 3,
+        "max": 5
+      },
+      "restSeconds": {
+        "strength": 240,
+        "hypertrophy": 150,
+        "endurance": 90
+      },
+      "metValue": 8.0,
+      "intensityFactor": 0.95,
+      "contraindications": [
+        "knee_injury",
+        "lower_back_injury",
+        "hip_injury",
+        "shoulder_injury"
+      ],
+      "formCues": [
+        "Bar sits on rear delts, not traps",
+        "More hip hinge than high bar",
+        "Wider stance typically used",
+        "Sit back into the squat",
+        "Drive hips through at top"
+      ],
+      "commonMistakes": [
+        "Bar sliding down back",
+        "Excessive forward lean",
+        "Wrist strain from grip",
+        "Not sitting back enough",
+        "Losing upper back tightness"
+      ],
+      "easierVariation": "barbell-back-squat-high-bar",
+      "harderVariation": "pause-squat",
+      "alternativeExercises": [
+        "barbell-back-squat-high-bar",
+        "box-squat",
+        "leg-press"
+      ],
+      "tags": [
+        "compound",
+        "squat",
+        "quads",
+        "glutes",
+        "barbell",
+        "powerlifting"
+      ],
+      "suitableGoals": [
+        "STRENGTH",
+        "MUSCLE_GAIN"
+      ],
+      "fitnessLevelSuitability": {
+        "sedentary": 1,
+        "lightlyActive": 1,
+        "moderatelyActive": 3,
+        "veryActive": 5,
+        "athlete": 5
+      },
+      "experienceLevelSuitability": {
+        "never": 1,
+        "lessThan6Mo": 1,
+        "sixTo24Mo": 3,
+        "twoTo5Yr": 5,
+        "fivePlusYr": 5
+      },
+      "goalEffectiveness": {
+        "weightLoss": 0.65,
+        "muscleGain": 0.9,
+        "strength": 1.0,
+        "endurance": 0.35,
+        "flexibility": 0.25,
+        "generalFitness": 0.8
+      },
+      "estimatedTimePerSet": 50,
+      "setupTimeSeconds": 90,
+      "homeCompatibility": 0.2,
+      "gymCompatibility": 1.0,
+      "outdoorCompatibility": 0.0
+    },
+    {
+      "name": "Front Squat",
+      "slug": "front-squat",
+      "description": "An advanced squat variation with the barbell resting on the front deltoids and clavicles, requiring exceptional mobility and core strength. The front-loaded position forces a more upright torso, maximizing quadriceps engagement.",
+      "instructions": [
+        "Position barbell on front deltoids with clean grip or crossed-arm grip",
+        "Keep elbows high, upper arms parallel to floor throughout",
+        "Set feet shoulder-width apart, toes slightly out",
+        "Descend by breaking at knees and hips, keeping torso vertical",
+        "Drive through heels to stand, maintaining high elbow position"
+      ],
+      "category": "STRENGTH",
+      "movementPattern": "SQUAT",
+      "exerciseType": "COMPOUND",
+      "primaryMuscles": [
+        "quads"
+      ],
+      "secondaryMuscles": [
+        "glutes",
+        "core",
+        "back"
+      ],
+      "muscleActivationMap": {
+        "quads": 0.95,
+        "glutes": 0.75,
+        "core": 0.7,
+        "back": 0.55
+      },
+      "difficultyLevel": 5,
+      "skillRequirement": 5,
+      "isBeginnerFriendly": false,
+      "equipmentRequired": [
+        "barbell",
+        "squat_rack"
+      ],
+      "equipmentOptional": [],
+      "suitableLocations": [
+        "gym"
+      ],
+      "repRanges": {
+        "strength": {
+          "min": 2,
+          "max": 5
+        },
+        "hypertrophy": {
+          "min": 6,
+          "max": 10
+        },
+        "endurance": {
+          "min": 12,
+          "max": 15
+        }
+      },
+      "typicalSets": {
+        "min": 3,
+        "max": 5
+      },
+      "restSeconds": {
+        "strength": 180,
+        "hypertrophy": 120,
+        "endurance": 75
+      },
+      "metValue": 7.5,
+      "intensityFactor": 0.9,
+      "contraindications": [
+        "knee_injury",
+        "wrist_injury",
+        "shoulder_injury",
+        "upper_back_injury"
+      ],
+      "formCues": [
+        "Elbows HIGH - upper arms parallel to floor",
+        "Stay upright, don't lean forward",
+        "Deep squat position",
+        "Drive knees forward over toes",
+        "Core braced throughout"
+      ],
+      "commonMistakes": [
+        "Elbows dropping",
+        "Forward lean",
+        "Wrist pain from mobility",
+        "Bar rolling forward",
+        "Not enough depth"
+      ],
+      "easierVariation": "barbell-back-squat-high-bar",
+      "harderVariation": "pistol-squat",
+      "alternativeExercises": [
+        "goblet-squat",
+        "barbell-back-squat-high-bar",
+        "leg-press"
+      ],
+      "tags": [
+        "compound",
+        "squat",
+        "quads",
+        "barbell",
+        "olympic",
+        "advanced"
+      ],
+      "suitableGoals": [
+        "STRENGTH",
+        "MUSCLE_GAIN"
+      ],
+      "fitnessLevelSuitability": {
+        "sedentary": 1,
+        "lightlyActive": 1,
+        "moderatelyActive": 3,
+        "veryActive": 5,
+        "athlete": 5
+      },
+      "experienceLevelSuitability": {
+        "never": 1,
+        "lessThan6Mo": 1,
+        "sixTo24Mo": 3,
+        "twoTo5Yr": 5,
+        "fivePlusYr": 5
+      },
+      "goalEffectiveness": {
+        "weightLoss": 0.6,
+        "muscleGain": 0.9,
+        "strength": 0.92,
+        "endurance": 0.35,
+        "flexibility": 0.4,
+        "generalFitness": 0.78
+      },
+      "estimatedTimePerSet": 50,
+      "setupTimeSeconds": 75,
+      "homeCompatibility": 0.2,
+      "gymCompatibility": 1.0,
+      "outdoorCompatibility": 0.0
+    },
+    {
+      "name": "Goblet Squat",
+      "slug": "goblet-squat",
+      "description": "A beginner-friendly squat variation holding a dumbbell or kettlebell at chest level that naturally promotes proper squat mechanics and an upright torso. The front-loaded weight serves as a counterbalance and teaches ideal squat patterning.",
+      "instructions": [
+        "Hold dumbbell vertically at chest, cupping one end with both hands",
+        "Set feet shoulder-width apart, toes pointed slightly outward",
+        "Push hips back and bend knees to descend into squat",
+        "Keep chest up, elbows inside knees at bottom position",
+        "Drive through whole foot to return to standing"
+      ],
+      "category": "STRENGTH",
+      "movementPattern": "SQUAT",
+      "exerciseType": "COMPOUND",
+      "primaryMuscles": [
+        "quads",
+        "glutes"
+      ],
+      "secondaryMuscles": [
+        "core",
+        "back"
+      ],
+      "muscleActivationMap": {
+        "quads": 0.85,
+        "glutes": 0.78,
+        "core": 0.55,
+        "back": 0.4
+      },
+      "difficultyLevel": 2,
+      "skillRequirement": 2,
+      "isBeginnerFriendly": true,
+      "equipmentRequired": [
+        "dumbbell"
+      ],
+      "equipmentOptional": [
+        "kettlebell"
+      ],
+      "suitableLocations": [
+        "gym",
+        "home"
+      ],
+      "repRanges": {
+        "strength": {
+          "min": 6,
+          "max": 10
+        },
+        "hypertrophy": {
+          "min": 10,
+          "max": 15
+        },
+        "endurance": {
+          "min": 20,
+          "max": 30
+        }
+      },
+      "typicalSets": {
+        "min": 3,
+        "max": 4
+      },
+      "restSeconds": {
+        "strength": 120,
+        "hypertrophy": 75,
+        "endurance": 45
+      },
+      "metValue": 6.0,
+      "intensityFactor": 0.65,
+      "contraindications": [
+        "knee_injury"
+      ],
+      "formCues": [
+        "Chest stays up throughout",
+        "Elbows push knees out at bottom",
+        "Full depth squat",
+        "Weight on heels and midfoot",
+        "Controlled descent"
+      ],
+      "commonMistakes": [
+        "Rounding upper back",
+        "Not going deep enough",
+        "Rising on toes",
+        "Knees caving in",
+        "Weight drifting forward"
+      ],
+      "easierVariation": "bodyweight-squat",
+      "harderVariation": "barbell-back-squat-high-bar",
+      "alternativeExercises": [
+        "dumbbell-squat",
+        "bodyweight-squat",
+        "leg-press"
+      ],
+      "tags": [
+        "compound",
+        "squat",
+        "quads",
+        "dumbbell",
+        "beginner-friendly"
+      ],
+      "suitableGoals": [
+        "MUSCLE_GAIN",
+        "STRENGTH",
+        "GENERAL_FITNESS"
+      ],
+      "fitnessLevelSuitability": {
+        "sedentary": 3,
+        "lightlyActive": 4,
+        "moderatelyActive": 5,
+        "veryActive": 5,
+        "athlete": 4
+      },
+      "experienceLevelSuitability": {
+        "never": 4,
+        "lessThan6Mo": 5,
+        "sixTo24Mo": 5,
+        "twoTo5Yr": 4,
+        "fivePlusYr": 3
+      },
+      "goalEffectiveness": {
+        "weightLoss": 0.6,
+        "muscleGain": 0.75,
+        "strength": 0.7,
+        "endurance": 0.5,
+        "flexibility": 0.35,
+        "generalFitness": 0.82
+      },
+      "estimatedTimePerSet": 40,
+      "setupTimeSeconds": 15,
+      "homeCompatibility": 0.95,
+      "gymCompatibility": 1.0,
+      "outdoorCompatibility": 0.6
+    },
+    {
+      "name": "Dumbbell Squat",
+      "slug": "dumbbell-squat",
+      "description": "A squat variation holding dumbbells at the sides or on the shoulders, providing a versatile option when barbells are unavailable. The independent weights challenge stability and allow for natural arm positioning.",
+      "instructions": [
+        "Hold dumbbells at sides with neutral grip or on shoulders",
+        "Stand with feet shoulder-width apart, toes slightly out",
+        "Brace core and initiate descent by pushing hips back",
+        "Lower until thighs are parallel or below, keeping chest up",
+        "Drive through heels to return to standing position"
+      ],
+      "category": "STRENGTH",
+      "movementPattern": "SQUAT",
+      "exerciseType": "COMPOUND",
+      "primaryMuscles": [
+        "quads",
+        "glutes"
+      ],
+      "secondaryMuscles": [
+        "hamstrings",
+        "core",
+        "forearms"
+      ],
+      "muscleActivationMap": {
+        "quads": 0.82,
+        "glutes": 0.75,
+        "hamstrings": 0.45,
+        "core": 0.5,
+        "forearms": 0.4
+      },
+      "difficultyLevel": 2,
+      "skillRequirement": 2,
+      "isBeginnerFriendly": true,
+      "equipmentRequired": [
+        "dumbbell"
+      ],
+      "equipmentOptional": [],
+      "suitableLocations": [
+        "gym",
+        "home"
+      ],
+      "repRanges": {
+        "strength": {
+          "min": 6,
+          "max": 10
+        },
+        "hypertrophy": {
+          "min": 10,
+          "max": 15
+        },
+        "endurance": {
+          "min": 20,
+          "max": 25
+        }
+      },
+      "typicalSets": {
+        "min": 3,
+        "max": 4
+      },
+      "restSeconds": {
+        "strength": 120,
+        "hypertrophy": 75,
+        "endurance": 45
+      },
+      "metValue": 5.5,
+      "intensityFactor": 0.62,
+      "contraindications": [
+        "knee_injury"
+      ],
+      "formCues": [
+        "Keep dumbbells close to body",
+        "Chest up, back flat",
+        "Full range of motion",
+        "Knees track over toes",
+        "Even weight distribution"
+      ],
+      "commonMistakes": [
+        "Dumbbells swinging",
+        "Forward lean",
+        "Partial depth",
+        "Grip fatigue limiting legs",
+        "Uneven descent"
+      ],
+      "easierVariation": "bodyweight-squat",
+      "harderVariation": "goblet-squat",
+      "alternativeExercises": [
+        "goblet-squat",
+        "bodyweight-squat",
+        "leg-press"
+      ],
+      "tags": [
+        "compound",
+        "squat",
+        "quads",
+        "dumbbell",
+        "beginner-friendly"
+      ],
+      "suitableGoals": [
+        "MUSCLE_GAIN",
+        "GENERAL_FITNESS"
+      ],
+      "fitnessLevelSuitability": {
+        "sedentary": 3,
+        "lightlyActive": 4,
+        "moderatelyActive": 5,
+        "veryActive": 5,
+        "athlete": 4
+      },
+      "experienceLevelSuitability": {
+        "never": 4,
+        "lessThan6Mo": 5,
+        "sixTo24Mo": 5,
+        "twoTo5Yr": 4,
+        "fivePlusYr": 3
+      },
+      "goalEffectiveness": {
+        "weightLoss": 0.55,
+        "muscleGain": 0.72,
+        "strength": 0.65,
+        "endurance": 0.5,
+        "flexibility": 0.3,
+        "generalFitness": 0.78
+      },
+      "estimatedTimePerSet": 40,
+      "setupTimeSeconds": 15,
+      "homeCompatibility": 0.95,
+      "gymCompatibility": 1.0,
+      "outdoorCompatibility": 0.5
+    },
+    {
+      "name": "Zercher Squat",
+      "slug": "zercher-squat",
+      "description": "An unconventional squat variation with the barbell held in the crooks of the elbows, creating extreme core and upper back demands. Named after strongman Ed Zercher, this movement builds functional strength and brutal mental toughness.",
+      "instructions": [
+        "Position barbell in the crook of bent elbows, hands clasped together",
+        "Stand with feet slightly wider than shoulder width",
+        "Brace core hard, keep upper back tight",
+        "Squat down keeping elbows inside knees if possible",
+        "Drive up through legs while maintaining bar position"
+      ],
+      "category": "STRENGTH",
+      "movementPattern": "SQUAT",
+      "exerciseType": "COMPOUND",
+      "primaryMuscles": [
+        "quads",
+        "glutes"
+      ],
+      "secondaryMuscles": [
+        "core",
+        "biceps",
+        "back"
+      ],
+      "muscleActivationMap": {
+        "quads": 0.88,
+        "glutes": 0.8,
+        "core": 0.85,
+        "biceps": 0.6,
+        "back": 0.65
+      },
+      "difficultyLevel": 4,
+      "skillRequirement": 3,
+      "isBeginnerFriendly": false,
+      "equipmentRequired": [
+        "barbell",
+        "squat_rack"
+      ],
+      "equipmentOptional": [],
+      "suitableLocations": [
+        "gym"
+      ],
+      "repRanges": {
+        "strength": {
+          "min": 3,
+          "max": 6
+        },
+        "hypertrophy": {
+          "min": 6,
+          "max": 10
+        },
+        "endurance": {
+          "min": 12,
+          "max": 15
+        }
+      },
+      "typicalSets": {
+        "min": 3,
+        "max": 4
+      },
+      "restSeconds": {
+        "strength": 180,
+        "hypertrophy": 120,
+        "endurance": 75
+      },
+      "metValue": 7.0,
+      "intensityFactor": 0.82,
+      "contraindications": [
+        "elbow_injury",
+        "lower_back_injury",
+        "knee_injury"
+      ],
+      "formCues": [
+        "Bar rests in elbow crooks",
+        "Stay as upright as possible",
+        "Brace core extremely hard",
+        "Pad the bar if needed",
+        "Keep upper back tight"
+      ],
+      "commonMistakes": [
+        "Bar digging into arms painfully",
+        "Too much forward lean",
+        "Not enough core bracing",
+        "Going too heavy initially",
+        "Bar slipping out of position"
+      ],
+      "easierVariation": "goblet-squat",
+      "harderVariation": "front-squat",
+      "alternativeExercises": [
+        "front-squat",
+        "goblet-squat",
+        "safety-bar-squat"
+      ],
+      "tags": [
+        "compound",
+        "squat",
+        "quads",
+        "barbell",
+        "core",
+        "unconventional"
+      ],
+      "suitableGoals": [
+        "STRENGTH",
+        "MUSCLE_GAIN"
+      ],
+      "fitnessLevelSuitability": {
+        "sedentary": 1,
+        "lightlyActive": 1,
+        "moderatelyActive": 3,
+        "veryActive": 5,
+        "athlete": 5
+      },
+      "experienceLevelSuitability": {
+        "never": 1,
+        "lessThan6Mo": 1,
+        "sixTo24Mo": 3,
+        "twoTo5Yr": 5,
+        "fivePlusYr": 5
+      },
+      "goalEffectiveness": {
+        "weightLoss": 0.55,
+        "muscleGain": 0.82,
+        "strength": 0.85,
+        "endurance": 0.35,
+        "flexibility": 0.3,
+        "generalFitness": 0.7
+      },
+      "estimatedTimePerSet": 45,
+      "setupTimeSeconds": 60,
+      "homeCompatibility": 0.2,
+      "gymCompatibility": 0.9,
+      "outdoorCompatibility": 0.0
+    },
+    {
+      "name": "Box Squat",
+      "slug": "box-squat",
+      "description": "A squat variation where you descend to sit briefly on a box before standing, breaking the eccentric-concentric chain. This technique builds explosive strength from a dead stop and teaches proper depth consistency.",
+      "instructions": [
+        "Set up box at height where thighs are parallel at seated position",
+        "Position barbell on upper back as for back squat",
+        "Set feet wider than normal squat stance",
+        "Descend by pushing hips back to sit on box",
+        "Pause briefly on box, then drive explosively to standing"
+      ],
+      "category": "STRENGTH",
+      "movementPattern": "SQUAT",
+      "exerciseType": "COMPOUND",
+      "primaryMuscles": [
+        "quads",
+        "glutes",
+        "hamstrings"
+      ],
+      "secondaryMuscles": [
+        "core",
+        "back"
+      ],
+      "muscleActivationMap": {
+        "quads": 0.85,
+        "glutes": 0.88,
+        "hamstrings": 0.7,
+        "core": 0.55,
+        "back": 0.5
+      },
+      "difficultyLevel": 3,
+      "skillRequirement": 3,
+      "isBeginnerFriendly": false,
+      "equipmentRequired": [
+        "barbell",
+        "squat_rack",
+        "box"
+      ],
+      "equipmentOptional": [
+        "belt"
+      ],
+      "suitableLocations": [
+        "gym"
+      ],
+      "repRanges": {
+        "strength": {
+          "min": 2,
+          "max": 5
+        },
+        "hypertrophy": {
+          "min": 6,
+          "max": 10
+        },
+        "endurance": {
+          "min": 12,
+          "max": 15
+        }
+      },
+      "typicalSets": {
+        "min": 3,
+        "max": 5
+      },
+      "restSeconds": {
+        "strength": 180,
+        "hypertrophy": 120,
+        "endurance": 75
+      },
+      "metValue": 7.0,
+      "intensityFactor": 0.85,
+      "contraindications": [
+        "knee_injury",
+        "lower_back_injury",
+        "hip_injury"
+      ],
+      "formCues": [
+        "Sit back, not down",
+        "Controlled descent to box",
+        "Brief pause - no bouncing",
+        "Explode off the box",
+        "Maintain tightness while seated"
+      ],
+      "commonMistakes": [
+        "Bouncing off box",
+        "Relaxing on box",
+        "Not sitting back enough",
+        "Box too high or low",
+        "Losing core tension"
+      ],
+      "easierVariation": "barbell-back-squat-high-bar",
+      "harderVariation": "pause-squat",
+      "alternativeExercises": [
+        "barbell-back-squat-low-bar",
+        "pause-squat",
+        "leg-press"
+      ],
+      "tags": [
+        "compound",
+        "squat",
+        "quads",
+        "glutes",
+        "barbell",
+        "powerlifting",
+        "explosive"
+      ],
+      "suitableGoals": [
+        "STRENGTH",
+        "MUSCLE_GAIN"
+      ],
+      "fitnessLevelSuitability": {
+        "sedentary": 1,
+        "lightlyActive": 2,
+        "moderatelyActive": 4,
+        "veryActive": 5,
+        "athlete": 5
+      },
+      "experienceLevelSuitability": {
+        "never": 1,
+        "lessThan6Mo": 2,
+        "sixTo24Mo": 4,
+        "twoTo5Yr": 5,
+        "fivePlusYr": 5
+      },
+      "goalEffectiveness": {
+        "weightLoss": 0.55,
+        "muscleGain": 0.85,
+        "strength": 0.92,
+        "endurance": 0.3,
+        "flexibility": 0.2,
+        "generalFitness": 0.72
+      },
+      "estimatedTimePerSet": 50,
+      "setupTimeSeconds": 120,
+      "homeCompatibility": 0.15,
+      "gymCompatibility": 0.95,
+      "outdoorCompatibility": 0.0
+    },
+    {
+      "name": "Pause Squat",
+      "slug": "pause-squat",
+      "description": "A squat variation with a deliberate pause at the bottom position, eliminating the stretch reflex and building strength out of the hole. This technique develops positional strength, control, and confidence at the most challenging part of the lift.",
+      "instructions": [
+        "Set up as for standard back squat with chosen bar position",
+        "Descend under control to full depth",
+        "Hold motionless at bottom for 2-3 seconds while maintaining tension",
+        "Drive up explosively without any bounce",
+        "Complete lockout at top before next rep"
+      ],
+      "category": "STRENGTH",
+      "movementPattern": "SQUAT",
+      "exerciseType": "COMPOUND",
+      "primaryMuscles": [
+        "quads",
+        "glutes"
+      ],
+      "secondaryMuscles": [
+        "hamstrings",
+        "core",
+        "back"
+      ],
+      "muscleActivationMap": {
+        "quads": 0.95,
+        "glutes": 0.85,
+        "hamstrings": 0.55,
+        "core": 0.65,
+        "back": 0.55
+      },
+      "difficultyLevel": 4,
+      "skillRequirement": 4,
+      "isBeginnerFriendly": false,
+      "equipmentRequired": [
+        "barbell",
+        "squat_rack"
+      ],
+      "equipmentOptional": [
+        "belt"
+      ],
+      "suitableLocations": [
+        "gym"
+      ],
+      "repRanges": {
+        "strength": {
+          "min": 2,
+          "max": 5
+        },
+        "hypertrophy": {
+          "min": 5,
+          "max": 8
+        },
+        "endurance": {
+          "min": 10,
+          "max": 12
+        }
+      },
+      "typicalSets": {
+        "min": 3,
+        "max": 5
+      },
+      "restSeconds": {
+        "strength": 240,
+        "hypertrophy": 150,
+        "endurance": 90
+      },
+      "metValue": 7.5,
+      "intensityFactor": 0.88,
+      "contraindications": [
+        "knee_injury",
+        "lower_back_injury",
+        "hip_injury"
+      ],
+      "formCues": [
+        "Full stop at bottom - no bouncing",
+        "Maintain all tension during pause",
+        "Count full 2-3 seconds",
+        "Drive up without sinking first",
+        "Use lighter weight than regular squat"
+      ],
+      "commonMistakes": [
+        "Pause too short",
+        "Relaxing during pause",
+        "Bouncing out of hole",
+        "Using regular squat weight",
+        "Shifting position during pause"
+      ],
+      "easierVariation": "barbell-back-squat-high-bar",
+      "harderVariation": "front-squat",
+      "alternativeExercises": [
+        "box-squat",
+        "barbell-back-squat-high-bar",
+        "tempo-squat"
+      ],
+      "tags": [
+        "compound",
+        "squat",
+        "quads",
+        "barbell",
+        "tempo",
+        "advanced"
+      ],
+      "suitableGoals": [
+        "STRENGTH"
+      ],
+      "fitnessLevelSuitability": {
+        "sedentary": 1,
+        "lightlyActive": 1,
+        "moderatelyActive": 3,
+        "veryActive": 5,
+        "athlete": 5
+      },
+      "experienceLevelSuitability": {
+        "never": 1,
+        "lessThan6Mo": 1,
+        "sixTo24Mo": 3,
+        "twoTo5Yr": 5,
+        "fivePlusYr": 5
+      },
+      "goalEffectiveness": {
+        "weightLoss": 0.5,
+        "muscleGain": 0.85,
+        "strength": 0.95,
+        "endurance": 0.3,
+        "flexibility": 0.3,
+        "generalFitness": 0.68
+      },
+      "estimatedTimePerSet": 60,
+      "setupTimeSeconds": 90,
+      "homeCompatibility": 0.2,
+      "gymCompatibility": 1.0,
+      "outdoorCompatibility": 0.0
+    },
+    {
+      "name": "Bodyweight Squat",
+      "slug": "bodyweight-squat",
+      "description": "The foundational squat pattern performed without external load, essential for learning proper mechanics before adding weight. This accessible movement builds baseline leg strength and is perfect for warm-ups, conditioning, or high-rep training.",
+      "instructions": [
+        "Stand with feet shoulder-width apart, toes slightly pointed out",
+        "Extend arms forward for balance or place hands behind head",
+        "Initiate by pushing hips back and bending knees",
+        "Descend until thighs are parallel or below, keeping chest up",
+        "Drive through whole foot to return to standing"
+      ],
+      "category": "CALISTHENICS",
+      "movementPattern": "SQUAT",
+      "exerciseType": "COMPOUND",
+      "primaryMuscles": [
+        "quads",
+        "glutes"
+      ],
+      "secondaryMuscles": [
+        "hamstrings",
+        "core"
+      ],
+      "muscleActivationMap": {
+        "quads": 0.75,
+        "glutes": 0.7,
+        "hamstrings": 0.4,
+        "core": 0.35
+      },
+      "difficultyLevel": 1,
+      "skillRequirement": 1,
+      "isBeginnerFriendly": true,
+      "equipmentRequired": [],
+      "equipmentOptional": [],
+      "suitableLocations": [
+        "home",
+        "gym",
+        "outdoor"
+      ],
+      "repRanges": {
+        "strength": {
+          "min": 15,
+          "max": 25
+        },
+        "hypertrophy": {
+          "min": 25,
+          "max": 40
+        },
+        "endurance": {
+          "min": 50,
+          "max": 100
+        }
+      },
+      "typicalSets": {
+        "min": 3,
+        "max": 5
+      },
+      "restSeconds": {
+        "strength": 60,
+        "hypertrophy": 45,
+        "endurance": 20
+      },
+      "metValue": 5.0,
+      "intensityFactor": 0.4,
+      "contraindications": [
+        "knee_injury"
+      ],
+      "formCues": [
+        "Keep chest up",
+        "Knees track over toes",
+        "Full depth each rep",
+        "Weight on heels and midfoot",
+        "Control the movement"
+      ],
+      "commonMistakes": [
+        "Rising on toes",
+        "Knees caving in",
+        "Partial range of motion",
+        "Excessive forward lean",
+        "Rushing reps"
+      ],
+      "easierVariation": null,
+      "harderVariation": "goblet-squat",
+      "alternativeExercises": [
+        "goblet-squat",
+        "wall-sit",
+        "leg-press"
+      ],
+      "tags": [
+        "bodyweight",
+        "squat",
+        "quads",
+        "calisthenics",
+        "beginner-friendly",
+        "fundamental"
+      ],
+      "suitableGoals": [
+        "GENERAL_FITNESS",
+        "ENDURANCE"
+      ],
+      "fitnessLevelSuitability": {
+        "sedentary": 5,
+        "lightlyActive": 5,
+        "moderatelyActive": 5,
+        "veryActive": 4,
+        "athlete": 3
+      },
+      "experienceLevelSuitability": {
+        "never": 5,
+        "lessThan6Mo": 5,
+        "sixTo24Mo": 4,
+        "twoTo5Yr": 3,
+        "fivePlusYr": 2
+      },
+      "goalEffectiveness": {
+        "weightLoss": 0.55,
+        "muscleGain": 0.45,
+        "strength": 0.4,
+        "endurance": 0.7,
+        "flexibility": 0.35,
+        "generalFitness": 0.8
+      },
+      "estimatedTimePerSet": 35,
+      "setupTimeSeconds": 0,
+      "homeCompatibility": 1.0,
+      "gymCompatibility": 1.0,
+      "outdoorCompatibility": 1.0
+    },
+    {
+      "name": "Wall Sit",
+      "slug": "wall-sit",
+      "description": "An isometric hold with back against a wall and thighs parallel to the ground, creating sustained quadriceps tension without movement. This exercise builds muscular endurance and mental toughness while being easy to perform anywhere.",
+      "instructions": [
+        "Stand with back flat against wall, feet shoulder-width apart",
+        "Slide down wall until thighs are parallel to floor",
+        "Keep knees at 90 degrees, directly over ankles",
+        "Press back firmly against wall, arms at sides or crossed",
+        "Hold position for target duration, maintaining form"
+      ],
+      "category": "STRENGTH",
+      "movementPattern": "SQUAT",
+      "exerciseType": "ISOLATION",
+      "primaryMuscles": [
+        "quads"
+      ],
+      "secondaryMuscles": [
+        "glutes",
+        "core"
+      ],
+      "muscleActivationMap": {
+        "quads": 0.85,
+        "glutes": 0.5,
+        "core": 0.4
+      },
+      "difficultyLevel": 2,
+      "skillRequirement": 1,
+      "isBeginnerFriendly": true,
+      "equipmentRequired": [],
+      "equipmentOptional": [],
+      "suitableLocations": [
+        "home",
+        "gym",
+        "outdoor"
+      ],
+      "repRanges": {
+        "strength": {
+          "min": 30,
+          "max": 60
+        },
+        "hypertrophy": {
+          "min": 45,
+          "max": 90
+        },
+        "endurance": {
+          "min": 90,
+          "max": 180
+        }
+      },
+      "typicalSets": {
+        "min": 3,
+        "max": 5
+      },
+      "restSeconds": {
+        "strength": 90,
+        "hypertrophy": 60,
+        "endurance": 30
+      },
+      "metValue": 3.5,
+      "intensityFactor": 0.5,
+      "contraindications": [
+        "knee_injury",
+        "high_blood_pressure"
+      ],
+      "formCues": [
+        "Back flat against wall",
+        "Thighs parallel to floor",
+        "Knees at 90 degrees",
+        "Don't let knees drift forward",
+        "Breathe steadily throughout"
+      ],
+      "commonMistakes": [
+        "Thighs not parallel",
+        "Knees past toes",
+        "Sliding up wall as tired",
+        "Holding breath",
+        "Back arching away from wall"
+      ],
+      "easierVariation": null,
+      "harderVariation": "bodyweight-squat",
+      "alternativeExercises": [
+        "bodyweight-squat",
+        "leg-extension",
+        "sissy-squat"
+      ],
+      "tags": [
+        "isometric",
+        "quads",
+        "endurance",
+        "bodyweight",
+        "beginner-friendly"
+      ],
+      "suitableGoals": [
+        "ENDURANCE",
+        "GENERAL_FITNESS"
+      ],
+      "fitnessLevelSuitability": {
+        "sedentary": 4,
+        "lightlyActive": 5,
+        "moderatelyActive": 5,
+        "veryActive": 4,
+        "athlete": 3
+      },
+      "experienceLevelSuitability": {
+        "never": 5,
+        "lessThan6Mo": 5,
+        "sixTo24Mo": 4,
+        "twoTo5Yr": 3,
+        "fivePlusYr": 2
+      },
+      "goalEffectiveness": {
+        "weightLoss": 0.35,
+        "muscleGain": 0.45,
+        "strength": 0.4,
+        "endurance": 0.8,
+        "flexibility": 0.1,
+        "generalFitness": 0.65
+      },
+      "estimatedTimePerSet": 60,
+      "setupTimeSeconds": 5,
+      "homeCompatibility": 1.0,
+      "gymCompatibility": 1.0,
+      "outdoorCompatibility": 0.9
+    },
+    {
+      "name": "Pistol Squat",
+      "slug": "pistol-squat",
+      "description": "An advanced single-leg squat performed with the non-working leg extended forward, requiring exceptional strength, balance, and mobility. This challenging movement demonstrates unilateral leg strength and is a pinnacle calisthenics achievement.",
+      "instructions": [
+        "Stand on one leg, extend other leg straight forward",
+        "Extend arms forward for counterbalance",
+        "Descend slowly on standing leg, keeping extended leg off ground",
+        "Lower until hamstring touches calf, maintaining balance",
+        "Drive through standing foot to return to start"
+      ],
+      "category": "CALISTHENICS",
+      "movementPattern": "SQUAT",
+      "exerciseType": "COMPOUND",
+      "primaryMuscles": [
+        "quads",
+        "glutes"
+      ],
+      "secondaryMuscles": [
+        "hip_flexors",
+        "core",
+        "hamstrings"
+      ],
+      "muscleActivationMap": {
+        "quads": 0.95,
+        "glutes": 0.85,
+        "hip_flexors": 0.7,
+        "core": 0.65,
+        "hamstrings": 0.5
+      },
+      "difficultyLevel": 5,
+      "skillRequirement": 5,
+      "isBeginnerFriendly": false,
+      "equipmentRequired": [],
+      "equipmentOptional": [
+        "box"
+      ],
+      "suitableLocations": [
+        "gym",
+        "home",
+        "outdoor"
+      ],
+      "repRanges": {
+        "strength": {
+          "min": 1,
+          "max": 5
+        },
+        "hypertrophy": {
+          "min": 5,
+          "max": 8
+        },
+        "endurance": {
+          "min": 10,
+          "max": 15
+        }
+      },
+      "typicalSets": {
+        "min": 3,
+        "max": 5
+      },
+      "restSeconds": {
+        "strength": 150,
+        "hypertrophy": 90,
+        "endurance": 60
+      },
+      "metValue": 7.0,
+      "intensityFactor": 0.88,
+      "contraindications": [
+        "knee_injury",
+        "ankle_injury",
+        "hip_injury"
+      ],
+      "formCues": [
+        "Keep non-working leg straight",
+        "Arms forward for balance",
+        "Controlled descent",
+        "Full depth if mobility allows",
+        "Equal reps both sides"
+      ],
+      "commonMistakes": [
+        "Falling backward",
+        "Knee caving inward",
+        "Not enough depth",
+        "Bent extended leg",
+        "Uneven strength between sides"
+      ],
+      "easierVariation": "front-squat",
+      "harderVariation": null,
+      "alternativeExercises": [
+        "bulgarian-split-squat",
+        "single-leg-press",
+        "step-up"
+      ],
+      "tags": [
+        "bodyweight",
+        "squat",
+        "quads",
+        "calisthenics",
+        "advanced",
+        "unilateral",
+        "balance"
+      ],
+      "suitableGoals": [
+        "STRENGTH",
+        "BALANCE"
+      ],
+      "fitnessLevelSuitability": {
+        "sedentary": 1,
+        "lightlyActive": 1,
+        "moderatelyActive": 2,
+        "veryActive": 4,
+        "athlete": 5
+      },
+      "experienceLevelSuitability": {
+        "never": 1,
+        "lessThan6Mo": 1,
+        "sixTo24Mo": 2,
+        "twoTo5Yr": 4,
+        "fivePlusYr": 5
+      },
+      "goalEffectiveness": {
+        "weightLoss": 0.5,
+        "muscleGain": 0.75,
+        "strength": 0.85,
+        "endurance": 0.45,
+        "flexibility": 0.5,
+        "generalFitness": 0.75
+      },
+      "estimatedTimePerSet": 50,
+      "setupTimeSeconds": 5,
+      "homeCompatibility": 0.95,
+      "gymCompatibility": 1.0,
+      "outdoorCompatibility": 0.9
+    },
+    {
+      "name": "Sissy Squat",
+      "slug": "sissy-squat",
+      "description": "A quad-isolation movement where you lean backward while squatting on the balls of your feet, creating intense rectus femoris stretch and contraction. Despite its name, this challenging exercise delivers extreme quad isolation.",
+      "instructions": [
+        "Stand with feet hip-width, hold something for balance if needed",
+        "Rise onto balls of feet, begin leaning torso backward",
+        "Bend knees and lower hips while leaning back further",
+        "Descend until knees are deeply flexed and quads stretched",
+        "Drive through balls of feet to return to standing"
+      ],
+      "category": "STRENGTH",
+      "movementPattern": "SQUAT",
+      "exerciseType": "ISOLATION",
+      "primaryMuscles": [
+        "quads"
+      ],
+      "secondaryMuscles": [
+        "hip_flexors",
+        "core"
+      ],
+      "muscleActivationMap": {
+        "quads": 0.95,
+        "hip_flexors": 0.5,
+        "core": 0.45
+      },
+      "difficultyLevel": 4,
+      "skillRequirement": 3,
+      "isBeginnerFriendly": false,
+      "equipmentRequired": [],
+      "equipmentOptional": [
+        "squat_rack"
+      ],
+      "suitableLocations": [
+        "gym",
+        "home"
+      ],
+      "repRanges": {
+        "strength": {
+          "min": 6,
+          "max": 10
+        },
+        "hypertrophy": {
+          "min": 10,
+          "max": 15
+        },
+        "endurance": {
+          "min": 20,
+          "max": 25
+        }
+      },
+      "typicalSets": {
+        "min": 3,
+        "max": 4
+      },
+      "restSeconds": {
+        "strength": 90,
+        "hypertrophy": 60,
+        "endurance": 45
+      },
+      "metValue": 4.5,
+      "intensityFactor": 0.65,
+      "contraindications": [
+        "knee_injury",
+        "ankle_injury"
+      ],
+      "formCues": [
+        "Stay on balls of feet",
+        "Lean torso backward",
+        "Keep hips extended forward",
+        "Control the descent",
+        "Use support initially"
+      ],
+      "commonMistakes": [
+        "Dropping heels",
+        "Not leaning back enough",
+        "Hips sitting back like normal squat",
+        "Going too fast",
+        "No balance support when needed"
+      ],
+      "easierVariation": "leg-extension",
+      "harderVariation": "bodyweight-leg-extension",
+      "alternativeExercises": [
+        "leg-extension",
+        "hack-squat-machine",
+        "front-squat"
+      ],
+      "tags": [
+        "isolation",
+        "quads",
+        "bodyweight",
+        "rectus-femoris",
+        "old-school"
+      ],
+      "suitableGoals": [
+        "MUSCLE_GAIN"
+      ],
+      "fitnessLevelSuitability": {
+        "sedentary": 1,
+        "lightlyActive": 2,
+        "moderatelyActive": 4,
+        "veryActive": 5,
+        "athlete": 5
+      },
+      "experienceLevelSuitability": {
+        "never": 1,
+        "lessThan6Mo": 2,
+        "sixTo24Mo": 4,
+        "twoTo5Yr": 5,
+        "fivePlusYr": 5
+      },
+      "goalEffectiveness": {
+        "weightLoss": 0.35,
+        "muscleGain": 0.82,
+        "strength": 0.6,
+        "endurance": 0.45,
+        "flexibility": 0.4,
+        "generalFitness": 0.55
+      },
+      "estimatedTimePerSet": 35,
+      "setupTimeSeconds": 10,
+      "homeCompatibility": 0.85,
+      "gymCompatibility": 1.0,
+      "outdoorCompatibility": 0.5
+    },
+    {
+      "name": "Hack Squat Machine",
+      "slug": "hack-squat-machine",
+      "description": "A machine-based squat variation with back supported against an angled pad, allowing heavy quad loading without spinal compression. The fixed path isolates the legs while providing safety for pushing to failure.",
+      "instructions": [
+        "Position back flat against pad, shoulders under shoulder pads",
+        "Place feet shoulder-width on platform, toes slightly out",
+        "Release safety handles, lower by bending knees",
+        "Descend until thighs are at least parallel",
+        "Drive through feet to extend legs, don't lock out completely"
+      ],
+      "category": "STRENGTH",
+      "movementPattern": "SQUAT",
+      "exerciseType": "COMPOUND",
+      "primaryMuscles": [
+        "quads"
+      ],
+      "secondaryMuscles": [
+        "glutes",
+        "hamstrings"
+      ],
+      "muscleActivationMap": {
+        "quads": 0.92,
+        "glutes": 0.65,
+        "hamstrings": 0.4
+      },
+      "difficultyLevel": 2,
+      "skillRequirement": 2,
+      "isBeginnerFriendly": true,
+      "equipmentRequired": [
+        "machine"
+      ],
+      "equipmentOptional": [],
+      "suitableLocations": [
+        "gym"
+      ],
+      "repRanges": {
+        "strength": {
+          "min": 6,
+          "max": 8
+        },
+        "hypertrophy": {
+          "min": 10,
+          "max": 15
+        },
+        "endurance": {
+          "min": 20,
+          "max": 25
+        }
+      },
+      "typicalSets": {
+        "min": 3,
+        "max": 4
+      },
+      "restSeconds": {
+        "strength": 150,
+        "hypertrophy": 90,
+        "endurance": 60
+      },
+      "metValue": 6.0,
+      "intensityFactor": 0.75,
+      "contraindications": [
+        "knee_injury"
+      ],
+      "formCues": [
+        "Back flat against pad",
+        "Full range of motion",
+        "Don't lock out knees at top",
+        "Feet position affects emphasis",
+        "Control the descent"
+      ],
+      "commonMistakes": [
+        "Locking knees at top",
+        "Heels coming up",
+        "Partial range of motion",
+        "Back lifting off pad",
+        "Bouncing at bottom"
+      ],
+      "easierVariation": "leg-press",
+      "harderVariation": "barbell-back-squat-high-bar",
+      "alternativeExercises": [
+        "leg-press",
+        "barbell-back-squat-high-bar",
+        "pendulum-squat"
+      ],
+      "tags": [
+        "compound",
+        "squat",
+        "quads",
+        "machine",
+        "safe-to-failure"
+      ],
+      "suitableGoals": [
+        "MUSCLE_GAIN",
+        "STRENGTH"
+      ],
+      "fitnessLevelSuitability": {
+        "sedentary": 3,
+        "lightlyActive": 4,
+        "moderatelyActive": 5,
+        "veryActive": 5,
+        "athlete": 4
+      },
+      "experienceLevelSuitability": {
+        "never": 4,
+        "lessThan6Mo": 5,
+        "sixTo24Mo": 5,
+        "twoTo5Yr": 5,
+        "fivePlusYr": 4
+      },
+      "goalEffectiveness": {
+        "weightLoss": 0.5,
+        "muscleGain": 0.88,
+        "strength": 0.78,
+        "endurance": 0.45,
+        "flexibility": 0.15,
+        "generalFitness": 0.72
+      },
+      "estimatedTimePerSet": 40,
+      "setupTimeSeconds": 30,
+      "homeCompatibility": 0.05,
+      "gymCompatibility": 0.95,
+      "outdoorCompatibility": 0.0
+    },
+    {
+      "name": "Forward Lunge",
+      "slug": "forward-lunge",
+      "description": "A fundamental unilateral movement stepping forward into a lunge position, targeting quads and glutes while challenging balance and coordination. The deceleration component makes this variation more quad-dominant.",
+      "instructions": [
+        "Stand with feet hip-width apart, hands on hips or at sides",
+        "Step forward with one leg, landing heel first",
+        "Lower hips until both knees are at approximately 90 degrees",
+        "Keep front knee over ankle, back knee hovering above floor",
+        "Push through front foot to return to starting position"
+      ],
+      "category": "STRENGTH",
+      "movementPattern": "LUNGE",
+      "exerciseType": "COMPOUND",
+      "primaryMuscles": [
+        "quads",
+        "glutes"
+      ],
+      "secondaryMuscles": [
+        "hamstrings",
+        "core",
+        "hip_flexors"
+      ],
+      "muscleActivationMap": {
+        "quads": 0.88,
+        "glutes": 0.75,
+        "hamstrings": 0.5,
+        "core": 0.45,
+        "hip_flexors": 0.4
+      },
+      "difficultyLevel": 2,
+      "skillRequirement": 2,
+      "isBeginnerFriendly": true,
+      "equipmentRequired": [],
+      "equipmentOptional": [
+        "dumbbell",
+        "barbell"
+      ],
+      "suitableLocations": [
+        "gym",
+        "home",
+        "outdoor"
+      ],
+      "repRanges": {
+        "strength": {
+          "min": 6,
+          "max": 10
+        },
+        "hypertrophy": {
+          "min": 10,
+          "max": 15
+        },
+        "endurance": {
+          "min": 20,
+          "max": 30
+        }
+      },
+      "typicalSets": {
+        "min": 3,
+        "max": 4
+      },
+      "restSeconds": {
+        "strength": 120,
+        "hypertrophy": 75,
+        "endurance": 45
+      },
+      "metValue": 5.0,
+      "intensityFactor": 0.6,
+      "contraindications": [
+        "knee_injury",
+        "ankle_injury",
+        "hip_injury"
+      ],
+      "formCues": [
+        "Long stride length",
+        "Front knee tracks over toes",
+        "Torso stays upright",
+        "Back knee nearly touches floor",
+        "Push through front heel"
+      ],
+      "commonMistakes": [
+        "Knee going past toes excessively",
+        "Short stride",
+        "Leaning forward",
+        "Knee caving inward",
+        "Not going deep enough"
+      ],
+      "easierVariation": "reverse-lunge",
+      "harderVariation": "walking-lunge",
+      "alternativeExercises": [
+        "reverse-lunge",
+        "step-up",
+        "split-squat"
+      ],
+      "tags": [
+        "compound",
+        "lunge",
+        "quads",
+        "glutes",
+        "unilateral",
+        "beginner-friendly"
+      ],
+      "suitableGoals": [
+        "MUSCLE_GAIN",
+        "GENERAL_FITNESS"
+      ],
+      "fitnessLevelSuitability": {
+        "sedentary": 3,
+        "lightlyActive": 4,
+        "moderatelyActive": 5,
+        "veryActive": 5,
+        "athlete": 5
+      },
+      "experienceLevelSuitability": {
+        "never": 4,
+        "lessThan6Mo": 5,
+        "sixTo24Mo": 5,
+        "twoTo5Yr": 5,
+        "fivePlusYr": 4
+      },
+      "goalEffectiveness": {
+        "weightLoss": 0.6,
+        "muscleGain": 0.75,
+        "strength": 0.68,
+        "endurance": 0.6,
+        "flexibility": 0.35,
+        "generalFitness": 0.82
+      },
+      "estimatedTimePerSet": 45,
+      "setupTimeSeconds": 5,
+      "homeCompatibility": 1.0,
+      "gymCompatibility": 1.0,
+      "outdoorCompatibility": 0.95
+    },
+    {
+      "name": "Reverse Lunge",
+      "slug": "reverse-lunge",
+      "description": "A lunge variation stepping backward that is generally more knee-friendly than forward lunges due to reduced deceleration forces. This movement allows better balance control and emphasizes the glutes slightly more.",
+      "instructions": [
+        "Stand with feet hip-width apart",
+        "Step backward with one leg into a lunge position",
+        "Lower hips until front thigh is parallel to floor",
+        "Keep front knee over ankle, back knee hovering above ground",
+        "Drive through front heel to return to start, repeat or alternate"
+      ],
+      "category": "STRENGTH",
+      "movementPattern": "LUNGE",
+      "exerciseType": "COMPOUND",
+      "primaryMuscles": [
+        "quads",
+        "glutes"
+      ],
+      "secondaryMuscles": [
+        "hamstrings",
+        "core"
+      ],
+      "muscleActivationMap": {
+        "quads": 0.82,
+        "glutes": 0.8,
+        "hamstrings": 0.5,
+        "core": 0.45
+      },
+      "difficultyLevel": 2,
+      "skillRequirement": 2,
+      "isBeginnerFriendly": true,
+      "equipmentRequired": [],
+      "equipmentOptional": [
+        "dumbbell",
+        "barbell"
+      ],
+      "suitableLocations": [
+        "gym",
+        "home",
+        "outdoor"
+      ],
+      "repRanges": {
+        "strength": {
+          "min": 6,
+          "max": 10
+        },
+        "hypertrophy": {
+          "min": 10,
+          "max": 15
+        },
+        "endurance": {
+          "min": 20,
+          "max": 30
+        }
+      },
+      "typicalSets": {
+        "min": 3,
+        "max": 4
+      },
+      "restSeconds": {
+        "strength": 120,
+        "hypertrophy": 75,
+        "endurance": 45
+      },
+      "metValue": 5.0,
+      "intensityFactor": 0.58,
+      "contraindications": [
+        "knee_injury",
+        "hip_injury"
+      ],
+      "formCues": [
+        "Step back far enough",
+        "Front knee stays over ankle",
+        "Upright torso",
+        "Control the step back",
+        "Push through front heel to return"
+      ],
+      "commonMistakes": [
+        "Short step back",
+        "Leaning forward",
+        "Knee caving in",
+        "Not going deep enough",
+        "Losing balance"
+      ],
+      "easierVariation": "bodyweight-squat",
+      "harderVariation": "forward-lunge",
+      "alternativeExercises": [
+        "forward-lunge",
+        "step-up",
+        "bulgarian-split-squat"
+      ],
+      "tags": [
+        "compound",
+        "lunge",
+        "quads",
+        "glutes",
+        "unilateral",
+        "knee-friendly"
+      ],
+      "suitableGoals": [
+        "MUSCLE_GAIN",
+        "GENERAL_FITNESS"
+      ],
+      "fitnessLevelSuitability": {
+        "sedentary": 3,
+        "lightlyActive": 4,
+        "moderatelyActive": 5,
+        "veryActive": 5,
+        "athlete": 5
+      },
+      "experienceLevelSuitability": {
+        "never": 4,
+        "lessThan6Mo": 5,
+        "sixTo24Mo": 5,
+        "twoTo5Yr": 5,
+        "fivePlusYr": 4
+      },
+      "goalEffectiveness": {
+        "weightLoss": 0.58,
+        "muscleGain": 0.75,
+        "strength": 0.68,
+        "endurance": 0.6,
+        "flexibility": 0.35,
+        "generalFitness": 0.82
+      },
+      "estimatedTimePerSet": 45,
+      "setupTimeSeconds": 5,
+      "homeCompatibility": 1.0,
+      "gymCompatibility": 1.0,
+      "outdoorCompatibility": 0.95
+    },
+    {
+      "name": "Walking Lunge",
+      "slug": "walking-lunge",
+      "description": "A dynamic lunge variation performed in continuous forward motion, combining unilateral leg strength with cardiovascular endurance. Each step transitions directly into the next lunge, creating a demanding full-leg workout.",
+      "instructions": [
+        "Stand tall with feet together, dumbbells at sides or barbell on back",
+        "Step forward into a lunge, lowering until both knees at 90 degrees",
+        "Push through front foot and bring back leg forward into next lunge",
+        "Continue walking forward, alternating legs with each step",
+        "Maintain upright posture throughout the movement"
+      ],
+      "category": "STRENGTH",
+      "movementPattern": "LUNGE",
+      "exerciseType": "COMPOUND",
+      "primaryMuscles": [
+        "quads",
+        "glutes"
+      ],
+      "secondaryMuscles": [
+        "hamstrings",
+        "core",
+        "calves"
+      ],
+      "muscleActivationMap": {
+        "quads": 0.88,
+        "glutes": 0.82,
+        "hamstrings": 0.55,
+        "core": 0.5,
+        "calves": 0.35
+      },
+      "difficultyLevel": 3,
+      "skillRequirement": 2,
+      "isBeginnerFriendly": true,
+      "equipmentRequired": [],
+      "equipmentOptional": [
+        "dumbbell",
+        "barbell"
+      ],
+      "suitableLocations": [
+        "gym",
+        "outdoor"
+      ],
+      "repRanges": {
+        "strength": {
+          "min": 8,
+          "max": 12
+        },
+        "hypertrophy": {
+          "min": 12,
+          "max": 20
+        },
+        "endurance": {
+          "min": 30,
+          "max": 50
+        }
+      },
+      "typicalSets": {
+        "min": 3,
+        "max": 4
+      },
+      "restSeconds": {
+        "strength": 120,
+        "hypertrophy": 90,
+        "endurance": 45
+      },
+      "metValue": 6.0,
+      "intensityFactor": 0.7,
+      "contraindications": [
+        "knee_injury",
+        "ankle_injury",
+        "hip_injury"
+      ],
+      "formCues": [
+        "Long stride each step",
+        "Knee tracks over toe",
+        "Stay upright - don't lean",
+        "Smooth transitions",
+        "Full depth each lunge"
+      ],
+      "commonMistakes": [
+        "Short choppy steps",
+        "Leaning forward",
+        "Knees caving in",
+        "Rushing and losing form",
+        "Not enough depth"
+      ],
+      "easierVariation": "forward-lunge",
+      "harderVariation": "deficit-lunge",
+      "alternativeExercises": [
+        "forward-lunge",
+        "reverse-lunge",
+        "step-up"
+      ],
+      "tags": [
+        "compound",
+        "lunge",
+        "quads",
+        "glutes",
+        "unilateral",
+        "dynamic"
+      ],
+      "suitableGoals": [
+        "MUSCLE_GAIN",
+        "GENERAL_FITNESS",
+        "ENDURANCE"
+      ],
+      "fitnessLevelSuitability": {
+        "sedentary": 2,
+        "lightlyActive": 3,
+        "moderatelyActive": 5,
+        "veryActive": 5,
+        "athlete": 5
+      },
+      "experienceLevelSuitability": {
+        "never": 3,
+        "lessThan6Mo": 4,
+        "sixTo24Mo": 5,
+        "twoTo5Yr": 5,
+        "fivePlusYr": 5
+      },
+      "goalEffectiveness": {
+        "weightLoss": 0.7,
+        "muscleGain": 0.78,
+        "strength": 0.7,
+        "endurance": 0.75,
+        "flexibility": 0.35,
+        "generalFitness": 0.85
+      },
+      "estimatedTimePerSet": 60,
+      "setupTimeSeconds": 10,
+      "homeCompatibility": 0.5,
+      "gymCompatibility": 1.0,
+      "outdoorCompatibility": 0.95
+    },
+    {
+      "name": "Bulgarian Split Squat",
+      "slug": "bulgarian-split-squat",
+      "description": "An advanced single-leg squat with the rear foot elevated on a bench, creating intense unilateral quad and glute activation. This movement addresses strength imbalances and builds stability while allowing significant loading.",
+      "instructions": [
+        "Stand facing away from bench, place rear foot on bench behind you",
+        "Hop front foot forward until comfortable split stance achieved",
+        "Hold dumbbells at sides or barbell on back",
+        "Lower by bending front knee until thigh is parallel or below",
+        "Drive through front foot to return to start, complete all reps then switch"
+      ],
+      "category": "STRENGTH",
+      "movementPattern": "LUNGE",
+      "exerciseType": "COMPOUND",
+      "primaryMuscles": [
+        "quads",
+        "glutes"
+      ],
+      "secondaryMuscles": [
+        "hamstrings",
+        "core",
+        "hip_flexors"
+      ],
+      "muscleActivationMap": {
+        "quads": 0.92,
+        "glutes": 0.85,
+        "hamstrings": 0.5,
+        "core": 0.55,
+        "hip_flexors": 0.45
+      },
+      "difficultyLevel": 3,
+      "skillRequirement": 3,
+      "isBeginnerFriendly": false,
+      "equipmentRequired": [
+        "bench"
+      ],
+      "equipmentOptional": [
+        "dumbbell",
+        "barbell"
+      ],
+      "suitableLocations": [
+        "gym",
+        "home"
+      ],
+      "repRanges": {
+        "strength": {
+          "min": 5,
+          "max": 8
+        },
+        "hypertrophy": {
+          "min": 8,
+          "max": 12
+        },
+        "endurance": {
+          "min": 15,
+          "max": 20
+        }
+      },
+      "typicalSets": {
+        "min": 3,
+        "max": 4
+      },
+      "restSeconds": {
+        "strength": 120,
+        "hypertrophy": 90,
+        "endurance": 60
+      },
+      "metValue": 6.0,
+      "intensityFactor": 0.75,
+      "contraindications": [
+        "knee_injury",
+        "ankle_injury",
+        "hip_injury"
+      ],
+      "formCues": [
+        "Front foot far enough forward",
+        "Vertical shin is optional not required",
+        "Most weight on front leg",
+        "Control descent",
+        "Drive through front heel"
+      ],
+      "commonMistakes": [
+        "Front foot too close to bench",
+        "Leaning too far forward",
+        "Back foot doing too much work",
+        "Knee caving inward",
+        "Losing balance"
+      ],
+      "easierVariation": "reverse-lunge",
+      "harderVariation": "deficit-lunge",
+      "alternativeExercises": [
+        "reverse-lunge",
+        "step-up",
+        "single-leg-press"
+      ],
+      "tags": [
+        "compound",
+        "lunge",
+        "quads",
+        "glutes",
+        "unilateral",
+        "elevated"
+      ],
+      "suitableGoals": [
+        "MUSCLE_GAIN",
+        "STRENGTH"
+      ],
+      "fitnessLevelSuitability": {
+        "sedentary": 1,
+        "lightlyActive": 2,
+        "moderatelyActive": 4,
+        "veryActive": 5,
+        "athlete": 5
+      },
+      "experienceLevelSuitability": {
+        "never": 2,
+        "lessThan6Mo": 3,
+        "sixTo24Mo": 5,
+        "twoTo5Yr": 5,
+        "fivePlusYr": 5
+      },
+      "goalEffectiveness": {
+        "weightLoss": 0.55,
+        "muscleGain": 0.88,
+        "strength": 0.82,
+        "endurance": 0.5,
+        "flexibility": 0.4,
+        "generalFitness": 0.78
+      },
+      "estimatedTimePerSet": 50,
+      "setupTimeSeconds": 30,
+      "homeCompatibility": 0.85,
+      "gymCompatibility": 1.0,
+      "outdoorCompatibility": 0.4
+    },
+    {
+      "name": "Deficit Lunge",
+      "slug": "deficit-lunge",
+      "description": "A lunge variation performed with the front foot elevated on a platform, increasing range of motion and quad stretch at the bottom. This added depth creates greater muscle tension and growth stimulus.",
+      "instructions": [
+        "Stand on platform or plate 2-4 inches high",
+        "Step back with one foot into reverse lunge position",
+        "Lower hips until front thigh is well below parallel",
+        "Allow deeper stretch than standard lunge depth",
+        "Drive through elevated front foot to return to start"
+      ],
+      "category": "STRENGTH",
+      "movementPattern": "LUNGE",
+      "exerciseType": "COMPOUND",
+      "primaryMuscles": [
+        "quads",
+        "glutes"
+      ],
+      "secondaryMuscles": [
+        "hamstrings",
+        "core"
+      ],
+      "muscleActivationMap": {
+        "quads": 0.92,
+        "glutes": 0.85,
+        "hamstrings": 0.55,
+        "core": 0.5
+      },
+      "difficultyLevel": 3,
+      "skillRequirement": 3,
+      "isBeginnerFriendly": false,
+      "equipmentRequired": [
+        "box"
+      ],
+      "equipmentOptional": [
+        "dumbbell",
+        "barbell"
+      ],
+      "suitableLocations": [
+        "gym"
+      ],
+      "repRanges": {
+        "strength": {
+          "min": 5,
+          "max": 8
+        },
+        "hypertrophy": {
+          "min": 8,
+          "max": 12
+        },
+        "endurance": {
+          "min": 15,
+          "max": 20
+        }
+      },
+      "typicalSets": {
+        "min": 3,
+        "max": 4
+      },
+      "restSeconds": {
+        "strength": 120,
+        "hypertrophy": 90,
+        "endurance": 60
+      },
+      "metValue": 5.5,
+      "intensityFactor": 0.72,
+      "contraindications": [
+        "knee_injury",
+        "hip_injury",
+        "ankle_injury"
+      ],
+      "formCues": [
+        "Start small - 2 inch deficit first",
+        "Control the extra depth",
+        "Don't bounce at bottom",
+        "Keep torso upright",
+        "Full stretch at bottom"
+      ],
+      "commonMistakes": [
+        "Deficit too high too soon",
+        "Losing balance",
+        "Bouncing out of bottom",
+        "Forward lean at depth",
+        "Knee pain from extra ROM"
+      ],
+      "easierVariation": "reverse-lunge",
+      "harderVariation": "bulgarian-split-squat",
+      "alternativeExercises": [
+        "bulgarian-split-squat",
+        "walking-lunge",
+        "step-up"
+      ],
+      "tags": [
+        "compound",
+        "lunge",
+        "quads",
+        "glutes",
+        "unilateral",
+        "deficit",
+        "advanced"
+      ],
+      "suitableGoals": [
+        "MUSCLE_GAIN",
+        "STRENGTH"
+      ],
+      "fitnessLevelSuitability": {
+        "sedentary": 1,
+        "lightlyActive": 2,
+        "moderatelyActive": 4,
+        "veryActive": 5,
+        "athlete": 5
+      },
+      "experienceLevelSuitability": {
+        "never": 1,
+        "lessThan6Mo": 2,
+        "sixTo24Mo": 4,
+        "twoTo5Yr": 5,
+        "fivePlusYr": 5
+      },
+      "goalEffectiveness": {
+        "weightLoss": 0.5,
+        "muscleGain": 0.85,
+        "strength": 0.78,
+        "endurance": 0.45,
+        "flexibility": 0.45,
+        "generalFitness": 0.72
+      },
+      "estimatedTimePerSet": 50,
+      "setupTimeSeconds": 30,
+      "homeCompatibility": 0.6,
+      "gymCompatibility": 1.0,
+      "outdoorCompatibility": 0.3
+    },
+    {
+      "name": "Lateral Lunge",
+      "slug": "lateral-lunge",
+      "description": "A side-stepping lunge targeting the quads and adductors in the frontal plane, building lateral strength and mobility often neglected in traditional training. This movement improves hip mobility and inner thigh flexibility.",
+      "instructions": [
+        "Stand with feet together, hands at chest or sides",
+        "Step wide to one side, pushing hips back",
+        "Bend stepping leg while keeping other leg straight",
+        "Lower until stepping thigh is parallel to floor",
+        "Push through stepping foot to return to center"
+      ],
+      "category": "STRENGTH",
+      "movementPattern": "LUNGE",
+      "exerciseType": "COMPOUND",
+      "primaryMuscles": [
+        "quads",
+        "glutes"
+      ],
+      "secondaryMuscles": [
+        "hip_flexors",
+        "core",
+        "hamstrings"
+      ],
+      "muscleActivationMap": {
+        "quads": 0.8,
+        "glutes": 0.75,
+        "hip_flexors": 0.6,
+        "core": 0.45,
+        "hamstrings": 0.4
+      },
+      "difficultyLevel": 2,
+      "skillRequirement": 2,
+      "isBeginnerFriendly": true,
+      "equipmentRequired": [],
+      "equipmentOptional": [
+        "dumbbell",
+        "kettlebell"
+      ],
+      "suitableLocations": [
+        "gym",
+        "home",
+        "outdoor"
+      ],
+      "repRanges": {
+        "strength": {
+          "min": 6,
+          "max": 10
+        },
+        "hypertrophy": {
+          "min": 10,
+          "max": 15
+        },
+        "endurance": {
+          "min": 20,
+          "max": 25
+        }
+      },
+      "typicalSets": {
+        "min": 3,
+        "max": 4
+      },
+      "restSeconds": {
+        "strength": 90,
+        "hypertrophy": 60,
+        "endurance": 45
+      },
+      "metValue": 5.0,
+      "intensityFactor": 0.58,
+      "contraindications": [
+        "knee_injury",
+        "hip_injury"
+      ],
+      "formCues": [
+        "Wide step to the side",
+        "Hips push back like squat",
+        "Straight leg stays straight",
+        "Chest stays up",
+        "Push through heel to return"
+      ],
+      "commonMistakes": [
+        "Not stepping wide enough",
+        "Knee caving inward",
+        "Bending straight leg",
+        "Leaning forward",
+        "Rising on toes"
+      ],
+      "easierVariation": "bodyweight-squat",
+      "harderVariation": "curtsy-lunge",
+      "alternativeExercises": [
+        "curtsy-lunge",
+        "sumo-squat",
+        "cossack-squat"
+      ],
+      "tags": [
+        "compound",
+        "lunge",
+        "quads",
+        "adductors",
+        "lateral",
+        "mobility"
+      ],
+      "suitableGoals": [
+        "GENERAL_FITNESS",
+        "FLEXIBILITY",
+        "MUSCLE_GAIN"
+      ],
+      "fitnessLevelSuitability": {
+        "sedentary": 3,
+        "lightlyActive": 4,
+        "moderatelyActive": 5,
+        "veryActive": 5,
+        "athlete": 5
+      },
+      "experienceLevelSuitability": {
+        "never": 3,
+        "lessThan6Mo": 4,
+        "sixTo24Mo": 5,
+        "twoTo5Yr": 5,
+        "fivePlusYr": 5
+      },
+      "goalEffectiveness": {
+        "weightLoss": 0.5,
+        "muscleGain": 0.68,
+        "strength": 0.62,
+        "endurance": 0.55,
+        "flexibility": 0.6,
+        "generalFitness": 0.78
+      },
+      "estimatedTimePerSet": 40,
+      "setupTimeSeconds": 5,
+      "homeCompatibility": 1.0,
+      "gymCompatibility": 1.0,
+      "outdoorCompatibility": 0.9
+    },
+    {
+      "name": "Curtsy Lunge",
+      "slug": "curtsy-lunge",
+      "description": "A lunge variation stepping diagonally behind the body in a curtsy motion, uniquely targeting the gluteus medius and outer hip. This rotational element challenges stability and hits the glutes from a different angle.",
+      "instructions": [
+        "Stand with feet hip-width apart",
+        "Step one leg diagonally behind and across the other",
+        "Lower hips until front thigh is parallel to floor",
+        "Keep torso upright, hips facing forward",
+        "Push through front foot to return, alternate or complete one side"
+      ],
+      "category": "STRENGTH",
+      "movementPattern": "LUNGE",
+      "exerciseType": "COMPOUND",
+      "primaryMuscles": [
+        "quads",
+        "glutes"
+      ],
+      "secondaryMuscles": [
+        "hip_flexors",
+        "core"
+      ],
+      "muscleActivationMap": {
+        "quads": 0.78,
+        "glutes": 0.88,
+        "hip_flexors": 0.5,
+        "core": 0.5
+      },
+      "difficultyLevel": 3,
+      "skillRequirement": 3,
+      "isBeginnerFriendly": false,
+      "equipmentRequired": [],
+      "equipmentOptional": [
+        "dumbbell"
+      ],
+      "suitableLocations": [
+        "gym",
+        "home"
+      ],
+      "repRanges": {
+        "strength": {
+          "min": 8,
+          "max": 10
+        },
+        "hypertrophy": {
+          "min": 10,
+          "max": 15
+        },
+        "endurance": {
+          "min": 20,
+          "max": 25
+        }
+      },
+      "typicalSets": {
+        "min": 3,
+        "max": 4
+      },
+      "restSeconds": {
+        "strength": 90,
+        "hypertrophy": 60,
+        "endurance": 45
+      },
+      "metValue": 5.0,
+      "intensityFactor": 0.6,
+      "contraindications": [
+        "knee_injury",
+        "hip_injury",
+        "ankle_injury"
+      ],
+      "formCues": [
+        "Cross behind not just to side",
+        "Keep hips square forward",
+        "Front knee tracks over toes",
+        "Control the cross-behind",
+        "Upright torso"
+      ],
+      "commonMistakes": [
+        "Not crossing far enough behind",
+        "Hips rotating open",
+        "Knee caving in",
+        "Losing balance",
+        "Leaning forward"
+      ],
+      "easierVariation": "reverse-lunge",
+      "harderVariation": "jump-lunge",
+      "alternativeExercises": [
+        "lateral-lunge",
+        "reverse-lunge",
+        "step-up"
+      ],
+      "tags": [
+        "compound",
+        "lunge",
+        "quads",
+        "glutes",
+        "unilateral",
+        "rotational"
+      ],
+      "suitableGoals": [
+        "MUSCLE_GAIN",
+        "GENERAL_FITNESS"
+      ],
+      "fitnessLevelSuitability": {
+        "sedentary": 2,
+        "lightlyActive": 3,
+        "moderatelyActive": 4,
+        "veryActive": 5,
+        "athlete": 5
+      },
+      "experienceLevelSuitability": {
+        "never": 2,
+        "lessThan6Mo": 3,
+        "sixTo24Mo": 4,
+        "twoTo5Yr": 5,
+        "fivePlusYr": 5
+      },
+      "goalEffectiveness": {
+        "weightLoss": 0.5,
+        "muscleGain": 0.72,
+        "strength": 0.62,
+        "endurance": 0.55,
+        "flexibility": 0.4,
+        "generalFitness": 0.75
+      },
+      "estimatedTimePerSet": 40,
+      "setupTimeSeconds": 5,
+      "homeCompatibility": 0.95,
+      "gymCompatibility": 1.0,
+      "outdoorCompatibility": 0.8
+    },
+    {
+      "name": "Jump Lunge",
+      "slug": "jump-lunge",
+      "description": "An explosive plyometric lunge alternating legs in mid-air, developing power, coordination, and cardiovascular conditioning. This high-intensity movement builds reactive strength and athletic explosiveness.",
+      "instructions": [
+        "Start in lunge position with one foot forward",
+        "Lower into lunge, loading the legs",
+        "Explode upward, switching legs in mid-air",
+        "Land softly in lunge position with opposite leg forward",
+        "Immediately descend and repeat, alternating legs"
+      ],
+      "category": "PLYOMETRIC",
+      "movementPattern": "LUNGE",
+      "exerciseType": "COMPOUND",
+      "primaryMuscles": [
+        "quads",
+        "glutes"
+      ],
+      "secondaryMuscles": [
+        "hamstrings",
+        "calves",
+        "core"
+      ],
+      "muscleActivationMap": {
+        "quads": 0.88,
+        "glutes": 0.82,
+        "hamstrings": 0.55,
+        "calves": 0.6,
+        "core": 0.55
+      },
+      "difficultyLevel": 4,
+      "skillRequirement": 4,
+      "isBeginnerFriendly": false,
+      "equipmentRequired": [],
+      "equipmentOptional": [],
+      "suitableLocations": [
+        "gym",
+        "outdoor"
+      ],
+      "repRanges": {
+        "strength": {
+          "min": 6,
+          "max": 10
+        },
+        "hypertrophy": {
+          "min": 10,
+          "max": 16
+        },
+        "endurance": {
+          "min": 20,
+          "max": 30
+        }
+      },
+      "typicalSets": {
+        "min": 3,
+        "max": 4
+      },
+      "restSeconds": {
+        "strength": 90,
+        "hypertrophy": 60,
+        "endurance": 30
+      },
+      "metValue": 9.0,
+      "intensityFactor": 0.85,
+      "contraindications": [
+        "knee_injury",
+        "ankle_injury",
+        "hip_injury",
+        "heart_condition"
+      ],
+      "formCues": [
+        "Soft landings are essential",
+        "Full lunge depth before jump",
+        "Switch legs at peak height",
+        "Arms help drive the jump",
+        "Land in control"
+      ],
+      "commonMistakes": [
+        "Hard landings",
+        "Not enough depth",
+        "Arms not helping",
+        "Losing balance on landing",
+        "Partial switches"
+      ],
+      "easierVariation": "walking-lunge",
+      "harderVariation": null,
+      "alternativeExercises": [
+        "walking-lunge",
+        "box-jump",
+        "squat-jump"
+      ],
+      "tags": [
+        "plyometric",
+        "lunge",
+        "quads",
+        "explosive",
+        "cardio",
+        "advanced"
+      ],
+      "suitableGoals": [
+        "STRENGTH",
+        "GENERAL_FITNESS",
+        "ENDURANCE"
+      ],
+      "fitnessLevelSuitability": {
+        "sedentary": 1,
+        "lightlyActive": 1,
+        "moderatelyActive": 3,
+        "veryActive": 5,
+        "athlete": 5
+      },
+      "experienceLevelSuitability": {
+        "never": 1,
+        "lessThan6Mo": 1,
+        "sixTo24Mo": 3,
+        "twoTo5Yr": 5,
+        "fivePlusYr": 5
+      },
+      "goalEffectiveness": {
+        "weightLoss": 0.8,
+        "muscleGain": 0.65,
+        "strength": 0.7,
+        "endurance": 0.82,
+        "flexibility": 0.25,
+        "generalFitness": 0.85
+      },
+      "estimatedTimePerSet": 40,
+      "setupTimeSeconds": 5,
+      "homeCompatibility": 0.7,
+      "gymCompatibility": 1.0,
+      "outdoorCompatibility": 0.9
+    },
+    {
+      "name": "Step-Up",
+      "slug": "step-up",
+      "description": "A unilateral exercise stepping onto an elevated surface, closely mimicking daily activities like climbing stairs. This functional movement builds single-leg strength and addresses imbalances between legs.",
+      "instructions": [
+        "Stand facing a box or bench at knee height or lower",
+        "Place one foot fully on the box",
+        "Drive through the top foot to step up completely",
+        "Bring trailing leg up to meet working leg",
+        "Step down with control, complete all reps then switch"
+      ],
+      "category": "STRENGTH",
+      "movementPattern": "LUNGE",
+      "exerciseType": "COMPOUND",
+      "primaryMuscles": [
+        "quads",
+        "glutes"
+      ],
+      "secondaryMuscles": [
+        "hamstrings",
+        "core",
+        "calves"
+      ],
+      "muscleActivationMap": {
+        "quads": 0.85,
+        "glutes": 0.8,
+        "hamstrings": 0.45,
+        "core": 0.4,
+        "calves": 0.35
+      },
+      "difficultyLevel": 2,
+      "skillRequirement": 2,
+      "isBeginnerFriendly": true,
+      "equipmentRequired": [
+        "box"
+      ],
+      "equipmentOptional": [
+        "dumbbell",
+        "barbell"
+      ],
+      "suitableLocations": [
+        "gym",
+        "home",
+        "outdoor"
+      ],
+      "repRanges": {
+        "strength": {
+          "min": 6,
+          "max": 10
+        },
+        "hypertrophy": {
+          "min": 10,
+          "max": 15
+        },
+        "endurance": {
+          "min": 20,
+          "max": 25
+        }
+      },
+      "typicalSets": {
+        "min": 3,
+        "max": 4
+      },
+      "restSeconds": {
+        "strength": 90,
+        "hypertrophy": 60,
+        "endurance": 45
+      },
+      "metValue": 5.0,
+      "intensityFactor": 0.6,
+      "contraindications": [
+        "knee_injury",
+        "ankle_injury"
+      ],
+      "formCues": [
+        "Full foot on box",
+        "Drive through top leg only",
+        "Don't push off back foot",
+        "Stand fully upright at top",
+        "Control the descent"
+      ],
+      "commonMistakes": [
+        "Pushing off back foot",
+        "Not stepping high enough",
+        "Leaning forward",
+        "Box too high",
+        "Rushing reps"
+      ],
+      "easierVariation": "bodyweight-squat",
+      "harderVariation": "box-step-up",
+      "alternativeExercises": [
+        "forward-lunge",
+        "bulgarian-split-squat",
+        "single-leg-press"
+      ],
+      "tags": [
+        "compound",
+        "unilateral",
+        "quads",
+        "glutes",
+        "functional",
+        "beginner-friendly"
+      ],
+      "suitableGoals": [
+        "MUSCLE_GAIN",
+        "GENERAL_FITNESS"
+      ],
+      "fitnessLevelSuitability": {
+        "sedentary": 3,
+        "lightlyActive": 4,
+        "moderatelyActive": 5,
+        "veryActive": 5,
+        "athlete": 5
+      },
+      "experienceLevelSuitability": {
+        "never": 4,
+        "lessThan6Mo": 5,
+        "sixTo24Mo": 5,
+        "twoTo5Yr": 5,
+        "fivePlusYr": 4
+      },
+      "goalEffectiveness": {
+        "weightLoss": 0.55,
+        "muscleGain": 0.72,
+        "strength": 0.68,
+        "endurance": 0.55,
+        "flexibility": 0.25,
+        "generalFitness": 0.8
+      },
+      "estimatedTimePerSet": 45,
+      "setupTimeSeconds": 15,
+      "homeCompatibility": 0.85,
+      "gymCompatibility": 1.0,
+      "outdoorCompatibility": 0.7
+    },
+    {
+      "name": "Box Step-Up",
+      "slug": "box-step-up",
+      "description": "A step-up variation using a higher box that increases range of motion and demands greater single-leg strength. The elevated height creates more quad and glute engagement than standard step-ups.",
+      "instructions": [
+        "Stand facing box at mid-thigh to hip height",
+        "Place one foot fully on top of box",
+        "Drive through top leg to stand completely on box",
+        "Bring trailing leg up or immediately step back down",
+        "Lower with control, complete all reps then switch legs"
+      ],
+      "category": "STRENGTH",
+      "movementPattern": "LUNGE",
+      "exerciseType": "COMPOUND",
+      "primaryMuscles": [
+        "quads",
+        "glutes"
+      ],
+      "secondaryMuscles": [
+        "hamstrings",
+        "core"
+      ],
+      "muscleActivationMap": {
+        "quads": 0.88,
+        "glutes": 0.85,
+        "hamstrings": 0.5,
+        "core": 0.45
+      },
+      "difficultyLevel": 3,
+      "skillRequirement": 2,
+      "isBeginnerFriendly": false,
+      "equipmentRequired": [
+        "box"
+      ],
+      "equipmentOptional": [
+        "dumbbell",
+        "barbell"
+      ],
+      "suitableLocations": [
+        "gym"
+      ],
+      "repRanges": {
+        "strength": {
+          "min": 5,
+          "max": 8
+        },
+        "hypertrophy": {
+          "min": 8,
+          "max": 12
+        },
+        "endurance": {
+          "min": 15,
+          "max": 20
+        }
+      },
+      "typicalSets": {
+        "min": 3,
+        "max": 4
+      },
+      "restSeconds": {
+        "strength": 120,
+        "hypertrophy": 75,
+        "endurance": 60
+      },
+      "metValue": 5.5,
+      "intensityFactor": 0.68,
+      "contraindications": [
+        "knee_injury",
+        "ankle_injury",
+        "hip_injury"
+      ],
+      "formCues": [
+        "Full foot on box",
+        "All drive from top leg",
+        "Stand tall at top",
+        "Control descent",
+        "Start with lower box if needed"
+      ],
+      "commonMistakes": [
+        "Box too high for ability",
+        "Pushing off back leg",
+        "Leaning onto box",
+        "Not standing fully upright",
+        "Losing balance"
+      ],
+      "easierVariation": "step-up",
+      "harderVariation": "bulgarian-split-squat",
+      "alternativeExercises": [
+        "step-up",
+        "bulgarian-split-squat",
+        "single-leg-press"
+      ],
+      "tags": [
+        "compound",
+        "unilateral",
+        "quads",
+        "glutes",
+        "elevated"
+      ],
+      "suitableGoals": [
+        "MUSCLE_GAIN",
+        "STRENGTH"
+      ],
+      "fitnessLevelSuitability": {
+        "sedentary": 1,
+        "lightlyActive": 2,
+        "moderatelyActive": 4,
+        "veryActive": 5,
+        "athlete": 5
+      },
+      "experienceLevelSuitability": {
+        "never": 2,
+        "lessThan6Mo": 3,
+        "sixTo24Mo": 5,
+        "twoTo5Yr": 5,
+        "fivePlusYr": 5
+      },
+      "goalEffectiveness": {
+        "weightLoss": 0.5,
+        "muscleGain": 0.78,
+        "strength": 0.75,
+        "endurance": 0.5,
+        "flexibility": 0.3,
+        "generalFitness": 0.75
+      },
+      "estimatedTimePerSet": 50,
+      "setupTimeSeconds": 20,
+      "homeCompatibility": 0.5,
+      "gymCompatibility": 1.0,
+      "outdoorCompatibility": 0.4
+    },
+    {
+      "name": "Leg Press",
+      "slug": "leg-press",
+      "description": "A machine-based compound movement allowing heavy quad and glute loading without spinal compression. The fixed path and back support make this ideal for high-volume leg training and safely pushing to failure.",
+      "instructions": [
+        "Sit in leg press with back flat against pad",
+        "Place feet shoulder-width on platform, toes slightly out",
+        "Release safety locks, lower weight by bending knees",
+        "Descend until knees reach 90 degrees or comfortable depth",
+        "Drive through whole foot to extend legs, don't lock out"
+      ],
+      "category": "STRENGTH",
+      "movementPattern": "SQUAT",
+      "exerciseType": "COMPOUND",
+      "primaryMuscles": [
+        "quads",
+        "glutes"
+      ],
+      "secondaryMuscles": [
+        "hamstrings"
+      ],
+      "muscleActivationMap": {
+        "quads": 0.9,
+        "glutes": 0.7,
+        "hamstrings": 0.45
+      },
+      "difficultyLevel": 2,
+      "skillRequirement": 1,
+      "isBeginnerFriendly": true,
+      "equipmentRequired": [
+        "machine"
+      ],
+      "equipmentOptional": [],
+      "suitableLocations": [
+        "gym"
+      ],
+      "repRanges": {
+        "strength": {
+          "min": 5,
+          "max": 8
+        },
+        "hypertrophy": {
+          "min": 10,
+          "max": 15
+        },
+        "endurance": {
+          "min": 20,
+          "max": 30
+        }
+      },
+      "typicalSets": {
+        "min": 3,
+        "max": 5
+      },
+      "restSeconds": {
+        "strength": 150,
+        "hypertrophy": 90,
+        "endurance": 60
+      },
+      "metValue": 6.0,
+      "intensityFactor": 0.75,
+      "contraindications": [
+        "knee_injury",
+        "lower_back_injury"
+      ],
+      "formCues": [
+        "Back stays flat on pad",
+        "Full foot contact",
+        "Don't lock knees",
+        "Foot position affects emphasis",
+        "Control the descent"
+      ],
+      "commonMistakes": [
+        "Locking knees at top",
+        "Lower back lifting off pad",
+        "Heels coming up",
+        "Bouncing at bottom",
+        "Too much weight losing form"
+      ],
+      "easierVariation": "hack-squat-machine",
+      "harderVariation": "single-leg-press",
+      "alternativeExercises": [
+        "hack-squat-machine",
+        "barbell-back-squat-high-bar",
+        "smith-machine-squat"
+      ],
+      "tags": [
+        "compound",
+        "quads",
+        "glutes",
+        "machine",
+        "beginner-friendly",
+        "safe-to-failure"
+      ],
+      "suitableGoals": [
+        "MUSCLE_GAIN",
+        "STRENGTH"
+      ],
+      "fitnessLevelSuitability": {
+        "sedentary": 3,
+        "lightlyActive": 4,
+        "moderatelyActive": 5,
+        "veryActive": 5,
+        "athlete": 4
+      },
+      "experienceLevelSuitability": {
+        "never": 4,
+        "lessThan6Mo": 5,
+        "sixTo24Mo": 5,
+        "twoTo5Yr": 5,
+        "fivePlusYr": 4
+      },
+      "goalEffectiveness": {
+        "weightLoss": 0.5,
+        "muscleGain": 0.88,
+        "strength": 0.8,
+        "endurance": 0.5,
+        "flexibility": 0.15,
+        "generalFitness": 0.72
+      },
+      "estimatedTimePerSet": 40,
+      "setupTimeSeconds": 45,
+      "homeCompatibility": 0.05,
+      "gymCompatibility": 1.0,
+      "outdoorCompatibility": 0.0
+    },
+    {
+      "name": "Leg Extension",
+      "slug": "leg-extension",
+      "description": "An isolation exercise targeting the quadriceps through knee extension against resistance. This machine movement isolates the quads completely, making it ideal for pre-exhaust, pump work, or rehabilitation.",
+      "instructions": [
+        "Sit in machine with back against pad, knees at edge of seat",
+        "Position ankle pad just above feet",
+        "Grip handles at sides for stability",
+        "Extend legs until straight, squeezing quads hard",
+        "Lower under control, maintaining tension throughout"
+      ],
+      "category": "STRENGTH",
+      "movementPattern": "EXTENSION",
+      "exerciseType": "ISOLATION",
+      "primaryMuscles": [
+        "quads"
+      ],
+      "secondaryMuscles": [],
+      "muscleActivationMap": {
+        "quads": 0.95
+      },
+      "difficultyLevel": 1,
+      "skillRequirement": 1,
+      "isBeginnerFriendly": true,
+      "equipmentRequired": [
+        "machine"
+      ],
+      "equipmentOptional": [],
+      "suitableLocations": [
+        "gym"
+      ],
+      "repRanges": {
+        "strength": {
+          "min": 8,
+          "max": 12
+        },
+        "hypertrophy": {
+          "min": 12,
+          "max": 18
+        },
+        "endurance": {
+          "min": 20,
+          "max": 30
+        }
+      },
+      "typicalSets": {
+        "min": 3,
+        "max": 4
+      },
+      "restSeconds": {
+        "strength": 90,
+        "hypertrophy": 60,
+        "endurance": 30
+      },
+      "metValue": 4.0,
+      "intensityFactor": 0.55,
+      "contraindications": [
+        "knee_injury"
+      ],
+      "formCues": [
+        "Full extension at top",
+        "Squeeze hard at contraction",
+        "Control the negative",
+        "Don't use momentum",
+        "Keep back against pad"
+      ],
+      "commonMistakes": [
+        "Using momentum",
+        "Partial range of motion",
+        "Going too heavy",
+        "Lifting hips",
+        "No pause at contraction"
+      ],
+      "easierVariation": "bodyweight-leg-extension",
+      "harderVariation": "sissy-squat",
+      "alternativeExercises": [
+        "sissy-squat",
+        "bodyweight-leg-extension",
+        "front-squat"
+      ],
+      "tags": [
+        "isolation",
+        "quads",
+        "machine",
+        "beginner-friendly",
+        "pre-exhaust"
+      ],
+      "suitableGoals": [
+        "MUSCLE_GAIN"
+      ],
+      "fitnessLevelSuitability": {
+        "sedentary": 4,
+        "lightlyActive": 5,
+        "moderatelyActive": 5,
+        "veryActive": 5,
+        "athlete": 4
+      },
+      "experienceLevelSuitability": {
+        "never": 5,
+        "lessThan6Mo": 5,
+        "sixTo24Mo": 5,
+        "twoTo5Yr": 5,
+        "fivePlusYr": 4
+      },
+      "goalEffectiveness": {
+        "weightLoss": 0.3,
+        "muscleGain": 0.8,
+        "strength": 0.55,
+        "endurance": 0.5,
+        "flexibility": 0.15,
+        "generalFitness": 0.55
+      },
+      "estimatedTimePerSet": 30,
+      "setupTimeSeconds": 30,
+      "homeCompatibility": 0.1,
+      "gymCompatibility": 1.0,
+      "outdoorCompatibility": 0.0
+    },
+    {
+      "name": "Smith Machine Squat",
+      "slug": "smith-machine-squat",
+      "description": "A squat performed on a Smith machine with the barbell fixed to vertical guide rails, providing stability and safety. While less functional than free-weight squats, it allows for various foot positions and safe training to failure.",
+      "instructions": [
+        "Position bar at shoulder height, step under and unrack",
+        "Set feet forward of bar path, shoulder-width apart",
+        "Unrack by rotating hooks, brace core",
+        "Lower by bending knees and hips to parallel or below",
+        "Drive through feet to stand, maintaining upright torso"
+      ],
+      "category": "STRENGTH",
+      "movementPattern": "SQUAT",
+      "exerciseType": "COMPOUND",
+      "primaryMuscles": [
+        "quads",
+        "glutes"
+      ],
+      "secondaryMuscles": [
+        "hamstrings",
+        "core"
+      ],
+      "muscleActivationMap": {
+        "quads": 0.88,
+        "glutes": 0.72,
+        "hamstrings": 0.45,
+        "core": 0.4
+      },
+      "difficultyLevel": 2,
+      "skillRequirement": 2,
+      "isBeginnerFriendly": true,
+      "equipmentRequired": [
+        "smith_machine"
+      ],
+      "equipmentOptional": [],
+      "suitableLocations": [
+        "gym"
+      ],
+      "repRanges": {
+        "strength": {
+          "min": 5,
+          "max": 8
+        },
+        "hypertrophy": {
+          "min": 10,
+          "max": 15
+        },
+        "endurance": {
+          "min": 20,
+          "max": 25
+        }
+      },
+      "typicalSets": {
+        "min": 3,
+        "max": 4
+      },
+      "restSeconds": {
+        "strength": 150,
+        "hypertrophy": 90,
+        "endurance": 60
+      },
+      "metValue": 6.0,
+      "intensityFactor": 0.72,
+      "contraindications": [
+        "knee_injury",
+        "lower_back_injury"
+      ],
+      "formCues": [
+        "Feet slightly forward of bar",
+        "Use safety catches",
+        "Full depth each rep",
+        "Control throughout",
+        "Know the hook rotation direction"
+      ],
+      "commonMistakes": [
+        "Feet directly under bar",
+        "Not using full range",
+        "Relying entirely on machine",
+        "Not setting safety catches",
+        "Poor foot position"
+      ],
+      "easierVariation": "leg-press",
+      "harderVariation": "barbell-back-squat-high-bar",
+      "alternativeExercises": [
+        "hack-squat-machine",
+        "leg-press",
+        "pendulum-squat"
+      ],
+      "tags": [
+        "compound",
+        "squat",
+        "quads",
+        "machine",
+        "beginner-friendly",
+        "safe-to-failure"
+      ],
+      "suitableGoals": [
+        "MUSCLE_GAIN",
+        "STRENGTH"
+      ],
+      "fitnessLevelSuitability": {
+        "sedentary": 3,
+        "lightlyActive": 4,
+        "moderatelyActive": 5,
+        "veryActive": 5,
+        "athlete": 4
+      },
+      "experienceLevelSuitability": {
+        "never": 4,
+        "lessThan6Mo": 5,
+        "sixTo24Mo": 5,
+        "twoTo5Yr": 4,
+        "fivePlusYr": 3
+      },
+      "goalEffectiveness": {
+        "weightLoss": 0.5,
+        "muscleGain": 0.82,
+        "strength": 0.72,
+        "endurance": 0.45,
+        "flexibility": 0.2,
+        "generalFitness": 0.7
+      },
+      "estimatedTimePerSet": 40,
+      "setupTimeSeconds": 45,
+      "homeCompatibility": 0.1,
+      "gymCompatibility": 0.95,
+      "outdoorCompatibility": 0.0
+    },
+    {
+      "name": "Pendulum Squat",
+      "slug": "pendulum-squat",
+      "description": "A unique machine squat where the platform swings in an arc rather than linear path, creating constant quad tension throughout the movement. The biomechanics closely match free squatting while offering machine safety.",
+      "instructions": [
+        "Position shoulders under pads, feet on platform",
+        "Set foot position based on desired emphasis",
+        "Release handles, lower by bending knees",
+        "Descend to full depth following platform's arc",
+        "Drive through feet to return, maintaining tension"
+      ],
+      "category": "STRENGTH",
+      "movementPattern": "SQUAT",
+      "exerciseType": "COMPOUND",
+      "primaryMuscles": [
+        "quads",
+        "glutes"
+      ],
+      "secondaryMuscles": [
+        "hamstrings"
+      ],
+      "muscleActivationMap": {
+        "quads": 0.92,
+        "glutes": 0.75,
+        "hamstrings": 0.45
+      },
+      "difficultyLevel": 2,
+      "skillRequirement": 2,
+      "isBeginnerFriendly": true,
+      "equipmentRequired": [
+        "machine"
+      ],
+      "equipmentOptional": [],
+      "suitableLocations": [
+        "gym"
+      ],
+      "repRanges": {
+        "strength": {
+          "min": 6,
+          "max": 10
+        },
+        "hypertrophy": {
+          "min": 10,
+          "max": 15
+        },
+        "endurance": {
+          "min": 20,
+          "max": 25
+        }
+      },
+      "typicalSets": {
+        "min": 3,
+        "max": 4
+      },
+      "restSeconds": {
+        "strength": 120,
+        "hypertrophy": 75,
+        "endurance": 45
+      },
+      "metValue": 5.5,
+      "intensityFactor": 0.72,
+      "contraindications": [
+        "knee_injury"
+      ],
+      "formCues": [
+        "Follow the natural arc",
+        "Full depth each rep",
+        "Keep tension throughout",
+        "Adjust foot position",
+        "Control the pendulum motion"
+      ],
+      "commonMistakes": [
+        "Fighting the arc path",
+        "Partial range of motion",
+        "Losing tension at top",
+        "Foot position too narrow",
+        "Going too fast"
+      ],
+      "easierVariation": "leg-press",
+      "harderVariation": "hack-squat-machine",
+      "alternativeExercises": [
+        "hack-squat-machine",
+        "leg-press",
+        "smith-machine-squat"
+      ],
+      "tags": [
+        "compound",
+        "squat",
+        "quads",
+        "machine",
+        "constant-tension"
+      ],
+      "suitableGoals": [
+        "MUSCLE_GAIN"
+      ],
+      "fitnessLevelSuitability": {
+        "sedentary": 3,
+        "lightlyActive": 4,
+        "moderatelyActive": 5,
+        "veryActive": 5,
+        "athlete": 4
+      },
+      "experienceLevelSuitability": {
+        "never": 4,
+        "lessThan6Mo": 5,
+        "sixTo24Mo": 5,
+        "twoTo5Yr": 5,
+        "fivePlusYr": 4
+      },
+      "goalEffectiveness": {
+        "weightLoss": 0.45,
+        "muscleGain": 0.88,
+        "strength": 0.75,
+        "endurance": 0.45,
+        "flexibility": 0.2,
+        "generalFitness": 0.68
+      },
+      "estimatedTimePerSet": 40,
+      "setupTimeSeconds": 30,
+      "homeCompatibility": 0.0,
+      "gymCompatibility": 0.7,
+      "outdoorCompatibility": 0.0
+    },
+    {
+      "name": "Belt Squat",
+      "slug": "belt-squat",
+      "description": "A squat variation with load suspended from a hip belt rather than on the shoulders, completely eliminating spinal compression. This allows for heavy leg training without back stress, ideal for recovery or back issues.",
+      "instructions": [
+        "Attach belt around hips, connect to weight stack or plates",
+        "Stand on platform with feet shoulder-width apart",
+        "Brace core, initiate squat by pushing hips back",
+        "Descend to full depth, keeping torso naturally upright",
+        "Drive through heels to stand, squeezing glutes at top"
+      ],
+      "category": "STRENGTH",
+      "movementPattern": "SQUAT",
+      "exerciseType": "COMPOUND",
+      "primaryMuscles": [
+        "quads",
+        "glutes"
+      ],
+      "secondaryMuscles": [
+        "hamstrings",
+        "hip_flexors"
+      ],
+      "muscleActivationMap": {
+        "quads": 0.9,
+        "glutes": 0.82,
+        "hamstrings": 0.5,
+        "hip_flexors": 0.4
+      },
+      "difficultyLevel": 2,
+      "skillRequirement": 2,
+      "isBeginnerFriendly": true,
+      "equipmentRequired": [
+        "machine"
+      ],
+      "equipmentOptional": [],
+      "suitableLocations": [
+        "gym"
+      ],
+      "repRanges": {
+        "strength": {
+          "min": 6,
+          "max": 10
+        },
+        "hypertrophy": {
+          "min": 10,
+          "max": 15
+        },
+        "endurance": {
+          "min": 20,
+          "max": 30
+        }
+      },
+      "typicalSets": {
+        "min": 3,
+        "max": 5
+      },
+      "restSeconds": {
+        "strength": 150,
+        "hypertrophy": 90,
+        "endurance": 60
+      },
+      "metValue": 6.0,
+      "intensityFactor": 0.75,
+      "contraindications": [
+        "hip_injury"
+      ],
+      "formCues": [
+        "Belt sits on hip bones",
+        "Squat naturally - no bar to balance",
+        "Full depth possible",
+        "No spinal compression",
+        "Arms free for balance or handles"
+      ],
+      "commonMistakes": [
+        "Belt too high on waist",
+        "Not using full ROM",
+        "Letting hips shift",
+        "Poor foot positioning",
+        "Fighting the load angle"
+      ],
+      "easierVariation": "leg-press",
+      "harderVariation": "barbell-back-squat-high-bar",
+      "alternativeExercises": [
+        "leg-press",
+        "hack-squat-machine",
+        "pendulum-squat"
+      ],
+      "tags": [
+        "compound",
+        "squat",
+        "quads",
+        "glutes",
+        "machine",
+        "spine-friendly"
+      ],
+      "suitableGoals": [
+        "MUSCLE_GAIN",
+        "STRENGTH"
+      ],
+      "fitnessLevelSuitability": {
+        "sedentary": 3,
+        "lightlyActive": 4,
+        "moderatelyActive": 5,
+        "veryActive": 5,
+        "athlete": 5
+      },
+      "experienceLevelSuitability": {
+        "never": 3,
+        "lessThan6Mo": 4,
+        "sixTo24Mo": 5,
+        "twoTo5Yr": 5,
+        "fivePlusYr": 5
+      },
+      "goalEffectiveness": {
+        "weightLoss": 0.55,
+        "muscleGain": 0.88,
+        "strength": 0.82,
+        "endurance": 0.5,
+        "flexibility": 0.3,
+        "generalFitness": 0.75
+      },
+      "estimatedTimePerSet": 45,
+      "setupTimeSeconds": 60,
+      "homeCompatibility": 0.1,
+      "gymCompatibility": 0.75,
+      "outdoorCompatibility": 0.0
+    },
+    {
+      "name": "Single-Leg Press",
+      "slug": "single-leg-press",
+      "description": "A unilateral leg press performed one leg at a time to address strength imbalances and increase range of motion. The single-leg approach ensures each leg works independently without compensation.",
+      "instructions": [
+        "Sit in leg press machine with back flat against pad",
+        "Place one foot in center of platform, other foot resting off",
+        "Release safety, lower weight by bending working knee",
+        "Descend to 90 degrees or comfortable depth",
+        "Drive through foot to extend, complete all reps then switch"
+      ],
+      "category": "STRENGTH",
+      "movementPattern": "SQUAT",
+      "exerciseType": "COMPOUND",
+      "primaryMuscles": [
+        "quads",
+        "glutes"
+      ],
+      "secondaryMuscles": [
+        "hamstrings"
+      ],
+      "muscleActivationMap": {
+        "quads": 0.9,
+        "glutes": 0.75,
+        "hamstrings": 0.45
+      },
+      "difficultyLevel": 3,
+      "skillRequirement": 2,
+      "isBeginnerFriendly": true,
+      "equipmentRequired": [
+        "machine"
+      ],
+      "equipmentOptional": [],
+      "suitableLocations": [
+        "gym"
+      ],
+      "repRanges": {
+        "strength": {
+          "min": 6,
+          "max": 10
+        },
+        "hypertrophy": {
+          "min": 10,
+          "max": 15
+        },
+        "endurance": {
+          "min": 15,
+          "max": 20
+        }
+      },
+      "typicalSets": {
+        "min": 3,
+        "max": 4
+      },
+      "restSeconds": {
+        "strength": 120,
+        "hypertrophy": 75,
+        "endurance": 45
+      },
+      "metValue": 5.5,
+      "intensityFactor": 0.7,
+      "contraindications": [
+        "knee_injury"
+      ],
+      "formCues": [
+        "Foot centered on platform",
+        "Hips stay level",
+        "Full range of motion",
+        "Equal reps both legs",
+        "Control throughout"
+      ],
+      "commonMistakes": [
+        "Hips rotating",
+        "Foot off-center",
+        "Using much less than half weight",
+        "Unequal ROM between legs",
+        "Losing back contact"
+      ],
+      "easierVariation": "leg-press",
+      "harderVariation": "bulgarian-split-squat",
+      "alternativeExercises": [
+        "bulgarian-split-squat",
+        "step-up",
+        "pistol-squat"
+      ],
+      "tags": [
+        "compound",
+        "unilateral",
+        "quads",
+        "machine",
+        "imbalance-correction"
+      ],
+      "suitableGoals": [
+        "MUSCLE_GAIN",
+        "STRENGTH"
+      ],
+      "fitnessLevelSuitability": {
+        "sedentary": 2,
+        "lightlyActive": 3,
+        "moderatelyActive": 5,
+        "veryActive": 5,
+        "athlete": 5
+      },
+      "experienceLevelSuitability": {
+        "never": 3,
+        "lessThan6Mo": 4,
+        "sixTo24Mo": 5,
+        "twoTo5Yr": 5,
+        "fivePlusYr": 5
+      },
+      "goalEffectiveness": {
+        "weightLoss": 0.45,
+        "muscleGain": 0.82,
+        "strength": 0.75,
+        "endurance": 0.45,
+        "flexibility": 0.2,
+        "generalFitness": 0.7
+      },
+      "estimatedTimePerSet": 50,
+      "setupTimeSeconds": 45,
+      "homeCompatibility": 0.05,
+      "gymCompatibility": 1.0,
+      "outdoorCompatibility": 0.0
+    },
+    {
+      "name": "Bodyweight Leg Extension",
+      "slug": "bodyweight-leg-extension",
+      "description": "A quad isolation exercise performed without machines by sitting on a surface and extending the leg against gravity or resistance. This accessible movement can be performed anywhere for quad activation.",
+      "instructions": [
+        "Sit on elevated surface with knees bent at 90 degrees",
+        "Keep back straight, hands gripping surface for stability",
+        "Extend one or both legs until straight, squeezing quads",
+        "Hold contraction briefly at top",
+        "Lower under control to starting position"
+      ],
+      "category": "CALISTHENICS",
+      "movementPattern": "EXTENSION",
+      "exerciseType": "ISOLATION",
+      "primaryMuscles": [
+        "quads"
+      ],
+      "secondaryMuscles": [
+        "hip_flexors"
+      ],
+      "muscleActivationMap": {
+        "quads": 0.75,
+        "hip_flexors": 0.35
+      },
+      "difficultyLevel": 1,
+      "skillRequirement": 1,
+      "isBeginnerFriendly": true,
+      "equipmentRequired": [],
+      "equipmentOptional": [
+        "resistance_band",
+        "bench"
+      ],
+      "suitableLocations": [
+        "home",
+        "gym",
+        "outdoor"
+      ],
+      "repRanges": {
+        "strength": {
+          "min": 15,
+          "max": 20
+        },
+        "hypertrophy": {
+          "min": 20,
+          "max": 30
+        },
+        "endurance": {
+          "min": 40,
+          "max": 60
+        }
+      },
+      "typicalSets": {
+        "min": 3,
+        "max": 4
+      },
+      "restSeconds": {
+        "strength": 60,
+        "hypertrophy": 45,
+        "endurance": 20
+      },
+      "metValue": 3.0,
+      "intensityFactor": 0.35,
+      "contraindications": [
+        "knee_injury"
+      ],
+      "formCues": [
+        "Full extension each rep",
+        "Squeeze quads hard at top",
+        "Control the lowering",
+        "Keep thighs stationary",
+        "Add ankle weight for progression"
+      ],
+      "commonMistakes": [
+        "Not fully extending",
+        "Swinging the leg",
+        "No contraction squeeze",
+        "Rushing reps",
+        "Poor posture"
+      ],
+      "easierVariation": null,
+      "harderVariation": "leg-extension",
+      "alternativeExercises": [
+        "leg-extension",
+        "sissy-squat",
+        "wall-sit"
+      ],
+      "tags": [
+        "isolation",
+        "quads",
+        "bodyweight",
+        "beginner-friendly",
+        "anywhere"
+      ],
+      "suitableGoals": [
+        "GENERAL_FITNESS",
+        "ENDURANCE"
+      ],
+      "fitnessLevelSuitability": {
+        "sedentary": 5,
+        "lightlyActive": 5,
+        "moderatelyActive": 4,
+        "veryActive": 3,
+        "athlete": 2
+      },
+      "experienceLevelSuitability": {
+        "never": 5,
+        "lessThan6Mo": 5,
+        "sixTo24Mo": 4,
+        "twoTo5Yr": 3,
+        "fivePlusYr": 2
+      },
+      "goalEffectiveness": {
+        "weightLoss": 0.25,
+        "muscleGain": 0.4,
+        "strength": 0.35,
+        "endurance": 0.6,
+        "flexibility": 0.15,
+        "generalFitness": 0.55
+      },
+      "estimatedTimePerSet": 30,
+      "setupTimeSeconds": 10,
+      "homeCompatibility": 1.0,
+      "gymCompatibility": 0.8,
+      "outdoorCompatibility": 0.9
+    }
+  ]

@@ -1,0 +1,5246 @@
+[
+  {
+    "name": "Barbell Bent-Over Row Overhand Grip",
+    "slug": "barbell-bent-over-row-overhand",
+    "description": "A fundamental compound pulling movement performed with an overhand (pronated) grip that targets the entire back musculature with emphasis on the upper back and rear deltoids. The overhand grip promotes greater lat stretch and recruits more upper back muscles compared to underhand variations.",
+    "instructions": [
+      "Stand with feet hip-width apart, grip barbell slightly wider than shoulder width with overhand grip",
+      "Hinge at hips until torso is roughly 45-60 degrees to the floor, maintaining flat back",
+      "Let arms hang straight down with slight elbow bend, bar positioned below shoulders",
+      "Pull barbell toward lower chest/upper abdomen, driving elbows back and squeezing shoulder blades",
+      "Lower bar under control to starting position, maintaining hip hinge throughout"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "HORIZONTAL_PULL",
+    "exerciseType": "COMPOUND",
+    "primaryMuscles": [
+      "back",
+      "lats"
+    ],
+    "secondaryMuscles": [
+      "rear_delts",
+      "biceps",
+      "traps",
+      "core",
+      "hamstrings"
+    ],
+    "muscleActivationMap": {
+      "lats": 0.85,
+      "back": 0.9,
+      "rear_delts": 0.6,
+      "biceps": 0.5,
+      "traps": 0.55,
+      "core": 0.4,
+      "hamstrings": 0.3
+    },
+    "difficultyLevel": 3,
+    "skillRequirement": 3,
+    "isBeginnerFriendly": false,
+    "equipmentRequired": [
+      "barbell"
+    ],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "gym"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 4,
+        "max": 6
+      },
+      "hypertrophy": {
+        "min": 8,
+        "max": 12
+      },
+      "endurance": {
+        "min": 15,
+        "max": 20
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 5
+    },
+    "restSeconds": {
+      "strength": 180,
+      "hypertrophy": 90,
+      "endurance": 60
+    },
+    "metValue": 6.0,
+    "intensityFactor": 0.8,
+    "contraindications": [
+      "lower_back_injury",
+      "shoulder_injury",
+      "hip_injury"
+    ],
+    "formCues": [
+      "Maintain flat back throughout",
+      "Drive elbows toward ceiling",
+      "Keep bar close to body",
+      "Squeeze shoulder blades at top",
+      "Brace core before each rep"
+    ],
+    "commonMistakes": [
+      "Rounding lower back",
+      "Using momentum to swing weight",
+      "Standing too upright",
+      "Pulling to wrong position",
+      "Jerking weight up"
+    ],
+    "easierVariation": "chest-supported-dumbbell-row",
+    "harderVariation": "pendlay-row",
+    "alternativeExercises": [
+      "seated-cable-row",
+      "t-bar-row",
+      "single-arm-dumbbell-row"
+    ],
+    "tags": [
+      "compound",
+      "pull",
+      "back",
+      "barbell",
+      "horizontal-pull",
+      "strength"
+    ],
+    "suitableGoals": [
+      "MUSCLE_GAIN",
+      "STRENGTH"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 1,
+      "lightlyActive": 2,
+      "moderatelyActive": 4,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 1,
+      "lessThan6Mo": 2,
+      "sixTo24Mo": 4,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.55,
+      "muscleGain": 0.92,
+      "strength": 0.88,
+      "endurance": 0.35,
+      "flexibility": 0.15,
+      "generalFitness": 0.7
+    },
+    "estimatedTimePerSet": 45,
+    "setupTimeSeconds": 60,
+    "homeCompatibility": 0.3,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.1
+  },
+  {
+    "name": "Barbell Bent-Over Row Underhand Grip",
+    "slug": "barbell-bent-over-row-underhand",
+    "description": "A bent-over row variation using a supinated (underhand) grip that increases bicep recruitment and allows for greater lat stretch at the bottom. This grip typically allows pulling to a lower position on the torso, emphasizing the lower lats.",
+    "instructions": [
+      "Stand with feet hip-width apart, grip barbell shoulder-width with underhand grip",
+      "Hinge forward at hips until torso is 45-60 degrees to floor with flat back",
+      "Let bar hang with arms fully extended below shoulders",
+      "Pull bar toward lower abdomen, keeping elbows close to body",
+      "Squeeze lats hard at top, lower under control to full stretch"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "HORIZONTAL_PULL",
+    "exerciseType": "COMPOUND",
+    "primaryMuscles": [
+      "lats",
+      "back"
+    ],
+    "secondaryMuscles": [
+      "biceps",
+      "rear_delts",
+      "traps",
+      "core"
+    ],
+    "muscleActivationMap": {
+      "lats": 0.92,
+      "back": 0.8,
+      "biceps": 0.65,
+      "rear_delts": 0.45,
+      "traps": 0.5,
+      "core": 0.4
+    },
+    "difficultyLevel": 3,
+    "skillRequirement": 3,
+    "isBeginnerFriendly": false,
+    "equipmentRequired": [
+      "barbell"
+    ],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "gym"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 4,
+        "max": 6
+      },
+      "hypertrophy": {
+        "min": 8,
+        "max": 12
+      },
+      "endurance": {
+        "min": 15,
+        "max": 20
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 5
+    },
+    "restSeconds": {
+      "strength": 180,
+      "hypertrophy": 90,
+      "endurance": 60
+    },
+    "metValue": 6.0,
+    "intensityFactor": 0.78,
+    "contraindications": [
+      "lower_back_injury",
+      "wrist_injury",
+      "elbow_injury"
+    ],
+    "formCues": [
+      "Keep elbows tucked close to sides",
+      "Pull toward belly button",
+      "Maintain neutral wrist position",
+      "Focus on lat squeeze at top",
+      "Control the negative"
+    ],
+    "commonMistakes": [
+      "Flaring elbows out",
+      "Rounding lower back",
+      "Using too heavy weight",
+      "Short range of motion",
+      "Excessive body English"
+    ],
+    "easierVariation": "seated-cable-row",
+    "harderVariation": "pendlay-row",
+    "alternativeExercises": [
+      "barbell-bent-over-row-overhand",
+      "chin-up",
+      "close-grip-lat-pulldown"
+    ],
+    "tags": [
+      "compound",
+      "pull",
+      "back",
+      "lats",
+      "barbell",
+      "underhand"
+    ],
+    "suitableGoals": [
+      "MUSCLE_GAIN",
+      "STRENGTH"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 1,
+      "lightlyActive": 2,
+      "moderatelyActive": 4,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 1,
+      "lessThan6Mo": 2,
+      "sixTo24Mo": 4,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.5,
+      "muscleGain": 0.9,
+      "strength": 0.85,
+      "endurance": 0.35,
+      "flexibility": 0.2,
+      "generalFitness": 0.68
+    },
+    "estimatedTimePerSet": 45,
+    "setupTimeSeconds": 60,
+    "homeCompatibility": 0.3,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.1
+  },
+  {
+    "name": "Pendlay Row",
+    "slug": "pendlay-row",
+    "description": "An explosive barbell row variation named after weightlifting coach Glenn Pendlay, performed with the torso parallel to the floor and bar returning to the ground each rep. This dead-stop technique eliminates momentum and builds explosive pulling power.",
+    "instructions": [
+      "Set up with barbell on floor, feet hip-width, using overhand grip slightly wider than shoulder width",
+      "Hinge until torso is completely parallel to floor, back flat",
+      "Pull bar explosively from floor to lower chest in one powerful motion",
+      "Lower bar back to floor under control, coming to complete stop",
+      "Reset position and repeat, each rep starting from dead stop"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "HORIZONTAL_PULL",
+    "exerciseType": "COMPOUND",
+    "primaryMuscles": [
+      "back",
+      "lats"
+    ],
+    "secondaryMuscles": [
+      "rear_delts",
+      "biceps",
+      "traps",
+      "core",
+      "hamstrings",
+      "glutes"
+    ],
+    "muscleActivationMap": {
+      "back": 0.95,
+      "lats": 0.85,
+      "rear_delts": 0.6,
+      "biceps": 0.5,
+      "traps": 0.6,
+      "core": 0.5,
+      "hamstrings": 0.4,
+      "glutes": 0.35
+    },
+    "difficultyLevel": 4,
+    "skillRequirement": 4,
+    "isBeginnerFriendly": false,
+    "equipmentRequired": [
+      "barbell"
+    ],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "gym"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 3,
+        "max": 6
+      },
+      "hypertrophy": {
+        "min": 6,
+        "max": 10
+      },
+      "endurance": {
+        "min": 12,
+        "max": 15
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 5
+    },
+    "restSeconds": {
+      "strength": 180,
+      "hypertrophy": 120,
+      "endurance": 75
+    },
+    "metValue": 7.0,
+    "intensityFactor": 0.85,
+    "contraindications": [
+      "lower_back_injury",
+      "shoulder_injury",
+      "hip_injury"
+    ],
+    "formCues": [
+      "Torso must be parallel to floor",
+      "Explosive pull, controlled descent",
+      "Complete dead stop each rep",
+      "Reset position before each pull",
+      "Keep core extremely tight"
+    ],
+    "commonMistakes": [
+      "Torso not parallel enough",
+      "Bouncing bar instead of dead stop",
+      "Losing back position between reps",
+      "Not pulling explosively",
+      "Using too much weight"
+    ],
+    "easierVariation": "barbell-bent-over-row-overhand",
+    "harderVariation": "deficit-deadlift",
+    "alternativeExercises": [
+      "barbell-bent-over-row-overhand",
+      "t-bar-row",
+      "seal-row"
+    ],
+    "tags": [
+      "compound",
+      "pull",
+      "back",
+      "barbell",
+      "explosive",
+      "powerlifting"
+    ],
+    "suitableGoals": [
+      "STRENGTH",
+      "MUSCLE_GAIN"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 1,
+      "lightlyActive": 1,
+      "moderatelyActive": 3,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 1,
+      "lessThan6Mo": 1,
+      "sixTo24Mo": 3,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.5,
+      "muscleGain": 0.88,
+      "strength": 0.95,
+      "endurance": 0.3,
+      "flexibility": 0.15,
+      "generalFitness": 0.65
+    },
+    "estimatedTimePerSet": 50,
+    "setupTimeSeconds": 60,
+    "homeCompatibility": 0.25,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.1
+  },
+  {
+    "name": "Single-Arm Dumbbell Row",
+    "slug": "single-arm-dumbbell-row",
+    "description": "A unilateral rowing movement performed with one arm at a time, typically with the non-working hand braced on a bench. This exercise allows for greater range of motion, helps correct muscle imbalances, and reduces lower back stress.",
+    "instructions": [
+      "Place one knee and same-side hand on bench, opposite foot on floor for stability",
+      "Hold dumbbell in free hand with arm fully extended toward floor",
+      "Keep back flat and parallel to floor, core braced",
+      "Row dumbbell to hip by driving elbow toward ceiling",
+      "Lower under control to full stretch, complete all reps then switch sides"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "HORIZONTAL_PULL",
+    "exerciseType": "COMPOUND",
+    "primaryMuscles": [
+      "lats",
+      "back"
+    ],
+    "secondaryMuscles": [
+      "biceps",
+      "rear_delts",
+      "core",
+      "traps"
+    ],
+    "muscleActivationMap": {
+      "lats": 0.9,
+      "back": 0.85,
+      "biceps": 0.55,
+      "rear_delts": 0.5,
+      "core": 0.45,
+      "traps": 0.4
+    },
+    "difficultyLevel": 2,
+    "skillRequirement": 2,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [
+      "dumbbell",
+      "bench"
+    ],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "gym",
+      "home"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 5,
+        "max": 8
+      },
+      "hypertrophy": {
+        "min": 8,
+        "max": 12
+      },
+      "endurance": {
+        "min": 15,
+        "max": 20
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 120,
+      "hypertrophy": 75,
+      "endurance": 45
+    },
+    "metValue": 5.0,
+    "intensityFactor": 0.7,
+    "contraindications": [
+      "shoulder_injury",
+      "wrist_injury"
+    ],
+    "formCues": [
+      "Keep back flat, no rotation",
+      "Drive elbow past torso",
+      "Full stretch at bottom",
+      "Squeeze lat at top",
+      "Keep core engaged to prevent rotation"
+    ],
+    "commonMistakes": [
+      "Rotating torso during row",
+      "Not using full range of motion",
+      "Rowing to chest instead of hip",
+      "Using momentum",
+      "Shrugging shoulder up"
+    ],
+    "easierVariation": "machine-row",
+    "harderVariation": "meadows-row",
+    "alternativeExercises": [
+      "seated-cable-row",
+      "chest-supported-dumbbell-row",
+      "barbell-bent-over-row-overhand"
+    ],
+    "tags": [
+      "compound",
+      "pull",
+      "back",
+      "dumbbell",
+      "unilateral",
+      "beginner-friendly"
+    ],
+    "suitableGoals": [
+      "MUSCLE_GAIN",
+      "STRENGTH",
+      "GENERAL_FITNESS"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 2,
+      "lightlyActive": 4,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 3,
+      "lessThan6Mo": 4,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.5,
+      "muscleGain": 0.88,
+      "strength": 0.78,
+      "endurance": 0.4,
+      "flexibility": 0.2,
+      "generalFitness": 0.8
+    },
+    "estimatedTimePerSet": 50,
+    "setupTimeSeconds": 20,
+    "homeCompatibility": 0.85,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.3
+  },
+  {
+    "name": "Chest-Supported Dumbbell Row",
+    "slug": "chest-supported-dumbbell-row",
+    "description": "A rowing variation performed lying face-down on an incline bench, completely eliminating lower back involvement and momentum. This strict isolation allows for maximum lat and upper back focus with zero cheating potential.",
+    "instructions": [
+      "Set incline bench to 30-45 degrees and lie face down with chest on pad",
+      "Let arms hang straight down holding dumbbells with neutral or pronated grip",
+      "Plant feet firmly on floor for stability",
+      "Row both dumbbells simultaneously toward hips, squeezing shoulder blades",
+      "Lower under control to full extension, feeling lat stretch"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "HORIZONTAL_PULL",
+    "exerciseType": "COMPOUND",
+    "primaryMuscles": [
+      "back",
+      "lats"
+    ],
+    "secondaryMuscles": [
+      "rear_delts",
+      "biceps",
+      "traps"
+    ],
+    "muscleActivationMap": {
+      "back": 0.9,
+      "lats": 0.88,
+      "rear_delts": 0.6,
+      "biceps": 0.5,
+      "traps": 0.55
+    },
+    "difficultyLevel": 2,
+    "skillRequirement": 1,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [
+      "dumbbell",
+      "bench"
+    ],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "gym",
+      "home"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 6,
+        "max": 8
+      },
+      "hypertrophy": {
+        "min": 10,
+        "max": 15
+      },
+      "endurance": {
+        "min": 15,
+        "max": 20
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 120,
+      "hypertrophy": 75,
+      "endurance": 45
+    },
+    "metValue": 4.5,
+    "intensityFactor": 0.65,
+    "contraindications": [
+      "shoulder_injury"
+    ],
+    "formCues": [
+      "Keep chest pressed into pad",
+      "No momentum possible - strict form",
+      "Full stretch at bottom",
+      "Retract shoulder blades at top",
+      "Control the entire movement"
+    ],
+    "commonMistakes": [
+      "Lifting chest off pad",
+      "Not using full range of motion",
+      "Going too heavy losing form",
+      "Rushing through reps",
+      "Not squeezing at contraction"
+    ],
+    "easierVariation": "machine-row",
+    "harderVariation": "single-arm-dumbbell-row",
+    "alternativeExercises": [
+      "seal-row",
+      "single-arm-dumbbell-row",
+      "machine-row"
+    ],
+    "tags": [
+      "compound",
+      "pull",
+      "back",
+      "dumbbell",
+      "chest-supported",
+      "strict-form"
+    ],
+    "suitableGoals": [
+      "MUSCLE_GAIN",
+      "GENERAL_FITNESS"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 3,
+      "lightlyActive": 4,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 4
+    },
+    "experienceLevelSuitability": {
+      "never": 4,
+      "lessThan6Mo": 5,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 4
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.4,
+      "muscleGain": 0.85,
+      "strength": 0.7,
+      "endurance": 0.45,
+      "flexibility": 0.2,
+      "generalFitness": 0.75
+    },
+    "estimatedTimePerSet": 40,
+    "setupTimeSeconds": 45,
+    "homeCompatibility": 0.7,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.1
+  },
+  {
+    "name": "Seated Cable Row",
+    "slug": "seated-cable-row",
+    "description": "A staple horizontal pulling exercise using a cable machine that provides constant tension throughout the entire range of motion. The seated position and cable resistance create an ideal environment for targeting the middle back and lats.",
+    "instructions": [
+      "Sit on cable row station with feet on footplates, knees slightly bent",
+      "Grasp V-bar or straight bar attachment with arms extended",
+      "Sit upright with slight forward lean, chest up and shoulders back",
+      "Pull handle toward lower abdomen, driving elbows back past torso",
+      "Squeeze shoulder blades together at contraction, return to start with control"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "HORIZONTAL_PULL",
+    "exerciseType": "COMPOUND",
+    "primaryMuscles": [
+      "back",
+      "lats"
+    ],
+    "secondaryMuscles": [
+      "biceps",
+      "rear_delts",
+      "traps",
+      "core"
+    ],
+    "muscleActivationMap": {
+      "back": 0.88,
+      "lats": 0.85,
+      "biceps": 0.55,
+      "rear_delts": 0.5,
+      "traps": 0.5,
+      "core": 0.3
+    },
+    "difficultyLevel": 2,
+    "skillRequirement": 2,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [
+      "cable"
+    ],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "gym"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 6,
+        "max": 8
+      },
+      "hypertrophy": {
+        "min": 10,
+        "max": 15
+      },
+      "endurance": {
+        "min": 15,
+        "max": 25
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 120,
+      "hypertrophy": 75,
+      "endurance": 45
+    },
+    "metValue": 5.0,
+    "intensityFactor": 0.7,
+    "contraindications": [
+      "lower_back_injury",
+      "shoulder_injury"
+    ],
+    "formCues": [
+      "Maintain upright torso",
+      "Pull to belly button",
+      "Squeeze shoulder blades at contraction",
+      "Control eccentric",
+      "Keep chest up throughout"
+    ],
+    "commonMistakes": [
+      "Excessive forward lean and rocking",
+      "Using momentum",
+      "Rounding lower back",
+      "Not squeezing at contraction",
+      "Pulling too high toward chest"
+    ],
+    "easierVariation": "machine-row",
+    "harderVariation": "single-arm-cable-row",
+    "alternativeExercises": [
+      "single-arm-dumbbell-row",
+      "barbell-bent-over-row-overhand",
+      "machine-row"
+    ],
+    "tags": [
+      "compound",
+      "pull",
+      "back",
+      "cable",
+      "beginner-friendly"
+    ],
+    "suitableGoals": [
+      "MUSCLE_GAIN",
+      "STRENGTH",
+      "GENERAL_FITNESS"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 3,
+      "lightlyActive": 4,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 4,
+      "lessThan6Mo": 5,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.45,
+      "muscleGain": 0.85,
+      "strength": 0.75,
+      "endurance": 0.5,
+      "flexibility": 0.15,
+      "generalFitness": 0.8
+    },
+    "estimatedTimePerSet": 40,
+    "setupTimeSeconds": 30,
+    "homeCompatibility": 0.15,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.0
+  },
+  {
+    "name": "Standing Cable Row",
+    "slug": "standing-cable-row",
+    "description": "A functional rowing variation performed standing that engages more core and posterior chain muscles for stability. The standing position allows for natural hip hinge integration and translates well to athletic movements.",
+    "instructions": [
+      "Set cable at chest height, stand facing machine in athletic stance",
+      "Grasp handle with both hands, step back until cable is taut",
+      "Hinge slightly at hips with soft knees, brace core",
+      "Pull handle toward lower chest/upper abdomen driving elbows back",
+      "Squeeze back muscles at contraction, extend arms with control"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "HORIZONTAL_PULL",
+    "exerciseType": "COMPOUND",
+    "primaryMuscles": [
+      "back",
+      "lats"
+    ],
+    "secondaryMuscles": [
+      "biceps",
+      "rear_delts",
+      "core",
+      "glutes",
+      "hamstrings"
+    ],
+    "muscleActivationMap": {
+      "back": 0.82,
+      "lats": 0.8,
+      "biceps": 0.5,
+      "rear_delts": 0.5,
+      "core": 0.55,
+      "glutes": 0.3,
+      "hamstrings": 0.25
+    },
+    "difficultyLevel": 2,
+    "skillRequirement": 2,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [
+      "cable"
+    ],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "gym"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 6,
+        "max": 10
+      },
+      "hypertrophy": {
+        "min": 10,
+        "max": 15
+      },
+      "endurance": {
+        "min": 15,
+        "max": 25
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 90,
+      "hypertrophy": 60,
+      "endurance": 45
+    },
+    "metValue": 5.5,
+    "intensityFactor": 0.65,
+    "contraindications": [
+      "lower_back_injury"
+    ],
+    "formCues": [
+      "Maintain athletic stance",
+      "Brace core throughout",
+      "Slight hip hinge",
+      "Pull through elbows not hands",
+      "Stay balanced on both feet"
+    ],
+    "commonMistakes": [
+      "Leaning back too far",
+      "Losing core stability",
+      "Rocking with momentum",
+      "Feet too close together",
+      "Standing too upright"
+    ],
+    "easierVariation": "seated-cable-row",
+    "harderVariation": "single-arm-cable-row",
+    "alternativeExercises": [
+      "seated-cable-row",
+      "resistance-band-row",
+      "single-arm-dumbbell-row"
+    ],
+    "tags": [
+      "compound",
+      "pull",
+      "back",
+      "cable",
+      "functional",
+      "standing"
+    ],
+    "suitableGoals": [
+      "MUSCLE_GAIN",
+      "GENERAL_FITNESS",
+      "STRENGTH"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 2,
+      "lightlyActive": 4,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 3,
+      "lessThan6Mo": 4,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.5,
+      "muscleGain": 0.78,
+      "strength": 0.72,
+      "endurance": 0.5,
+      "flexibility": 0.2,
+      "generalFitness": 0.82
+    },
+    "estimatedTimePerSet": 35,
+    "setupTimeSeconds": 20,
+    "homeCompatibility": 0.15,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.0
+  },
+  {
+    "name": "Single-Arm Cable Row",
+    "slug": "single-arm-cable-row",
+    "description": "A unilateral cable rowing movement that allows for greater range of motion, rotational work, and muscle imbalance correction. The single-arm approach increases core anti-rotation demands while providing excellent lat isolation.",
+    "instructions": [
+      "Set cable at mid-torso height, stand in staggered stance facing machine",
+      "Grasp D-handle with one hand, step back until cable is taut",
+      "Brace core to resist rotation, maintain upright torso",
+      "Row handle toward hip, driving elbow back and rotating slightly",
+      "Control the return to full stretch, complete all reps then switch sides"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "HORIZONTAL_PULL",
+    "exerciseType": "COMPOUND",
+    "primaryMuscles": [
+      "lats",
+      "back"
+    ],
+    "secondaryMuscles": [
+      "biceps",
+      "rear_delts",
+      "core",
+      "obliques"
+    ],
+    "muscleActivationMap": {
+      "lats": 0.88,
+      "back": 0.82,
+      "biceps": 0.55,
+      "rear_delts": 0.5,
+      "core": 0.55,
+      "obliques": 0.5
+    },
+    "difficultyLevel": 2,
+    "skillRequirement": 2,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [
+      "cable"
+    ],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "gym"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 6,
+        "max": 10
+      },
+      "hypertrophy": {
+        "min": 10,
+        "max": 15
+      },
+      "endurance": {
+        "min": 15,
+        "max": 20
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 90,
+      "hypertrophy": 60,
+      "endurance": 45
+    },
+    "metValue": 5.0,
+    "intensityFactor": 0.68,
+    "contraindications": [
+      "shoulder_injury",
+      "lower_back_injury"
+    ],
+    "formCues": [
+      "Resist rotation throughout",
+      "Allow slight torso rotation at peak",
+      "Full stretch at bottom",
+      "Drive elbow past body",
+      "Equal reps and weight both sides"
+    ],
+    "commonMistakes": [
+      "Excessive torso rotation",
+      "Losing core stability",
+      "Cutting range of motion short",
+      "Different form between sides",
+      "Using momentum"
+    ],
+    "easierVariation": "seated-cable-row",
+    "harderVariation": "meadows-row",
+    "alternativeExercises": [
+      "single-arm-dumbbell-row",
+      "standing-cable-row",
+      "meadows-row"
+    ],
+    "tags": [
+      "compound",
+      "pull",
+      "back",
+      "cable",
+      "unilateral",
+      "anti-rotation"
+    ],
+    "suitableGoals": [
+      "MUSCLE_GAIN",
+      "GENERAL_FITNESS"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 2,
+      "lightlyActive": 4,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 3,
+      "lessThan6Mo": 4,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.48,
+      "muscleGain": 0.82,
+      "strength": 0.72,
+      "endurance": 0.48,
+      "flexibility": 0.2,
+      "generalFitness": 0.8
+    },
+    "estimatedTimePerSet": 45,
+    "setupTimeSeconds": 20,
+    "homeCompatibility": 0.15,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.0
+  },
+  {
+    "name": "T-Bar Row",
+    "slug": "t-bar-row",
+    "description": "A classic back builder performed using a T-bar apparatus or landmine setup that allows for heavy loading with a neutral grip. The fixed pivot point provides stability while enabling aggressive pulling through the mid and lower back.",
+    "instructions": [
+      "Straddle the T-bar with feet wider than shoulder width for stability",
+      "Grasp handles with neutral grip, hinge forward with flat back",
+      "Let weight hang with arms extended, torso at 45-60 degrees",
+      "Row bar toward chest by driving elbows up and back",
+      "Squeeze back at top, lower under control to full stretch"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "HORIZONTAL_PULL",
+    "exerciseType": "COMPOUND",
+    "primaryMuscles": [
+      "back",
+      "lats"
+    ],
+    "secondaryMuscles": [
+      "biceps",
+      "rear_delts",
+      "traps",
+      "core",
+      "hamstrings"
+    ],
+    "muscleActivationMap": {
+      "back": 0.92,
+      "lats": 0.85,
+      "biceps": 0.55,
+      "rear_delts": 0.55,
+      "traps": 0.6,
+      "core": 0.4,
+      "hamstrings": 0.3
+    },
+    "difficultyLevel": 3,
+    "skillRequirement": 3,
+    "isBeginnerFriendly": false,
+    "equipmentRequired": [
+      "barbell"
+    ],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "gym"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 5,
+        "max": 8
+      },
+      "hypertrophy": {
+        "min": 8,
+        "max": 12
+      },
+      "endurance": {
+        "min": 15,
+        "max": 20
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 5
+    },
+    "restSeconds": {
+      "strength": 150,
+      "hypertrophy": 90,
+      "endurance": 60
+    },
+    "metValue": 6.0,
+    "intensityFactor": 0.8,
+    "contraindications": [
+      "lower_back_injury",
+      "shoulder_injury"
+    ],
+    "formCues": [
+      "Keep back flat, not rounded",
+      "Drive elbows toward ceiling",
+      "Squeeze shoulder blades at top",
+      "Control the descent",
+      "Brace core throughout"
+    ],
+    "commonMistakes": [
+      "Rounding lower back",
+      "Standing too upright",
+      "Using momentum to swing",
+      "Grip too narrow or wide",
+      "Not using full ROM"
+    ],
+    "easierVariation": "seated-cable-row",
+    "harderVariation": "pendlay-row",
+    "alternativeExercises": [
+      "barbell-bent-over-row-overhand",
+      "single-arm-dumbbell-row",
+      "seal-row"
+    ],
+    "tags": [
+      "compound",
+      "pull",
+      "back",
+      "barbell",
+      "mass-builder"
+    ],
+    "suitableGoals": [
+      "MUSCLE_GAIN",
+      "STRENGTH"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 1,
+      "lightlyActive": 2,
+      "moderatelyActive": 4,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 1,
+      "lessThan6Mo": 2,
+      "sixTo24Mo": 4,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.5,
+      "muscleGain": 0.92,
+      "strength": 0.85,
+      "endurance": 0.35,
+      "flexibility": 0.15,
+      "generalFitness": 0.7
+    },
+    "estimatedTimePerSet": 45,
+    "setupTimeSeconds": 60,
+    "homeCompatibility": 0.2,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.0
+  },
+  {
+    "name": "Machine Row",
+    "slug": "machine-row",
+    "description": "A guided rowing movement performed on a chest-supported or plate-loaded row machine that isolates the back muscles with minimal technique requirements. The fixed path makes it ideal for beginners or high-intensity techniques like drop sets.",
+    "instructions": [
+      "Adjust seat height so handles align with lower chest when arms extended",
+      "Sit with chest against pad (if present), feet firmly planted",
+      "Grasp handles with chosen grip, arms fully extended",
+      "Pull handles toward body, squeezing shoulder blades together",
+      "Control the return to starting position without letting weight stack crash"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "HORIZONTAL_PULL",
+    "exerciseType": "COMPOUND",
+    "primaryMuscles": [
+      "back",
+      "lats"
+    ],
+    "secondaryMuscles": [
+      "biceps",
+      "rear_delts"
+    ],
+    "muscleActivationMap": {
+      "back": 0.85,
+      "lats": 0.82,
+      "biceps": 0.5,
+      "rear_delts": 0.45
+    },
+    "difficultyLevel": 1,
+    "skillRequirement": 1,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [
+      "machine"
+    ],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "gym"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 6,
+        "max": 10
+      },
+      "hypertrophy": {
+        "min": 10,
+        "max": 15
+      },
+      "endurance": {
+        "min": 15,
+        "max": 25
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 90,
+      "hypertrophy": 60,
+      "endurance": 30
+    },
+    "metValue": 4.5,
+    "intensityFactor": 0.6,
+    "contraindications": [
+      "shoulder_injury"
+    ],
+    "formCues": [
+      "Keep chest against pad if present",
+      "Full stretch at start position",
+      "Squeeze back at contraction",
+      "Control the negative",
+      "Don't use momentum"
+    ],
+    "commonMistakes": [
+      "Lifting chest off pad",
+      "Not using full range",
+      "Slamming weight stack",
+      "Pulling with arms only",
+      "Going too heavy losing form"
+    ],
+    "easierVariation": "resistance-band-row",
+    "harderVariation": "seated-cable-row",
+    "alternativeExercises": [
+      "seated-cable-row",
+      "chest-supported-dumbbell-row",
+      "single-arm-dumbbell-row"
+    ],
+    "tags": [
+      "compound",
+      "pull",
+      "back",
+      "machine",
+      "beginner-friendly"
+    ],
+    "suitableGoals": [
+      "MUSCLE_GAIN",
+      "GENERAL_FITNESS"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 4,
+      "lightlyActive": 5,
+      "moderatelyActive": 5,
+      "veryActive": 4,
+      "athlete": 3
+    },
+    "experienceLevelSuitability": {
+      "never": 5,
+      "lessThan6Mo": 5,
+      "sixTo24Mo": 4,
+      "twoTo5Yr": 4,
+      "fivePlusYr": 3
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.4,
+      "muscleGain": 0.78,
+      "strength": 0.65,
+      "endurance": 0.5,
+      "flexibility": 0.1,
+      "generalFitness": 0.72
+    },
+    "estimatedTimePerSet": 35,
+    "setupTimeSeconds": 30,
+    "homeCompatibility": 0.1,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.0
+  },
+  {
+    "name": "Inverted Row",
+    "slug": "inverted-row",
+    "description": "A bodyweight horizontal pulling exercise performed by hanging underneath a bar and rowing your chest toward it. This scalable movement builds pulling strength and serves as an excellent progression toward pull-ups while being gentler on joints.",
+    "instructions": [
+      "Set barbell in rack at waist height or use suspension trainer",
+      "Grip bar slightly wider than shoulders, hang underneath with body straight",
+      "Keep heels on ground, body rigid from head to heels",
+      "Pull chest toward bar by driving elbows back and squeezing shoulder blades",
+      "Lower under control to full arm extension"
+    ],
+    "category": "CALISTHENICS",
+    "movementPattern": "HORIZONTAL_PULL",
+    "exerciseType": "COMPOUND",
+    "primaryMuscles": [
+      "back",
+      "lats"
+    ],
+    "secondaryMuscles": [
+      "biceps",
+      "rear_delts",
+      "core"
+    ],
+    "muscleActivationMap": {
+      "back": 0.82,
+      "lats": 0.78,
+      "biceps": 0.55,
+      "rear_delts": 0.55,
+      "core": 0.5
+    },
+    "difficultyLevel": 2,
+    "skillRequirement": 2,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [
+      "pull_up_bar"
+    ],
+    "equipmentOptional": [
+      "squat_rack",
+      "suspension_trainer"
+    ],
+    "suitableLocations": [
+      "gym",
+      "home",
+      "outdoor"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 5,
+        "max": 10
+      },
+      "hypertrophy": {
+        "min": 10,
+        "max": 15
+      },
+      "endurance": {
+        "min": 20,
+        "max": 30
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 90,
+      "hypertrophy": 60,
+      "endurance": 30
+    },
+    "metValue": 5.0,
+    "intensityFactor": 0.55,
+    "contraindications": [
+      "shoulder_injury",
+      "wrist_injury"
+    ],
+    "formCues": [
+      "Keep body rigid like a plank",
+      "Touch chest to bar each rep",
+      "Squeeze shoulder blades at top",
+      "Lower with control",
+      "Adjust height to modify difficulty"
+    ],
+    "commonMistakes": [
+      "Sagging hips",
+      "Not pulling high enough",
+      "Chicken-necking forward",
+      "Bending at hips",
+      "Half reps"
+    ],
+    "easierVariation": "resistance-band-row",
+    "harderVariation": "single-arm-dumbbell-row",
+    "alternativeExercises": [
+      "seated-cable-row",
+      "machine-row",
+      "assisted-pull-up"
+    ],
+    "tags": [
+      "bodyweight",
+      "pull",
+      "back",
+      "calisthenics",
+      "beginner-friendly",
+      "scalable"
+    ],
+    "suitableGoals": [
+      "MUSCLE_GAIN",
+      "STRENGTH",
+      "GENERAL_FITNESS"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 3,
+      "lightlyActive": 4,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 4
+    },
+    "experienceLevelSuitability": {
+      "never": 4,
+      "lessThan6Mo": 5,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 4,
+      "fivePlusYr": 4
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.5,
+      "muscleGain": 0.72,
+      "strength": 0.68,
+      "endurance": 0.6,
+      "flexibility": 0.2,
+      "generalFitness": 0.8
+    },
+    "estimatedTimePerSet": 35,
+    "setupTimeSeconds": 30,
+    "homeCompatibility": 0.8,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.7
+  },
+  {
+    "name": "Meadows Row",
+    "slug": "meadows-row",
+    "description": "A unique single-arm landmine row variation created by John Meadows that emphasizes a long range of motion and intense lat stretch. The perpendicular stance and overhand grip create a distinctive pulling angle that targets the lats differently.",
+    "instructions": [
+      "Set barbell in landmine attachment, stand perpendicular to bar end",
+      "Stagger stance with inside leg forward, hinge at hips",
+      "Grip bar end with overhand grip, outside arm on thigh for support",
+      "Row bar toward hip in an arc, driving elbow high and back",
+      "Lower to full stretch, feeling deep lat engagement at bottom"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "HORIZONTAL_PULL",
+    "exerciseType": "COMPOUND",
+    "primaryMuscles": [
+      "lats"
+    ],
+    "secondaryMuscles": [
+      "back",
+      "rear_delts",
+      "biceps",
+      "core"
+    ],
+    "muscleActivationMap": {
+      "lats": 0.92,
+      "back": 0.75,
+      "rear_delts": 0.55,
+      "biceps": 0.5,
+      "core": 0.45
+    },
+    "difficultyLevel": 3,
+    "skillRequirement": 3,
+    "isBeginnerFriendly": false,
+    "equipmentRequired": [
+      "barbell"
+    ],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "gym"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 6,
+        "max": 8
+      },
+      "hypertrophy": {
+        "min": 8,
+        "max": 12
+      },
+      "endurance": {
+        "min": 15,
+        "max": 20
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 120,
+      "hypertrophy": 75,
+      "endurance": 45
+    },
+    "metValue": 5.0,
+    "intensityFactor": 0.72,
+    "contraindications": [
+      "shoulder_injury",
+      "lower_back_injury"
+    ],
+    "formCues": [
+      "Stand perpendicular to bar",
+      "Allow full stretch at bottom",
+      "Row in arc toward hip",
+      "Elbow should travel high",
+      "Control the eccentric"
+    ],
+    "commonMistakes": [
+      "Standing parallel instead of perpendicular",
+      "Not using full range of motion",
+      "Grip slipping",
+      "Rowing straight up instead of arc",
+      "Using too much weight"
+    ],
+    "easierVariation": "single-arm-dumbbell-row",
+    "harderVariation": "helms-row",
+    "alternativeExercises": [
+      "single-arm-dumbbell-row",
+      "single-arm-cable-row",
+      "helms-row"
+    ],
+    "tags": [
+      "compound",
+      "pull",
+      "lats",
+      "barbell",
+      "landmine",
+      "unilateral"
+    ],
+    "suitableGoals": [
+      "MUSCLE_GAIN"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 1,
+      "lightlyActive": 2,
+      "moderatelyActive": 4,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 1,
+      "lessThan6Mo": 2,
+      "sixTo24Mo": 4,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.4,
+      "muscleGain": 0.88,
+      "strength": 0.72,
+      "endurance": 0.4,
+      "flexibility": 0.25,
+      "generalFitness": 0.65
+    },
+    "estimatedTimePerSet": 45,
+    "setupTimeSeconds": 45,
+    "homeCompatibility": 0.2,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.0
+  },
+  {
+    "name": "Helms Row",
+    "slug": "helms-row",
+    "description": "A chest-supported dumbbell row variation developed by Eric Helms where both feet are planted on the floor behind the bench. This position allows for heavier loading while maintaining strict form and minimizing lower back stress.",
+    "instructions": [
+      "Set incline bench to 30-45 degrees, stand behind it",
+      "Place chest on top of bench pad, feet flat on floor behind you",
+      "Hold dumbbells with arms hanging straight down",
+      "Row both dumbbells to hips, driving elbows back and up",
+      "Squeeze back at top, lower to full stretch with control"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "HORIZONTAL_PULL",
+    "exerciseType": "COMPOUND",
+    "primaryMuscles": [
+      "back",
+      "lats"
+    ],
+    "secondaryMuscles": [
+      "rear_delts",
+      "biceps",
+      "traps"
+    ],
+    "muscleActivationMap": {
+      "back": 0.9,
+      "lats": 0.88,
+      "rear_delts": 0.6,
+      "biceps": 0.55,
+      "traps": 0.55
+    },
+    "difficultyLevel": 3,
+    "skillRequirement": 2,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [
+      "dumbbell",
+      "bench"
+    ],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "gym",
+      "home"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 5,
+        "max": 8
+      },
+      "hypertrophy": {
+        "min": 8,
+        "max": 12
+      },
+      "endurance": {
+        "min": 15,
+        "max": 20
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 120,
+      "hypertrophy": 75,
+      "endurance": 45
+    },
+    "metValue": 5.0,
+    "intensityFactor": 0.72,
+    "contraindications": [
+      "shoulder_injury"
+    ],
+    "formCues": [
+      "Chest stays on pad throughout",
+      "Feet planted firmly behind",
+      "Drive elbows back, not out",
+      "Full stretch at bottom",
+      "Can go heavier than standard chest-supported"
+    ],
+    "commonMistakes": [
+      "Feet too far forward",
+      "Lifting chest off pad",
+      "Cutting range of motion",
+      "Uneven pulling",
+      "Rushing reps"
+    ],
+    "easierVariation": "chest-supported-dumbbell-row",
+    "harderVariation": "pendlay-row",
+    "alternativeExercises": [
+      "chest-supported-dumbbell-row",
+      "seal-row",
+      "t-bar-row"
+    ],
+    "tags": [
+      "compound",
+      "pull",
+      "back",
+      "dumbbell",
+      "chest-supported",
+      "strict-form"
+    ],
+    "suitableGoals": [
+      "MUSCLE_GAIN",
+      "STRENGTH"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 2,
+      "lightlyActive": 3,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 2,
+      "lessThan6Mo": 4,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.45,
+      "muscleGain": 0.88,
+      "strength": 0.78,
+      "endurance": 0.4,
+      "flexibility": 0.15,
+      "generalFitness": 0.72
+    },
+    "estimatedTimePerSet": 40,
+    "setupTimeSeconds": 40,
+    "homeCompatibility": 0.7,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.1
+  },
+  {
+    "name": "Resistance Band Row",
+    "slug": "resistance-band-row",
+    "description": "A versatile horizontal pulling movement using resistance bands that provides accommodating resistance and joint-friendly training. The band's variable resistance increases tension at peak contraction, making it excellent for home workouts.",
+    "instructions": [
+      "Anchor band at chest height or sit with band looped around feet",
+      "Grasp band handles or ends with arms extended toward anchor",
+      "Sit tall or stand in athletic position with core braced",
+      "Pull hands toward torso, driving elbows back past body",
+      "Squeeze shoulder blades together at peak, control return to start"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "HORIZONTAL_PULL",
+    "exerciseType": "COMPOUND",
+    "primaryMuscles": [
+      "back",
+      "lats"
+    ],
+    "secondaryMuscles": [
+      "biceps",
+      "rear_delts",
+      "core"
+    ],
+    "muscleActivationMap": {
+      "back": 0.78,
+      "lats": 0.75,
+      "biceps": 0.5,
+      "rear_delts": 0.5,
+      "core": 0.35
+    },
+    "difficultyLevel": 1,
+    "skillRequirement": 1,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [
+      "resistance_band"
+    ],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "home",
+      "gym",
+      "outdoor"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 10,
+        "max": 15
+      },
+      "hypertrophy": {
+        "min": 15,
+        "max": 20
+      },
+      "endurance": {
+        "min": 25,
+        "max": 40
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 60,
+      "hypertrophy": 45,
+      "endurance": 20
+    },
+    "metValue": 3.5,
+    "intensityFactor": 0.45,
+    "contraindications": [],
+    "formCues": [
+      "Maintain upright posture",
+      "Full extension at start",
+      "Squeeze hard at contraction",
+      "Control band on return",
+      "Keep shoulders down"
+    ],
+    "commonMistakes": [
+      "Letting band snap back",
+      "Rounding shoulders forward",
+      "Not using full range",
+      "Band not secured properly",
+      "Shrugging shoulders"
+    ],
+    "easierVariation": null,
+    "harderVariation": "inverted-row",
+    "alternativeExercises": [
+      "machine-row",
+      "seated-cable-row",
+      "inverted-row"
+    ],
+    "tags": [
+      "compound",
+      "pull",
+      "back",
+      "resistance-band",
+      "home-workout",
+      "beginner-friendly"
+    ],
+    "suitableGoals": [
+      "GENERAL_FITNESS",
+      "ENDURANCE"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 5,
+      "lightlyActive": 5,
+      "moderatelyActive": 4,
+      "veryActive": 3,
+      "athlete": 2
+    },
+    "experienceLevelSuitability": {
+      "never": 5,
+      "lessThan6Mo": 5,
+      "sixTo24Mo": 4,
+      "twoTo5Yr": 3,
+      "fivePlusYr": 2
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.4,
+      "muscleGain": 0.55,
+      "strength": 0.45,
+      "endurance": 0.65,
+      "flexibility": 0.2,
+      "generalFitness": 0.72
+    },
+    "estimatedTimePerSet": 30,
+    "setupTimeSeconds": 20,
+    "homeCompatibility": 1.0,
+    "gymCompatibility": 0.7,
+    "outdoorCompatibility": 0.9
+  },
+  {
+    "name": "Standard Pull-Up",
+    "slug": "standard-pull-up",
+    "description": "The gold standard vertical pulling exercise using bodyweight with an overhand (pronated) grip slightly wider than shoulder width. This fundamental movement builds lat width, grip strength, and overall upper body pulling power.",
+    "instructions": [
+      "Hang from pull-up bar with overhand grip, hands slightly wider than shoulders",
+      "Start from dead hang with arms fully extended and shoulders engaged",
+      "Pull body up by driving elbows down and back toward hips",
+      "Continue until chin clears the bar or chest touches",
+      "Lower under control to full dead hang, repeat"
+    ],
+    "category": "CALISTHENICS",
+    "movementPattern": "VERTICAL_PULL",
+    "exerciseType": "COMPOUND",
+    "primaryMuscles": [
+      "lats"
+    ],
+    "secondaryMuscles": [
+      "biceps",
+      "back",
+      "rear_delts",
+      "core",
+      "forearms"
+    ],
+    "muscleActivationMap": {
+      "lats": 0.95,
+      "biceps": 0.65,
+      "back": 0.7,
+      "rear_delts": 0.45,
+      "core": 0.5,
+      "forearms": 0.6
+    },
+    "difficultyLevel": 4,
+    "skillRequirement": 3,
+    "isBeginnerFriendly": false,
+    "equipmentRequired": [
+      "pull_up_bar"
+    ],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "gym",
+      "home",
+      "outdoor"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 3,
+        "max": 6
+      },
+      "hypertrophy": {
+        "min": 6,
+        "max": 12
+      },
+      "endurance": {
+        "min": 15,
+        "max": 25
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 5
+    },
+    "restSeconds": {
+      "strength": 150,
+      "hypertrophy": 90,
+      "endurance": 45
+    },
+    "metValue": 8.0,
+    "intensityFactor": 0.85,
+    "contraindications": [
+      "shoulder_injury",
+      "elbow_injury",
+      "wrist_injury"
+    ],
+    "formCues": [
+      "Start from full dead hang",
+      "Drive elbows toward hips",
+      "Chin over bar minimum",
+      "Control the descent fully",
+      "No kipping or swinging"
+    ],
+    "commonMistakes": [
+      "Not using full range of motion",
+      "Kipping or swinging",
+      "Not going chin over bar",
+      "Shrugging shoulders at top",
+      "Half reps"
+    ],
+    "easierVariation": "negative-pull-up",
+    "harderVariation": "wide-grip-pull-up",
+    "alternativeExercises": [
+      "wide-grip-lat-pulldown",
+      "assisted-pull-up",
+      "chin-up"
+    ],
+    "tags": [
+      "bodyweight",
+      "pull",
+      "lats",
+      "calisthenics",
+      "compound",
+      "fundamental"
+    ],
+    "suitableGoals": [
+      "MUSCLE_GAIN",
+      "STRENGTH",
+      "GENERAL_FITNESS"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 1,
+      "lightlyActive": 2,
+      "moderatelyActive": 4,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 1,
+      "lessThan6Mo": 2,
+      "sixTo24Mo": 4,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.6,
+      "muscleGain": 0.88,
+      "strength": 0.85,
+      "endurance": 0.55,
+      "flexibility": 0.15,
+      "generalFitness": 0.85
+    },
+    "estimatedTimePerSet": 40,
+    "setupTimeSeconds": 10,
+    "homeCompatibility": 0.9,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.8
+  },
+  {
+    "name": "Wide-Grip Pull-Up",
+    "slug": "wide-grip-pull-up",
+    "description": "A pull-up variation with hands placed wider than shoulder width that emphasizes lat width and creates greater lat stretch at the bottom. The wider grip reduces bicep involvement and increases the challenge on the outer lats.",
+    "instructions": [
+      "Grip pull-up bar approximately 1.5 times shoulder width with overhand grip",
+      "Hang with arms fully extended, shoulders engaged",
+      "Pull up by driving elbows down toward hips",
+      "Bring chin over bar or touch upper chest to bar",
+      "Lower with control to full dead hang"
+    ],
+    "category": "CALISTHENICS",
+    "movementPattern": "VERTICAL_PULL",
+    "exerciseType": "COMPOUND",
+    "primaryMuscles": [
+      "lats"
+    ],
+    "secondaryMuscles": [
+      "back",
+      "biceps",
+      "rear_delts",
+      "forearms"
+    ],
+    "muscleActivationMap": {
+      "lats": 0.98,
+      "back": 0.7,
+      "biceps": 0.5,
+      "rear_delts": 0.5,
+      "forearms": 0.55
+    },
+    "difficultyLevel": 5,
+    "skillRequirement": 4,
+    "isBeginnerFriendly": false,
+    "equipmentRequired": [
+      "pull_up_bar"
+    ],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "gym",
+      "home",
+      "outdoor"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 3,
+        "max": 5
+      },
+      "hypertrophy": {
+        "min": 5,
+        "max": 10
+      },
+      "endurance": {
+        "min": 12,
+        "max": 20
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 5
+    },
+    "restSeconds": {
+      "strength": 180,
+      "hypertrophy": 90,
+      "endurance": 60
+    },
+    "metValue": 8.5,
+    "intensityFactor": 0.9,
+    "contraindications": [
+      "shoulder_injury",
+      "elbow_injury",
+      "wrist_injury"
+    ],
+    "formCues": [
+      "Grip wider than shoulders",
+      "Maintain hollow body",
+      "Drive elbows toward lats",
+      "Feel lat stretch at bottom",
+      "Full range of motion"
+    ],
+    "commonMistakes": [
+      "Grip too wide causing shoulder strain",
+      "Not reaching full extension",
+      "Excessive kipping",
+      "Partial range of motion",
+      "Neck straining forward"
+    ],
+    "easierVariation": "standard-pull-up",
+    "harderVariation": "archer-pull-up",
+    "alternativeExercises": [
+      "wide-grip-lat-pulldown",
+      "standard-pull-up",
+      "neutral-grip-pull-up"
+    ],
+    "tags": [
+      "bodyweight",
+      "pull",
+      "lats",
+      "calisthenics",
+      "advanced",
+      "wide-grip"
+    ],
+    "suitableGoals": [
+      "MUSCLE_GAIN",
+      "STRENGTH"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 1,
+      "lightlyActive": 1,
+      "moderatelyActive": 3,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 1,
+      "lessThan6Mo": 1,
+      "sixTo24Mo": 3,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.55,
+      "muscleGain": 0.92,
+      "strength": 0.88,
+      "endurance": 0.5,
+      "flexibility": 0.2,
+      "generalFitness": 0.8
+    },
+    "estimatedTimePerSet": 45,
+    "setupTimeSeconds": 10,
+    "homeCompatibility": 0.85,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.8
+  },
+  {
+    "name": "Close-Grip Pull-Up",
+    "slug": "close-grip-pull-up",
+    "description": "A pull-up variation with hands placed closer together than shoulder width. This grip increases lower lat and bicep involvement while allowing for more reps than wide grip variations.",
+    "instructions": [
+      "Grip bar with hands 6-12 inches apart using overhand or neutral grip",
+      "Hang with arms fully extended from dead hang",
+      "Pull up driving elbows down and toward your sides",
+      "Bring chin over bar at minimum, ideally touch chest",
+      "Lower with complete control to full extension"
+    ],
+    "category": "CALISTHENICS",
+    "movementPattern": "VERTICAL_PULL",
+    "exerciseType": "COMPOUND",
+    "primaryMuscles": [
+      "lats",
+      "biceps"
+    ],
+    "secondaryMuscles": [
+      "back",
+      "forearms",
+      "core"
+    ],
+    "muscleActivationMap": {
+      "lats": 0.88,
+      "biceps": 0.7,
+      "back": 0.68,
+      "forearms": 0.55,
+      "core": 0.45
+    },
+    "difficultyLevel": 3,
+    "skillRequirement": 3,
+    "isBeginnerFriendly": false,
+    "equipmentRequired": [
+      "pull_up_bar"
+    ],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "gym",
+      "home",
+      "outdoor"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 4,
+        "max": 8
+      },
+      "hypertrophy": {
+        "min": 8,
+        "max": 12
+      },
+      "endurance": {
+        "min": 15,
+        "max": 25
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 5
+    },
+    "restSeconds": {
+      "strength": 150,
+      "hypertrophy": 75,
+      "endurance": 45
+    },
+    "metValue": 8.0,
+    "intensityFactor": 0.82,
+    "contraindications": [
+      "shoulder_injury",
+      "wrist_injury",
+      "elbow_injury"
+    ],
+    "formCues": [
+      "Keep elbows close to body",
+      "Pull lower chest toward bar",
+      "Maintain tight core",
+      "Full range of motion",
+      "Control descent fully"
+    ],
+    "commonMistakes": [
+      "Grip too close causing wrist strain",
+      "Excessive body swing",
+      "Partial range of motion",
+      "Neck straining forward",
+      "Losing tension at bottom"
+    ],
+    "easierVariation": "chin-up",
+    "harderVariation": "standard-pull-up",
+    "alternativeExercises": [
+      "close-grip-lat-pulldown",
+      "chin-up",
+      "neutral-grip-pull-up"
+    ],
+    "tags": [
+      "bodyweight",
+      "pull",
+      "lats",
+      "biceps",
+      "calisthenics",
+      "close-grip"
+    ],
+    "suitableGoals": [
+      "MUSCLE_GAIN",
+      "STRENGTH"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 1,
+      "lightlyActive": 2,
+      "moderatelyActive": 4,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 1,
+      "lessThan6Mo": 2,
+      "sixTo24Mo": 4,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.55,
+      "muscleGain": 0.85,
+      "strength": 0.82,
+      "endurance": 0.55,
+      "flexibility": 0.15,
+      "generalFitness": 0.82
+    },
+    "estimatedTimePerSet": 40,
+    "setupTimeSeconds": 10,
+    "homeCompatibility": 0.9,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.8
+  },
+  {
+    "name": "Chin-Up",
+    "slug": "chin-up",
+    "description": "A vertical pulling exercise using an underhand (supinated) grip that maximizes bicep involvement while still heavily targeting the lats. Generally easier than pull-ups for most people due to greater bicep contribution.",
+    "instructions": [
+      "Grip bar with underhand grip at shoulder width or slightly narrower",
+      "Hang from dead hang with arms fully extended",
+      "Pull body up by driving elbows down and back toward ribs",
+      "Continue until chin clears bar, ideally upper chest touches",
+      "Lower with control to full dead hang"
+    ],
+    "category": "CALISTHENICS",
+    "movementPattern": "VERTICAL_PULL",
+    "exerciseType": "COMPOUND",
+    "primaryMuscles": [
+      "lats",
+      "biceps"
+    ],
+    "secondaryMuscles": [
+      "back",
+      "forearms",
+      "core"
+    ],
+    "muscleActivationMap": {
+      "lats": 0.88,
+      "biceps": 0.8,
+      "back": 0.68,
+      "forearms": 0.55,
+      "core": 0.45
+    },
+    "difficultyLevel": 3,
+    "skillRequirement": 3,
+    "isBeginnerFriendly": false,
+    "equipmentRequired": [
+      "pull_up_bar"
+    ],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "gym",
+      "home",
+      "outdoor"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 4,
+        "max": 8
+      },
+      "hypertrophy": {
+        "min": 8,
+        "max": 12
+      },
+      "endurance": {
+        "min": 15,
+        "max": 25
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 5
+    },
+    "restSeconds": {
+      "strength": 150,
+      "hypertrophy": 75,
+      "endurance": 45
+    },
+    "metValue": 8.0,
+    "intensityFactor": 0.8,
+    "contraindications": [
+      "shoulder_injury",
+      "elbow_injury",
+      "wrist_injury"
+    ],
+    "formCues": [
+      "Palms face you throughout",
+      "Drive elbows toward ribs",
+      "Keep chest up",
+      "Full range of motion",
+      "Squeeze biceps and lats at top"
+    ],
+    "commonMistakes": [
+      "Not using full range of motion",
+      "Kipping for reps",
+      "Elbows flaring out",
+      "Shrugging at top",
+      "Cutting the negative short"
+    ],
+    "easierVariation": "negative-pull-up",
+    "harderVariation": "standard-pull-up",
+    "alternativeExercises": [
+      "close-grip-lat-pulldown",
+      "standard-pull-up",
+      "barbell-bent-over-row-underhand"
+    ],
+    "tags": [
+      "bodyweight",
+      "pull",
+      "lats",
+      "biceps",
+      "calisthenics",
+      "underhand"
+    ],
+    "suitableGoals": [
+      "MUSCLE_GAIN",
+      "STRENGTH"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 1,
+      "lightlyActive": 2,
+      "moderatelyActive": 4,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 1,
+      "lessThan6Mo": 2,
+      "sixTo24Mo": 4,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.55,
+      "muscleGain": 0.88,
+      "strength": 0.82,
+      "endurance": 0.55,
+      "flexibility": 0.15,
+      "generalFitness": 0.82
+    },
+    "estimatedTimePerSet": 40,
+    "setupTimeSeconds": 10,
+    "homeCompatibility": 0.9,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.8
+  },
+  {
+    "name": "Neutral-Grip Pull-Up",
+    "slug": "neutral-grip-pull-up",
+    "description": "A pull-up variation using parallel handles with palms facing each other, providing a shoulder-friendly option that balances lat and bicep activation. This grip is often the most comfortable for high-volume pulling work.",
+    "instructions": [
+      "Grip parallel handles with palms facing each other",
+      "Hang from dead hang with arms fully extended",
+      "Pull body up driving elbows down toward hips",
+      "Continue until chin clears handles or chest touches",
+      "Lower with control to full extension"
+    ],
+    "category": "CALISTHENICS",
+    "movementPattern": "VERTICAL_PULL",
+    "exerciseType": "COMPOUND",
+    "primaryMuscles": [
+      "lats"
+    ],
+    "secondaryMuscles": [
+      "biceps",
+      "back",
+      "forearms",
+      "core"
+    ],
+    "muscleActivationMap": {
+      "lats": 0.9,
+      "biceps": 0.68,
+      "back": 0.7,
+      "forearms": 0.55,
+      "core": 0.45
+    },
+    "difficultyLevel": 3,
+    "skillRequirement": 3,
+    "isBeginnerFriendly": false,
+    "equipmentRequired": [
+      "pull_up_bar"
+    ],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "gym",
+      "home"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 4,
+        "max": 8
+      },
+      "hypertrophy": {
+        "min": 8,
+        "max": 12
+      },
+      "endurance": {
+        "min": 15,
+        "max": 25
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 5
+    },
+    "restSeconds": {
+      "strength": 150,
+      "hypertrophy": 75,
+      "endurance": 45
+    },
+    "metValue": 8.0,
+    "intensityFactor": 0.82,
+    "contraindications": [
+      "shoulder_injury",
+      "elbow_injury"
+    ],
+    "formCues": [
+      "Palms face each other throughout",
+      "Keep elbows tracking naturally",
+      "Full range of motion",
+      "Control at all points",
+      "Engage lats before pulling"
+    ],
+    "commonMistakes": [
+      "Not full range of motion",
+      "Excessive swing",
+      "Shrugging shoulders",
+      "Partial reps",
+      "Losing tension at bottom"
+    ],
+    "easierVariation": "assisted-pull-up",
+    "harderVariation": "standard-pull-up",
+    "alternativeExercises": [
+      "neutral-grip-lat-pulldown",
+      "chin-up",
+      "standard-pull-up"
+    ],
+    "tags": [
+      "bodyweight",
+      "pull",
+      "lats",
+      "calisthenics",
+      "neutral-grip",
+      "shoulder-friendly"
+    ],
+    "suitableGoals": [
+      "MUSCLE_GAIN",
+      "STRENGTH"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 1,
+      "lightlyActive": 2,
+      "moderatelyActive": 4,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 1,
+      "lessThan6Mo": 2,
+      "sixTo24Mo": 4,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.55,
+      "muscleGain": 0.85,
+      "strength": 0.82,
+      "endurance": 0.55,
+      "flexibility": 0.15,
+      "generalFitness": 0.82
+    },
+    "estimatedTimePerSet": 40,
+    "setupTimeSeconds": 10,
+    "homeCompatibility": 0.75,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.5
+  },
+  {
+    "name": "Wide-Grip Lat Pulldown",
+    "slug": "wide-grip-lat-pulldown",
+    "description": "A cable machine exercise that mimics the pull-up motion with adjustable resistance, targeting lat width with a wide overhand grip. Ideal for beginners building toward pull-ups or advanced lifters seeking higher volume lat work.",
+    "instructions": [
+      "Sit at lat pulldown machine with thighs secured under pads",
+      "Grip bar wider than shoulder width with overhand grip",
+      "Sit tall with slight backward lean, chest up",
+      "Pull bar down toward upper chest, driving elbows down and back",
+      "Squeeze lats at bottom, control bar back to full stretch"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "VERTICAL_PULL",
+    "exerciseType": "COMPOUND",
+    "primaryMuscles": [
+      "lats"
+    ],
+    "secondaryMuscles": [
+      "biceps",
+      "back",
+      "rear_delts"
+    ],
+    "muscleActivationMap": {
+      "lats": 0.9,
+      "biceps": 0.55,
+      "back": 0.65,
+      "rear_delts": 0.45
+    },
+    "difficultyLevel": 2,
+    "skillRequirement": 2,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [
+      "cable"
+    ],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "gym"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 6,
+        "max": 10
+      },
+      "hypertrophy": {
+        "min": 10,
+        "max": 15
+      },
+      "endurance": {
+        "min": 15,
+        "max": 25
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 120,
+      "hypertrophy": 75,
+      "endurance": 45
+    },
+    "metValue": 5.0,
+    "intensityFactor": 0.7,
+    "contraindications": [
+      "shoulder_injury"
+    ],
+    "formCues": [
+      "Slight lean back only",
+      "Pull to upper chest",
+      "Drive elbows to sides",
+      "Full stretch at top",
+      "Don't lean back excessively"
+    ],
+    "commonMistakes": [
+      "Pulling behind neck",
+      "Excessive lean back",
+      "Using momentum",
+      "Not full range",
+      "Gripping too wide"
+    ],
+    "easierVariation": "neutral-grip-lat-pulldown",
+    "harderVariation": "standard-pull-up",
+    "alternativeExercises": [
+      "standard-pull-up",
+      "wide-grip-pull-up",
+      "close-grip-lat-pulldown"
+    ],
+    "tags": [
+      "compound",
+      "pull",
+      "lats",
+      "cable",
+      "machine",
+      "beginner-friendly"
+    ],
+    "suitableGoals": [
+      "MUSCLE_GAIN",
+      "STRENGTH",
+      "GENERAL_FITNESS"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 3,
+      "lightlyActive": 4,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 4
+    },
+    "experienceLevelSuitability": {
+      "never": 4,
+      "lessThan6Mo": 5,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 4
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.45,
+      "muscleGain": 0.85,
+      "strength": 0.75,
+      "endurance": 0.5,
+      "flexibility": 0.15,
+      "generalFitness": 0.78
+    },
+    "estimatedTimePerSet": 35,
+    "setupTimeSeconds": 30,
+    "homeCompatibility": 0.1,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.0
+  },
+  {
+    "name": "Close-Grip Lat Pulldown",
+    "slug": "close-grip-lat-pulldown",
+    "description": "A lat pulldown variation using a V-bar or close grip attachment that emphasizes the lower lats and allows for greater range of motion. The close grip also increases bicep involvement.",
+    "instructions": [
+      "Attach V-bar handle to lat pulldown cable",
+      "Sit with thighs secured under pads, grip handle with both hands",
+      "Sit tall with slight backward lean, arms fully extended above",
+      "Pull handle down toward upper chest, driving elbows down and in",
+      "Squeeze lats at contraction, extend arms with control"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "VERTICAL_PULL",
+    "exerciseType": "COMPOUND",
+    "primaryMuscles": [
+      "lats"
+    ],
+    "secondaryMuscles": [
+      "biceps",
+      "back",
+      "rear_delts"
+    ],
+    "muscleActivationMap": {
+      "lats": 0.88,
+      "biceps": 0.65,
+      "back": 0.6,
+      "rear_delts": 0.4
+    },
+    "difficultyLevel": 2,
+    "skillRequirement": 2,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [
+      "cable"
+    ],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "gym"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 6,
+        "max": 10
+      },
+      "hypertrophy": {
+        "min": 10,
+        "max": 15
+      },
+      "endurance": {
+        "min": 15,
+        "max": 25
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 120,
+      "hypertrophy": 75,
+      "endurance": 45
+    },
+    "metValue": 5.0,
+    "intensityFactor": 0.68,
+    "contraindications": [
+      "shoulder_injury",
+      "elbow_injury"
+    ],
+    "formCues": [
+      "Keep elbows close to body",
+      "Pull toward sternum",
+      "Arch upper back slightly",
+      "Full stretch at top",
+      "Control the eccentric"
+    ],
+    "commonMistakes": [
+      "Excessive lean back",
+      "Letting elbows flare",
+      "Cutting range short",
+      "Using momentum",
+      "Shrugging shoulders"
+    ],
+    "easierVariation": "neutral-grip-lat-pulldown",
+    "harderVariation": "chin-up",
+    "alternativeExercises": [
+      "chin-up",
+      "close-grip-pull-up",
+      "neutral-grip-lat-pulldown"
+    ],
+    "tags": [
+      "compound",
+      "pull",
+      "lats",
+      "cable",
+      "close-grip",
+      "beginner-friendly"
+    ],
+    "suitableGoals": [
+      "MUSCLE_GAIN",
+      "STRENGTH"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 3,
+      "lightlyActive": 4,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 4
+    },
+    "experienceLevelSuitability": {
+      "never": 4,
+      "lessThan6Mo": 5,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 4
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.45,
+      "muscleGain": 0.85,
+      "strength": 0.72,
+      "endurance": 0.5,
+      "flexibility": 0.15,
+      "generalFitness": 0.75
+    },
+    "estimatedTimePerSet": 35,
+    "setupTimeSeconds": 25,
+    "homeCompatibility": 0.1,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.0
+  },
+  {
+    "name": "Neutral-Grip Lat Pulldown",
+    "slug": "neutral-grip-lat-pulldown",
+    "description": "A shoulder-friendly lat pulldown variation using parallel handles with palms facing each other. This grip provides excellent lat activation with reduced shoulder stress.",
+    "instructions": [
+      "Attach parallel grip handle to lat pulldown",
+      "Sit with thighs secured, grip handles with palms facing each other",
+      "Start with arms fully extended, chest up, slight lean back",
+      "Pull handles down toward chest, driving elbows down and back",
+      "Squeeze lats at bottom, extend arms with control to full stretch"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "VERTICAL_PULL",
+    "exerciseType": "COMPOUND",
+    "primaryMuscles": [
+      "lats"
+    ],
+    "secondaryMuscles": [
+      "biceps",
+      "back",
+      "rear_delts"
+    ],
+    "muscleActivationMap": {
+      "lats": 0.88,
+      "biceps": 0.6,
+      "back": 0.62,
+      "rear_delts": 0.42
+    },
+    "difficultyLevel": 2,
+    "skillRequirement": 1,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [
+      "cable"
+    ],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "gym"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 6,
+        "max": 10
+      },
+      "hypertrophy": {
+        "min": 10,
+        "max": 15
+      },
+      "endurance": {
+        "min": 15,
+        "max": 25
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 120,
+      "hypertrophy": 75,
+      "endurance": 45
+    },
+    "metValue": 5.0,
+    "intensityFactor": 0.68,
+    "contraindications": [
+      "shoulder_injury"
+    ],
+    "formCues": [
+      "Natural elbow path",
+      "Pull to upper chest/chin",
+      "Chest up throughout",
+      "Full stretch at top",
+      "Squeeze at contraction"
+    ],
+    "commonMistakes": [
+      "Excessive body lean",
+      "Not full range of motion",
+      "Using momentum",
+      "Rounded shoulders",
+      "Cutting reps short"
+    ],
+    "easierVariation": null,
+    "harderVariation": "neutral-grip-pull-up",
+    "alternativeExercises": [
+      "neutral-grip-pull-up",
+      "close-grip-lat-pulldown",
+      "wide-grip-lat-pulldown"
+    ],
+    "tags": [
+      "compound",
+      "pull",
+      "lats",
+      "cable",
+      "neutral-grip",
+      "shoulder-friendly"
+    ],
+    "suitableGoals": [
+      "MUSCLE_GAIN",
+      "STRENGTH",
+      "GENERAL_FITNESS"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 4,
+      "lightlyActive": 5,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 4
+    },
+    "experienceLevelSuitability": {
+      "never": 5,
+      "lessThan6Mo": 5,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 4
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.45,
+      "muscleGain": 0.82,
+      "strength": 0.72,
+      "endurance": 0.5,
+      "flexibility": 0.15,
+      "generalFitness": 0.78
+    },
+    "estimatedTimePerSet": 35,
+    "setupTimeSeconds": 25,
+    "homeCompatibility": 0.1,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.0
+  },
+  {
+    "name": "Single-Arm Lat Pulldown",
+    "slug": "single-arm-lat-pulldown",
+    "description": "A unilateral lat pulldown variation that allows for greater range of motion and helps identify and correct strength imbalances. The single-arm approach creates additional core anti-rotation demands.",
+    "instructions": [
+      "Attach single handle to lat pulldown cable",
+      "Sit or kneel beside machine, grip handle with one hand, arm extended overhead",
+      "Brace core to resist rotation throughout movement",
+      "Pull handle down toward shoulder, driving elbow down and back",
+      "Squeeze lat at contraction, extend arm with control, complete all reps then switch"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "VERTICAL_PULL",
+    "exerciseType": "COMPOUND",
+    "primaryMuscles": [
+      "lats"
+    ],
+    "secondaryMuscles": [
+      "biceps",
+      "back",
+      "core",
+      "obliques"
+    ],
+    "muscleActivationMap": {
+      "lats": 0.9,
+      "biceps": 0.55,
+      "back": 0.58,
+      "core": 0.5,
+      "obliques": 0.45
+    },
+    "difficultyLevel": 2,
+    "skillRequirement": 2,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [
+      "cable"
+    ],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "gym"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 6,
+        "max": 10
+      },
+      "hypertrophy": {
+        "min": 10,
+        "max": 15
+      },
+      "endurance": {
+        "min": 15,
+        "max": 20
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 90,
+      "hypertrophy": 60,
+      "endurance": 45
+    },
+    "metValue": 4.5,
+    "intensityFactor": 0.65,
+    "contraindications": [
+      "shoulder_injury"
+    ],
+    "formCues": [
+      "Resist rotation",
+      "Full stretch at top",
+      "Drive elbow past body",
+      "Allow slight torso lean at bottom",
+      "Equal reps both sides"
+    ],
+    "commonMistakes": [
+      "Excessive rotation",
+      "Not full range of motion",
+      "Uneven work between sides",
+      "Using momentum",
+      "Poor core engagement"
+    ],
+    "easierVariation": "neutral-grip-lat-pulldown",
+    "harderVariation": "standard-pull-up",
+    "alternativeExercises": [
+      "single-arm-cable-row",
+      "single-arm-dumbbell-row",
+      "close-grip-lat-pulldown"
+    ],
+    "tags": [
+      "compound",
+      "pull",
+      "lats",
+      "cable",
+      "unilateral",
+      "anti-rotation"
+    ],
+    "suitableGoals": [
+      "MUSCLE_GAIN",
+      "GENERAL_FITNESS"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 2,
+      "lightlyActive": 4,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 3,
+      "lessThan6Mo": 4,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.4,
+      "muscleGain": 0.82,
+      "strength": 0.7,
+      "endurance": 0.48,
+      "flexibility": 0.2,
+      "generalFitness": 0.75
+    },
+    "estimatedTimePerSet": 45,
+    "setupTimeSeconds": 20,
+    "homeCompatibility": 0.1,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.0
+  },
+  {
+    "name": "Assisted Pull-Up",
+    "slug": "assisted-pull-up",
+    "description": "A regression of the standard pull-up using a machine, band, or spotter to reduce the load being lifted. This progression-building exercise allows beginners to develop pull-up strength with proper form.",
+    "instructions": [
+      "Set assistance level on machine or secure band to pull-up bar",
+      "Step onto machine platform or place knee/foot in band loop",
+      "Grip bar with chosen grip, arms fully extended",
+      "Pull body up using both your strength and the assistance",
+      "Lower with control to full extension, repeat with consistent assistance"
+    ],
+    "category": "CALISTHENICS",
+    "movementPattern": "VERTICAL_PULL",
+    "exerciseType": "COMPOUND",
+    "primaryMuscles": [
+      "lats"
+    ],
+    "secondaryMuscles": [
+      "biceps",
+      "back",
+      "forearms"
+    ],
+    "muscleActivationMap": {
+      "lats": 0.78,
+      "biceps": 0.58,
+      "back": 0.6,
+      "forearms": 0.45
+    },
+    "difficultyLevel": 2,
+    "skillRequirement": 2,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [
+      "pull_up_bar"
+    ],
+    "equipmentOptional": [
+      "machine",
+      "resistance_band"
+    ],
+    "suitableLocations": [
+      "gym",
+      "home"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 5,
+        "max": 8
+      },
+      "hypertrophy": {
+        "min": 8,
+        "max": 12
+      },
+      "endurance": {
+        "min": 15,
+        "max": 20
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 120,
+      "hypertrophy": 75,
+      "endurance": 45
+    },
+    "metValue": 5.0,
+    "intensityFactor": 0.55,
+    "contraindications": [
+      "shoulder_injury"
+    ],
+    "formCues": [
+      "Use same form as full pull-up",
+      "Progress by reducing assistance",
+      "Full range of motion",
+      "Control both phases",
+      "Don't rely on assistance to initiate"
+    ],
+    "commonMistakes": [
+      "Too much assistance",
+      "Not using full range",
+      "Relying on band snap",
+      "Not progressing to less assistance",
+      "Poor form due to ease"
+    ],
+    "easierVariation": "wide-grip-lat-pulldown",
+    "harderVariation": "negative-pull-up",
+    "alternativeExercises": [
+      "wide-grip-lat-pulldown",
+      "negative-pull-up",
+      "inverted-row"
+    ],
+    "tags": [
+      "bodyweight",
+      "pull",
+      "lats",
+      "assisted",
+      "regression",
+      "beginner-friendly"
+    ],
+    "suitableGoals": [
+      "STRENGTH",
+      "GENERAL_FITNESS"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 4,
+      "lightlyActive": 5,
+      "moderatelyActive": 5,
+      "veryActive": 4,
+      "athlete": 3
+    },
+    "experienceLevelSuitability": {
+      "never": 5,
+      "lessThan6Mo": 5,
+      "sixTo24Mo": 4,
+      "twoTo5Yr": 3,
+      "fivePlusYr": 2
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.45,
+      "muscleGain": 0.68,
+      "strength": 0.7,
+      "endurance": 0.55,
+      "flexibility": 0.15,
+      "generalFitness": 0.75
+    },
+    "estimatedTimePerSet": 35,
+    "setupTimeSeconds": 30,
+    "homeCompatibility": 0.7,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.4
+  },
+  {
+    "name": "Negative Pull-Up",
+    "slug": "negative-pull-up",
+    "description": "An eccentric-focused pull-up progression where you jump or step to the top position and slowly lower yourself down. This technique builds the strength needed for full pull-ups by overloading the lowering phase.",
+    "instructions": [
+      "Use step, box, or jump to get chin above the bar",
+      "Grip bar with chosen grip, body in top pull-up position",
+      "Remove feet from support, holding top position briefly",
+      "Lower body as slowly as possible for 3-5 seconds minimum",
+      "Step back up and repeat, focusing on maximum time under tension"
+    ],
+    "category": "CALISTHENICS",
+    "movementPattern": "VERTICAL_PULL",
+    "exerciseType": "COMPOUND",
+    "primaryMuscles": [
+      "lats"
+    ],
+    "secondaryMuscles": [
+      "biceps",
+      "back",
+      "forearms",
+      "core"
+    ],
+    "muscleActivationMap": {
+      "lats": 0.85,
+      "biceps": 0.62,
+      "back": 0.65,
+      "forearms": 0.55,
+      "core": 0.45
+    },
+    "difficultyLevel": 3,
+    "skillRequirement": 2,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [
+      "pull_up_bar"
+    ],
+    "equipmentOptional": [
+      "box"
+    ],
+    "suitableLocations": [
+      "gym",
+      "home",
+      "outdoor"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 3,
+        "max": 6
+      },
+      "hypertrophy": {
+        "min": 5,
+        "max": 8
+      },
+      "endurance": {
+        "min": 8,
+        "max": 12
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 5
+    },
+    "restSeconds": {
+      "strength": 150,
+      "hypertrophy": 90,
+      "endurance": 60
+    },
+    "metValue": 6.0,
+    "intensityFactor": 0.75,
+    "contraindications": [
+      "shoulder_injury",
+      "elbow_injury"
+    ],
+    "formCues": [
+      "Lower as slowly as possible",
+      "Minimum 3-5 seconds descent",
+      "Control through full range",
+      "Fight gravity the entire time",
+      "Full extension at bottom"
+    ],
+    "commonMistakes": [
+      "Dropping too fast",
+      "Not starting from true top position",
+      "Inconsistent descent speed",
+      "Not going to full extension",
+      "Too many reps causing form breakdown"
+    ],
+    "easierVariation": "assisted-pull-up",
+    "harderVariation": "standard-pull-up",
+    "alternativeExercises": [
+      "assisted-pull-up",
+      "wide-grip-lat-pulldown",
+      "inverted-row"
+    ],
+    "tags": [
+      "bodyweight",
+      "pull",
+      "lats",
+      "eccentric",
+      "progression",
+      "calisthenics"
+    ],
+    "suitableGoals": [
+      "STRENGTH",
+      "MUSCLE_GAIN"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 2,
+      "lightlyActive": 3,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 4
+    },
+    "experienceLevelSuitability": {
+      "never": 3,
+      "lessThan6Mo": 4,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 4,
+      "fivePlusYr": 3
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.5,
+      "muscleGain": 0.78,
+      "strength": 0.82,
+      "endurance": 0.45,
+      "flexibility": 0.15,
+      "generalFitness": 0.72
+    },
+    "estimatedTimePerSet": 45,
+    "setupTimeSeconds": 15,
+    "homeCompatibility": 0.85,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.75
+  },
+  {
+    "name": "Archer Pull-Up",
+    "slug": "archer-pull-up",
+    "description": "An advanced unilateral pull-up progression where one arm does the majority of the work while the other arm extends to the side for assistance. This bridges the gap between standard pull-ups and one-arm pull-ups.",
+    "instructions": [
+      "Grip bar with wide overhand grip, wider than normal pull-ups",
+      "Hang from dead hang with arms fully extended",
+      "Pull toward one hand, extending the other arm out straight",
+      "Continue until chin passes the working hand",
+      "Lower with control, alternate sides or complete all reps per side"
+    ],
+    "category": "CALISTHENICS",
+    "movementPattern": "VERTICAL_PULL",
+    "exerciseType": "COMPOUND",
+    "primaryMuscles": [
+      "lats"
+    ],
+    "secondaryMuscles": [
+      "biceps",
+      "back",
+      "forearms",
+      "core"
+    ],
+    "muscleActivationMap": {
+      "lats": 0.95,
+      "biceps": 0.7,
+      "back": 0.72,
+      "forearms": 0.65,
+      "core": 0.6
+    },
+    "difficultyLevel": 5,
+    "skillRequirement": 5,
+    "isBeginnerFriendly": false,
+    "equipmentRequired": [
+      "pull_up_bar"
+    ],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "gym",
+      "home",
+      "outdoor"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 2,
+        "max": 5
+      },
+      "hypertrophy": {
+        "min": 4,
+        "max": 8
+      },
+      "endurance": {
+        "min": 8,
+        "max": 12
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 5
+    },
+    "restSeconds": {
+      "strength": 180,
+      "hypertrophy": 120,
+      "endurance": 75
+    },
+    "metValue": 9.0,
+    "intensityFactor": 0.92,
+    "contraindications": [
+      "shoulder_injury",
+      "elbow_injury",
+      "wrist_injury"
+    ],
+    "formCues": [
+      "Keep support arm straight",
+      "Pull toward working arm",
+      "Control throughout",
+      "Equal work both sides",
+      "Engage core to prevent swing"
+    ],
+    "commonMistakes": [
+      "Bending support arm",
+      "Not pulling high enough",
+      "Unequal work between sides",
+      "Excessive swinging",
+      "Poor grip positioning"
+    ],
+    "easierVariation": "wide-grip-pull-up",
+    "harderVariation": null,
+    "alternativeExercises": [
+      "wide-grip-pull-up",
+      "weighted-pull-up",
+      "standard-pull-up"
+    ],
+    "tags": [
+      "bodyweight",
+      "pull",
+      "lats",
+      "calisthenics",
+      "advanced",
+      "unilateral"
+    ],
+    "suitableGoals": [
+      "STRENGTH",
+      "MUSCLE_GAIN"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 1,
+      "lightlyActive": 1,
+      "moderatelyActive": 2,
+      "veryActive": 4,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 1,
+      "lessThan6Mo": 1,
+      "sixTo24Mo": 2,
+      "twoTo5Yr": 4,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.55,
+      "muscleGain": 0.85,
+      "strength": 0.92,
+      "endurance": 0.45,
+      "flexibility": 0.2,
+      "generalFitness": 0.75
+    },
+    "estimatedTimePerSet": 50,
+    "setupTimeSeconds": 10,
+    "homeCompatibility": 0.85,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.8
+  },
+  {
+    "name": "Conventional Deadlift",
+    "slug": "conventional-deadlift",
+    "description": "The king of posterior chain exercises, lifting a loaded barbell from the floor to hip height using a hip-dominant hinge pattern. This fundamental movement builds total body strength, particularly targeting the posterior chain, grip, and core.",
+    "instructions": [
+      "Stand with feet hip-width apart, barbell over mid-foot",
+      "Hinge at hips and grip bar just outside legs with mixed or double overhand grip",
+      "Set back flat, chest up, shoulders over or slightly ahead of bar",
+      "Drive through floor, extending hips and knees simultaneously",
+      "Stand tall with hips fully extended, lower by hinging hips then bending knees"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "HINGE",
+    "exerciseType": "COMPOUND",
+    "primaryMuscles": [
+      "hamstrings",
+      "glutes",
+      "back"
+    ],
+    "secondaryMuscles": [
+      "quads",
+      "lats",
+      "traps",
+      "core",
+      "forearms"
+    ],
+    "muscleActivationMap": {
+      "hamstrings": 0.85,
+      "glutes": 0.9,
+      "back": 0.85,
+      "quads": 0.6,
+      "lats": 0.55,
+      "traps": 0.65,
+      "core": 0.7,
+      "forearms": 0.7
+    },
+    "difficultyLevel": 4,
+    "skillRequirement": 4,
+    "isBeginnerFriendly": false,
+    "equipmentRequired": [
+      "barbell"
+    ],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "gym"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 1,
+        "max": 5
+      },
+      "hypertrophy": {
+        "min": 6,
+        "max": 10
+      },
+      "endurance": {
+        "min": 12,
+        "max": 15
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 5
+    },
+    "restSeconds": {
+      "strength": 240,
+      "hypertrophy": 150,
+      "endurance": 90
+    },
+    "metValue": 8.0,
+    "intensityFactor": 0.95,
+    "contraindications": [
+      "lower_back_injury",
+      "hip_injury",
+      "knee_injury"
+    ],
+    "formCues": [
+      "Bar stays close to body",
+      "Back stays flat throughout",
+      "Push floor away",
+      "Hips and shoulders rise together",
+      "Lockout with glutes, not hyperextending"
+    ],
+    "commonMistakes": [
+      "Rounding lower back",
+      "Bar drifting forward",
+      "Hips rising too fast",
+      "Hyperextending at top",
+      "Starting with hips too high or low"
+    ],
+    "easierVariation": "trap-bar-deadlift",
+    "harderVariation": "deficit-deadlift",
+    "alternativeExercises": [
+      "trap-bar-deadlift",
+      "romanian-deadlift",
+      "sumo-deadlift"
+    ],
+    "tags": [
+      "compound",
+      "hinge",
+      "posterior-chain",
+      "barbell",
+      "powerlifting",
+      "strength"
+    ],
+    "suitableGoals": [
+      "STRENGTH",
+      "MUSCLE_GAIN"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 1,
+      "lightlyActive": 2,
+      "moderatelyActive": 4,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 1,
+      "lessThan6Mo": 2,
+      "sixTo24Mo": 4,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.65,
+      "muscleGain": 0.9,
+      "strength": 1.0,
+      "endurance": 0.35,
+      "flexibility": 0.2,
+      "generalFitness": 0.8
+    },
+    "estimatedTimePerSet": 60,
+    "setupTimeSeconds": 60,
+    "homeCompatibility": 0.25,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.1
+  },
+  {
+    "name": "Romanian Deadlift",
+    "slug": "romanian-deadlift",
+    "description": "A hip hinge movement emphasizing the eccentric stretch of the hamstrings and maintaining constant tension throughout. Unlike conventional deadlifts, the bar doesn't touch the floor between reps.",
+    "instructions": [
+      "Stand holding barbell at hip height with overhand grip, feet hip-width apart",
+      "Unlock knees slightly, maintaining this angle throughout",
+      "Push hips back while lowering bar along thighs and shins",
+      "Descend until hamstrings reach maximum stretch without back rounding",
+      "Drive hips forward to return to standing, squeezing glutes at top"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "HINGE",
+    "exerciseType": "COMPOUND",
+    "primaryMuscles": [
+      "hamstrings",
+      "glutes"
+    ],
+    "secondaryMuscles": [
+      "back",
+      "core",
+      "forearms"
+    ],
+    "muscleActivationMap": {
+      "hamstrings": 0.95,
+      "glutes": 0.85,
+      "back": 0.7,
+      "core": 0.6,
+      "forearms": 0.5
+    },
+    "difficultyLevel": 3,
+    "skillRequirement": 3,
+    "isBeginnerFriendly": false,
+    "equipmentRequired": [
+      "barbell"
+    ],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "gym",
+      "home"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 5,
+        "max": 8
+      },
+      "hypertrophy": {
+        "min": 8,
+        "max": 12
+      },
+      "endurance": {
+        "min": 15,
+        "max": 20
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 150,
+      "hypertrophy": 90,
+      "endurance": 60
+    },
+    "metValue": 6.0,
+    "intensityFactor": 0.78,
+    "contraindications": [
+      "lower_back_injury"
+    ],
+    "formCues": [
+      "Push hips back, not down",
+      "Keep bar close to legs",
+      "Feel hamstring stretch",
+      "Slight knee bend only",
+      "Flat back throughout"
+    ],
+    "commonMistakes": [
+      "Bending knees too much",
+      "Rounding lower back",
+      "Bar drifting away from body",
+      "Going too low losing form",
+      "Not feeling hamstrings"
+    ],
+    "easierVariation": "dumbbell-romanian-deadlift",
+    "harderVariation": "single-leg-romanian-deadlift",
+    "alternativeExercises": [
+      "good-morning",
+      "single-leg-romanian-deadlift",
+      "lying-leg-curl"
+    ],
+    "tags": [
+      "compound",
+      "hinge",
+      "hamstrings",
+      "glutes",
+      "barbell",
+      "posterior-chain"
+    ],
+    "suitableGoals": [
+      "MUSCLE_GAIN",
+      "STRENGTH"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 1,
+      "lightlyActive": 2,
+      "moderatelyActive": 4,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 1,
+      "lessThan6Mo": 2,
+      "sixTo24Mo": 4,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.5,
+      "muscleGain": 0.88,
+      "strength": 0.82,
+      "endurance": 0.35,
+      "flexibility": 0.45,
+      "generalFitness": 0.72
+    },
+    "estimatedTimePerSet": 45,
+    "setupTimeSeconds": 30,
+    "homeCompatibility": 0.5,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.1
+  },
+  {
+    "name": "Sumo Deadlift",
+    "slug": "sumo-deadlift",
+    "description": "A wide-stance deadlift variation with feet outside hands that reduces range of motion and shifts emphasis to the quads, adductors, and hips. Often preferred by lifters with longer torsos.",
+    "instructions": [
+      "Stand with very wide stance, toes pointed out 30-45 degrees",
+      "Grip bar between legs at shoulder width or narrower",
+      "Squat down with upright torso, hips close to bar",
+      "Drive through legs while pulling bar straight up",
+      "Stand tall, squeeze glutes at lockout, lower with control"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "HINGE",
+    "exerciseType": "COMPOUND",
+    "primaryMuscles": [
+      "glutes",
+      "quads",
+      "hamstrings"
+    ],
+    "secondaryMuscles": [
+      "back",
+      "hip_flexors",
+      "core",
+      "forearms"
+    ],
+    "muscleActivationMap": {
+      "glutes": 0.9,
+      "quads": 0.75,
+      "hamstrings": 0.7,
+      "back": 0.7,
+      "hip_flexors": 0.55,
+      "core": 0.65,
+      "forearms": 0.65
+    },
+    "difficultyLevel": 4,
+    "skillRequirement": 4,
+    "isBeginnerFriendly": false,
+    "equipmentRequired": [
+      "barbell"
+    ],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "gym"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 1,
+        "max": 5
+      },
+      "hypertrophy": {
+        "min": 6,
+        "max": 10
+      },
+      "endurance": {
+        "min": 12,
+        "max": 15
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 5
+    },
+    "restSeconds": {
+      "strength": 240,
+      "hypertrophy": 150,
+      "endurance": 90
+    },
+    "metValue": 7.5,
+    "intensityFactor": 0.92,
+    "contraindications": [
+      "hip_injury",
+      "knee_injury",
+      "lower_back_injury"
+    ],
+    "formCues": [
+      "Push knees out over toes",
+      "Keep torso upright",
+      "Drive legs into floor",
+      "Bar stays close to body",
+      "Lock out hips fully"
+    ],
+    "commonMistakes": [
+      "Knees caving in",
+      "Hips shooting up first",
+      "Stance too wide or narrow",
+      "Back rounding",
+      "Not opening hips at setup"
+    ],
+    "easierVariation": "trap-bar-deadlift",
+    "harderVariation": "deficit-deadlift",
+    "alternativeExercises": [
+      "conventional-deadlift",
+      "trap-bar-deadlift",
+      "leg-press"
+    ],
+    "tags": [
+      "compound",
+      "hinge",
+      "glutes",
+      "quads",
+      "barbell",
+      "powerlifting"
+    ],
+    "suitableGoals": [
+      "STRENGTH",
+      "MUSCLE_GAIN"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 1,
+      "lightlyActive": 1,
+      "moderatelyActive": 3,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 1,
+      "lessThan6Mo": 1,
+      "sixTo24Mo": 3,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.6,
+      "muscleGain": 0.85,
+      "strength": 0.95,
+      "endurance": 0.35,
+      "flexibility": 0.25,
+      "generalFitness": 0.75
+    },
+    "estimatedTimePerSet": 60,
+    "setupTimeSeconds": 60,
+    "homeCompatibility": 0.2,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.1
+  },
+  {
+    "name": "Trap Bar Deadlift",
+    "slug": "trap-bar-deadlift",
+    "description": "A deadlift variation using a hexagonal bar that allows neutral grip and centers the load around the body. This setup reduces lower back stress and is more accessible for beginners.",
+    "instructions": [
+      "Stand inside trap bar with feet hip-width apart",
+      "Grip handles with neutral grip, arms straight",
+      "Squat down with flat back, chest up, shoulders back",
+      "Drive through floor, extending hips and knees together",
+      "Stand tall at top, lower with control by hinging then squatting"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "HINGE",
+    "exerciseType": "COMPOUND",
+    "primaryMuscles": [
+      "quads",
+      "glutes",
+      "hamstrings"
+    ],
+    "secondaryMuscles": [
+      "back",
+      "traps",
+      "core",
+      "forearms"
+    ],
+    "muscleActivationMap": {
+      "quads": 0.8,
+      "glutes": 0.85,
+      "hamstrings": 0.75,
+      "back": 0.7,
+      "traps": 0.65,
+      "core": 0.6,
+      "forearms": 0.6
+    },
+    "difficultyLevel": 3,
+    "skillRequirement": 2,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [
+      "trap_bar"
+    ],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "gym"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 3,
+        "max": 6
+      },
+      "hypertrophy": {
+        "min": 8,
+        "max": 12
+      },
+      "endurance": {
+        "min": 15,
+        "max": 20
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 5
+    },
+    "restSeconds": {
+      "strength": 180,
+      "hypertrophy": 120,
+      "endurance": 75
+    },
+    "metValue": 7.0,
+    "intensityFactor": 0.85,
+    "contraindications": [
+      "lower_back_injury",
+      "knee_injury"
+    ],
+    "formCues": [
+      "Stay centered in bar",
+      "Keep back flat",
+      "Drive through whole foot",
+      "Stand tall at top",
+      "Neutral grip reduces bicep strain"
+    ],
+    "commonMistakes": [
+      "Not centering in bar",
+      "Rounding back",
+      "Lifting hips too fast",
+      "Uneven grip height",
+      "Not using full range"
+    ],
+    "easierVariation": "dumbbell-romanian-deadlift",
+    "harderVariation": "conventional-deadlift",
+    "alternativeExercises": [
+      "conventional-deadlift",
+      "romanian-deadlift",
+      "leg-press"
+    ],
+    "tags": [
+      "compound",
+      "hinge",
+      "quads",
+      "glutes",
+      "trap-bar",
+      "beginner-friendly"
+    ],
+    "suitableGoals": [
+      "STRENGTH",
+      "MUSCLE_GAIN",
+      "GENERAL_FITNESS"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 2,
+      "lightlyActive": 3,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 3,
+      "lessThan6Mo": 4,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.6,
+      "muscleGain": 0.85,
+      "strength": 0.9,
+      "endurance": 0.4,
+      "flexibility": 0.15,
+      "generalFitness": 0.82
+    },
+    "estimatedTimePerSet": 50,
+    "setupTimeSeconds": 45,
+    "homeCompatibility": 0.15,
+    "gymCompatibility": 0.9,
+    "outdoorCompatibility": 0.1
+  },
+  {
+    "name": "Single-Leg Romanian Deadlift",
+    "slug": "single-leg-romanian-deadlift",
+    "description": "A unilateral hip hinge that challenges balance, stability, and single-leg strength while targeting the hamstrings and glutes. This exercise addresses muscle imbalances and develops proprioception.",
+    "instructions": [
+      "Stand on one leg holding dumbbell or kettlebell in opposite hand",
+      "Hinge at hip, extending free leg behind for counterbalance",
+      "Lower weight toward floor while keeping hips square",
+      "Descend until hamstring fully stretched or torso parallel to floor",
+      "Drive hips forward to return to standing, complete all reps then switch"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "HINGE",
+    "exerciseType": "COMPOUND",
+    "primaryMuscles": [
+      "hamstrings",
+      "glutes"
+    ],
+    "secondaryMuscles": [
+      "back",
+      "core",
+      "hip_flexors"
+    ],
+    "muscleActivationMap": {
+      "hamstrings": 0.9,
+      "glutes": 0.85,
+      "back": 0.55,
+      "core": 0.65,
+      "hip_flexors": 0.45
+    },
+    "difficultyLevel": 3,
+    "skillRequirement": 4,
+    "isBeginnerFriendly": false,
+    "equipmentRequired": [
+      "dumbbell"
+    ],
+    "equipmentOptional": [
+      "kettlebell"
+    ],
+    "suitableLocations": [
+      "gym",
+      "home"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 5,
+        "max": 8
+      },
+      "hypertrophy": {
+        "min": 8,
+        "max": 12
+      },
+      "endurance": {
+        "min": 15,
+        "max": 20
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 120,
+      "hypertrophy": 75,
+      "endurance": 45
+    },
+    "metValue": 5.0,
+    "intensityFactor": 0.68,
+    "contraindications": [
+      "ankle_injury",
+      "knee_injury",
+      "lower_back_injury"
+    ],
+    "formCues": [
+      "Keep hips square to floor",
+      "Slight bend in standing leg",
+      "Extend rear leg for balance",
+      "Weight opposite of standing leg",
+      "Control throughout movement"
+    ],
+    "commonMistakes": [
+      "Hip rotation/opening",
+      "Rounding back",
+      "Losing balance",
+      "Not enough hip hinge",
+      "Rushing the movement"
+    ],
+    "easierVariation": "romanian-deadlift",
+    "harderVariation": "conventional-deadlift",
+    "alternativeExercises": [
+      "romanian-deadlift",
+      "good-morning",
+      "lying-leg-curl"
+    ],
+    "tags": [
+      "compound",
+      "hinge",
+      "unilateral",
+      "hamstrings",
+      "glutes",
+      "balance"
+    ],
+    "suitableGoals": [
+      "MUSCLE_GAIN",
+      "STRENGTH",
+      "BALANCE"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 1,
+      "lightlyActive": 2,
+      "moderatelyActive": 4,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 1,
+      "lessThan6Mo": 2,
+      "sixTo24Mo": 4,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.5,
+      "muscleGain": 0.78,
+      "strength": 0.72,
+      "endurance": 0.45,
+      "flexibility": 0.4,
+      "generalFitness": 0.8
+    },
+    "estimatedTimePerSet": 50,
+    "setupTimeSeconds": 15,
+    "homeCompatibility": 0.9,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.6
+  },
+  {
+    "name": "Good Morning",
+    "slug": "good-morning",
+    "description": "A barbell hip hinge exercise with the bar on the back, emphasizing hamstring and lower back strength through a bow-like movement. Builds posterior chain strength critical for squat and deadlift performance.",
+    "instructions": [
+      "Position barbell on upper back as for back squat",
+      "Stand with feet hip to shoulder width apart, slight knee bend",
+      "Push hips back and hinge forward, keeping back flat",
+      "Lower until torso is parallel to floor or hamstrings fully stretched",
+      "Drive hips forward to return to standing position"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "HINGE",
+    "exerciseType": "COMPOUND",
+    "primaryMuscles": [
+      "hamstrings",
+      "back"
+    ],
+    "secondaryMuscles": [
+      "glutes",
+      "core"
+    ],
+    "muscleActivationMap": {
+      "hamstrings": 0.88,
+      "back": 0.85,
+      "glutes": 0.75,
+      "core": 0.65
+    },
+    "difficultyLevel": 4,
+    "skillRequirement": 4,
+    "isBeginnerFriendly": false,
+    "equipmentRequired": [
+      "barbell",
+      "squat_rack"
+    ],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "gym"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 5,
+        "max": 8
+      },
+      "hypertrophy": {
+        "min": 8,
+        "max": 12
+      },
+      "endurance": {
+        "min": 15,
+        "max": 20
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 150,
+      "hypertrophy": 90,
+      "endurance": 60
+    },
+    "metValue": 5.5,
+    "intensityFactor": 0.75,
+    "contraindications": [
+      "lower_back_injury",
+      "neck_injury"
+    ],
+    "formCues": [
+      "Keep back flat throughout",
+      "Soft knees, not squatting",
+      "Push hips back far",
+      "Feel hamstring stretch",
+      "Control the descent"
+    ],
+    "commonMistakes": [
+      "Rounding lower back",
+      "Bending knees too much",
+      "Going too heavy too soon",
+      "Not pushing hips back enough",
+      "Neck hyperextension"
+    ],
+    "easierVariation": "romanian-deadlift",
+    "harderVariation": "deficit-deadlift",
+    "alternativeExercises": [
+      "romanian-deadlift",
+      "single-leg-romanian-deadlift",
+      "back-extension"
+    ],
+    "tags": [
+      "compound",
+      "hinge",
+      "hamstrings",
+      "back",
+      "barbell",
+      "posterior-chain"
+    ],
+    "suitableGoals": [
+      "STRENGTH",
+      "MUSCLE_GAIN"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 1,
+      "lightlyActive": 1,
+      "moderatelyActive": 3,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 1,
+      "lessThan6Mo": 1,
+      "sixTo24Mo": 3,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.45,
+      "muscleGain": 0.8,
+      "strength": 0.85,
+      "endurance": 0.35,
+      "flexibility": 0.4,
+      "generalFitness": 0.65
+    },
+    "estimatedTimePerSet": 40,
+    "setupTimeSeconds": 60,
+    "homeCompatibility": 0.2,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.0
+  },
+  {
+    "name": "Rack Pull",
+    "slug": "rack-pull",
+    "description": "A partial range deadlift performed from blocks or safety pins set at or above knee height. This overload exercise allows for heavier weights than full deadlifts, building lockout strength and back thickness.",
+    "instructions": [
+      "Set safety pins in rack at knee height or above",
+      "Stand at bar as for deadlift, feet hip-width apart",
+      "Grip bar with overhand or mixed grip, set back flat",
+      "Drive through legs and hips to lift bar to lockout",
+      "Lower bar to pins with control, reset for next rep"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "HINGE",
+    "exerciseType": "COMPOUND",
+    "primaryMuscles": [
+      "back",
+      "glutes",
+      "traps"
+    ],
+    "secondaryMuscles": [
+      "hamstrings",
+      "core",
+      "forearms"
+    ],
+    "muscleActivationMap": {
+      "back": 0.9,
+      "glutes": 0.8,
+      "traps": 0.85,
+      "hamstrings": 0.6,
+      "core": 0.65,
+      "forearms": 0.75
+    },
+    "difficultyLevel": 3,
+    "skillRequirement": 3,
+    "isBeginnerFriendly": false,
+    "equipmentRequired": [
+      "barbell",
+      "squat_rack"
+    ],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "gym"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 1,
+        "max": 5
+      },
+      "hypertrophy": {
+        "min": 5,
+        "max": 8
+      },
+      "endurance": {
+        "min": 10,
+        "max": 15
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 5
+    },
+    "restSeconds": {
+      "strength": 240,
+      "hypertrophy": 150,
+      "endurance": 90
+    },
+    "metValue": 6.5,
+    "intensityFactor": 0.88,
+    "contraindications": [
+      "lower_back_injury",
+      "hip_injury"
+    ],
+    "formCues": [
+      "Same setup as deadlift",
+      "Drive hips through at top",
+      "Keep back flat",
+      "Control descent to pins",
+      "Reset between reps"
+    ],
+    "commonMistakes": [
+      "Rounding back with heavy weight",
+      "Bouncing off pins",
+      "Pins set too low",
+      "Hyperextending at lockout",
+      "Mixed grip imbalance"
+    ],
+    "easierVariation": "conventional-deadlift",
+    "harderVariation": "deficit-deadlift",
+    "alternativeExercises": [
+      "conventional-deadlift",
+      "trap-bar-deadlift",
+      "barbell-shrug"
+    ],
+    "tags": [
+      "compound",
+      "hinge",
+      "back",
+      "traps",
+      "barbell",
+      "overload"
+    ],
+    "suitableGoals": [
+      "STRENGTH",
+      "MUSCLE_GAIN"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 1,
+      "lightlyActive": 1,
+      "moderatelyActive": 3,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 1,
+      "lessThan6Mo": 2,
+      "sixTo24Mo": 3,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.45,
+      "muscleGain": 0.82,
+      "strength": 0.92,
+      "endurance": 0.3,
+      "flexibility": 0.1,
+      "generalFitness": 0.65
+    },
+    "estimatedTimePerSet": 45,
+    "setupTimeSeconds": 90,
+    "homeCompatibility": 0.15,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.0
+  },
+  {
+    "name": "Deficit Deadlift",
+    "slug": "deficit-deadlift",
+    "description": "An advanced deadlift variation performed while standing on a raised platform, increasing range of motion and difficulty off the floor. Builds starting strength and addresses weaknesses in the initial pull phase.",
+    "instructions": [
+      "Stand on 1-4 inch platform or plates, feet hip-width apart",
+      "Set up as for conventional deadlift with bar over mid-foot",
+      "Hinge down and grip bar, requiring deeper hip position than normal",
+      "Maintain flat back despite increased range of motion",
+      "Drive through floor, extending hips and knees to standing"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "HINGE",
+    "exerciseType": "COMPOUND",
+    "primaryMuscles": [
+      "hamstrings",
+      "glutes",
+      "back",
+      "quads"
+    ],
+    "secondaryMuscles": [
+      "lats",
+      "traps",
+      "core",
+      "forearms"
+    ],
+    "muscleActivationMap": {
+      "hamstrings": 0.9,
+      "glutes": 0.88,
+      "back": 0.85,
+      "quads": 0.7,
+      "lats": 0.55,
+      "traps": 0.6,
+      "core": 0.72,
+      "forearms": 0.68
+    },
+    "difficultyLevel": 5,
+    "skillRequirement": 5,
+    "isBeginnerFriendly": false,
+    "equipmentRequired": [
+      "barbell",
+      "box"
+    ],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "gym"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 1,
+        "max": 5
+      },
+      "hypertrophy": {
+        "min": 5,
+        "max": 8
+      },
+      "endurance": {
+        "min": 10,
+        "max": 12
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 5
+    },
+    "restSeconds": {
+      "strength": 240,
+      "hypertrophy": 150,
+      "endurance": 90
+    },
+    "metValue": 8.0,
+    "intensityFactor": 0.95,
+    "contraindications": [
+      "lower_back_injury",
+      "hip_injury",
+      "knee_injury"
+    ],
+    "formCues": [
+      "Start with small deficit",
+      "Maintain back position",
+      "Hips may start lower",
+      "Don't sacrifice form for deficit",
+      "Use lighter weight than regular deadlift"
+    ],
+    "commonMistakes": [
+      "Deficit too high",
+      "Back rounding from start",
+      "Same weight as regular deadlift",
+      "Hips rising too fast",
+      "Losing tightness at bottom"
+    ],
+    "easierVariation": "conventional-deadlift",
+    "harderVariation": null,
+    "alternativeExercises": [
+      "conventional-deadlift",
+      "romanian-deadlift",
+      "pendlay-row"
+    ],
+    "tags": [
+      "compound",
+      "hinge",
+      "posterior-chain",
+      "barbell",
+      "advanced",
+      "powerlifting"
+    ],
+    "suitableGoals": [
+      "STRENGTH"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 1,
+      "lightlyActive": 1,
+      "moderatelyActive": 2,
+      "veryActive": 4,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 1,
+      "lessThan6Mo": 1,
+      "sixTo24Mo": 2,
+      "twoTo5Yr": 4,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.55,
+      "muscleGain": 0.82,
+      "strength": 0.98,
+      "endurance": 0.3,
+      "flexibility": 0.3,
+      "generalFitness": 0.65
+    },
+    "estimatedTimePerSet": 60,
+    "setupTimeSeconds": 90,
+    "homeCompatibility": 0.2,
+    "gymCompatibility": 0.95,
+    "outdoorCompatibility": 0.1
+  },
+  {
+    "name": "Straight-Arm Pulldown",
+    "slug": "straight-arm-pulldown",
+    "description": "An isolation exercise targeting the lats through shoulder extension with arms kept straight throughout. Provides constant tension on the lats without bicep involvement, excellent for mind-muscle connection.",
+    "instructions": [
+      "Stand facing high cable pulley with straight bar or rope attachment",
+      "Grip bar with arms extended overhead at shoulder height",
+      "Maintain soft elbow lock throughout movement",
+      "Pull bar down in arc to hips by driving arms down",
+      "Squeeze lats at bottom, return with control to start"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "EXTENSION",
+    "exerciseType": "ISOLATION",
+    "primaryMuscles": [
+      "lats"
+    ],
+    "secondaryMuscles": [
+      "triceps",
+      "rear_delts",
+      "core"
+    ],
+    "muscleActivationMap": {
+      "lats": 0.92,
+      "triceps": 0.35,
+      "rear_delts": 0.35,
+      "core": 0.35
+    },
+    "difficultyLevel": 2,
+    "skillRequirement": 2,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [
+      "cable"
+    ],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "gym"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 8,
+        "max": 12
+      },
+      "hypertrophy": {
+        "min": 12,
+        "max": 18
+      },
+      "endurance": {
+        "min": 20,
+        "max": 30
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 90,
+      "hypertrophy": 60,
+      "endurance": 30
+    },
+    "metValue": 4.0,
+    "intensityFactor": 0.55,
+    "contraindications": [
+      "shoulder_injury",
+      "elbow_injury"
+    ],
+    "formCues": [
+      "Keep arms straight throughout",
+      "Slight forward lean",
+      "Pull through lats not arms",
+      "Squeeze at bottom position",
+      "Controlled return"
+    ],
+    "commonMistakes": [
+      "Bending elbows",
+      "Using too much weight",
+      "Pulling with arms",
+      "Standing too upright",
+      "Momentum swinging"
+    ],
+    "easierVariation": null,
+    "harderVariation": "wide-grip-lat-pulldown",
+    "alternativeExercises": [
+      "dumbbell-pullover",
+      "wide-grip-lat-pulldown"
+    ],
+    "tags": [
+      "isolation",
+      "lats",
+      "cable",
+      "mind-muscle"
+    ],
+    "suitableGoals": [
+      "MUSCLE_GAIN"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 3,
+      "lightlyActive": 4,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 4
+    },
+    "experienceLevelSuitability": {
+      "never": 3,
+      "lessThan6Mo": 4,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.3,
+      "muscleGain": 0.78,
+      "strength": 0.5,
+      "endurance": 0.5,
+      "flexibility": 0.2,
+      "generalFitness": 0.6
+    },
+    "estimatedTimePerSet": 35,
+    "setupTimeSeconds": 20,
+    "homeCompatibility": 0.15,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.0
+  },
+  {
+    "name": "Face Pull",
+    "slug": "face-pull",
+    "description": "A cable exercise targeting the rear deltoids, rhomboids, and external rotators critical for shoulder health and posture. Counteracts forward shoulder posture from pressing exercises.",
+    "instructions": [
+      "Set cable pulley at face height with rope attachment",
+      "Grip rope with overhand grip, step back until cable is taut",
+      "Start with arms extended toward pulley at face height",
+      "Pull rope toward face, separating hands and driving elbows high and back",
+      "Externally rotate at end, squeezing rear delts and upper back"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "HORIZONTAL_PULL",
+    "exerciseType": "ISOLATION",
+    "primaryMuscles": [
+      "rear_delts",
+      "traps"
+    ],
+    "secondaryMuscles": [
+      "back",
+      "biceps"
+    ],
+    "muscleActivationMap": {
+      "rear_delts": 0.9,
+      "traps": 0.7,
+      "back": 0.55,
+      "biceps": 0.35
+    },
+    "difficultyLevel": 2,
+    "skillRequirement": 2,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [
+      "cable"
+    ],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "gym"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 10,
+        "max": 15
+      },
+      "hypertrophy": {
+        "min": 15,
+        "max": 20
+      },
+      "endurance": {
+        "min": 20,
+        "max": 30
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 75,
+      "hypertrophy": 45,
+      "endurance": 30
+    },
+    "metValue": 3.5,
+    "intensityFactor": 0.5,
+    "contraindications": [
+      "shoulder_injury"
+    ],
+    "formCues": [
+      "Pull to face level, not chest",
+      "Separate hands at end",
+      "Externally rotate shoulders",
+      "Keep elbows high",
+      "Squeeze rear delts"
+    ],
+    "commonMistakes": [
+      "Pulling too low",
+      "Not separating hands",
+      "Using too much weight",
+      "Elbows dropping",
+      "No external rotation"
+    ],
+    "easierVariation": null,
+    "harderVariation": "dumbbell-reverse-fly",
+    "alternativeExercises": [
+      "dumbbell-reverse-fly",
+      "cable-reverse-fly",
+      "band-pull-apart"
+    ],
+    "tags": [
+      "isolation",
+      "rear-delts",
+      "cable",
+      "shoulder-health",
+      "posture"
+    ],
+    "suitableGoals": [
+      "MUSCLE_GAIN",
+      "GENERAL_FITNESS"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 4,
+      "lightlyActive": 5,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 4,
+      "lessThan6Mo": 5,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.3,
+      "muscleGain": 0.72,
+      "strength": 0.5,
+      "endurance": 0.55,
+      "flexibility": 0.25,
+      "generalFitness": 0.78
+    },
+    "estimatedTimePerSet": 30,
+    "setupTimeSeconds": 20,
+    "homeCompatibility": 0.15,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.0
+  },
+  {
+    "name": "Dumbbell Reverse Fly",
+    "slug": "dumbbell-reverse-fly",
+    "description": "An isolation exercise targeting the rear deltoids and upper back muscles using dumbbells in a bent-over position. Essential for balanced shoulder development and postural health.",
+    "instructions": [
+      "Stand with feet hip-width, hinge forward to 45-60 degrees",
+      "Hold dumbbells hanging below with slight elbow bend, palms facing each other",
+      "Raise dumbbells out to sides in arc until arms are parallel to floor",
+      "Squeeze rear delts and upper back at top",
+      "Lower with control to starting position"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "HORIZONTAL_PULL",
+    "exerciseType": "ISOLATION",
+    "primaryMuscles": [
+      "rear_delts"
+    ],
+    "secondaryMuscles": [
+      "traps",
+      "back"
+    ],
+    "muscleActivationMap": {
+      "rear_delts": 0.92,
+      "traps": 0.55,
+      "back": 0.5
+    },
+    "difficultyLevel": 2,
+    "skillRequirement": 2,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [
+      "dumbbell"
+    ],
+    "equipmentOptional": [
+      "bench"
+    ],
+    "suitableLocations": [
+      "gym",
+      "home"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 10,
+        "max": 12
+      },
+      "hypertrophy": {
+        "min": 12,
+        "max": 18
+      },
+      "endurance": {
+        "min": 20,
+        "max": 25
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 75,
+      "hypertrophy": 45,
+      "endurance": 30
+    },
+    "metValue": 3.5,
+    "intensityFactor": 0.5,
+    "contraindications": [
+      "shoulder_injury",
+      "lower_back_injury"
+    ],
+    "formCues": [
+      "Maintain hip hinge throughout",
+      "Lead with elbows not hands",
+      "Fixed elbow angle",
+      "Squeeze at top",
+      "Control the negative"
+    ],
+    "commonMistakes": [
+      "Standing too upright",
+      "Using momentum",
+      "Going too heavy",
+      "Straightening arms",
+      "Dropping weight quickly"
+    ],
+    "easierVariation": "face-pull",
+    "harderVariation": "cable-reverse-fly",
+    "alternativeExercises": [
+      "face-pull",
+      "cable-reverse-fly",
+      "rear-delt-machine"
+    ],
+    "tags": [
+      "isolation",
+      "rear-delts",
+      "dumbbell",
+      "posture"
+    ],
+    "suitableGoals": [
+      "MUSCLE_GAIN",
+      "GENERAL_FITNESS"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 3,
+      "lightlyActive": 4,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 4
+    },
+    "experienceLevelSuitability": {
+      "never": 3,
+      "lessThan6Mo": 4,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.3,
+      "muscleGain": 0.78,
+      "strength": 0.5,
+      "endurance": 0.55,
+      "flexibility": 0.2,
+      "generalFitness": 0.7
+    },
+    "estimatedTimePerSet": 35,
+    "setupTimeSeconds": 15,
+    "homeCompatibility": 0.9,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.4
+  },
+  {
+    "name": "Cable Reverse Fly",
+    "slug": "cable-reverse-fly",
+    "description": "A rear deltoid isolation exercise using cables that provides constant tension throughout the movement. The cable resistance creates a unique strength curve compared to dumbbell variations.",
+    "instructions": [
+      "Set cables at shoulder height, stand centered between two cable stacks",
+      "Cross cables grabbing opposite handles with no attachments",
+      "Start with arms crossed in front at shoulder height",
+      "Pull handles outward in arc, squeezing rear delts as arms separate",
+      "Control return to starting crossed position"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "HORIZONTAL_PULL",
+    "exerciseType": "ISOLATION",
+    "primaryMuscles": [
+      "rear_delts"
+    ],
+    "secondaryMuscles": [
+      "traps",
+      "back"
+    ],
+    "muscleActivationMap": {
+      "rear_delts": 0.9,
+      "traps": 0.55,
+      "back": 0.5
+    },
+    "difficultyLevel": 2,
+    "skillRequirement": 2,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [
+      "cable"
+    ],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "gym"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 10,
+        "max": 12
+      },
+      "hypertrophy": {
+        "min": 12,
+        "max": 18
+      },
+      "endurance": {
+        "min": 20,
+        "max": 25
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 75,
+      "hypertrophy": 45,
+      "endurance": 30
+    },
+    "metValue": 3.5,
+    "intensityFactor": 0.52,
+    "contraindications": [
+      "shoulder_injury"
+    ],
+    "formCues": [
+      "Keep slight elbow bend",
+      "Pull through rear delts",
+      "Squeeze at full extension",
+      "Control the cross back",
+      "Stay centered between stacks"
+    ],
+    "commonMistakes": [
+      "Arms too straight or bent",
+      "Using body momentum",
+      "Not enough range of motion",
+      "Uneven cable tension",
+      "Rushing reps"
+    ],
+    "easierVariation": "face-pull",
+    "harderVariation": "dumbbell-reverse-fly",
+    "alternativeExercises": [
+      "dumbbell-reverse-fly",
+      "face-pull",
+      "rear-delt-machine"
+    ],
+    "tags": [
+      "isolation",
+      "rear-delts",
+      "cable",
+      "constant-tension"
+    ],
+    "suitableGoals": [
+      "MUSCLE_GAIN"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 3,
+      "lightlyActive": 4,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 4
+    },
+    "experienceLevelSuitability": {
+      "never": 3,
+      "lessThan6Mo": 4,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.3,
+      "muscleGain": 0.78,
+      "strength": 0.5,
+      "endurance": 0.55,
+      "flexibility": 0.2,
+      "generalFitness": 0.68
+    },
+    "estimatedTimePerSet": 35,
+    "setupTimeSeconds": 30,
+    "homeCompatibility": 0.1,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.0
+  },
+  {
+    "name": "Barbell Shrug",
+    "slug": "barbell-shrug",
+    "description": "An isolation exercise targeting the upper trapezius muscles using a barbell. The heavy loading potential makes this ideal for building trap size and strength for improved posture and deadlift lockout.",
+    "instructions": [
+      "Stand holding barbell at thigh level with overhand grip, shoulder width or slightly wider",
+      "Stand tall with shoulders down and back, arms straight",
+      "Elevate shoulders straight up toward ears as high as possible",
+      "Hold peak contraction for 1-2 seconds",
+      "Lower shoulders under control to starting position"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "ISOLATION",
+    "exerciseType": "ISOLATION",
+    "primaryMuscles": [
+      "traps"
+    ],
+    "secondaryMuscles": [
+      "forearms"
+    ],
+    "muscleActivationMap": {
+      "traps": 0.95,
+      "forearms": 0.55
+    },
+    "difficultyLevel": 2,
+    "skillRequirement": 1,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [
+      "barbell"
+    ],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "gym"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 6,
+        "max": 10
+      },
+      "hypertrophy": {
+        "min": 10,
+        "max": 15
+      },
+      "endurance": {
+        "min": 15,
+        "max": 25
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 120,
+      "hypertrophy": 75,
+      "endurance": 45
+    },
+    "metValue": 4.0,
+    "intensityFactor": 0.6,
+    "contraindications": [
+      "neck_injury",
+      "shoulder_injury"
+    ],
+    "formCues": [
+      "Straight up and down only",
+      "No rolling shoulders",
+      "Hold at top",
+      "Keep arms straight",
+      "Control the descent"
+    ],
+    "commonMistakes": [
+      "Rolling shoulders",
+      "Using momentum",
+      "Too heavy losing range",
+      "Bending arms",
+      "Looking up straining neck"
+    ],
+    "easierVariation": null,
+    "harderVariation": "dumbbell-shrug",
+    "alternativeExercises": [
+      "dumbbell-shrug",
+      "trap-bar-shrug",
+      "cable-shrug"
+    ],
+    "tags": [
+      "isolation",
+      "traps",
+      "barbell",
+      "upper-back"
+    ],
+    "suitableGoals": [
+      "MUSCLE_GAIN",
+      "STRENGTH"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 3,
+      "lightlyActive": 4,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 4
+    },
+    "experienceLevelSuitability": {
+      "never": 4,
+      "lessThan6Mo": 5,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 4
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.25,
+      "muscleGain": 0.82,
+      "strength": 0.7,
+      "endurance": 0.4,
+      "flexibility": 0.1,
+      "generalFitness": 0.55
+    },
+    "estimatedTimePerSet": 30,
+    "setupTimeSeconds": 30,
+    "homeCompatibility": 0.3,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.1
+  },
+  {
+    "name": "Dumbbell Shrug",
+    "slug": "dumbbell-shrug",
+    "description": "A trap isolation exercise using dumbbells that allows for a more natural arm position at the sides of the body. The independent loading helps correct any strength imbalances between sides.",
+    "instructions": [
+      "Stand holding dumbbells at sides with neutral grip, palms facing body",
+      "Stand tall with shoulders down, arms straight",
+      "Elevate shoulders straight up as high as possible toward ears",
+      "Squeeze and hold at top for 1-2 seconds",
+      "Lower with control back to starting position"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "ISOLATION",
+    "exerciseType": "ISOLATION",
+    "primaryMuscles": [
+      "traps"
+    ],
+    "secondaryMuscles": [
+      "forearms"
+    ],
+    "muscleActivationMap": {
+      "traps": 0.92,
+      "forearms": 0.5
+    },
+    "difficultyLevel": 1,
+    "skillRequirement": 1,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [
+      "dumbbell"
+    ],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "gym",
+      "home"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 6,
+        "max": 10
+      },
+      "hypertrophy": {
+        "min": 10,
+        "max": 15
+      },
+      "endurance": {
+        "min": 15,
+        "max": 25
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 120,
+      "hypertrophy": 75,
+      "endurance": 45
+    },
+    "metValue": 4.0,
+    "intensityFactor": 0.58,
+    "contraindications": [
+      "neck_injury",
+      "shoulder_injury"
+    ],
+    "formCues": [
+      "Arms stay straight",
+      "Shrug straight up",
+      "Hold at peak",
+      "No rolling motion",
+      "Equal height both sides"
+    ],
+    "commonMistakes": [
+      "Rolling shoulders backward",
+      "Bending elbows",
+      "Using momentum",
+      "Uneven shrugging",
+      "No pause at top"
+    ],
+    "easierVariation": null,
+    "harderVariation": "barbell-shrug",
+    "alternativeExercises": [
+      "barbell-shrug",
+      "trap-bar-shrug",
+      "cable-shrug"
+    ],
+    "tags": [
+      "isolation",
+      "traps",
+      "dumbbell",
+      "beginner-friendly"
+    ],
+    "suitableGoals": [
+      "MUSCLE_GAIN"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 4,
+      "lightlyActive": 5,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 4
+    },
+    "experienceLevelSuitability": {
+      "never": 5,
+      "lessThan6Mo": 5,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 4
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.25,
+      "muscleGain": 0.78,
+      "strength": 0.65,
+      "endurance": 0.4,
+      "flexibility": 0.1,
+      "generalFitness": 0.55
+    },
+    "estimatedTimePerSet": 30,
+    "setupTimeSeconds": 15,
+    "homeCompatibility": 0.9,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.4
+  }
+]

@@ -1,0 +1,2976 @@
+[
+    {
+      "name": "Flat Barbell Bench Press",
+      "slug": "flat-barbell-bench-press",
+      "description": "The gold standard compound chest exercise performed lying flat on a bench while pressing a barbell from chest level to full arm extension. This foundational movement builds overall chest mass, strength, and pressing power while engaging multiple upper body muscle groups.",
+      "instructions": [
+        "Lie flat on a bench with feet firmly planted on the floor and shoulder blades retracted and depressed",
+        "Grip the barbell slightly wider than shoulder-width with wrists stacked over elbows",
+        "Unrack the bar and position it directly over your shoulders with arms fully extended",
+        "Lower the bar in a controlled manner to your mid-chest, touching lightly at the sternum",
+        "Press the bar back up explosively while maintaining tight core and leg drive, fully extending arms without locking elbows"
+      ],
+      "category": "STRENGTH",
+      "movementPattern": "HORIZONTAL_PUSH",
+      "exerciseType": "COMPOUND",
+      "primaryMuscles": ["chest"],
+      "secondaryMuscles": ["triceps", "front_delts", "core"],
+      "muscleActivationMap": {
+        "chest": 0.92,
+        "triceps": 0.65,
+        "front_delts": 0.45,
+        "core": 0.25,
+        "lats": 0.15
+      },
+      "difficultyLevel": 3,
+      "skillRequirement": 3,
+      "isBeginnerFriendly": false,
+      "equipmentRequired": ["barbell", "bench", "squat_rack"],
+      "equipmentOptional": ["spotter"],
+      "suitableLocations": ["gym"],
+      "repRanges": {
+        "strength": {"min": 1, "max": 5},
+        "hypertrophy": {"min": 6, "max": 12},
+        "endurance": {"min": 15, "max": 20}
+      },
+      "typicalSets": {"min": 3, "max": 5},
+      "restSeconds": {"strength": 180, "hypertrophy": 90, "endurance": 60},
+      "metValue": 6.0,
+      "intensityFactor": 0.85,
+      "contraindications": ["shoulder_injury", "elbow_injury", "wrist_injury", "heart_condition"],
+      "formCues": [
+        "Keep shoulder blades pinched together throughout",
+        "Maintain natural arch in lower back",
+        "Drive feet into floor for leg drive",
+        "Bar path should travel slightly back toward face on press",
+        "Keep wrists neutral and stacked over elbows"
+      ],
+      "commonMistakes": [
+        "Bouncing bar off chest",
+        "Flaring elbows to 90 degrees",
+        "Lifting hips off bench",
+        "Uneven bar path or grip",
+        "Not using full range of motion"
+      ],
+      "easierVariation": "flat-dumbbell-press",
+      "harderVariation": "paused-barbell-bench-press",
+      "alternativeExercises": ["machine-chest-press", "flat-dumbbell-press", "standard-push-up"],
+      "tags": ["compound", "push", "strength", "powerlifting", "chest", "barbell", "bench"],
+      "suitableGoals": ["MUSCLE_GAIN", "STRENGTH"],
+      "fitnessLevelSuitability": {
+        "sedentary": 1,
+        "lightlyActive": 2,
+        "moderatelyActive": 4,
+        "veryActive": 5,
+        "athlete": 5
+      },
+      "experienceLevelSuitability": {
+        "never": 1,
+        "lessThan6Mo": 2,
+        "sixTo24Mo": 4,
+        "twoTo5Yr": 5,
+        "fivePlusYr": 5
+      },
+      "goalEffectiveness": {
+        "weightLoss": 0.5,
+        "muscleGain": 0.95,
+        "strength": 0.98,
+        "endurance": 0.3,
+        "flexibility": 0.1,
+        "generalFitness": 0.7
+      },
+      "estimatedTimePerSet": 45,
+      "setupTimeSeconds": 90,
+      "homeCompatibility": 0.2,
+      "gymCompatibility": 1.0,
+      "outdoorCompatibility": 0.0
+    },
+    {
+      "name": "Incline Barbell Bench Press 30-Degree",
+      "slug": "incline-barbell-bench-press-30-degree",
+      "description": "A variation of the bench press performed on a 30-degree incline bench targeting the upper chest fibers more intensely. This moderate incline angle provides an optimal balance between upper chest activation and overall pressing strength.",
+      "instructions": [
+        "Set the bench to a 30-degree incline and position yourself with feet flat on the floor",
+        "Grip the barbell slightly wider than shoulder-width and unrack with arms extended",
+        "Retract shoulder blades and create a slight arch in the upper back",
+        "Lower the bar to your upper chest just below the collarbone in a controlled manner",
+        "Press the bar back up to the starting position while keeping constant tension on the upper chest"
+      ],
+      "category": "STRENGTH",
+      "movementPattern": "HORIZONTAL_PUSH",
+      "exerciseType": "COMPOUND",
+      "primaryMuscles": ["chest"],
+      "secondaryMuscles": ["front_delts", "triceps", "core"],
+      "muscleActivationMap": {
+        "chest": 0.85,
+        "front_delts": 0.55,
+        "triceps": 0.6,
+        "core": 0.2,
+        "traps": 0.1
+      },
+      "difficultyLevel": 3,
+      "skillRequirement": 3,
+      "isBeginnerFriendly": false,
+      "equipmentRequired": ["barbell", "bench", "squat_rack"],
+      "equipmentOptional": ["spotter"],
+      "suitableLocations": ["gym"],
+      "repRanges": {
+        "strength": {"min": 3, "max": 6},
+        "hypertrophy": {"min": 8, "max": 12},
+        "endurance": {"min": 15, "max": 20}
+      },
+      "typicalSets": {"min": 3, "max": 4},
+      "restSeconds": {"strength": 180, "hypertrophy": 90, "endurance": 60},
+      "metValue": 5.5,
+      "intensityFactor": 0.8,
+      "contraindications": ["shoulder_injury", "elbow_injury", "wrist_injury", "neck_injury"],
+      "formCues": [
+        "Keep chest high and proud throughout the movement",
+        "Lower bar to upper chest, not neck",
+        "Maintain 45-degree elbow angle relative to torso",
+        "Press in a slight arc back toward face",
+        "Keep glutes on bench throughout"
+      ],
+      "commonMistakes": [
+        "Setting incline too steep",
+        "Lowering bar too high toward neck",
+        "Excessive elbow flare",
+        "Losing shoulder blade retraction",
+        "Using momentum to press"
+      ],
+      "easierVariation": "incline-dumbbell-press",
+      "harderVariation": "incline-barbell-bench-press-45-degree",
+      "alternativeExercises": ["incline-dumbbell-press", "low-cable-fly", "decline-push-up"],
+      "tags": ["compound", "push", "strength", "upper-chest", "barbell", "incline"],
+      "suitableGoals": ["MUSCLE_GAIN", "STRENGTH"],
+      "fitnessLevelSuitability": {
+        "sedentary": 1,
+        "lightlyActive": 2,
+        "moderatelyActive": 4,
+        "veryActive": 5,
+        "athlete": 5
+      },
+      "experienceLevelSuitability": {
+        "never": 1,
+        "lessThan6Mo": 2,
+        "sixTo24Mo": 4,
+        "twoTo5Yr": 5,
+        "fivePlusYr": 5
+      },
+      "goalEffectiveness": {
+        "weightLoss": 0.45,
+        "muscleGain": 0.9,
+        "strength": 0.85,
+        "endurance": 0.3,
+        "flexibility": 0.1,
+        "generalFitness": 0.65
+      },
+      "estimatedTimePerSet": 45,
+      "setupTimeSeconds": 120,
+      "homeCompatibility": 0.15,
+      "gymCompatibility": 1.0,
+      "outdoorCompatibility": 0.0
+    },
+    {
+      "name": "Incline Barbell Bench Press 45-Degree",
+      "slug": "incline-barbell-bench-press-45-degree",
+      "description": "A steeper incline press variation that maximally targets the clavicular head of the pectoralis major while increasing anterior deltoid involvement. This angle creates greater shoulder flexion demands and is excellent for developing upper chest definition.",
+      "instructions": [
+        "Set bench to 45-degree angle and sit with back firmly against pad",
+        "Grip barbell slightly wider than shoulder-width and unrack with straight arms",
+        "Brace core and maintain shoulder blade retraction throughout",
+        "Lower bar under control to upper chest just below clavicle",
+        "Drive bar up and slightly back, fully extending arms while keeping shoulders down"
+      ],
+      "category": "STRENGTH",
+      "movementPattern": "HORIZONTAL_PUSH",
+      "exerciseType": "COMPOUND",
+      "primaryMuscles": ["chest", "front_delts"],
+      "secondaryMuscles": ["triceps", "core"],
+      "muscleActivationMap": {
+        "chest": 0.75,
+        "front_delts": 0.7,
+        "triceps": 0.55,
+        "core": 0.2,
+        "traps": 0.15
+      },
+      "difficultyLevel": 4,
+      "skillRequirement": 3,
+      "isBeginnerFriendly": false,
+      "equipmentRequired": ["barbell", "bench", "squat_rack"],
+      "equipmentOptional": ["spotter"],
+      "suitableLocations": ["gym"],
+      "repRanges": {
+        "strength": {"min": 3, "max": 6},
+        "hypertrophy": {"min": 8, "max": 12},
+        "endurance": {"min": 15, "max": 20}
+      },
+      "typicalSets": {"min": 3, "max": 4},
+      "restSeconds": {"strength": 180, "hypertrophy": 90, "endurance": 60},
+      "metValue": 5.5,
+      "intensityFactor": 0.75,
+      "contraindications": ["shoulder_injury", "elbow_injury", "wrist_injury", "neck_injury"],
+      "formCues": [
+        "Keep head neutral against bench",
+        "Maintain constant tension at bottom",
+        "Do not let bar drift forward",
+        "Keep wrists straight and strong",
+        "Focus on squeezing upper chest at top"
+      ],
+      "commonMistakes": [
+        "Converting to shoulder press by going too steep",
+        "Bouncing weight off chest",
+        "Losing back arch and stability",
+        "Grip too wide causing shoulder stress",
+        "Incomplete range of motion"
+      ],
+      "easierVariation": "incline-barbell-bench-press-30-degree",
+      "harderVariation": "paused-barbell-bench-press",
+      "alternativeExercises": ["incline-dumbbell-press", "low-cable-fly", "decline-push-up"],
+      "tags": ["compound", "push", "strength", "upper-chest", "barbell", "incline"],
+      "suitableGoals": ["MUSCLE_GAIN", "STRENGTH"],
+      "fitnessLevelSuitability": {
+        "sedentary": 1,
+        "lightlyActive": 2,
+        "moderatelyActive": 3,
+        "veryActive": 5,
+        "athlete": 5
+      },
+      "experienceLevelSuitability": {
+        "never": 1,
+        "lessThan6Mo": 2,
+        "sixTo24Mo": 4,
+        "twoTo5Yr": 5,
+        "fivePlusYr": 5
+      },
+      "goalEffectiveness": {
+        "weightLoss": 0.45,
+        "muscleGain": 0.85,
+        "strength": 0.8,
+        "endurance": 0.3,
+        "flexibility": 0.1,
+        "generalFitness": 0.6
+      },
+      "estimatedTimePerSet": 45,
+      "setupTimeSeconds": 120,
+      "homeCompatibility": 0.15,
+      "gymCompatibility": 1.0,
+      "outdoorCompatibility": 0.0
+    },
+    {
+      "name": "Decline Barbell Bench Press",
+      "slug": "decline-barbell-bench-press",
+      "description": "A bench press variation performed on a decline bench targeting the lower chest fibers and sternal head of the pectoralis major. The declined angle reduces shoulder stress while allowing for heavier loads due to the shortened range of motion.",
+      "instructions": [
+        "Secure feet under the leg pads of a decline bench set to 15-30 degrees",
+        "Grip barbell at shoulder width or slightly wider and unrack with arms extended",
+        "Keep shoulder blades retracted and core braced throughout",
+        "Lower bar to lower chest just below nipple line",
+        "Press bar up and slightly back toward face until arms are fully extended"
+      ],
+      "category": "STRENGTH",
+      "movementPattern": "HORIZONTAL_PUSH",
+      "exerciseType": "COMPOUND",
+      "primaryMuscles": ["chest"],
+      "secondaryMuscles": ["triceps", "front_delts"],
+      "muscleActivationMap": {
+        "chest": 0.9,
+        "triceps": 0.6,
+        "front_delts": 0.35,
+        "core": 0.3,
+        "lats": 0.15
+      },
+      "difficultyLevel": 3,
+      "skillRequirement": 3,
+      "isBeginnerFriendly": false,
+      "equipmentRequired": ["barbell", "bench", "squat_rack"],
+      "equipmentOptional": ["spotter"],
+      "suitableLocations": ["gym"],
+      "repRanges": {
+        "strength": {"min": 3, "max": 6},
+        "hypertrophy": {"min": 8, "max": 12},
+        "endurance": {"min": 15, "max": 20}
+      },
+      "typicalSets": {"min": 3, "max": 4},
+      "restSeconds": {"strength": 180, "hypertrophy": 90, "endurance": 60},
+      "metValue": 5.5,
+      "intensityFactor": 0.82,
+      "contraindications": ["high_blood_pressure", "heart_condition", "neck_injury", "shoulder_injury"],
+      "formCues": [
+        "Secure legs firmly before unracking",
+        "Keep lower back in contact with bench",
+        "Control the negative portion",
+        "Bar should touch lower chest",
+        "Press in an arc back toward rack"
+      ],
+      "commonMistakes": [
+        "Setting decline too steep causing blood rush to head",
+        "Bouncing bar off chest",
+        "Flaring elbows excessively",
+        "Not securing feet properly",
+        "Holding breath too long"
+      ],
+      "easierVariation": "decline-dumbbell-press",
+      "harderVariation": "paused-barbell-bench-press",
+      "alternativeExercises": ["decline-dumbbell-press", "high-cable-fly", "dip"],
+      "tags": ["compound", "push", "strength", "lower-chest", "barbell", "decline"],
+      "suitableGoals": ["MUSCLE_GAIN", "STRENGTH"],
+      "fitnessLevelSuitability": {
+        "sedentary": 1,
+        "lightlyActive": 2,
+        "moderatelyActive": 4,
+        "veryActive": 5,
+        "athlete": 5
+      },
+      "experienceLevelSuitability": {
+        "never": 1,
+        "lessThan6Mo": 2,
+        "sixTo24Mo": 4,
+        "twoTo5Yr": 5,
+        "fivePlusYr": 5
+      },
+      "goalEffectiveness": {
+        "weightLoss": 0.45,
+        "muscleGain": 0.9,
+        "strength": 0.88,
+        "endurance": 0.25,
+        "flexibility": 0.1,
+        "generalFitness": 0.6
+      },
+      "estimatedTimePerSet": 45,
+      "setupTimeSeconds": 90,
+      "homeCompatibility": 0.1,
+      "gymCompatibility": 1.0,
+      "outdoorCompatibility": 0.0
+    },
+    {
+      "name": "Close-Grip Barbell Bench Press",
+      "slug": "close-grip-barbell-bench-press",
+      "description": "A bench press variation with hands placed shoulder-width apart or narrower, shifting emphasis to the triceps while still heavily engaging the inner chest. This exercise is excellent for building tricep strength and lockout power in pressing movements.",
+      "instructions": [
+        "Lie on flat bench with feet planted and grip barbell at shoulder width or slightly narrower",
+        "Unrack the bar with arms fully extended directly over shoulders",
+        "Keep elbows tucked close to body at approximately 30-45 degrees",
+        "Lower bar under control to mid-chest while maintaining elbow tuck",
+        "Press bar straight up powerfully, focusing on tricep engagement at lockout"
+      ],
+      "category": "STRENGTH",
+      "movementPattern": "HORIZONTAL_PUSH",
+      "exerciseType": "COMPOUND",
+      "primaryMuscles": ["triceps", "chest"],
+      "secondaryMuscles": ["front_delts", "core"],
+      "muscleActivationMap": {
+        "triceps": 0.85,
+        "chest": 0.75,
+        "front_delts": 0.4,
+        "core": 0.2
+      },
+      "difficultyLevel": 3,
+      "skillRequirement": 3,
+      "isBeginnerFriendly": false,
+      "equipmentRequired": ["barbell", "bench", "squat_rack"],
+      "equipmentOptional": ["spotter"],
+      "suitableLocations": ["gym"],
+      "repRanges": {
+        "strength": {"min": 3, "max": 6},
+        "hypertrophy": {"min": 8, "max": 12},
+        "endurance": {"min": 15, "max": 20}
+      },
+      "typicalSets": {"min": 3, "max": 5},
+      "restSeconds": {"strength": 180, "hypertrophy": 90, "endurance": 60},
+      "metValue": 5.5,
+      "intensityFactor": 0.78,
+      "contraindications": ["wrist_injury", "elbow_injury", "shoulder_injury"],
+      "formCues": [
+        "Grip should not be so narrow it strains wrists",
+        "Keep elbows tucked throughout movement",
+        "Touch bar to lower chest, not upper",
+        "Drive through triceps at top",
+        "Maintain shoulder blade retraction"
+      ],
+      "commonMistakes": [
+        "Grip too narrow causing wrist pain",
+        "Flaring elbows defeating the purpose",
+        "Touching bar too high on chest",
+        "Using excessive weight with poor form",
+        "Not locking out fully"
+      ],
+      "easierVariation": "flat-barbell-bench-press",
+      "harderVariation": "paused-barbell-bench-press",
+      "alternativeExercises": ["diamond-push-up", "tricep-dip", "machine-chest-press"],
+      "tags": ["compound", "push", "strength", "triceps", "inner-chest", "barbell"],
+      "suitableGoals": ["MUSCLE_GAIN", "STRENGTH"],
+      "fitnessLevelSuitability": {
+        "sedentary": 1,
+        "lightlyActive": 2,
+        "moderatelyActive": 4,
+        "veryActive": 5,
+        "athlete": 5
+      },
+      "experienceLevelSuitability": {
+        "never": 1,
+        "lessThan6Mo": 2,
+        "sixTo24Mo": 4,
+        "twoTo5Yr": 5,
+        "fivePlusYr": 5
+      },
+      "goalEffectiveness": {
+        "weightLoss": 0.45,
+        "muscleGain": 0.88,
+        "strength": 0.9,
+        "endurance": 0.3,
+        "flexibility": 0.1,
+        "generalFitness": 0.65
+      },
+      "estimatedTimePerSet": 45,
+      "setupTimeSeconds": 90,
+      "homeCompatibility": 0.2,
+      "gymCompatibility": 1.0,
+      "outdoorCompatibility": 0.0
+    },
+    {
+      "name": "Wide-Grip Barbell Bench Press",
+      "slug": "wide-grip-barbell-bench-press",
+      "description": "A bench press variation with hands placed wider than standard grip to maximize pectoralis major stretch and activation while reducing tricep involvement. This grip emphasizes the outer chest fibers but requires good shoulder mobility.",
+      "instructions": [
+        "Lie on flat bench and grip barbell 1.5 to 2 times shoulder width apart",
+        "Unrack bar with arms extended, positioning it over lower chest",
+        "Retract shoulder blades firmly and maintain throughout",
+        "Lower bar in controlled manner to mid-chest, allowing elbows to flare to about 75 degrees",
+        "Press bar up while focusing on chest squeeze, avoiding excessive lockout"
+      ],
+      "category": "STRENGTH",
+      "movementPattern": "HORIZONTAL_PUSH",
+      "exerciseType": "COMPOUND",
+      "primaryMuscles": ["chest"],
+      "secondaryMuscles": ["front_delts", "triceps"],
+      "muscleActivationMap": {
+        "chest": 0.95,
+        "front_delts": 0.5,
+        "triceps": 0.45,
+        "core": 0.2
+      },
+      "difficultyLevel": 4,
+      "skillRequirement": 4,
+      "isBeginnerFriendly": false,
+      "equipmentRequired": ["barbell", "bench", "squat_rack"],
+      "equipmentOptional": ["spotter"],
+      "suitableLocations": ["gym"],
+      "repRanges": {
+        "strength": {"min": 3, "max": 6},
+        "hypertrophy": {"min": 8, "max": 12},
+        "endurance": {"min": 15, "max": 20}
+      },
+      "typicalSets": {"min": 3, "max": 4},
+      "restSeconds": {"strength": 180, "hypertrophy": 90, "endurance": 60},
+      "metValue": 5.5,
+      "intensityFactor": 0.75,
+      "contraindications": ["shoulder_injury", "wrist_injury", "elbow_injury"],
+      "formCues": [
+        "Ensure adequate shoulder mobility before attempting",
+        "Do not let bar bounce at bottom",
+        "Control the eccentric portion",
+        "Stop short of full lockout to maintain tension",
+        "Keep wrists as straight as possible"
+      ],
+      "commonMistakes": [
+        "Grip too wide causing shoulder impingement",
+        "Losing shoulder blade retraction",
+        "Bouncing bar off chest",
+        "Going too heavy too soon",
+        "Insufficient shoulder mobility"
+      ],
+      "easierVariation": "flat-barbell-bench-press",
+      "harderVariation": "paused-barbell-bench-press",
+      "alternativeExercises": ["flat-dumbbell-fly", "mid-cable-fly", "wide-push-up"],
+      "tags": ["compound", "push", "strength", "outer-chest", "barbell", "wide-grip"],
+      "suitableGoals": ["MUSCLE_GAIN", "STRENGTH"],
+      "fitnessLevelSuitability": {
+        "sedentary": 1,
+        "lightlyActive": 1,
+        "moderatelyActive": 3,
+        "veryActive": 4,
+        "athlete": 5
+      },
+      "experienceLevelSuitability": {
+        "never": 1,
+        "lessThan6Mo": 2,
+        "sixTo24Mo": 3,
+        "twoTo5Yr": 5,
+        "fivePlusYr": 5
+      },
+      "goalEffectiveness": {
+        "weightLoss": 0.4,
+        "muscleGain": 0.92,
+        "strength": 0.75,
+        "endurance": 0.25,
+        "flexibility": 0.15,
+        "generalFitness": 0.6
+      },
+      "estimatedTimePerSet": 45,
+      "setupTimeSeconds": 90,
+      "homeCompatibility": 0.15,
+      "gymCompatibility": 1.0,
+      "outdoorCompatibility": 0.0
+    },
+    {
+      "name": "Barbell Floor Press",
+      "slug": "barbell-floor-press",
+      "description": "A partial range bench press performed lying on the floor, eliminating leg drive and limiting the range of motion to focus on lockout strength and tricep power. Excellent for lifters with shoulder issues as it reduces shoulder strain at the bottom position.",
+      "instructions": [
+        "Lie flat on floor with knees bent and feet flat, position under loaded barbell in rack",
+        "Grip bar slightly wider than shoulder width and unrack",
+        "Lower bar under control until upper arms rest on floor briefly",
+        "Pause momentarily with triceps on floor without relaxing",
+        "Press bar back up explosively, fully extending arms"
+      ],
+      "category": "STRENGTH",
+      "movementPattern": "HORIZONTAL_PUSH",
+      "exerciseType": "COMPOUND",
+      "primaryMuscles": ["chest", "triceps"],
+      "secondaryMuscles": ["front_delts", "core"],
+      "muscleActivationMap": {
+        "chest": 0.8,
+        "triceps": 0.75,
+        "front_delts": 0.4,
+        "core": 0.25
+      },
+      "difficultyLevel": 3,
+      "skillRequirement": 3,
+      "isBeginnerFriendly": false,
+      "equipmentRequired": ["barbell", "squat_rack"],
+      "equipmentOptional": ["spotter"],
+      "suitableLocations": ["gym", "home"],
+      "repRanges": {
+        "strength": {"min": 3, "max": 6},
+        "hypertrophy": {"min": 8, "max": 12},
+        "endurance": {"min": 15, "max": 20}
+      },
+      "typicalSets": {"min": 3, "max": 5},
+      "restSeconds": {"strength": 180, "hypertrophy": 90, "endurance": 60},
+      "metValue": 5.0,
+      "intensityFactor": 0.8,
+      "contraindications": ["elbow_injury", "wrist_injury", "lower_back_injury"],
+      "formCues": [
+        "Let arms come to complete stop on floor",
+        "Do not bounce off floor",
+        "Keep glutes and upper back pressed into floor",
+        "Maintain tight grip throughout",
+        "Press straight up, not back"
+      ],
+      "commonMistakes": [
+        "Bouncing arms off floor",
+        "Relaxing at bottom position",
+        "Lifting hips off floor",
+        "Grip too narrow",
+        "Flaring elbows excessively"
+      ],
+      "easierVariation": "flat-dumbbell-press",
+      "harderVariation": "paused-barbell-bench-press",
+      "alternativeExercises": ["close-grip-barbell-bench-press", "dumbbell-floor-press"],
+      "tags": ["compound", "push", "strength", "lockout", "triceps", "barbell", "floor-press"],
+      "suitableGoals": ["MUSCLE_GAIN", "STRENGTH"],
+      "fitnessLevelSuitability": {
+        "sedentary": 1,
+        "lightlyActive": 2,
+        "moderatelyActive": 4,
+        "veryActive": 5,
+        "athlete": 5
+      },
+      "experienceLevelSuitability": {
+        "never": 1,
+        "lessThan6Mo": 2,
+        "sixTo24Mo": 4,
+        "twoTo5Yr": 5,
+        "fivePlusYr": 5
+      },
+      "goalEffectiveness": {
+        "weightLoss": 0.4,
+        "muscleGain": 0.82,
+        "strength": 0.9,
+        "endurance": 0.25,
+        "flexibility": 0.1,
+        "generalFitness": 0.6
+      },
+      "estimatedTimePerSet": 40,
+      "setupTimeSeconds": 60,
+      "homeCompatibility": 0.5,
+      "gymCompatibility": 1.0,
+      "outdoorCompatibility": 0.1
+    },
+    {
+      "name": "Paused Barbell Bench Press",
+      "slug": "paused-barbell-bench-press",
+      "description": "An advanced bench press variation requiring a deliberate pause at the chest before pressing, eliminating the stretch reflex and requiring pure concentric strength. This powerlifting staple builds explosive power and addresses sticking points in the lift.",
+      "instructions": [
+        "Set up as for standard bench press with tight arch and retracted shoulder blades",
+        "Unrack bar and position over chest with arms extended",
+        "Lower bar under control to mid-chest, touching lightly",
+        "Hold bar motionless on chest for 1-3 seconds while maintaining tightness",
+        "Explode bar off chest on command or after pause, pressing to full lockout"
+      ],
+      "category": "STRENGTH",
+      "movementPattern": "HORIZONTAL_PUSH",
+      "exerciseType": "COMPOUND",
+      "primaryMuscles": ["chest"],
+      "secondaryMuscles": ["triceps", "front_delts", "core"],
+      "muscleActivationMap": {
+        "chest": 0.95,
+        "triceps": 0.7,
+        "front_delts": 0.5,
+        "core": 0.3,
+        "lats": 0.2
+      },
+      "difficultyLevel": 5,
+      "skillRequirement": 4,
+      "isBeginnerFriendly": false,
+      "equipmentRequired": ["barbell", "bench", "squat_rack"],
+      "equipmentOptional": ["spotter"],
+      "suitableLocations": ["gym"],
+      "repRanges": {
+        "strength": {"min": 1, "max": 5},
+        "hypertrophy": {"min": 6, "max": 10},
+        "endurance": {"min": 12, "max": 15}
+      },
+      "typicalSets": {"min": 3, "max": 6},
+      "restSeconds": {"strength": 240, "hypertrophy": 120, "endurance": 60},
+      "metValue": 6.0,
+      "intensityFactor": 0.9,
+      "contraindications": ["shoulder_injury", "elbow_injury", "wrist_injury", "heart_condition"],
+      "formCues": [
+        "Maintain full body tension during pause",
+        "Do not sink or bounce bar on chest",
+        "Keep elbows in consistent position during pause",
+        "Breathe in before descent, hold during pause",
+        "Explode with full force after pause"
+      ],
+      "commonMistakes": [
+        "Relaxing during the pause",
+        "Sinking bar into chest",
+        "Inconsistent pause length",
+        "Losing tightness in setup",
+        "Using too much weight"
+      ],
+      "easierVariation": "flat-barbell-bench-press",
+      "harderVariation": "close-grip-barbell-bench-press",
+      "alternativeExercises": ["flat-barbell-bench-press", "dumbbell-squeeze-press"],
+      "tags": ["compound", "push", "strength", "powerlifting", "paused", "barbell", "competition"],
+      "suitableGoals": ["STRENGTH"],
+      "fitnessLevelSuitability": {
+        "sedentary": 1,
+        "lightlyActive": 1,
+        "moderatelyActive": 3,
+        "veryActive": 4,
+        "athlete": 5
+      },
+      "experienceLevelSuitability": {
+        "never": 1,
+        "lessThan6Mo": 1,
+        "sixTo24Mo": 3,
+        "twoTo5Yr": 4,
+        "fivePlusYr": 5
+      },
+      "goalEffectiveness": {
+        "weightLoss": 0.4,
+        "muscleGain": 0.85,
+        "strength": 1.0,
+        "endurance": 0.2,
+        "flexibility": 0.1,
+        "generalFitness": 0.55
+      },
+      "estimatedTimePerSet": 60,
+      "setupTimeSeconds": 90,
+      "homeCompatibility": 0.15,
+      "gymCompatibility": 1.0,
+      "outdoorCompatibility": 0.0
+    },
+    {
+      "name": "Flat Dumbbell Press",
+      "slug": "flat-dumbbell-press",
+      "description": "A versatile pressing movement using dumbbells that allows for greater range of motion and independent arm training compared to barbell variations. The unstable nature of dumbbells recruits more stabilizer muscles and helps correct strength imbalances.",
+      "instructions": [
+        "Sit on flat bench with dumbbells on thighs, kick them up as you lie back",
+        "Position dumbbells at chest level with palms facing forward, feet flat on floor",
+        "Press dumbbells up and slightly inward until arms are extended with slight bend",
+        "Lower dumbbells in a wide arc until you feel a stretch in the chest",
+        "Press back up bringing dumbbells together at the top without clanking"
+      ],
+      "category": "STRENGTH",
+      "movementPattern": "HORIZONTAL_PUSH",
+      "exerciseType": "COMPOUND",
+      "primaryMuscles": ["chest"],
+      "secondaryMuscles": ["triceps", "front_delts", "core"],
+      "muscleActivationMap": {
+        "chest": 0.9,
+        "triceps": 0.55,
+        "front_delts": 0.45,
+        "core": 0.3
+      },
+      "difficultyLevel": 2,
+      "skillRequirement": 2,
+      "isBeginnerFriendly": true,
+      "equipmentRequired": ["dumbbell", "bench"],
+      "equipmentOptional": ["spotter"],
+      "suitableLocations": ["gym", "home"],
+      "repRanges": {
+        "strength": {"min": 4, "max": 6},
+        "hypertrophy": {"min": 8, "max": 12},
+        "endurance": {"min": 15, "max": 20}
+      },
+      "typicalSets": {"min": 3, "max": 4},
+      "restSeconds": {"strength": 150, "hypertrophy": 75, "endurance": 45},
+      "metValue": 5.0,
+      "intensityFactor": 0.75,
+      "contraindications": ["shoulder_injury", "elbow_injury", "wrist_injury"],
+      "formCues": [
+        "Keep dumbbells in line with mid-chest",
+        "Maintain slight arch in lower back",
+        "Drive shoulder blades into bench",
+        "Control the descent, do not drop",
+        "Full stretch at bottom, squeeze at top"
+      ],
+      "commonMistakes": [
+        "Letting dumbbells drift too far down toward stomach",
+        "Excessive elbow flare",
+        "Not going deep enough",
+        "Rushing the negative portion",
+        "Unstable shoulder position"
+      ],
+      "easierVariation": "machine-chest-press",
+      "harderVariation": "flat-barbell-bench-press",
+      "alternativeExercises": ["flat-barbell-bench-press", "machine-chest-press", "standard-push-up"],
+      "tags": ["compound", "push", "strength", "dumbbell", "chest", "beginner-friendly"],
+      "suitableGoals": ["MUSCLE_GAIN", "STRENGTH", "GENERAL_FITNESS"],
+      "fitnessLevelSuitability": {
+        "sedentary": 2,
+        "lightlyActive": 3,
+        "moderatelyActive": 5,
+        "veryActive": 5,
+        "athlete": 5
+      },
+      "experienceLevelSuitability": {
+        "never": 2,
+        "lessThan6Mo": 4,
+        "sixTo24Mo": 5,
+        "twoTo5Yr": 5,
+        "fivePlusYr": 5
+      },
+      "goalEffectiveness": {
+        "weightLoss": 0.5,
+        "muscleGain": 0.9,
+        "strength": 0.82,
+        "endurance": 0.35,
+        "flexibility": 0.2,
+        "generalFitness": 0.75
+      },
+      "estimatedTimePerSet": 40,
+      "setupTimeSeconds": 30,
+      "homeCompatibility": 0.8,
+      "gymCompatibility": 1.0,
+      "outdoorCompatibility": 0.2
+    },
+    {
+      "name": "Incline Dumbbell Press",
+      "slug": "incline-dumbbell-press",
+      "description": "An upper chest focused pressing movement performed on an inclined bench with dumbbells. Combines the benefits of incline pressing for upper pec development with the range of motion and stabilization benefits of dumbbells.",
+      "instructions": [
+        "Set bench to 30-45 degree incline and sit back with dumbbells at shoulder level",
+        "Position dumbbells with palms facing forward, elbows at 45 degrees to torso",
+        "Press dumbbells up and together in an arc until arms are extended",
+        "Lower under control allowing a full stretch in the upper chest",
+        "Maintain constant tension throughout the movement"
+      ],
+      "category": "STRENGTH",
+      "movementPattern": "HORIZONTAL_PUSH",
+      "exerciseType": "COMPOUND",
+      "primaryMuscles": ["chest"],
+      "secondaryMuscles": ["front_delts", "triceps", "core"],
+      "muscleActivationMap": {
+        "chest": 0.85,
+        "front_delts": 0.55,
+        "triceps": 0.5,
+        "core": 0.25
+      },
+      "difficultyLevel": 2,
+      "skillRequirement": 2,
+      "isBeginnerFriendly": true,
+      "equipmentRequired": ["dumbbell", "bench"],
+      "equipmentOptional": ["spotter"],
+      "suitableLocations": ["gym", "home"],
+      "repRanges": {
+        "strength": {"min": 4, "max": 6},
+        "hypertrophy": {"min": 8, "max": 12},
+        "endurance": {"min": 15, "max": 20}
+      },
+      "typicalSets": {"min": 3, "max": 4},
+      "restSeconds": {"strength": 150, "hypertrophy": 75, "endurance": 45},
+      "metValue": 5.0,
+      "intensityFactor": 0.72,
+      "contraindications": ["shoulder_injury", "elbow_injury", "neck_injury"],
+      "formCues": [
+        "Keep head and upper back against bench",
+        "Lower dumbbells to outer edge of upper chest",
+        "Press up and slightly in",
+        "Maintain wrist alignment over elbows",
+        "Focus on upper chest contraction at top"
+      ],
+      "commonMistakes": [
+        "Bench angle too steep becoming shoulder press",
+        "Letting dumbbells drift forward",
+        "Insufficient range of motion",
+        "Losing core stability",
+        "Uneven pressing pattern"
+      ],
+      "easierVariation": "machine-chest-press",
+      "harderVariation": "incline-barbell-bench-press-30-degree",
+      "alternativeExercises": ["incline-barbell-bench-press-30-degree", "low-cable-fly", "decline-push-up"],
+      "tags": ["compound", "push", "strength", "dumbbell", "upper-chest", "incline"],
+      "suitableGoals": ["MUSCLE_GAIN", "STRENGTH", "GENERAL_FITNESS"],
+      "fitnessLevelSuitability": {
+        "sedentary": 2,
+        "lightlyActive": 3,
+        "moderatelyActive": 5,
+        "veryActive": 5,
+        "athlete": 5
+      },
+      "experienceLevelSuitability": {
+        "never": 2,
+        "lessThan6Mo": 4,
+        "sixTo24Mo": 5,
+        "twoTo5Yr": 5,
+        "fivePlusYr": 5
+      },
+      "goalEffectiveness": {
+        "weightLoss": 0.45,
+        "muscleGain": 0.88,
+        "strength": 0.78,
+        "endurance": 0.35,
+        "flexibility": 0.2,
+        "generalFitness": 0.7
+      },
+      "estimatedTimePerSet": 40,
+      "setupTimeSeconds": 45,
+      "homeCompatibility": 0.7,
+      "gymCompatibility": 1.0,
+      "outdoorCompatibility": 0.15
+    },
+    {
+      "name": "Decline Dumbbell Press",
+      "slug": "decline-dumbbell-press",
+      "description": "A lower chest targeting press performed on a decline bench with dumbbells. The declined position emphasizes the sternal head of the pectoralis major while the dumbbells allow for natural arm path and increased range of motion.",
+      "instructions": [
+        "Secure legs under pads of decline bench and lie back with dumbbells at chest",
+        "Position dumbbells at sides of lower chest with palms facing forward",
+        "Press dumbbells up and slightly together until arms are extended",
+        "Lower under control to starting position with deep stretch",
+        "Maintain constant tension throughout without locking elbows"
+      ],
+      "category": "STRENGTH",
+      "movementPattern": "HORIZONTAL_PUSH",
+      "exerciseType": "COMPOUND",
+      "primaryMuscles": ["chest"],
+      "secondaryMuscles": ["triceps", "front_delts"],
+      "muscleActivationMap": {
+        "chest": 0.88,
+        "triceps": 0.55,
+        "front_delts": 0.35,
+        "core": 0.3
+      },
+      "difficultyLevel": 3,
+      "skillRequirement": 3,
+      "isBeginnerFriendly": false,
+      "equipmentRequired": ["dumbbell", "bench"],
+      "equipmentOptional": ["spotter"],
+      "suitableLocations": ["gym"],
+      "repRanges": {
+        "strength": {"min": 4, "max": 6},
+        "hypertrophy": {"min": 8, "max": 12},
+        "endurance": {"min": 15, "max": 20}
+      },
+      "typicalSets": {"min": 3, "max": 4},
+      "restSeconds": {"strength": 150, "hypertrophy": 75, "endurance": 45},
+      "metValue": 5.0,
+      "intensityFactor": 0.75,
+      "contraindications": ["high_blood_pressure", "heart_condition", "neck_injury", "shoulder_injury"],
+      "formCues": [
+        "Secure feet firmly before lifting",
+        "Keep lower back pressed against bench",
+        "Control dumbbells throughout",
+        "Do not hold breath too long",
+        "Focus on lower chest squeeze"
+      ],
+      "commonMistakes": [
+        "Decline angle too steep",
+        "Letting dumbbells drift toward head",
+        "Not securing feet properly",
+        "Breathing issues from inverted position",
+        "Rushing reps"
+      ],
+      "easierVariation": "flat-dumbbell-press",
+      "harderVariation": "decline-barbell-bench-press",
+      "alternativeExercises": ["decline-barbell-bench-press", "high-cable-fly", "dip"],
+      "tags": ["compound", "push", "strength", "dumbbell", "lower-chest", "decline"],
+      "suitableGoals": ["MUSCLE_GAIN", "STRENGTH"],
+      "fitnessLevelSuitability": {
+        "sedentary": 1,
+        "lightlyActive": 2,
+        "moderatelyActive": 4,
+        "veryActive": 5,
+        "athlete": 5
+      },
+      "experienceLevelSuitability": {
+        "never": 1,
+        "lessThan6Mo": 3,
+        "sixTo24Mo": 4,
+        "twoTo5Yr": 5,
+        "fivePlusYr": 5
+      },
+      "goalEffectiveness": {
+        "weightLoss": 0.45,
+        "muscleGain": 0.88,
+        "strength": 0.8,
+        "endurance": 0.3,
+        "flexibility": 0.2,
+        "generalFitness": 0.6
+      },
+      "estimatedTimePerSet": 40,
+      "setupTimeSeconds": 60,
+      "homeCompatibility": 0.3,
+      "gymCompatibility": 1.0,
+      "outdoorCompatibility": 0.0
+    },
+    {
+      "name": "Flat Dumbbell Fly",
+      "slug": "flat-dumbbell-fly",
+      "description": "An isolation movement that stretches and contracts the chest through a wide arcing motion. This exercise maximizes pectoral stretch under load and is excellent for developing chest width and the mind-muscle connection.",
+      "instructions": [
+        "Lie on flat bench with dumbbells extended above chest, palms facing each other",
+        "Maintain a slight bend in elbows locked at 15-20 degrees throughout",
+        "Lower dumbbells out to sides in wide arc until chest is fully stretched",
+        "Feel deep stretch at bottom without going past shoulder plane",
+        "Squeeze chest to bring dumbbells back up in hugging motion"
+      ],
+      "category": "STRENGTH",
+      "movementPattern": "ISOLATION",
+      "exerciseType": "ISOLATION",
+      "primaryMuscles": ["chest"],
+      "secondaryMuscles": ["front_delts"],
+      "muscleActivationMap": {
+        "chest": 0.95,
+        "front_delts": 0.3,
+        "biceps": 0.15
+      },
+      "difficultyLevel": 2,
+      "skillRequirement": 3,
+      "isBeginnerFriendly": true,
+      "equipmentRequired": ["dumbbell", "bench"],
+      "equipmentOptional": [],
+      "suitableLocations": ["gym", "home"],
+      "repRanges": {
+        "strength": {"min": 6, "max": 8},
+        "hypertrophy": {"min": 10, "max": 15},
+        "endurance": {"min": 15, "max": 25}
+      },
+      "typicalSets": {"min": 3, "max": 4},
+      "restSeconds": {"strength": 120, "hypertrophy": 60, "endurance": 30},
+      "metValue": 4.0,
+      "intensityFactor": 0.6,
+      "contraindications": ["shoulder_injury", "elbow_injury"],
+      "formCues": [
+        "Keep elbow angle fixed throughout",
+        "Lead with chest, not hands",
+        "Control the stretch at bottom",
+        "Think hugging a barrel",
+        "Squeeze chest hard at top"
+      ],
+      "commonMistakes": [
+        "Bending elbows too much turning into press",
+        "Going too deep straining shoulders",
+        "Using momentum to swing weights",
+        "Not feeling chest activation",
+        "Using too heavy weight"
+      ],
+      "easierVariation": "pec-deck-fly",
+      "harderVariation": "incline-dumbbell-fly",
+      "alternativeExercises": ["mid-cable-fly", "pec-deck-fly", "incline-dumbbell-fly"],
+      "tags": ["isolation", "chest", "dumbbell", "fly", "stretch"],
+      "suitableGoals": ["MUSCLE_GAIN"],
+      "fitnessLevelSuitability": {
+        "sedentary": 2,
+        "lightlyActive": 3,
+        "moderatelyActive": 5,
+        "veryActive": 5,
+        "athlete": 4
+      },
+      "experienceLevelSuitability": {
+        "never": 2,
+        "lessThan6Mo": 3,
+        "sixTo24Mo": 5,
+        "twoTo5Yr": 5,
+        "fivePlusYr": 5
+      },
+      "goalEffectiveness": {
+        "weightLoss": 0.3,
+        "muscleGain": 0.85,
+        "strength": 0.5,
+        "endurance": 0.4,
+        "flexibility": 0.35,
+        "generalFitness": 0.6
+      },
+      "estimatedTimePerSet": 35,
+      "setupTimeSeconds": 20,
+      "homeCompatibility": 0.85,
+      "gymCompatibility": 1.0,
+      "outdoorCompatibility": 0.2
+    },
+    {
+      "name": "Incline Dumbbell Fly",
+      "slug": "incline-dumbbell-fly",
+      "description": "An isolation movement performed on an incline bench to target the clavicular head of the pectoralis major. The inclined position stretches the upper chest fibers while providing excellent muscle fiber recruitment for upper chest development.",
+      "instructions": [
+        "Set bench to 30-45 degree incline and lie back with dumbbells above chest",
+        "Start with arms extended, palms facing each other, slight elbow bend",
+        "Lower dumbbells in wide arc to sides until upper chest is stretched",
+        "Maintain fixed elbow angle throughout the movement",
+        "Contract upper chest to bring dumbbells back together overhead"
+      ],
+      "category": "STRENGTH",
+      "movementPattern": "ISOLATION",
+      "exerciseType": "ISOLATION",
+      "primaryMuscles": ["chest"],
+      "secondaryMuscles": ["front_delts"],
+      "muscleActivationMap": {
+        "chest": 0.9,
+        "front_delts": 0.4,
+        "biceps": 0.15
+      },
+      "difficultyLevel": 3,
+      "skillRequirement": 3,
+      "isBeginnerFriendly": true,
+      "equipmentRequired": ["dumbbell", "bench"],
+      "equipmentOptional": [],
+      "suitableLocations": ["gym", "home"],
+      "repRanges": {
+        "strength": {"min": 6, "max": 8},
+        "hypertrophy": {"min": 10, "max": 15},
+        "endurance": {"min": 15, "max": 25}
+      },
+      "typicalSets": {"min": 3, "max": 4},
+      "restSeconds": {"strength": 120, "hypertrophy": 60, "endurance": 30},
+      "metValue": 4.0,
+      "intensityFactor": 0.58,
+      "contraindications": ["shoulder_injury", "elbow_injury"],
+      "formCues": [
+        "Keep chest high and proud",
+        "Lower until you feel stretch, not pain",
+        "Focus on upper chest contraction",
+        "Keep wrists neutral",
+        "Control the entire range"
+      ],
+      "commonMistakes": [
+        "Bench too steep reducing chest activation",
+        "Dropping too deep straining shoulders",
+        "Straightening arms at bottom",
+        "Using momentum",
+        "Not feeling upper chest working"
+      ],
+      "easierVariation": "flat-dumbbell-fly",
+      "harderVariation": "low-cable-fly",
+      "alternativeExercises": ["low-cable-fly", "incline-dumbbell-press", "pec-deck-fly"],
+      "tags": ["isolation", "chest", "dumbbell", "fly", "upper-chest", "incline"],
+      "suitableGoals": ["MUSCLE_GAIN"],
+      "fitnessLevelSuitability": {
+        "sedentary": 2,
+        "lightlyActive": 3,
+        "moderatelyActive": 5,
+        "veryActive": 5,
+        "athlete": 4
+      },
+      "experienceLevelSuitability": {
+        "never": 2,
+        "lessThan6Mo": 3,
+        "sixTo24Mo": 5,
+        "twoTo5Yr": 5,
+        "fivePlusYr": 5
+      },
+      "goalEffectiveness": {
+        "weightLoss": 0.3,
+        "muscleGain": 0.85,
+        "strength": 0.45,
+        "endurance": 0.4,
+        "flexibility": 0.35,
+        "generalFitness": 0.55
+      },
+      "estimatedTimePerSet": 35,
+      "setupTimeSeconds": 30,
+      "homeCompatibility": 0.75,
+      "gymCompatibility": 1.0,
+      "outdoorCompatibility": 0.15
+    },
+    {
+      "name": "Decline Dumbbell Fly",
+      "slug": "decline-dumbbell-fly",
+      "description": "An isolation movement performed on a decline bench targeting the lower and outer chest fibers. The declined angle provides a unique stretch and contraction pattern that emphasizes the sternal head of the pectoralis major.",
+      "instructions": [
+        "Secure feet under pads of decline bench and lie back with dumbbells above chest",
+        "Start with arms extended, palms facing each other, slight elbow bend",
+        "Lower dumbbells out to sides in arc until chest is fully stretched",
+        "Maintain the same elbow angle throughout descent and ascent",
+        "Squeeze lower chest to bring dumbbells back to starting position"
+      ],
+      "category": "STRENGTH",
+      "movementPattern": "ISOLATION",
+      "exerciseType": "ISOLATION",
+      "primaryMuscles": ["chest"],
+      "secondaryMuscles": ["front_delts"],
+      "muscleActivationMap": {
+        "chest": 0.88,
+        "front_delts": 0.25,
+        "biceps": 0.15
+      },
+      "difficultyLevel": 3,
+      "skillRequirement": 3,
+      "isBeginnerFriendly": false,
+      "equipmentRequired": ["dumbbell", "bench"],
+      "equipmentOptional": [],
+      "suitableLocations": ["gym"],
+      "repRanges": {
+        "strength": {"min": 6, "max": 8},
+        "hypertrophy": {"min": 10, "max": 15},
+        "endurance": {"min": 15, "max": 25}
+      },
+      "typicalSets": {"min": 3, "max": 4},
+      "restSeconds": {"strength": 120, "hypertrophy": 60, "endurance": 30},
+      "metValue": 4.0,
+      "intensityFactor": 0.55,
+      "contraindications": ["shoulder_injury", "high_blood_pressure", "heart_condition"],
+      "formCues": [
+        "Secure legs before starting",
+        "Keep constant tension in chest",
+        "Control the eccentric portion",
+        "Focus on lower chest squeeze",
+        "Breathe rhythmically"
+      ],
+      "commonMistakes": [
+        "Going too heavy losing control",
+        "Not securing feet properly",
+        "Holding breath too long",
+        "Overstretching at bottom",
+        "Turning into pressing motion"
+      ],
+      "easierVariation": "flat-dumbbell-fly",
+      "harderVariation": "high-cable-fly",
+      "alternativeExercises": ["high-cable-fly", "decline-dumbbell-press", "pec-deck-fly"],
+      "tags": ["isolation", "chest", "dumbbell", "fly", "lower-chest", "decline"],
+      "suitableGoals": ["MUSCLE_GAIN"],
+      "fitnessLevelSuitability": {
+        "sedentary": 1,
+        "lightlyActive": 2,
+        "moderatelyActive": 4,
+        "veryActive": 5,
+        "athlete": 4
+      },
+      "experienceLevelSuitability": {
+        "never": 1,
+        "lessThan6Mo": 2,
+        "sixTo24Mo": 4,
+        "twoTo5Yr": 5,
+        "fivePlusYr": 5
+      },
+      "goalEffectiveness": {
+        "weightLoss": 0.25,
+        "muscleGain": 0.82,
+        "strength": 0.4,
+        "endurance": 0.35,
+        "flexibility": 0.35,
+        "generalFitness": 0.5
+      },
+      "estimatedTimePerSet": 35,
+      "setupTimeSeconds": 45,
+      "homeCompatibility": 0.3,
+      "gymCompatibility": 1.0,
+      "outdoorCompatibility": 0.0
+    },
+    {
+      "name": "Dumbbell Squeeze Press",
+      "slug": "dumbbell-squeeze-press",
+      "description": "A chest pressing variation where dumbbells are pressed together throughout the movement, creating constant isometric tension in the chest. This exercise maximizes inner chest activation and enhances the mind-muscle connection.",
+      "instructions": [
+        "Lie on flat bench with dumbbells held together above chest, palms facing each other",
+        "Press dumbbells firmly together with maximum force throughout",
+        "Lower both dumbbells to chest while maintaining squeeze pressure",
+        "Touch dumbbells to mid-chest while still pressing together",
+        "Press back up while continuously squeezing dumbbells against each other"
+      ],
+      "category": "STRENGTH",
+      "movementPattern": "HORIZONTAL_PUSH",
+      "exerciseType": "COMPOUND",
+      "primaryMuscles": ["chest"],
+      "secondaryMuscles": ["triceps", "front_delts"],
+      "muscleActivationMap": {
+        "chest": 0.92,
+        "triceps": 0.5,
+        "front_delts": 0.35
+      },
+      "difficultyLevel": 2,
+      "skillRequirement": 2,
+      "isBeginnerFriendly": true,
+      "equipmentRequired": ["dumbbell", "bench"],
+      "equipmentOptional": [],
+      "suitableLocations": ["gym", "home"],
+      "repRanges": {
+        "strength": {"min": 6, "max": 8},
+        "hypertrophy": {"min": 10, "max": 15},
+        "endurance": {"min": 15, "max": 20}
+      },
+      "typicalSets": {"min": 3, "max": 4},
+      "restSeconds": {"strength": 120, "hypertrophy": 75, "endurance": 45},
+      "metValue": 4.5,
+      "intensityFactor": 0.65,
+      "contraindications": ["shoulder_injury", "elbow_injury", "wrist_injury"],
+      "formCues": [
+        "Press dumbbells together as hard as possible",
+        "Never let pressure decrease",
+        "Keep elbows at 45 degrees",
+        "Focus on chest contraction",
+        "Use moderate weight for best activation"
+      ],
+      "commonMistakes": [
+        "Not pressing dumbbells together firmly",
+        "Using too heavy weight",
+        "Losing squeeze at bottom",
+        "Flaring elbows excessively",
+        "Rushing through reps"
+      ],
+      "easierVariation": "flat-dumbbell-press",
+      "harderVariation": "paused-barbell-bench-press",
+      "alternativeExercises": ["flat-dumbbell-press", "pec-deck-fly", "mid-cable-fly"],
+      "tags": ["compound", "push", "chest", "dumbbell", "inner-chest", "squeeze"],
+      "suitableGoals": ["MUSCLE_GAIN"],
+      "fitnessLevelSuitability": {
+        "sedentary": 2,
+        "lightlyActive": 4,
+        "moderatelyActive": 5,
+        "veryActive": 5,
+        "athlete": 4
+      },
+      "experienceLevelSuitability": {
+        "never": 3,
+        "lessThan6Mo": 4,
+        "sixTo24Mo": 5,
+        "twoTo5Yr": 5,
+        "fivePlusYr": 5
+      },
+      "goalEffectiveness": {
+        "weightLoss": 0.35,
+        "muscleGain": 0.88,
+        "strength": 0.6,
+        "endurance": 0.45,
+        "flexibility": 0.15,
+        "generalFitness": 0.65
+      },
+      "estimatedTimePerSet": 40,
+      "setupTimeSeconds": 20,
+      "homeCompatibility": 0.85,
+      "gymCompatibility": 1.0,
+      "outdoorCompatibility": 0.2
+    },
+    {
+      "name": "Dumbbell Pullover",
+      "slug": "dumbbell-pullover",
+      "description": "A unique exercise that stretches the chest and lats through shoulder extension while lying perpendicular across a bench. This movement expands the rib cage and targets both chest and back muscles simultaneously.",
+      "instructions": [
+        "Lie perpendicular across bench with only upper back supported, feet flat on floor",
+        "Hold one dumbbell with both hands extended above chest, palms supporting inner plate",
+        "Lower dumbbell in arc behind head while keeping slight bend in elbows",
+        "Stretch chest and lats at bottom position without overextending shoulders",
+        "Pull dumbbell back up to starting position using chest and lat contraction"
+      ],
+      "category": "STRENGTH",
+      "movementPattern": "EXTENSION",
+      "exerciseType": "COMPOUND",
+      "primaryMuscles": ["chest", "lats"],
+      "secondaryMuscles": ["triceps", "front_delts", "core"],
+      "muscleActivationMap": {
+        "chest": 0.7,
+        "lats": 0.65,
+        "triceps": 0.4,
+        "front_delts": 0.3,
+        "core": 0.35
+      },
+      "difficultyLevel": 3,
+      "skillRequirement": 3,
+      "isBeginnerFriendly": false,
+      "equipmentRequired": ["dumbbell", "bench"],
+      "equipmentOptional": [],
+      "suitableLocations": ["gym", "home"],
+      "repRanges": {
+        "strength": {"min": 6, "max": 8},
+        "hypertrophy": {"min": 10, "max": 15},
+        "endurance": {"min": 15, "max": 20}
+      },
+      "typicalSets": {"min": 3, "max": 4},
+      "restSeconds": {"strength": 120, "hypertrophy": 75, "endurance": 45},
+      "metValue": 4.5,
+      "intensityFactor": 0.6,
+      "contraindications": ["shoulder_injury", "lower_back_injury", "elbow_injury"],
+      "formCues": [
+        "Keep hips slightly below bench level",
+        "Maintain fixed elbow angle",
+        "Feel stretch in chest and lats",
+        "Control the descent fully",
+        "Breathe deeply into stretch"
+      ],
+      "commonMistakes": [
+        "Going too deep straining shoulders",
+        "Bending elbows excessively",
+        "Hips rising during movement",
+        "Using momentum",
+        "Not engaging core for stability"
+      ],
+      "easierVariation": "flat-dumbbell-fly",
+      "harderVariation": "incline-dumbbell-fly",
+      "alternativeExercises": ["flat-dumbbell-fly", "straight-arm-pulldown"],
+      "tags": ["compound", "chest", "lats", "dumbbell", "pullover", "stretch"],
+      "suitableGoals": ["MUSCLE_GAIN", "FLEXIBILITY"],
+      "fitnessLevelSuitability": {
+        "sedentary": 1,
+        "lightlyActive": 2,
+        "moderatelyActive": 4,
+        "veryActive": 5,
+        "athlete": 5
+      },
+      "experienceLevelSuitability": {
+        "never": 1,
+        "lessThan6Mo": 2,
+        "sixTo24Mo": 4,
+        "twoTo5Yr": 5,
+        "fivePlusYr": 5
+      },
+      "goalEffectiveness": {
+        "weightLoss": 0.35,
+        "muscleGain": 0.75,
+        "strength": 0.55,
+        "endurance": 0.35,
+        "flexibility": 0.6,
+        "generalFitness": 0.65
+      },
+      "estimatedTimePerSet": 40,
+      "setupTimeSeconds": 30,
+      "homeCompatibility": 0.75,
+      "gymCompatibility": 1.0,
+      "outdoorCompatibility": 0.1
+    },
+    {
+      "name": "Single-Arm Dumbbell Press",
+      "slug": "single-arm-dumbbell-press",
+      "description": "A unilateral pressing movement that challenges core stability while addressing strength imbalances between sides. Pressing with one arm at a time increases anti-rotation demands and allows for greater focus on each pectoral.",
+      "instructions": [
+        "Lie on flat bench with one dumbbell at chest level, other arm extended for balance",
+        "Plant feet firmly and brace core to prevent rotation",
+        "Press dumbbell straight up while resisting body rotation",
+        "Lower under control to chest level while maintaining stability",
+        "Complete all reps on one side before switching"
+      ],
+      "category": "STRENGTH",
+      "movementPattern": "HORIZONTAL_PUSH",
+      "exerciseType": "COMPOUND",
+      "primaryMuscles": ["chest"],
+      "secondaryMuscles": ["triceps", "front_delts", "core", "obliques"],
+      "muscleActivationMap": {
+        "chest": 0.85,
+        "triceps": 0.55,
+        "front_delts": 0.45,
+        "core": 0.6,
+        "obliques": 0.5
+      },
+      "difficultyLevel": 3,
+      "skillRequirement": 3,
+      "isBeginnerFriendly": false,
+      "equipmentRequired": ["dumbbell", "bench"],
+      "equipmentOptional": [],
+      "suitableLocations": ["gym", "home"],
+      "repRanges": {
+        "strength": {"min": 5, "max": 8},
+        "hypertrophy": {"min": 8, "max": 12},
+        "endurance": {"min": 15, "max": 20}
+      },
+      "typicalSets": {"min": 3, "max": 4},
+      "restSeconds": {"strength": 120, "hypertrophy": 75, "endurance": 45},
+      "metValue": 5.0,
+      "intensityFactor": 0.7,
+      "contraindications": ["shoulder_injury", "lower_back_injury"],
+      "formCues": [
+        "Grip bench edge with free hand if needed",
+        "Keep hips level throughout",
+        "Fight rotation through entire movement",
+        "Start with weaker side",
+        "Maintain shoulder blade retraction"
+      ],
+      "commonMistakes": [
+        "Allowing body to rotate",
+        "Not engaging core sufficiently",
+        "Uneven pressing path",
+        "Using momentum",
+        "Different range on each side"
+      ],
+      "easierVariation": "flat-dumbbell-press",
+      "harderVariation": "dumbbell-squeeze-press",
+      "alternativeExercises": ["flat-dumbbell-press", "single-arm-cable-press"],
+      "tags": ["compound", "unilateral", "push", "chest", "dumbbell", "core"],
+      "suitableGoals": ["MUSCLE_GAIN", "STRENGTH", "GENERAL_FITNESS"],
+      "fitnessLevelSuitability": {
+        "sedentary": 1,
+        "lightlyActive": 2,
+        "moderatelyActive": 4,
+        "veryActive": 5,
+        "athlete": 5
+      },
+      "experienceLevelSuitability": {
+        "never": 1,
+        "lessThan6Mo": 2,
+        "sixTo24Mo": 4,
+        "twoTo5Yr": 5,
+        "fivePlusYr": 5
+      },
+      "goalEffectiveness": {
+        "weightLoss": 0.45,
+        "muscleGain": 0.8,
+        "strength": 0.75,
+        "endurance": 0.4,
+        "flexibility": 0.15,
+        "generalFitness": 0.75
+      },
+      "estimatedTimePerSet": 50,
+      "setupTimeSeconds": 20,
+      "homeCompatibility": 0.8,
+      "gymCompatibility": 1.0,
+      "outdoorCompatibility": 0.2
+    },
+    {
+      "name": "Neutral-Grip Dumbbell Press",
+      "slug": "neutral-grip-dumbbell-press",
+      "description": "A pressing variation with palms facing each other throughout the movement, reducing shoulder stress while maintaining chest activation. This grip is ideal for those with shoulder issues and increases tricep recruitment.",
+      "instructions": [
+        "Lie on flat bench with dumbbells at chest level, palms facing each other",
+        "Position elbows close to body at about 45 degrees",
+        "Press dumbbells up keeping neutral grip throughout",
+        "Bring dumbbells together at top without rotating",
+        "Lower under control maintaining neutral wrist position"
+      ],
+      "category": "STRENGTH",
+      "movementPattern": "HORIZONTAL_PUSH",
+      "exerciseType": "COMPOUND",
+      "primaryMuscles": ["chest"],
+      "secondaryMuscles": ["triceps", "front_delts"],
+      "muscleActivationMap": {
+        "chest": 0.85,
+        "triceps": 0.6,
+        "front_delts": 0.35,
+        "core": 0.2
+      },
+      "difficultyLevel": 2,
+      "skillRequirement": 2,
+      "isBeginnerFriendly": true,
+      "equipmentRequired": ["dumbbell", "bench"],
+      "equipmentOptional": [],
+      "suitableLocations": ["gym", "home"],
+      "repRanges": {
+        "strength": {"min": 4, "max": 6},
+        "hypertrophy": {"min": 8, "max": 12},
+        "endurance": {"min": 15, "max": 20}
+      },
+      "typicalSets": {"min": 3, "max": 4},
+      "restSeconds": {"strength": 150, "hypertrophy": 75, "endurance": 45},
+      "metValue": 5.0,
+      "intensityFactor": 0.72,
+      "contraindications": ["elbow_injury", "wrist_injury"],
+      "formCues": [
+        "Keep palms facing each other always",
+        "Elbows tucked closer than standard press",
+        "Full range of motion",
+        "Squeeze chest at top",
+        "Control throughout movement"
+      ],
+      "commonMistakes": [
+        "Rotating wrists during movement",
+        "Not using full range of motion",
+        "Elbows flaring out",
+        "Losing shoulder blade position",
+        "Going too light due to unfamiliarity"
+      ],
+      "easierVariation": "machine-chest-press",
+      "harderVariation": "flat-dumbbell-press",
+      "alternativeExercises": ["flat-dumbbell-press", "dumbbell-squeeze-press"],
+      "tags": ["compound", "push", "chest", "dumbbell", "shoulder-friendly", "neutral-grip"],
+      "suitableGoals": ["MUSCLE_GAIN", "STRENGTH", "GENERAL_FITNESS"],
+      "fitnessLevelSuitability": {
+        "sedentary": 2,
+        "lightlyActive": 4,
+        "moderatelyActive": 5,
+        "veryActive": 5,
+        "athlete": 5
+      },
+      "experienceLevelSuitability": {
+        "never": 3,
+        "lessThan6Mo": 4,
+        "sixTo24Mo": 5,
+        "twoTo5Yr": 5,
+        "fivePlusYr": 5
+      },
+      "goalEffectiveness": {
+        "weightLoss": 0.45,
+        "muscleGain": 0.85,
+        "strength": 0.78,
+        "endurance": 0.35,
+        "flexibility": 0.15,
+        "generalFitness": 0.75
+      },
+      "estimatedTimePerSet": 40,
+      "setupTimeSeconds": 20,
+      "homeCompatibility": 0.85,
+      "gymCompatibility": 1.0,
+      "outdoorCompatibility": 0.2
+    },
+    {
+      "name": "Standard Push-Up",
+      "slug": "standard-push-up",
+      "description": "The fundamental bodyweight pressing movement that builds chest, tricep, and shoulder strength while engaging the entire core. This versatile exercise requires no equipment and can be progressed or regressed easily.",
+      "instructions": [
+        "Start in plank position with hands slightly wider than shoulder-width",
+        "Keep body in straight line from head to heels, core braced",
+        "Lower chest toward floor by bending elbows to about 90 degrees",
+        "Keep elbows at 45-degree angle to body, not flared out",
+        "Press back up to starting position while maintaining rigid body line"
+      ],
+      "category": "CALISTHENICS",
+      "movementPattern": "HORIZONTAL_PUSH",
+      "exerciseType": "COMPOUND",
+      "primaryMuscles": ["chest"],
+      "secondaryMuscles": ["triceps", "front_delts", "core"],
+      "muscleActivationMap": {
+        "chest": 0.8,
+        "triceps": 0.6,
+        "front_delts": 0.5,
+        "core": 0.5
+      },
+      "difficultyLevel": 2,
+      "skillRequirement": 2,
+      "isBeginnerFriendly": true,
+      "equipmentRequired": ["none"],
+      "equipmentOptional": [],
+      "suitableLocations": ["home", "gym", "outdoor"],
+      "repRanges": {
+        "strength": {"min": 5, "max": 10},
+        "hypertrophy": {"min": 12, "max": 20},
+        "endurance": {"min": 25, "max": 50}
+      },
+      "typicalSets": {"min": 3, "max": 5},
+      "restSeconds": {"strength": 90, "hypertrophy": 60, "endurance": 30},
+      "metValue": 4.0,
+      "intensityFactor": 0.6,
+      "contraindications": ["wrist_injury", "shoulder_injury"],
+      "formCues": [
+        "Keep core tight throughout",
+        "No sagging hips or piking",
+        "Chest should nearly touch floor",
+        "Keep neck neutral",
+        "Breathe out on push"
+      ],
+      "commonMistakes": [
+        "Sagging hips breaking body line",
+        "Not going low enough",
+        "Flaring elbows to 90 degrees",
+        "Looking up straining neck",
+        "Half reps"
+      ],
+      "easierVariation": "incline-push-up",
+      "harderVariation": "decline-push-up",
+      "alternativeExercises": ["flat-dumbbell-press", "machine-chest-press", "flat-barbell-bench-press"],
+      "tags": ["bodyweight", "push", "chest", "calisthenics", "beginner-friendly", "compound"],
+      "suitableGoals": ["MUSCLE_GAIN", "STRENGTH", "GENERAL_FITNESS", "ENDURANCE"],
+      "fitnessLevelSuitability": {
+        "sedentary": 2,
+        "lightlyActive": 4,
+        "moderatelyActive": 5,
+        "veryActive": 5,
+        "athlete": 4
+      },
+      "experienceLevelSuitability": {
+        "never": 3,
+        "lessThan6Mo": 4,
+        "sixTo24Mo": 5,
+        "twoTo5Yr": 4,
+        "fivePlusYr": 4
+      },
+      "goalEffectiveness": {
+        "weightLoss": 0.55,
+        "muscleGain": 0.7,
+        "strength": 0.65,
+        "endurance": 0.7,
+        "flexibility": 0.2,
+        "generalFitness": 0.85
+      },
+      "estimatedTimePerSet": 30,
+      "setupTimeSeconds": 5,
+      "homeCompatibility": 1.0,
+      "gymCompatibility": 1.0,
+      "outdoorCompatibility": 1.0
+    },
+    {
+      "name": "Wide Push-Up",
+      "slug": "wide-push-up",
+      "description": "A push-up variation with hands placed wider than shoulder-width to emphasize chest stretch and activation while reducing tricep involvement. The wider position increases the difficulty of the movement and places greater demand on the pectorals.",
+      "instructions": [
+        "Start in plank position with hands placed 1.5 times shoulder width apart",
+        "Keep fingers pointing slightly outward for wrist comfort",
+        "Maintain straight body line from head to heels",
+        "Lower chest toward floor allowing elbows to flare more than standard push-up",
+        "Press back up focusing on chest contraction"
+      ],
+      "category": "CALISTHENICS",
+      "movementPattern": "HORIZONTAL_PUSH",
+      "exerciseType": "COMPOUND",
+      "primaryMuscles": ["chest"],
+      "secondaryMuscles": ["front_delts", "triceps", "core"],
+      "muscleActivationMap": {
+        "chest": 0.9,
+        "front_delts": 0.55,
+        "triceps": 0.45,
+        "core": 0.45
+      },
+      "difficultyLevel": 3,
+      "skillRequirement": 2,
+      "isBeginnerFriendly": true,
+      "equipmentRequired": ["none"],
+      "equipmentOptional": [],
+      "suitableLocations": ["home", "gym", "outdoor"],
+      "repRanges": {
+        "strength": {"min": 5, "max": 10},
+        "hypertrophy": {"min": 10, "max": 18},
+        "endurance": {"min": 20, "max": 40}
+      },
+      "typicalSets": {"min": 3, "max": 4},
+      "restSeconds": {"strength": 90, "hypertrophy": 60, "endurance": 30},
+      "metValue": 4.5,
+      "intensityFactor": 0.65,
+      "contraindications": ["shoulder_injury", "wrist_injury"],
+      "formCues": [
+        "Keep core engaged throughout",
+        "Allow elbows to flare to about 60-75 degrees",
+        "Feel stretch in chest at bottom",
+        "Don't go wider than comfortable",
+        "Maintain controlled tempo"
+      ],
+      "commonMistakes": [
+        "Hands too wide causing shoulder strain",
+        "Sagging hips",
+        "Not reaching full range of motion",
+        "Moving too fast",
+        "Wrist discomfort from poor hand angle"
+      ],
+      "easierVariation": "standard-push-up",
+      "harderVariation": "archer-push-up",
+      "alternativeExercises": ["flat-dumbbell-fly", "wide-grip-barbell-bench-press", "mid-cable-fly"],
+      "tags": ["bodyweight", "push", "chest", "calisthenics", "wide-grip"],
+      "suitableGoals": ["MUSCLE_GAIN", "STRENGTH", "GENERAL_FITNESS"],
+      "fitnessLevelSuitability": {
+        "sedentary": 2,
+        "lightlyActive": 3,
+        "moderatelyActive": 5,
+        "veryActive": 5,
+        "athlete": 4
+      },
+      "experienceLevelSuitability": {
+        "never": 2,
+        "lessThan6Mo": 4,
+        "sixTo24Mo": 5,
+        "twoTo5Yr": 5,
+        "fivePlusYr": 4
+      },
+      "goalEffectiveness": {
+        "weightLoss": 0.5,
+        "muscleGain": 0.75,
+        "strength": 0.6,
+        "endurance": 0.65,
+        "flexibility": 0.25,
+        "generalFitness": 0.8
+      },
+      "estimatedTimePerSet": 30,
+      "setupTimeSeconds": 5,
+      "homeCompatibility": 1.0,
+      "gymCompatibility": 1.0,
+      "outdoorCompatibility": 1.0
+    },
+    {
+      "name": "Diamond Push-Up",
+      "slug": "diamond-push-up",
+      "description": "An advanced push-up variation with hands close together forming a diamond shape, significantly increasing tricep activation while still engaging the inner chest. This challenging movement builds pressing strength and tricep development.",
+      "instructions": [
+        "Start in plank position with hands together directly under chest",
+        "Form diamond shape with index fingers and thumbs touching",
+        "Keep elbows close to body as you lower chest toward hands",
+        "Lower until chest nearly touches hands while maintaining body alignment",
+        "Press back up focusing on tricep and inner chest contraction"
+      ],
+      "category": "CALISTHENICS",
+      "movementPattern": "HORIZONTAL_PUSH",
+      "exerciseType": "COMPOUND",
+      "primaryMuscles": ["triceps", "chest"],
+      "secondaryMuscles": ["front_delts", "core"],
+      "muscleActivationMap": {
+        "triceps": 0.85,
+        "chest": 0.75,
+        "front_delts": 0.45,
+        "core": 0.5
+      },
+      "difficultyLevel": 4,
+      "skillRequirement": 3,
+      "isBeginnerFriendly": false,
+      "equipmentRequired": ["none"],
+      "equipmentOptional": [],
+      "suitableLocations": ["home", "gym", "outdoor"],
+      "repRanges": {
+        "strength": {"min": 4, "max": 8},
+        "hypertrophy": {"min": 8, "max": 15},
+        "endurance": {"min": 15, "max": 30}
+      },
+      "typicalSets": {"min": 3, "max": 4},
+      "restSeconds": {"strength": 120, "hypertrophy": 75, "endurance": 45},
+      "metValue": 5.0,
+      "intensityFactor": 0.75,
+      "contraindications": ["wrist_injury", "elbow_injury", "shoulder_injury"],
+      "formCues": [
+        "Keep elbows tucked close",
+        "Diamond position under sternum",
+        "Maintain straight body line",
+        "Control descent slowly",
+        "Squeeze triceps at top"
+      ],
+      "commonMistakes": [
+        "Letting elbows flare out",
+        "Hands positioned too far forward",
+        "Not going deep enough",
+        "Breaking body alignment",
+        "Wrist strain from poor positioning"
+      ],
+      "easierVariation": "standard-push-up",
+      "harderVariation": "explosive-push-up",
+      "alternativeExercises": ["close-grip-barbell-bench-press", "tricep-dip", "dumbbell-squeeze-press"],
+      "tags": ["bodyweight", "push", "triceps", "inner-chest", "calisthenics", "advanced"],
+      "suitableGoals": ["MUSCLE_GAIN", "STRENGTH"],
+      "fitnessLevelSuitability": {
+        "sedentary": 1,
+        "lightlyActive": 2,
+        "moderatelyActive": 4,
+        "veryActive": 5,
+        "athlete": 5
+      },
+      "experienceLevelSuitability": {
+        "never": 1,
+        "lessThan6Mo": 2,
+        "sixTo24Mo": 4,
+        "twoTo5Yr": 5,
+        "fivePlusYr": 5
+      },
+      "goalEffectiveness": {
+        "weightLoss": 0.5,
+        "muscleGain": 0.8,
+        "strength": 0.75,
+        "endurance": 0.55,
+        "flexibility": 0.15,
+        "generalFitness": 0.75
+      },
+      "estimatedTimePerSet": 35,
+      "setupTimeSeconds": 5,
+      "homeCompatibility": 1.0,
+      "gymCompatibility": 1.0,
+      "outdoorCompatibility": 1.0
+    },
+    {
+      "name": "Incline Push-Up",
+      "slug": "incline-push-up",
+      "description": "A beginner-friendly push-up regression with hands elevated on a surface, reducing the percentage of body weight being pressed. This exercise is perfect for building initial pushing strength or as part of a warm-up routine.",
+      "instructions": [
+        "Place hands on elevated surface like bench, box, or wall at shoulder width",
+        "Walk feet back until body forms straight line at an incline",
+        "Brace core and keep body rigid throughout",
+        "Lower chest toward elevated surface by bending elbows",
+        "Press back up to starting position maintaining body alignment"
+      ],
+      "category": "CALISTHENICS",
+      "movementPattern": "HORIZONTAL_PUSH",
+      "exerciseType": "COMPOUND",
+      "primaryMuscles": ["chest"],
+      "secondaryMuscles": ["triceps", "front_delts", "core"],
+      "muscleActivationMap": {
+        "chest": 0.65,
+        "triceps": 0.5,
+        "front_delts": 0.45,
+        "core": 0.35
+      },
+      "difficultyLevel": 1,
+      "skillRequirement": 1,
+      "isBeginnerFriendly": true,
+      "equipmentRequired": ["none"],
+      "equipmentOptional": ["bench", "box"],
+      "suitableLocations": ["home", "gym", "outdoor"],
+      "repRanges": {
+        "strength": {"min": 8, "max": 12},
+        "hypertrophy": {"min": 15, "max": 25},
+        "endurance": {"min": 30, "max": 50}
+      },
+      "typicalSets": {"min": 3, "max": 4},
+      "restSeconds": {"strength": 60, "hypertrophy": 45, "endurance": 20},
+      "metValue": 3.0,
+      "intensityFactor": 0.4,
+      "contraindications": ["wrist_injury"],
+      "formCues": [
+        "Higher surface equals easier movement",
+        "Keep body in straight line",
+        "Elbows at 45 degrees",
+        "Touch chest to surface",
+        "Progress to lower surfaces over time"
+      ],
+      "commonMistakes": [
+        "Sagging hips",
+        "Not touching chest to surface",
+        "Surface too unstable",
+        "Neck craning forward",
+        "Rushing through reps"
+      ],
+      "easierVariation": null,
+      "harderVariation": "standard-push-up",
+      "alternativeExercises": ["machine-chest-press", "banded-push-up"],
+      "tags": ["bodyweight", "push", "chest", "calisthenics", "beginner", "regression"],
+      "suitableGoals": ["GENERAL_FITNESS", "ENDURANCE"],
+      "fitnessLevelSuitability": {
+        "sedentary": 5,
+        "lightlyActive": 5,
+        "moderatelyActive": 4,
+        "veryActive": 3,
+        "athlete": 2
+      },
+      "experienceLevelSuitability": {
+        "never": 5,
+        "lessThan6Mo": 5,
+        "sixTo24Mo": 3,
+        "twoTo5Yr": 2,
+        "fivePlusYr": 2
+      },
+      "goalEffectiveness": {
+        "weightLoss": 0.4,
+        "muscleGain": 0.45,
+        "strength": 0.4,
+        "endurance": 0.6,
+        "flexibility": 0.15,
+        "generalFitness": 0.7
+      },
+      "estimatedTimePerSet": 25,
+      "setupTimeSeconds": 10,
+      "homeCompatibility": 1.0,
+      "gymCompatibility": 1.0,
+      "outdoorCompatibility": 1.0
+    },
+    {
+      "name": "Decline Push-Up",
+      "slug": "decline-push-up",
+      "description": "An advanced push-up variation with feet elevated, increasing the percentage of body weight pressed and shifting emphasis to the upper chest and front deltoids. This progression builds toward more challenging push-up variations.",
+      "instructions": [
+        "Place feet on elevated surface like bench, box, or step",
+        "Position hands on floor slightly wider than shoulder width",
+        "Create straight line from feet to head with core braced",
+        "Lower chest toward floor keeping elbows at 45 degrees",
+        "Press back up focusing on upper chest contraction"
+      ],
+      "category": "CALISTHENICS",
+      "movementPattern": "HORIZONTAL_PUSH",
+      "exerciseType": "COMPOUND",
+      "primaryMuscles": ["chest", "front_delts"],
+      "secondaryMuscles": ["triceps", "core"],
+      "muscleActivationMap": {
+        "chest": 0.85,
+        "front_delts": 0.65,
+        "triceps": 0.55,
+        "core": 0.55
+      },
+      "difficultyLevel": 3,
+      "skillRequirement": 3,
+      "isBeginnerFriendly": false,
+      "equipmentRequired": ["none"],
+      "equipmentOptional": ["bench", "box"],
+      "suitableLocations": ["home", "gym", "outdoor"],
+      "repRanges": {
+        "strength": {"min": 5, "max": 10},
+        "hypertrophy": {"min": 10, "max": 18},
+        "endurance": {"min": 20, "max": 35}
+      },
+      "typicalSets": {"min": 3, "max": 4},
+      "restSeconds": {"strength": 90, "hypertrophy": 60, "endurance": 30},
+      "metValue": 5.0,
+      "intensityFactor": 0.7,
+      "contraindications": ["shoulder_injury", "wrist_injury", "high_blood_pressure"],
+      "formCues": [
+        "Higher feet equals harder movement",
+        "Keep body completely straight",
+        "Control descent fully",
+        "Don't let head drop",
+        "Focus on upper chest squeeze"
+      ],
+      "commonMistakes": [
+        "Piking hips up",
+        "Feet too high for ability",
+        "Not reaching full range of motion",
+        "Looking up straining neck",
+        "Rushing the movement"
+      ],
+      "easierVariation": "standard-push-up",
+      "harderVariation": "pseudo-planche-push-up",
+      "alternativeExercises": ["incline-dumbbell-press", "incline-barbell-bench-press-30-degree", "low-cable-fly"],
+      "tags": ["bodyweight", "push", "upper-chest", "calisthenics", "advanced"],
+      "suitableGoals": ["MUSCLE_GAIN", "STRENGTH"],
+      "fitnessLevelSuitability": {
+        "sedentary": 1,
+        "lightlyActive": 2,
+        "moderatelyActive": 4,
+        "veryActive": 5,
+        "athlete": 5
+      },
+      "experienceLevelSuitability": {
+        "never": 1,
+        "lessThan6Mo": 2,
+        "sixTo24Mo": 4,
+        "twoTo5Yr": 5,
+        "fivePlusYr": 5
+      },
+      "goalEffectiveness": {
+        "weightLoss": 0.55,
+        "muscleGain": 0.8,
+        "strength": 0.75,
+        "endurance": 0.6,
+        "flexibility": 0.2,
+        "generalFitness": 0.8
+      },
+      "estimatedTimePerSet": 35,
+      "setupTimeSeconds": 15,
+      "homeCompatibility": 0.95,
+      "gymCompatibility": 1.0,
+      "outdoorCompatibility": 0.9
+    },
+    {
+      "name": "Archer Push-Up",
+      "slug": "archer-push-up",
+      "description": "A challenging unilateral push-up variation where one arm does most of the work while the other extends to the side for support. This exercise bridges the gap between standard push-ups and one-arm push-ups while building asymmetric strength.",
+      "instructions": [
+        "Start in wide push-up position with arms extended about 1.5x shoulder width",
+        "Shift weight toward one arm as you bend that elbow",
+        "Keep the other arm straight sliding along the floor for support",
+        "Lower chest toward the working hand side",
+        "Press back up while shifting weight back to center, alternate sides"
+      ],
+      "category": "CALISTHENICS",
+      "movementPattern": "HORIZONTAL_PUSH",
+      "exerciseType": "COMPOUND",
+      "primaryMuscles": ["chest"],
+      "secondaryMuscles": ["triceps", "front_delts", "core"],
+      "muscleActivationMap": {
+        "chest": 0.9,
+        "triceps": 0.7,
+        "front_delts": 0.6,
+        "core": 0.65
+      },
+      "difficultyLevel": 4,
+      "skillRequirement": 4,
+      "isBeginnerFriendly": false,
+      "equipmentRequired": ["none"],
+      "equipmentOptional": [],
+      "suitableLocations": ["home", "gym", "outdoor"],
+      "repRanges": {
+        "strength": {"min": 3, "max": 6},
+        "hypertrophy": {"min": 6, "max": 10},
+        "endurance": {"min": 12, "max": 20}
+      },
+      "typicalSets": {"min": 3, "max": 4},
+      "restSeconds": {"strength": 120, "hypertrophy": 90, "endurance": 45},
+      "metValue": 6.0,
+      "intensityFactor": 0.8,
+      "contraindications": ["shoulder_injury", "wrist_injury", "elbow_injury"],
+      "formCues": [
+        "Keep supporting arm straight",
+        "Control the lateral shift",
+        "Chest moves toward working hand",
+        "Maintain core stability",
+        "Equal reps both sides"
+      ],
+      "commonMistakes": [
+        "Bending support arm",
+        "Not shifting weight enough",
+        "Twisting torso",
+        "Going too fast",
+        "Unequal work between sides"
+      ],
+      "easierVariation": "wide-push-up",
+      "harderVariation": "pseudo-planche-push-up",
+      "alternativeExercises": ["single-arm-dumbbell-press", "wide-push-up"],
+      "tags": ["bodyweight", "push", "unilateral", "chest", "calisthenics", "advanced"],
+      "suitableGoals": ["MUSCLE_GAIN", "STRENGTH"],
+      "fitnessLevelSuitability": {
+        "sedentary": 1,
+        "lightlyActive": 1,
+        "moderatelyActive": 3,
+        "veryActive": 4,
+        "athlete": 5
+      },
+      "experienceLevelSuitability": {
+        "never": 1,
+        "lessThan6Mo": 1,
+        "sixTo24Mo": 3,
+        "twoTo5Yr": 4,
+        "fivePlusYr": 5
+      },
+      "goalEffectiveness": {
+        "weightLoss": 0.55,
+        "muscleGain": 0.8,
+        "strength": 0.85,
+        "endurance": 0.5,
+        "flexibility": 0.25,
+        "generalFitness": 0.75
+      },
+      "estimatedTimePerSet": 45,
+      "setupTimeSeconds": 5,
+      "homeCompatibility": 1.0,
+      "gymCompatibility": 1.0,
+      "outdoorCompatibility": 1.0
+    },
+    {
+      "name": "Pseudo Planche Push-Up",
+      "slug": "pseudo-planche-push-up",
+      "description": "An advanced calisthenics movement with hands positioned near the hips and turned outward, creating extreme shoulder and chest demand. This exercise builds toward the planche while developing incredible pushing strength and body control.",
+      "instructions": [
+        "Start in push-up position but with hands placed back near waist/hip level",
+        "Turn hands out to the sides or slightly back for wrist comfort",
+        "Lean forward significantly so shoulders are well ahead of hands",
+        "Lower chest toward floor maintaining forward lean",
+        "Press back up keeping weight shifted forward throughout"
+      ],
+      "category": "CALISTHENICS",
+      "movementPattern": "HORIZONTAL_PUSH",
+      "exerciseType": "COMPOUND",
+      "primaryMuscles": ["chest", "front_delts"],
+      "secondaryMuscles": ["triceps", "core", "biceps"],
+      "muscleActivationMap": {
+        "chest": 0.85,
+        "front_delts": 0.85,
+        "triceps": 0.6,
+        "core": 0.75,
+        "biceps": 0.4
+      },
+      "difficultyLevel": 5,
+      "skillRequirement": 5,
+      "isBeginnerFriendly": false,
+      "equipmentRequired": ["none"],
+      "equipmentOptional": ["parallettes"],
+      "suitableLocations": ["home", "gym", "outdoor"],
+      "repRanges": {
+        "strength": {"min": 3, "max": 6},
+        "hypertrophy": {"min": 5, "max": 10},
+        "endurance": {"min": 10, "max": 15}
+      },
+      "typicalSets": {"min": 3, "max": 5},
+      "restSeconds": {"strength": 150, "hypertrophy": 90, "endurance": 60},
+      "metValue": 7.0,
+      "intensityFactor": 0.9,
+      "contraindications": ["shoulder_injury", "wrist_injury", "elbow_injury"],
+      "formCues": [
+        "Lean as far forward as controllable",
+        "Keep elbows tucked",
+        "Protract shoulders at top",
+        "Maintain rigid body line",
+        "Progress lean gradually over weeks"
+      ],
+      "commonMistakes": [
+        "Not leaning forward enough",
+        "Hands too far forward negating effect",
+        "Wrist pain from poor positioning",
+        "Breaking body alignment",
+        "Progressing too fast"
+      ],
+      "easierVariation": "decline-push-up",
+      "harderVariation": null,
+      "alternativeExercises": ["decline-push-up", "dip", "incline-barbell-bench-press-45-degree"],
+      "tags": ["bodyweight", "push", "advanced", "calisthenics", "planche", "skill"],
+      "suitableGoals": ["STRENGTH", "MUSCLE_GAIN"],
+      "fitnessLevelSuitability": {
+        "sedentary": 1,
+        "lightlyActive": 1,
+        "moderatelyActive": 2,
+        "veryActive": 4,
+        "athlete": 5
+      },
+      "experienceLevelSuitability": {
+        "never": 1,
+        "lessThan6Mo": 1,
+        "sixTo24Mo": 2,
+        "twoTo5Yr": 4,
+        "fivePlusYr": 5
+      },
+      "goalEffectiveness": {
+        "weightLoss": 0.45,
+        "muscleGain": 0.75,
+        "strength": 0.9,
+        "endurance": 0.4,
+        "flexibility": 0.3,
+        "generalFitness": 0.65
+      },
+      "estimatedTimePerSet": 40,
+      "setupTimeSeconds": 10,
+      "homeCompatibility": 1.0,
+      "gymCompatibility": 1.0,
+      "outdoorCompatibility": 1.0
+    },
+    {
+      "name": "Explosive Push-Up",
+      "slug": "explosive-push-up",
+      "description": "A plyometric push-up variation where you press explosively enough to lift hands off the ground, developing power, fast-twitch muscle fiber recruitment, and athletic pressing ability. Can progress to clap push-ups for added challenge.",
+      "instructions": [
+        "Start in standard push-up position with tight core",
+        "Lower chest toward floor under control",
+        "Explode upward as powerfully as possible pressing through palms",
+        "Allow hands to leave the ground at top of movement",
+        "Land softly with slight elbow bend and immediately descend into next rep"
+      ],
+      "category": "PLYOMETRIC",
+      "movementPattern": "HORIZONTAL_PUSH",
+      "exerciseType": "COMPOUND",
+      "primaryMuscles": ["chest"],
+      "secondaryMuscles": ["triceps", "front_delts", "core"],
+      "muscleActivationMap": {
+        "chest": 0.88,
+        "triceps": 0.65,
+        "front_delts": 0.55,
+        "core": 0.6
+      },
+      "difficultyLevel": 4,
+      "skillRequirement": 4,
+      "isBeginnerFriendly": false,
+      "equipmentRequired": ["none"],
+      "equipmentOptional": [],
+      "suitableLocations": ["home", "gym", "outdoor"],
+      "repRanges": {
+        "strength": {"min": 3, "max": 6},
+        "hypertrophy": {"min": 6, "max": 10},
+        "endurance": {"min": 12, "max": 20}
+      },
+      "typicalSets": {"min": 3, "max": 5},
+      "restSeconds": {"strength": 120, "hypertrophy": 90, "endurance": 45},
+      "metValue": 8.0,
+      "intensityFactor": 0.85,
+      "contraindications": ["wrist_injury", "shoulder_injury", "elbow_injury"],
+      "formCues": [
+        "Maximum effort on each rep",
+        "Land with soft elbows",
+        "Keep core tight throughout",
+        "Quality over quantity",
+        "Full range of motion on descent"
+      ],
+      "commonMistakes": [
+        "Landing with locked elbows",
+        "Half reps to cheat height",
+        "Poor wrist absorption on landing",
+        "Losing body alignment",
+        "Continuing when fatigued risking injury"
+      ],
+      "easierVariation": "diamond-push-up",
+      "harderVariation": "push-up-with-rotation",
+      "alternativeExercises": ["medicine-ball-chest-pass", "bench-press-throws"],
+      "tags": ["bodyweight", "plyometric", "power", "chest", "explosive", "athletic"],
+      "suitableGoals": ["STRENGTH", "GENERAL_FITNESS"],
+      "fitnessLevelSuitability": {
+        "sedentary": 1,
+        "lightlyActive": 1,
+        "moderatelyActive": 3,
+        "veryActive": 5,
+        "athlete": 5
+      },
+      "experienceLevelSuitability": {
+        "never": 1,
+        "lessThan6Mo": 1,
+        "sixTo24Mo": 3,
+        "twoTo5Yr": 5,
+        "fivePlusYr": 5
+      },
+      "goalEffectiveness": {
+        "weightLoss": 0.65,
+        "muscleGain": 0.7,
+        "strength": 0.75,
+        "endurance": 0.55,
+        "flexibility": 0.1,
+        "generalFitness": 0.8
+      },
+      "estimatedTimePerSet": 25,
+      "setupTimeSeconds": 5,
+      "homeCompatibility": 1.0,
+      "gymCompatibility": 1.0,
+      "outdoorCompatibility": 1.0
+    },
+    {
+      "name": "Push-Up with Rotation",
+      "slug": "push-up-with-rotation",
+      "description": "A dynamic push-up variation combining horizontal pressing with rotational core work. At the top of each rep, rotate into a side plank position, engaging obliques and challenging shoulder stability while building functional pressing strength.",
+      "instructions": [
+        "Start in standard push-up position with feet slightly wider for stability",
+        "Perform a push-up lowering chest toward floor",
+        "As you press up, rotate body and lift one arm toward ceiling",
+        "Open into side plank position with arm extended overhead",
+        "Return hand to floor and repeat on opposite side"
+      ],
+      "category": "CALISTHENICS",
+      "movementPattern": "HORIZONTAL_PUSH",
+      "exerciseType": "COMPOUND",
+      "primaryMuscles": ["chest", "obliques"],
+      "secondaryMuscles": ["triceps", "front_delts", "core"],
+      "muscleActivationMap": {
+        "chest": 0.75,
+        "obliques": 0.7,
+        "triceps": 0.55,
+        "front_delts": 0.5,
+        "core": 0.65
+      },
+      "difficultyLevel": 4,
+      "skillRequirement": 3,
+      "isBeginnerFriendly": false,
+      "equipmentRequired": ["none"],
+      "equipmentOptional": ["dumbbell"],
+      "suitableLocations": ["home", "gym", "outdoor"],
+      "repRanges": {
+        "strength": {"min": 4, "max": 8},
+        "hypertrophy": {"min": 8, "max": 14},
+        "endurance": {"min": 16, "max": 24}
+      },
+      "typicalSets": {"min": 3, "max": 4},
+      "restSeconds": {"strength": 90, "hypertrophy": 60, "endurance": 30},
+      "metValue": 6.0,
+      "intensityFactor": 0.7,
+      "contraindications": ["shoulder_injury", "wrist_injury", "lower_back_injury"],
+      "formCues": [
+        "Rotate from hips, not just shoulders",
+        "Keep supporting arm straight in rotation",
+        "Stack feet or stagger for stability",
+        "Control the rotation tempo",
+        "Alternate sides each rep"
+      ],
+      "commonMistakes": [
+        "Rushing the rotation",
+        "Not fully opening into side plank",
+        "Sagging hips during push-up",
+        "Poor balance on rotation",
+        "Incomplete push-up portion"
+      ],
+      "easierVariation": "explosive-push-up",
+      "harderVariation": "pseudo-planche-push-up",
+      "alternativeExercises": ["standard-push-up", "side-plank"],
+      "tags": ["bodyweight", "push", "rotation", "core", "functional", "calisthenics"],
+      "suitableGoals": ["GENERAL_FITNESS", "MUSCLE_GAIN"],
+      "fitnessLevelSuitability": {
+        "sedentary": 1,
+        "lightlyActive": 2,
+        "moderatelyActive": 4,
+        "veryActive": 5,
+        "athlete": 5
+      },
+      "experienceLevelSuitability": {
+        "never": 1,
+        "lessThan6Mo": 2,
+        "sixTo24Mo": 4,
+        "twoTo5Yr": 5,
+        "fivePlusYr": 5
+      },
+      "goalEffectiveness": {
+        "weightLoss": 0.6,
+        "muscleGain": 0.7,
+        "strength": 0.65,
+        "endurance": 0.6,
+        "flexibility": 0.35,
+        "generalFitness": 0.85
+      },
+      "estimatedTimePerSet": 40,
+      "setupTimeSeconds": 5,
+      "homeCompatibility": 1.0,
+      "gymCompatibility": 1.0,
+      "outdoorCompatibility": 1.0
+    },
+    {
+      "name": "Pike Push-Up to Chest",
+      "slug": "pike-push-up-to-chest",
+      "description": "A hybrid movement combining pike push-up mechanics with a forward diving motion targeting both shoulders and upper chest. This exercise builds overhead pressing strength while incorporating horizontal pushing for comprehensive upper body development.",
+      "instructions": [
+        "Start in pike position with hips high, hands shoulder width on floor",
+        "Begin by bending elbows and diving head forward and down toward floor",
+        "Continue until chest nearly touches floor between hands",
+        "Push back up and rearward returning to pike position",
+        "Maintain fluid motion between pike and push-up phases"
+      ],
+      "category": "CALISTHENICS",
+      "movementPattern": "VERTICAL_PUSH",
+      "exerciseType": "COMPOUND",
+      "primaryMuscles": ["front_delts", "chest"],
+      "secondaryMuscles": ["triceps", "core"],
+      "muscleActivationMap": {
+        "front_delts": 0.8,
+        "chest": 0.7,
+        "triceps": 0.6,
+        "core": 0.5
+      },
+      "difficultyLevel": 4,
+      "skillRequirement": 4,
+      "isBeginnerFriendly": false,
+      "equipmentRequired": ["none"],
+      "equipmentOptional": [],
+      "suitableLocations": ["home", "gym", "outdoor"],
+      "repRanges": {
+        "strength": {"min": 4, "max": 8},
+        "hypertrophy": {"min": 8, "max": 12},
+        "endurance": {"min": 15, "max": 20}
+      },
+      "typicalSets": {"min": 3, "max": 4},
+      "restSeconds": {"strength": 120, "hypertrophy": 75, "endurance": 45},
+      "metValue": 6.0,
+      "intensityFactor": 0.75,
+      "contraindications": ["shoulder_injury", "wrist_injury", "neck_injury"],
+      "formCues": [
+        "Keep hips high in starting position",
+        "Dive forward in smooth arc",
+        "Lead with chest, not head",
+        "Push back in reverse arc",
+        "Maintain rhythm throughout"
+      ],
+      "commonMistakes": [
+        "Not piking high enough at start",
+        "Leading with forehead risking neck",
+        "Stopping motion instead of flowing",
+        "Insufficient range of motion",
+        "Losing core tension"
+      ],
+      "easierVariation": "decline-push-up",
+      "harderVariation": "pseudo-planche-push-up",
+      "alternativeExercises": ["pike-push-up", "decline-push-up", "shoulder-press"],
+      "tags": ["bodyweight", "push", "shoulders", "upper-chest", "calisthenics", "hybrid"],
+      "suitableGoals": ["MUSCLE_GAIN", "STRENGTH"],
+      "fitnessLevelSuitability": {
+        "sedentary": 1,
+        "lightlyActive": 1,
+        "moderatelyActive": 3,
+        "veryActive": 5,
+        "athlete": 5
+      },
+      "experienceLevelSuitability": {
+        "never": 1,
+        "lessThan6Mo": 2,
+        "sixTo24Mo": 3,
+        "twoTo5Yr": 5,
+        "fivePlusYr": 5
+      },
+      "goalEffectiveness": {
+        "weightLoss": 0.5,
+        "muscleGain": 0.75,
+        "strength": 0.75,
+        "endurance": 0.5,
+        "flexibility": 0.35,
+        "generalFitness": 0.75
+      },
+      "estimatedTimePerSet": 40,
+      "setupTimeSeconds": 5,
+      "homeCompatibility": 1.0,
+      "gymCompatibility": 1.0,
+      "outdoorCompatibility": 1.0
+    },
+    {
+      "name": "High Cable Fly",
+      "slug": "high-cable-fly",
+      "description": "A cable fly variation with pulleys set at the highest position, targeting the lower chest fibers as the arms arc downward. The constant cable tension throughout the movement provides superior muscle engagement compared to free weight alternatives.",
+      "instructions": [
+        "Set cable pulleys to highest position and attach single handles",
+        "Grasp handles and step forward into staggered stance for stability",
+        "Start with arms extended out to sides and slightly above shoulder height",
+        "Bring handles together in arc motion at lower chest or navel level",
+        "Squeeze chest at contraction point, then return under control to start"
+      ],
+      "category": "STRENGTH",
+      "movementPattern": "ISOLATION",
+      "exerciseType": "ISOLATION",
+      "primaryMuscles": ["chest"],
+      "secondaryMuscles": ["front_delts"],
+      "muscleActivationMap": {
+        "chest": 0.9,
+        "front_delts": 0.35,
+        "core": 0.25
+      },
+      "difficultyLevel": 2,
+      "skillRequirement": 2,
+      "isBeginnerFriendly": true,
+      "equipmentRequired": ["cable"],
+      "equipmentOptional": [],
+      "suitableLocations": ["gym"],
+      "repRanges": {
+        "strength": {"min": 8, "max": 10},
+        "hypertrophy": {"min": 12, "max": 15},
+        "endurance": {"min": 18, "max": 25}
+      },
+      "typicalSets": {"min": 3, "max": 4},
+      "restSeconds": {"strength": 90, "hypertrophy": 60, "endurance": 30},
+      "metValue": 4.0,
+      "intensityFactor": 0.55,
+      "contraindications": ["shoulder_injury"],
+      "formCues": [
+        "Keep slight bend in elbows fixed",
+        "Pull through chest not arms",
+        "Control the eccentric portion",
+        "Squeeze hard at bottom",
+        "Maintain stable stance"
+      ],
+      "commonMistakes": [
+        "Bending elbows too much",
+        "Using too much weight",
+        "Leaning forward excessively",
+        "Jerky movements",
+        "Not feeling chest activation"
+      ],
+      "easierVariation": "pec-deck-fly",
+      "harderVariation": "mid-cable-fly",
+      "alternativeExercises": ["decline-dumbbell-fly", "decline-dumbbell-press"],
+      "tags": ["isolation", "chest", "cable", "lower-chest", "fly"],
+      "suitableGoals": ["MUSCLE_GAIN"],
+      "fitnessLevelSuitability": {
+        "sedentary": 2,
+        "lightlyActive": 4,
+        "moderatelyActive": 5,
+        "veryActive": 5,
+        "athlete": 4
+      },
+      "experienceLevelSuitability": {
+        "never": 3,
+        "lessThan6Mo": 4,
+        "sixTo24Mo": 5,
+        "twoTo5Yr": 5,
+        "fivePlusYr": 5
+      },
+      "goalEffectiveness": {
+        "weightLoss": 0.3,
+        "muscleGain": 0.85,
+        "strength": 0.5,
+        "endurance": 0.5,
+        "flexibility": 0.3,
+        "generalFitness": 0.6
+      },
+      "estimatedTimePerSet": 35,
+      "setupTimeSeconds": 30,
+      "homeCompatibility": 0.1,
+      "gymCompatibility": 1.0,
+      "outdoorCompatibility": 0.0
+    },
+    {
+      "name": "Mid Cable Fly",
+      "slug": "mid-cable-fly",
+      "description": "A cable fly performed with pulleys at shoulder height, targeting the mid-chest fibers with constant tension throughout the full range of motion. This is the most balanced cable fly position for overall chest development.",
+      "instructions": [
+        "Set cable pulleys to shoulder height on both sides",
+        "Grasp handles and step forward with slight forward lean",
+        "Start with arms extended to sides at shoulder height with slight elbow bend",
+        "Bring handles together in hugging motion at chest level",
+        "Hold peak contraction briefly then return to stretch position under control"
+      ],
+      "category": "STRENGTH",
+      "movementPattern": "ISOLATION",
+      "exerciseType": "ISOLATION",
+      "primaryMuscles": ["chest"],
+      "secondaryMuscles": ["front_delts"],
+      "muscleActivationMap": {
+        "chest": 0.92,
+        "front_delts": 0.4,
+        "biceps": 0.15
+      },
+      "difficultyLevel": 2,
+      "skillRequirement": 2,
+      "isBeginnerFriendly": true,
+      "equipmentRequired": ["cable"],
+      "equipmentOptional": [],
+      "suitableLocations": ["gym"],
+      "repRanges": {
+        "strength": {"min": 8, "max": 10},
+        "hypertrophy": {"min": 12, "max": 15},
+        "endurance": {"min": 18, "max": 25}
+      },
+      "typicalSets": {"min": 3, "max": 4},
+      "restSeconds": {"strength": 90, "hypertrophy": 60, "endurance": 30},
+      "metValue": 4.0,
+      "intensityFactor": 0.58,
+      "contraindications": ["shoulder_injury"],
+      "formCues": [
+        "Maintain fixed elbow angle",
+        "Think hugging a tree",
+        "Feel stretch at start position",
+        "Maximum squeeze at midline",
+        "Resist cable on way back"
+      ],
+      "commonMistakes": [
+        "Straightening arms making it a press",
+        "Standing too far back losing tension",
+        "Swinging body for momentum",
+        "Uneven cable tension",
+        "Rushing through reps"
+      ],
+      "easierVariation": "high-cable-fly",
+      "harderVariation": "low-cable-fly",
+      "alternativeExercises": ["flat-dumbbell-fly", "pec-deck-fly"],
+      "tags": ["isolation", "chest", "cable", "mid-chest", "fly"],
+      "suitableGoals": ["MUSCLE_GAIN"],
+      "fitnessLevelSuitability": {
+        "sedentary": 2,
+        "lightlyActive": 4,
+        "moderatelyActive": 5,
+        "veryActive": 5,
+        "athlete": 4
+      },
+      "experienceLevelSuitability": {
+        "never": 3,
+        "lessThan6Mo": 4,
+        "sixTo24Mo": 5,
+        "twoTo5Yr": 5,
+        "fivePlusYr": 5
+      },
+      "goalEffectiveness": {
+        "weightLoss": 0.3,
+        "muscleGain": 0.88,
+        "strength": 0.5,
+        "endurance": 0.5,
+        "flexibility": 0.3,
+        "generalFitness": 0.6
+      },
+      "estimatedTimePerSet": 35,
+      "setupTimeSeconds": 30,
+      "homeCompatibility": 0.1,
+      "gymCompatibility": 1.0,
+      "outdoorCompatibility": 0.0
+    },
+    {
+      "name": "Low Cable Fly",
+      "slug": "low-cable-fly",
+      "description": "A cable fly variation with pulleys set at the lowest position, targeting the upper chest as arms arc upward. This angle mimics the incline fly movement pattern while providing constant cable tension throughout the range of motion.",
+      "instructions": [
+        "Set cable pulleys to lowest position on both sides",
+        "Grasp handles and step forward into stable stance",
+        "Start with arms down and slightly behind body line",
+        "Bring handles up and together in arc finishing at upper chest height",
+        "Squeeze upper chest at top, lower under control to start"
+      ],
+      "category": "STRENGTH",
+      "movementPattern": "ISOLATION",
+      "exerciseType": "ISOLATION",
+      "primaryMuscles": ["chest"],
+      "secondaryMuscles": ["front_delts"],
+      "muscleActivationMap": {
+        "chest": 0.88,
+        "front_delts": 0.45,
+        "biceps": 0.2
+      },
+      "difficultyLevel": 2,
+      "skillRequirement": 2,
+      "isBeginnerFriendly": true,
+      "equipmentRequired": ["cable"],
+      "equipmentOptional": [],
+      "suitableLocations": ["gym"],
+      "repRanges": {
+        "strength": {"min": 8, "max": 10},
+        "hypertrophy": {"min": 12, "max": 15},
+        "endurance": {"min": 18, "max": 25}
+      },
+      "typicalSets": {"min": 3, "max": 4},
+      "restSeconds": {"strength": 90, "hypertrophy": 60, "endurance": 30},
+      "metValue": 4.0,
+      "intensityFactor": 0.58,
+      "contraindications": ["shoulder_injury"],
+      "formCues": [
+        "Arc hands up toward chin level",
+        "Keep elbows soft but fixed",
+        "Lead with pinky fingers",
+        "Focus on upper chest squeeze",
+        "Control the negative"
+      ],
+      "commonMistakes": [
+        "Finishing too low missing upper chest",
+        "Using shoulders to lift",
+        "Swaying body",
+        "Too much elbow bend",
+        "Rushing the movement"
+      ],
+      "easierVariation": "mid-cable-fly",
+      "harderVariation": "incline-dumbbell-fly",
+      "alternativeExercises": ["incline-dumbbell-fly", "incline-dumbbell-press"],
+      "tags": ["isolation", "chest", "cable", "upper-chest", "fly"],
+      "suitableGoals": ["MUSCLE_GAIN"],
+      "fitnessLevelSuitability": {
+        "sedentary": 2,
+        "lightlyActive": 4,
+        "moderatelyActive": 5,
+        "veryActive": 5,
+        "athlete": 4
+      },
+      "experienceLevelSuitability": {
+        "never": 3,
+        "lessThan6Mo": 4,
+        "sixTo24Mo": 5,
+        "twoTo5Yr": 5,
+        "fivePlusYr": 5
+      },
+      "goalEffectiveness": {
+        "weightLoss": 0.3,
+        "muscleGain": 0.85,
+        "strength": 0.5,
+        "endurance": 0.5,
+        "flexibility": 0.3,
+        "generalFitness": 0.6
+      },
+      "estimatedTimePerSet": 35,
+      "setupTimeSeconds": 30,
+      "homeCompatibility": 0.1,
+      "gymCompatibility": 1.0,
+      "outdoorCompatibility": 0.0
+    },
+    {
+      "name": "Machine Chest Press",
+      "slug": "machine-chest-press",
+      "description": "A guided pressing movement performed on a chest press machine, providing a safe and stable environment to build pressing strength. Ideal for beginners learning movement patterns or advanced lifters isolating chest with heavy loads to failure.",
+      "instructions": [
+        "Adjust seat height so handles align with mid-chest level",
+        "Sit with back flat against pad and feet firmly on floor",
+        "Grasp handles with overhand grip at chest level",
+        "Press handles forward until arms are extended without locking elbows",
+        "Return to start position with control, feeling stretch in chest"
+      ],
+      "category": "STRENGTH",
+      "movementPattern": "HORIZONTAL_PUSH",
+      "exerciseType": "COMPOUND",
+      "primaryMuscles": ["chest"],
+      "secondaryMuscles": ["triceps", "front_delts"],
+      "muscleActivationMap": {
+        "chest": 0.85,
+        "triceps": 0.55,
+        "front_delts": 0.4
+      },
+      "difficultyLevel": 1,
+      "skillRequirement": 1,
+      "isBeginnerFriendly": true,
+      "equipmentRequired": ["machine"],
+      "equipmentOptional": [],
+      "suitableLocations": ["gym"],
+      "repRanges": {
+        "strength": {"min": 6, "max": 8},
+        "hypertrophy": {"min": 10, "max": 15},
+        "endurance": {"min": 18, "max": 25}
+      },
+      "typicalSets": {"min": 3, "max": 4},
+      "restSeconds": {"strength": 120, "hypertrophy": 75, "endurance": 45},
+      "metValue": 5.0,
+      "intensityFactor": 0.65,
+      "contraindications": ["shoulder_injury"],
+      "formCues": [
+        "Adjust seat for proper handle alignment",
+        "Keep back against pad",
+        "Push through chest not shoulders",
+        "Controlled tempo throughout",
+        "Don't lock elbows at extension"
+      ],
+      "commonMistakes": [
+        "Seat too high or low",
+        "Arching back excessively",
+        "Using momentum",
+        "Partial range of motion",
+        "Gripping too tight"
+      ],
+      "easierVariation": "incline-push-up",
+      "harderVariation": "flat-dumbbell-press",
+      "alternativeExercises": ["flat-dumbbell-press", "flat-barbell-bench-press", "standard-push-up"],
+      "tags": ["machine", "push", "chest", "beginner-friendly", "compound"],
+      "suitableGoals": ["MUSCLE_GAIN", "STRENGTH", "GENERAL_FITNESS"],
+      "fitnessLevelSuitability": {
+        "sedentary": 4,
+        "lightlyActive": 5,
+        "moderatelyActive": 5,
+        "veryActive": 4,
+        "athlete": 3
+      },
+      "experienceLevelSuitability": {
+        "never": 5,
+        "lessThan6Mo": 5,
+        "sixTo24Mo": 4,
+        "twoTo5Yr": 4,
+        "fivePlusYr": 3
+      },
+      "goalEffectiveness": {
+        "weightLoss": 0.45,
+        "muscleGain": 0.8,
+        "strength": 0.7,
+        "endurance": 0.5,
+        "flexibility": 0.1,
+        "generalFitness": 0.75
+      },
+      "estimatedTimePerSet": 35,
+      "setupTimeSeconds": 45,
+      "homeCompatibility": 0.1,
+      "gymCompatibility": 1.0,
+      "outdoorCompatibility": 0.0
+    },
+    {
+      "name": "Pec Deck Fly",
+      "slug": "pec-deck-fly",
+      "description": "A machine-based chest isolation exercise that provides constant tension through a fixed arc of motion. The pec deck eliminates balance requirements, allowing complete focus on chest contraction and excellent mind-muscle connection.",
+      "instructions": [
+        "Adjust seat height so handles align with mid-chest and shoulders",
+        "Sit with back flat against pad, place forearms against padded levers",
+        "Start with arms open, feeling stretch in chest",
+        "Bring pads together in front of chest using chest strength",
+        "Squeeze chest hard at contraction, return slowly to start"
+      ],
+      "category": "STRENGTH",
+      "movementPattern": "ISOLATION",
+      "exerciseType": "ISOLATION",
+      "primaryMuscles": ["chest"],
+      "secondaryMuscles": ["front_delts"],
+      "muscleActivationMap": {
+        "chest": 0.92,
+        "front_delts": 0.3
+      },
+      "difficultyLevel": 1,
+      "skillRequirement": 1,
+      "isBeginnerFriendly": true,
+      "equipmentRequired": ["machine"],
+      "equipmentOptional": [],
+      "suitableLocations": ["gym"],
+      "repRanges": {
+        "strength": {"min": 8, "max": 10},
+        "hypertrophy": {"min": 12, "max": 15},
+        "endurance": {"min": 18, "max": 25}
+      },
+      "typicalSets": {"min": 3, "max": 4},
+      "restSeconds": {"strength": 90, "hypertrophy": 60, "endurance": 30},
+      "metValue": 3.5,
+      "intensityFactor": 0.5,
+      "contraindications": ["shoulder_injury"],
+      "formCues": [
+        "Keep elbows slightly bent",
+        "Pull through chest not arms",
+        "Hold squeeze for 1-2 seconds",
+        "Control the opening phase",
+        "Don't let weights crash"
+      ],
+      "commonMistakes": [
+        "Going too heavy losing form",
+        "Not using full range of motion",
+        "Rushing through reps",
+        "Shrugging shoulders up",
+        "Using arm strength instead of chest"
+      ],
+      "easierVariation": null,
+      "harderVariation": "flat-dumbbell-fly",
+      "alternativeExercises": ["mid-cable-fly", "flat-dumbbell-fly"],
+      "tags": ["machine", "isolation", "chest", "beginner-friendly", "fly"],
+      "suitableGoals": ["MUSCLE_GAIN"],
+      "fitnessLevelSuitability": {
+        "sedentary": 4,
+        "lightlyActive": 5,
+        "moderatelyActive": 5,
+        "veryActive": 4,
+        "athlete": 3
+      },
+      "experienceLevelSuitability": {
+        "never": 5,
+        "lessThan6Mo": 5,
+        "sixTo24Mo": 4,
+        "twoTo5Yr": 4,
+        "fivePlusYr": 4
+      },
+      "goalEffectiveness": {
+        "weightLoss": 0.25,
+        "muscleGain": 0.82,
+        "strength": 0.45,
+        "endurance": 0.5,
+        "flexibility": 0.25,
+        "generalFitness": 0.55
+      },
+      "estimatedTimePerSet": 35,
+      "setupTimeSeconds": 30,
+      "homeCompatibility": 0.05,
+      "gymCompatibility": 1.0,
+      "outdoorCompatibility": 0.0
+    },
+    {
+      "name": "Banded Push-Up",
+      "slug": "banded-push-up",
+      "description": "A push-up variation with a resistance band looped around the back and held in the hands, adding accommodating resistance that increases at the top of the movement. This creates greater muscle tension at lockout while maintaining the bodyweight nature of the exercise.",
+      "instructions": [
+        "Loop resistance band across upper back and hold ends in each hand",
+        "Assume push-up position with band secured under palms",
+        "Perform push-up lowering chest to floor as normal",
+        "Press up against increasing band resistance",
+        "Fully extend arms feeling maximum tension at top"
+      ],
+      "category": "CALISTHENICS",
+      "movementPattern": "HORIZONTAL_PUSH",
+      "exerciseType": "COMPOUND",
+      "primaryMuscles": ["chest"],
+      "secondaryMuscles": ["triceps", "front_delts", "core"],
+      "muscleActivationMap": {
+        "chest": 0.85,
+        "triceps": 0.7,
+        "front_delts": 0.5,
+        "core": 0.45
+      },
+      "difficultyLevel": 3,
+      "skillRequirement": 2,
+      "isBeginnerFriendly": true,
+      "equipmentRequired": ["resistance_band"],
+      "equipmentOptional": [],
+      "suitableLocations": ["home", "gym", "outdoor"],
+      "repRanges": {
+        "strength": {"min": 5, "max": 10},
+        "hypertrophy": {"min": 10, "max": 15},
+        "endurance": {"min": 20, "max": 30}
+      },
+      "typicalSets": {"min": 3, "max": 4},
+      "restSeconds": {"strength": 90, "hypertrophy": 60, "endurance": 30},
+      "metValue": 5.0,
+      "intensityFactor": 0.7,
+      "contraindications": ["wrist_injury", "shoulder_injury"],
+      "formCues": [
+        "Band should be flat across back",
+        "Explode through top of movement",
+        "Keep core tight throughout",
+        "Use appropriate band tension",
+        "Full range of motion"
+      ],
+      "commonMistakes": [
+        "Band slipping off back",
+        "Band too heavy causing form breakdown",
+        "Not using full range",
+        "Band positioned too high on back",
+        "Losing core stability"
+      ],
+      "easierVariation": "standard-push-up",
+      "harderVariation": "decline-push-up",
+      "alternativeExercises": ["standard-push-up", "band-chest-press"],
+      "tags": ["bodyweight", "push", "chest", "resistance-band", "compound"],
+      "suitableGoals": ["MUSCLE_GAIN", "STRENGTH", "GENERAL_FITNESS"],
+      "fitnessLevelSuitability": {
+        "sedentary": 2,
+        "lightlyActive": 3,
+        "moderatelyActive": 5,
+        "veryActive": 5,
+        "athlete": 4
+      },
+      "experienceLevelSuitability": {
+        "never": 2,
+        "lessThan6Mo": 3,
+        "sixTo24Mo": 5,
+        "twoTo5Yr": 5,
+        "fivePlusYr": 4
+      },
+      "goalEffectiveness": {
+        "weightLoss": 0.55,
+        "muscleGain": 0.75,
+        "strength": 0.7,
+        "endurance": 0.6,
+        "flexibility": 0.15,
+        "generalFitness": 0.8
+      },
+      "estimatedTimePerSet": 30,
+      "setupTimeSeconds": 20,
+      "homeCompatibility": 1.0,
+      "gymCompatibility": 1.0,
+      "outdoorCompatibility": 0.9
+    },
+    {
+      "name": "Band Chest Press",
+      "slug": "band-chest-press",
+      "description": "A standing or seated pressing movement using resistance bands anchored behind the body, providing accommodating resistance ideal for home workouts or rehabilitation. The band creates increasing tension through the pressing motion, challenging the chest throughout the range.",
+      "instructions": [
+        "Anchor band at chest height behind you or loop around stable object",
+        "Hold band handles or ends at chest level with elbows back",
+        "Stand in staggered stance facing away from anchor",
+        "Press hands forward and together until arms are extended",
+        "Control the return as band pulls arms back to start"
+      ],
+      "category": "STRENGTH",
+      "movementPattern": "HORIZONTAL_PUSH",
+      "exerciseType": "COMPOUND",
+      "primaryMuscles": ["chest"],
+      "secondaryMuscles": ["triceps", "front_delts", "core"],
+      "muscleActivationMap": {
+        "chest": 0.8,
+        "triceps": 0.55,
+        "front_delts": 0.45,
+        "core": 0.35
+      },
+      "difficultyLevel": 1,
+      "skillRequirement": 1,
+      "isBeginnerFriendly": true,
+      "equipmentRequired": ["resistance_band"],
+      "equipmentOptional": [],
+      "suitableLocations": ["home", "gym", "outdoor"],
+      "repRanges": {
+        "strength": {"min": 8, "max": 12},
+        "hypertrophy": {"min": 12, "max": 20},
+        "endurance": {"min": 20, "max": 35}
+      },
+      "typicalSets": {"min": 3, "max": 4},
+      "restSeconds": {"strength": 75, "hypertrophy": 45, "endurance": 20},
+      "metValue": 3.5,
+      "intensityFactor": 0.5,
+      "contraindications": ["shoulder_injury"],
+      "formCues": [
+        "Keep core engaged for stability",
+        "Press in slight arc",
+        "Control band on return",
+        "Maintain upright posture",
+        "Squeeze chest at full extension"
+      ],
+      "commonMistakes": [
+        "Band anchor too low or high",
+        "Leaning forward excessively",
+        "Not controlling eccentric",
+        "Insufficient band tension",
+        "Unstable stance"
+      ],
+      "easierVariation": "incline-push-up",
+      "harderVariation": "banded-push-up",
+      "alternativeExercises": ["standard-push-up", "machine-chest-press"],
+      "tags": ["resistance-band", "push", "chest", "home-workout", "compound", "beginner-friendly"],
+      "suitableGoals": ["MUSCLE_GAIN", "GENERAL_FITNESS", "ENDURANCE"],
+      "fitnessLevelSuitability": {
+        "sedentary": 4,
+        "lightlyActive": 5,
+        "moderatelyActive": 5,
+        "veryActive": 4,
+        "athlete": 3
+      },
+      "experienceLevelSuitability": {
+        "never": 5,
+        "lessThan6Mo": 5,
+        "sixTo24Mo": 4,
+        "twoTo5Yr": 3,
+        "fivePlusYr": 3
+      },
+      "goalEffectiveness": {
+        "weightLoss": 0.45,
+        "muscleGain": 0.65,
+        "strength": 0.55,
+        "endurance": 0.65,
+        "flexibility": 0.15,
+        "generalFitness": 0.75
+      },
+      "estimatedTimePerSet": 30,
+      "setupTimeSeconds": 30,
+      "homeCompatibility": 1.0,
+      "gymCompatibility": 0.8,
+      "outdoorCompatibility": 0.85
+    }
+  ]

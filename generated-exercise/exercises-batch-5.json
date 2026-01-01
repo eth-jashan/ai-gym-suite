@@ -1,0 +1,4506 @@
+[
+  {
+    "name": "Barbell Overhead Press",
+    "slug": "barbell-overhead-press",
+    "description": "The foundational compound shoulder exercise pressing a barbell from shoulder level to full overhead extension while standing. This movement builds overall shoulder strength and stability while engaging the entire body for support.",
+    "instructions": [
+      "Grip barbell just outside shoulder width in a rack at shoulder height",
+      "Unrack bar, resting it on front deltoids with elbows forward",
+      "Brace core, squeeze glutes, take a breath and hold",
+      "Press bar straight up, moving head back slightly to clear chin",
+      "Lock out overhead with bar over mid-foot, lower with control"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "VERTICAL_PUSH",
+    "exerciseType": "COMPOUND",
+    "primaryMuscles": [
+      "front_delts",
+      "side_delts"
+    ],
+    "secondaryMuscles": [
+      "triceps",
+      "upper_chest",
+      "core",
+      "traps"
+    ],
+    "muscleActivationMap": {
+      "front_delts": 0.95,
+      "side_delts": 0.75,
+      "triceps": 0.7,
+      "upper_chest": 0.45,
+      "core": 0.55,
+      "traps": 0.5
+    },
+    "difficultyLevel": 4,
+    "skillRequirement": 3,
+    "isBeginnerFriendly": false,
+    "equipmentRequired": [
+      "barbell",
+      "squat_rack"
+    ],
+    "equipmentOptional": [
+      "belt"
+    ],
+    "suitableLocations": [
+      "gym"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 3,
+        "max": 6
+      },
+      "hypertrophy": {
+        "min": 6,
+        "max": 12
+      },
+      "endurance": {
+        "min": 15,
+        "max": 20
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 5
+    },
+    "restSeconds": {
+      "strength": 180,
+      "hypertrophy": 120,
+      "endurance": 60
+    },
+    "metValue": 6.0,
+    "intensityFactor": 0.85,
+    "contraindications": [
+      "shoulder_injury",
+      "lower_back_injury",
+      "neck_injury"
+    ],
+    "formCues": [
+      "Bar travels in straight line",
+      "Keep core braced throughout",
+      "Full lockout at top",
+      "Head moves back then forward",
+      "Squeeze glutes for stability"
+    ],
+    "commonMistakes": [
+      "Excessive back arch",
+      "Bar path forward of body",
+      "Pressing in front of face",
+      "No core engagement",
+      "Incomplete lockout"
+    ],
+    "easierVariation": "seated-barbell-overhead-press",
+    "harderVariation": "push-press",
+    "alternativeExercises": [
+      "dumbbell-shoulder-press",
+      "machine-shoulder-press",
+      "push-press"
+    ],
+    "tags": [
+      "compound",
+      "pressing",
+      "shoulders",
+      "barbell",
+      "overhead",
+      "fundamental"
+    ],
+    "suitableGoals": [
+      "STRENGTH",
+      "MUSCLE_GAIN"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 1,
+      "lightlyActive": 2,
+      "moderatelyActive": 4,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 1,
+      "lessThan6Mo": 2,
+      "sixTo24Mo": 4,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.5,
+      "muscleGain": 0.88,
+      "strength": 0.95,
+      "endurance": 0.35,
+      "flexibility": 0.15,
+      "generalFitness": 0.75
+    },
+    "estimatedTimePerSet": 40,
+    "setupTimeSeconds": 60,
+    "homeCompatibility": 0.3,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.1
+  },
+  {
+    "name": "Seated Barbell Overhead Press",
+    "slug": "seated-barbell-overhead-press",
+    "description": "An overhead press variation performed seated on a bench to reduce lower body involvement and isolate the shoulders. The seated position provides back support while eliminating momentum from the legs.",
+    "instructions": [
+      "Set bench at 90 degrees or slightly reclined in a rack",
+      "Sit with back firmly against pad, feet flat on floor",
+      "Unrack barbell at shoulder height, grip just outside shoulders",
+      "Press bar straight up, moving head back to clear",
+      "Lock out overhead, lower with control to starting position"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "VERTICAL_PUSH",
+    "exerciseType": "COMPOUND",
+    "primaryMuscles": [
+      "front_delts",
+      "side_delts"
+    ],
+    "secondaryMuscles": [
+      "triceps",
+      "upper_chest",
+      "traps"
+    ],
+    "muscleActivationMap": {
+      "front_delts": 0.92,
+      "side_delts": 0.72,
+      "triceps": 0.68,
+      "upper_chest": 0.42,
+      "traps": 0.48
+    },
+    "difficultyLevel": 3,
+    "skillRequirement": 2,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [
+      "barbell",
+      "bench",
+      "squat_rack"
+    ],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "gym"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 4,
+        "max": 8
+      },
+      "hypertrophy": {
+        "min": 8,
+        "max": 12
+      },
+      "endurance": {
+        "min": 15,
+        "max": 20
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 150,
+      "hypertrophy": 90,
+      "endurance": 60
+    },
+    "metValue": 5.0,
+    "intensityFactor": 0.78,
+    "contraindications": [
+      "shoulder_injury",
+      "neck_injury"
+    ],
+    "formCues": [
+      "Back stays against pad",
+      "Full lockout at top",
+      "Bar travels straight up",
+      "Control the descent",
+      "Keep feet grounded"
+    ],
+    "commonMistakes": [
+      "Back arching off pad",
+      "Bar path forward",
+      "Incomplete range of motion",
+      "Using leg drive",
+      "Flared elbows"
+    ],
+    "easierVariation": "machine-shoulder-press",
+    "harderVariation": "barbell-overhead-press",
+    "alternativeExercises": [
+      "dumbbell-shoulder-press",
+      "machine-shoulder-press",
+      "barbell-overhead-press"
+    ],
+    "tags": [
+      "compound",
+      "pressing",
+      "shoulders",
+      "barbell",
+      "seated"
+    ],
+    "suitableGoals": [
+      "STRENGTH",
+      "MUSCLE_GAIN"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 2,
+      "lightlyActive": 3,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 2,
+      "lessThan6Mo": 4,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.45,
+      "muscleGain": 0.85,
+      "strength": 0.88,
+      "endurance": 0.35,
+      "flexibility": 0.1,
+      "generalFitness": 0.72
+    },
+    "estimatedTimePerSet": 35,
+    "setupTimeSeconds": 75,
+    "homeCompatibility": 0.2,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.0
+  },
+  {
+    "name": "Dumbbell Shoulder Press",
+    "slug": "dumbbell-shoulder-press",
+    "description": "A versatile overhead pressing movement using dumbbells that allows for natural arm path and independent loading of each shoulder. Can be performed seated or standing to build shoulder strength and size.",
+    "instructions": [
+      "Sit on bench with back support, dumbbells at shoulder height",
+      "Hold dumbbells with palms facing forward, elbows bent at 90 degrees",
+      "Press dumbbells straight up, bringing them together at the top",
+      "Lock out with arms fully extended overhead",
+      "Lower with control back to starting position"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "VERTICAL_PUSH",
+    "exerciseType": "COMPOUND",
+    "primaryMuscles": [
+      "front_delts",
+      "side_delts"
+    ],
+    "secondaryMuscles": [
+      "triceps",
+      "upper_chest",
+      "traps"
+    ],
+    "muscleActivationMap": {
+      "front_delts": 0.92,
+      "side_delts": 0.78,
+      "triceps": 0.65,
+      "upper_chest": 0.4,
+      "traps": 0.45
+    },
+    "difficultyLevel": 2,
+    "skillRequirement": 2,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [
+      "dumbbell",
+      "bench"
+    ],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "gym",
+      "home"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 5,
+        "max": 8
+      },
+      "hypertrophy": {
+        "min": 8,
+        "max": 12
+      },
+      "endurance": {
+        "min": 15,
+        "max": 20
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 120,
+      "hypertrophy": 75,
+      "endurance": 45
+    },
+    "metValue": 5.0,
+    "intensityFactor": 0.72,
+    "contraindications": [
+      "shoulder_injury"
+    ],
+    "formCues": [
+      "Press straight up not forward",
+      "Dumbbells touch at top",
+      "Full range of motion",
+      "Control the negative",
+      "Keep back against pad"
+    ],
+    "commonMistakes": [
+      "Pressing forward",
+      "Partial range of motion",
+      "Dumbbells drifting apart",
+      "Excessive back arch",
+      "Elbows flaring too wide"
+    ],
+    "easierVariation": "machine-shoulder-press",
+    "harderVariation": "arnold-press",
+    "alternativeExercises": [
+      "barbell-overhead-press",
+      "machine-shoulder-press",
+      "arnold-press"
+    ],
+    "tags": [
+      "compound",
+      "pressing",
+      "shoulders",
+      "dumbbell",
+      "beginner-friendly"
+    ],
+    "suitableGoals": [
+      "MUSCLE_GAIN",
+      "STRENGTH"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 3,
+      "lightlyActive": 4,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 3,
+      "lessThan6Mo": 5,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.45,
+      "muscleGain": 0.88,
+      "strength": 0.82,
+      "endurance": 0.4,
+      "flexibility": 0.15,
+      "generalFitness": 0.78
+    },
+    "estimatedTimePerSet": 35,
+    "setupTimeSeconds": 20,
+    "homeCompatibility": 0.9,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.3
+  },
+  {
+    "name": "Standing Dumbbell Shoulder Press",
+    "slug": "standing-dumbbell-shoulder-press",
+    "description": "An overhead press performed standing with dumbbells, requiring greater core stability and full-body engagement. The standing position increases the functional demand and allows for natural scapular movement.",
+    "instructions": [
+      "Stand with feet shoulder-width apart, dumbbells at shoulder height",
+      "Brace core tight, squeeze glutes for stability",
+      "Press dumbbells overhead until arms are fully extended",
+      "Bring dumbbells together at top with control",
+      "Lower slowly back to shoulder height"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "VERTICAL_PUSH",
+    "exerciseType": "COMPOUND",
+    "primaryMuscles": [
+      "front_delts",
+      "side_delts"
+    ],
+    "secondaryMuscles": [
+      "triceps",
+      "core",
+      "traps",
+      "upper_chest"
+    ],
+    "muscleActivationMap": {
+      "front_delts": 0.9,
+      "side_delts": 0.78,
+      "triceps": 0.62,
+      "core": 0.6,
+      "traps": 0.45,
+      "upper_chest": 0.38
+    },
+    "difficultyLevel": 3,
+    "skillRequirement": 3,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [
+      "dumbbell"
+    ],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "gym",
+      "home"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 5,
+        "max": 8
+      },
+      "hypertrophy": {
+        "min": 8,
+        "max": 12
+      },
+      "endurance": {
+        "min": 15,
+        "max": 20
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 120,
+      "hypertrophy": 75,
+      "endurance": 45
+    },
+    "metValue": 5.5,
+    "intensityFactor": 0.75,
+    "contraindications": [
+      "shoulder_injury",
+      "lower_back_injury"
+    ],
+    "formCues": [
+      "Keep core braced throughout",
+      "No excessive back lean",
+      "Full lockout at top",
+      "Control the descent",
+      "Feet stay grounded"
+    ],
+    "commonMistakes": [
+      "Leaning back excessively",
+      "Poor core engagement",
+      "Pressing forward not up",
+      "Using momentum",
+      "Unstable base"
+    ],
+    "easierVariation": "dumbbell-shoulder-press",
+    "harderVariation": "single-arm-dumbbell-press",
+    "alternativeExercises": [
+      "dumbbell-shoulder-press",
+      "barbell-overhead-press",
+      "push-press"
+    ],
+    "tags": [
+      "compound",
+      "pressing",
+      "shoulders",
+      "dumbbell",
+      "functional",
+      "standing"
+    ],
+    "suitableGoals": [
+      "MUSCLE_GAIN",
+      "STRENGTH",
+      "GENERAL_FITNESS"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 2,
+      "lightlyActive": 3,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 3,
+      "lessThan6Mo": 4,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.5,
+      "muscleGain": 0.85,
+      "strength": 0.82,
+      "endurance": 0.42,
+      "flexibility": 0.15,
+      "generalFitness": 0.82
+    },
+    "estimatedTimePerSet": 35,
+    "setupTimeSeconds": 15,
+    "homeCompatibility": 0.95,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.5
+  },
+  {
+    "name": "Push Press",
+    "slug": "push-press",
+    "description": "An explosive overhead press that uses leg drive to initiate the movement, allowing for heavier loads than strict pressing. This power exercise builds shoulder strength while developing total body coordination and explosiveness.",
+    "instructions": [
+      "Start with barbell in front rack position at shoulders",
+      "Dip slightly by bending knees 4-6 inches",
+      "Explosively drive through legs to propel bar upward",
+      "Press bar overhead to lockout as legs extend",
+      "Lower bar under control back to starting position"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "VERTICAL_PUSH",
+    "exerciseType": "COMPOUND",
+    "primaryMuscles": [
+      "front_delts",
+      "side_delts"
+    ],
+    "secondaryMuscles": [
+      "triceps",
+      "quads",
+      "glutes",
+      "core",
+      "traps"
+    ],
+    "muscleActivationMap": {
+      "front_delts": 0.88,
+      "side_delts": 0.72,
+      "triceps": 0.65,
+      "quads": 0.55,
+      "glutes": 0.5,
+      "core": 0.6,
+      "traps": 0.5
+    },
+    "difficultyLevel": 4,
+    "skillRequirement": 4,
+    "isBeginnerFriendly": false,
+    "equipmentRequired": [
+      "barbell",
+      "squat_rack"
+    ],
+    "equipmentOptional": [
+      "belt"
+    ],
+    "suitableLocations": [
+      "gym"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 3,
+        "max": 6
+      },
+      "hypertrophy": {
+        "min": 6,
+        "max": 10
+      },
+      "endurance": {
+        "min": 12,
+        "max": 15
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 5
+    },
+    "restSeconds": {
+      "strength": 180,
+      "hypertrophy": 120,
+      "endurance": 75
+    },
+    "metValue": 7.0,
+    "intensityFactor": 0.88,
+    "contraindications": [
+      "shoulder_injury",
+      "knee_injury",
+      "lower_back_injury"
+    ],
+    "formCues": [
+      "Quick dip, explosive drive",
+      "Legs fully extend before press finishes",
+      "Bar stays close to face",
+      "Lock out completely",
+      "Catch bar soft on descent"
+    ],
+    "commonMistakes": [
+      "Dip too deep",
+      "Pressing before legs extend",
+      "Forward bar path",
+      "No leg drive",
+      "Soft lockout"
+    ],
+    "easierVariation": "barbell-overhead-press",
+    "harderVariation": "split-jerk",
+    "alternativeExercises": [
+      "barbell-overhead-press",
+      "dumbbell-push-press",
+      "jerk"
+    ],
+    "tags": [
+      "compound",
+      "pressing",
+      "shoulders",
+      "barbell",
+      "explosive",
+      "power"
+    ],
+    "suitableGoals": [
+      "STRENGTH",
+      "MUSCLE_GAIN"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 1,
+      "lightlyActive": 1,
+      "moderatelyActive": 3,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 1,
+      "lessThan6Mo": 1,
+      "sixTo24Mo": 3,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.55,
+      "muscleGain": 0.82,
+      "strength": 0.95,
+      "endurance": 0.4,
+      "flexibility": 0.1,
+      "generalFitness": 0.78
+    },
+    "estimatedTimePerSet": 40,
+    "setupTimeSeconds": 60,
+    "homeCompatibility": 0.25,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.1
+  },
+  {
+    "name": "Arnold Press",
+    "slug": "arnold-press",
+    "description": "A dumbbell shoulder press variation made famous by Arnold Schwarzenegger that incorporates rotation through the pressing motion. The rotational component increases time under tension and engages all three deltoid heads.",
+    "instructions": [
+      "Sit with dumbbells at shoulder height, palms facing you",
+      "Begin pressing while simultaneously rotating palms outward",
+      "Continue until arms are fully extended with palms facing forward",
+      "Reverse the motion, rotating palms back toward you as you lower",
+      "Return to start position with palms facing you"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "VERTICAL_PUSH",
+    "exerciseType": "COMPOUND",
+    "primaryMuscles": [
+      "front_delts",
+      "side_delts"
+    ],
+    "secondaryMuscles": [
+      "triceps",
+      "rear_delts",
+      "upper_chest"
+    ],
+    "muscleActivationMap": {
+      "front_delts": 0.9,
+      "side_delts": 0.85,
+      "triceps": 0.6,
+      "rear_delts": 0.4,
+      "upper_chest": 0.35
+    },
+    "difficultyLevel": 3,
+    "skillRequirement": 3,
+    "isBeginnerFriendly": false,
+    "equipmentRequired": [
+      "dumbbell",
+      "bench"
+    ],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "gym",
+      "home"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 6,
+        "max": 8
+      },
+      "hypertrophy": {
+        "min": 8,
+        "max": 12
+      },
+      "endurance": {
+        "min": 15,
+        "max": 20
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 120,
+      "hypertrophy": 75,
+      "endurance": 45
+    },
+    "metValue": 5.0,
+    "intensityFactor": 0.72,
+    "contraindications": [
+      "shoulder_injury",
+      "rotator_cuff_injury"
+    ],
+    "formCues": [
+      "Smooth continuous rotation",
+      "Full range of motion",
+      "Control throughout movement",
+      "Don't rush the rotation",
+      "Palms fully rotate 180 degrees"
+    ],
+    "commonMistakes": [
+      "Incomplete rotation",
+      "Rushing through movement",
+      "Elbows flaring wide",
+      "Not starting at shoulder level",
+      "Cutting range short"
+    ],
+    "easierVariation": "dumbbell-shoulder-press",
+    "harderVariation": "standing-arnold-press",
+    "alternativeExercises": [
+      "dumbbell-shoulder-press",
+      "barbell-overhead-press",
+      "machine-shoulder-press"
+    ],
+    "tags": [
+      "compound",
+      "pressing",
+      "shoulders",
+      "dumbbell",
+      "rotation",
+      "arnold"
+    ],
+    "suitableGoals": [
+      "MUSCLE_GAIN",
+      "STRENGTH"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 2,
+      "lightlyActive": 3,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 2,
+      "lessThan6Mo": 3,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.45,
+      "muscleGain": 0.9,
+      "strength": 0.78,
+      "endurance": 0.42,
+      "flexibility": 0.25,
+      "generalFitness": 0.75
+    },
+    "estimatedTimePerSet": 40,
+    "setupTimeSeconds": 20,
+    "homeCompatibility": 0.85,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.3
+  },
+  {
+    "name": "Z Press",
+    "slug": "z-press",
+    "description": "An overhead press performed seated on the floor with legs extended, eliminating all lower body support and requiring exceptional core strength. This challenging variation builds pure pressing strength and exposes mobility limitations.",
+    "instructions": [
+      "Sit on floor with legs extended straight in front",
+      "Clean or have partner hand you barbell at shoulder height",
+      "Keep torso completely upright without leaning back",
+      "Press bar overhead to full lockout",
+      "Lower with control, maintaining upright posture"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "VERTICAL_PUSH",
+    "exerciseType": "COMPOUND",
+    "primaryMuscles": [
+      "front_delts",
+      "side_delts"
+    ],
+    "secondaryMuscles": [
+      "triceps",
+      "core",
+      "traps"
+    ],
+    "muscleActivationMap": {
+      "front_delts": 0.92,
+      "side_delts": 0.75,
+      "triceps": 0.68,
+      "core": 0.85,
+      "traps": 0.48
+    },
+    "difficultyLevel": 5,
+    "skillRequirement": 4,
+    "isBeginnerFriendly": false,
+    "equipmentRequired": [
+      "barbell"
+    ],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "gym"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 3,
+        "max": 6
+      },
+      "hypertrophy": {
+        "min": 6,
+        "max": 10
+      },
+      "endurance": {
+        "min": 12,
+        "max": 15
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 150,
+      "hypertrophy": 90,
+      "endurance": 60
+    },
+    "metValue": 5.5,
+    "intensityFactor": 0.8,
+    "contraindications": [
+      "shoulder_injury",
+      "lower_back_injury",
+      "hip_flexor_injury"
+    ],
+    "formCues": [
+      "Stay perfectly upright",
+      "No leaning back at all",
+      "Core braced throughout",
+      "Full lockout",
+      "Legs stay straight on floor"
+    ],
+    "commonMistakes": [
+      "Leaning backward",
+      "Rounding lower back",
+      "Legs bending",
+      "Incomplete lockout",
+      "Using too heavy weight"
+    ],
+    "easierVariation": "seated-barbell-overhead-press",
+    "harderVariation": null,
+    "alternativeExercises": [
+      "barbell-overhead-press",
+      "seated-barbell-overhead-press",
+      "dumbbell-shoulder-press"
+    ],
+    "tags": [
+      "compound",
+      "pressing",
+      "shoulders",
+      "barbell",
+      "core",
+      "advanced",
+      "mobility"
+    ],
+    "suitableGoals": [
+      "STRENGTH",
+      "MUSCLE_GAIN"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 1,
+      "lightlyActive": 1,
+      "moderatelyActive": 2,
+      "veryActive": 4,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 1,
+      "lessThan6Mo": 1,
+      "sixTo24Mo": 2,
+      "twoTo5Yr": 4,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.4,
+      "muscleGain": 0.82,
+      "strength": 0.88,
+      "endurance": 0.3,
+      "flexibility": 0.35,
+      "generalFitness": 0.68
+    },
+    "estimatedTimePerSet": 40,
+    "setupTimeSeconds": 45,
+    "homeCompatibility": 0.5,
+    "gymCompatibility": 0.95,
+    "outdoorCompatibility": 0.2
+  },
+  {
+    "name": "Landmine Press",
+    "slug": "landmine-press",
+    "description": "A pressing variation using a barbell anchored at one end in a landmine attachment, pressing at an angle that is easier on the shoulders. This movement allows for natural scapular movement and provides an alternative pressing angle.",
+    "instructions": [
+      "Stand facing landmine, holding end of barbell at shoulder with both hands or one hand",
+      "Position feet shoulder-width apart in athletic stance",
+      "Press barbell up and away at roughly 45-degree angle",
+      "Extend arm(s) fully at top of movement",
+      "Lower with control back to shoulder level"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "VERTICAL_PUSH",
+    "exerciseType": "COMPOUND",
+    "primaryMuscles": [
+      "front_delts",
+      "upper_chest"
+    ],
+    "secondaryMuscles": [
+      "triceps",
+      "side_delts",
+      "core"
+    ],
+    "muscleActivationMap": {
+      "front_delts": 0.85,
+      "upper_chest": 0.7,
+      "triceps": 0.6,
+      "side_delts": 0.5,
+      "core": 0.55
+    },
+    "difficultyLevel": 2,
+    "skillRequirement": 2,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [
+      "barbell",
+      "landmine"
+    ],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "gym"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 6,
+        "max": 10
+      },
+      "hypertrophy": {
+        "min": 10,
+        "max": 15
+      },
+      "endurance": {
+        "min": 15,
+        "max": 20
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 90,
+      "hypertrophy": 60,
+      "endurance": 45
+    },
+    "metValue": 4.5,
+    "intensityFactor": 0.65,
+    "contraindications": [
+      "shoulder_injury"
+    ],
+    "formCues": [
+      "Press at angle, not straight up",
+      "Keep core engaged",
+      "Full extension at top",
+      "Control the arc",
+      "Feet stay planted"
+    ],
+    "commonMistakes": [
+      "Pressing too vertically",
+      "Losing core engagement",
+      "Cutting range short",
+      "Leaning back excessively",
+      "Unstable base"
+    ],
+    "easierVariation": "machine-shoulder-press",
+    "harderVariation": "single-arm-landmine-press",
+    "alternativeExercises": [
+      "dumbbell-shoulder-press",
+      "incline-press",
+      "machine-shoulder-press"
+    ],
+    "tags": [
+      "compound",
+      "pressing",
+      "shoulders",
+      "chest",
+      "landmine",
+      "shoulder-friendly"
+    ],
+    "suitableGoals": [
+      "MUSCLE_GAIN",
+      "GENERAL_FITNESS"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 3,
+      "lightlyActive": 4,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 3,
+      "lessThan6Mo": 4,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.45,
+      "muscleGain": 0.78,
+      "strength": 0.72,
+      "endurance": 0.45,
+      "flexibility": 0.2,
+      "generalFitness": 0.78
+    },
+    "estimatedTimePerSet": 35,
+    "setupTimeSeconds": 30,
+    "homeCompatibility": 0.4,
+    "gymCompatibility": 0.95,
+    "outdoorCompatibility": 0.1
+  },
+  {
+    "name": "Pike Push-Up",
+    "slug": "pike-push-up",
+    "description": "A bodyweight shoulder pressing movement performed in an inverted V position that mimics the overhead press pattern. This calisthenics exercise builds shoulder strength and serves as a progression toward handstand push-ups.",
+    "instructions": [
+      "Start in push-up position, then walk hands back and lift hips high",
+      "Form an inverted V with body, keeping legs and arms straight",
+      "Position head between arms, looking at feet",
+      "Bend elbows to lower head toward floor",
+      "Press back up to starting position"
+    ],
+    "category": "CALISTHENICS",
+    "movementPattern": "VERTICAL_PUSH",
+    "exerciseType": "COMPOUND",
+    "primaryMuscles": [
+      "front_delts",
+      "side_delts"
+    ],
+    "secondaryMuscles": [
+      "triceps",
+      "upper_chest",
+      "core"
+    ],
+    "muscleActivationMap": {
+      "front_delts": 0.85,
+      "side_delts": 0.7,
+      "triceps": 0.65,
+      "upper_chest": 0.4,
+      "core": 0.5
+    },
+    "difficultyLevel": 3,
+    "skillRequirement": 2,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "home",
+      "gym",
+      "outdoor"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 5,
+        "max": 10
+      },
+      "hypertrophy": {
+        "min": 10,
+        "max": 15
+      },
+      "endurance": {
+        "min": 20,
+        "max": 30
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 90,
+      "hypertrophy": 60,
+      "endurance": 30
+    },
+    "metValue": 5.5,
+    "intensityFactor": 0.6,
+    "contraindications": [
+      "shoulder_injury",
+      "wrist_injury"
+    ],
+    "formCues": [
+      "Hips high in pike position",
+      "Head moves toward floor",
+      "Keep legs as straight as possible",
+      "Elbows track at 45 degrees",
+      "Full range of motion"
+    ],
+    "commonMistakes": [
+      "Hips too low",
+      "Bending knees too much",
+      "Elbows flaring out",
+      "Partial range of motion",
+      "Head not going low enough"
+    ],
+    "easierVariation": "incline-pike-push-up",
+    "harderVariation": "wall-assisted-handstand-push-up",
+    "alternativeExercises": [
+      "dumbbell-shoulder-press",
+      "wall-assisted-handstand-push-up",
+      "machine-shoulder-press"
+    ],
+    "tags": [
+      "compound",
+      "pressing",
+      "shoulders",
+      "bodyweight",
+      "calisthenics",
+      "progression"
+    ],
+    "suitableGoals": [
+      "MUSCLE_GAIN",
+      "GENERAL_FITNESS"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 2,
+      "lightlyActive": 3,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 2,
+      "lessThan6Mo": 4,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 4
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.5,
+      "muscleGain": 0.72,
+      "strength": 0.68,
+      "endurance": 0.55,
+      "flexibility": 0.35,
+      "generalFitness": 0.8
+    },
+    "estimatedTimePerSet": 35,
+    "setupTimeSeconds": 5,
+    "homeCompatibility": 1.0,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.95
+  },
+  {
+    "name": "Wall-Assisted Handstand Push-Up",
+    "slug": "wall-assisted-handstand-push-up",
+    "description": "An advanced bodyweight shoulder exercise performed in a handstand against a wall, pressing the body up and down. This challenging movement builds exceptional shoulder and tricep strength while developing balance.",
+    "instructions": [
+      "Kick up into handstand position facing away from wall, heels touching wall",
+      "Position hands shoulder-width apart, fingers spread",
+      "Brace core and squeeze glutes for stability",
+      "Bend elbows to lower head toward floor",
+      "Press back up to full arm extension"
+    ],
+    "category": "CALISTHENICS",
+    "movementPattern": "VERTICAL_PUSH",
+    "exerciseType": "COMPOUND",
+    "primaryMuscles": [
+      "front_delts",
+      "side_delts"
+    ],
+    "secondaryMuscles": [
+      "triceps",
+      "upper_chest",
+      "core",
+      "traps"
+    ],
+    "muscleActivationMap": {
+      "front_delts": 0.95,
+      "side_delts": 0.8,
+      "triceps": 0.75,
+      "upper_chest": 0.45,
+      "core": 0.7,
+      "traps": 0.55
+    },
+    "difficultyLevel": 5,
+    "skillRequirement": 5,
+    "isBeginnerFriendly": false,
+    "equipmentRequired": [],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "home",
+      "gym"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 1,
+        "max": 5
+      },
+      "hypertrophy": {
+        "min": 5,
+        "max": 10
+      },
+      "endurance": {
+        "min": 12,
+        "max": 15
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 5
+    },
+    "restSeconds": {
+      "strength": 150,
+      "hypertrophy": 90,
+      "endurance": 60
+    },
+    "metValue": 7.0,
+    "intensityFactor": 0.9,
+    "contraindications": [
+      "shoulder_injury",
+      "wrist_injury",
+      "neck_injury",
+      "high_blood_pressure"
+    ],
+    "formCues": [
+      "Keep body in straight line",
+      "Control the descent",
+      "Full range of motion",
+      "Core stays tight",
+      "Breathe throughout"
+    ],
+    "commonMistakes": [
+      "Arching back",
+      "Partial reps",
+      "Losing core tension",
+      "Kicking off wall",
+      "Head position incorrect"
+    ],
+    "easierVariation": "pike-push-up",
+    "harderVariation": "freestanding-handstand-push-up",
+    "alternativeExercises": [
+      "pike-push-up",
+      "barbell-overhead-press",
+      "dumbbell-shoulder-press"
+    ],
+    "tags": [
+      "compound",
+      "pressing",
+      "shoulders",
+      "bodyweight",
+      "calisthenics",
+      "advanced",
+      "handstand"
+    ],
+    "suitableGoals": [
+      "STRENGTH",
+      "MUSCLE_GAIN"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 1,
+      "lightlyActive": 1,
+      "moderatelyActive": 2,
+      "veryActive": 4,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 1,
+      "lessThan6Mo": 1,
+      "sixTo24Mo": 2,
+      "twoTo5Yr": 4,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.45,
+      "muscleGain": 0.85,
+      "strength": 0.9,
+      "endurance": 0.4,
+      "flexibility": 0.25,
+      "generalFitness": 0.75
+    },
+    "estimatedTimePerSet": 45,
+    "setupTimeSeconds": 15,
+    "homeCompatibility": 0.85,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.6
+  },
+  {
+    "name": "Machine Shoulder Press",
+    "slug": "machine-shoulder-press",
+    "description": "A shoulder press performed on a guided machine that provides a fixed path of motion and enhanced safety. This beginner-friendly option allows focus on muscle contraction without balance demands.",
+    "instructions": [
+      "Adjust seat so handles are at shoulder height",
+      "Sit with back firmly against pad, feet flat on floor",
+      "Grip handles with overhand grip",
+      "Press handles straight up to full arm extension",
+      "Lower with control back to starting position"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "VERTICAL_PUSH",
+    "exerciseType": "COMPOUND",
+    "primaryMuscles": [
+      "front_delts",
+      "side_delts"
+    ],
+    "secondaryMuscles": [
+      "triceps",
+      "upper_chest"
+    ],
+    "muscleActivationMap": {
+      "front_delts": 0.88,
+      "side_delts": 0.72,
+      "triceps": 0.6,
+      "upper_chest": 0.38
+    },
+    "difficultyLevel": 1,
+    "skillRequirement": 1,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [
+      "machine"
+    ],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "gym"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 6,
+        "max": 10
+      },
+      "hypertrophy": {
+        "min": 10,
+        "max": 15
+      },
+      "endurance": {
+        "min": 20,
+        "max": 25
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 90,
+      "hypertrophy": 60,
+      "endurance": 45
+    },
+    "metValue": 4.5,
+    "intensityFactor": 0.65,
+    "contraindications": [
+      "shoulder_injury"
+    ],
+    "formCues": [
+      "Back stays against pad",
+      "Full extension at top",
+      "Control the weight",
+      "Don't bounce at bottom",
+      "Keep core engaged"
+    ],
+    "commonMistakes": [
+      "Arching back off pad",
+      "Partial range of motion",
+      "Using momentum",
+      "Incorrect seat height",
+      "Grip too wide or narrow"
+    ],
+    "easierVariation": null,
+    "harderVariation": "dumbbell-shoulder-press",
+    "alternativeExercises": [
+      "dumbbell-shoulder-press",
+      "barbell-overhead-press",
+      "landmine-press"
+    ],
+    "tags": [
+      "compound",
+      "pressing",
+      "shoulders",
+      "machine",
+      "beginner-friendly",
+      "safe-to-failure"
+    ],
+    "suitableGoals": [
+      "MUSCLE_GAIN",
+      "GENERAL_FITNESS"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 4,
+      "lightlyActive": 5,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 4
+    },
+    "experienceLevelSuitability": {
+      "never": 5,
+      "lessThan6Mo": 5,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 4,
+      "fivePlusYr": 3
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.4,
+      "muscleGain": 0.8,
+      "strength": 0.72,
+      "endurance": 0.5,
+      "flexibility": 0.1,
+      "generalFitness": 0.72
+    },
+    "estimatedTimePerSet": 30,
+    "setupTimeSeconds": 30,
+    "homeCompatibility": 0.05,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.0
+  },
+  {
+    "name": "Single-Arm Dumbbell Press",
+    "slug": "single-arm-dumbbell-press",
+    "description": "A unilateral overhead press performed with one dumbbell at a time, demanding increased core stability and addressing strength imbalances. The asymmetric loading challenges anti-rotation and anti-lateral flexion.",
+    "instructions": [
+      "Stand or sit with one dumbbell at shoulder height",
+      "Brace core firmly against rotation",
+      "Press dumbbell overhead to full extension",
+      "Keep torso straight, don't lean to opposite side",
+      "Lower with control, complete all reps then switch arms"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "VERTICAL_PUSH",
+    "exerciseType": "COMPOUND",
+    "primaryMuscles": [
+      "front_delts",
+      "side_delts"
+    ],
+    "secondaryMuscles": [
+      "triceps",
+      "core",
+      "obliques"
+    ],
+    "muscleActivationMap": {
+      "front_delts": 0.88,
+      "side_delts": 0.75,
+      "triceps": 0.62,
+      "core": 0.75,
+      "obliques": 0.65
+    },
+    "difficultyLevel": 3,
+    "skillRequirement": 3,
+    "isBeginnerFriendly": false,
+    "equipmentRequired": [
+      "dumbbell"
+    ],
+    "equipmentOptional": [
+      "bench"
+    ],
+    "suitableLocations": [
+      "gym",
+      "home"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 5,
+        "max": 8
+      },
+      "hypertrophy": {
+        "min": 8,
+        "max": 12
+      },
+      "endurance": {
+        "min": 15,
+        "max": 20
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 90,
+      "hypertrophy": 60,
+      "endurance": 45
+    },
+    "metValue": 5.0,
+    "intensityFactor": 0.7,
+    "contraindications": [
+      "shoulder_injury",
+      "lower_back_injury"
+    ],
+    "formCues": [
+      "Resist rotation throughout",
+      "Keep torso vertical",
+      "Equal reps both sides",
+      "Full range of motion",
+      "Core braced hard"
+    ],
+    "commonMistakes": [
+      "Leaning away from weight",
+      "Rotating torso",
+      "Poor core engagement",
+      "Uneven reps between sides",
+      "Rushing movement"
+    ],
+    "easierVariation": "dumbbell-shoulder-press",
+    "harderVariation": "standing-dumbbell-shoulder-press",
+    "alternativeExercises": [
+      "dumbbell-shoulder-press",
+      "standing-dumbbell-shoulder-press",
+      "landmine-press"
+    ],
+    "tags": [
+      "compound",
+      "pressing",
+      "shoulders",
+      "dumbbell",
+      "unilateral",
+      "core",
+      "anti-rotation"
+    ],
+    "suitableGoals": [
+      "MUSCLE_GAIN",
+      "STRENGTH"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 2,
+      "lightlyActive": 3,
+      "moderatelyActive": 4,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 2,
+      "lessThan6Mo": 3,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.5,
+      "muscleGain": 0.82,
+      "strength": 0.78,
+      "endurance": 0.45,
+      "flexibility": 0.15,
+      "generalFitness": 0.8
+    },
+    "estimatedTimePerSet": 45,
+    "setupTimeSeconds": 15,
+    "homeCompatibility": 0.9,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.5
+  },
+  {
+    "name": "Dumbbell Lateral Raise",
+    "slug": "dumbbell-lateral-raise",
+    "description": "The fundamental isolation exercise for the side deltoids, raising dumbbells out to the sides to shoulder height. This movement builds shoulder width and the coveted 'capped' shoulder look.",
+    "instructions": [
+      "Stand with dumbbells at sides, palms facing body",
+      "Keep slight bend in elbows throughout movement",
+      "Raise arms out to sides until parallel to floor",
+      "Lead with elbows, not hands",
+      "Lower with control back to starting position"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "ABDUCTION",
+    "exerciseType": "ISOLATION",
+    "primaryMuscles": [
+      "side_delts"
+    ],
+    "secondaryMuscles": [
+      "front_delts",
+      "traps"
+    ],
+    "muscleActivationMap": {
+      "side_delts": 0.95,
+      "front_delts": 0.4,
+      "traps": 0.35
+    },
+    "difficultyLevel": 2,
+    "skillRequirement": 2,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [
+      "dumbbell"
+    ],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "gym",
+      "home"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 8,
+        "max": 12
+      },
+      "hypertrophy": {
+        "min": 12,
+        "max": 20
+      },
+      "endurance": {
+        "min": 25,
+        "max": 35
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 75,
+      "hypertrophy": 45,
+      "endurance": 30
+    },
+    "metValue": 3.5,
+    "intensityFactor": 0.5,
+    "contraindications": [
+      "shoulder_injury",
+      "rotator_cuff_injury"
+    ],
+    "formCues": [
+      "Lead with elbows",
+      "Slight bend in elbows",
+      "Raise to shoulder height only",
+      "Control the descent",
+      "Don't swing or use momentum"
+    ],
+    "commonMistakes": [
+      "Using momentum",
+      "Raising too high",
+      "Straight arms",
+      "Leading with hands",
+      "Shrugging shoulders"
+    ],
+    "easierVariation": "machine-lateral-raise",
+    "harderVariation": "leaning-lateral-raise",
+    "alternativeExercises": [
+      "cable-lateral-raise",
+      "machine-lateral-raise",
+      "band-lateral-raise"
+    ],
+    "tags": [
+      "isolation",
+      "shoulders",
+      "side-delts",
+      "dumbbell",
+      "width-builder"
+    ],
+    "suitableGoals": [
+      "MUSCLE_GAIN"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 3,
+      "lightlyActive": 4,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 4,
+      "lessThan6Mo": 5,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.25,
+      "muscleGain": 0.9,
+      "strength": 0.55,
+      "endurance": 0.5,
+      "flexibility": 0.15,
+      "generalFitness": 0.6
+    },
+    "estimatedTimePerSet": 30,
+    "setupTimeSeconds": 10,
+    "homeCompatibility": 0.95,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.5
+  },
+  {
+    "name": "Cable Lateral Raise",
+    "slug": "cable-lateral-raise",
+    "description": "A lateral raise performed with a cable providing constant tension throughout the range of motion. The cable resistance curve eliminates the dead spot at the bottom of the movement.",
+    "instructions": [
+      "Stand beside low cable with handle in far hand",
+      "Arm starts across body or at side",
+      "Raise arm out to side until parallel to floor",
+      "Keep slight bend in elbow throughout",
+      "Lower with control, complete all reps then switch"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "ABDUCTION",
+    "exerciseType": "ISOLATION",
+    "primaryMuscles": [
+      "side_delts"
+    ],
+    "secondaryMuscles": [
+      "front_delts",
+      "traps"
+    ],
+    "muscleActivationMap": {
+      "side_delts": 0.95,
+      "front_delts": 0.38,
+      "traps": 0.32
+    },
+    "difficultyLevel": 2,
+    "skillRequirement": 2,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [
+      "cable"
+    ],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "gym"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 10,
+        "max": 15
+      },
+      "hypertrophy": {
+        "min": 15,
+        "max": 20
+      },
+      "endurance": {
+        "min": 25,
+        "max": 30
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 60,
+      "hypertrophy": 45,
+      "endurance": 30
+    },
+    "metValue": 3.5,
+    "intensityFactor": 0.52,
+    "contraindications": [
+      "shoulder_injury",
+      "rotator_cuff_injury"
+    ],
+    "formCues": [
+      "Constant tension throughout",
+      "Lead with elbow",
+      "Control both phases",
+      "Don't lean away",
+      "Slight elbow bend"
+    ],
+    "commonMistakes": [
+      "Leaning to create momentum",
+      "Jerky movement",
+      "Going too heavy",
+      "Raising too high",
+      "Straight arm"
+    ],
+    "easierVariation": "machine-lateral-raise",
+    "harderVariation": "leaning-lateral-raise",
+    "alternativeExercises": [
+      "dumbbell-lateral-raise",
+      "machine-lateral-raise",
+      "band-lateral-raise"
+    ],
+    "tags": [
+      "isolation",
+      "shoulders",
+      "side-delts",
+      "cable",
+      "constant-tension"
+    ],
+    "suitableGoals": [
+      "MUSCLE_GAIN"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 3,
+      "lightlyActive": 4,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 4,
+      "lessThan6Mo": 5,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.25,
+      "muscleGain": 0.92,
+      "strength": 0.55,
+      "endurance": 0.52,
+      "flexibility": 0.15,
+      "generalFitness": 0.58
+    },
+    "estimatedTimePerSet": 35,
+    "setupTimeSeconds": 20,
+    "homeCompatibility": 0.1,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.0
+  },
+  {
+    "name": "Leaning Lateral Raise",
+    "slug": "leaning-lateral-raise",
+    "description": "A lateral raise variation performed while holding a sturdy object and leaning away, increasing the range of motion and stretch on the side deltoid. The angle change intensifies the exercise at the bottom portion.",
+    "instructions": [
+      "Hold a sturdy upright with one hand, dumbbell in other",
+      "Lean away from support, arm hanging straight down",
+      "Raise dumbbell out to side to shoulder height",
+      "Keep slight elbow bend and lead with elbow",
+      "Lower with control, complete all reps then switch"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "ABDUCTION",
+    "exerciseType": "ISOLATION",
+    "primaryMuscles": [
+      "side_delts"
+    ],
+    "secondaryMuscles": [
+      "front_delts",
+      "traps"
+    ],
+    "muscleActivationMap": {
+      "side_delts": 0.98,
+      "front_delts": 0.4,
+      "traps": 0.35
+    },
+    "difficultyLevel": 3,
+    "skillRequirement": 2,
+    "isBeginnerFriendly": false,
+    "equipmentRequired": [
+      "dumbbell"
+    ],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "gym"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 8,
+        "max": 12
+      },
+      "hypertrophy": {
+        "min": 12,
+        "max": 18
+      },
+      "endurance": {
+        "min": 20,
+        "max": 25
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 75,
+      "hypertrophy": 45,
+      "endurance": 30
+    },
+    "metValue": 3.5,
+    "intensityFactor": 0.55,
+    "contraindications": [
+      "shoulder_injury",
+      "rotator_cuff_injury"
+    ],
+    "formCues": [
+      "Lean at consistent angle",
+      "Full stretch at bottom",
+      "Lead with elbow",
+      "Control throughout",
+      "Don't swing the weight"
+    ],
+    "commonMistakes": [
+      "Not leaning enough",
+      "Using momentum",
+      "Losing lean angle",
+      "Shrugging at top",
+      "Partial range of motion"
+    ],
+    "easierVariation": "dumbbell-lateral-raise",
+    "harderVariation": "cable-lateral-raise",
+    "alternativeExercises": [
+      "dumbbell-lateral-raise",
+      "cable-lateral-raise",
+      "machine-lateral-raise"
+    ],
+    "tags": [
+      "isolation",
+      "shoulders",
+      "side-delts",
+      "dumbbell",
+      "stretch",
+      "increased-ROM"
+    ],
+    "suitableGoals": [
+      "MUSCLE_GAIN"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 2,
+      "lightlyActive": 3,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 2,
+      "lessThan6Mo": 3,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.25,
+      "muscleGain": 0.95,
+      "strength": 0.58,
+      "endurance": 0.48,
+      "flexibility": 0.2,
+      "generalFitness": 0.58
+    },
+    "estimatedTimePerSet": 35,
+    "setupTimeSeconds": 15,
+    "homeCompatibility": 0.6,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.3
+  },
+  {
+    "name": "Machine Lateral Raise",
+    "slug": "machine-lateral-raise",
+    "description": "A lateral raise performed on a machine with pads at the elbows, providing consistent resistance and eliminating balance demands. This beginner-friendly option allows focus on the side deltoid contraction.",
+    "instructions": [
+      "Sit in machine with back against pad",
+      "Position elbows against arm pads at sides",
+      "Grip handles or place hands on pads",
+      "Raise arms out to sides until parallel to floor",
+      "Lower with control back to starting position"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "ABDUCTION",
+    "exerciseType": "ISOLATION",
+    "primaryMuscles": [
+      "side_delts"
+    ],
+    "secondaryMuscles": [
+      "front_delts",
+      "traps"
+    ],
+    "muscleActivationMap": {
+      "side_delts": 0.9,
+      "front_delts": 0.35,
+      "traps": 0.3
+    },
+    "difficultyLevel": 1,
+    "skillRequirement": 1,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [
+      "machine"
+    ],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "gym"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 10,
+        "max": 15
+      },
+      "hypertrophy": {
+        "min": 15,
+        "max": 20
+      },
+      "endurance": {
+        "min": 25,
+        "max": 35
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 60,
+      "hypertrophy": 45,
+      "endurance": 30
+    },
+    "metValue": 3.0,
+    "intensityFactor": 0.48,
+    "contraindications": [
+      "shoulder_injury"
+    ],
+    "formCues": [
+      "Stay against back pad",
+      "Smooth controlled motion",
+      "Full range of motion",
+      "Don't shrug shoulders",
+      "Keep tension throughout"
+    ],
+    "commonMistakes": [
+      "Jerky movements",
+      "Partial range of motion",
+      "Lifting off seat",
+      "Shrugging shoulders",
+      "Going too heavy"
+    ],
+    "easierVariation": null,
+    "harderVariation": "dumbbell-lateral-raise",
+    "alternativeExercises": [
+      "dumbbell-lateral-raise",
+      "cable-lateral-raise",
+      "band-lateral-raise"
+    ],
+    "tags": [
+      "isolation",
+      "shoulders",
+      "side-delts",
+      "machine",
+      "beginner-friendly"
+    ],
+    "suitableGoals": [
+      "MUSCLE_GAIN"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 4,
+      "lightlyActive": 5,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 4
+    },
+    "experienceLevelSuitability": {
+      "never": 5,
+      "lessThan6Mo": 5,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 4,
+      "fivePlusYr": 3
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.2,
+      "muscleGain": 0.82,
+      "strength": 0.5,
+      "endurance": 0.5,
+      "flexibility": 0.1,
+      "generalFitness": 0.55
+    },
+    "estimatedTimePerSet": 30,
+    "setupTimeSeconds": 20,
+    "homeCompatibility": 0.05,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.0
+  },
+  {
+    "name": "Y-Raise",
+    "slug": "y-raise",
+    "description": "A shoulder exercise raising arms diagonally to form a Y-shape, targeting the side and front deltoids along with the lower trapezius. This movement promotes shoulder health and scapular stability.",
+    "instructions": [
+      "Stand or lie prone on incline bench holding light dumbbells",
+      "Start with arms hanging down or at sides",
+      "Raise arms diagonally to form a Y-shape overhead",
+      "Keep thumbs pointing up throughout movement",
+      "Lower with control back to starting position"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "ABDUCTION",
+    "exerciseType": "ISOLATION",
+    "primaryMuscles": [
+      "side_delts",
+      "front_delts"
+    ],
+    "secondaryMuscles": [
+      "traps",
+      "rear_delts"
+    ],
+    "muscleActivationMap": {
+      "side_delts": 0.82,
+      "front_delts": 0.75,
+      "traps": 0.55,
+      "rear_delts": 0.35
+    },
+    "difficultyLevel": 2,
+    "skillRequirement": 2,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [
+      "dumbbell"
+    ],
+    "equipmentOptional": [
+      "bench"
+    ],
+    "suitableLocations": [
+      "gym",
+      "home"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 10,
+        "max": 15
+      },
+      "hypertrophy": {
+        "min": 15,
+        "max": 20
+      },
+      "endurance": {
+        "min": 25,
+        "max": 35
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 60,
+      "hypertrophy": 45,
+      "endurance": 30
+    },
+    "metValue": 3.0,
+    "intensityFactor": 0.45,
+    "contraindications": [
+      "shoulder_injury"
+    ],
+    "formCues": [
+      "Arms form Y-shape at top",
+      "Thumbs point up",
+      "Control the movement",
+      "Keep shoulders down",
+      "Use light weight"
+    ],
+    "commonMistakes": [
+      "Using too heavy weight",
+      "Arms too vertical or horizontal",
+      "Shrugging shoulders",
+      "Jerky movements",
+      "Thumbs rotating down"
+    ],
+    "easierVariation": "band-lateral-raise",
+    "harderVariation": "dumbbell-lateral-raise",
+    "alternativeExercises": [
+      "dumbbell-lateral-raise",
+      "dumbbell-front-raise",
+      "prone-y-t-w-raises"
+    ],
+    "tags": [
+      "isolation",
+      "shoulders",
+      "side-delts",
+      "front-delts",
+      "traps",
+      "shoulder-health"
+    ],
+    "suitableGoals": [
+      "MUSCLE_GAIN",
+      "GENERAL_FITNESS"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 4,
+      "lightlyActive": 5,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 4,
+      "lessThan6Mo": 5,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.25,
+      "muscleGain": 0.72,
+      "strength": 0.5,
+      "endurance": 0.55,
+      "flexibility": 0.25,
+      "generalFitness": 0.7
+    },
+    "estimatedTimePerSet": 30,
+    "setupTimeSeconds": 10,
+    "homeCompatibility": 0.9,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.6
+  },
+  {
+    "name": "Lu Raise",
+    "slug": "lu-raise",
+    "description": "A shoulder exercise made famous by Olympic weightlifter Lu Xiaojun, combining a lateral raise with an overhead press in one fluid motion. This movement builds shoulder endurance and stability across multiple angles.",
+    "instructions": [
+      "Stand with light dumbbells at sides",
+      "Perform lateral raise to shoulder height, arms parallel to floor",
+      "From there, press dumbbells overhead to lockout",
+      "Lower back to lateral raise position (arms parallel to floor)",
+      "Lower back to sides to complete one rep"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "ABDUCTION",
+    "exerciseType": "COMPOUND",
+    "primaryMuscles": [
+      "side_delts",
+      "front_delts"
+    ],
+    "secondaryMuscles": [
+      "traps",
+      "triceps"
+    ],
+    "muscleActivationMap": {
+      "side_delts": 0.9,
+      "front_delts": 0.85,
+      "traps": 0.55,
+      "triceps": 0.45
+    },
+    "difficultyLevel": 3,
+    "skillRequirement": 3,
+    "isBeginnerFriendly": false,
+    "equipmentRequired": [
+      "dumbbell"
+    ],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "gym",
+      "home"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 6,
+        "max": 10
+      },
+      "hypertrophy": {
+        "min": 10,
+        "max": 15
+      },
+      "endurance": {
+        "min": 20,
+        "max": 30
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 90,
+      "hypertrophy": 60,
+      "endurance": 45
+    },
+    "metValue": 4.5,
+    "intensityFactor": 0.6,
+    "contraindications": [
+      "shoulder_injury",
+      "rotator_cuff_injury"
+    ],
+    "formCues": [
+      "Pause at lateral raise position",
+      "Full lockout overhead",
+      "Control all phases",
+      "Use light weight",
+      "Keep core engaged"
+    ],
+    "commonMistakes": [
+      "Using too heavy weight",
+      "Skipping the pause at shoulder height",
+      "Rushing through phases",
+      "Poor lockout overhead",
+      "Momentum from body"
+    ],
+    "easierVariation": "dumbbell-lateral-raise",
+    "harderVariation": "standing-dumbbell-shoulder-press",
+    "alternativeExercises": [
+      "dumbbell-lateral-raise",
+      "dumbbell-shoulder-press",
+      "arnold-press"
+    ],
+    "tags": [
+      "compound",
+      "shoulders",
+      "side-delts",
+      "front-delts",
+      "dumbbell",
+      "olympic"
+    ],
+    "suitableGoals": [
+      "MUSCLE_GAIN",
+      "ENDURANCE"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 1,
+      "lightlyActive": 2,
+      "moderatelyActive": 4,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 1,
+      "lessThan6Mo": 2,
+      "sixTo24Mo": 4,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.35,
+      "muscleGain": 0.82,
+      "strength": 0.65,
+      "endurance": 0.7,
+      "flexibility": 0.2,
+      "generalFitness": 0.75
+    },
+    "estimatedTimePerSet": 45,
+    "setupTimeSeconds": 10,
+    "homeCompatibility": 0.9,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.5
+  },
+  {
+    "name": "Band Lateral Raise",
+    "slug": "band-lateral-raise",
+    "description": "A lateral raise using resistance bands that provides accommodating resistance, increasing tension at the top of the movement. This accessible variation is perfect for home workouts and warm-ups.",
+    "instructions": [
+      "Stand on center of resistance band, handles in each hand",
+      "Start with arms at sides, band with some tension",
+      "Raise arms out to sides until parallel to floor",
+      "Lead with elbows, keep slight elbow bend",
+      "Lower with control, maintaining band tension"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "ABDUCTION",
+    "exerciseType": "ISOLATION",
+    "primaryMuscles": [
+      "side_delts"
+    ],
+    "secondaryMuscles": [
+      "front_delts",
+      "traps"
+    ],
+    "muscleActivationMap": {
+      "side_delts": 0.85,
+      "front_delts": 0.35,
+      "traps": 0.3
+    },
+    "difficultyLevel": 1,
+    "skillRequirement": 1,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [
+      "resistance_band"
+    ],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "home",
+      "gym",
+      "outdoor"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 12,
+        "max": 15
+      },
+      "hypertrophy": {
+        "min": 15,
+        "max": 25
+      },
+      "endurance": {
+        "min": 30,
+        "max": 40
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 60,
+      "hypertrophy": 45,
+      "endurance": 20
+    },
+    "metValue": 3.0,
+    "intensityFactor": 0.42,
+    "contraindications": [
+      "shoulder_injury"
+    ],
+    "formCues": [
+      "Constant tension on band",
+      "Lead with elbows",
+      "Control at top",
+      "Smooth motion",
+      "Don't let band snap back"
+    ],
+    "commonMistakes": [
+      "Letting band go slack",
+      "Jerky movements",
+      "Shrugging shoulders",
+      "Raising too high",
+      "Standing on band unevenly"
+    ],
+    "easierVariation": null,
+    "harderVariation": "dumbbell-lateral-raise",
+    "alternativeExercises": [
+      "dumbbell-lateral-raise",
+      "cable-lateral-raise",
+      "machine-lateral-raise"
+    ],
+    "tags": [
+      "isolation",
+      "shoulders",
+      "side-delts",
+      "resistance-band",
+      "home-friendly",
+      "beginner-friendly"
+    ],
+    "suitableGoals": [
+      "MUSCLE_GAIN",
+      "GENERAL_FITNESS"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 5,
+      "lightlyActive": 5,
+      "moderatelyActive": 5,
+      "veryActive": 4,
+      "athlete": 3
+    },
+    "experienceLevelSuitability": {
+      "never": 5,
+      "lessThan6Mo": 5,
+      "sixTo24Mo": 4,
+      "twoTo5Yr": 3,
+      "fivePlusYr": 3
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.25,
+      "muscleGain": 0.7,
+      "strength": 0.45,
+      "endurance": 0.6,
+      "flexibility": 0.15,
+      "generalFitness": 0.7
+    },
+    "estimatedTimePerSet": 30,
+    "setupTimeSeconds": 10,
+    "homeCompatibility": 1.0,
+    "gymCompatibility": 0.9,
+    "outdoorCompatibility": 0.9
+  },
+  {
+    "name": "Dumbbell Front Raise",
+    "slug": "dumbbell-front-raise",
+    "description": "An isolation exercise targeting the front deltoids by raising dumbbells in front of the body to shoulder height. This movement builds anterior shoulder development and complements pressing exercises.",
+    "instructions": [
+      "Stand with dumbbells at thighs, palms facing body",
+      "Keep slight bend in elbows throughout",
+      "Raise one or both dumbbells in front to shoulder height",
+      "Keep torso stable, don't lean back",
+      "Lower with control back to starting position"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "FLEXION",
+    "exerciseType": "ISOLATION",
+    "primaryMuscles": [
+      "front_delts"
+    ],
+    "secondaryMuscles": [
+      "side_delts",
+      "upper_chest"
+    ],
+    "muscleActivationMap": {
+      "front_delts": 0.95,
+      "side_delts": 0.35,
+      "upper_chest": 0.3
+    },
+    "difficultyLevel": 2,
+    "skillRequirement": 1,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [
+      "dumbbell"
+    ],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "gym",
+      "home"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 8,
+        "max": 12
+      },
+      "hypertrophy": {
+        "min": 12,
+        "max": 18
+      },
+      "endurance": {
+        "min": 20,
+        "max": 30
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 75,
+      "hypertrophy": 45,
+      "endurance": 30
+    },
+    "metValue": 3.5,
+    "intensityFactor": 0.48,
+    "contraindications": [
+      "shoulder_injury"
+    ],
+    "formCues": [
+      "Raise to shoulder height only",
+      "Control the descent",
+      "Don't swing",
+      "Keep core tight",
+      "Slight elbow bend"
+    ],
+    "commonMistakes": [
+      "Using momentum",
+      "Raising too high",
+      "Leaning back",
+      "Swinging weights",
+      "Straight arms"
+    ],
+    "easierVariation": "alternating-dumbbell-front-raise",
+    "harderVariation": "barbell-front-raise",
+    "alternativeExercises": [
+      "cable-front-raise",
+      "plate-front-raise",
+      "barbell-front-raise"
+    ],
+    "tags": [
+      "isolation",
+      "shoulders",
+      "front-delts",
+      "dumbbell"
+    ],
+    "suitableGoals": [
+      "MUSCLE_GAIN"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 3,
+      "lightlyActive": 4,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 4,
+      "lessThan6Mo": 5,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 4
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.25,
+      "muscleGain": 0.85,
+      "strength": 0.52,
+      "endurance": 0.5,
+      "flexibility": 0.1,
+      "generalFitness": 0.58
+    },
+    "estimatedTimePerSet": 30,
+    "setupTimeSeconds": 10,
+    "homeCompatibility": 0.95,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.5
+  },
+  {
+    "name": "Cable Front Raise",
+    "slug": "cable-front-raise",
+    "description": "A front raise performed with a cable providing constant tension throughout the entire range of motion. The cable eliminates dead spots and allows for controlled, focused front deltoid work.",
+    "instructions": [
+      "Stand facing away from low cable with handle in one or both hands",
+      "Start with arm(s) behind body or at sides",
+      "Raise arm(s) in front until parallel to floor",
+      "Keep slight elbow bend, core engaged",
+      "Lower with control back to starting position"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "FLEXION",
+    "exerciseType": "ISOLATION",
+    "primaryMuscles": [
+      "front_delts"
+    ],
+    "secondaryMuscles": [
+      "side_delts",
+      "upper_chest"
+    ],
+    "muscleActivationMap": {
+      "front_delts": 0.92,
+      "side_delts": 0.32,
+      "upper_chest": 0.28
+    },
+    "difficultyLevel": 2,
+    "skillRequirement": 2,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [
+      "cable"
+    ],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "gym"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 10,
+        "max": 15
+      },
+      "hypertrophy": {
+        "min": 15,
+        "max": 20
+      },
+      "endurance": {
+        "min": 25,
+        "max": 30
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 60,
+      "hypertrophy": 45,
+      "endurance": 30
+    },
+    "metValue": 3.5,
+    "intensityFactor": 0.5,
+    "contraindications": [
+      "shoulder_injury"
+    ],
+    "formCues": [
+      "Constant cable tension",
+      "Smooth controlled motion",
+      "Don't lean forward or back",
+      "Stop at shoulder height",
+      "Control the negative"
+    ],
+    "commonMistakes": [
+      "Using body momentum",
+      "Raising too high",
+      "Jerky movements",
+      "Leaning into cable",
+      "Going too heavy"
+    ],
+    "easierVariation": "dumbbell-front-raise",
+    "harderVariation": "barbell-front-raise",
+    "alternativeExercises": [
+      "dumbbell-front-raise",
+      "plate-front-raise",
+      "barbell-front-raise"
+    ],
+    "tags": [
+      "isolation",
+      "shoulders",
+      "front-delts",
+      "cable",
+      "constant-tension"
+    ],
+    "suitableGoals": [
+      "MUSCLE_GAIN"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 3,
+      "lightlyActive": 4,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 4,
+      "lessThan6Mo": 5,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 4
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.25,
+      "muscleGain": 0.88,
+      "strength": 0.52,
+      "endurance": 0.52,
+      "flexibility": 0.1,
+      "generalFitness": 0.58
+    },
+    "estimatedTimePerSet": 30,
+    "setupTimeSeconds": 20,
+    "homeCompatibility": 0.1,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.0
+  },
+  {
+    "name": "Plate Front Raise",
+    "slug": "plate-front-raise",
+    "description": "A front raise using a weight plate held at the edges, providing a neutral grip and engaging the forearms along with the front deltoids. The plate grip variation adds unique muscle recruitment.",
+    "instructions": [
+      "Stand holding weight plate at 3 and 9 o'clock positions",
+      "Start with plate at thigh level",
+      "Raise plate in front until arms parallel to floor",
+      "Keep arms slightly bent, core tight",
+      "Lower with control back to thighs"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "FLEXION",
+    "exerciseType": "ISOLATION",
+    "primaryMuscles": [
+      "front_delts"
+    ],
+    "secondaryMuscles": [
+      "side_delts",
+      "forearms",
+      "upper_chest"
+    ],
+    "muscleActivationMap": {
+      "front_delts": 0.9,
+      "side_delts": 0.35,
+      "forearms": 0.45,
+      "upper_chest": 0.3
+    },
+    "difficultyLevel": 2,
+    "skillRequirement": 1,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [
+      "plate"
+    ],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "gym",
+      "home"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 10,
+        "max": 15
+      },
+      "hypertrophy": {
+        "min": 15,
+        "max": 20
+      },
+      "endurance": {
+        "min": 25,
+        "max": 35
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 60,
+      "hypertrophy": 45,
+      "endurance": 30
+    },
+    "metValue": 3.5,
+    "intensityFactor": 0.48,
+    "contraindications": [
+      "shoulder_injury",
+      "wrist_injury"
+    ],
+    "formCues": [
+      "Grip plate firmly at edges",
+      "Control throughout",
+      "Don't swing",
+      "Raise to shoulder height",
+      "Core stays engaged"
+    ],
+    "commonMistakes": [
+      "Using momentum",
+      "Grip slipping",
+      "Raising too high",
+      "Leaning backward",
+      "Going too heavy"
+    ],
+    "easierVariation": "dumbbell-front-raise",
+    "harderVariation": "barbell-front-raise",
+    "alternativeExercises": [
+      "dumbbell-front-raise",
+      "cable-front-raise",
+      "barbell-front-raise"
+    ],
+    "tags": [
+      "isolation",
+      "shoulders",
+      "front-delts",
+      "plate",
+      "grip-work"
+    ],
+    "suitableGoals": [
+      "MUSCLE_GAIN",
+      "GENERAL_FITNESS"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 3,
+      "lightlyActive": 4,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 4,
+      "lessThan6Mo": 5,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 4
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.25,
+      "muscleGain": 0.82,
+      "strength": 0.52,
+      "endurance": 0.52,
+      "flexibility": 0.1,
+      "generalFitness": 0.62
+    },
+    "estimatedTimePerSet": 30,
+    "setupTimeSeconds": 10,
+    "homeCompatibility": 0.7,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.3
+  },
+  {
+    "name": "Barbell Front Raise",
+    "slug": "barbell-front-raise",
+    "description": "A front raise using a barbell for bilateral loading of the front deltoids. The fixed bar path challenges both shoulders equally and allows for slightly heavier loading than dumbbell variations.",
+    "instructions": [
+      "Stand holding barbell at thighs with overhand grip, shoulder-width",
+      "Keep slight bend in elbows throughout",
+      "Raise bar in front until parallel to floor",
+      "Keep torso upright, core engaged",
+      "Lower with control back to thighs"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "FLEXION",
+    "exerciseType": "ISOLATION",
+    "primaryMuscles": [
+      "front_delts"
+    ],
+    "secondaryMuscles": [
+      "side_delts",
+      "upper_chest"
+    ],
+    "muscleActivationMap": {
+      "front_delts": 0.92,
+      "side_delts": 0.38,
+      "upper_chest": 0.32
+    },
+    "difficultyLevel": 2,
+    "skillRequirement": 2,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [
+      "barbell"
+    ],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "gym"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 8,
+        "max": 12
+      },
+      "hypertrophy": {
+        "min": 12,
+        "max": 15
+      },
+      "endurance": {
+        "min": 20,
+        "max": 25
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 75,
+      "hypertrophy": 45,
+      "endurance": 30
+    },
+    "metValue": 3.5,
+    "intensityFactor": 0.52,
+    "contraindications": [
+      "shoulder_injury",
+      "wrist_injury"
+    ],
+    "formCues": [
+      "Shoulder-width grip",
+      "Raise to shoulder height",
+      "Don't swing",
+      "Keep elbows slightly bent",
+      "Control both phases"
+    ],
+    "commonMistakes": [
+      "Using momentum",
+      "Raising above shoulders",
+      "Grip too wide or narrow",
+      "Leaning back",
+      "Locking elbows"
+    ],
+    "easierVariation": "dumbbell-front-raise",
+    "harderVariation": null,
+    "alternativeExercises": [
+      "dumbbell-front-raise",
+      "cable-front-raise",
+      "plate-front-raise"
+    ],
+    "tags": [
+      "isolation",
+      "shoulders",
+      "front-delts",
+      "barbell"
+    ],
+    "suitableGoals": [
+      "MUSCLE_GAIN"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 2,
+      "lightlyActive": 3,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 3,
+      "lessThan6Mo": 4,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.25,
+      "muscleGain": 0.85,
+      "strength": 0.55,
+      "endurance": 0.48,
+      "flexibility": 0.1,
+      "generalFitness": 0.58
+    },
+    "estimatedTimePerSet": 30,
+    "setupTimeSeconds": 20,
+    "homeCompatibility": 0.4,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.1
+  },
+  {
+    "name": "Alternating Dumbbell Front Raise",
+    "slug": "alternating-dumbbell-front-raise",
+    "description": "A front raise variation alternating one arm at a time, allowing focus on each shoulder independently while providing continuous work. This variation extends time under tension and improves mind-muscle connection.",
+    "instructions": [
+      "Stand with dumbbells at thighs, palms facing body",
+      "Raise one dumbbell to shoulder height while other stays at side",
+      "Lower the raised arm with control",
+      "Raise opposite arm as first arm lowers or completes",
+      "Continue alternating for target reps"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "FLEXION",
+    "exerciseType": "ISOLATION",
+    "primaryMuscles": [
+      "front_delts"
+    ],
+    "secondaryMuscles": [
+      "side_delts",
+      "upper_chest"
+    ],
+    "muscleActivationMap": {
+      "front_delts": 0.92,
+      "side_delts": 0.35,
+      "upper_chest": 0.28
+    },
+    "difficultyLevel": 1,
+    "skillRequirement": 1,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [
+      "dumbbell"
+    ],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "gym",
+      "home"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 10,
+        "max": 15
+      },
+      "hypertrophy": {
+        "min": 16,
+        "max": 24
+      },
+      "endurance": {
+        "min": 30,
+        "max": 40
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 60,
+      "hypertrophy": 45,
+      "endurance": 30
+    },
+    "metValue": 3.5,
+    "intensityFactor": 0.45,
+    "contraindications": [
+      "shoulder_injury"
+    ],
+    "formCues": [
+      "Smooth alternating rhythm",
+      "Control each rep",
+      "Don't swing body",
+      "Equal work both sides",
+      "Keep core engaged"
+    ],
+    "commonMistakes": [
+      "Swinging or twisting torso",
+      "Rushing the movement",
+      "Uneven height between arms",
+      "Using momentum",
+      "Leaning back"
+    ],
+    "easierVariation": null,
+    "harderVariation": "dumbbell-front-raise",
+    "alternativeExercises": [
+      "dumbbell-front-raise",
+      "cable-front-raise",
+      "plate-front-raise"
+    ],
+    "tags": [
+      "isolation",
+      "shoulders",
+      "front-delts",
+      "dumbbell",
+      "alternating",
+      "beginner-friendly"
+    ],
+    "suitableGoals": [
+      "MUSCLE_GAIN",
+      "GENERAL_FITNESS"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 4,
+      "lightlyActive": 5,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 4
+    },
+    "experienceLevelSuitability": {
+      "never": 5,
+      "lessThan6Mo": 5,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 4,
+      "fivePlusYr": 4
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.28,
+      "muscleGain": 0.8,
+      "strength": 0.48,
+      "endurance": 0.55,
+      "flexibility": 0.1,
+      "generalFitness": 0.65
+    },
+    "estimatedTimePerSet": 35,
+    "setupTimeSeconds": 10,
+    "homeCompatibility": 0.95,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.5
+  },
+  {
+    "name": "Reverse Pec Deck",
+    "slug": "reverse-pec-deck",
+    "description": "A machine exercise targeting the rear deltoids by pulling handles apart in a reverse fly motion. The machine path provides consistent resistance and is excellent for isolating the posterior shoulder.",
+    "instructions": [
+      "Sit facing the pec deck machine, chest against pad",
+      "Grip handles with arms extended in front",
+      "Keep slight bend in elbows throughout",
+      "Pull handles apart in arc until arms are out to sides",
+      "Squeeze rear delts at end, return with control"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "HORIZONTAL_PULL",
+    "exerciseType": "ISOLATION",
+    "primaryMuscles": [
+      "rear_delts"
+    ],
+    "secondaryMuscles": [
+      "traps",
+      "rhomboids"
+    ],
+    "muscleActivationMap": {
+      "rear_delts": 0.95,
+      "traps": 0.45,
+      "rhomboids": 0.4
+    },
+    "difficultyLevel": 1,
+    "skillRequirement": 1,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [
+      "machine"
+    ],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "gym"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 10,
+        "max": 15
+      },
+      "hypertrophy": {
+        "min": 15,
+        "max": 20
+      },
+      "endurance": {
+        "min": 25,
+        "max": 35
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 60,
+      "hypertrophy": 45,
+      "endurance": 30
+    },
+    "metValue": 3.5,
+    "intensityFactor": 0.5,
+    "contraindications": [
+      "shoulder_injury",
+      "rotator_cuff_injury"
+    ],
+    "formCues": [
+      "Chest stays on pad",
+      "Squeeze at full contraction",
+      "Control the return",
+      "Slight elbow bend",
+      "Lead with elbows"
+    ],
+    "commonMistakes": [
+      "Using too much weight",
+      "Coming off the pad",
+      "Straight arms",
+      "Not squeezing at back",
+      "Jerky movements"
+    ],
+    "easierVariation": null,
+    "harderVariation": "dumbbell-reverse-fly",
+    "alternativeExercises": [
+      "dumbbell-reverse-fly",
+      "cable-reverse-fly",
+      "face-pull"
+    ],
+    "tags": [
+      "isolation",
+      "shoulders",
+      "rear-delts",
+      "machine",
+      "beginner-friendly"
+    ],
+    "suitableGoals": [
+      "MUSCLE_GAIN",
+      "GENERAL_FITNESS"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 4,
+      "lightlyActive": 5,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 5,
+      "lessThan6Mo": 5,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.25,
+      "muscleGain": 0.85,
+      "strength": 0.52,
+      "endurance": 0.5,
+      "flexibility": 0.15,
+      "generalFitness": 0.68
+    },
+    "estimatedTimePerSet": 30,
+    "setupTimeSeconds": 20,
+    "homeCompatibility": 0.05,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.0
+  },
+  {
+    "name": "Dumbbell Reverse Fly",
+    "slug": "dumbbell-reverse-fly",
+    "description": "A rear deltoid isolation exercise performed bent over, lifting dumbbells out to the sides in a reverse fly motion. This movement builds posterior shoulder development and improves posture.",
+    "instructions": [
+      "Bend forward at hips until torso is nearly parallel to floor",
+      "Let dumbbells hang below with palms facing each other",
+      "Raise dumbbells out to sides in arc motion",
+      "Squeeze shoulder blades together at top",
+      "Lower with control back to starting position"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "HORIZONTAL_PULL",
+    "exerciseType": "ISOLATION",
+    "primaryMuscles": [
+      "rear_delts"
+    ],
+    "secondaryMuscles": [
+      "traps",
+      "rhomboids",
+      "back"
+    ],
+    "muscleActivationMap": {
+      "rear_delts": 0.92,
+      "traps": 0.48,
+      "rhomboids": 0.45,
+      "back": 0.3
+    },
+    "difficultyLevel": 2,
+    "skillRequirement": 2,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [
+      "dumbbell"
+    ],
+    "equipmentOptional": [
+      "bench"
+    ],
+    "suitableLocations": [
+      "gym",
+      "home"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 10,
+        "max": 15
+      },
+      "hypertrophy": {
+        "min": 15,
+        "max": 20
+      },
+      "endurance": {
+        "min": 25,
+        "max": 30
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 60,
+      "hypertrophy": 45,
+      "endurance": 30
+    },
+    "metValue": 3.5,
+    "intensityFactor": 0.52,
+    "contraindications": [
+      "shoulder_injury",
+      "lower_back_injury",
+      "rotator_cuff_injury"
+    ],
+    "formCues": [
+      "Keep torso stationary",
+      "Lead with elbows",
+      "Squeeze shoulder blades",
+      "Control the weight",
+      "Slight elbow bend"
+    ],
+    "commonMistakes": [
+      "Using momentum",
+      "Torso rising up",
+      "Straight arms",
+      "Not squeezing at top",
+      "Going too heavy"
+    ],
+    "easierVariation": "reverse-pec-deck",
+    "harderVariation": "cable-reverse-fly",
+    "alternativeExercises": [
+      "reverse-pec-deck",
+      "cable-reverse-fly",
+      "face-pull"
+    ],
+    "tags": [
+      "isolation",
+      "shoulders",
+      "rear-delts",
+      "dumbbell",
+      "posture"
+    ],
+    "suitableGoals": [
+      "MUSCLE_GAIN",
+      "GENERAL_FITNESS"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 3,
+      "lightlyActive": 4,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 3,
+      "lessThan6Mo": 4,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.25,
+      "muscleGain": 0.85,
+      "strength": 0.52,
+      "endurance": 0.5,
+      "flexibility": 0.2,
+      "generalFitness": 0.72
+    },
+    "estimatedTimePerSet": 30,
+    "setupTimeSeconds": 10,
+    "homeCompatibility": 0.9,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.4
+  },
+  {
+    "name": "Cable Reverse Fly",
+    "slug": "cable-reverse-fly",
+    "description": "A rear deltoid isolation using cables for constant tension throughout the movement. The cables provide resistance in both directions, maximizing time under tension for the posterior shoulder.",
+    "instructions": [
+      "Stand in center of cable crossover, grab opposite handles",
+      "Start with arms crossed in front at shoulder height",
+      "Pull handles apart and back in reverse fly motion",
+      "Squeeze rear delts with arms out to sides",
+      "Return to crossed position with control"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "HORIZONTAL_PULL",
+    "exerciseType": "ISOLATION",
+    "primaryMuscles": [
+      "rear_delts"
+    ],
+    "secondaryMuscles": [
+      "traps",
+      "rhomboids"
+    ],
+    "muscleActivationMap": {
+      "rear_delts": 0.95,
+      "traps": 0.45,
+      "rhomboids": 0.42
+    },
+    "difficultyLevel": 2,
+    "skillRequirement": 2,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [
+      "cable"
+    ],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "gym"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 12,
+        "max": 15
+      },
+      "hypertrophy": {
+        "min": 15,
+        "max": 20
+      },
+      "endurance": {
+        "min": 25,
+        "max": 30
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 60,
+      "hypertrophy": 45,
+      "endurance": 30
+    },
+    "metValue": 3.5,
+    "intensityFactor": 0.52,
+    "contraindications": [
+      "shoulder_injury",
+      "rotator_cuff_injury"
+    ],
+    "formCues": [
+      "Constant cable tension",
+      "Squeeze at full contraction",
+      "Control both directions",
+      "Keep slight elbow bend",
+      "Stand stable"
+    ],
+    "commonMistakes": [
+      "Using body momentum",
+      "Not fully contracting",
+      "Straight arms",
+      "Cables going slack",
+      "Rushing reps"
+    ],
+    "easierVariation": "reverse-pec-deck",
+    "harderVariation": "dumbbell-reverse-fly",
+    "alternativeExercises": [
+      "dumbbell-reverse-fly",
+      "reverse-pec-deck",
+      "face-pull"
+    ],
+    "tags": [
+      "isolation",
+      "shoulders",
+      "rear-delts",
+      "cable",
+      "constant-tension"
+    ],
+    "suitableGoals": [
+      "MUSCLE_GAIN"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 3,
+      "lightlyActive": 4,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 3,
+      "lessThan6Mo": 4,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.25,
+      "muscleGain": 0.88,
+      "strength": 0.52,
+      "endurance": 0.52,
+      "flexibility": 0.15,
+      "generalFitness": 0.65
+    },
+    "estimatedTimePerSet": 30,
+    "setupTimeSeconds": 30,
+    "homeCompatibility": 0.1,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.0
+  },
+  {
+    "name": "Face Pull",
+    "slug": "face-pull",
+    "description": "A cable exercise pulling the rope attachment toward the face with external rotation, targeting the rear delts and rotator cuff. This essential movement promotes shoulder health and counters the effects of pressing.",
+    "instructions": [
+      "Set cable at upper chest to face height with rope attachment",
+      "Grip rope with thumbs toward you, step back to create tension",
+      "Pull rope toward face, separating hands as you pull",
+      "Finish with hands beside ears, elbows high",
+      "Squeeze rear delts and external rotators, return with control"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "HORIZONTAL_PULL",
+    "exerciseType": "COMPOUND",
+    "primaryMuscles": [
+      "rear_delts",
+      "traps"
+    ],
+    "secondaryMuscles": [
+      "rhomboids",
+      "rotator_cuff"
+    ],
+    "muscleActivationMap": {
+      "rear_delts": 0.88,
+      "traps": 0.65,
+      "rhomboids": 0.55,
+      "rotator_cuff": 0.6
+    },
+    "difficultyLevel": 2,
+    "skillRequirement": 2,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [
+      "cable"
+    ],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "gym"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 12,
+        "max": 15
+      },
+      "hypertrophy": {
+        "min": 15,
+        "max": 20
+      },
+      "endurance": {
+        "min": 25,
+        "max": 35
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 60,
+      "hypertrophy": 45,
+      "endurance": 30
+    },
+    "metValue": 3.5,
+    "intensityFactor": 0.5,
+    "contraindications": [
+      "shoulder_injury",
+      "rotator_cuff_injury"
+    ],
+    "formCues": [
+      "High elbows at finish",
+      "External rotation at end",
+      "Pull to face level",
+      "Separate the rope",
+      "Squeeze at contraction"
+    ],
+    "commonMistakes": [
+      "Elbows dropping",
+      "No external rotation",
+      "Pulling to chest instead of face",
+      "Using too much weight",
+      "Jerky movement"
+    ],
+    "easierVariation": "band-pull-apart",
+    "harderVariation": "prone-y-t-w-raises",
+    "alternativeExercises": [
+      "dumbbell-reverse-fly",
+      "band-pull-apart",
+      "cable-reverse-fly"
+    ],
+    "tags": [
+      "compound",
+      "shoulders",
+      "rear-delts",
+      "traps",
+      "cable",
+      "shoulder-health",
+      "rotator-cuff"
+    ],
+    "suitableGoals": [
+      "MUSCLE_GAIN",
+      "GENERAL_FITNESS"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 4,
+      "lightlyActive": 5,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 4,
+      "lessThan6Mo": 5,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.25,
+      "muscleGain": 0.78,
+      "strength": 0.55,
+      "endurance": 0.55,
+      "flexibility": 0.25,
+      "generalFitness": 0.82
+    },
+    "estimatedTimePerSet": 30,
+    "setupTimeSeconds": 20,
+    "homeCompatibility": 0.15,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.0
+  },
+  {
+    "name": "Prone Y-T-W Raises",
+    "slug": "prone-y-t-w-raises",
+    "description": "A shoulder stability exercise performed lying face down, raising arms into Y, T, and W positions to target the rear delts, lower traps, and rotator cuff from multiple angles. Essential for shoulder health and posture.",
+    "instructions": [
+      "Lie face down on floor or incline bench, arms hanging down",
+      "Y: Raise arms diagonally overhead forming Y, thumbs up",
+      "T: Raise arms straight out to sides forming T, thumbs up",
+      "W: Pull elbows back with arms bent, externally rotating at top",
+      "Perform each position for prescribed reps or as a sequence"
+    ],
+    "category": "WARMUP",
+    "movementPattern": "HORIZONTAL_PULL",
+    "exerciseType": "ISOLATION",
+    "primaryMuscles": [
+      "rear_delts",
+      "traps"
+    ],
+    "secondaryMuscles": [
+      "rhomboids",
+      "rotator_cuff"
+    ],
+    "muscleActivationMap": {
+      "rear_delts": 0.82,
+      "traps": 0.75,
+      "rhomboids": 0.65,
+      "rotator_cuff": 0.7
+    },
+    "difficultyLevel": 2,
+    "skillRequirement": 2,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [],
+    "equipmentOptional": [
+      "dumbbell",
+      "bench"
+    ],
+    "suitableLocations": [
+      "gym",
+      "home",
+      "outdoor"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 8,
+        "max": 12
+      },
+      "hypertrophy": {
+        "min": 12,
+        "max": 15
+      },
+      "endurance": {
+        "min": 20,
+        "max": 30
+      }
+    },
+    "typicalSets": {
+      "min": 2,
+      "max": 3
+    },
+    "restSeconds": {
+      "strength": 60,
+      "hypertrophy": 45,
+      "endurance": 30
+    },
+    "metValue": 3.0,
+    "intensityFactor": 0.4,
+    "contraindications": [
+      "shoulder_injury",
+      "rotator_cuff_injury"
+    ],
+    "formCues": [
+      "Thumbs point up throughout",
+      "Control each position",
+      "Squeeze at top of each",
+      "Use light or no weight",
+      "Keep neck neutral"
+    ],
+    "commonMistakes": [
+      "Using too much weight",
+      "Rushing through positions",
+      "Poor arm angles",
+      "Lifting head up",
+      "No squeeze at top"
+    ],
+    "easierVariation": "band-pull-apart",
+    "harderVariation": "face-pull",
+    "alternativeExercises": [
+      "face-pull",
+      "band-pull-apart",
+      "dumbbell-reverse-fly"
+    ],
+    "tags": [
+      "isolation",
+      "shoulders",
+      "rear-delts",
+      "traps",
+      "rotator-cuff",
+      "warmup",
+      "rehabilitation",
+      "shoulder-health"
+    ],
+    "suitableGoals": [
+      "GENERAL_FITNESS",
+      "REHABILITATION"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 5,
+      "lightlyActive": 5,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 5,
+      "lessThan6Mo": 5,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.15,
+      "muscleGain": 0.55,
+      "strength": 0.45,
+      "endurance": 0.55,
+      "flexibility": 0.35,
+      "generalFitness": 0.78
+    },
+    "estimatedTimePerSet": 45,
+    "setupTimeSeconds": 10,
+    "homeCompatibility": 1.0,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.8
+  },
+  {
+    "name": "Band Pull-Apart",
+    "slug": "band-pull-apart",
+    "description": "A simple but effective rear deltoid and upper back exercise pulling a resistance band apart horizontally. This movement is excellent for warm-ups, posture correction, and high-rep shoulder work.",
+    "instructions": [
+      "Hold band in front at shoulder height with straight arms",
+      "Grip band with hands shoulder-width apart",
+      "Pull band apart by spreading arms to sides",
+      "Squeeze shoulder blades together at full stretch",
+      "Return to start with control, maintaining tension"
+    ],
+    "category": "WARMUP",
+    "movementPattern": "HORIZONTAL_PULL",
+    "exerciseType": "ISOLATION",
+    "primaryMuscles": [
+      "rear_delts"
+    ],
+    "secondaryMuscles": [
+      "traps",
+      "rhomboids"
+    ],
+    "muscleActivationMap": {
+      "rear_delts": 0.85,
+      "traps": 0.5,
+      "rhomboids": 0.55
+    },
+    "difficultyLevel": 1,
+    "skillRequirement": 1,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [
+      "resistance_band"
+    ],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "home",
+      "gym",
+      "outdoor"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 15,
+        "max": 20
+      },
+      "hypertrophy": {
+        "min": 20,
+        "max": 30
+      },
+      "endurance": {
+        "min": 40,
+        "max": 100
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 5
+    },
+    "restSeconds": {
+      "strength": 45,
+      "hypertrophy": 30,
+      "endurance": 15
+    },
+    "metValue": 2.5,
+    "intensityFactor": 0.35,
+    "contraindications": [
+      "shoulder_injury"
+    ],
+    "formCues": [
+      "Keep arms straight",
+      "Squeeze shoulder blades",
+      "Control the return",
+      "Chest stays up",
+      "Constant tension"
+    ],
+    "commonMistakes": [
+      "Bending elbows",
+      "Not full range",
+      "Rushing reps",
+      "Letting band snap back",
+      "Shrugging shoulders"
+    ],
+    "easierVariation": null,
+    "harderVariation": "face-pull",
+    "alternativeExercises": [
+      "face-pull",
+      "dumbbell-reverse-fly",
+      "cable-reverse-fly"
+    ],
+    "tags": [
+      "isolation",
+      "shoulders",
+      "rear-delts",
+      "resistance-band",
+      "warmup",
+      "posture",
+      "high-rep"
+    ],
+    "suitableGoals": [
+      "GENERAL_FITNESS",
+      "ENDURANCE"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 5,
+      "lightlyActive": 5,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 5,
+      "lessThan6Mo": 5,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.2,
+      "muscleGain": 0.55,
+      "strength": 0.4,
+      "endurance": 0.7,
+      "flexibility": 0.25,
+      "generalFitness": 0.75
+    },
+    "estimatedTimePerSet": 30,
+    "setupTimeSeconds": 5,
+    "homeCompatibility": 1.0,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.95
+  },
+  {
+    "name": "Rear Delt Row",
+    "slug": "rear-delt-row",
+    "description": "A rowing variation performed with elbows high and wide to target the rear deltoids rather than the lats. This movement combines rowing mechanics with a rear delt emphasis.",
+    "instructions": [
+      "Set up as for bent over row, holding dumbbells or barbell",
+      "Flare elbows out to 90 degrees from body",
+      "Row weight up leading with elbows going wide",
+      "Squeeze rear delts at top, upper arms parallel to floor",
+      "Lower with control back to start"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "HORIZONTAL_PULL",
+    "exerciseType": "COMPOUND",
+    "primaryMuscles": [
+      "rear_delts"
+    ],
+    "secondaryMuscles": [
+      "traps",
+      "rhomboids",
+      "back"
+    ],
+    "muscleActivationMap": {
+      "rear_delts": 0.88,
+      "traps": 0.6,
+      "rhomboids": 0.55,
+      "back": 0.45
+    },
+    "difficultyLevel": 3,
+    "skillRequirement": 3,
+    "isBeginnerFriendly": false,
+    "equipmentRequired": [
+      "dumbbell"
+    ],
+    "equipmentOptional": [
+      "barbell",
+      "bench"
+    ],
+    "suitableLocations": [
+      "gym",
+      "home"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 8,
+        "max": 12
+      },
+      "hypertrophy": {
+        "min": 12,
+        "max": 15
+      },
+      "endurance": {
+        "min": 20,
+        "max": 25
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 90,
+      "hypertrophy": 60,
+      "endurance": 45
+    },
+    "metValue": 4.0,
+    "intensityFactor": 0.58,
+    "contraindications": [
+      "shoulder_injury",
+      "lower_back_injury",
+      "rotator_cuff_injury"
+    ],
+    "formCues": [
+      "Elbows flare out wide",
+      "Upper arms parallel at top",
+      "Lead with elbows not hands",
+      "Torso stays still",
+      "Squeeze rear delts"
+    ],
+    "commonMistakes": [
+      "Elbows tucking in",
+      "Using too much back",
+      "Rowing to waist",
+      "Momentum from body",
+      "Partial range of motion"
+    ],
+    "easierVariation": "face-pull",
+    "harderVariation": "dumbbell-reverse-fly",
+    "alternativeExercises": [
+      "face-pull",
+      "dumbbell-reverse-fly",
+      "reverse-pec-deck"
+    ],
+    "tags": [
+      "compound",
+      "shoulders",
+      "rear-delts",
+      "dumbbell",
+      "row"
+    ],
+    "suitableGoals": [
+      "MUSCLE_GAIN"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 2,
+      "lightlyActive": 3,
+      "moderatelyActive": 4,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 2,
+      "lessThan6Mo": 3,
+      "sixTo24Mo": 4,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.3,
+      "muscleGain": 0.82,
+      "strength": 0.62,
+      "endurance": 0.48,
+      "flexibility": 0.15,
+      "generalFitness": 0.68
+    },
+    "estimatedTimePerSet": 35,
+    "setupTimeSeconds": 15,
+    "homeCompatibility": 0.85,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.3
+  },
+  {
+    "name": "Cable External Rotation",
+    "slug": "cable-external-rotation",
+    "description": "A rotator cuff exercise using a cable for external shoulder rotation, essential for shoulder health and injury prevention. This movement strengthens the infraspinatus and teres minor muscles.",
+    "instructions": [
+      "Set cable at elbow height, stand sideways to machine",
+      "Hold handle with far hand, elbow bent 90 degrees at side",
+      "Keep elbow pinned to side throughout movement",
+      "Rotate forearm outward away from body",
+      "Control return to starting position"
+    ],
+    "category": "WARMUP",
+    "movementPattern": "ROTATION",
+    "exerciseType": "ISOLATION",
+    "primaryMuscles": [
+      "rotator_cuff"
+    ],
+    "secondaryMuscles": [
+      "rear_delts"
+    ],
+    "muscleActivationMap": {
+      "rotator_cuff": 0.9,
+      "rear_delts": 0.35
+    },
+    "difficultyLevel": 1,
+    "skillRequirement": 1,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [
+      "cable"
+    ],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "gym"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 12,
+        "max": 15
+      },
+      "hypertrophy": {
+        "min": 15,
+        "max": 20
+      },
+      "endurance": {
+        "min": 25,
+        "max": 35
+      }
+    },
+    "typicalSets": {
+      "min": 2,
+      "max": 3
+    },
+    "restSeconds": {
+      "strength": 45,
+      "hypertrophy": 30,
+      "endurance": 20
+    },
+    "metValue": 2.5,
+    "intensityFactor": 0.3,
+    "contraindications": [
+      "shoulder_injury",
+      "rotator_cuff_injury"
+    ],
+    "formCues": [
+      "Elbow stays at side",
+      "Control the rotation",
+      "Use light weight",
+      "Full range of motion",
+      "Don't rush"
+    ],
+    "commonMistakes": [
+      "Elbow drifting from side",
+      "Using too much weight",
+      "Jerky movements",
+      "Partial range",
+      "Rushing reps"
+    ],
+    "easierVariation": "dumbbell-external-rotation",
+    "harderVariation": null,
+    "alternativeExercises": [
+      "dumbbell-external-rotation",
+      "band-external-rotation",
+      "cuban-press"
+    ],
+    "tags": [
+      "isolation",
+      "shoulders",
+      "rotator-cuff",
+      "cable",
+      "warmup",
+      "rehabilitation",
+      "injury-prevention"
+    ],
+    "suitableGoals": [
+      "GENERAL_FITNESS",
+      "REHABILITATION"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 5,
+      "lightlyActive": 5,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 5,
+      "lessThan6Mo": 5,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.1,
+      "muscleGain": 0.35,
+      "strength": 0.4,
+      "endurance": 0.5,
+      "flexibility": 0.35,
+      "generalFitness": 0.65
+    },
+    "estimatedTimePerSet": 25,
+    "setupTimeSeconds": 20,
+    "homeCompatibility": 0.15,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.0
+  },
+  {
+    "name": "Dumbbell External Rotation",
+    "slug": "dumbbell-external-rotation",
+    "description": "A rotator cuff exercise performed lying on the side, rotating a dumbbell outward against gravity. This accessible movement is fundamental for shoulder prehabilitation and rehabilitation.",
+    "instructions": [
+      "Lie on side with top arm's elbow bent 90 degrees, resting on waist",
+      "Hold light dumbbell in top hand",
+      "Keep elbow pinned to waist throughout",
+      "Rotate forearm upward toward ceiling",
+      "Lower with control back to starting position"
+    ],
+    "category": "WARMUP",
+    "movementPattern": "ROTATION",
+    "exerciseType": "ISOLATION",
+    "primaryMuscles": [
+      "rotator_cuff"
+    ],
+    "secondaryMuscles": [
+      "rear_delts"
+    ],
+    "muscleActivationMap": {
+      "rotator_cuff": 0.88,
+      "rear_delts": 0.3
+    },
+    "difficultyLevel": 1,
+    "skillRequirement": 1,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [
+      "dumbbell"
+    ],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "gym",
+      "home"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 12,
+        "max": 15
+      },
+      "hypertrophy": {
+        "min": 15,
+        "max": 20
+      },
+      "endurance": {
+        "min": 25,
+        "max": 35
+      }
+    },
+    "typicalSets": {
+      "min": 2,
+      "max": 3
+    },
+    "restSeconds": {
+      "strength": 45,
+      "hypertrophy": 30,
+      "endurance": 20
+    },
+    "metValue": 2.0,
+    "intensityFactor": 0.28,
+    "contraindications": [
+      "shoulder_injury",
+      "rotator_cuff_injury"
+    ],
+    "formCues": [
+      "Elbow stays on waist",
+      "Controlled rotation",
+      "Use very light weight",
+      "Full range of motion",
+      "Equal work both sides"
+    ],
+    "commonMistakes": [
+      "Weight too heavy",
+      "Elbow leaving waist",
+      "Using body momentum",
+      "Rushing",
+      "Incomplete rotation"
+    ],
+    "easierVariation": null,
+    "harderVariation": "cable-external-rotation",
+    "alternativeExercises": [
+      "cable-external-rotation",
+      "band-external-rotation",
+      "cuban-press"
+    ],
+    "tags": [
+      "isolation",
+      "shoulders",
+      "rotator-cuff",
+      "dumbbell",
+      "warmup",
+      "rehabilitation",
+      "injury-prevention"
+    ],
+    "suitableGoals": [
+      "GENERAL_FITNESS",
+      "REHABILITATION"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 5,
+      "lightlyActive": 5,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 5,
+      "lessThan6Mo": 5,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.1,
+      "muscleGain": 0.32,
+      "strength": 0.38,
+      "endurance": 0.5,
+      "flexibility": 0.35,
+      "generalFitness": 0.62
+    },
+    "estimatedTimePerSet": 25,
+    "setupTimeSeconds": 10,
+    "homeCompatibility": 1.0,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.6
+  },
+  {
+    "name": "Cable Internal Rotation",
+    "slug": "cable-internal-rotation",
+    "description": "A rotator cuff exercise targeting the subscapularis through internal shoulder rotation against cable resistance. This movement balances external rotation work for complete rotator cuff health.",
+    "instructions": [
+      "Set cable at elbow height, stand sideways to machine",
+      "Hold handle with near hand, elbow bent 90 degrees at side",
+      "Keep elbow pinned to side throughout",
+      "Rotate forearm inward toward belly",
+      "Control return to starting position"
+    ],
+    "category": "WARMUP",
+    "movementPattern": "ROTATION",
+    "exerciseType": "ISOLATION",
+    "primaryMuscles": [
+      "rotator_cuff"
+    ],
+    "secondaryMuscles": [
+      "front_delts"
+    ],
+    "muscleActivationMap": {
+      "rotator_cuff": 0.88,
+      "front_delts": 0.3
+    },
+    "difficultyLevel": 1,
+    "skillRequirement": 1,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [
+      "cable"
+    ],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "gym"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 12,
+        "max": 15
+      },
+      "hypertrophy": {
+        "min": 15,
+        "max": 20
+      },
+      "endurance": {
+        "min": 25,
+        "max": 35
+      }
+    },
+    "typicalSets": {
+      "min": 2,
+      "max": 3
+    },
+    "restSeconds": {
+      "strength": 45,
+      "hypertrophy": 30,
+      "endurance": 20
+    },
+    "metValue": 2.5,
+    "intensityFactor": 0.3,
+    "contraindications": [
+      "shoulder_injury",
+      "rotator_cuff_injury"
+    ],
+    "formCues": [
+      "Elbow stays pinned",
+      "Control throughout",
+      "Light weight only",
+      "Full range of motion",
+      "Don't use body momentum"
+    ],
+    "commonMistakes": [
+      "Elbow drifting from side",
+      "Too much weight",
+      "Jerky movement",
+      "Incomplete range",
+      "Rushing"
+    ],
+    "easierVariation": "dumbbell-external-rotation",
+    "harderVariation": null,
+    "alternativeExercises": [
+      "band-internal-rotation",
+      "cable-external-rotation",
+      "cuban-press"
+    ],
+    "tags": [
+      "isolation",
+      "shoulders",
+      "rotator-cuff",
+      "cable",
+      "warmup",
+      "rehabilitation"
+    ],
+    "suitableGoals": [
+      "GENERAL_FITNESS",
+      "REHABILITATION"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 5,
+      "lightlyActive": 5,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 5,
+      "lessThan6Mo": 5,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.1,
+      "muscleGain": 0.32,
+      "strength": 0.38,
+      "endurance": 0.5,
+      "flexibility": 0.32,
+      "generalFitness": 0.62
+    },
+    "estimatedTimePerSet": 25,
+    "setupTimeSeconds": 20,
+    "homeCompatibility": 0.15,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.0
+  },
+  {
+    "name": "Cuban Press",
+    "slug": "cuban-press",
+    "description": "A shoulder complex combining external rotation with an overhead press in one fluid motion. This movement targets the rotator cuff, rear delts, and all pressing muscles in a single comprehensive exercise.",
+    "instructions": [
+      "Stand with light dumbbells, perform upright row to elbows at shoulder height",
+      "From there, externally rotate forearms upward until parallel to floor",
+      "Press dumbbells overhead to lockout",
+      "Reverse sequence: lower to shoulder, rotate down, lower to thighs",
+      "Complete sequence counts as one rep"
+    ],
+    "category": "WARMUP",
+    "movementPattern": "VERTICAL_PUSH",
+    "exerciseType": "COMPOUND",
+    "primaryMuscles": [
+      "rotator_cuff",
+      "front_delts"
+    ],
+    "secondaryMuscles": [
+      "side_delts",
+      "rear_delts",
+      "traps",
+      "triceps"
+    ],
+    "muscleActivationMap": {
+      "rotator_cuff": 0.82,
+      "front_delts": 0.75,
+      "side_delts": 0.65,
+      "rear_delts": 0.55,
+      "traps": 0.5,
+      "triceps": 0.45
+    },
+    "difficultyLevel": 3,
+    "skillRequirement": 3,
+    "isBeginnerFriendly": false,
+    "equipmentRequired": [
+      "dumbbell"
+    ],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "gym",
+      "home"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 8,
+        "max": 10
+      },
+      "hypertrophy": {
+        "min": 10,
+        "max": 15
+      },
+      "endurance": {
+        "min": 15,
+        "max": 20
+      }
+    },
+    "typicalSets": {
+      "min": 2,
+      "max": 3
+    },
+    "restSeconds": {
+      "strength": 75,
+      "hypertrophy": 60,
+      "endurance": 45
+    },
+    "metValue": 3.5,
+    "intensityFactor": 0.5,
+    "contraindications": [
+      "shoulder_injury",
+      "rotator_cuff_injury"
+    ],
+    "formCues": [
+      "Use light weight",
+      "Smooth transitions",
+      "Full external rotation",
+      "Control each phase",
+      "Complete lockout at top"
+    ],
+    "commonMistakes": [
+      "Weight too heavy",
+      "Skipping external rotation",
+      "Rushing through phases",
+      "Incomplete movements",
+      "Poor sequence"
+    ],
+    "easierVariation": "dumbbell-external-rotation",
+    "harderVariation": "dumbbell-shoulder-press",
+    "alternativeExercises": [
+      "cable-external-rotation",
+      "dumbbell-external-rotation",
+      "face-pull"
+    ],
+    "tags": [
+      "compound",
+      "shoulders",
+      "rotator-cuff",
+      "dumbbell",
+      "warmup",
+      "complex",
+      "shoulder-health"
+    ],
+    "suitableGoals": [
+      "GENERAL_FITNESS",
+      "MUSCLE_GAIN"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 2,
+      "lightlyActive": 3,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 2,
+      "lessThan6Mo": 3,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.25,
+      "muscleGain": 0.65,
+      "strength": 0.55,
+      "endurance": 0.55,
+      "flexibility": 0.35,
+      "generalFitness": 0.78
+    },
+    "estimatedTimePerSet": 45,
+    "setupTimeSeconds": 10,
+    "homeCompatibility": 0.9,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.5
+  }
+]
