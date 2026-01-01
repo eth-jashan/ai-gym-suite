@@ -1,9 +1,12 @@
 import axios, { AxiosInstance, AxiosError, InternalAxiosRequestConfig } from 'axios';
 
 // API Configuration - Update this with your backend URL
-const API_URL = __DEV__
+// For ngrok: replace with your ngrok URL (e.g., 'https://abc123.ngrok-free.app/api/v1')
+const NGROK_URL = 'https://f2a1ecdb94e7.ngrok-free.app/api/v1'; // Set your ngrok URL here when testing
+
+const API_URL = NGROK_URL || (__DEV__
   ? 'http://localhost:3001/api/v1'  // Development
-  : 'https://api.yourdomain.com/api/v1';  // Production
+  : 'https://api.yourdomain.com/api/v1');  // Production
 
 class ApiClient {
   private client: AxiosInstance;

@@ -47,12 +47,12 @@ export default function OnboardingScreen() {
       flatListRef.current?.scrollToIndex({ index: currentIndex + 1, animated: true });
       setCurrentIndex(currentIndex + 1);
     } else {
-      await completeOnboarding({});
+      await completeOnboarding();
     }
   };
 
   const handleSkip = async () => {
-    await completeOnboarding({});
+    await completeOnboarding();
   };
 
   const renderItem = ({ item }: { item: typeof ONBOARDING_STEPS[0] }) => (
