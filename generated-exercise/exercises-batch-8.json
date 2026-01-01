@@ -1,0 +1,5934 @@
+[
+  {
+    "name": "Burpee",
+    "slug": "burpee",
+    "description": "The ultimate full-body HIIT exercise combining a squat thrust, push-up, and explosive jump in one continuous movement. This high-intensity exercise rapidly elevates heart rate while building conditioning and power.",
+    "instructions": [
+      "Stand with feet shoulder-width apart",
+      "Drop into squat, place hands on floor",
+      "Jump feet back to plank position",
+      "Perform push-up, then jump feet forward to hands",
+      "Explosively jump up with arms overhead"
+    ],
+    "category": "CARDIO",
+    "movementPattern": "FULL_BODY",
+    "exerciseType": "CARDIO_HIIT",
+    "primaryMuscles": [
+      "quadriceps",
+      "chest",
+      "core"
+    ],
+    "secondaryMuscles": [
+      "shoulders",
+      "triceps",
+      "glutes",
+      "hamstrings"
+    ],
+    "muscleActivationMap": {
+      "quadriceps": 0.75,
+      "chest": 0.7,
+      "core": 0.65,
+      "shoulders": 0.6,
+      "glutes": 0.6,
+      "triceps": 0.5
+    },
+    "difficultyLevel": 4,
+    "skillRequirement": 2,
+    "isBeginnerFriendly": false,
+    "equipmentRequired": [],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "home",
+      "gym",
+      "outdoor"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 5,
+        "max": 10
+      },
+      "hypertrophy": {
+        "min": 10,
+        "max": 15
+      },
+      "endurance": {
+        "min": 15,
+        "max": 30
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 5
+    },
+    "restSeconds": {
+      "strength": 60,
+      "hypertrophy": 45,
+      "endurance": 20
+    },
+    "metValue": 10.0,
+    "intensityFactor": 0.92,
+    "contraindications": [
+      "heart_condition",
+      "pregnancy",
+      "knee_injury",
+      "wrist_injury",
+      "shoulder_injury",
+      "lower_back_injury"
+    ],
+    "formCues": [
+      "Chest touches floor on push-up",
+      "Full hip extension on jump",
+      "Land softly",
+      "Maintain continuous rhythm",
+      "Exhale on the jump"
+    ],
+    "commonMistakes": [
+      "Skipping the push-up",
+      "Not fully extending hips",
+      "Landing with stiff knees",
+      "Losing core tension",
+      "Going too fast with bad form"
+    ],
+    "easierVariation": "squat-thrust",
+    "harderVariation": "burpee-box-jump",
+    "alternativeExercises": [
+      "squat-thrust",
+      "mountain-climber",
+      "jump-squat"
+    ],
+    "tags": [
+      "hiit",
+      "full-body",
+      "plyometric",
+      "conditioning",
+      "high-intensity",
+      "cardio"
+    ],
+    "suitableGoals": [
+      "WEIGHT_LOSS",
+      "ENDURANCE",
+      "GENERAL_FITNESS"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 1,
+      "lightlyActive": 2,
+      "moderatelyActive": 4,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 1,
+      "lessThan6Mo": 2,
+      "sixTo24Mo": 4,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.95,
+      "muscleGain": 0.5,
+      "strength": 0.55,
+      "endurance": 0.92,
+      "flexibility": 0.2,
+      "generalFitness": 0.95
+    },
+    "estimatedTimePerSet": 45,
+    "setupTimeSeconds": 0,
+    "homeCompatibility": 1.0,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 1.0
+  },
+  {
+    "name": "Box Jump",
+    "slug": "box-jump",
+    "description": "An explosive plyometric exercise jumping onto an elevated platform to develop lower body power. This athletic movement trains the stretch-shortening cycle essential for sports performance.",
+    "instructions": [
+      "Stand facing box, feet shoulder-width apart",
+      "Swing arms back while loading hips",
+      "Explosively jump onto box, swinging arms forward",
+      "Land softly with both feet fully on box",
+      "Stand tall, then step or jump down carefully"
+    ],
+    "category": "CARDIO",
+    "movementPattern": "PLYOMETRIC",
+    "exerciseType": "CARDIO_HIIT",
+    "primaryMuscles": [
+      "quadriceps",
+      "glutes"
+    ],
+    "secondaryMuscles": [
+      "calves",
+      "hamstrings",
+      "core"
+    ],
+    "muscleActivationMap": {
+      "quadriceps": 0.85,
+      "glutes": 0.8,
+      "calves": 0.7,
+      "hamstrings": 0.55,
+      "core": 0.45
+    },
+    "difficultyLevel": 3,
+    "skillRequirement": 3,
+    "isBeginnerFriendly": false,
+    "equipmentRequired": [
+      "plyo_box"
+    ],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "gym"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 3,
+        "max": 6
+      },
+      "hypertrophy": {
+        "min": 6,
+        "max": 10
+      },
+      "endurance": {
+        "min": 10,
+        "max": 20
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 5
+    },
+    "restSeconds": {
+      "strength": 90,
+      "hypertrophy": 60,
+      "endurance": 30
+    },
+    "metValue": 8.5,
+    "intensityFactor": 0.78,
+    "contraindications": [
+      "heart_condition",
+      "pregnancy",
+      "knee_injury",
+      "ankle_injury",
+      "hip_injury"
+    ],
+    "formCues": [
+      "Land softly with bent knees",
+      "Full foot on box",
+      "Use arm swing for power",
+      "Step down to protect joints",
+      "Start with lower box"
+    ],
+    "commonMistakes": [
+      "Landing on edge of box",
+      "Stiff landing",
+      "Not using arm swing",
+      "Jumping down repeatedly",
+      "Box too high"
+    ],
+    "easierVariation": "box-step-up",
+    "harderVariation": "depth-jump",
+    "alternativeExercises": [
+      "jump-squat",
+      "broad-jump",
+      "tuck-jump"
+    ],
+    "tags": [
+      "plyometric",
+      "power",
+      "lower-body",
+      "athletic",
+      "hiit"
+    ],
+    "suitableGoals": [
+      "STRENGTH",
+      "ENDURANCE",
+      "GENERAL_FITNESS"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 1,
+      "lightlyActive": 2,
+      "moderatelyActive": 3,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 1,
+      "lessThan6Mo": 2,
+      "sixTo24Mo": 4,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.7,
+      "muscleGain": 0.55,
+      "strength": 0.72,
+      "endurance": 0.68,
+      "flexibility": 0.15,
+      "generalFitness": 0.78
+    },
+    "estimatedTimePerSet": 40,
+    "setupTimeSeconds": 15,
+    "homeCompatibility": 0.3,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.4
+  },
+  {
+    "name": "Jump Squat",
+    "slug": "jump-squat",
+    "description": "A plyometric squat variation adding an explosive jump at the top of each rep. This fundamental power exercise develops lower body explosiveness while elevating heart rate for conditioning.",
+    "instructions": [
+      "Stand with feet shoulder-width apart",
+      "Lower into squat position, thighs parallel to floor",
+      "Explosively jump as high as possible",
+      "Swing arms up for momentum",
+      "Land softly with bent knees, immediately lower into next rep"
+    ],
+    "category": "CARDIO",
+    "movementPattern": "PLYOMETRIC",
+    "exerciseType": "CARDIO_HIIT",
+    "primaryMuscles": [
+      "quadriceps",
+      "glutes"
+    ],
+    "secondaryMuscles": [
+      "calves",
+      "hamstrings",
+      "core"
+    ],
+    "muscleActivationMap": {
+      "quadriceps": 0.88,
+      "glutes": 0.82,
+      "calves": 0.65,
+      "hamstrings": 0.5,
+      "core": 0.4
+    },
+    "difficultyLevel": 2,
+    "skillRequirement": 2,
+    "isBeginnerFriendly": false,
+    "equipmentRequired": [],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "home",
+      "gym",
+      "outdoor"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 6,
+        "max": 10
+      },
+      "hypertrophy": {
+        "min": 10,
+        "max": 15
+      },
+      "endurance": {
+        "min": 15,
+        "max": 25
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 75,
+      "hypertrophy": 45,
+      "endurance": 20
+    },
+    "metValue": 8.0,
+    "intensityFactor": 0.75,
+    "contraindications": [
+      "heart_condition",
+      "pregnancy",
+      "knee_injury",
+      "ankle_injury"
+    ],
+    "formCues": [
+      "Full squat depth",
+      "Explosive hip extension",
+      "Land softly",
+      "Knees track over toes",
+      "Arm swing adds power"
+    ],
+    "commonMistakes": [
+      "Shallow squats",
+      "Landing with stiff legs",
+      "Knees caving in",
+      "Not using arms",
+      "Losing balance"
+    ],
+    "easierVariation": "bodyweight-squat",
+    "harderVariation": "tuck-jump",
+    "alternativeExercises": [
+      "box-jump",
+      "split-jump",
+      "broad-jump"
+    ],
+    "tags": [
+      "plyometric",
+      "lower-body",
+      "power",
+      "hiit",
+      "bodyweight"
+    ],
+    "suitableGoals": [
+      "WEIGHT_LOSS",
+      "ENDURANCE",
+      "STRENGTH"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 1,
+      "lightlyActive": 2,
+      "moderatelyActive": 4,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 2,
+      "lessThan6Mo": 3,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.85,
+      "muscleGain": 0.5,
+      "strength": 0.6,
+      "endurance": 0.82,
+      "flexibility": 0.2,
+      "generalFitness": 0.85
+    },
+    "estimatedTimePerSet": 35,
+    "setupTimeSeconds": 0,
+    "homeCompatibility": 1.0,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 1.0
+  },
+  {
+    "name": "Tuck Jump",
+    "slug": "tuck-jump",
+    "description": "An advanced plyometric exercise jumping and bringing knees to chest at the peak of each jump. This high-power movement develops explosive strength and coordination.",
+    "instructions": [
+      "Stand with feet shoulder-width apart",
+      "Perform quick quarter squat to load",
+      "Explosively jump upward",
+      "At peak height, pull knees toward chest",
+      "Extend legs to land softly, repeat immediately"
+    ],
+    "category": "CARDIO",
+    "movementPattern": "PLYOMETRIC",
+    "exerciseType": "CARDIO_HIIT",
+    "primaryMuscles": [
+      "quadriceps",
+      "hip_flexors"
+    ],
+    "secondaryMuscles": [
+      "glutes",
+      "calves",
+      "core"
+    ],
+    "muscleActivationMap": {
+      "quadriceps": 0.85,
+      "hip_flexors": 0.75,
+      "glutes": 0.7,
+      "calves": 0.65,
+      "core": 0.55
+    },
+    "difficultyLevel": 4,
+    "skillRequirement": 3,
+    "isBeginnerFriendly": false,
+    "equipmentRequired": [],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "gym",
+      "outdoor"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 5,
+        "max": 8
+      },
+      "hypertrophy": {
+        "min": 8,
+        "max": 12
+      },
+      "endurance": {
+        "min": 12,
+        "max": 20
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 90,
+      "hypertrophy": 60,
+      "endurance": 30
+    },
+    "metValue": 9.0,
+    "intensityFactor": 0.85,
+    "contraindications": [
+      "heart_condition",
+      "pregnancy",
+      "knee_injury",
+      "ankle_injury",
+      "hip_injury"
+    ],
+    "formCues": [
+      "Knees to chest height",
+      "Quick ground contact",
+      "Land softly",
+      "Arms assist the jump",
+      "Maintain upright torso"
+    ],
+    "commonMistakes": [
+      "Not bringing knees high enough",
+      "Landing with stiff legs",
+      "Pausing between reps",
+      "Leaning forward",
+      "Poor landing mechanics"
+    ],
+    "easierVariation": "jump-squat",
+    "harderVariation": "double-tuck-jump",
+    "alternativeExercises": [
+      "jump-squat",
+      "box-jump",
+      "broad-jump"
+    ],
+    "tags": [
+      "plyometric",
+      "advanced",
+      "power",
+      "hiit",
+      "athletic"
+    ],
+    "suitableGoals": [
+      "ENDURANCE",
+      "STRENGTH",
+      "GENERAL_FITNESS"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 1,
+      "lightlyActive": 1,
+      "moderatelyActive": 3,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 1,
+      "lessThan6Mo": 2,
+      "sixTo24Mo": 3,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.82,
+      "muscleGain": 0.45,
+      "strength": 0.65,
+      "endurance": 0.8,
+      "flexibility": 0.25,
+      "generalFitness": 0.8
+    },
+    "estimatedTimePerSet": 30,
+    "setupTimeSeconds": 0,
+    "homeCompatibility": 0.7,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.95
+  },
+  {
+    "name": "Broad Jump",
+    "slug": "broad-jump",
+    "description": "A horizontal plyometric jump traveling forward as far as possible from a standing start. This athletic movement develops horizontal power essential for sprinting and field sports.",
+    "instructions": [
+      "Stand with feet shoulder-width apart",
+      "Swing arms back while loading hips and bending knees",
+      "Explosively jump forward and upward",
+      "Drive arms forward for momentum",
+      "Land softly with bent knees, absorbing impact"
+    ],
+    "category": "CARDIO",
+    "movementPattern": "PLYOMETRIC",
+    "exerciseType": "CARDIO_HIIT",
+    "primaryMuscles": [
+      "quadriceps",
+      "glutes"
+    ],
+    "secondaryMuscles": [
+      "hamstrings",
+      "calves",
+      "core"
+    ],
+    "muscleActivationMap": {
+      "quadriceps": 0.88,
+      "glutes": 0.85,
+      "hamstrings": 0.6,
+      "calves": 0.55,
+      "core": 0.45
+    },
+    "difficultyLevel": 2,
+    "skillRequirement": 2,
+    "isBeginnerFriendly": false,
+    "equipmentRequired": [],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "gym",
+      "outdoor"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 4,
+        "max": 6
+      },
+      "hypertrophy": {
+        "min": 6,
+        "max": 10
+      },
+      "endurance": {
+        "min": 10,
+        "max": 15
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 5
+    },
+    "restSeconds": {
+      "strength": 90,
+      "hypertrophy": 60,
+      "endurance": 30
+    },
+    "metValue": 7.5,
+    "intensityFactor": 0.72,
+    "contraindications": [
+      "heart_condition",
+      "pregnancy",
+      "knee_injury",
+      "ankle_injury"
+    ],
+    "formCues": [
+      "45-degree takeoff angle",
+      "Full arm swing",
+      "Extend hips fully",
+      "Soft landing with bent knees",
+      "Stick the landing"
+    ],
+    "commonMistakes": [
+      "Jumping too vertical",
+      "Not using arm swing",
+      "Stiff landing",
+      "Insufficient hip extension",
+      "Looking down"
+    ],
+    "easierVariation": "jump-squat",
+    "harderVariation": "consecutive-broad-jumps",
+    "alternativeExercises": [
+      "box-jump",
+      "jump-squat",
+      "tuck-jump"
+    ],
+    "tags": [
+      "plyometric",
+      "power",
+      "horizontal",
+      "athletic",
+      "lower-body"
+    ],
+    "suitableGoals": [
+      "STRENGTH",
+      "ENDURANCE",
+      "GENERAL_FITNESS"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 1,
+      "lightlyActive": 2,
+      "moderatelyActive": 4,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 2,
+      "lessThan6Mo": 3,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.68,
+      "muscleGain": 0.5,
+      "strength": 0.7,
+      "endurance": 0.65,
+      "flexibility": 0.15,
+      "generalFitness": 0.75
+    },
+    "estimatedTimePerSet": 35,
+    "setupTimeSeconds": 0,
+    "homeCompatibility": 0.4,
+    "gymCompatibility": 0.9,
+    "outdoorCompatibility": 1.0
+  },
+  {
+    "name": "Star Jump",
+    "slug": "star-jump",
+    "description": "An explosive jumping jack variation spreading arms and legs wide into a star shape at the peak of each jump. This full-body cardio movement elevates heart rate while improving coordination.",
+    "instructions": [
+      "Start in quarter squat with arms at sides",
+      "Explosively jump upward",
+      "Spread arms and legs wide forming an X or star shape",
+      "Bring limbs back together before landing",
+      "Land softly in starting position"
+    ],
+    "category": "CARDIO",
+    "movementPattern": "PLYOMETRIC",
+    "exerciseType": "CARDIO_HIIT",
+    "primaryMuscles": [
+      "quadriceps",
+      "glutes"
+    ],
+    "secondaryMuscles": [
+      "shoulders",
+      "hip_abductors",
+      "calves",
+      "core"
+    ],
+    "muscleActivationMap": {
+      "quadriceps": 0.75,
+      "glutes": 0.7,
+      "hip_abductors": 0.6,
+      "shoulders": 0.5,
+      "calves": 0.55,
+      "core": 0.4
+    },
+    "difficultyLevel": 2,
+    "skillRequirement": 2,
+    "isBeginnerFriendly": false,
+    "equipmentRequired": [],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "home",
+      "gym",
+      "outdoor"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 8,
+        "max": 12
+      },
+      "hypertrophy": {
+        "min": 12,
+        "max": 18
+      },
+      "endurance": {
+        "min": 20,
+        "max": 35
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 60,
+      "hypertrophy": 40,
+      "endurance": 20
+    },
+    "metValue": 8.0,
+    "intensityFactor": 0.72,
+    "contraindications": [
+      "heart_condition",
+      "pregnancy",
+      "knee_injury",
+      "ankle_injury"
+    ],
+    "formCues": [
+      "Full extension at peak",
+      "Arms and legs spread wide",
+      "Land softly",
+      "Quick rhythm",
+      "Coordinate limb movement"
+    ],
+    "commonMistakes": [
+      "Not spreading wide enough",
+      "Landing with stiff legs",
+      "Poor timing",
+      "Not jumping high enough",
+      "Losing rhythm"
+    ],
+    "easierVariation": "jumping-jack",
+    "harderVariation": "burpee-star-jump",
+    "alternativeExercises": [
+      "jumping-jack",
+      "jump-squat",
+      "tuck-jump"
+    ],
+    "tags": [
+      "plyometric",
+      "cardio",
+      "full-body",
+      "hiit",
+      "coordination"
+    ],
+    "suitableGoals": [
+      "WEIGHT_LOSS",
+      "ENDURANCE",
+      "GENERAL_FITNESS"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 1,
+      "lightlyActive": 2,
+      "moderatelyActive": 4,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 2,
+      "lessThan6Mo": 3,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.82,
+      "muscleGain": 0.35,
+      "strength": 0.45,
+      "endurance": 0.85,
+      "flexibility": 0.25,
+      "generalFitness": 0.82
+    },
+    "estimatedTimePerSet": 35,
+    "setupTimeSeconds": 0,
+    "homeCompatibility": 0.9,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 1.0
+  },
+  {
+    "name": "Split Jump",
+    "slug": "split-jump",
+    "description": "A plyometric lunge variation explosively switching leg positions in mid-air. This unilateral power exercise develops single-leg strength, balance, and cardiovascular conditioning.",
+    "instructions": [
+      "Start in lunge position, both knees at 90 degrees",
+      "Explosively jump upward",
+      "Switch leg positions in mid-air",
+      "Land softly in opposite lunge position",
+      "Immediately jump again to continue alternating"
+    ],
+    "category": "CARDIO",
+    "movementPattern": "PLYOMETRIC",
+    "exerciseType": "CARDIO_HIIT",
+    "primaryMuscles": [
+      "quadriceps",
+      "glutes"
+    ],
+    "secondaryMuscles": [
+      "hamstrings",
+      "calves",
+      "core",
+      "hip_flexors"
+    ],
+    "muscleActivationMap": {
+      "quadriceps": 0.88,
+      "glutes": 0.82,
+      "hamstrings": 0.55,
+      "calves": 0.6,
+      "hip_flexors": 0.5,
+      "core": 0.45
+    },
+    "difficultyLevel": 3,
+    "skillRequirement": 3,
+    "isBeginnerFriendly": false,
+    "equipmentRequired": [],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "home",
+      "gym",
+      "outdoor"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 6,
+        "max": 10
+      },
+      "hypertrophy": {
+        "min": 10,
+        "max": 16
+      },
+      "endurance": {
+        "min": 16,
+        "max": 24
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 75,
+      "hypertrophy": 45,
+      "endurance": 20
+    },
+    "metValue": 8.5,
+    "intensityFactor": 0.78,
+    "contraindications": [
+      "heart_condition",
+      "pregnancy",
+      "knee_injury",
+      "ankle_injury",
+      "hip_injury"
+    ],
+    "formCues": [
+      "Deep lunge position",
+      "Explosive jump",
+      "Switch legs completely",
+      "Land softly",
+      "Knee over ankle on landing"
+    ],
+    "commonMistakes": [
+      "Shallow lunge depth",
+      "Landing with stiff legs",
+      "Incomplete leg switch",
+      "Forward lean",
+      "Knee caving in"
+    ],
+    "easierVariation": "alternating-lunge",
+    "harderVariation": "weighted-split-jump",
+    "alternativeExercises": [
+      "jump-squat",
+      "skater-jump",
+      "tuck-jump"
+    ],
+    "tags": [
+      "plyometric",
+      "unilateral",
+      "lower-body",
+      "hiit",
+      "balance"
+    ],
+    "suitableGoals": [
+      "WEIGHT_LOSS",
+      "ENDURANCE",
+      "STRENGTH"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 1,
+      "lightlyActive": 2,
+      "moderatelyActive": 3,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 1,
+      "lessThan6Mo": 2,
+      "sixTo24Mo": 4,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.85,
+      "muscleGain": 0.5,
+      "strength": 0.6,
+      "endurance": 0.85,
+      "flexibility": 0.25,
+      "generalFitness": 0.82
+    },
+    "estimatedTimePerSet": 35,
+    "setupTimeSeconds": 0,
+    "homeCompatibility": 0.95,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 1.0
+  },
+  {
+    "name": "Skater Jump",
+    "slug": "skater-jump",
+    "description": "A lateral plyometric exercise mimicking speed skating motion, bounding side to side on one leg. This movement develops lateral power, balance, and single-leg stability.",
+    "instructions": [
+      "Stand on right leg, left leg slightly behind",
+      "Push off laterally to the left",
+      "Land softly on left leg, right leg sweeping behind",
+      "Immediately push off to the right",
+      "Continue alternating in skating motion"
+    ],
+    "category": "CARDIO",
+    "movementPattern": "PLYOMETRIC",
+    "exerciseType": "CARDIO_HIIT",
+    "primaryMuscles": [
+      "glutes",
+      "quadriceps"
+    ],
+    "secondaryMuscles": [
+      "hip_abductors",
+      "calves",
+      "core",
+      "hamstrings"
+    ],
+    "muscleActivationMap": {
+      "glutes": 0.85,
+      "quadriceps": 0.75,
+      "hip_abductors": 0.7,
+      "calves": 0.55,
+      "core": 0.45,
+      "hamstrings": 0.4
+    },
+    "difficultyLevel": 2,
+    "skillRequirement": 2,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "home",
+      "gym",
+      "outdoor"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 10,
+        "max": 16
+      },
+      "hypertrophy": {
+        "min": 16,
+        "max": 24
+      },
+      "endurance": {
+        "min": 24,
+        "max": 40
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 60,
+      "hypertrophy": 40,
+      "endurance": 20
+    },
+    "metValue": 7.5,
+    "intensityFactor": 0.7,
+    "contraindications": [
+      "knee_injury",
+      "ankle_injury",
+      "hip_injury"
+    ],
+    "formCues": [
+      "Push laterally not forward",
+      "Soft single-leg landing",
+      "Swing arms naturally",
+      "Stay low and athletic",
+      "Control the landing"
+    ],
+    "commonMistakes": [
+      "Jumping forward instead of lateral",
+      "Landing with stiff leg",
+      "Not going wide enough",
+      "Upper body too upright",
+      "Poor balance on landing"
+    ],
+    "easierVariation": "lateral-step",
+    "harderVariation": "depth-skater-jump",
+    "alternativeExercises": [
+      "split-jump",
+      "lateral-shuffle",
+      "broad-jump"
+    ],
+    "tags": [
+      "plyometric",
+      "lateral",
+      "unilateral",
+      "hiit",
+      "athletic",
+      "balance"
+    ],
+    "suitableGoals": [
+      "WEIGHT_LOSS",
+      "ENDURANCE",
+      "GENERAL_FITNESS"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 2,
+      "lightlyActive": 3,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 3,
+      "lessThan6Mo": 4,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.8,
+      "muscleGain": 0.45,
+      "strength": 0.55,
+      "endurance": 0.82,
+      "flexibility": 0.2,
+      "generalFitness": 0.82
+    },
+    "estimatedTimePerSet": 35,
+    "setupTimeSeconds": 0,
+    "homeCompatibility": 0.9,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 1.0
+  },
+  {
+    "name": "High Knees",
+    "slug": "high-knees",
+    "description": "A running-in-place exercise driving knees high toward chest with each step. This cardio staple elevates heart rate while improving hip flexor strength and running mechanics.",
+    "instructions": [
+      "Stand tall with feet hip-width apart",
+      "Drive one knee up toward chest height",
+      "Quickly alternate, driving opposite knee up",
+      "Pump arms in running motion",
+      "Stay on balls of feet, maintain quick rhythm"
+    ],
+    "category": "CARDIO",
+    "movementPattern": "RUNNING",
+    "exerciseType": "CARDIO_HIIT",
+    "primaryMuscles": [
+      "hip_flexors",
+      "quadriceps"
+    ],
+    "secondaryMuscles": [
+      "calves",
+      "core",
+      "glutes"
+    ],
+    "muscleActivationMap": {
+      "hip_flexors": 0.85,
+      "quadriceps": 0.7,
+      "calves": 0.65,
+      "core": 0.5,
+      "glutes": 0.4
+    },
+    "difficultyLevel": 2,
+    "skillRequirement": 1,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "home",
+      "gym",
+      "outdoor"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 20,
+        "max": 30
+      },
+      "hypertrophy": {
+        "min": 30,
+        "max": 50
+      },
+      "endurance": {
+        "min": 50,
+        "max": 100
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 45,
+      "hypertrophy": 30,
+      "endurance": 15
+    },
+    "metValue": 8.0,
+    "intensityFactor": 0.7,
+    "contraindications": [
+      "hip_injury",
+      "knee_injury"
+    ],
+    "formCues": [
+      "Knees to hip height",
+      "Stay on balls of feet",
+      "Pump arms opposite to legs",
+      "Quick cadence",
+      "Maintain upright posture"
+    ],
+    "commonMistakes": [
+      "Knees not high enough",
+      "Leaning back",
+      "Flat-footed landing",
+      "Arms not moving",
+      "Going too slow"
+    ],
+    "easierVariation": "marching-in-place",
+    "harderVariation": "high-knees-sprint",
+    "alternativeExercises": [
+      "butt-kicks",
+      "mountain-climber",
+      "jumping-jack"
+    ],
+    "tags": [
+      "cardio",
+      "running",
+      "hiit",
+      "warm-up",
+      "conditioning"
+    ],
+    "suitableGoals": [
+      "WEIGHT_LOSS",
+      "ENDURANCE",
+      "GENERAL_FITNESS"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 2,
+      "lightlyActive": 4,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 4,
+      "lessThan6Mo": 5,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.8,
+      "muscleGain": 0.25,
+      "strength": 0.35,
+      "endurance": 0.85,
+      "flexibility": 0.3,
+      "generalFitness": 0.82
+    },
+    "estimatedTimePerSet": 30,
+    "setupTimeSeconds": 0,
+    "homeCompatibility": 1.0,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 1.0
+  },
+  {
+    "name": "Butt Kicks",
+    "slug": "butt-kicks",
+    "description": "A running-in-place exercise kicking heels up toward the glutes with each step. This dynamic movement stretches the quadriceps while improving running form and hamstring engagement.",
+    "instructions": [
+      "Stand tall with feet hip-width apart",
+      "Jog in place, kicking heels up toward glutes",
+      "Keep thighs relatively vertical",
+      "Pump arms in running motion",
+      "Maintain quick, light foot contacts"
+    ],
+    "category": "CARDIO",
+    "movementPattern": "RUNNING",
+    "exerciseType": "CARDIO_HIIT",
+    "primaryMuscles": [
+      "hamstrings",
+      "calves"
+    ],
+    "secondaryMuscles": [
+      "glutes",
+      "core",
+      "quadriceps"
+    ],
+    "muscleActivationMap": {
+      "hamstrings": 0.75,
+      "calves": 0.7,
+      "glutes": 0.5,
+      "core": 0.4,
+      "quadriceps": 0.35
+    },
+    "difficultyLevel": 1,
+    "skillRequirement": 1,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "home",
+      "gym",
+      "outdoor"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 20,
+        "max": 30
+      },
+      "hypertrophy": {
+        "min": 30,
+        "max": 50
+      },
+      "endurance": {
+        "min": 50,
+        "max": 100
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 45,
+      "hypertrophy": 30,
+      "endurance": 15
+    },
+    "metValue": 7.0,
+    "intensityFactor": 0.62,
+    "contraindications": [
+      "knee_injury",
+      "hamstring_injury"
+    ],
+    "formCues": [
+      "Heels touch or near glutes",
+      "Stay on balls of feet",
+      "Quick light steps",
+      "Arms pump naturally",
+      "Keep chest up"
+    ],
+    "commonMistakes": [
+      "Heels not reaching glutes",
+      "Thighs moving too much forward",
+      "Going too slow",
+      "Leaning forward",
+      "Flat-footed"
+    ],
+    "easierVariation": "marching-in-place",
+    "harderVariation": "butt-kicks-sprint",
+    "alternativeExercises": [
+      "high-knees",
+      "a-skip",
+      "jumping-jack"
+    ],
+    "tags": [
+      "cardio",
+      "running",
+      "warm-up",
+      "dynamic-stretch",
+      "conditioning"
+    ],
+    "suitableGoals": [
+      "WEIGHT_LOSS",
+      "ENDURANCE",
+      "GENERAL_FITNESS"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 3,
+      "lightlyActive": 4,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 5,
+      "lessThan6Mo": 5,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.72,
+      "muscleGain": 0.2,
+      "strength": 0.3,
+      "endurance": 0.78,
+      "flexibility": 0.4,
+      "generalFitness": 0.75
+    },
+    "estimatedTimePerSet": 30,
+    "setupTimeSeconds": 0,
+    "homeCompatibility": 1.0,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 1.0
+  },
+  {
+    "name": "Mountain Climber",
+    "slug": "mountain-climber",
+    "description": "A dynamic plank-based cardio exercise alternating driving knees toward chest. This full-body movement combines core stability with cardiovascular conditioning.",
+    "instructions": [
+      "Start in high plank position, hands under shoulders",
+      "Drive one knee toward chest",
+      "Quickly switch, extending that leg back while driving opposite knee forward",
+      "Maintain rigid plank position throughout",
+      "Continue alternating at quick pace"
+    ],
+    "category": "CARDIO",
+    "movementPattern": "FULL_BODY",
+    "exerciseType": "CARDIO_HIIT",
+    "primaryMuscles": [
+      "core",
+      "hip_flexors"
+    ],
+    "secondaryMuscles": [
+      "shoulders",
+      "quadriceps",
+      "chest"
+    ],
+    "muscleActivationMap": {
+      "core": 0.8,
+      "hip_flexors": 0.78,
+      "shoulders": 0.55,
+      "quadriceps": 0.5,
+      "chest": 0.4
+    },
+    "difficultyLevel": 2,
+    "skillRequirement": 2,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [],
+    "equipmentOptional": [
+      "mat"
+    ],
+    "suitableLocations": [
+      "home",
+      "gym",
+      "outdoor"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 15,
+        "max": 20
+      },
+      "hypertrophy": {
+        "min": 20,
+        "max": 35
+      },
+      "endurance": {
+        "min": 40,
+        "max": 60
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 45,
+      "hypertrophy": 30,
+      "endurance": 15
+    },
+    "metValue": 8.0,
+    "intensityFactor": 0.72,
+    "contraindications": [
+      "wrist_injury",
+      "shoulder_injury"
+    ],
+    "formCues": [
+      "Maintain plank position",
+      "Hips stay level",
+      "Drive knee toward chest",
+      "Quick light steps",
+      "Core braced throughout"
+    ],
+    "commonMistakes": [
+      "Hips piking up",
+      "Hips sagging",
+      "Not driving knees far enough",
+      "Bouncing hips",
+      "Hands too far forward"
+    ],
+    "easierVariation": "slow-mountain-climber",
+    "harderVariation": "cross-body-mountain-climber",
+    "alternativeExercises": [
+      "high-knees",
+      "burpee",
+      "plank-shoulder-tap"
+    ],
+    "tags": [
+      "cardio",
+      "core",
+      "hiit",
+      "full-body",
+      "plank-variation"
+    ],
+    "suitableGoals": [
+      "WEIGHT_LOSS",
+      "ENDURANCE",
+      "GENERAL_FITNESS"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 2,
+      "lightlyActive": 3,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 3,
+      "lessThan6Mo": 4,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.85,
+      "muscleGain": 0.4,
+      "strength": 0.45,
+      "endurance": 0.85,
+      "flexibility": 0.25,
+      "generalFitness": 0.85
+    },
+    "estimatedTimePerSet": 30,
+    "setupTimeSeconds": 5,
+    "homeCompatibility": 1.0,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.9
+  },
+  {
+    "name": "Sprinter Start",
+    "slug": "sprinter-start",
+    "description": "An explosive exercise simulating a sprinter's starting motion, rapidly switching lead legs from a crouched position. This power-focused movement develops acceleration mechanics and leg drive.",
+    "instructions": [
+      "Start in staggered stance, one leg forward in lunge position",
+      "Hands on ground like a sprinter's start",
+      "Explosively switch leg positions",
+      "Drive rear knee forward while extending front leg back",
+      "Continue rapidly alternating"
+    ],
+    "category": "CARDIO",
+    "movementPattern": "RUNNING",
+    "exerciseType": "CARDIO_HIIT",
+    "primaryMuscles": [
+      "quadriceps",
+      "glutes",
+      "hip_flexors"
+    ],
+    "secondaryMuscles": [
+      "hamstrings",
+      "calves",
+      "core"
+    ],
+    "muscleActivationMap": {
+      "quadriceps": 0.82,
+      "glutes": 0.78,
+      "hip_flexors": 0.75,
+      "hamstrings": 0.55,
+      "calves": 0.5,
+      "core": 0.45
+    },
+    "difficultyLevel": 3,
+    "skillRequirement": 2,
+    "isBeginnerFriendly": false,
+    "equipmentRequired": [],
+    "equipmentOptional": [
+      "mat"
+    ],
+    "suitableLocations": [
+      "gym",
+      "outdoor"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 10,
+        "max": 16
+      },
+      "hypertrophy": {
+        "min": 16,
+        "max": 24
+      },
+      "endurance": {
+        "min": 24,
+        "max": 40
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 60,
+      "hypertrophy": 40,
+      "endurance": 20
+    },
+    "metValue": 9.0,
+    "intensityFactor": 0.8,
+    "contraindications": [
+      "hip_injury",
+      "knee_injury",
+      "wrist_injury"
+    ],
+    "formCues": [
+      "Explosive leg switches",
+      "Stay low",
+      "Drive through the ground",
+      "Keep hands grounded",
+      "Quick powerful transitions"
+    ],
+    "commonMistakes": [
+      "Rising up too high",
+      "Slow transitions",
+      "Poor hip drive",
+      "Hands lifting",
+      "Losing rhythm"
+    ],
+    "easierVariation": "alternating-lunge",
+    "harderVariation": "sprinter-start-to-sprint",
+    "alternativeExercises": [
+      "mountain-climber",
+      "split-jump",
+      "high-knees"
+    ],
+    "tags": [
+      "hiit",
+      "power",
+      "running",
+      "athletic",
+      "explosive"
+    ],
+    "suitableGoals": [
+      "ENDURANCE",
+      "STRENGTH",
+      "GENERAL_FITNESS"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 1,
+      "lightlyActive": 2,
+      "moderatelyActive": 4,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 2,
+      "lessThan6Mo": 3,
+      "sixTo24Mo": 4,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.82,
+      "muscleGain": 0.45,
+      "strength": 0.6,
+      "endurance": 0.85,
+      "flexibility": 0.3,
+      "generalFitness": 0.8
+    },
+    "estimatedTimePerSet": 35,
+    "setupTimeSeconds": 5,
+    "homeCompatibility": 0.8,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 1.0
+  },
+  {
+    "name": "A-Skip",
+    "slug": "a-skip",
+    "description": "A running drill emphasizing high knee drive with a skipping motion. This exercise improves running mechanics, hip flexor strength, and coordination essential for sprinting.",
+    "instructions": [
+      "Begin with light skip forward",
+      "Drive one knee high toward chest",
+      "Simultaneously push off ground with opposite foot",
+      "Land on ball of foot, alternate sides",
+      "Maintain rhythmic skipping pattern"
+    ],
+    "category": "CARDIO",
+    "movementPattern": "RUNNING",
+    "exerciseType": "CARDIO_HIIT",
+    "primaryMuscles": [
+      "hip_flexors",
+      "calves"
+    ],
+    "secondaryMuscles": [
+      "quadriceps",
+      "glutes",
+      "core"
+    ],
+    "muscleActivationMap": {
+      "hip_flexors": 0.8,
+      "calves": 0.72,
+      "quadriceps": 0.6,
+      "glutes": 0.5,
+      "core": 0.45
+    },
+    "difficultyLevel": 2,
+    "skillRequirement": 2,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "gym",
+      "outdoor"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 20,
+        "max": 30
+      },
+      "hypertrophy": {
+        "min": 30,
+        "max": 50
+      },
+      "endurance": {
+        "min": 50,
+        "max": 80
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 45,
+      "hypertrophy": 30,
+      "endurance": 20
+    },
+    "metValue": 7.5,
+    "intensityFactor": 0.68,
+    "contraindications": [
+      "hip_injury",
+      "ankle_injury"
+    ],
+    "formCues": [
+      "High knee drive",
+      "Stay on balls of feet",
+      "Rhythmic skipping motion",
+      "Opposite arm drives up",
+      "Stay tall and upright"
+    ],
+    "commonMistakes": [
+      "Knee not high enough",
+      "Flat-footed landing",
+      "Poor arm coordination",
+      "Leaning too far forward",
+      "Losing rhythm"
+    ],
+    "easierVariation": "high-knees",
+    "harderVariation": "b-skip",
+    "alternativeExercises": [
+      "high-knees",
+      "b-skip",
+      "butt-kicks"
+    ],
+    "tags": [
+      "running-drill",
+      "warm-up",
+      "athletic",
+      "coordination",
+      "cardio"
+    ],
+    "suitableGoals": [
+      "ENDURANCE",
+      "GENERAL_FITNESS"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 2,
+      "lightlyActive": 3,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 3,
+      "lessThan6Mo": 4,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.68,
+      "muscleGain": 0.25,
+      "strength": 0.4,
+      "endurance": 0.78,
+      "flexibility": 0.3,
+      "generalFitness": 0.75
+    },
+    "estimatedTimePerSet": 30,
+    "setupTimeSeconds": 0,
+    "homeCompatibility": 0.5,
+    "gymCompatibility": 0.9,
+    "outdoorCompatibility": 1.0
+  },
+  {
+    "name": "B-Skip",
+    "slug": "b-skip",
+    "description": "An advanced running drill adding a leg extension at the top of the A-skip. This exercise develops proper hip mechanics and hamstring engagement for efficient sprinting.",
+    "instructions": [
+      "Begin with A-skip motion",
+      "At peak of knee drive, extend lower leg forward",
+      "Actively pull leg down, striking ground with forefoot",
+      "Maintain rhythmic skipping pattern",
+      "Focus on pawing motion as foot contacts ground"
+    ],
+    "category": "CARDIO",
+    "movementPattern": "RUNNING",
+    "exerciseType": "CARDIO_HIIT",
+    "primaryMuscles": [
+      "hip_flexors",
+      "hamstrings"
+    ],
+    "secondaryMuscles": [
+      "calves",
+      "quadriceps",
+      "glutes"
+    ],
+    "muscleActivationMap": {
+      "hip_flexors": 0.78,
+      "hamstrings": 0.72,
+      "calves": 0.68,
+      "quadriceps": 0.55,
+      "glutes": 0.5
+    },
+    "difficultyLevel": 3,
+    "skillRequirement": 3,
+    "isBeginnerFriendly": false,
+    "equipmentRequired": [],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "gym",
+      "outdoor"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 16,
+        "max": 24
+      },
+      "hypertrophy": {
+        "min": 24,
+        "max": 40
+      },
+      "endurance": {
+        "min": 40,
+        "max": 60
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 45,
+      "hypertrophy": 30,
+      "endurance": 20
+    },
+    "metValue": 8.0,
+    "intensityFactor": 0.72,
+    "contraindications": [
+      "hip_injury",
+      "hamstring_injury",
+      "ankle_injury"
+    ],
+    "formCues": [
+      "Extend leg at peak",
+      "Active pawing motion",
+      "Pull foot down and back",
+      "Stay tall",
+      "Rhythmic coordination"
+    ],
+    "commonMistakes": [
+      "No leg extension",
+      "Passive ground contact",
+      "Poor timing",
+      "Reaching too far forward",
+      "Losing rhythm"
+    ],
+    "easierVariation": "a-skip",
+    "harderVariation": "sprinting",
+    "alternativeExercises": [
+      "a-skip",
+      "high-knees",
+      "sprinter-start"
+    ],
+    "tags": [
+      "running-drill",
+      "advanced",
+      "athletic",
+      "sprint-training",
+      "cardio"
+    ],
+    "suitableGoals": [
+      "ENDURANCE",
+      "GENERAL_FITNESS"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 1,
+      "lightlyActive": 2,
+      "moderatelyActive": 4,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 2,
+      "lessThan6Mo": 3,
+      "sixTo24Mo": 4,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.7,
+      "muscleGain": 0.3,
+      "strength": 0.45,
+      "endurance": 0.78,
+      "flexibility": 0.35,
+      "generalFitness": 0.75
+    },
+    "estimatedTimePerSet": 30,
+    "setupTimeSeconds": 0,
+    "homeCompatibility": 0.4,
+    "gymCompatibility": 0.9,
+    "outdoorCompatibility": 1.0
+  },
+  {
+    "name": "Jumping Jack",
+    "slug": "jumping-jack",
+    "description": "The classic calisthenics exercise jumping while spreading arms and legs then returning to starting position. This fundamental cardio movement is effective for warm-ups and sustained conditioning.",
+    "instructions": [
+      "Stand with feet together, arms at sides",
+      "Jump while spreading legs wide and raising arms overhead",
+      "Arms and legs move simultaneously",
+      "Jump again to return to starting position",
+      "Continue rhythmically"
+    ],
+    "category": "CARDIO",
+    "movementPattern": "FULL_BODY",
+    "exerciseType": "CARDIO_HIIT",
+    "primaryMuscles": [
+      "calves",
+      "shoulders"
+    ],
+    "secondaryMuscles": [
+      "quadriceps",
+      "hip_abductors",
+      "core"
+    ],
+    "muscleActivationMap": {
+      "calves": 0.65,
+      "shoulders": 0.55,
+      "quadriceps": 0.5,
+      "hip_abductors": 0.5,
+      "core": 0.35
+    },
+    "difficultyLevel": 1,
+    "skillRequirement": 1,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "home",
+      "gym",
+      "outdoor"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 20,
+        "max": 30
+      },
+      "hypertrophy": {
+        "min": 30,
+        "max": 50
+      },
+      "endurance": {
+        "min": 50,
+        "max": 100
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 30,
+      "hypertrophy": 20,
+      "endurance": 10
+    },
+    "metValue": 7.0,
+    "intensityFactor": 0.55,
+    "contraindications": [
+      "shoulder_injury"
+    ],
+    "formCues": [
+      "Full arm range overhead",
+      "Land softly",
+      "Keep rhythm consistent",
+      "Light on feet",
+      "Coordinate arms and legs"
+    ],
+    "commonMistakes": [
+      "Arms not reaching overhead",
+      "Landing flat-footed",
+      "Inconsistent rhythm",
+      "Going too slow",
+      "Poor coordination"
+    ],
+    "easierVariation": "step-jack",
+    "harderVariation": "star-jump",
+    "alternativeExercises": [
+      "seal-jack",
+      "high-knees",
+      "star-jump"
+    ],
+    "tags": [
+      "cardio",
+      "warm-up",
+      "full-body",
+      "beginner-friendly",
+      "classic"
+    ],
+    "suitableGoals": [
+      "WEIGHT_LOSS",
+      "ENDURANCE",
+      "GENERAL_FITNESS"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 4,
+      "lightlyActive": 5,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 4
+    },
+    "experienceLevelSuitability": {
+      "never": 5,
+      "lessThan6Mo": 5,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 4
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.72,
+      "muscleGain": 0.2,
+      "strength": 0.25,
+      "endurance": 0.78,
+      "flexibility": 0.25,
+      "generalFitness": 0.75
+    },
+    "estimatedTimePerSet": 30,
+    "setupTimeSeconds": 0,
+    "homeCompatibility": 1.0,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 1.0
+  },
+  {
+    "name": "Seal Jack",
+    "slug": "seal-jack",
+    "description": "A jumping jack variation with arms clapping in front rather than overhead. This movement emphasizes chest and shoulder engagement while providing similar cardiovascular benefits.",
+    "instructions": [
+      "Stand with feet together, arms extended to sides",
+      "Jump while spreading legs wide",
+      "Simultaneously clap hands together in front of chest",
+      "Jump to return feet together while spreading arms wide",
+      "Continue rhythmically"
+    ],
+    "category": "CARDIO",
+    "movementPattern": "FULL_BODY",
+    "exerciseType": "CARDIO_HIIT",
+    "primaryMuscles": [
+      "chest",
+      "shoulders"
+    ],
+    "secondaryMuscles": [
+      "calves",
+      "hip_abductors",
+      "upper_back"
+    ],
+    "muscleActivationMap": {
+      "chest": 0.55,
+      "shoulders": 0.6,
+      "calves": 0.55,
+      "hip_abductors": 0.5,
+      "upper_back": 0.45
+    },
+    "difficultyLevel": 1,
+    "skillRequirement": 1,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "home",
+      "gym",
+      "outdoor"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 20,
+        "max": 30
+      },
+      "hypertrophy": {
+        "min": 30,
+        "max": 50
+      },
+      "endurance": {
+        "min": 50,
+        "max": 100
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 30,
+      "hypertrophy": 20,
+      "endurance": 10
+    },
+    "metValue": 7.0,
+    "intensityFactor": 0.55,
+    "contraindications": [
+      "shoulder_injury"
+    ],
+    "formCues": [
+      "Arms clap at chest level",
+      "Full range arm spread",
+      "Land softly",
+      "Coordinate timing",
+      "Keep chest up"
+    ],
+    "commonMistakes": [
+      "Arms too high or low",
+      "Poor clap timing",
+      "Stiff landing",
+      "Inconsistent rhythm",
+      "Rushed movement"
+    ],
+    "easierVariation": "step-jack",
+    "harderVariation": "seal-jack-burpee",
+    "alternativeExercises": [
+      "jumping-jack",
+      "star-jump",
+      "high-knees"
+    ],
+    "tags": [
+      "cardio",
+      "warm-up",
+      "full-body",
+      "beginner-friendly",
+      "chest"
+    ],
+    "suitableGoals": [
+      "WEIGHT_LOSS",
+      "ENDURANCE",
+      "GENERAL_FITNESS"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 4,
+      "lightlyActive": 5,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 4
+    },
+    "experienceLevelSuitability": {
+      "never": 5,
+      "lessThan6Mo": 5,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 4
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.72,
+      "muscleGain": 0.25,
+      "strength": 0.28,
+      "endurance": 0.78,
+      "flexibility": 0.3,
+      "generalFitness": 0.75
+    },
+    "estimatedTimePerSet": 30,
+    "setupTimeSeconds": 0,
+    "homeCompatibility": 1.0,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 1.0
+  },
+  {
+    "name": "Plyo Push-Up",
+    "slug": "plyo-push-up",
+    "description": "An explosive push-up variation where hands leave the ground at the top of each rep. This plyometric upper body exercise develops chest and tricep power while challenging the core.",
+    "instructions": [
+      "Start in push-up position",
+      "Lower chest to floor",
+      "Explosively push up with enough force for hands to leave ground",
+      "Land softly with slightly bent elbows",
+      "Immediately descend into next rep"
+    ],
+    "category": "CARDIO",
+    "movementPattern": "HORIZONTAL_PUSH",
+    "exerciseType": "CARDIO_HIIT",
+    "primaryMuscles": [
+      "chest",
+      "triceps"
+    ],
+    "secondaryMuscles": [
+      "shoulders",
+      "core"
+    ],
+    "muscleActivationMap": {
+      "chest": 0.88,
+      "triceps": 0.75,
+      "shoulders": 0.6,
+      "core": 0.5
+    },
+    "difficultyLevel": 4,
+    "skillRequirement": 3,
+    "isBeginnerFriendly": false,
+    "equipmentRequired": [],
+    "equipmentOptional": [
+      "mat"
+    ],
+    "suitableLocations": [
+      "home",
+      "gym",
+      "outdoor"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 5,
+        "max": 8
+      },
+      "hypertrophy": {
+        "min": 8,
+        "max": 12
+      },
+      "endurance": {
+        "min": 12,
+        "max": 20
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 90,
+      "hypertrophy": 60,
+      "endurance": 30
+    },
+    "metValue": 8.0,
+    "intensityFactor": 0.82,
+    "contraindications": [
+      "wrist_injury",
+      "shoulder_injury",
+      "elbow_injury"
+    ],
+    "formCues": [
+      "Explosive push",
+      "Hands fully leave ground",
+      "Soft landing",
+      "Core braced",
+      "Full depth each rep"
+    ],
+    "commonMistakes": [
+      "Not enough explosion",
+      "Landing with locked elbows",
+      "Losing core tension",
+      "Partial depth",
+      "Wrists not prepared"
+    ],
+    "easierVariation": "push-up",
+    "harderVariation": "clap-push-up",
+    "alternativeExercises": [
+      "push-up",
+      "medicine-ball-push-up",
+      "diamond-push-up"
+    ],
+    "tags": [
+      "plyometric",
+      "upper-body",
+      "power",
+      "hiit",
+      "advanced"
+    ],
+    "suitableGoals": [
+      "STRENGTH",
+      "MUSCLE_GAIN"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 1,
+      "lightlyActive": 1,
+      "moderatelyActive": 3,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 1,
+      "lessThan6Mo": 1,
+      "sixTo24Mo": 3,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.6,
+      "muscleGain": 0.72,
+      "strength": 0.78,
+      "endurance": 0.55,
+      "flexibility": 0.15,
+      "generalFitness": 0.7
+    },
+    "estimatedTimePerSet": 30,
+    "setupTimeSeconds": 5,
+    "homeCompatibility": 1.0,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.9
+  },
+  {
+    "name": "Battle Rope Wave",
+    "slug": "battle-rope-wave",
+    "description": "A high-intensity conditioning exercise creating continuous waves in heavy ropes. This full-body movement develops grip, shoulder endurance, and cardiovascular capacity simultaneously.",
+    "instructions": [
+      "Stand with feet shoulder-width apart, slight knee bend",
+      "Grip rope ends at waist height",
+      "Alternately raise and lower arms to create waves",
+      "Waves should travel to anchor point",
+      "Maintain continuous rhythm"
+    ],
+    "category": "CARDIO",
+    "movementPattern": "FULL_BODY",
+    "exerciseType": "CARDIO_HIIT",
+    "primaryMuscles": [
+      "shoulders",
+      "forearms"
+    ],
+    "secondaryMuscles": [
+      "core",
+      "legs",
+      "back"
+    ],
+    "muscleActivationMap": {
+      "shoulders": 0.82,
+      "forearms": 0.78,
+      "core": 0.55,
+      "quadriceps": 0.45,
+      "back": 0.4
+    },
+    "difficultyLevel": 2,
+    "skillRequirement": 2,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [
+      "battle_ropes"
+    ],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "gym"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 20,
+        "max": 30
+      },
+      "hypertrophy": {
+        "min": 30,
+        "max": 45
+      },
+      "endurance": {
+        "min": 45,
+        "max": 90
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 5
+    },
+    "restSeconds": {
+      "strength": 60,
+      "hypertrophy": 45,
+      "endurance": 20
+    },
+    "metValue": 9.5,
+    "intensityFactor": 0.78,
+    "contraindications": [
+      "shoulder_injury",
+      "wrist_injury"
+    ],
+    "formCues": [
+      "Stay in athletic stance",
+      "Create consistent waves",
+      "Grip firmly but not death grip",
+      "Breathe rhythmically",
+      "Use whole body"
+    ],
+    "commonMistakes": [
+      "Standing too upright",
+      "Waves dying before anchor",
+      "Gripping too hard",
+      "Holding breath",
+      "Using only arms"
+    ],
+    "easierVariation": "slow-battle-rope-wave",
+    "harderVariation": "battle-rope-slam",
+    "alternativeExercises": [
+      "medicine-ball-slam",
+      "kettlebell-swing",
+      "rowing-machine"
+    ],
+    "tags": [
+      "hiit",
+      "conditioning",
+      "full-body",
+      "grip",
+      "endurance"
+    ],
+    "suitableGoals": [
+      "WEIGHT_LOSS",
+      "ENDURANCE",
+      "GENERAL_FITNESS"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 2,
+      "lightlyActive": 3,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 3,
+      "lessThan6Mo": 4,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.88,
+      "muscleGain": 0.45,
+      "strength": 0.5,
+      "endurance": 0.9,
+      "flexibility": 0.15,
+      "generalFitness": 0.88
+    },
+    "estimatedTimePerSet": 40,
+    "setupTimeSeconds": 10,
+    "homeCompatibility": 0.2,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.5
+  },
+  {
+    "name": "Kettlebell Swing",
+    "slug": "kettlebell-swing",
+    "description": "A dynamic hip-hinge exercise swinging a kettlebell between the legs and up to chest height. This posterior chain power movement is exceptional for conditioning and hip strength.",
+    "instructions": [
+      "Stand with feet slightly wider than shoulder-width, kettlebell between feet",
+      "Hinge at hips, grip kettlebell with both hands",
+      "Swing kettlebell back between legs, loading hamstrings",
+      "Explosively drive hips forward, swinging kettlebell to chest height",
+      "Control descent, immediately hinge for next rep"
+    ],
+    "category": "CARDIO",
+    "movementPattern": "HIP_HINGE",
+    "exerciseType": "CARDIO_HIIT",
+    "primaryMuscles": [
+      "glutes",
+      "hamstrings"
+    ],
+    "secondaryMuscles": [
+      "core",
+      "shoulders",
+      "forearms",
+      "lower_back"
+    ],
+    "muscleActivationMap": {
+      "glutes": 0.9,
+      "hamstrings": 0.82,
+      "core": 0.65,
+      "shoulders": 0.5,
+      "forearms": 0.55,
+      "lower_back": 0.6
+    },
+    "difficultyLevel": 2,
+    "skillRequirement": 3,
+    "isBeginnerFriendly": false,
+    "equipmentRequired": [
+      "kettlebell"
+    ],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "gym",
+      "home",
+      "outdoor"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 10,
+        "max": 15
+      },
+      "hypertrophy": {
+        "min": 15,
+        "max": 25
+      },
+      "endurance": {
+        "min": 25,
+        "max": 50
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 5
+    },
+    "restSeconds": {
+      "strength": 75,
+      "hypertrophy": 45,
+      "endurance": 20
+    },
+    "metValue": 9.0,
+    "intensityFactor": 0.75,
+    "contraindications": [
+      "lower_back_injury",
+      "shoulder_injury",
+      "wrist_injury"
+    ],
+    "formCues": [
+      "Hip hinge not squat",
+      "Arms are just hooks",
+      "Squeeze glutes at top",
+      "Neutral spine throughout",
+      "Explosive hip drive"
+    ],
+    "commonMistakes": [
+      "Squatting instead of hinging",
+      "Using arms to lift",
+      "Rounding lower back",
+      "Going too heavy too soon",
+      "Not driving hips"
+    ],
+    "easierVariation": "kettlebell-deadlift",
+    "harderVariation": "single-arm-kettlebell-swing",
+    "alternativeExercises": [
+      "dumbbell-swing",
+      "hip-thrust",
+      "sumo-deadlift"
+    ],
+    "tags": [
+      "hiit",
+      "posterior-chain",
+      "power",
+      "kettlebell",
+      "conditioning"
+    ],
+    "suitableGoals": [
+      "WEIGHT_LOSS",
+      "STRENGTH",
+      "ENDURANCE"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 1,
+      "lightlyActive": 2,
+      "moderatelyActive": 4,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 2,
+      "lessThan6Mo": 3,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.88,
+      "muscleGain": 0.55,
+      "strength": 0.68,
+      "endurance": 0.85,
+      "flexibility": 0.25,
+      "generalFitness": 0.88
+    },
+    "estimatedTimePerSet": 40,
+    "setupTimeSeconds": 10,
+    "homeCompatibility": 0.85,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.8
+  },
+  {
+    "name": "Thruster",
+    "slug": "thruster",
+    "description": "A compound movement combining a front squat with an overhead press in one continuous motion. This full-body exercise is highly demanding and effective for total body conditioning.",
+    "instructions": [
+      "Hold dumbbells or barbell at shoulders, front squat grip",
+      "Squat down until thighs are parallel or below",
+      "Drive up explosively from squat",
+      "Use momentum to press weight overhead",
+      "Lower weight to shoulders while descending into next squat"
+    ],
+    "category": "CARDIO",
+    "movementPattern": "FULL_BODY",
+    "exerciseType": "CARDIO_HIIT",
+    "primaryMuscles": [
+      "quadriceps",
+      "shoulders"
+    ],
+    "secondaryMuscles": [
+      "glutes",
+      "triceps",
+      "core"
+    ],
+    "muscleActivationMap": {
+      "quadriceps": 0.85,
+      "shoulders": 0.82,
+      "glutes": 0.72,
+      "triceps": 0.55,
+      "core": 0.6
+    },
+    "difficultyLevel": 3,
+    "skillRequirement": 3,
+    "isBeginnerFriendly": false,
+    "equipmentRequired": [
+      "dumbbell"
+    ],
+    "equipmentOptional": [
+      "barbell"
+    ],
+    "suitableLocations": [
+      "gym",
+      "home"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 6,
+        "max": 10
+      },
+      "hypertrophy": {
+        "min": 10,
+        "max": 15
+      },
+      "endurance": {
+        "min": 15,
+        "max": 25
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 5
+    },
+    "restSeconds": {
+      "strength": 90,
+      "hypertrophy": 60,
+      "endurance": 30
+    },
+    "metValue": 10.0,
+    "intensityFactor": 0.85,
+    "contraindications": [
+      "shoulder_injury",
+      "knee_injury",
+      "lower_back_injury"
+    ],
+    "formCues": [
+      "Full squat depth",
+      "Drive up explosively",
+      "Lock out overhead",
+      "Keep core braced",
+      "Continuous fluid motion"
+    ],
+    "commonMistakes": [
+      "Pressing before standing",
+      "Shallow squats",
+      "Losing core tension",
+      "Weight too heavy",
+      "Pausing between squat and press"
+    ],
+    "easierVariation": "goblet-squat",
+    "harderVariation": "barbell-thruster",
+    "alternativeExercises": [
+      "wall-ball",
+      "push-press",
+      "squat-to-press"
+    ],
+    "tags": [
+      "hiit",
+      "full-body",
+      "compound",
+      "metabolic",
+      "crossfit"
+    ],
+    "suitableGoals": [
+      "WEIGHT_LOSS",
+      "STRENGTH",
+      "ENDURANCE"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 1,
+      "lightlyActive": 2,
+      "moderatelyActive": 3,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 1,
+      "lessThan6Mo": 2,
+      "sixTo24Mo": 4,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.92,
+      "muscleGain": 0.65,
+      "strength": 0.72,
+      "endurance": 0.88,
+      "flexibility": 0.2,
+      "generalFitness": 0.9
+    },
+    "estimatedTimePerSet": 45,
+    "setupTimeSeconds": 15,
+    "homeCompatibility": 0.8,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.6
+  },
+  {
+    "name": "Man Maker",
+    "slug": "man-maker",
+    "description": "An extremely demanding full-body exercise combining a burpee, push-up, renegade rows, and thruster into one rep. This metabolic challenge tests total body strength and cardiovascular capacity.",
+    "instructions": [
+      "Stand holding dumbbells, perform burpee down to push-up position",
+      "Perform push-up, then row each dumbbell to hip",
+      "Jump feet to hands",
+      "Clean dumbbells to shoulders",
+      "Perform thruster (squat to press), return to standing"
+    ],
+    "category": "CARDIO",
+    "movementPattern": "FULL_BODY",
+    "exerciseType": "CARDIO_HIIT",
+    "primaryMuscles": [
+      "quadriceps",
+      "chest",
+      "back",
+      "shoulders"
+    ],
+    "secondaryMuscles": [
+      "core",
+      "triceps",
+      "biceps",
+      "glutes"
+    ],
+    "muscleActivationMap": {
+      "quadriceps": 0.8,
+      "chest": 0.75,
+      "back": 0.75,
+      "shoulders": 0.82,
+      "core": 0.7,
+      "glutes": 0.65
+    },
+    "difficultyLevel": 5,
+    "skillRequirement": 4,
+    "isBeginnerFriendly": false,
+    "equipmentRequired": [
+      "dumbbell"
+    ],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "gym",
+      "home"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 3,
+        "max": 6
+      },
+      "hypertrophy": {
+        "min": 6,
+        "max": 10
+      },
+      "endurance": {
+        "min": 10,
+        "max": 15
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 5
+    },
+    "restSeconds": {
+      "strength": 120,
+      "hypertrophy": 90,
+      "endurance": 45
+    },
+    "metValue": 12.0,
+    "intensityFactor": 0.95,
+    "contraindications": [
+      "heart_condition",
+      "pregnancy",
+      "shoulder_injury",
+      "lower_back_injury",
+      "wrist_injury"
+    ],
+    "formCues": [
+      "Controlled renegade rows",
+      "Full push-up",
+      "Explosive clean",
+      "Full thruster",
+      "Maintain form despite fatigue"
+    ],
+    "commonMistakes": [
+      "Rushing through movements",
+      "Poor row form",
+      "Incomplete thruster",
+      "Losing core tension",
+      "Weight too heavy"
+    ],
+    "easierVariation": "burpee",
+    "harderVariation": "heavy-man-maker",
+    "alternativeExercises": [
+      "burpee",
+      "thruster",
+      "devil-press"
+    ],
+    "tags": [
+      "hiit",
+      "full-body",
+      "advanced",
+      "metabolic",
+      "complex"
+    ],
+    "suitableGoals": [
+      "WEIGHT_LOSS",
+      "ENDURANCE",
+      "GENERAL_FITNESS"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 1,
+      "lightlyActive": 1,
+      "moderatelyActive": 2,
+      "veryActive": 4,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 1,
+      "lessThan6Mo": 1,
+      "sixTo24Mo": 2,
+      "twoTo5Yr": 4,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.95,
+      "muscleGain": 0.6,
+      "strength": 0.65,
+      "endurance": 0.92,
+      "flexibility": 0.2,
+      "generalFitness": 0.92
+    },
+    "estimatedTimePerSet": 90,
+    "setupTimeSeconds": 15,
+    "homeCompatibility": 0.8,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.5
+  },
+  {
+    "name": "Devil Press",
+    "slug": "devil-press",
+    "description": "A brutal full-body exercise combining a burpee with a dumbbell snatch to overhead. This high-intensity movement demands total body power and creates significant metabolic stress.",
+    "instructions": [
+      "Stand with dumbbells on floor between feet",
+      "Perform burpee over dumbbells (hands on dumbbells for push-up)",
+      "Jump feet to outside of hands",
+      "In one motion, swing dumbbells between legs and snatch overhead",
+      "Lower dumbbells to floor and repeat"
+    ],
+    "category": "CARDIO",
+    "movementPattern": "FULL_BODY",
+    "exerciseType": "CARDIO_HIIT",
+    "primaryMuscles": [
+      "shoulders",
+      "glutes",
+      "chest"
+    ],
+    "secondaryMuscles": [
+      "quadriceps",
+      "hamstrings",
+      "core",
+      "back"
+    ],
+    "muscleActivationMap": {
+      "shoulders": 0.85,
+      "glutes": 0.82,
+      "chest": 0.72,
+      "quadriceps": 0.68,
+      "hamstrings": 0.6,
+      "core": 0.65
+    },
+    "difficultyLevel": 4,
+    "skillRequirement": 4,
+    "isBeginnerFriendly": false,
+    "equipmentRequired": [
+      "dumbbell"
+    ],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "gym",
+      "outdoor"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 4,
+        "max": 8
+      },
+      "hypertrophy": {
+        "min": 8,
+        "max": 12
+      },
+      "endurance": {
+        "min": 12,
+        "max": 20
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 5
+    },
+    "restSeconds": {
+      "strength": 120,
+      "hypertrophy": 75,
+      "endurance": 40
+    },
+    "metValue": 11.0,
+    "intensityFactor": 0.92,
+    "contraindications": [
+      "heart_condition",
+      "pregnancy",
+      "shoulder_injury",
+      "lower_back_injury",
+      "wrist_injury"
+    ],
+    "formCues": [
+      "Controlled burpee",
+      "Explosive hip drive on snatch",
+      "Lock out overhead",
+      "Core braced throughout",
+      "Smooth transition"
+    ],
+    "commonMistakes": [
+      "Using arms instead of hips",
+      "Poor burpee form",
+      "Rushing the snatch",
+      "Not locking out",
+      "Weight too heavy"
+    ],
+    "easierVariation": "burpee-to-press",
+    "harderVariation": "heavy-devil-press",
+    "alternativeExercises": [
+      "man-maker",
+      "burpee",
+      "dumbbell-snatch"
+    ],
+    "tags": [
+      "hiit",
+      "full-body",
+      "advanced",
+      "metabolic",
+      "power"
+    ],
+    "suitableGoals": [
+      "WEIGHT_LOSS",
+      "STRENGTH",
+      "ENDURANCE"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 1,
+      "lightlyActive": 1,
+      "moderatelyActive": 2,
+      "veryActive": 4,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 1,
+      "lessThan6Mo": 1,
+      "sixTo24Mo": 3,
+      "twoTo5Yr": 4,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.92,
+      "muscleGain": 0.58,
+      "strength": 0.68,
+      "endurance": 0.9,
+      "flexibility": 0.2,
+      "generalFitness": 0.9
+    },
+    "estimatedTimePerSet": 60,
+    "setupTimeSeconds": 10,
+    "homeCompatibility": 0.7,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.7
+  },
+  {
+    "name": "Medicine Ball Slam",
+    "slug": "medicine-ball-slam",
+    "description": "An explosive full-body exercise slamming a medicine ball into the ground with maximal force. This high-intensity conditioning movement develops power while providing excellent cardiovascular work.",
+    "instructions": [
+      "Stand with feet shoulder-width apart holding medicine ball",
+      "Raise ball overhead, extending onto toes",
+      "Slam ball into ground with maximum force",
+      "Use entire body, hinging at hips and engaging core",
+      "Catch ball on bounce and repeat immediately"
+    ],
+    "category": "CARDIO",
+    "movementPattern": "FULL_BODY",
+    "exerciseType": "CARDIO_HIIT",
+    "primaryMuscles": [
+      "shoulders",
+      "core",
+      "lats"
+    ],
+    "secondaryMuscles": [
+      "quadriceps",
+      "glutes",
+      "triceps"
+    ],
+    "muscleActivationMap": {
+      "shoulders": 0.78,
+      "core": 0.75,
+      "lats": 0.68,
+      "quadriceps": 0.55,
+      "glutes": 0.5,
+      "triceps": 0.45
+    },
+    "difficultyLevel": 2,
+    "skillRequirement": 2,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [
+      "medicine_ball"
+    ],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "gym",
+      "outdoor"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 8,
+        "max": 12
+      },
+      "hypertrophy": {
+        "min": 12,
+        "max": 20
+      },
+      "endurance": {
+        "min": 20,
+        "max": 35
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 5
+    },
+    "restSeconds": {
+      "strength": 60,
+      "hypertrophy": 45,
+      "endurance": 20
+    },
+    "metValue": 8.5,
+    "intensityFactor": 0.75,
+    "contraindications": [
+      "shoulder_injury",
+      "lower_back_injury"
+    ],
+    "formCues": [
+      "Maximum force each slam",
+      "Use whole body",
+      "Hinge at hips",
+      "Catch and repeat quickly",
+      "Stay athletic"
+    ],
+    "commonMistakes": [
+      "Just using arms",
+      "Not enough force",
+      "Poor catch technique",
+      "Rounding back",
+      "Ball too heavy"
+    ],
+    "easierVariation": "overhead-throw",
+    "harderVariation": "rotational-slam",
+    "alternativeExercises": [
+      "battle-rope-wave",
+      "kettlebell-swing",
+      "burpee"
+    ],
+    "tags": [
+      "hiit",
+      "power",
+      "explosive",
+      "conditioning",
+      "full-body",
+      "cardio"
+    ],
+    "suitableGoals": [
+      "WEIGHT_LOSS",
+      "ENDURANCE",
+      "GENERAL_FITNESS"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 2,
+      "lightlyActive": 3,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 3,
+      "lessThan6Mo": 4,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.85,
+      "muscleGain": 0.45,
+      "strength": 0.55,
+      "endurance": 0.85,
+      "flexibility": 0.15,
+      "generalFitness": 0.85
+    },
+    "estimatedTimePerSet": 40,
+    "setupTimeSeconds": 10,
+    "homeCompatibility": 0.3,
+    "gymCompatibility": 0.95,
+    "outdoorCompatibility": 0.85
+  },
+  {
+    "name": "Squat Thrust",
+    "slug": "squat-thrust",
+    "description": "A burpee variation without the push-up or jump, focusing on the squat-to-plank transition. This accessible exercise provides cardiovascular benefits with lower complexity.",
+    "instructions": [
+      "Stand with feet shoulder-width apart",
+      "Squat down, place hands on floor",
+      "Jump feet back to plank position",
+      "Immediately jump feet back to hands",
+      "Stand up (no jump required)"
+    ],
+    "category": "CARDIO",
+    "movementPattern": "FULL_BODY",
+    "exerciseType": "CARDIO_HIIT",
+    "primaryMuscles": [
+      "quadriceps",
+      "core"
+    ],
+    "secondaryMuscles": [
+      "shoulders",
+      "glutes",
+      "hip_flexors"
+    ],
+    "muscleActivationMap": {
+      "quadriceps": 0.72,
+      "core": 0.68,
+      "shoulders": 0.5,
+      "glutes": 0.55,
+      "hip_flexors": 0.5
+    },
+    "difficultyLevel": 2,
+    "skillRequirement": 1,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [],
+    "equipmentOptional": [
+      "mat"
+    ],
+    "suitableLocations": [
+      "home",
+      "gym",
+      "outdoor"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 10,
+        "max": 15
+      },
+      "hypertrophy": {
+        "min": 15,
+        "max": 25
+      },
+      "endurance": {
+        "min": 25,
+        "max": 40
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 45,
+      "hypertrophy": 30,
+      "endurance": 15
+    },
+    "metValue": 8.0,
+    "intensityFactor": 0.68,
+    "contraindications": [
+      "wrist_injury",
+      "knee_injury"
+    ],
+    "formCues": [
+      "Quick transitions",
+      "Solid plank position",
+      "Feet land near hands",
+      "Core braced",
+      "Stay controlled"
+    ],
+    "commonMistakes": [
+      "Incomplete plank",
+      "Feet not jumping far enough",
+      "Slow transitions",
+      "Hips too high",
+      "Losing core tension"
+    ],
+    "easierVariation": "step-back-squat-thrust",
+    "harderVariation": "burpee",
+    "alternativeExercises": [
+      "burpee",
+      "mountain-climber",
+      "jump-squat"
+    ],
+    "tags": [
+      "hiit",
+      "full-body",
+      "beginner-friendly",
+      "cardio",
+      "conditioning"
+    ],
+    "suitableGoals": [
+      "WEIGHT_LOSS",
+      "ENDURANCE",
+      "GENERAL_FITNESS"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 2,
+      "lightlyActive": 4,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 4
+    },
+    "experienceLevelSuitability": {
+      "never": 4,
+      "lessThan6Mo": 5,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 4
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.82,
+      "muscleGain": 0.35,
+      "strength": 0.42,
+      "endurance": 0.82,
+      "flexibility": 0.2,
+      "generalFitness": 0.8
+    },
+    "estimatedTimePerSet": 35,
+    "setupTimeSeconds": 0,
+    "homeCompatibility": 1.0,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.95
+  },
+  {
+    "name": "Lateral Shuffle",
+    "slug": "lateral-shuffle",
+    "description": "An athletic side-to-side movement staying low in an athletic stance. This conditioning exercise develops lateral quickness and agility while elevating heart rate.",
+    "instructions": [
+      "Start in athletic stance, knees bent, weight on balls of feet",
+      "Push off with trailing foot, step lead foot to side",
+      "Quickly bring trailing foot to follow",
+      "Continue shuffling in one direction for prescribed distance",
+      "Switch directions"
+    ],
+    "category": "CARDIO",
+    "movementPattern": "LATERAL",
+    "exerciseType": "CARDIO_HIIT",
+    "primaryMuscles": [
+      "quadriceps",
+      "glutes"
+    ],
+    "secondaryMuscles": [
+      "hip_abductors",
+      "calves",
+      "core"
+    ],
+    "muscleActivationMap": {
+      "quadriceps": 0.7,
+      "glutes": 0.68,
+      "hip_abductors": 0.65,
+      "calves": 0.55,
+      "core": 0.45
+    },
+    "difficultyLevel": 1,
+    "skillRequirement": 2,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "gym",
+      "outdoor"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 20,
+        "max": 30
+      },
+      "hypertrophy": {
+        "min": 30,
+        "max": 50
+      },
+      "endurance": {
+        "min": 50,
+        "max": 100
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 45,
+      "hypertrophy": 30,
+      "endurance": 15
+    },
+    "metValue": 7.0,
+    "intensityFactor": 0.6,
+    "contraindications": [
+      "knee_injury",
+      "ankle_injury"
+    ],
+    "formCues": [
+      "Stay low in athletic stance",
+      "Quick light feet",
+      "Don't cross feet",
+      "Arms help balance",
+      "Push off powerfully"
+    ],
+    "commonMistakes": [
+      "Standing too upright",
+      "Feet crossing",
+      "Slow movement",
+      "Poor balance",
+      "Looking down"
+    ],
+    "easierVariation": "side-step",
+    "harderVariation": "lateral-bound",
+    "alternativeExercises": [
+      "skater-jump",
+      "carioca",
+      "high-knees"
+    ],
+    "tags": [
+      "agility",
+      "lateral",
+      "conditioning",
+      "athletic",
+      "cardio"
+    ],
+    "suitableGoals": [
+      "ENDURANCE",
+      "GENERAL_FITNESS"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 3,
+      "lightlyActive": 4,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 4,
+      "lessThan6Mo": 5,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.68,
+      "muscleGain": 0.3,
+      "strength": 0.38,
+      "endurance": 0.75,
+      "flexibility": 0.2,
+      "generalFitness": 0.75
+    },
+    "estimatedTimePerSet": 30,
+    "setupTimeSeconds": 0,
+    "homeCompatibility": 0.6,
+    "gymCompatibility": 0.95,
+    "outdoorCompatibility": 1.0
+  },
+  {
+    "name": "Treadmill Running",
+    "slug": "treadmill-running",
+    "description": "Cardiovascular exercise performed on a motorized treadmill at various speeds from walking to running. This controlled environment allows precise pace and incline adjustment for targeted training.",
+    "instructions": [
+      "Step onto treadmill, grip handrails initially",
+      "Start at slow walking pace to warm up",
+      "Gradually increase speed to target pace",
+      "Maintain upright posture, natural arm swing",
+      "Cool down with gradual speed reduction"
+    ],
+    "category": "CARDIO",
+    "movementPattern": "RUNNING",
+    "exerciseType": "CARDIO_STEADY",
+    "primaryMuscles": [
+      "quadriceps",
+      "hamstrings",
+      "calves"
+    ],
+    "secondaryMuscles": [
+      "glutes",
+      "core",
+      "hip_flexors"
+    ],
+    "muscleActivationMap": {
+      "quadriceps": 0.7,
+      "hamstrings": 0.65,
+      "calves": 0.72,
+      "glutes": 0.6,
+      "hip_flexors": 0.55,
+      "core": 0.4
+    },
+    "difficultyLevel": 2,
+    "skillRequirement": 1,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [
+      "treadmill"
+    ],
+    "equipmentOptional": [
+      "heart_rate_monitor"
+    ],
+    "suitableLocations": [
+      "gym",
+      "home"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 10,
+        "max": 20
+      },
+      "hypertrophy": {
+        "min": 20,
+        "max": 40
+      },
+      "endurance": {
+        "min": 30,
+        "max": 90
+      }
+    },
+    "typicalSets": {
+      "min": 1,
+      "max": 1
+    },
+    "restSeconds": {
+      "strength": 0,
+      "hypertrophy": 0,
+      "endurance": 0
+    },
+    "metValue": 7.5,
+    "intensityFactor": 0.65,
+    "contraindications": [
+      "knee_injury",
+      "ankle_injury",
+      "heart_condition"
+    ],
+    "formCues": [
+      "Upright posture",
+      "Natural arm swing",
+      "Land midfoot",
+      "Don't hold handrails while running",
+      "Look forward"
+    ],
+    "commonMistakes": [
+      "Holding handrails",
+      "Looking down",
+      "Overstriding",
+      "Poor posture",
+      "Starting too fast"
+    ],
+    "easierVariation": "walking",
+    "harderVariation": "incline-treadmill-run",
+    "alternativeExercises": [
+      "jogging",
+      "elliptical",
+      "stationary-bike"
+    ],
+    "tags": [
+      "cardio",
+      "running",
+      "steady-state",
+      "machine",
+      "endurance"
+    ],
+    "suitableGoals": [
+      "WEIGHT_LOSS",
+      "ENDURANCE",
+      "GENERAL_FITNESS"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 2,
+      "lightlyActive": 4,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 3,
+      "lessThan6Mo": 4,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.85,
+      "muscleGain": 0.15,
+      "strength": 0.25,
+      "endurance": 0.92,
+      "flexibility": 0.1,
+      "generalFitness": 0.85
+    },
+    "estimatedTimePerSet": 1800,
+    "setupTimeSeconds": 30,
+    "homeCompatibility": 0.6,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.0
+  },
+  {
+    "name": "Stationary Bike",
+    "slug": "stationary-bike",
+    "description": "Indoor cycling on a fixed bike providing low-impact cardiovascular exercise. This joint-friendly option allows sustained aerobic training with adjustable resistance for varied intensity.",
+    "instructions": [
+      "Adjust seat height so leg slightly bent at bottom of pedal stroke",
+      "Position handlebars for comfortable reach",
+      "Start pedaling at easy pace to warm up",
+      "Increase resistance and/or cadence to target intensity",
+      "Maintain steady cadence throughout workout"
+    ],
+    "category": "CARDIO",
+    "movementPattern": "CYCLING",
+    "exerciseType": "CARDIO_STEADY",
+    "primaryMuscles": [
+      "quadriceps",
+      "hamstrings"
+    ],
+    "secondaryMuscles": [
+      "glutes",
+      "calves",
+      "core"
+    ],
+    "muscleActivationMap": {
+      "quadriceps": 0.8,
+      "hamstrings": 0.6,
+      "glutes": 0.55,
+      "calves": 0.5,
+      "core": 0.35
+    },
+    "difficultyLevel": 1,
+    "skillRequirement": 1,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [
+      "stationary_bike"
+    ],
+    "equipmentOptional": [
+      "heart_rate_monitor"
+    ],
+    "suitableLocations": [
+      "gym",
+      "home"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 15,
+        "max": 30
+      },
+      "hypertrophy": {
+        "min": 30,
+        "max": 45
+      },
+      "endurance": {
+        "min": 30,
+        "max": 90
+      }
+    },
+    "typicalSets": {
+      "min": 1,
+      "max": 1
+    },
+    "restSeconds": {
+      "strength": 0,
+      "hypertrophy": 0,
+      "endurance": 0
+    },
+    "metValue": 6.0,
+    "intensityFactor": 0.55,
+    "contraindications": [],
+    "formCues": [
+      "Slight knee bend at bottom",
+      "Smooth pedal stroke",
+      "Relax shoulders",
+      "Core engaged",
+      "Don't bounce in saddle"
+    ],
+    "commonMistakes": [
+      "Seat too high or low",
+      "Gripping handlebars too tight",
+      "Bouncing on seat",
+      "Resistance too low",
+      "Poor posture"
+    ],
+    "easierVariation": "recumbent-bike",
+    "harderVariation": "spin-class",
+    "alternativeExercises": [
+      "recumbent-bike",
+      "elliptical",
+      "rowing-machine"
+    ],
+    "tags": [
+      "cardio",
+      "cycling",
+      "low-impact",
+      "steady-state",
+      "joint-friendly"
+    ],
+    "suitableGoals": [
+      "WEIGHT_LOSS",
+      "ENDURANCE",
+      "GENERAL_FITNESS"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 4,
+      "lightlyActive": 5,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 5,
+      "lessThan6Mo": 5,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.78,
+      "muscleGain": 0.2,
+      "strength": 0.3,
+      "endurance": 0.88,
+      "flexibility": 0.1,
+      "generalFitness": 0.82
+    },
+    "estimatedTimePerSet": 1800,
+    "setupTimeSeconds": 60,
+    "homeCompatibility": 0.7,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.0
+  },
+  {
+    "name": "Rowing Machine",
+    "slug": "rowing-machine",
+    "description": "A full-body cardiovascular exercise simulating rowing on water. This low-impact option engages both upper and lower body while providing excellent aerobic conditioning.",
+    "instructions": [
+      "Sit on rower, secure feet in straps",
+      "Grip handle with overhand grip, arms extended",
+      "Drive through legs first, then lean back slightly",
+      "Pull handle to lower chest, elbows passing body",
+      "Reverse sequence: arms, body, legs to return"
+    ],
+    "category": "CARDIO",
+    "movementPattern": "ROWING",
+    "exerciseType": "CARDIO_STEADY",
+    "primaryMuscles": [
+      "back",
+      "quadriceps"
+    ],
+    "secondaryMuscles": [
+      "biceps",
+      "glutes",
+      "hamstrings",
+      "core",
+      "shoulders"
+    ],
+    "muscleActivationMap": {
+      "back": 0.78,
+      "quadriceps": 0.75,
+      "glutes": 0.6,
+      "biceps": 0.55,
+      "hamstrings": 0.55,
+      "core": 0.5
+    },
+    "difficultyLevel": 2,
+    "skillRequirement": 2,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [
+      "rowing_machine"
+    ],
+    "equipmentOptional": [
+      "heart_rate_monitor"
+    ],
+    "suitableLocations": [
+      "gym",
+      "home"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 15,
+        "max": 25
+      },
+      "hypertrophy": {
+        "min": 25,
+        "max": 40
+      },
+      "endurance": {
+        "min": 30,
+        "max": 60
+      }
+    },
+    "typicalSets": {
+      "min": 1,
+      "max": 1
+    },
+    "restSeconds": {
+      "strength": 0,
+      "hypertrophy": 0,
+      "endurance": 0
+    },
+    "metValue": 7.0,
+    "intensityFactor": 0.65,
+    "contraindications": [
+      "lower_back_injury"
+    ],
+    "formCues": [
+      "Legs drive first",
+      "Lean back slightly at finish",
+      "Pull to lower chest",
+      "Smooth continuous motion",
+      "Drive with legs not arms"
+    ],
+    "commonMistakes": [
+      "Pulling with arms first",
+      "Rounding lower back",
+      "Rushing the recovery",
+      "Gripping too tight",
+      "Short stroke length"
+    ],
+    "easierVariation": "slow-row",
+    "harderVariation": "interval-rowing",
+    "alternativeExercises": [
+      "stationary-bike",
+      "elliptical",
+      "swimming"
+    ],
+    "tags": [
+      "cardio",
+      "full-body",
+      "low-impact",
+      "steady-state",
+      "rowing"
+    ],
+    "suitableGoals": [
+      "WEIGHT_LOSS",
+      "ENDURANCE",
+      "GENERAL_FITNESS"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 3,
+      "lightlyActive": 4,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 3,
+      "lessThan6Mo": 4,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.85,
+      "muscleGain": 0.35,
+      "strength": 0.4,
+      "endurance": 0.88,
+      "flexibility": 0.15,
+      "generalFitness": 0.88
+    },
+    "estimatedTimePerSet": 1200,
+    "setupTimeSeconds": 30,
+    "homeCompatibility": 0.6,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.0
+  },
+  {
+    "name": "Elliptical Trainer",
+    "slug": "elliptical-trainer",
+    "description": "A low-impact cardio machine combining running and climbing motions without joint stress. This versatile option allows forward and backward movement with optional arm engagement.",
+    "instructions": [
+      "Step onto pedals, grip handles or use arm handles",
+      "Start pedaling in smooth elliptical motion",
+      "Adjust resistance to desired intensity",
+      "Option to pedal forward or backward",
+      "Use arm handles for upper body engagement"
+    ],
+    "category": "CARDIO",
+    "movementPattern": "ELLIPTICAL",
+    "exerciseType": "CARDIO_STEADY",
+    "primaryMuscles": [
+      "quadriceps",
+      "glutes"
+    ],
+    "secondaryMuscles": [
+      "hamstrings",
+      "calves",
+      "core"
+    ],
+    "muscleActivationMap": {
+      "quadriceps": 0.72,
+      "glutes": 0.65,
+      "hamstrings": 0.55,
+      "calves": 0.45,
+      "core": 0.35
+    },
+    "difficultyLevel": 1,
+    "skillRequirement": 1,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [
+      "elliptical"
+    ],
+    "equipmentOptional": [
+      "heart_rate_monitor"
+    ],
+    "suitableLocations": [
+      "gym",
+      "home"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 15,
+        "max": 30
+      },
+      "hypertrophy": {
+        "min": 30,
+        "max": 45
+      },
+      "endurance": {
+        "min": 30,
+        "max": 60
+      }
+    },
+    "typicalSets": {
+      "min": 1,
+      "max": 1
+    },
+    "restSeconds": {
+      "strength": 0,
+      "hypertrophy": 0,
+      "endurance": 0
+    },
+    "metValue": 5.5,
+    "intensityFactor": 0.52,
+    "contraindications": [],
+    "formCues": [
+      "Smooth elliptical motion",
+      "Push and pull with arms",
+      "Don't lean on console",
+      "Keep core engaged",
+      "Full range of motion"
+    ],
+    "commonMistakes": [
+      "Leaning on handles",
+      "Going too fast",
+      "Resistance too low",
+      "Poor posture",
+      "Choppy movement"
+    ],
+    "easierVariation": "slow-elliptical",
+    "harderVariation": "high-incline-elliptical",
+    "alternativeExercises": [
+      "stationary-bike",
+      "treadmill-walking",
+      "stair-climber"
+    ],
+    "tags": [
+      "cardio",
+      "low-impact",
+      "steady-state",
+      "machine",
+      "joint-friendly"
+    ],
+    "suitableGoals": [
+      "WEIGHT_LOSS",
+      "ENDURANCE",
+      "GENERAL_FITNESS"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 4,
+      "lightlyActive": 5,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 4
+    },
+    "experienceLevelSuitability": {
+      "never": 5,
+      "lessThan6Mo": 5,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 4
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.75,
+      "muscleGain": 0.18,
+      "strength": 0.25,
+      "endurance": 0.82,
+      "flexibility": 0.12,
+      "generalFitness": 0.78
+    },
+    "estimatedTimePerSet": 1800,
+    "setupTimeSeconds": 30,
+    "homeCompatibility": 0.6,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.0
+  },
+  {
+    "name": "Stair Climber",
+    "slug": "stair-climber",
+    "description": "A cardio machine simulating continuous stair climbing for intense lower body and cardiovascular training. This challenging exercise builds leg endurance while burning significant calories.",
+    "instructions": [
+      "Step onto pedals, lightly hold handrails for balance",
+      "Begin stepping at slow pace",
+      "Increase speed to target intensity",
+      "Step with full foot, drive through heel",
+      "Maintain upright posture throughout"
+    ],
+    "category": "CARDIO",
+    "movementPattern": "STAIR_CLIMBING",
+    "exerciseType": "CARDIO_STEADY",
+    "primaryMuscles": [
+      "quadriceps",
+      "glutes"
+    ],
+    "secondaryMuscles": [
+      "hamstrings",
+      "calves",
+      "core"
+    ],
+    "muscleActivationMap": {
+      "quadriceps": 0.82,
+      "glutes": 0.78,
+      "hamstrings": 0.55,
+      "calves": 0.6,
+      "core": 0.4
+    },
+    "difficultyLevel": 3,
+    "skillRequirement": 1,
+    "isBeginnerFriendly": false,
+    "equipmentRequired": [
+      "stair_climber"
+    ],
+    "equipmentOptional": [
+      "heart_rate_monitor"
+    ],
+    "suitableLocations": [
+      "gym"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 10,
+        "max": 20
+      },
+      "hypertrophy": {
+        "min": 20,
+        "max": 30
+      },
+      "endurance": {
+        "min": 20,
+        "max": 45
+      }
+    },
+    "typicalSets": {
+      "min": 1,
+      "max": 1
+    },
+    "restSeconds": {
+      "strength": 0,
+      "hypertrophy": 0,
+      "endurance": 0
+    },
+    "metValue": 8.0,
+    "intensityFactor": 0.72,
+    "contraindications": [
+      "knee_injury",
+      "heart_condition"
+    ],
+    "formCues": [
+      "Don't lean on handrails",
+      "Full step depth",
+      "Drive through heels",
+      "Stay upright",
+      "Controlled pace"
+    ],
+    "commonMistakes": [
+      "Leaning heavily on rails",
+      "Shallow steps",
+      "Looking down",
+      "Going too fast",
+      "Poor posture"
+    ],
+    "easierVariation": "slow-stair-climber",
+    "harderVariation": "skip-step-stair-climber",
+    "alternativeExercises": [
+      "elliptical",
+      "treadmill-incline",
+      "stationary-bike"
+    ],
+    "tags": [
+      "cardio",
+      "lower-body",
+      "steady-state",
+      "machine",
+      "glutes"
+    ],
+    "suitableGoals": [
+      "WEIGHT_LOSS",
+      "ENDURANCE",
+      "MUSCLE_GAIN"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 1,
+      "lightlyActive": 3,
+      "moderatelyActive": 4,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 3,
+      "lessThan6Mo": 4,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.88,
+      "muscleGain": 0.4,
+      "strength": 0.45,
+      "endurance": 0.85,
+      "flexibility": 0.1,
+      "generalFitness": 0.82
+    },
+    "estimatedTimePerSet": 1200,
+    "setupTimeSeconds": 20,
+    "homeCompatibility": 0.2,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.0
+  },
+  {
+    "name": "Swimming",
+    "slug": "swimming",
+    "description": "Full-body aquatic exercise providing excellent cardiovascular conditioning with zero impact. This total-body workout engages all major muscle groups while being gentle on joints.",
+    "instructions": [
+      "Enter pool, warm up with easy laps",
+      "Choose stroke (freestyle, backstroke, breaststroke, butterfly)",
+      "Maintain consistent pace for endurance training",
+      "Focus on technique and breathing rhythm",
+      "Cool down with easy swimming"
+    ],
+    "category": "CARDIO",
+    "movementPattern": "SWIMMING",
+    "exerciseType": "CARDIO_STEADY",
+    "primaryMuscles": [
+      "back",
+      "shoulders",
+      "chest"
+    ],
+    "secondaryMuscles": [
+      "core",
+      "quadriceps",
+      "hamstrings",
+      "triceps"
+    ],
+    "muscleActivationMap": {
+      "back": 0.78,
+      "shoulders": 0.75,
+      "chest": 0.65,
+      "core": 0.6,
+      "quadriceps": 0.5,
+      "triceps": 0.55
+    },
+    "difficultyLevel": 2,
+    "skillRequirement": 3,
+    "isBeginnerFriendly": false,
+    "equipmentRequired": [
+      "pool"
+    ],
+    "equipmentOptional": [
+      "goggles",
+      "swim_cap"
+    ],
+    "suitableLocations": [
+      "gym",
+      "outdoor"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 15,
+        "max": 30
+      },
+      "hypertrophy": {
+        "min": 30,
+        "max": 45
+      },
+      "endurance": {
+        "min": 30,
+        "max": 90
+      }
+    },
+    "typicalSets": {
+      "min": 1,
+      "max": 1
+    },
+    "restSeconds": {
+      "strength": 0,
+      "hypertrophy": 0,
+      "endurance": 0
+    },
+    "metValue": 7.0,
+    "intensityFactor": 0.65,
+    "contraindications": [],
+    "formCues": [
+      "Streamlined body position",
+      "Rhythmic breathing",
+      "Full stroke extension",
+      "Efficient kick",
+      "Relaxed neck"
+    ],
+    "commonMistakes": [
+      "Head too high",
+      "Holding breath",
+      "Short strokes",
+      "Inefficient kick",
+      "Poor rotation"
+    ],
+    "easierVariation": "water-aerobics",
+    "harderVariation": "interval-swimming",
+    "alternativeExercises": [
+      "rowing-machine",
+      "elliptical",
+      "stationary-bike"
+    ],
+    "tags": [
+      "cardio",
+      "full-body",
+      "zero-impact",
+      "steady-state",
+      "joint-friendly",
+      "pregnancy-safe"
+    ],
+    "suitableGoals": [
+      "WEIGHT_LOSS",
+      "ENDURANCE",
+      "GENERAL_FITNESS"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 3,
+      "lightlyActive": 4,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 2,
+      "lessThan6Mo": 3,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.82,
+      "muscleGain": 0.35,
+      "strength": 0.4,
+      "endurance": 0.9,
+      "flexibility": 0.3,
+      "generalFitness": 0.88
+    },
+    "estimatedTimePerSet": 1800,
+    "setupTimeSeconds": 120,
+    "homeCompatibility": 0.1,
+    "gymCompatibility": 0.8,
+    "outdoorCompatibility": 0.7
+  },
+  {
+    "name": "Jump Rope",
+    "slug": "jump-rope",
+    "description": "Classic cardiovascular exercise jumping over a spinning rope. This portable, high-intensity option develops coordination, footwork, and cardiovascular endurance.",
+    "instructions": [
+      "Hold rope handles, rope behind heels",
+      "Swing rope overhead and jump as it approaches feet",
+      "Land softly on balls of feet",
+      "Keep elbows close to body, wrists do the work",
+      "Maintain steady rhythm"
+    ],
+    "category": "CARDIO",
+    "movementPattern": "JUMPING",
+    "exerciseType": "CARDIO_STEADY",
+    "primaryMuscles": [
+      "calves",
+      "quadriceps"
+    ],
+    "secondaryMuscles": [
+      "shoulders",
+      "forearms",
+      "core"
+    ],
+    "muscleActivationMap": {
+      "calves": 0.82,
+      "quadriceps": 0.55,
+      "shoulders": 0.5,
+      "forearms": 0.55,
+      "core": 0.4
+    },
+    "difficultyLevel": 2,
+    "skillRequirement": 2,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [
+      "jump_rope"
+    ],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "home",
+      "gym",
+      "outdoor"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 50,
+        "max": 100
+      },
+      "hypertrophy": {
+        "min": 100,
+        "max": 200
+      },
+      "endurance": {
+        "min": 200,
+        "max": 500
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 5
+    },
+    "restSeconds": {
+      "strength": 60,
+      "hypertrophy": 45,
+      "endurance": 20
+    },
+    "metValue": 9.0,
+    "intensityFactor": 0.75,
+    "contraindications": [
+      "ankle_injury",
+      "knee_injury"
+    ],
+    "formCues": [
+      "Light bouncy jumps",
+      "Wrists rotate the rope",
+      "Land on balls of feet",
+      "Keep elbows tucked",
+      "Maintain rhythm"
+    ],
+    "commonMistakes": [
+      "Jumping too high",
+      "Using whole arm to swing",
+      "Landing flat-footed",
+      "Tense shoulders",
+      "Looking down"
+    ],
+    "easierVariation": "slow-jump-rope",
+    "harderVariation": "double-under",
+    "alternativeExercises": [
+      "high-knees",
+      "jumping-jack",
+      "mountain-climber"
+    ],
+    "tags": [
+      "cardio",
+      "coordination",
+      "portable",
+      "high-intensity",
+      "endurance"
+    ],
+    "suitableGoals": [
+      "WEIGHT_LOSS",
+      "ENDURANCE",
+      "GENERAL_FITNESS"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 2,
+      "lightlyActive": 3,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 3,
+      "lessThan6Mo": 4,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.88,
+      "muscleGain": 0.2,
+      "strength": 0.28,
+      "endurance": 0.88,
+      "flexibility": 0.15,
+      "generalFitness": 0.85
+    },
+    "estimatedTimePerSet": 120,
+    "setupTimeSeconds": 10,
+    "homeCompatibility": 0.9,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 1.0
+  },
+  {
+    "name": "Double Under",
+    "slug": "double-under",
+    "description": "An advanced jump rope technique where the rope passes under the feet twice per jump. This high-skill exercise requires explosive jumping and precise rope speed.",
+    "instructions": [
+      "Start with basic jump rope rhythm",
+      "Jump higher than normal with more power",
+      "Spin rope faster by accelerating wrists",
+      "Pass rope under feet twice before landing",
+      "Land softly and immediately prepare for next jump"
+    ],
+    "category": "CARDIO",
+    "movementPattern": "JUMPING",
+    "exerciseType": "CARDIO_STEADY",
+    "primaryMuscles": [
+      "calves",
+      "quadriceps"
+    ],
+    "secondaryMuscles": [
+      "shoulders",
+      "forearms",
+      "core"
+    ],
+    "muscleActivationMap": {
+      "calves": 0.88,
+      "quadriceps": 0.7,
+      "shoulders": 0.6,
+      "forearms": 0.65,
+      "core": 0.5
+    },
+    "difficultyLevel": 4,
+    "skillRequirement": 4,
+    "isBeginnerFriendly": false,
+    "equipmentRequired": [
+      "jump_rope"
+    ],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "gym",
+      "outdoor"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 10,
+        "max": 25
+      },
+      "hypertrophy": {
+        "min": 25,
+        "max": 50
+      },
+      "endurance": {
+        "min": 50,
+        "max": 100
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 5
+    },
+    "restSeconds": {
+      "strength": 90,
+      "hypertrophy": 60,
+      "endurance": 30
+    },
+    "metValue": 11.0,
+    "intensityFactor": 0.88,
+    "contraindications": [
+      "ankle_injury",
+      "knee_injury",
+      "shoulder_injury"
+    ],
+    "formCues": [
+      "Explosive vertical jump",
+      "Fast wrist rotation",
+      "Stay hollow body",
+      "Tuck knees slightly",
+      "Stay patient with timing"
+    ],
+    "commonMistakes": [
+      "Donkey kicking",
+      "Not jumping high enough",
+      "Slow wrist speed",
+      "Breaking at hips",
+      "Inconsistent timing"
+    ],
+    "easierVariation": "jump-rope",
+    "harderVariation": "triple-under",
+    "alternativeExercises": [
+      "jump-rope",
+      "tuck-jump",
+      "box-jump"
+    ],
+    "tags": [
+      "cardio",
+      "advanced",
+      "skill",
+      "crossfit",
+      "high-intensity"
+    ],
+    "suitableGoals": [
+      "ENDURANCE",
+      "GENERAL_FITNESS"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 1,
+      "lightlyActive": 1,
+      "moderatelyActive": 2,
+      "veryActive": 4,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 1,
+      "lessThan6Mo": 1,
+      "sixTo24Mo": 2,
+      "twoTo5Yr": 4,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.85,
+      "muscleGain": 0.25,
+      "strength": 0.35,
+      "endurance": 0.85,
+      "flexibility": 0.15,
+      "generalFitness": 0.8
+    },
+    "estimatedTimePerSet": 90,
+    "setupTimeSeconds": 10,
+    "homeCompatibility": 0.7,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.95
+  },
+  {
+    "name": "Outdoor Cycling",
+    "slug": "outdoor-cycling",
+    "description": "Cardiovascular exercise riding a bicycle outdoors on roads or trails. This enjoyable activity provides variable terrain challenges while covering distance.",
+    "instructions": [
+      "Ensure bike is properly fitted to your body",
+      "Wear helmet and appropriate gear",
+      "Start with warm-up at easy pace",
+      "Maintain cadence appropriate to terrain",
+      "Use gears to manage effort level"
+    ],
+    "category": "CARDIO",
+    "movementPattern": "CYCLING",
+    "exerciseType": "CARDIO_STEADY",
+    "primaryMuscles": [
+      "quadriceps",
+      "hamstrings"
+    ],
+    "secondaryMuscles": [
+      "glutes",
+      "calves",
+      "core"
+    ],
+    "muscleActivationMap": {
+      "quadriceps": 0.82,
+      "hamstrings": 0.65,
+      "glutes": 0.6,
+      "calves": 0.55,
+      "core": 0.4
+    },
+    "difficultyLevel": 2,
+    "skillRequirement": 2,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [
+      "bicycle",
+      "helmet"
+    ],
+    "equipmentOptional": [
+      "cycling_shoes",
+      "heart_rate_monitor"
+    ],
+    "suitableLocations": [
+      "outdoor"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 30,
+        "max": 60
+      },
+      "hypertrophy": {
+        "min": 45,
+        "max": 90
+      },
+      "endurance": {
+        "min": 60,
+        "max": 180
+      }
+    },
+    "typicalSets": {
+      "min": 1,
+      "max": 1
+    },
+    "restSeconds": {
+      "strength": 0,
+      "hypertrophy": 0,
+      "endurance": 0
+    },
+    "metValue": 7.5,
+    "intensityFactor": 0.65,
+    "contraindications": [],
+    "formCues": [
+      "Relaxed grip on handlebars",
+      "Smooth pedal stroke",
+      "Use gears appropriately",
+      "Stay aware of surroundings",
+      "Maintain hydration"
+    ],
+    "commonMistakes": [
+      "Seat too high or low",
+      "Grinding in wrong gear",
+      "Tense upper body",
+      "Poor road awareness",
+      "Not using gears"
+    ],
+    "easierVariation": "stationary-bike",
+    "harderVariation": "hill-climb-cycling",
+    "alternativeExercises": [
+      "stationary-bike",
+      "running",
+      "swimming"
+    ],
+    "tags": [
+      "cardio",
+      "outdoor",
+      "cycling",
+      "steady-state",
+      "endurance"
+    ],
+    "suitableGoals": [
+      "WEIGHT_LOSS",
+      "ENDURANCE",
+      "GENERAL_FITNESS"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 2,
+      "lightlyActive": 4,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 3,
+      "lessThan6Mo": 4,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.82,
+      "muscleGain": 0.22,
+      "strength": 0.32,
+      "endurance": 0.9,
+      "flexibility": 0.12,
+      "generalFitness": 0.85
+    },
+    "estimatedTimePerSet": 2700,
+    "setupTimeSeconds": 180,
+    "homeCompatibility": 0.0,
+    "gymCompatibility": 0.0,
+    "outdoorCompatibility": 1.0
+  },
+  {
+    "name": "Walking",
+    "slug": "walking",
+    "description": "The most fundamental and accessible cardiovascular exercise. This low-impact activity is suitable for all fitness levels and provides numerous health benefits with minimal injury risk.",
+    "instructions": [
+      "Wear comfortable supportive footwear",
+      "Begin at natural pace",
+      "Swing arms naturally",
+      "Maintain upright posture",
+      "Gradually increase pace or duration as fitness improves"
+    ],
+    "category": "CARDIO",
+    "movementPattern": "WALKING",
+    "exerciseType": "CARDIO_STEADY",
+    "primaryMuscles": [
+      "quadriceps",
+      "hamstrings",
+      "calves"
+    ],
+    "secondaryMuscles": [
+      "glutes",
+      "core"
+    ],
+    "muscleActivationMap": {
+      "quadriceps": 0.5,
+      "hamstrings": 0.45,
+      "calves": 0.55,
+      "glutes": 0.4,
+      "core": 0.25
+    },
+    "difficultyLevel": 1,
+    "skillRequirement": 1,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [],
+    "equipmentOptional": [
+      "walking_shoes"
+    ],
+    "suitableLocations": [
+      "outdoor",
+      "gym",
+      "home"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 20,
+        "max": 40
+      },
+      "hypertrophy": {
+        "min": 30,
+        "max": 60
+      },
+      "endurance": {
+        "min": 45,
+        "max": 120
+      }
+    },
+    "typicalSets": {
+      "min": 1,
+      "max": 1
+    },
+    "restSeconds": {
+      "strength": 0,
+      "hypertrophy": 0,
+      "endurance": 0
+    },
+    "metValue": 3.5,
+    "intensityFactor": 0.35,
+    "contraindications": [],
+    "formCues": [
+      "Natural arm swing",
+      "Heel-toe gait",
+      "Look ahead",
+      "Relaxed shoulders",
+      "Upright posture"
+    ],
+    "commonMistakes": [
+      "Looking down",
+      "Shuffling feet",
+      "Tense shoulders",
+      "Too slow pace",
+      "Poor footwear"
+    ],
+    "easierVariation": null,
+    "harderVariation": "brisk-walking",
+    "alternativeExercises": [
+      "treadmill-walking",
+      "hiking",
+      "elliptical"
+    ],
+    "tags": [
+      "cardio",
+      "low-impact",
+      "beginner-friendly",
+      "accessible",
+      "daily-activity",
+      "pregnancy-safe",
+      "heart-condition-safe"
+    ],
+    "suitableGoals": [
+      "WEIGHT_LOSS",
+      "GENERAL_FITNESS",
+      "ENDURANCE"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 5,
+      "lightlyActive": 5,
+      "moderatelyActive": 5,
+      "veryActive": 4,
+      "athlete": 3
+    },
+    "experienceLevelSuitability": {
+      "never": 5,
+      "lessThan6Mo": 5,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 4
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.55,
+      "muscleGain": 0.1,
+      "strength": 0.15,
+      "endurance": 0.65,
+      "flexibility": 0.15,
+      "generalFitness": 0.7
+    },
+    "estimatedTimePerSet": 1800,
+    "setupTimeSeconds": 30,
+    "homeCompatibility": 0.6,
+    "gymCompatibility": 0.7,
+    "outdoorCompatibility": 1.0
+  },
+  {
+    "name": "Jogging",
+    "slug": "jogging",
+    "description": "Moderate-paced running outdoors or on a track, faster than walking but sustainable for extended periods. This fundamental cardio exercise builds aerobic endurance and burns calories effectively.",
+    "instructions": [
+      "Warm up with 5 minutes of walking",
+      "Begin jogging at conversational pace",
+      "Land midfoot with slight knee bend",
+      "Swing arms naturally at sides",
+      "Maintain steady breathing rhythm"
+    ],
+    "category": "CARDIO",
+    "movementPattern": "RUNNING",
+    "exerciseType": "CARDIO_STEADY",
+    "primaryMuscles": [
+      "quadriceps",
+      "hamstrings",
+      "calves"
+    ],
+    "secondaryMuscles": [
+      "glutes",
+      "core",
+      "hip_flexors"
+    ],
+    "muscleActivationMap": {
+      "quadriceps": 0.68,
+      "hamstrings": 0.62,
+      "calves": 0.7,
+      "glutes": 0.55,
+      "core": 0.4,
+      "hip_flexors": 0.5
+    },
+    "difficultyLevel": 2,
+    "skillRequirement": 1,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [],
+    "equipmentOptional": [
+      "running_shoes",
+      "heart_rate_monitor"
+    ],
+    "suitableLocations": [
+      "outdoor",
+      "gym"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 15,
+        "max": 30
+      },
+      "hypertrophy": {
+        "min": 20,
+        "max": 45
+      },
+      "endurance": {
+        "min": 30,
+        "max": 90
+      }
+    },
+    "typicalSets": {
+      "min": 1,
+      "max": 1
+    },
+    "restSeconds": {
+      "strength": 0,
+      "hypertrophy": 0,
+      "endurance": 0
+    },
+    "metValue": 7.0,
+    "intensityFactor": 0.6,
+    "contraindications": [
+      "knee_injury",
+      "ankle_injury"
+    ],
+    "formCues": [
+      "Conversational pace",
+      "Midfoot landing",
+      "Natural arm swing",
+      "Relaxed shoulders",
+      "Steady breathing"
+    ],
+    "commonMistakes": [
+      "Starting too fast",
+      "Overstriding",
+      "Tense upper body",
+      "Heel striking hard",
+      "Irregular breathing"
+    ],
+    "easierVariation": "walking",
+    "harderVariation": "tempo-run",
+    "alternativeExercises": [
+      "treadmill-running",
+      "elliptical",
+      "stationary-bike"
+    ],
+    "tags": [
+      "cardio",
+      "running",
+      "steady-state",
+      "outdoor",
+      "endurance",
+      "accessible"
+    ],
+    "suitableGoals": [
+      "WEIGHT_LOSS",
+      "ENDURANCE",
+      "GENERAL_FITNESS"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 2,
+      "lightlyActive": 4,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 3,
+      "lessThan6Mo": 4,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.82,
+      "muscleGain": 0.15,
+      "strength": 0.22,
+      "endurance": 0.88,
+      "flexibility": 0.12,
+      "generalFitness": 0.82
+    },
+    "estimatedTimePerSet": 1800,
+    "setupTimeSeconds": 60,
+    "homeCompatibility": 0.0,
+    "gymCompatibility": 0.7,
+    "outdoorCompatibility": 1.0
+  },
+  {
+    "name": "Hiking",
+    "slug": "hiking",
+    "description": "Outdoor cardiovascular activity walking on trails and varied terrain. This engaging exercise combines fitness with nature, providing both physical and mental health benefits.",
+    "instructions": [
+      "Wear appropriate footwear for terrain",
+      "Carry water and essentials",
+      "Start at sustainable pace",
+      "Use poles for steep terrain if needed",
+      "Adjust pace to terrain difficulty"
+    ],
+    "category": "CARDIO",
+    "movementPattern": "WALKING",
+    "exerciseType": "CARDIO_STEADY",
+    "primaryMuscles": [
+      "quadriceps",
+      "glutes",
+      "calves"
+    ],
+    "secondaryMuscles": [
+      "hamstrings",
+      "core",
+      "hip_flexors"
+    ],
+    "muscleActivationMap": {
+      "quadriceps": 0.68,
+      "glutes": 0.65,
+      "calves": 0.62,
+      "hamstrings": 0.5,
+      "core": 0.4
+    },
+    "difficultyLevel": 2,
+    "skillRequirement": 1,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [
+      "hiking_boots"
+    ],
+    "equipmentOptional": [
+      "trekking_poles",
+      "backpack"
+    ],
+    "suitableLocations": [
+      "outdoor"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 30,
+        "max": 60
+      },
+      "hypertrophy": {
+        "min": 60,
+        "max": 120
+      },
+      "endurance": {
+        "min": 90,
+        "max": 300
+      }
+    },
+    "typicalSets": {
+      "min": 1,
+      "max": 1
+    },
+    "restSeconds": {
+      "strength": 0,
+      "hypertrophy": 0,
+      "endurance": 0
+    },
+    "metValue": 5.5,
+    "intensityFactor": 0.52,
+    "contraindications": [
+      "ankle_injury"
+    ],
+    "formCues": [
+      "Watch footing on uneven terrain",
+      "Use poles for stability",
+      "Pace yourself for distance",
+      "Stay hydrated",
+      "Shorten stride on inclines"
+    ],
+    "commonMistakes": [
+      "Starting too fast",
+      "Inadequate footwear",
+      "Not enough water",
+      "Ignoring weather",
+      "Unprepared for terrain"
+    ],
+    "easierVariation": "walking",
+    "harderVariation": "mountain-hiking",
+    "alternativeExercises": [
+      "walking",
+      "stair-climber",
+      "treadmill-incline"
+    ],
+    "tags": [
+      "cardio",
+      "outdoor",
+      "nature",
+      "low-impact",
+      "adventure"
+    ],
+    "suitableGoals": [
+      "GENERAL_FITNESS",
+      "ENDURANCE",
+      "WEIGHT_LOSS"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 2,
+      "lightlyActive": 4,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 4,
+      "lessThan6Mo": 5,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.72,
+      "muscleGain": 0.25,
+      "strength": 0.35,
+      "endurance": 0.82,
+      "flexibility": 0.15,
+      "generalFitness": 0.82
+    },
+    "estimatedTimePerSet": 5400,
+    "setupTimeSeconds": 300,
+    "homeCompatibility": 0.0,
+    "gymCompatibility": 0.0,
+    "outdoorCompatibility": 1.0
+  },
+  {
+    "name": "Sprinting",
+    "slug": "sprinting",
+    "description": "Maximum-intensity running for short distances or durations. This high-power exercise develops speed, power, and anaerobic capacity while providing efficient conditioning.",
+    "instructions": [
+      "Warm up thoroughly with jogging and dynamic stretches",
+      "Start from standing or blocks",
+      "Drive arms and legs powerfully",
+      "Sprint at maximum effort for prescribed distance",
+      "Allow full recovery between sprints"
+    ],
+    "category": "CARDIO",
+    "movementPattern": "RUNNING",
+    "exerciseType": "CARDIO_STEADY",
+    "primaryMuscles": [
+      "quadriceps",
+      "hamstrings",
+      "glutes"
+    ],
+    "secondaryMuscles": [
+      "calves",
+      "core",
+      "hip_flexors"
+    ],
+    "muscleActivationMap": {
+      "quadriceps": 0.88,
+      "hamstrings": 0.85,
+      "glutes": 0.82,
+      "calves": 0.75,
+      "hip_flexors": 0.7,
+      "core": 0.55
+    },
+    "difficultyLevel": 4,
+    "skillRequirement": 2,
+    "isBeginnerFriendly": false,
+    "equipmentRequired": [],
+    "equipmentOptional": [
+      "sprint_spikes"
+    ],
+    "suitableLocations": [
+      "outdoor",
+      "gym"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 4,
+        "max": 8
+      },
+      "hypertrophy": {
+        "min": 6,
+        "max": 12
+      },
+      "endurance": {
+        "min": 10,
+        "max": 20
+      }
+    },
+    "typicalSets": {
+      "min": 4,
+      "max": 10
+    },
+    "restSeconds": {
+      "strength": 180,
+      "hypertrophy": 120,
+      "endurance": 60
+    },
+    "metValue": 12.0,
+    "intensityFactor": 0.95,
+    "contraindications": [
+      "heart_condition",
+      "hamstring_injury",
+      "knee_injury",
+      "ankle_injury"
+    ],
+    "formCues": [
+      "Powerful arm drive",
+      "High knee lift",
+      "Full hip extension",
+      "Stay relaxed",
+      "Drive through ground"
+    ],
+    "commonMistakes": [
+      "Not warming up",
+      "Tense upper body",
+      "Short strides",
+      "Incomplete recovery",
+      "Poor start mechanics"
+    ],
+    "easierVariation": "jogging",
+    "harderVariation": "hill-sprints",
+    "alternativeExercises": [
+      "treadmill-running",
+      "cycling-sprints",
+      "rowing-sprints"
+    ],
+    "tags": [
+      "cardio",
+      "high-intensity",
+      "power",
+      "speed",
+      "anaerobic"
+    ],
+    "suitableGoals": [
+      "WEIGHT_LOSS",
+      "STRENGTH",
+      "GENERAL_FITNESS"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 1,
+      "lightlyActive": 2,
+      "moderatelyActive": 3,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 1,
+      "lessThan6Mo": 2,
+      "sixTo24Mo": 4,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.88,
+      "muscleGain": 0.45,
+      "strength": 0.55,
+      "endurance": 0.72,
+      "flexibility": 0.2,
+      "generalFitness": 0.82
+    },
+    "estimatedTimePerSet": 15,
+    "setupTimeSeconds": 300,
+    "homeCompatibility": 0.0,
+    "gymCompatibility": 0.5,
+    "outdoorCompatibility": 1.0
+  },
+  {
+    "name": "Marching in Place",
+    "slug": "marching-in-place",
+    "description": "A low-impact cardio exercise lifting knees alternately while staying in one spot. This accessible movement is ideal for warm-ups, active recovery, and those needing joint-friendly options.",
+    "instructions": [
+      "Stand tall with feet hip-width apart",
+      "Lift one knee toward hip height",
+      "Lower and immediately lift opposite knee",
+      "Swing arms naturally in opposition to legs",
+      "Maintain steady rhythm"
+    ],
+    "category": "CARDIO",
+    "movementPattern": "WALKING",
+    "exerciseType": "CARDIO_STEADY",
+    "primaryMuscles": [
+      "hip_flexors",
+      "quadriceps"
+    ],
+    "secondaryMuscles": [
+      "calves",
+      "core"
+    ],
+    "muscleActivationMap": {
+      "hip_flexors": 0.55,
+      "quadriceps": 0.45,
+      "calves": 0.35,
+      "core": 0.3
+    },
+    "difficultyLevel": 1,
+    "skillRequirement": 1,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "home",
+      "gym",
+      "outdoor"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 30,
+        "max": 60
+      },
+      "hypertrophy": {
+        "min": 60,
+        "max": 120
+      },
+      "endurance": {
+        "min": 120,
+        "max": 300
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 30,
+      "hypertrophy": 20,
+      "endurance": 10
+    },
+    "metValue": 3.5,
+    "intensityFactor": 0.32,
+    "contraindications": [],
+    "formCues": [
+      "Knees toward hip height",
+      "Natural arm swing",
+      "Stay upright",
+      "Light on feet",
+      "Controlled pace"
+    ],
+    "commonMistakes": [
+      "Knees not high enough",
+      "Slouching",
+      "No arm swing",
+      "Going too slow",
+      "Flat-footed"
+    ],
+    "easierVariation": null,
+    "harderVariation": "high-knees",
+    "alternativeExercises": [
+      "walking",
+      "step-touch",
+      "low-impact-jumping-jack"
+    ],
+    "tags": [
+      "low-impact",
+      "beginner-friendly",
+      "warm-up",
+      "accessible",
+      "pregnancy-safe",
+      "heart-condition-safe"
+    ],
+    "suitableGoals": [
+      "GENERAL_FITNESS",
+      "ENDURANCE"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 5,
+      "lightlyActive": 5,
+      "moderatelyActive": 5,
+      "veryActive": 3,
+      "athlete": 2
+    },
+    "experienceLevelSuitability": {
+      "never": 5,
+      "lessThan6Mo": 5,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 4,
+      "fivePlusYr": 3
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.4,
+      "muscleGain": 0.1,
+      "strength": 0.15,
+      "endurance": 0.5,
+      "flexibility": 0.15,
+      "generalFitness": 0.55
+    },
+    "estimatedTimePerSet": 60,
+    "setupTimeSeconds": 0,
+    "homeCompatibility": 1.0,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 1.0
+  },
+  {
+    "name": "Step Touch",
+    "slug": "step-touch",
+    "description": "A basic aerobics movement stepping side to side with a toe tap. This low-impact exercise is common in group fitness classes and provides gentle cardiovascular work.",
+    "instructions": [
+      "Stand with feet together",
+      "Step right foot to side",
+      "Bring left foot to touch beside right",
+      "Step left foot to side",
+      "Bring right foot to touch, continue alternating"
+    ],
+    "category": "CARDIO",
+    "movementPattern": "LATERAL",
+    "exerciseType": "CARDIO_STEADY",
+    "primaryMuscles": [
+      "quadriceps",
+      "hip_abductors"
+    ],
+    "secondaryMuscles": [
+      "calves",
+      "glutes"
+    ],
+    "muscleActivationMap": {
+      "quadriceps": 0.4,
+      "hip_abductors": 0.45,
+      "calves": 0.35,
+      "glutes": 0.35
+    },
+    "difficultyLevel": 1,
+    "skillRequirement": 1,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "home",
+      "gym"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 30,
+        "max": 60
+      },
+      "hypertrophy": {
+        "min": 60,
+        "max": 120
+      },
+      "endurance": {
+        "min": 120,
+        "max": 300
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 30,
+      "hypertrophy": 20,
+      "endurance": 10
+    },
+    "metValue": 3.0,
+    "intensityFactor": 0.28,
+    "contraindications": [],
+    "formCues": [
+      "Controlled lateral movement",
+      "Light feet",
+      "Add arm movements",
+      "Stay low if desired",
+      "Maintain rhythm"
+    ],
+    "commonMistakes": [
+      "Moving too fast",
+      "Sloppy footwork",
+      "Poor posture",
+      "No arm engagement",
+      "Inconsistent rhythm"
+    ],
+    "easierVariation": null,
+    "harderVariation": "grapevine",
+    "alternativeExercises": [
+      "marching-in-place",
+      "low-impact-jumping-jack",
+      "walking"
+    ],
+    "tags": [
+      "low-impact",
+      "aerobics",
+      "beginner-friendly",
+      "group-fitness",
+      "pregnancy-safe",
+      "heart-condition-safe"
+    ],
+    "suitableGoals": [
+      "GENERAL_FITNESS"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 5,
+      "lightlyActive": 5,
+      "moderatelyActive": 4,
+      "veryActive": 2,
+      "athlete": 1
+    },
+    "experienceLevelSuitability": {
+      "never": 5,
+      "lessThan6Mo": 5,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 3,
+      "fivePlusYr": 2
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.35,
+      "muscleGain": 0.08,
+      "strength": 0.12,
+      "endurance": 0.45,
+      "flexibility": 0.1,
+      "generalFitness": 0.48
+    },
+    "estimatedTimePerSet": 60,
+    "setupTimeSeconds": 0,
+    "homeCompatibility": 1.0,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.8
+  },
+  {
+    "name": "Low-Impact Jumping Jack",
+    "slug": "low-impact-jumping-jack",
+    "description": "A modified jumping jack stepping feet out instead of jumping. This gentler variation provides cardiovascular benefits without joint stress from impact.",
+    "instructions": [
+      "Stand with feet together, arms at sides",
+      "Step right foot out while raising arms overhead",
+      "Step right foot back while lowering arms",
+      "Repeat stepping left foot out",
+      "Continue alternating with continuous rhythm"
+    ],
+    "category": "CARDIO",
+    "movementPattern": "FULL_BODY",
+    "exerciseType": "CARDIO_STEADY",
+    "primaryMuscles": [
+      "quadriceps",
+      "shoulders"
+    ],
+    "secondaryMuscles": [
+      "calves",
+      "hip_abductors",
+      "core"
+    ],
+    "muscleActivationMap": {
+      "quadriceps": 0.42,
+      "shoulders": 0.45,
+      "calves": 0.35,
+      "hip_abductors": 0.4,
+      "core": 0.25
+    },
+    "difficultyLevel": 1,
+    "skillRequirement": 1,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "home",
+      "gym",
+      "outdoor"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 25,
+        "max": 40
+      },
+      "hypertrophy": {
+        "min": 40,
+        "max": 70
+      },
+      "endurance": {
+        "min": 70,
+        "max": 150
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 30,
+      "hypertrophy": 20,
+      "endurance": 10
+    },
+    "metValue": 4.0,
+    "intensityFactor": 0.38,
+    "contraindications": [],
+    "formCues": [
+      "Step wide like jumping jack",
+      "Full arm range",
+      "Alternate feet",
+      "Keep rhythm consistent",
+      "Stay light on feet"
+    ],
+    "commonMistakes": [
+      "Arms not reaching overhead",
+      "Steps too small",
+      "Inconsistent pace",
+      "Poor posture",
+      "Too slow"
+    ],
+    "easierVariation": "step-touch",
+    "harderVariation": "jumping-jack",
+    "alternativeExercises": [
+      "marching-in-place",
+      "step-touch",
+      "walking"
+    ],
+    "tags": [
+      "low-impact",
+      "beginner-friendly",
+      "modification",
+      "accessible",
+      "pregnancy-safe",
+      "heart-condition-safe"
+    ],
+    "suitableGoals": [
+      "GENERAL_FITNESS",
+      "ENDURANCE"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 5,
+      "lightlyActive": 5,
+      "moderatelyActive": 5,
+      "veryActive": 3,
+      "athlete": 2
+    },
+    "experienceLevelSuitability": {
+      "never": 5,
+      "lessThan6Mo": 5,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 4,
+      "fivePlusYr": 3
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.48,
+      "muscleGain": 0.12,
+      "strength": 0.18,
+      "endurance": 0.58,
+      "flexibility": 0.15,
+      "generalFitness": 0.58
+    },
+    "estimatedTimePerSet": 45,
+    "setupTimeSeconds": 0,
+    "homeCompatibility": 1.0,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 1.0
+  },
+  {
+    "name": "Water Aerobics",
+    "slug": "water-aerobics",
+    "description": "Group or individual exercise performed in shallow water, utilizing water resistance. This zero-impact option is excellent for those with joint issues, pregnancy, or those seeking gentle conditioning.",
+    "instructions": [
+      "Enter pool, chest-deep water is typical",
+      "Perform various movements: marching, jumping, arm movements",
+      "Use water resistance for all movements",
+      "Follow instructor or routine",
+      "Maintain continuous movement for cardio benefit"
+    ],
+    "category": "CARDIO",
+    "movementPattern": "FULL_BODY",
+    "exerciseType": "CARDIO_STEADY",
+    "primaryMuscles": [
+      "quadriceps",
+      "core"
+    ],
+    "secondaryMuscles": [
+      "shoulders",
+      "glutes",
+      "chest"
+    ],
+    "muscleActivationMap": {
+      "quadriceps": 0.55,
+      "core": 0.5,
+      "shoulders": 0.45,
+      "glutes": 0.45,
+      "chest": 0.35
+    },
+    "difficultyLevel": 1,
+    "skillRequirement": 1,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [
+      "pool"
+    ],
+    "equipmentOptional": [
+      "water_dumbbells",
+      "pool_noodle"
+    ],
+    "suitableLocations": [
+      "gym"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 30,
+        "max": 45
+      },
+      "hypertrophy": {
+        "min": 45,
+        "max": 60
+      },
+      "endurance": {
+        "min": 45,
+        "max": 60
+      }
+    },
+    "typicalSets": {
+      "min": 1,
+      "max": 1
+    },
+    "restSeconds": {
+      "strength": 0,
+      "hypertrophy": 0,
+      "endurance": 0
+    },
+    "metValue": 4.5,
+    "intensityFactor": 0.42,
+    "contraindications": [],
+    "formCues": [
+      "Use water resistance",
+      "Keep movements controlled",
+      "Breathe normally",
+      "Maintain good posture",
+      "Full range of motion"
+    ],
+    "commonMistakes": [
+      "Movements too fast",
+      "Not using full range",
+      "Forgetting to breathe",
+      "Poor posture",
+      "Not enough effort"
+    ],
+    "easierVariation": "pool-walking",
+    "harderVariation": "deep-water-running",
+    "alternativeExercises": [
+      "swimming",
+      "elliptical",
+      "recumbent-bike"
+    ],
+    "tags": [
+      "low-impact",
+      "zero-impact",
+      "joint-friendly",
+      "pregnancy-safe",
+      "heart-condition-safe",
+      "rehab"
+    ],
+    "suitableGoals": [
+      "GENERAL_FITNESS",
+      "ENDURANCE"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 5,
+      "lightlyActive": 5,
+      "moderatelyActive": 5,
+      "veryActive": 4,
+      "athlete": 3
+    },
+    "experienceLevelSuitability": {
+      "never": 5,
+      "lessThan6Mo": 5,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 4
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.55,
+      "muscleGain": 0.25,
+      "strength": 0.32,
+      "endurance": 0.68,
+      "flexibility": 0.35,
+      "generalFitness": 0.7
+    },
+    "estimatedTimePerSet": 2700,
+    "setupTimeSeconds": 120,
+    "homeCompatibility": 0.0,
+    "gymCompatibility": 0.8,
+    "outdoorCompatibility": 0.3
+  },
+  {
+    "name": "Recumbent Bike",
+    "slug": "recumbent-bike",
+    "description": "Cycling exercise on a bike with back support and reclined seating position. This extremely joint-friendly option is ideal for those with back issues or limited mobility.",
+    "instructions": [
+      "Adjust seat so leg slightly bent at full extension",
+      "Lean back into seat support",
+      "Begin pedaling at comfortable pace",
+      "Adjust resistance as needed",
+      "Maintain steady cadence"
+    ],
+    "category": "CARDIO",
+    "movementPattern": "CYCLING",
+    "exerciseType": "CARDIO_STEADY",
+    "primaryMuscles": [
+      "quadriceps",
+      "hamstrings"
+    ],
+    "secondaryMuscles": [
+      "glutes",
+      "calves"
+    ],
+    "muscleActivationMap": {
+      "quadriceps": 0.72,
+      "hamstrings": 0.55,
+      "glutes": 0.45,
+      "calves": 0.4
+    },
+    "difficultyLevel": 1,
+    "skillRequirement": 1,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [
+      "recumbent_bike"
+    ],
+    "equipmentOptional": [
+      "heart_rate_monitor"
+    ],
+    "suitableLocations": [
+      "gym",
+      "home"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 20,
+        "max": 35
+      },
+      "hypertrophy": {
+        "min": 35,
+        "max": 50
+      },
+      "endurance": {
+        "min": 35,
+        "max": 60
+      }
+    },
+    "typicalSets": {
+      "min": 1,
+      "max": 1
+    },
+    "restSeconds": {
+      "strength": 0,
+      "hypertrophy": 0,
+      "endurance": 0
+    },
+    "metValue": 4.5,
+    "intensityFactor": 0.42,
+    "contraindications": [],
+    "formCues": [
+      "Full pedal stroke",
+      "Use back support",
+      "Relaxed upper body",
+      "Steady cadence",
+      "Appropriate resistance"
+    ],
+    "commonMistakes": [
+      "Seat distance wrong",
+      "Resistance too low",
+      "Bouncing on seat",
+      "Gripping handles tight",
+      "Poor posture"
+    ],
+    "easierVariation": null,
+    "harderVariation": "stationary-bike",
+    "alternativeExercises": [
+      "stationary-bike",
+      "elliptical",
+      "swimming"
+    ],
+    "tags": [
+      "low-impact",
+      "joint-friendly",
+      "back-support",
+      "beginner-friendly",
+      "pregnancy-safe",
+      "heart-condition-safe"
+    ],
+    "suitableGoals": [
+      "GENERAL_FITNESS",
+      "ENDURANCE",
+      "WEIGHT_LOSS"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 5,
+      "lightlyActive": 5,
+      "moderatelyActive": 5,
+      "veryActive": 4,
+      "athlete": 3
+    },
+    "experienceLevelSuitability": {
+      "never": 5,
+      "lessThan6Mo": 5,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 4
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.62,
+      "muscleGain": 0.15,
+      "strength": 0.22,
+      "endurance": 0.72,
+      "flexibility": 0.08,
+      "generalFitness": 0.68
+    },
+    "estimatedTimePerSet": 1500,
+    "setupTimeSeconds": 45,
+    "homeCompatibility": 0.6,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.0
+  },
+  {
+    "name": "Arm Ergometer",
+    "slug": "arm-ergometer",
+    "description": "Upper body cycling machine cranking arm pedals while seated. This option provides cardiovascular exercise without using legs, ideal for lower body injuries or wheelchair users.",
+    "instructions": [
+      "Sit in chair or wheelchair facing arm ergometer",
+      "Adjust height so arms can reach pedals comfortably",
+      "Grip handles and begin cranking forward",
+      "Maintain steady rhythm",
+      "Can reverse direction periodically"
+    ],
+    "category": "CARDIO",
+    "movementPattern": "ARM_CYCLING",
+    "exerciseType": "CARDIO_STEADY",
+    "primaryMuscles": [
+      "shoulders",
+      "biceps",
+      "triceps"
+    ],
+    "secondaryMuscles": [
+      "chest",
+      "back",
+      "core"
+    ],
+    "muscleActivationMap": {
+      "shoulders": 0.7,
+      "biceps": 0.55,
+      "triceps": 0.55,
+      "chest": 0.4,
+      "back": 0.45,
+      "core": 0.35
+    },
+    "difficultyLevel": 1,
+    "skillRequirement": 1,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [
+      "arm_ergometer"
+    ],
+    "equipmentOptional": [
+      "heart_rate_monitor"
+    ],
+    "suitableLocations": [
+      "gym"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 10,
+        "max": 20
+      },
+      "hypertrophy": {
+        "min": 20,
+        "max": 30
+      },
+      "endurance": {
+        "min": 20,
+        "max": 45
+      }
+    },
+    "typicalSets": {
+      "min": 1,
+      "max": 1
+    },
+    "restSeconds": {
+      "strength": 0,
+      "hypertrophy": 0,
+      "endurance": 0
+    },
+    "metValue": 4.0,
+    "intensityFactor": 0.4,
+    "contraindications": [
+      "shoulder_injury"
+    ],
+    "formCues": [
+      "Smooth circular motion",
+      "Both arms contribute equally",
+      "Sit upright",
+      "Breathe steadily",
+      "Adjust resistance appropriately"
+    ],
+    "commonMistakes": [
+      "Arms doing unequal work",
+      "Jerky motion",
+      "Too much resistance",
+      "Poor posture",
+      "Holding breath"
+    ],
+    "easierVariation": null,
+    "harderVariation": "arm-ergometer-intervals",
+    "alternativeExercises": [
+      "battle-rope-wave",
+      "seated-boxing",
+      "swimming"
+    ],
+    "tags": [
+      "low-impact",
+      "upper-body",
+      "seated",
+      "accessible",
+      "rehab",
+      "pregnancy-safe",
+      "heart-condition-safe"
+    ],
+    "suitableGoals": [
+      "GENERAL_FITNESS",
+      "ENDURANCE"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 5,
+      "lightlyActive": 5,
+      "moderatelyActive": 5,
+      "veryActive": 4,
+      "athlete": 3
+    },
+    "experienceLevelSuitability": {
+      "never": 5,
+      "lessThan6Mo": 5,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 4
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.48,
+      "muscleGain": 0.22,
+      "strength": 0.28,
+      "endurance": 0.62,
+      "flexibility": 0.12,
+      "generalFitness": 0.58
+    },
+    "estimatedTimePerSet": 900,
+    "setupTimeSeconds": 60,
+    "homeCompatibility": 0.2,
+    "gymCompatibility": 0.9,
+    "outdoorCompatibility": 0.0
+  },
+  {
+    "name": "Seated Cardio",
+    "slug": "seated-cardio",
+    "description": "Chair-based cardiovascular exercises for those unable to stand. This accessible option combines arm movements, leg lifts, and twisting motions to elevate heart rate while seated.",
+    "instructions": [
+      "Sit tall in sturdy chair, feet flat on floor",
+      "Perform arm circles, punches, or reaches",
+      "Add marching legs or knee lifts",
+      "Include torso twists",
+      "Maintain continuous movement for cardio benefit"
+    ],
+    "category": "CARDIO",
+    "movementPattern": "FULL_BODY",
+    "exerciseType": "CARDIO_STEADY",
+    "primaryMuscles": [
+      "shoulders",
+      "hip_flexors"
+    ],
+    "secondaryMuscles": [
+      "core",
+      "quadriceps",
+      "chest"
+    ],
+    "muscleActivationMap": {
+      "shoulders": 0.5,
+      "hip_flexors": 0.45,
+      "core": 0.4,
+      "quadriceps": 0.35,
+      "chest": 0.3
+    },
+    "difficultyLevel": 1,
+    "skillRequirement": 1,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [
+      "chair"
+    ],
+    "equipmentOptional": [
+      "light_dumbbells"
+    ],
+    "suitableLocations": [
+      "home",
+      "gym"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 20,
+        "max": 40
+      },
+      "hypertrophy": {
+        "min": 40,
+        "max": 60
+      },
+      "endurance": {
+        "min": 45,
+        "max": 60
+      }
+    },
+    "typicalSets": {
+      "min": 1,
+      "max": 1
+    },
+    "restSeconds": {
+      "strength": 0,
+      "hypertrophy": 0,
+      "endurance": 0
+    },
+    "metValue": 3.0,
+    "intensityFactor": 0.3,
+    "contraindications": [],
+    "formCues": [
+      "Sit tall throughout",
+      "Engage core",
+      "Full arm movements",
+      "Lift knees when possible",
+      "Continuous motion"
+    ],
+    "commonMistakes": [
+      "Slouching",
+      "Movements too small",
+      "Not engaging core",
+      "Holding breath",
+      "Going too slow"
+    ],
+    "easierVariation": null,
+    "harderVariation": "standing-cardio",
+    "alternativeExercises": [
+      "marching-in-place",
+      "arm-ergometer",
+      "recumbent-bike"
+    ],
+    "tags": [
+      "seated",
+      "accessible",
+      "low-impact",
+      "beginner-friendly",
+      "mobility-limited",
+      "pregnancy-safe",
+      "heart-condition-safe"
+    ],
+    "suitableGoals": [
+      "GENERAL_FITNESS"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 5,
+      "lightlyActive": 5,
+      "moderatelyActive": 4,
+      "veryActive": 2,
+      "athlete": 1
+    },
+    "experienceLevelSuitability": {
+      "never": 5,
+      "lessThan6Mo": 5,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 4,
+      "fivePlusYr": 3
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.35,
+      "muscleGain": 0.1,
+      "strength": 0.15,
+      "endurance": 0.45,
+      "flexibility": 0.2,
+      "generalFitness": 0.48
+    },
+    "estimatedTimePerSet": 1200,
+    "setupTimeSeconds": 30,
+    "homeCompatibility": 1.0,
+    "gymCompatibility": 0.8,
+    "outdoorCompatibility": 0.5
+  }
+]
