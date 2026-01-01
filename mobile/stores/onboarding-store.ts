@@ -1,17 +1,32 @@
 import { create } from 'zustand';
 
-// ============================================================================
-// TYPES
-// ============================================================================
+import {
+  PrimaryGoal,
+  PastObstacle,
+  Challenge,
+  FitnessLevel,
+  Equipment,
+  Day,
+  Gender,
+  ActivityLevel,
+  UnitSystem,
+  OnboardingRequest,
+  PersonalizedPlan,
+  unitConversion,
+} from '../lib/types/onboarding';
+import { onboardingService } from '../lib/services/onboarding-service';
 
-export type PrimaryGoal = 'lose_weight' | 'build_muscle' | 'get_fitter' | 'maintain';
-export type PastObstacle = 'no_plan' | 'no_guidance' | 'gave_up' | 'inconsistent' | 'first_attempt';
-export type Challenge = 'finding_time' | 'not_knowing_exercises' | 'staying_motivated' | 'no_accountability' | 'tracking_food' | 'planning_workouts';
-export type FitnessLevel = 'beginner' | 'intermediate' | 'advanced';
-export type Equipment = 'barbells' | 'dumbbells' | 'kettlebells' | 'gym_machines' | 'resistance_bands' | 'bodyweight_only';
-export type Day = 'monday' | 'tuesday' | 'wednesday' | 'thursday' | 'friday' | 'saturday' | 'sunday';
-export type Gender = 'male' | 'female';
-export type ActivityLevel = 'sedentary' | 'lightly_active' | 'moderately_active' | 'very_active' | 'super_active';
+// Re-export types for backward compatibility
+export type {
+  PrimaryGoal,
+  PastObstacle,
+  Challenge,
+  FitnessLevel,
+  Equipment,
+  Day,
+  Gender,
+  ActivityLevel,
+};
 
 export interface WorkoutDay {
   day: Day;
@@ -81,6 +96,11 @@ interface OnboardingState {
   // Computed
   calculatedPlan: CalculatedPlan | null;
 
+  // API State
+  isSubmitting: boolean;
+  submissionError: string | null;
+  personalizedPlan: PersonalizedPlan | null;
+
   // Actions
   setName: (name: string) => void;
   setPrimaryGoal: (goal: PrimaryGoal) => void;
@@ -105,7 +125,10 @@ interface OnboardingState {
   prevStep: () => void;
 
   calculatePlan: () => void;
+  submitOnboarding: (useMock?: boolean) => Promise<PersonalizedPlan | null>;
+  buildApiPayload: () => OnboardingRequest | null;
   resetOnboarding: () => void;
+  clearSubmissionError: () => void;
 }
 
 const TOTAL_STEPS = 22;
@@ -132,6 +155,9 @@ export const useOnboardingStore = create<OnboardingState>((set, get) => ({
   weightLossRate: 0.5,
   unitSystem: 'metric',
   calculatedPlan: null,
+  isSubmitting: false,
+  submissionError: null,
+  personalizedPlan: null,
 
   // Setters
   setName: (name) => set({ name }),
@@ -224,6 +250,139 @@ export const useOnboardingStore = create<OnboardingState>((set, get) => ({
     });
   },
 
+  // Build API payload from current state
+  buildApiPayload: () => {
+    const state = get();
+    const {
+      name,
+      primaryGoal,
+      pastObstacle,
+      challenges,
+      fitnessLevel,
+      workoutDuration,
+      equipment,
+      workoutTime,
+      workoutDays,
+      gender,
+      age,
+      height,
+      currentWeight,
+      targetWeight,
+      activityLevel,
+      weightLossRate,
+      unitSystem,
+    } = state;
+
+    // Validate required fields
+    if (
+      !name ||
+      !primaryGoal ||
+      !pastObstacle ||
+      challenges.length === 0 ||
+      !fitnessLevel ||
+      !workoutDuration ||
+      equipment.length === 0 ||
+      !workoutTime ||
+      workoutDays.length === 0 ||
+      !gender ||
+      !age ||
+      !height ||
+      !currentWeight ||
+      !targetWeight ||
+      !activityLevel ||
+      !weightLossRate
+    ) {
+      return null;
+    }
+
+    // Convert units if imperial
+    let heightCm = height;
+    let currentWeightKg = currentWeight;
+    let targetWeightKg = targetWeight;
+    let weeklyWeightChangeKg = weightLossRate;
+
+    if (unitSystem === 'imperial') {
+      heightCm = unitConversion.inchesToCm(height);
+      currentWeightKg = unitConversion.lbToKg(currentWeight);
+      targetWeightKg = unitConversion.lbToKg(targetWeight);
+      weeklyWeightChangeKg = unitConversion.lbToKg(weightLossRate);
+    }
+
+    const payload: OnboardingRequest = {
+      name: name.trim(),
+      primaryGoal,
+      pastObstacle,
+      challenges,
+      fitnessLevel,
+      workoutPreferences: {
+        durationMinutes: workoutDuration,
+        equipment,
+        preferredTime: workoutTime,
+        preferredDays: workoutDays,
+      },
+      bodyMetrics: {
+        gender,
+        age,
+        heightCm,
+        currentWeightKg,
+        targetWeightKg,
+        activityLevel,
+        weeklyWeightChangeKg,
+      },
+      unitSystem,
+    };
+
+    return payload;
+  },
+
+  // Submit onboarding to API
+  submitOnboarding: async (useMock = true) => {
+    const payload = get().buildApiPayload();
+
+    if (!payload) {
+      set({ submissionError: 'Please complete all required fields' });
+      return null;
+    }
+
+    set({ isSubmitting: true, submissionError: null });
+
+    try {
+      let response;
+
+      if (useMock) {
+        // Use mock for UI testing (no backend required)
+        response = onboardingService.mockCompleteOnboarding(payload);
+      } else {
+        // Use real API
+        response = await onboardingService.completeOnboarding(payload);
+      }
+
+      if (response.success) {
+        set({
+          personalizedPlan: response.data.plan,
+          isSubmitting: false,
+        });
+        return response.data.plan;
+      } else {
+        set({
+          submissionError: 'Failed to complete onboarding',
+          isSubmitting: false,
+        });
+        return null;
+      }
+    } catch (error) {
+      const message = error instanceof Error ? error.message : 'An unexpected error occurred';
+      set({
+        submissionError: message,
+        isSubmitting: false,
+      });
+      return null;
+    }
+  },
+
+  // Clear submission error
+  clearSubmissionError: () => set({ submissionError: null }),
+
   // Reset
   resetOnboarding: () =>
     set({
@@ -246,5 +405,8 @@ export const useOnboardingStore = create<OnboardingState>((set, get) => ({
       weightLossRate: 0.5,
       unitSystem: 'metric',
       calculatedPlan: null,
+      isSubmitting: false,
+      submissionError: null,
+      personalizedPlan: null,
     }),
 }));

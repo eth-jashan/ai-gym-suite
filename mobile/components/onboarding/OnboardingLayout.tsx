@@ -1,11 +1,12 @@
-import React from 'react';
-import { View, Pressable, StyleSheet, KeyboardAvoidingView, Platform } from 'react-native';
+import React, { useCallback } from 'react';
+import { View, Pressable, StyleSheet, KeyboardAvoidingView, Platform, Alert } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { Ionicons } from '@expo/vector-icons';
 import Animated, { FadeIn, FadeInUp } from 'react-native-reanimated';
 
 import { useTheme } from '../../providers/theme-provider';
 import { useOnboardingStore } from '../../stores/onboarding-store';
+import { useAuthStore } from '../../stores/auth-store';
 import MascotAvatar, { MascotExpression } from './MascotAvatar';
 
 interface OnboardingLayoutProps {
@@ -30,7 +31,31 @@ export default function OnboardingLayout({
   onClose,
 }: OnboardingLayoutProps) {
   const { colors } = useTheme();
-  const { currentStep, totalSteps } = useOnboardingStore();
+  const { currentStep, totalSteps, resetOnboarding } = useOnboardingStore();
+  const { logout } = useAuthStore();
+
+  const handleClose = useCallback(() => {
+    if (onClose) {
+      onClose();
+    } else {
+      // Default behavior: show confirmation and logout
+      Alert.alert(
+        'Exit Onboarding',
+        'Are you sure you want to exit? You can continue later by logging in again.',
+        [
+          { text: 'Cancel', style: 'cancel' },
+          {
+            text: 'Exit',
+            style: 'destructive',
+            onPress: async () => {
+              resetOnboarding();
+              await logout();
+            },
+          },
+        ]
+      );
+    }
+  }, [onClose, resetOnboarding, logout]);
 
   const progress = (currentStep / totalSteps) * 100;
 
@@ -62,8 +87,8 @@ export default function OnboardingLayout({
             </View>
           )}
 
-          {showClose && onClose ? (
-            <Pressable style={styles.headerButton} onPress={onClose}>
+          {showClose ? (
+            <Pressable style={styles.headerButton} onPress={handleClose}>
               <Ionicons name="close" size={24} color={colors.text.primary} />
             </Pressable>
           ) : (

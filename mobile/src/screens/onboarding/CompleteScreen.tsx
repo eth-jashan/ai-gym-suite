@@ -1,34 +1,65 @@
-import React, { useEffect } from 'react';
-import { View, Text, StyleSheet } from 'react-native';
-import { NativeStackNavigationProp } from '@react-navigation/native-stack';
-import Animated, { FadeIn, FadeInUp, ZoomIn } from 'react-native-reanimated';
+import React, { useEffect, useState, useCallback } from 'react';
+import { View, Text, StyleSheet, Alert, ActivityIndicator } from 'react-native';
+import Animated, { FadeInUp, ZoomIn } from 'react-native-reanimated';
 import * as Haptics from 'expo-haptics';
 
-import { OnboardingStackParamList } from '../../navigation/OnboardingStack';
 import { useOnboardingStore } from '../../../stores/onboarding-store';
 import { useAuthStore } from '../../../stores/auth-store';
 import { useTheme } from '../../../providers/theme-provider';
 import { MascotAvatar, ContinueButton } from '../../../components/onboarding';
 
-type CompleteScreenProps = {
-  navigation: NativeStackNavigationProp<OnboardingStackParamList, 'Complete'>;
-};
-
-export default function CompleteScreen({ navigation }: CompleteScreenProps) {
+export default function CompleteScreen() {
   const { colors } = useTheme();
-  const { name, goToStep } = useOnboardingStore();
+  const {
+    name,
+    goToStep,
+    submitOnboarding,
+    isSubmitting,
+    submissionError,
+    clearSubmissionError,
+  } = useOnboardingStore();
   const { completeOnboarding } = useAuthStore();
+  const [isLoading, setIsLoading] = useState(false);
 
   useEffect(() => {
     goToStep(22);
     // Celebrate with haptic feedback
     Haptics.notificationAsync(Haptics.NotificationFeedbackType.Success);
-  }, []);
+  }, [goToStep]);
 
-  const handleGetStarted = async () => {
-    await completeOnboarding();
-    // Navigation will happen automatically via RootNavigator
-  };
+  useEffect(() => {
+    if (submissionError) {
+      Alert.alert(
+        'Error',
+        submissionError,
+        [{ text: 'OK', onPress: clearSubmissionError }]
+      );
+    }
+  }, [submissionError, clearSubmissionError]);
+
+  const handleGetStarted = useCallback(async () => {
+    setIsLoading(true);
+
+    try {
+      // Submit onboarding data and get personalized plan
+      // useMock=true for UI testing without backend
+      const plan = await submitOnboarding(true);
+
+      if (plan) {
+        // Store the plan in auth store and mark onboarding complete
+        await completeOnboarding(plan);
+        // Navigation will happen automatically via RootNavigator
+      } else {
+        // If submission failed, show error via the useEffect above
+        setIsLoading(false);
+      }
+    } catch {
+      setIsLoading(false);
+      Alert.alert('Error', 'Something went wrong. Please try again.');
+    }
+  }, [submitOnboarding, completeOnboarding]);
+
+  const buttonDisabled = isLoading || isSubmitting;
 
   return (
     <View style={[styles.container, { backgroundColor: colors.background.base }]}>
@@ -51,14 +82,14 @@ export default function CompleteScreen({ navigation }: CompleteScreenProps) {
       {/* Title */}
       <Animated.View entering={FadeInUp.delay(600).duration(400)}>
         <Text style={[styles.title, { color: colors.text.primary }]}>
-          You're all set, {name}!
+          {"You're all set, "}{name}!
         </Text>
       </Animated.View>
 
       {/* Subtitle */}
       <Animated.View entering={FadeInUp.delay(800).duration(400)}>
         <Text style={[styles.subtitle, { color: colors.text.secondary }]}>
-          Your personalized fitness journey begins now. I'll be here to guide you every step of the way.
+          {"Your personalized fitness journey begins now. I'll be here to guide you every step of the way."}
         </Text>
       </Animated.View>
 
@@ -91,11 +122,18 @@ export default function CompleteScreen({ navigation }: CompleteScreenProps) {
 
       {/* CTA Button */}
       <View style={styles.buttonContainer}>
-        <ContinueButton
-          onPress={handleGetStarted}
-          label="Let's Go!"
-          delay={1200}
-        />
+        {buttonDisabled ? (
+          <View style={[styles.loadingButton, { backgroundColor: colors.primary.base }]}>
+            <ActivityIndicator color="white" />
+            <Text style={styles.loadingText}>Setting up your plan...</Text>
+          </View>
+        ) : (
+          <ContinueButton
+            onPress={handleGetStarted}
+            label="Let's Go!"
+            delay={1200}
+          />
+        )}
       </View>
     </View>
   );
@@ -179,5 +217,18 @@ const styles = StyleSheet.create({
     bottom: 48,
     left: 24,
     right: 24,
+  },
+  loadingButton: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
+    height: 56,
+    borderRadius: 28,
+    gap: 12,
+  },
+  loadingText: {
+    color: 'white',
+    fontSize: 16,
+    fontWeight: '600',
   },
 });

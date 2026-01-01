@@ -1,6 +1,7 @@
 import { create } from 'zustand';
 import * as SecureStore from 'expo-secure-store';
 import { api } from '@/lib/api';
+import { PersonalizedPlan } from '@/lib/types/onboarding';
 
 interface User {
   id: string;
@@ -14,17 +15,20 @@ interface AuthState {
   isAuthenticated: boolean;
   isLoading: boolean;
   hasCompletedOnboarding: boolean;
+  personalizedPlan: PersonalizedPlan | null;
   error: string | null;
   initialize: () => Promise<void>;
   login: (email: string, password: string) => Promise<boolean>;
   register: (name: string, email: string, password: string) => Promise<boolean>;
   logout: () => Promise<void>;
-  completeOnboarding: (answers?: Record<string, string>) => Promise<boolean>;
+  completeOnboarding: (plan?: PersonalizedPlan) => Promise<boolean>;
   clearError: () => void;
 }
 
 const TOKEN_KEY = 'auth_token';
 const USER_KEY = 'auth_user';
+
+const PLAN_KEY = 'personalized_plan';
 
 export const useAuthStore = create<AuthState>((set, get) => ({
   user: null,
@@ -32,17 +36,30 @@ export const useAuthStore = create<AuthState>((set, get) => ({
   isAuthenticated: false,
   isLoading: true,
   hasCompletedOnboarding: false,
+  personalizedPlan: null,
   error: null,
 
   initialize: async () => {
     try {
       const token = await SecureStore.getItemAsync(TOKEN_KEY);
       const userStr = await SecureStore.getItemAsync(USER_KEY);
+      const planStr = await SecureStore.getItemAsync(PLAN_KEY);
 
       if (token && userStr) {
-        const user = JSON.parse(userStr) as User;
+        const user = JSON.parse(userStr) as User & { onboardingCompleted?: boolean };
+        const plan = planStr ? JSON.parse(planStr) as PersonalizedPlan : null;
+        // Read onboardingCompleted from stored user, default to false if plan exists
+        const hasCompletedOnboarding = user.onboardingCompleted ?? (plan !== null);
+
         api.setAuthToken(token);
-        set({ user, token, isAuthenticated: true, hasCompletedOnboarding: true, isLoading: false });
+        set({
+          user,
+          token,
+          isAuthenticated: true,
+          hasCompletedOnboarding,
+          personalizedPlan: plan,
+          isLoading: false,
+        });
       } else {
         set({ isLoading: false });
       }
@@ -53,65 +70,125 @@ export const useAuthStore = create<AuthState>((set, get) => ({
 
   login: async (email, password) => {
     set({ isLoading: true, error: null });
-    // API call commented out for UI testing
-    // try {
-    //   const response = await api.post<{ user: User; token: string }>('/auth/login', { email, password });
-    //   await SecureStore.setItemAsync(TOKEN_KEY, response.token);
-    //   await SecureStore.setItemAsync(USER_KEY, JSON.stringify(response.user));
-    //   api.setAuthToken(response.token);
-    //   set({ user: response.user, token: response.token, isAuthenticated: true, hasCompletedOnboarding: true, isLoading: false });
-    //   return true;
-    // } catch (error: any) {
-    //   set({ error: error.message || 'Failed to login', isLoading: false });
-    //   return false;
-    // }
+    try {
+      interface LoginResponse {
+        user: User & { onboardingCompleted?: boolean };
+        tokens: {
+          accessToken: string;
+          refreshToken: string;
+        };
+      }
 
-    // Mock login for UI testing - skips onboarding (existing user)
-    const mockUser = { id: '1', email, name: email.split('@')[0] };
-    set({ user: mockUser, token: 'mock-token', isAuthenticated: true, hasCompletedOnboarding: true, isLoading: false });
-    return true;
+      const response = await api.post<LoginResponse>('/auth/login', { email, password });
+
+      const user = response.user;
+      const token = response.tokens?.accessToken;
+      const refreshToken = response.tokens?.refreshToken;
+      const hasCompletedOnboarding = response.user?.onboardingCompleted ?? true;
+
+      if (!user || !token) {
+        throw new Error('Invalid response from server');
+      }
+
+      await SecureStore.setItemAsync(TOKEN_KEY, token);
+      await SecureStore.setItemAsync(USER_KEY, JSON.stringify(user));
+      if (refreshToken) {
+        await SecureStore.setItemAsync('refresh_token', refreshToken);
+      }
+      api.setAuthToken(token);
+
+      set({ user, token, isAuthenticated: true, hasCompletedOnboarding, isLoading: false });
+      return true;
+    } catch (error: unknown) {
+      const message = error instanceof Error ? error.message : 'Failed to login';
+      set({ error: message, isLoading: false });
+      return false;
+    }
   },
 
   register: async (name, email, password) => {
     set({ isLoading: true, error: null });
-    // API call commented out for UI testing
-    // try {
-    //   const response = await api.post<{ user: User; token: string }>('/auth/register', { name, email, password });
-    //   await SecureStore.setItemAsync(TOKEN_KEY, response.token);
-    //   await SecureStore.setItemAsync(USER_KEY, JSON.stringify(response.user));
-    //   api.setAuthToken(response.token);
-    //   set({ user: response.user, token: response.token, isAuthenticated: true, hasCompletedOnboarding: false, isLoading: false });
-    //   return true;
-    // } catch (error: any) {
-    //   set({ error: error.message || 'Failed to register', isLoading: false });
-    //   return false;
-    // }
+    try {
+      interface RegisterResponse {
+        user: User;
+        tokens: {
+          accessToken: string;
+          refreshToken: string;
+        };
+      }
 
-    // Mock register for UI testing - triggers onboarding (new user)
-    const mockUser = { id: '1', email, name };
-    set({ user: mockUser, token: 'mock-token', isAuthenticated: true, hasCompletedOnboarding: false, isLoading: false });
-    return true;
+      const response = await api.post<RegisterResponse>('/auth/register', { name, email, password });
+
+      const user = response.user;
+      const token = response.tokens?.accessToken;
+      const refreshToken = response.tokens?.refreshToken;
+
+      console.log('[Register] User:', user?.email, 'Token:', token ? 'present' : 'missing');
+
+      if (!user || !token) {
+        throw new Error('Invalid response from server');
+      }
+
+      await SecureStore.setItemAsync(TOKEN_KEY, token);
+      await SecureStore.setItemAsync(USER_KEY, JSON.stringify(user));
+      if (refreshToken) {
+        await SecureStore.setItemAsync('refresh_token', refreshToken);
+      }
+      api.setAuthToken(token);
+
+      console.log('[Register] Success - navigating to onboarding');
+      set({ user, token, isAuthenticated: true, hasCompletedOnboarding: false, isLoading: false });
+      return true;
+    } catch (error: unknown) {
+      console.error('[Register] Error:', error);
+      const message = error instanceof Error ? error.message : 'Failed to register';
+      set({ error: message, isLoading: false });
+      return false;
+    }
   },
 
   logout: async () => {
     await SecureStore.deleteItemAsync(TOKEN_KEY);
     await SecureStore.deleteItemAsync(USER_KEY);
+    await SecureStore.deleteItemAsync(PLAN_KEY);
     api.clearAuthToken();
-    set({ user: null, token: null, isAuthenticated: false, hasCompletedOnboarding: false });
+    set({
+      user: null,
+      token: null,
+      isAuthenticated: false,
+      hasCompletedOnboarding: false,
+      personalizedPlan: null,
+    });
   },
 
-  completeOnboarding: async (answers?) => {
+  completeOnboarding: async (plan?) => {
     set({ isLoading: true, error: null });
-    // API call commented out for UI testing
-    // try {
-    //   if (answers) {
-    //     await api.post('/onboarding/complete', { answers });
-    //   }
-    // } catch (error: any) {
-    //   console.log('Onboarding API error:', error.message);
-    // }
-    set({ hasCompletedOnboarding: true, isLoading: false });
-    return true;
+
+    try {
+      // Save the personalized plan to secure storage
+      if (plan) {
+        await SecureStore.setItemAsync(PLAN_KEY, JSON.stringify(plan));
+      }
+
+      // Update stored user with onboardingCompleted: true
+      const userStr = await SecureStore.getItemAsync(USER_KEY);
+      if (userStr) {
+        const user = JSON.parse(userStr);
+        user.onboardingCompleted = true;
+        await SecureStore.setItemAsync(USER_KEY, JSON.stringify(user));
+      }
+
+      set({
+        hasCompletedOnboarding: true,
+        personalizedPlan: plan || null,
+        isLoading: false,
+      });
+      return true;
+    } catch (error: unknown) {
+      const message = error instanceof Error ? error.message : 'Failed to save onboarding data';
+      set({ error: message, isLoading: false });
+      return false;
+    }
   },
 
   clearError: () => set({ error: null }),

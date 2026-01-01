@@ -1,10 +1,11 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef, useCallback } from 'react';
 import { View, TextInput, StyleSheet, Keyboard } from 'react-native';
 import { NativeStackNavigationProp } from '@react-navigation/native-stack';
 import Animated, { FadeIn } from 'react-native-reanimated';
 
 import { OnboardingStackParamList } from '../../navigation/OnboardingStack';
 import { useOnboardingStore } from '../../../stores/onboarding-store';
+import { useAuthStore } from '../../../stores/auth-store';
 import { useTheme } from '../../../providers/theme-provider';
 import {
   OnboardingLayout,
@@ -18,7 +19,8 @@ type WelcomeScreenProps = {
 
 export default function WelcomeScreen({ navigation }: WelcomeScreenProps) {
   const { colors } = useTheme();
-  const { name, setName, goToStep } = useOnboardingStore();
+  const { name, setName, goToStep, resetOnboarding } = useOnboardingStore();
+  const { logout } = useAuthStore();
   const [localName, setLocalName] = useState(name);
   const inputRef = useRef<TextInput>(null);
 
@@ -29,7 +31,13 @@ export default function WelcomeScreen({ navigation }: WelcomeScreenProps) {
       inputRef.current?.focus();
     }, 600);
     return () => clearTimeout(timer);
-  }, []);
+  }, [goToStep]);
+
+  const handleClose = useCallback(async () => {
+    // First step - just logout without confirmation
+    resetOnboarding();
+    await logout();
+  }, [resetOnboarding, logout]);
 
   const handleContinue = () => {
     if (localName.trim()) {
@@ -45,7 +53,7 @@ export default function WelcomeScreen({ navigation }: WelcomeScreenProps) {
     <OnboardingLayout
       showBack={false}
       mascotExpression="happy"
-      onClose={() => navigation.getParent()?.goBack()}
+      onClose={handleClose}
     >
       <QuestionBubble>
         Hi! I'm your AI fitness coach. What should I call you?
