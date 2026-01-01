@@ -1,0 +1,4466 @@
+[
+  {
+    "name": "Barbell Romanian Deadlift",
+    "slug": "barbell-romanian-deadlift",
+    "description": "A hip hinge movement emphasizing the eccentric stretch of the hamstrings with the barbell maintaining constant tension throughout. The knees stay slightly bent while the hips push back, creating intense hamstring and glute engagement.",
+    "instructions": [
+      "Stand holding barbell at hip height with overhand grip, feet hip-width apart",
+      "Unlock knees slightly, maintaining this angle throughout the movement",
+      "Push hips back while lowering bar along thighs and shins",
+      "Descend until hamstrings reach maximum stretch without back rounding",
+      "Drive hips forward to return to standing, squeezing glutes at top"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "HINGE",
+    "exerciseType": "COMPOUND",
+    "primaryMuscles": [
+      "hamstrings",
+      "glutes"
+    ],
+    "secondaryMuscles": [
+      "back",
+      "core",
+      "forearms"
+    ],
+    "muscleActivationMap": {
+      "hamstrings": 0.95,
+      "glutes": 0.85,
+      "back": 0.65,
+      "core": 0.55,
+      "forearms": 0.5
+    },
+    "difficultyLevel": 3,
+    "skillRequirement": 3,
+    "isBeginnerFriendly": false,
+    "equipmentRequired": [
+      "barbell"
+    ],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "gym"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 5,
+        "max": 8
+      },
+      "hypertrophy": {
+        "min": 8,
+        "max": 12
+      },
+      "endurance": {
+        "min": 15,
+        "max": 20
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 150,
+      "hypertrophy": 90,
+      "endurance": 60
+    },
+    "metValue": 6.0,
+    "intensityFactor": 0.78,
+    "contraindications": [
+      "lower_back_injury",
+      "hamstring_injury"
+    ],
+    "formCues": [
+      "Push hips back, not down",
+      "Keep bar close to legs",
+      "Feel hamstring stretch",
+      "Slight knee bend only",
+      "Flat back throughout"
+    ],
+    "commonMistakes": [
+      "Bending knees too much",
+      "Rounding lower back",
+      "Bar drifting away from body",
+      "Going too low losing form",
+      "Not feeling hamstrings"
+    ],
+    "easierVariation": "dumbbell-romanian-deadlift",
+    "harderVariation": "single-leg-romanian-deadlift",
+    "alternativeExercises": [
+      "stiff-leg-deadlift",
+      "good-morning",
+      "lying-leg-curl"
+    ],
+    "tags": [
+      "compound",
+      "hinge",
+      "hamstrings",
+      "glutes",
+      "barbell",
+      "posterior-chain"
+    ],
+    "suitableGoals": [
+      "MUSCLE_GAIN",
+      "STRENGTH"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 1,
+      "lightlyActive": 2,
+      "moderatelyActive": 4,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 1,
+      "lessThan6Mo": 2,
+      "sixTo24Mo": 4,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.5,
+      "muscleGain": 0.9,
+      "strength": 0.85,
+      "endurance": 0.35,
+      "flexibility": 0.45,
+      "generalFitness": 0.75
+    },
+    "estimatedTimePerSet": 45,
+    "setupTimeSeconds": 30,
+    "homeCompatibility": 0.4,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.1
+  },
+  {
+    "name": "Dumbbell Romanian Deadlift",
+    "slug": "dumbbell-romanian-deadlift",
+    "description": "A dumbbell variation of the Romanian deadlift that allows for a more natural grip and arm path. The independent weights provide freedom of movement while still delivering excellent hamstring and glute development.",
+    "instructions": [
+      "Stand holding dumbbells at thighs with neutral grip, feet hip-width apart",
+      "Maintain slight knee bend throughout the movement",
+      "Push hips back, lowering dumbbells along front of legs",
+      "Lower until strong hamstring stretch is felt, back stays flat",
+      "Drive hips forward, squeeze glutes to return to standing"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "HINGE",
+    "exerciseType": "COMPOUND",
+    "primaryMuscles": [
+      "hamstrings",
+      "glutes"
+    ],
+    "secondaryMuscles": [
+      "back",
+      "core",
+      "forearms"
+    ],
+    "muscleActivationMap": {
+      "hamstrings": 0.9,
+      "glutes": 0.82,
+      "back": 0.6,
+      "core": 0.5,
+      "forearms": 0.45
+    },
+    "difficultyLevel": 2,
+    "skillRequirement": 2,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [
+      "dumbbell"
+    ],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "gym",
+      "home"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 6,
+        "max": 10
+      },
+      "hypertrophy": {
+        "min": 10,
+        "max": 15
+      },
+      "endurance": {
+        "min": 15,
+        "max": 20
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 120,
+      "hypertrophy": 75,
+      "endurance": 45
+    },
+    "metValue": 5.5,
+    "intensityFactor": 0.7,
+    "contraindications": [
+      "lower_back_injury",
+      "hamstring_injury"
+    ],
+    "formCues": [
+      "Dumbbells travel close to legs",
+      "Hips push straight back",
+      "Feel the hamstring stretch",
+      "Keep chest up",
+      "Squeeze glutes at top"
+    ],
+    "commonMistakes": [
+      "Rounding the back",
+      "Dumbbells drifting forward",
+      "Too much knee bend",
+      "Not enough hip hinge",
+      "Rushing the movement"
+    ],
+    "easierVariation": "glute-bridge",
+    "harderVariation": "barbell-romanian-deadlift",
+    "alternativeExercises": [
+      "barbell-romanian-deadlift",
+      "cable-pull-through",
+      "lying-leg-curl"
+    ],
+    "tags": [
+      "compound",
+      "hinge",
+      "hamstrings",
+      "glutes",
+      "dumbbell",
+      "beginner-friendly"
+    ],
+    "suitableGoals": [
+      "MUSCLE_GAIN",
+      "STRENGTH",
+      "GENERAL_FITNESS"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 2,
+      "lightlyActive": 3,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 3,
+      "lessThan6Mo": 4,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 4
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.5,
+      "muscleGain": 0.85,
+      "strength": 0.78,
+      "endurance": 0.4,
+      "flexibility": 0.45,
+      "generalFitness": 0.78
+    },
+    "estimatedTimePerSet": 40,
+    "setupTimeSeconds": 15,
+    "homeCompatibility": 0.9,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.3
+  },
+  {
+    "name": "Single-Leg Romanian Deadlift",
+    "slug": "single-leg-romanian-deadlift",
+    "description": "A unilateral hip hinge that challenges balance, stability, and single-leg strength while targeting the hamstrings and glutes. This exercise addresses muscle imbalances and develops proprioception.",
+    "instructions": [
+      "Stand on one leg holding dumbbell or kettlebell in opposite hand",
+      "Hinge at hip, extending free leg behind for counterbalance",
+      "Lower weight toward floor while keeping hips square",
+      "Descend until hamstring fully stretched or torso parallel to floor",
+      "Drive hips forward to return to standing, complete all reps then switch"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "HINGE",
+    "exerciseType": "COMPOUND",
+    "primaryMuscles": [
+      "hamstrings",
+      "glutes"
+    ],
+    "secondaryMuscles": [
+      "back",
+      "core",
+      "hip_flexors"
+    ],
+    "muscleActivationMap": {
+      "hamstrings": 0.92,
+      "glutes": 0.88,
+      "back": 0.55,
+      "core": 0.65,
+      "hip_flexors": 0.45
+    },
+    "difficultyLevel": 3,
+    "skillRequirement": 4,
+    "isBeginnerFriendly": false,
+    "equipmentRequired": [
+      "dumbbell"
+    ],
+    "equipmentOptional": [
+      "kettlebell"
+    ],
+    "suitableLocations": [
+      "gym",
+      "home"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 5,
+        "max": 8
+      },
+      "hypertrophy": {
+        "min": 8,
+        "max": 12
+      },
+      "endurance": {
+        "min": 15,
+        "max": 20
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 120,
+      "hypertrophy": 75,
+      "endurance": 45
+    },
+    "metValue": 5.0,
+    "intensityFactor": 0.68,
+    "contraindications": [
+      "ankle_injury",
+      "knee_injury",
+      "lower_back_injury"
+    ],
+    "formCues": [
+      "Keep hips square to floor",
+      "Slight bend in standing leg",
+      "Extend rear leg for balance",
+      "Weight opposite of standing leg",
+      "Control throughout movement"
+    ],
+    "commonMistakes": [
+      "Hip rotation/opening",
+      "Rounding back",
+      "Losing balance",
+      "Not enough hip hinge",
+      "Rushing the movement"
+    ],
+    "easierVariation": "dumbbell-romanian-deadlift",
+    "harderVariation": "barbell-romanian-deadlift",
+    "alternativeExercises": [
+      "barbell-romanian-deadlift",
+      "single-leg-glute-bridge",
+      "lying-leg-curl"
+    ],
+    "tags": [
+      "compound",
+      "hinge",
+      "unilateral",
+      "hamstrings",
+      "glutes",
+      "balance"
+    ],
+    "suitableGoals": [
+      "MUSCLE_GAIN",
+      "STRENGTH",
+      "BALANCE"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 1,
+      "lightlyActive": 2,
+      "moderatelyActive": 4,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 1,
+      "lessThan6Mo": 2,
+      "sixTo24Mo": 4,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.5,
+      "muscleGain": 0.82,
+      "strength": 0.78,
+      "endurance": 0.45,
+      "flexibility": 0.45,
+      "generalFitness": 0.8
+    },
+    "estimatedTimePerSet": 50,
+    "setupTimeSeconds": 15,
+    "homeCompatibility": 0.9,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.6
+  },
+  {
+    "name": "Stiff-Leg Deadlift",
+    "slug": "stiff-leg-deadlift",
+    "description": "A deadlift variation performed with minimal knee bend that maximizes hamstring stretch and engagement. Unlike the RDL, this exercise typically starts from the floor and maintains straighter legs throughout.",
+    "instructions": [
+      "Stand with barbell on floor, feet hip-width apart",
+      "Hinge at hips with legs nearly straight to grip bar",
+      "Keeping legs stiff but not locked, lift bar by extending hips",
+      "Stand tall, then lower bar back to floor with minimal knee bend",
+      "Allow bar to touch floor between reps if flexibility permits"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "HINGE",
+    "exerciseType": "COMPOUND",
+    "primaryMuscles": [
+      "hamstrings",
+      "back"
+    ],
+    "secondaryMuscles": [
+      "glutes",
+      "core",
+      "forearms"
+    ],
+    "muscleActivationMap": {
+      "hamstrings": 0.95,
+      "back": 0.75,
+      "glutes": 0.7,
+      "core": 0.55,
+      "forearms": 0.5
+    },
+    "difficultyLevel": 4,
+    "skillRequirement": 3,
+    "isBeginnerFriendly": false,
+    "equipmentRequired": [
+      "barbell"
+    ],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "gym"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 5,
+        "max": 8
+      },
+      "hypertrophy": {
+        "min": 8,
+        "max": 12
+      },
+      "endurance": {
+        "min": 15,
+        "max": 20
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 150,
+      "hypertrophy": 90,
+      "endurance": 60
+    },
+    "metValue": 6.0,
+    "intensityFactor": 0.8,
+    "contraindications": [
+      "lower_back_injury",
+      "hamstring_injury"
+    ],
+    "formCues": [
+      "Keep legs nearly straight",
+      "Hinge at hips, not waist",
+      "Bar stays close to body",
+      "Feel extreme hamstring stretch",
+      "Don't round lower back"
+    ],
+    "commonMistakes": [
+      "Rounding lower back",
+      "Bending knees too much",
+      "Not enough flexibility",
+      "Bar drifting forward",
+      "Going too heavy"
+    ],
+    "easierVariation": "barbell-romanian-deadlift",
+    "harderVariation": "deficit-stiff-leg-deadlift",
+    "alternativeExercises": [
+      "barbell-romanian-deadlift",
+      "good-morning",
+      "lying-leg-curl"
+    ],
+    "tags": [
+      "compound",
+      "hinge",
+      "hamstrings",
+      "back",
+      "barbell",
+      "flexibility"
+    ],
+    "suitableGoals": [
+      "MUSCLE_GAIN",
+      "STRENGTH",
+      "FLEXIBILITY"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 1,
+      "lightlyActive": 1,
+      "moderatelyActive": 3,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 1,
+      "lessThan6Mo": 1,
+      "sixTo24Mo": 3,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.5,
+      "muscleGain": 0.85,
+      "strength": 0.82,
+      "endurance": 0.35,
+      "flexibility": 0.55,
+      "generalFitness": 0.7
+    },
+    "estimatedTimePerSet": 45,
+    "setupTimeSeconds": 30,
+    "homeCompatibility": 0.35,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.1
+  },
+  {
+    "name": "Good Morning",
+    "slug": "good-morning",
+    "description": "A barbell hip hinge exercise with the bar positioned on the upper back, emphasizing hamstring and lower back strength through a bow-like movement. Builds posterior chain strength critical for squat and deadlift performance.",
+    "instructions": [
+      "Position barbell on upper back as for back squat",
+      "Stand with feet hip to shoulder width apart, slight knee bend",
+      "Push hips back and hinge forward, keeping back flat",
+      "Lower until torso is parallel to floor or hamstrings fully stretched",
+      "Drive hips forward to return to standing position"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "HINGE",
+    "exerciseType": "COMPOUND",
+    "primaryMuscles": [
+      "hamstrings",
+      "back"
+    ],
+    "secondaryMuscles": [
+      "glutes",
+      "core"
+    ],
+    "muscleActivationMap": {
+      "hamstrings": 0.88,
+      "back": 0.85,
+      "glutes": 0.75,
+      "core": 0.65
+    },
+    "difficultyLevel": 4,
+    "skillRequirement": 4,
+    "isBeginnerFriendly": false,
+    "equipmentRequired": [
+      "barbell",
+      "squat_rack"
+    ],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "gym"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 5,
+        "max": 8
+      },
+      "hypertrophy": {
+        "min": 8,
+        "max": 12
+      },
+      "endurance": {
+        "min": 15,
+        "max": 20
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 150,
+      "hypertrophy": 90,
+      "endurance": 60
+    },
+    "metValue": 5.5,
+    "intensityFactor": 0.75,
+    "contraindications": [
+      "lower_back_injury",
+      "neck_injury"
+    ],
+    "formCues": [
+      "Keep back flat throughout",
+      "Soft knees, not squatting",
+      "Push hips back far",
+      "Feel hamstring stretch",
+      "Control the descent"
+    ],
+    "commonMistakes": [
+      "Rounding lower back",
+      "Bending knees too much",
+      "Going too heavy too soon",
+      "Not pushing hips back enough",
+      "Neck hyperextension"
+    ],
+    "easierVariation": "barbell-romanian-deadlift",
+    "harderVariation": "seated-good-morning",
+    "alternativeExercises": [
+      "barbell-romanian-deadlift",
+      "stiff-leg-deadlift",
+      "back-extension"
+    ],
+    "tags": [
+      "compound",
+      "hinge",
+      "hamstrings",
+      "back",
+      "barbell",
+      "posterior-chain"
+    ],
+    "suitableGoals": [
+      "STRENGTH",
+      "MUSCLE_GAIN"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 1,
+      "lightlyActive": 1,
+      "moderatelyActive": 3,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 1,
+      "lessThan6Mo": 1,
+      "sixTo24Mo": 3,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.45,
+      "muscleGain": 0.82,
+      "strength": 0.88,
+      "endurance": 0.35,
+      "flexibility": 0.4,
+      "generalFitness": 0.68
+    },
+    "estimatedTimePerSet": 40,
+    "setupTimeSeconds": 60,
+    "homeCompatibility": 0.2,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.0
+  },
+  {
+    "name": "Cable Pull-Through",
+    "slug": "cable-pull-through",
+    "description": "A hip hinge movement using a cable machine that provides constant tension through the entire range of motion. This glute and hamstring exercise is beginner-friendly and teaches proper hip hinge mechanics.",
+    "instructions": [
+      "Stand facing away from low cable with rope between legs",
+      "Walk forward to create tension, feet wider than shoulder width",
+      "Hinge at hips, pushing them back while allowing cable to pull through",
+      "Keep arms straight, chest up, and back flat",
+      "Drive hips forward powerfully, squeezing glutes at top"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "HINGE",
+    "exerciseType": "COMPOUND",
+    "primaryMuscles": [
+      "glutes",
+      "hamstrings"
+    ],
+    "secondaryMuscles": [
+      "back",
+      "core"
+    ],
+    "muscleActivationMap": {
+      "glutes": 0.9,
+      "hamstrings": 0.82,
+      "back": 0.5,
+      "core": 0.45
+    },
+    "difficultyLevel": 2,
+    "skillRequirement": 2,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [
+      "cable"
+    ],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "gym"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 8,
+        "max": 12
+      },
+      "hypertrophy": {
+        "min": 12,
+        "max": 15
+      },
+      "endurance": {
+        "min": 20,
+        "max": 25
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 90,
+      "hypertrophy": 60,
+      "endurance": 45
+    },
+    "metValue": 4.5,
+    "intensityFactor": 0.6,
+    "contraindications": [
+      "lower_back_injury"
+    ],
+    "formCues": [
+      "Arms stay straight throughout",
+      "Big hip hinge, not squat",
+      "Squeeze glutes hard at top",
+      "Feel hamstring stretch at bottom",
+      "Control the cable"
+    ],
+    "commonMistakes": [
+      "Bending arms",
+      "Squatting instead of hinging",
+      "Not enough hip thrust",
+      "Rounding back",
+      "Using too much weight"
+    ],
+    "easierVariation": "glute-bridge",
+    "harderVariation": "barbell-romanian-deadlift",
+    "alternativeExercises": [
+      "barbell-hip-thrust",
+      "dumbbell-romanian-deadlift",
+      "kettlebell-swing"
+    ],
+    "tags": [
+      "compound",
+      "hinge",
+      "glutes",
+      "hamstrings",
+      "cable",
+      "beginner-friendly"
+    ],
+    "suitableGoals": [
+      "MUSCLE_GAIN",
+      "GENERAL_FITNESS"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 3,
+      "lightlyActive": 4,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 4
+    },
+    "experienceLevelSuitability": {
+      "never": 4,
+      "lessThan6Mo": 5,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 4
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.45,
+      "muscleGain": 0.78,
+      "strength": 0.68,
+      "endurance": 0.45,
+      "flexibility": 0.35,
+      "generalFitness": 0.75
+    },
+    "estimatedTimePerSet": 35,
+    "setupTimeSeconds": 30,
+    "homeCompatibility": 0.15,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.0
+  },
+  {
+    "name": "Lying Leg Curl",
+    "slug": "lying-leg-curl",
+    "description": "A machine-based isolation exercise targeting the hamstrings through knee flexion while lying face down. This classic movement provides consistent resistance and is excellent for building hamstring size and strength.",
+    "instructions": [
+      "Lie face down on leg curl machine, knees just off pad edge",
+      "Position ankle pad just above heels",
+      "Grip handles, keep hips pressed into pad",
+      "Curl heels toward glutes by bending knees",
+      "Squeeze hamstrings at top, lower with control"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "FLEXION",
+    "exerciseType": "ISOLATION",
+    "primaryMuscles": [
+      "hamstrings"
+    ],
+    "secondaryMuscles": [
+      "calves"
+    ],
+    "muscleActivationMap": {
+      "hamstrings": 0.95,
+      "calves": 0.3
+    },
+    "difficultyLevel": 1,
+    "skillRequirement": 1,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [
+      "machine"
+    ],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "gym"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 6,
+        "max": 10
+      },
+      "hypertrophy": {
+        "min": 10,
+        "max": 15
+      },
+      "endurance": {
+        "min": 20,
+        "max": 25
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 90,
+      "hypertrophy": 60,
+      "endurance": 30
+    },
+    "metValue": 4.0,
+    "intensityFactor": 0.55,
+    "contraindications": [
+      "knee_injury",
+      "hamstring_injury"
+    ],
+    "formCues": [
+      "Keep hips pressed down",
+      "Full range of motion",
+      "Squeeze at contraction",
+      "Control the negative",
+      "Don't use momentum"
+    ],
+    "commonMistakes": [
+      "Hips lifting off pad",
+      "Partial range of motion",
+      "Using momentum",
+      "Going too fast",
+      "Not squeezing at top"
+    ],
+    "easierVariation": "seated-leg-curl",
+    "harderVariation": "nordic-curl",
+    "alternativeExercises": [
+      "seated-leg-curl",
+      "swiss-ball-leg-curl",
+      "sliding-leg-curl"
+    ],
+    "tags": [
+      "isolation",
+      "hamstrings",
+      "machine",
+      "beginner-friendly"
+    ],
+    "suitableGoals": [
+      "MUSCLE_GAIN"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 4,
+      "lightlyActive": 5,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 4
+    },
+    "experienceLevelSuitability": {
+      "never": 5,
+      "lessThan6Mo": 5,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 4
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.3,
+      "muscleGain": 0.85,
+      "strength": 0.65,
+      "endurance": 0.5,
+      "flexibility": 0.2,
+      "generalFitness": 0.6
+    },
+    "estimatedTimePerSet": 30,
+    "setupTimeSeconds": 30,
+    "homeCompatibility": 0.1,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.0
+  },
+  {
+    "name": "Seated Leg Curl",
+    "slug": "seated-leg-curl",
+    "description": "A machine isolation exercise for the hamstrings performed in a seated position with hips flexed. This angle emphasizes the hamstring muscles differently than lying variations and is often more comfortable.",
+    "instructions": [
+      "Sit in machine with back against pad, thighs on seat pad",
+      "Position ankle pad above heels, legs extended",
+      "Grip handles for stability",
+      "Curl heels under seat by bending knees",
+      "Squeeze hamstrings at bottom, extend legs with control"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "FLEXION",
+    "exerciseType": "ISOLATION",
+    "primaryMuscles": [
+      "hamstrings"
+    ],
+    "secondaryMuscles": [
+      "calves"
+    ],
+    "muscleActivationMap": {
+      "hamstrings": 0.92,
+      "calves": 0.25
+    },
+    "difficultyLevel": 1,
+    "skillRequirement": 1,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [
+      "machine"
+    ],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "gym"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 6,
+        "max": 10
+      },
+      "hypertrophy": {
+        "min": 10,
+        "max": 15
+      },
+      "endurance": {
+        "min": 20,
+        "max": 25
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 90,
+      "hypertrophy": 60,
+      "endurance": 30
+    },
+    "metValue": 4.0,
+    "intensityFactor": 0.55,
+    "contraindications": [
+      "knee_injury",
+      "hamstring_injury"
+    ],
+    "formCues": [
+      "Keep back against pad",
+      "Full range of motion",
+      "Squeeze at contraction",
+      "Control throughout",
+      "Don't use momentum"
+    ],
+    "commonMistakes": [
+      "Lifting off seat",
+      "Partial range of motion",
+      "Going too fast",
+      "Using momentum",
+      "Not squeezing at bottom"
+    ],
+    "easierVariation": null,
+    "harderVariation": "lying-leg-curl",
+    "alternativeExercises": [
+      "lying-leg-curl",
+      "swiss-ball-leg-curl",
+      "sliding-leg-curl"
+    ],
+    "tags": [
+      "isolation",
+      "hamstrings",
+      "machine",
+      "beginner-friendly"
+    ],
+    "suitableGoals": [
+      "MUSCLE_GAIN"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 4,
+      "lightlyActive": 5,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 4
+    },
+    "experienceLevelSuitability": {
+      "never": 5,
+      "lessThan6Mo": 5,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 4
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.3,
+      "muscleGain": 0.82,
+      "strength": 0.62,
+      "endurance": 0.5,
+      "flexibility": 0.15,
+      "generalFitness": 0.58
+    },
+    "estimatedTimePerSet": 30,
+    "setupTimeSeconds": 30,
+    "homeCompatibility": 0.1,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.0
+  },
+  {
+    "name": "Standing Leg Curl",
+    "slug": "standing-leg-curl",
+    "description": "A unilateral hamstring isolation exercise performed standing on a specialized machine, curling one leg at a time. This variation allows focus on each leg individually and is excellent for correcting imbalances.",
+    "instructions": [
+      "Stand facing the machine, one thigh against pad",
+      "Position ankle pad behind the working heel",
+      "Hold handles for balance, standing leg slightly bent",
+      "Curl heel toward glute by bending knee",
+      "Squeeze hamstring at top, lower with control, complete all reps then switch"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "FLEXION",
+    "exerciseType": "ISOLATION",
+    "primaryMuscles": [
+      "hamstrings"
+    ],
+    "secondaryMuscles": [
+      "calves"
+    ],
+    "muscleActivationMap": {
+      "hamstrings": 0.9,
+      "calves": 0.25
+    },
+    "difficultyLevel": 2,
+    "skillRequirement": 1,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [
+      "machine"
+    ],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "gym"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 8,
+        "max": 12
+      },
+      "hypertrophy": {
+        "min": 12,
+        "max": 15
+      },
+      "endurance": {
+        "min": 20,
+        "max": 25
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 75,
+      "hypertrophy": 45,
+      "endurance": 30
+    },
+    "metValue": 3.5,
+    "intensityFactor": 0.52,
+    "contraindications": [
+      "knee_injury",
+      "hamstring_injury"
+    ],
+    "formCues": [
+      "Isolate the hamstring",
+      "Full range of motion",
+      "Equal work both legs",
+      "Control the movement",
+      "Squeeze at top"
+    ],
+    "commonMistakes": [
+      "Using hip motion",
+      "Partial range of motion",
+      "Uneven reps between legs",
+      "Rushing",
+      "Swinging the leg"
+    ],
+    "easierVariation": "seated-leg-curl",
+    "harderVariation": "lying-leg-curl",
+    "alternativeExercises": [
+      "lying-leg-curl",
+      "seated-leg-curl",
+      "swiss-ball-leg-curl"
+    ],
+    "tags": [
+      "isolation",
+      "hamstrings",
+      "machine",
+      "unilateral"
+    ],
+    "suitableGoals": [
+      "MUSCLE_GAIN"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 4,
+      "lightlyActive": 5,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 4
+    },
+    "experienceLevelSuitability": {
+      "never": 4,
+      "lessThan6Mo": 5,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 4
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.25,
+      "muscleGain": 0.78,
+      "strength": 0.58,
+      "endurance": 0.5,
+      "flexibility": 0.15,
+      "generalFitness": 0.55
+    },
+    "estimatedTimePerSet": 40,
+    "setupTimeSeconds": 20,
+    "homeCompatibility": 0.1,
+    "gymCompatibility": 0.85,
+    "outdoorCompatibility": 0.0
+  },
+  {
+    "name": "Nordic Curl",
+    "slug": "nordic-curl",
+    "description": "An advanced bodyweight hamstring exercise emphasizing the eccentric phase as you lower your body forward with feet anchored. This challenging movement builds exceptional hamstring strength and reduces injury risk.",
+    "instructions": [
+      "Kneel on pad with feet anchored under secure object or held by partner",
+      "Start upright with body in straight line from knees to head",
+      "Slowly lower torso forward by extending at knees",
+      "Control descent as long as possible using hamstrings",
+      "Catch yourself with hands, push back up and use hamstrings to return"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "FLEXION",
+    "exerciseType": "ISOLATION",
+    "primaryMuscles": [
+      "hamstrings"
+    ],
+    "secondaryMuscles": [
+      "glutes",
+      "core"
+    ],
+    "muscleActivationMap": {
+      "hamstrings": 0.98,
+      "glutes": 0.4,
+      "core": 0.5
+    },
+    "difficultyLevel": 5,
+    "skillRequirement": 4,
+    "isBeginnerFriendly": false,
+    "equipmentRequired": [],
+    "equipmentOptional": [
+      "bench",
+      "resistance_band"
+    ],
+    "suitableLocations": [
+      "gym",
+      "home"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 3,
+        "max": 6
+      },
+      "hypertrophy": {
+        "min": 6,
+        "max": 10
+      },
+      "endurance": {
+        "min": 10,
+        "max": 15
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 150,
+      "hypertrophy": 90,
+      "endurance": 60
+    },
+    "metValue": 5.5,
+    "intensityFactor": 0.88,
+    "contraindications": [
+      "knee_injury",
+      "hamstring_injury"
+    ],
+    "formCues": [
+      "Control the entire descent",
+      "Keep hips extended",
+      "Body stays straight",
+      "Use hands to catch and assist",
+      "Build up slowly over weeks"
+    ],
+    "commonMistakes": [
+      "Hips bending first",
+      "Dropping too fast",
+      "No controlled eccentric",
+      "Starting too advanced",
+      "Feet not secured properly"
+    ],
+    "easierVariation": "nordic-curl-negative",
+    "harderVariation": null,
+    "alternativeExercises": [
+      "glute-ham-raise",
+      "lying-leg-curl",
+      "swiss-ball-leg-curl"
+    ],
+    "tags": [
+      "isolation",
+      "hamstrings",
+      "bodyweight",
+      "advanced",
+      "eccentric",
+      "injury-prevention"
+    ],
+    "suitableGoals": [
+      "STRENGTH",
+      "MUSCLE_GAIN"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 1,
+      "lightlyActive": 1,
+      "moderatelyActive": 2,
+      "veryActive": 4,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 1,
+      "lessThan6Mo": 1,
+      "sixTo24Mo": 2,
+      "twoTo5Yr": 4,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.4,
+      "muscleGain": 0.85,
+      "strength": 0.92,
+      "endurance": 0.4,
+      "flexibility": 0.25,
+      "generalFitness": 0.7
+    },
+    "estimatedTimePerSet": 45,
+    "setupTimeSeconds": 30,
+    "homeCompatibility": 0.7,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.5
+  },
+  {
+    "name": "Nordic Curl Negative",
+    "slug": "nordic-curl-negative",
+    "description": "An eccentric-focused regression of the Nordic curl where you only perform the lowering phase, building the strength necessary for full Nordic curls. This exercise develops hamstring strength through controlled negatives.",
+    "instructions": [
+      "Kneel on pad with feet anchored securely",
+      "Start upright, body in straight line from knees to head",
+      "Slowly lower torso forward for 3-5 seconds, controlling with hamstrings",
+      "Fall forward once hamstrings can no longer control descent",
+      "Catch with hands, push back to start and repeat"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "FLEXION",
+    "exerciseType": "ISOLATION",
+    "primaryMuscles": [
+      "hamstrings"
+    ],
+    "secondaryMuscles": [
+      "glutes",
+      "core"
+    ],
+    "muscleActivationMap": {
+      "hamstrings": 0.92,
+      "glutes": 0.35,
+      "core": 0.45
+    },
+    "difficultyLevel": 4,
+    "skillRequirement": 3,
+    "isBeginnerFriendly": false,
+    "equipmentRequired": [],
+    "equipmentOptional": [
+      "bench"
+    ],
+    "suitableLocations": [
+      "gym",
+      "home"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 3,
+        "max": 6
+      },
+      "hypertrophy": {
+        "min": 6,
+        "max": 10
+      },
+      "endurance": {
+        "min": 10,
+        "max": 12
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 120,
+      "hypertrophy": 90,
+      "endurance": 60
+    },
+    "metValue": 5.0,
+    "intensityFactor": 0.8,
+    "contraindications": [
+      "knee_injury",
+      "hamstring_injury"
+    ],
+    "formCues": [
+      "Slow controlled descent 3-5 seconds",
+      "Keep hips extended throughout",
+      "Body stays rigid and straight",
+      "Lower as far as possible",
+      "Progress distance over time"
+    ],
+    "commonMistakes": [
+      "Dropping too fast",
+      "Hips flexing early",
+      "Not controlling full range",
+      "No progression plan",
+      "Going too hard too soon"
+    ],
+    "easierVariation": "sliding-leg-curl",
+    "harderVariation": "nordic-curl",
+    "alternativeExercises": [
+      "sliding-leg-curl",
+      "swiss-ball-leg-curl",
+      "lying-leg-curl"
+    ],
+    "tags": [
+      "isolation",
+      "hamstrings",
+      "bodyweight",
+      "eccentric",
+      "progression"
+    ],
+    "suitableGoals": [
+      "STRENGTH",
+      "MUSCLE_GAIN"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 1,
+      "lightlyActive": 1,
+      "moderatelyActive": 3,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 1,
+      "lessThan6Mo": 2,
+      "sixTo24Mo": 3,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.35,
+      "muscleGain": 0.8,
+      "strength": 0.88,
+      "endurance": 0.35,
+      "flexibility": 0.2,
+      "generalFitness": 0.65
+    },
+    "estimatedTimePerSet": 40,
+    "setupTimeSeconds": 25,
+    "homeCompatibility": 0.75,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.5
+  },
+  {
+    "name": "Sliding Leg Curl",
+    "slug": "sliding-leg-curl",
+    "description": "A bodyweight hamstring exercise performed lying on your back, sliding heels toward glutes on a smooth surface. This accessible movement teaches hamstring curl mechanics and builds foundational strength.",
+    "instructions": [
+      "Lie on back with heels on sliders, towels, or slick floor",
+      "Bridge hips up, body straight from shoulders to heels",
+      "Keeping hips elevated, curl heels toward glutes",
+      "Slide heels as close to butt as possible",
+      "Extend legs with control, maintaining hip bridge"
+    ],
+    "category": "CALISTHENICS",
+    "movementPattern": "FLEXION",
+    "exerciseType": "COMPOUND",
+    "primaryMuscles": [
+      "hamstrings",
+      "glutes"
+    ],
+    "secondaryMuscles": [
+      "core"
+    ],
+    "muscleActivationMap": {
+      "hamstrings": 0.85,
+      "glutes": 0.7,
+      "core": 0.5
+    },
+    "difficultyLevel": 2,
+    "skillRequirement": 2,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [],
+    "equipmentOptional": [
+      "sliders"
+    ],
+    "suitableLocations": [
+      "home",
+      "gym"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 8,
+        "max": 12
+      },
+      "hypertrophy": {
+        "min": 12,
+        "max": 15
+      },
+      "endurance": {
+        "min": 20,
+        "max": 30
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 90,
+      "hypertrophy": 60,
+      "endurance": 30
+    },
+    "metValue": 4.5,
+    "intensityFactor": 0.58,
+    "contraindications": [
+      "knee_injury",
+      "hamstring_injury"
+    ],
+    "formCues": [
+      "Keep hips high throughout",
+      "Control the slide out",
+      "Full range of motion",
+      "Squeeze hamstrings and glutes",
+      "Smooth continuous motion"
+    ],
+    "commonMistakes": [
+      "Hips dropping",
+      "Partial range of motion",
+      "Losing control on extension",
+      "Not squeezing at curl",
+      "Going too fast"
+    ],
+    "easierVariation": "glute-bridge",
+    "harderVariation": "nordic-curl-negative",
+    "alternativeExercises": [
+      "swiss-ball-leg-curl",
+      "lying-leg-curl",
+      "glute-bridge"
+    ],
+    "tags": [
+      "compound",
+      "hamstrings",
+      "glutes",
+      "bodyweight",
+      "home-friendly",
+      "beginner-friendly"
+    ],
+    "suitableGoals": [
+      "MUSCLE_GAIN",
+      "GENERAL_FITNESS"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 3,
+      "lightlyActive": 4,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 4
+    },
+    "experienceLevelSuitability": {
+      "never": 4,
+      "lessThan6Mo": 5,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 4,
+      "fivePlusYr": 3
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.4,
+      "muscleGain": 0.72,
+      "strength": 0.65,
+      "endurance": 0.55,
+      "flexibility": 0.25,
+      "generalFitness": 0.75
+    },
+    "estimatedTimePerSet": 35,
+    "setupTimeSeconds": 15,
+    "homeCompatibility": 0.95,
+    "gymCompatibility": 0.9,
+    "outdoorCompatibility": 0.4
+  },
+  {
+    "name": "Band-Assisted Nordic Curl",
+    "slug": "band-assisted-nordic-curl",
+    "description": "A Nordic curl progression using a resistance band attached overhead to provide assistance during the movement. The band reduces body weight load, allowing athletes to build strength toward full Nordic curls.",
+    "instructions": [
+      "Kneel on pad with feet anchored securely",
+      "Loop resistance band around chest or hold under arms, attached above",
+      "Start upright with body straight from knees to head",
+      "Lower torso forward with control, band providing assistance",
+      "Use hamstrings to curl back up with band help"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "FLEXION",
+    "exerciseType": "ISOLATION",
+    "primaryMuscles": [
+      "hamstrings"
+    ],
+    "secondaryMuscles": [
+      "glutes",
+      "core"
+    ],
+    "muscleActivationMap": {
+      "hamstrings": 0.88,
+      "glutes": 0.35,
+      "core": 0.45
+    },
+    "difficultyLevel": 3,
+    "skillRequirement": 3,
+    "isBeginnerFriendly": false,
+    "equipmentRequired": [
+      "resistance_band"
+    ],
+    "equipmentOptional": [
+      "bench"
+    ],
+    "suitableLocations": [
+      "gym",
+      "home"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 4,
+        "max": 8
+      },
+      "hypertrophy": {
+        "min": 8,
+        "max": 12
+      },
+      "endurance": {
+        "min": 12,
+        "max": 15
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 120,
+      "hypertrophy": 90,
+      "endurance": 60
+    },
+    "metValue": 5.0,
+    "intensityFactor": 0.72,
+    "contraindications": [
+      "knee_injury",
+      "hamstring_injury"
+    ],
+    "formCues": [
+      "Control entire range of motion",
+      "Keep hips extended",
+      "Progress to lighter bands over time",
+      "Body stays straight",
+      "Use band minimally as able"
+    ],
+    "commonMistakes": [
+      "Relying too much on band",
+      "Hips bending early",
+      "Not progressing band resistance",
+      "Going too fast",
+      "Improper band setup"
+    ],
+    "easierVariation": "nordic-curl-negative",
+    "harderVariation": "nordic-curl",
+    "alternativeExercises": [
+      "nordic-curl-negative",
+      "sliding-leg-curl",
+      "swiss-ball-leg-curl"
+    ],
+    "tags": [
+      "isolation",
+      "hamstrings",
+      "assisted",
+      "progression",
+      "resistance-band"
+    ],
+    "suitableGoals": [
+      "STRENGTH",
+      "MUSCLE_GAIN"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 1,
+      "lightlyActive": 2,
+      "moderatelyActive": 4,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 1,
+      "lessThan6Mo": 2,
+      "sixTo24Mo": 4,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.35,
+      "muscleGain": 0.8,
+      "strength": 0.85,
+      "endurance": 0.4,
+      "flexibility": 0.2,
+      "generalFitness": 0.68
+    },
+    "estimatedTimePerSet": 40,
+    "setupTimeSeconds": 45,
+    "homeCompatibility": 0.65,
+    "gymCompatibility": 0.95,
+    "outdoorCompatibility": 0.3
+  },
+  {
+    "name": "Swiss Ball Leg Curl",
+    "slug": "swiss-ball-leg-curl",
+    "description": "A hamstring curl performed with heels on a stability ball, combining knee flexion with hip extension while challenging core stability. This unstable surface increases muscle activation and coordination demands.",
+    "instructions": [
+      "Lie on back with heels and lower calves on stability ball",
+      "Bridge hips up, body straight from shoulders to heels",
+      "Keeping hips elevated, curl ball toward glutes",
+      "Roll ball as close to butt as possible, squeezing hamstrings",
+      "Extend legs with control, keeping hips high throughout"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "FLEXION",
+    "exerciseType": "COMPOUND",
+    "primaryMuscles": [
+      "hamstrings",
+      "glutes"
+    ],
+    "secondaryMuscles": [
+      "core",
+      "calves"
+    ],
+    "muscleActivationMap": {
+      "hamstrings": 0.88,
+      "glutes": 0.75,
+      "core": 0.6,
+      "calves": 0.35
+    },
+    "difficultyLevel": 3,
+    "skillRequirement": 3,
+    "isBeginnerFriendly": false,
+    "equipmentRequired": [
+      "swiss_ball"
+    ],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "gym",
+      "home"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 8,
+        "max": 12
+      },
+      "hypertrophy": {
+        "min": 12,
+        "max": 15
+      },
+      "endurance": {
+        "min": 20,
+        "max": 25
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 90,
+      "hypertrophy": 60,
+      "endurance": 30
+    },
+    "metValue": 5.0,
+    "intensityFactor": 0.65,
+    "contraindications": [
+      "knee_injury",
+      "hamstring_injury",
+      "lower_back_injury"
+    ],
+    "formCues": [
+      "Keep hips high throughout",
+      "Control the ball",
+      "Full range of motion",
+      "Engage core for stability",
+      "Don't let hips drop"
+    ],
+    "commonMistakes": [
+      "Hips dropping down",
+      "Ball rolling away",
+      "Losing balance",
+      "Partial curls",
+      "Rushing the movement"
+    ],
+    "easierVariation": "sliding-leg-curl",
+    "harderVariation": "nordic-curl-negative",
+    "alternativeExercises": [
+      "sliding-leg-curl",
+      "lying-leg-curl",
+      "glute-ham-raise"
+    ],
+    "tags": [
+      "compound",
+      "hamstrings",
+      "glutes",
+      "stability",
+      "swiss-ball"
+    ],
+    "suitableGoals": [
+      "MUSCLE_GAIN",
+      "GENERAL_FITNESS"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 2,
+      "lightlyActive": 3,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 2,
+      "lessThan6Mo": 3,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.45,
+      "muscleGain": 0.78,
+      "strength": 0.7,
+      "endurance": 0.55,
+      "flexibility": 0.25,
+      "generalFitness": 0.8
+    },
+    "estimatedTimePerSet": 35,
+    "setupTimeSeconds": 20,
+    "homeCompatibility": 0.85,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.3
+  },
+  {
+    "name": "Glute-Ham Raise",
+    "slug": "glute-ham-raise",
+    "description": "An advanced posterior chain exercise performed on a GHD machine that combines hip extension and knee flexion in one movement. This comprehensive exercise builds exceptional hamstring and glute strength.",
+    "instructions": [
+      "Position yourself on GHD with feet secured, knees on pad",
+      "Start with torso perpendicular to floor, body forming L-shape",
+      "Lower torso forward by extending at knees while keeping hips neutral",
+      "When torso is parallel to floor, curl back up using hamstrings",
+      "Finish in starting position, squeezing glutes and hamstrings"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "FLEXION",
+    "exerciseType": "COMPOUND",
+    "primaryMuscles": [
+      "hamstrings",
+      "glutes"
+    ],
+    "secondaryMuscles": [
+      "back",
+      "core"
+    ],
+    "muscleActivationMap": {
+      "hamstrings": 0.95,
+      "glutes": 0.85,
+      "back": 0.55,
+      "core": 0.5
+    },
+    "difficultyLevel": 5,
+    "skillRequirement": 4,
+    "isBeginnerFriendly": false,
+    "equipmentRequired": [
+      "machine"
+    ],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "gym"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 4,
+        "max": 8
+      },
+      "hypertrophy": {
+        "min": 8,
+        "max": 12
+      },
+      "endurance": {
+        "min": 15,
+        "max": 20
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 150,
+      "hypertrophy": 90,
+      "endurance": 60
+    },
+    "metValue": 6.0,
+    "intensityFactor": 0.85,
+    "contraindications": [
+      "knee_injury",
+      "hamstring_injury",
+      "lower_back_injury"
+    ],
+    "formCues": [
+      "Control the descent",
+      "Keep hips extended",
+      "Use hamstrings to curl back up",
+      "Squeeze glutes throughout",
+      "Don't use momentum"
+    ],
+    "commonMistakes": [
+      "Using too much hip flexion",
+      "Falling forward",
+      "Not controlling eccentric",
+      "Hyperextending at top",
+      "Going too fast"
+    ],
+    "easierVariation": "nordic-curl-negative",
+    "harderVariation": null,
+    "alternativeExercises": [
+      "nordic-curl",
+      "reverse-hyper",
+      "lying-leg-curl"
+    ],
+    "tags": [
+      "compound",
+      "hamstrings",
+      "glutes",
+      "advanced",
+      "GHD"
+    ],
+    "suitableGoals": [
+      "STRENGTH",
+      "MUSCLE_GAIN"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 1,
+      "lightlyActive": 1,
+      "moderatelyActive": 2,
+      "veryActive": 4,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 1,
+      "lessThan6Mo": 1,
+      "sixTo24Mo": 2,
+      "twoTo5Yr": 4,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.45,
+      "muscleGain": 0.9,
+      "strength": 0.92,
+      "endurance": 0.4,
+      "flexibility": 0.25,
+      "generalFitness": 0.72
+    },
+    "estimatedTimePerSet": 45,
+    "setupTimeSeconds": 45,
+    "homeCompatibility": 0.1,
+    "gymCompatibility": 0.8,
+    "outdoorCompatibility": 0.0
+  },
+  {
+    "name": "Reverse Hyper",
+    "slug": "reverse-hyper",
+    "description": "A posterior chain exercise performed face down on a specialized machine, swinging the legs up and back against resistance. This movement decompresses the spine while building glute and hamstring strength.",
+    "instructions": [
+      "Lie face down on reverse hyper machine, hips at pad edge",
+      "Grip handles firmly, legs hanging down with straps around ankles",
+      "Swing legs up and back by contracting glutes and hamstrings",
+      "Raise legs until body is straight or slightly hyperextended",
+      "Control the swing back down, using momentum strategically"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "EXTENSION",
+    "exerciseType": "COMPOUND",
+    "primaryMuscles": [
+      "glutes",
+      "hamstrings"
+    ],
+    "secondaryMuscles": [
+      "back"
+    ],
+    "muscleActivationMap": {
+      "glutes": 0.9,
+      "hamstrings": 0.82,
+      "back": 0.6
+    },
+    "difficultyLevel": 3,
+    "skillRequirement": 2,
+    "isBeginnerFriendly": false,
+    "equipmentRequired": [
+      "machine"
+    ],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "gym"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 10,
+        "max": 15
+      },
+      "hypertrophy": {
+        "min": 15,
+        "max": 20
+      },
+      "endurance": {
+        "min": 25,
+        "max": 30
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 90,
+      "hypertrophy": 60,
+      "endurance": 45
+    },
+    "metValue": 4.5,
+    "intensityFactor": 0.6,
+    "contraindications": [
+      "hip_injury"
+    ],
+    "formCues": [
+      "Squeeze glutes at top",
+      "Control the pendulum motion",
+      "Don't hyperextend excessively",
+      "Use appropriate weight",
+      "Feel the stretch at bottom"
+    ],
+    "commonMistakes": [
+      "Too much hyperextension",
+      "Uncontrolled swinging",
+      "Going too heavy",
+      "Not squeezing glutes",
+      "Using only momentum"
+    ],
+    "easierVariation": "back-extension",
+    "harderVariation": "glute-ham-raise",
+    "alternativeExercises": [
+      "glute-ham-raise",
+      "back-extension",
+      "cable-pull-through"
+    ],
+    "tags": [
+      "compound",
+      "glutes",
+      "hamstrings",
+      "back",
+      "machine",
+      "spinal-decompression"
+    ],
+    "suitableGoals": [
+      "MUSCLE_GAIN",
+      "STRENGTH"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 2,
+      "lightlyActive": 3,
+      "moderatelyActive": 4,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 2,
+      "lessThan6Mo": 3,
+      "sixTo24Mo": 4,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.4,
+      "muscleGain": 0.82,
+      "strength": 0.75,
+      "endurance": 0.5,
+      "flexibility": 0.3,
+      "generalFitness": 0.7
+    },
+    "estimatedTimePerSet": 40,
+    "setupTimeSeconds": 30,
+    "homeCompatibility": 0.05,
+    "gymCompatibility": 0.7,
+    "outdoorCompatibility": 0.0
+  },
+  {
+    "name": "Barbell Hip Thrust",
+    "slug": "barbell-hip-thrust",
+    "description": "The premier glute-building exercise performed with upper back on a bench and a loaded barbell across the hips. This movement allows for heavy loading and maximum glute activation at the top of the range.",
+    "instructions": [
+      "Sit on floor with upper back against bench, barbell over hips",
+      "Roll bar to hip crease, use pad for comfort",
+      "Set feet flat on floor, shoulder-width apart, knees bent",
+      "Drive hips up by squeezing glutes until body is straight",
+      "Hold peak contraction briefly, lower with control"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "HINGE",
+    "exerciseType": "COMPOUND",
+    "primaryMuscles": [
+      "glutes"
+    ],
+    "secondaryMuscles": [
+      "hamstrings",
+      "core"
+    ],
+    "muscleActivationMap": {
+      "glutes": 0.98,
+      "hamstrings": 0.55,
+      "core": 0.45
+    },
+    "difficultyLevel": 3,
+    "skillRequirement": 2,
+    "isBeginnerFriendly": false,
+    "equipmentRequired": [
+      "barbell",
+      "bench"
+    ],
+    "equipmentOptional": [
+      "hip_pad"
+    ],
+    "suitableLocations": [
+      "gym"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 5,
+        "max": 8
+      },
+      "hypertrophy": {
+        "min": 8,
+        "max": 15
+      },
+      "endurance": {
+        "min": 20,
+        "max": 25
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 150,
+      "hypertrophy": 90,
+      "endurance": 60
+    },
+    "metValue": 5.0,
+    "intensityFactor": 0.78,
+    "contraindications": [
+      "lower_back_injury",
+      "hip_injury"
+    ],
+    "formCues": [
+      "Squeeze glutes hard at top",
+      "Don't hyperextend lower back",
+      "Keep chin tucked",
+      "Drive through heels",
+      "Full hip extension at top"
+    ],
+    "commonMistakes": [
+      "Hyperextending lower back",
+      "Not reaching full extension",
+      "Bar rolling during reps",
+      "Pushing through toes",
+      "Not squeezing at top"
+    ],
+    "easierVariation": "dumbbell-hip-thrust",
+    "harderVariation": "single-leg-hip-thrust",
+    "alternativeExercises": [
+      "glute-bridge",
+      "dumbbell-hip-thrust",
+      "cable-pull-through"
+    ],
+    "tags": [
+      "compound",
+      "glutes",
+      "barbell",
+      "hip-thrust",
+      "glute-builder"
+    ],
+    "suitableGoals": [
+      "MUSCLE_GAIN",
+      "STRENGTH"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 2,
+      "lightlyActive": 3,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 2,
+      "lessThan6Mo": 3,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.45,
+      "muscleGain": 0.95,
+      "strength": 0.85,
+      "endurance": 0.4,
+      "flexibility": 0.15,
+      "generalFitness": 0.75
+    },
+    "estimatedTimePerSet": 40,
+    "setupTimeSeconds": 60,
+    "homeCompatibility": 0.4,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.1
+  },
+  {
+    "name": "Dumbbell Hip Thrust",
+    "slug": "dumbbell-hip-thrust",
+    "description": "A hip thrust variation using a dumbbell positioned on the hips, providing an accessible alternative to the barbell version. This exercise is easier to set up and still delivers excellent glute activation.",
+    "instructions": [
+      "Sit with upper back against bench, dumbbell resting on hip crease",
+      "Hold dumbbell in place with both hands",
+      "Set feet flat on floor, shoulder-width apart",
+      "Drive hips up by squeezing glutes until body is straight",
+      "Squeeze glutes hard at top, lower with control"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "HINGE",
+    "exerciseType": "COMPOUND",
+    "primaryMuscles": [
+      "glutes"
+    ],
+    "secondaryMuscles": [
+      "hamstrings",
+      "core"
+    ],
+    "muscleActivationMap": {
+      "glutes": 0.92,
+      "hamstrings": 0.5,
+      "core": 0.4
+    },
+    "difficultyLevel": 2,
+    "skillRequirement": 2,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [
+      "dumbbell",
+      "bench"
+    ],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "gym",
+      "home"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 8,
+        "max": 12
+      },
+      "hypertrophy": {
+        "min": 12,
+        "max": 20
+      },
+      "endurance": {
+        "min": 25,
+        "max": 35
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 90,
+      "hypertrophy": 60,
+      "endurance": 45
+    },
+    "metValue": 4.5,
+    "intensityFactor": 0.65,
+    "contraindications": [
+      "lower_back_injury",
+      "hip_injury"
+    ],
+    "formCues": [
+      "Full hip extension at top",
+      "Squeeze glutes 2-3 seconds",
+      "Keep chin tucked",
+      "Drive through heels",
+      "Control the descent"
+    ],
+    "commonMistakes": [
+      "Not reaching full extension",
+      "Rushing through reps",
+      "Hyperextending lower back",
+      "Dumbbell slipping",
+      "Pushing through toes"
+    ],
+    "easierVariation": "glute-bridge",
+    "harderVariation": "barbell-hip-thrust",
+    "alternativeExercises": [
+      "barbell-hip-thrust",
+      "glute-bridge",
+      "banded-hip-thrust"
+    ],
+    "tags": [
+      "compound",
+      "glutes",
+      "dumbbell",
+      "hip-thrust",
+      "beginner-friendly"
+    ],
+    "suitableGoals": [
+      "MUSCLE_GAIN",
+      "GENERAL_FITNESS"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 3,
+      "lightlyActive": 4,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 4
+    },
+    "experienceLevelSuitability": {
+      "never": 4,
+      "lessThan6Mo": 5,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 4
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.45,
+      "muscleGain": 0.85,
+      "strength": 0.72,
+      "endurance": 0.5,
+      "flexibility": 0.15,
+      "generalFitness": 0.78
+    },
+    "estimatedTimePerSet": 35,
+    "setupTimeSeconds": 30,
+    "homeCompatibility": 0.85,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.2
+  },
+  {
+    "name": "Single-Leg Hip Thrust",
+    "slug": "single-leg-hip-thrust",
+    "description": "An advanced unilateral hip thrust performed with one leg to address strength imbalances and increase intensity per leg. This challenging variation maximizes glute activation on each side independently.",
+    "instructions": [
+      "Set up as for standard hip thrust with upper back on bench",
+      "Lift one leg off floor, keeping knee bent or extending straight",
+      "Drive through planted foot to raise hips until body is straight",
+      "Squeeze glute hard at top of movement",
+      "Lower with control, complete all reps then switch legs"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "HINGE",
+    "exerciseType": "COMPOUND",
+    "primaryMuscles": [
+      "glutes"
+    ],
+    "secondaryMuscles": [
+      "hamstrings",
+      "core"
+    ],
+    "muscleActivationMap": {
+      "glutes": 0.95,
+      "hamstrings": 0.55,
+      "core": 0.55
+    },
+    "difficultyLevel": 4,
+    "skillRequirement": 3,
+    "isBeginnerFriendly": false,
+    "equipmentRequired": [
+      "bench"
+    ],
+    "equipmentOptional": [
+      "dumbbell"
+    ],
+    "suitableLocations": [
+      "gym",
+      "home"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 6,
+        "max": 10
+      },
+      "hypertrophy": {
+        "min": 10,
+        "max": 15
+      },
+      "endurance": {
+        "min": 20,
+        "max": 25
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 120,
+      "hypertrophy": 75,
+      "endurance": 45
+    },
+    "metValue": 5.0,
+    "intensityFactor": 0.75,
+    "contraindications": [
+      "lower_back_injury",
+      "hip_injury"
+    ],
+    "formCues": [
+      "Keep hips level",
+      "Full extension at top",
+      "Squeeze glute hard",
+      "Control the descent",
+      "Equal reps both sides"
+    ],
+    "commonMistakes": [
+      "Hips tilting to one side",
+      "Not reaching full extension",
+      "Rushing reps",
+      "Uneven work between sides",
+      "Hyperextending back"
+    ],
+    "easierVariation": "barbell-hip-thrust",
+    "harderVariation": null,
+    "alternativeExercises": [
+      "barbell-hip-thrust",
+      "single-leg-glute-bridge",
+      "dumbbell-hip-thrust"
+    ],
+    "tags": [
+      "compound",
+      "glutes",
+      "unilateral",
+      "hip-thrust",
+      "advanced"
+    ],
+    "suitableGoals": [
+      "MUSCLE_GAIN",
+      "STRENGTH"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 1,
+      "lightlyActive": 2,
+      "moderatelyActive": 4,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 1,
+      "lessThan6Mo": 2,
+      "sixTo24Mo": 4,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.45,
+      "muscleGain": 0.9,
+      "strength": 0.82,
+      "endurance": 0.45,
+      "flexibility": 0.15,
+      "generalFitness": 0.75
+    },
+    "estimatedTimePerSet": 50,
+    "setupTimeSeconds": 30,
+    "homeCompatibility": 0.8,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.2
+  },
+  {
+    "name": "Banded Hip Thrust",
+    "slug": "banded-hip-thrust",
+    "description": "A hip thrust variation with a resistance band around the knees to increase glute medius activation through abduction resistance. The band adds an extra challenge to maintain knee position while thrusting.",
+    "instructions": [
+      "Place resistance band just above knees",
+      "Set up for hip thrust with upper back on bench",
+      "Keep tension on band by pushing knees outward",
+      "Drive hips up while maintaining outward knee pressure",
+      "Squeeze glutes at top, lower with control while keeping band tension"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "HINGE",
+    "exerciseType": "COMPOUND",
+    "primaryMuscles": [
+      "glutes"
+    ],
+    "secondaryMuscles": [
+      "hamstrings",
+      "hip_flexors",
+      "core"
+    ],
+    "muscleActivationMap": {
+      "glutes": 0.95,
+      "hamstrings": 0.5,
+      "hip_flexors": 0.45,
+      "core": 0.4
+    },
+    "difficultyLevel": 2,
+    "skillRequirement": 2,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [
+      "bench",
+      "resistance_band"
+    ],
+    "equipmentOptional": [
+      "dumbbell",
+      "barbell"
+    ],
+    "suitableLocations": [
+      "gym",
+      "home"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 10,
+        "max": 15
+      },
+      "hypertrophy": {
+        "min": 15,
+        "max": 20
+      },
+      "endurance": {
+        "min": 25,
+        "max": 35
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 90,
+      "hypertrophy": 60,
+      "endurance": 45
+    },
+    "metValue": 4.5,
+    "intensityFactor": 0.62,
+    "contraindications": [
+      "hip_injury"
+    ],
+    "formCues": [
+      "Push knees out against band",
+      "Full hip extension at top",
+      "Maintain band tension throughout",
+      "Squeeze glutes hard",
+      "Don't let knees cave"
+    ],
+    "commonMistakes": [
+      "Knees caving inward",
+      "Losing band tension",
+      "Not reaching full extension",
+      "Rushing through reps",
+      "Band too tight or loose"
+    ],
+    "easierVariation": "glute-bridge",
+    "harderVariation": "dumbbell-hip-thrust",
+    "alternativeExercises": [
+      "glute-bridge",
+      "dumbbell-hip-thrust",
+      "clamshell"
+    ],
+    "tags": [
+      "compound",
+      "glutes",
+      "resistance-band",
+      "hip-thrust",
+      "glute-medius"
+    ],
+    "suitableGoals": [
+      "MUSCLE_GAIN",
+      "GENERAL_FITNESS"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 3,
+      "lightlyActive": 4,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 4,
+      "lessThan6Mo": 5,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 4
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.45,
+      "muscleGain": 0.82,
+      "strength": 0.68,
+      "endurance": 0.55,
+      "flexibility": 0.15,
+      "generalFitness": 0.78
+    },
+    "estimatedTimePerSet": 35,
+    "setupTimeSeconds": 25,
+    "homeCompatibility": 0.95,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.4
+  },
+  {
+    "name": "Foot-Elevated Hip Thrust",
+    "slug": "foot-elevated-hip-thrust",
+    "description": "A hip thrust variation with feet elevated on a platform or step, increasing the range of motion and challenge. The elevation allows for a deeper hip stretch at the bottom and greater glute activation.",
+    "instructions": [
+      "Set up with upper back on bench, feet elevated on box or step",
+      "Position weight on hip crease if using",
+      "Allow hips to drop lower than standard due to elevation",
+      "Drive hips up powerfully, squeezing glutes at top",
+      "Lower with control through full range of motion"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "HINGE",
+    "exerciseType": "COMPOUND",
+    "primaryMuscles": [
+      "glutes"
+    ],
+    "secondaryMuscles": [
+      "hamstrings",
+      "core"
+    ],
+    "muscleActivationMap": {
+      "glutes": 0.95,
+      "hamstrings": 0.6,
+      "core": 0.45
+    },
+    "difficultyLevel": 3,
+    "skillRequirement": 2,
+    "isBeginnerFriendly": false,
+    "equipmentRequired": [
+      "bench",
+      "box"
+    ],
+    "equipmentOptional": [
+      "dumbbell",
+      "barbell"
+    ],
+    "suitableLocations": [
+      "gym"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 6,
+        "max": 10
+      },
+      "hypertrophy": {
+        "min": 10,
+        "max": 15
+      },
+      "endurance": {
+        "min": 20,
+        "max": 25
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 120,
+      "hypertrophy": 75,
+      "endurance": 45
+    },
+    "metValue": 5.0,
+    "intensityFactor": 0.72,
+    "contraindications": [
+      "lower_back_injury",
+      "hip_injury"
+    ],
+    "formCues": [
+      "Use full range of motion",
+      "Hips drop lower at bottom",
+      "Full extension at top",
+      "Control throughout",
+      "Don't hyperextend at top"
+    ],
+    "commonMistakes": [
+      "Platform too high",
+      "Not using increased ROM",
+      "Losing control at bottom",
+      "Hyperextending lower back",
+      "Feet slipping"
+    ],
+    "easierVariation": "dumbbell-hip-thrust",
+    "harderVariation": "single-leg-hip-thrust",
+    "alternativeExercises": [
+      "barbell-hip-thrust",
+      "dumbbell-hip-thrust",
+      "glute-bridge"
+    ],
+    "tags": [
+      "compound",
+      "glutes",
+      "hip-thrust",
+      "elevated",
+      "increased-ROM"
+    ],
+    "suitableGoals": [
+      "MUSCLE_GAIN",
+      "STRENGTH"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 1,
+      "lightlyActive": 2,
+      "moderatelyActive": 4,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 2,
+      "lessThan6Mo": 3,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.45,
+      "muscleGain": 0.88,
+      "strength": 0.78,
+      "endurance": 0.45,
+      "flexibility": 0.25,
+      "generalFitness": 0.72
+    },
+    "estimatedTimePerSet": 40,
+    "setupTimeSeconds": 45,
+    "homeCompatibility": 0.5,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.1
+  },
+  {
+    "name": "Glute Bridge",
+    "slug": "glute-bridge",
+    "description": "The foundational glute exercise performed lying on the floor, driving hips up by squeezing the glutes. This accessible movement teaches proper hip extension mechanics and serves as a building block for hip thrusts.",
+    "instructions": [
+      "Lie on back with knees bent, feet flat on floor hip-width apart",
+      "Arms rest at sides, palms down",
+      "Drive through heels, squeezing glutes to lift hips",
+      "Raise until body forms straight line from shoulders to knees",
+      "Squeeze glutes at top, lower with control"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "HINGE",
+    "exerciseType": "COMPOUND",
+    "primaryMuscles": [
+      "glutes"
+    ],
+    "secondaryMuscles": [
+      "hamstrings",
+      "core"
+    ],
+    "muscleActivationMap": {
+      "glutes": 0.85,
+      "hamstrings": 0.5,
+      "core": 0.4
+    },
+    "difficultyLevel": 1,
+    "skillRequirement": 1,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [],
+    "equipmentOptional": [
+      "dumbbell",
+      "resistance_band"
+    ],
+    "suitableLocations": [
+      "home",
+      "gym",
+      "outdoor"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 15,
+        "max": 20
+      },
+      "hypertrophy": {
+        "min": 20,
+        "max": 30
+      },
+      "endurance": {
+        "min": 40,
+        "max": 60
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 60,
+      "hypertrophy": 45,
+      "endurance": 20
+    },
+    "metValue": 3.5,
+    "intensityFactor": 0.45,
+    "contraindications": [
+      "lower_back_injury"
+    ],
+    "formCues": [
+      "Squeeze glutes at top",
+      "Drive through heels",
+      "Keep core engaged",
+      "Don't hyperextend",
+      "Pause at top"
+    ],
+    "commonMistakes": [
+      "Pushing through toes",
+      "Hyperextending lower back",
+      "Not squeezing glutes",
+      "Rushing reps",
+      "Incomplete hip extension"
+    ],
+    "easierVariation": null,
+    "harderVariation": "dumbbell-hip-thrust",
+    "alternativeExercises": [
+      "dumbbell-hip-thrust",
+      "single-leg-glute-bridge",
+      "banded-hip-thrust"
+    ],
+    "tags": [
+      "compound",
+      "glutes",
+      "bodyweight",
+      "beginner-friendly",
+      "fundamental"
+    ],
+    "suitableGoals": [
+      "GENERAL_FITNESS",
+      "MUSCLE_GAIN"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 5,
+      "lightlyActive": 5,
+      "moderatelyActive": 5,
+      "veryActive": 4,
+      "athlete": 3
+    },
+    "experienceLevelSuitability": {
+      "never": 5,
+      "lessThan6Mo": 5,
+      "sixTo24Mo": 4,
+      "twoTo5Yr": 3,
+      "fivePlusYr": 2
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.4,
+      "muscleGain": 0.65,
+      "strength": 0.55,
+      "endurance": 0.6,
+      "flexibility": 0.2,
+      "generalFitness": 0.75
+    },
+    "estimatedTimePerSet": 30,
+    "setupTimeSeconds": 5,
+    "homeCompatibility": 1.0,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.9
+  },
+  {
+    "name": "Single-Leg Glute Bridge",
+    "slug": "single-leg-glute-bridge",
+    "description": "A unilateral glute bridge performed with one leg to increase difficulty and address imbalances between sides. This progression from the basic bridge significantly increases glute activation per leg.",
+    "instructions": [
+      "Lie on back with one knee bent, foot flat on floor",
+      "Extend other leg straight up or hold knee toward chest",
+      "Drive through planted foot to lift hips",
+      "Raise until body is straight from knee to shoulders",
+      "Squeeze glute at top, lower with control, complete all reps then switch"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "HINGE",
+    "exerciseType": "COMPOUND",
+    "primaryMuscles": [
+      "glutes"
+    ],
+    "secondaryMuscles": [
+      "hamstrings",
+      "core"
+    ],
+    "muscleActivationMap": {
+      "glutes": 0.9,
+      "hamstrings": 0.55,
+      "core": 0.5
+    },
+    "difficultyLevel": 2,
+    "skillRequirement": 2,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [],
+    "equipmentOptional": [
+      "dumbbell"
+    ],
+    "suitableLocations": [
+      "home",
+      "gym",
+      "outdoor"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 10,
+        "max": 15
+      },
+      "hypertrophy": {
+        "min": 15,
+        "max": 20
+      },
+      "endurance": {
+        "min": 25,
+        "max": 35
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 75,
+      "hypertrophy": 45,
+      "endurance": 30
+    },
+    "metValue": 4.0,
+    "intensityFactor": 0.55,
+    "contraindications": [
+      "lower_back_injury",
+      "hip_injury"
+    ],
+    "formCues": [
+      "Keep hips level",
+      "Full extension at top",
+      "Drive through heel",
+      "Equal reps both sides",
+      "Control the descent"
+    ],
+    "commonMistakes": [
+      "Hips tilting",
+      "Not reaching full extension",
+      "Uneven work between sides",
+      "Rushing",
+      "Lower back hyperextension"
+    ],
+    "easierVariation": "glute-bridge",
+    "harderVariation": "single-leg-hip-thrust",
+    "alternativeExercises": [
+      "glute-bridge",
+      "dumbbell-hip-thrust",
+      "donkey-kick"
+    ],
+    "tags": [
+      "compound",
+      "glutes",
+      "bodyweight",
+      "unilateral",
+      "progression"
+    ],
+    "suitableGoals": [
+      "MUSCLE_GAIN",
+      "GENERAL_FITNESS"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 3,
+      "lightlyActive": 4,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 4
+    },
+    "experienceLevelSuitability": {
+      "never": 4,
+      "lessThan6Mo": 5,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 4,
+      "fivePlusYr": 3
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.45,
+      "muscleGain": 0.78,
+      "strength": 0.68,
+      "endurance": 0.55,
+      "flexibility": 0.2,
+      "generalFitness": 0.78
+    },
+    "estimatedTimePerSet": 40,
+    "setupTimeSeconds": 5,
+    "homeCompatibility": 1.0,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.85
+  },
+  {
+    "name": "Marching Glute Bridge",
+    "slug": "marching-glute-bridge",
+    "description": "A dynamic glute bridge variation where you alternate lifting knees in a marching motion while maintaining hip elevation. This movement combines glute strength with core stability and hip flexor mobility.",
+    "instructions": [
+      "Start in glute bridge position with hips elevated",
+      "Maintain hip height while lifting one knee toward chest",
+      "Lower that foot, then lift opposite knee",
+      "Continue alternating in marching pattern",
+      "Keep hips level and elevated throughout"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "HINGE",
+    "exerciseType": "COMPOUND",
+    "primaryMuscles": [
+      "glutes"
+    ],
+    "secondaryMuscles": [
+      "core",
+      "hip_flexors",
+      "hamstrings"
+    ],
+    "muscleActivationMap": {
+      "glutes": 0.82,
+      "core": 0.6,
+      "hip_flexors": 0.5,
+      "hamstrings": 0.45
+    },
+    "difficultyLevel": 2,
+    "skillRequirement": 2,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [],
+    "equipmentOptional": [
+      "resistance_band"
+    ],
+    "suitableLocations": [
+      "home",
+      "gym",
+      "outdoor"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 12,
+        "max": 16
+      },
+      "hypertrophy": {
+        "min": 16,
+        "max": 24
+      },
+      "endurance": {
+        "min": 30,
+        "max": 50
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 75,
+      "hypertrophy": 45,
+      "endurance": 20
+    },
+    "metValue": 4.0,
+    "intensityFactor": 0.52,
+    "contraindications": [
+      "lower_back_injury",
+      "hip_injury"
+    ],
+    "formCues": [
+      "Keep hips level - no rocking",
+      "Maintain bridge height",
+      "Controlled marching rhythm",
+      "Core stays engaged",
+      "Don't rush"
+    ],
+    "commonMistakes": [
+      "Hips dropping",
+      "Rocking side to side",
+      "Not lifting knees high enough",
+      "Losing bridge position",
+      "Going too fast"
+    ],
+    "easierVariation": "glute-bridge",
+    "harderVariation": "single-leg-glute-bridge",
+    "alternativeExercises": [
+      "glute-bridge",
+      "single-leg-glute-bridge",
+      "dead-bug"
+    ],
+    "tags": [
+      "compound",
+      "glutes",
+      "core",
+      "bodyweight",
+      "dynamic",
+      "stability"
+    ],
+    "suitableGoals": [
+      "GENERAL_FITNESS",
+      "ENDURANCE"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 4,
+      "lightlyActive": 5,
+      "moderatelyActive": 5,
+      "veryActive": 4,
+      "athlete": 4
+    },
+    "experienceLevelSuitability": {
+      "never": 4,
+      "lessThan6Mo": 5,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 4,
+      "fivePlusYr": 3
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.45,
+      "muscleGain": 0.65,
+      "strength": 0.55,
+      "endurance": 0.65,
+      "flexibility": 0.3,
+      "generalFitness": 0.78
+    },
+    "estimatedTimePerSet": 35,
+    "setupTimeSeconds": 5,
+    "homeCompatibility": 1.0,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.9
+  },
+  {
+    "name": "Frog Pump",
+    "slug": "frog-pump",
+    "description": "A glute isolation variation performed with soles of feet together and knees out in a frog position. This unique setup minimizes hamstring involvement and maximizes glute squeeze throughout the movement.",
+    "instructions": [
+      "Lie on back, bring soles of feet together close to glutes",
+      "Let knees fall out to sides in frog position",
+      "Arms rest at sides or hands on hips",
+      "Drive hips up by squeezing glutes hard",
+      "Lower partially (not all the way) and repeat with continuous tension"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "HINGE",
+    "exerciseType": "ISOLATION",
+    "primaryMuscles": [
+      "glutes"
+    ],
+    "secondaryMuscles": [
+      "core"
+    ],
+    "muscleActivationMap": {
+      "glutes": 0.92,
+      "core": 0.35
+    },
+    "difficultyLevel": 1,
+    "skillRequirement": 1,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [],
+    "equipmentOptional": [
+      "dumbbell"
+    ],
+    "suitableLocations": [
+      "home",
+      "gym"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 20,
+        "max": 30
+      },
+      "hypertrophy": {
+        "min": 30,
+        "max": 50
+      },
+      "endurance": {
+        "min": 50,
+        "max": 100
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 60,
+      "hypertrophy": 45,
+      "endurance": 20
+    },
+    "metValue": 3.0,
+    "intensityFactor": 0.4,
+    "contraindications": [
+      "hip_injury",
+      "groin_injury"
+    ],
+    "formCues": [
+      "Soles together, knees wide",
+      "Squeeze glutes hard at top",
+      "Partial descent only",
+      "Maintain constant tension",
+      "Feel it only in glutes"
+    ],
+    "commonMistakes": [
+      "Going too low between reps",
+      "Not squeezing enough",
+      "Using hamstrings",
+      "Knees not wide enough",
+      "Rushing through reps"
+    ],
+    "easierVariation": null,
+    "harderVariation": "glute-bridge",
+    "alternativeExercises": [
+      "glute-bridge",
+      "clamshell",
+      "fire-hydrant"
+    ],
+    "tags": [
+      "isolation",
+      "glutes",
+      "bodyweight",
+      "beginner-friendly",
+      "high-rep",
+      "pump"
+    ],
+    "suitableGoals": [
+      "MUSCLE_GAIN",
+      "GENERAL_FITNESS"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 5,
+      "lightlyActive": 5,
+      "moderatelyActive": 5,
+      "veryActive": 4,
+      "athlete": 3
+    },
+    "experienceLevelSuitability": {
+      "never": 5,
+      "lessThan6Mo": 5,
+      "sixTo24Mo": 4,
+      "twoTo5Yr": 3,
+      "fivePlusYr": 3
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.35,
+      "muscleGain": 0.7,
+      "strength": 0.45,
+      "endurance": 0.6,
+      "flexibility": 0.25,
+      "generalFitness": 0.68
+    },
+    "estimatedTimePerSet": 40,
+    "setupTimeSeconds": 5,
+    "homeCompatibility": 1.0,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.7
+  },
+  {
+    "name": "Cable Kickback",
+    "slug": "cable-kickback",
+    "description": "A glute isolation exercise using a low cable and ankle attachment to extend the hip against resistance. The constant cable tension creates continuous glute engagement throughout the full range of motion.",
+    "instructions": [
+      "Attach ankle strap to low cable, secure around ankle",
+      "Face machine, hold frame for support, slight forward lean",
+      "Keep working leg straight or slightly bent",
+      "Kick leg back and up by extending hip and squeezing glute",
+      "Control return to start, complete all reps then switch"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "EXTENSION",
+    "exerciseType": "ISOLATION",
+    "primaryMuscles": [
+      "glutes"
+    ],
+    "secondaryMuscles": [
+      "hamstrings"
+    ],
+    "muscleActivationMap": {
+      "glutes": 0.9,
+      "hamstrings": 0.45
+    },
+    "difficultyLevel": 2,
+    "skillRequirement": 2,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [
+      "cable"
+    ],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "gym"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 10,
+        "max": 15
+      },
+      "hypertrophy": {
+        "min": 15,
+        "max": 20
+      },
+      "endurance": {
+        "min": 25,
+        "max": 30
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 75,
+      "hypertrophy": 45,
+      "endurance": 30
+    },
+    "metValue": 3.5,
+    "intensityFactor": 0.52,
+    "contraindications": [
+      "lower_back_injury",
+      "hip_injury"
+    ],
+    "formCues": [
+      "Squeeze glute at top",
+      "Control the movement",
+      "Keep hips square",
+      "Don't arch lower back",
+      "Full range of motion"
+    ],
+    "commonMistakes": [
+      "Hyperextending lower back",
+      "Swinging the leg",
+      "Hips rotating",
+      "Going too heavy",
+      "Partial range of motion"
+    ],
+    "easierVariation": "donkey-kick",
+    "harderVariation": "barbell-hip-thrust",
+    "alternativeExercises": [
+      "donkey-kick",
+      "glute-bridge",
+      "hip-abduction-machine"
+    ],
+    "tags": [
+      "isolation",
+      "glutes",
+      "cable",
+      "unilateral"
+    ],
+    "suitableGoals": [
+      "MUSCLE_GAIN"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 3,
+      "lightlyActive": 4,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 4
+    },
+    "experienceLevelSuitability": {
+      "never": 4,
+      "lessThan6Mo": 5,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 4
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.35,
+      "muscleGain": 0.78,
+      "strength": 0.55,
+      "endurance": 0.5,
+      "flexibility": 0.2,
+      "generalFitness": 0.62
+    },
+    "estimatedTimePerSet": 40,
+    "setupTimeSeconds": 30,
+    "homeCompatibility": 0.15,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.0
+  },
+  {
+    "name": "Donkey Kick",
+    "slug": "donkey-kick",
+    "description": "A bodyweight glute exercise performed on hands and knees, kicking one leg up and back. This accessible movement isolates the glutes without equipment and is excellent for activation and higher rep work.",
+    "instructions": [
+      "Start on hands and knees, hands under shoulders, knees under hips",
+      "Keep core engaged, back flat throughout",
+      "Keeping knee bent at 90 degrees, lift one leg up and back",
+      "Drive heel toward ceiling, squeezing glute at top",
+      "Lower with control, complete all reps then switch legs"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "EXTENSION",
+    "exerciseType": "ISOLATION",
+    "primaryMuscles": [
+      "glutes"
+    ],
+    "secondaryMuscles": [
+      "hamstrings",
+      "core"
+    ],
+    "muscleActivationMap": {
+      "glutes": 0.82,
+      "hamstrings": 0.4,
+      "core": 0.4
+    },
+    "difficultyLevel": 1,
+    "skillRequirement": 1,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [],
+    "equipmentOptional": [
+      "resistance_band",
+      "ankle_weight"
+    ],
+    "suitableLocations": [
+      "home",
+      "gym",
+      "outdoor"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 15,
+        "max": 20
+      },
+      "hypertrophy": {
+        "min": 20,
+        "max": 30
+      },
+      "endurance": {
+        "min": 40,
+        "max": 50
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 60,
+      "hypertrophy": 45,
+      "endurance": 20
+    },
+    "metValue": 3.0,
+    "intensityFactor": 0.4,
+    "contraindications": [
+      "knee_injury",
+      "wrist_injury"
+    ],
+    "formCues": [
+      "Keep knee bent 90 degrees",
+      "Drive heel up not out",
+      "Squeeze glute at top",
+      "Don't arch lower back",
+      "Hips stay level"
+    ],
+    "commonMistakes": [
+      "Arching lower back",
+      "Kicking leg out instead of up",
+      "Not squeezing at top",
+      "Hips rotating",
+      "Rushing reps"
+    ],
+    "easierVariation": "glute-bridge",
+    "harderVariation": "cable-kickback",
+    "alternativeExercises": [
+      "glute-bridge",
+      "fire-hydrant",
+      "cable-kickback"
+    ],
+    "tags": [
+      "isolation",
+      "glutes",
+      "bodyweight",
+      "beginner-friendly",
+      "activation"
+    ],
+    "suitableGoals": [
+      "GENERAL_FITNESS",
+      "MUSCLE_GAIN"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 5,
+      "lightlyActive": 5,
+      "moderatelyActive": 5,
+      "veryActive": 4,
+      "athlete": 3
+    },
+    "experienceLevelSuitability": {
+      "never": 5,
+      "lessThan6Mo": 5,
+      "sixTo24Mo": 4,
+      "twoTo5Yr": 3,
+      "fivePlusYr": 2
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.35,
+      "muscleGain": 0.62,
+      "strength": 0.45,
+      "endurance": 0.6,
+      "flexibility": 0.2,
+      "generalFitness": 0.7
+    },
+    "estimatedTimePerSet": 30,
+    "setupTimeSeconds": 5,
+    "homeCompatibility": 1.0,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.85
+  },
+  {
+    "name": "Fire Hydrant",
+    "slug": "fire-hydrant",
+    "description": "A bodyweight glute exercise on hands and knees that targets the gluteus medius through hip abduction. The movement mimics a dog at a fire hydrant, lifting the leg out to the side while keeping the knee bent.",
+    "instructions": [
+      "Start on hands and knees, core engaged, back flat",
+      "Keeping knee bent at 90 degrees, lift leg out to side",
+      "Raise until thigh is parallel to floor or as high as possible",
+      "Squeeze outer glute at top of movement",
+      "Lower with control, complete all reps then switch"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "ABDUCTION",
+    "exerciseType": "ISOLATION",
+    "primaryMuscles": [
+      "glutes"
+    ],
+    "secondaryMuscles": [
+      "hip_flexors",
+      "core"
+    ],
+    "muscleActivationMap": {
+      "glutes": 0.82,
+      "hip_flexors": 0.45,
+      "core": 0.4
+    },
+    "difficultyLevel": 1,
+    "skillRequirement": 1,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [],
+    "equipmentOptional": [
+      "resistance_band",
+      "ankle_weight"
+    ],
+    "suitableLocations": [
+      "home",
+      "gym",
+      "outdoor"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 15,
+        "max": 20
+      },
+      "hypertrophy": {
+        "min": 20,
+        "max": 30
+      },
+      "endurance": {
+        "min": 40,
+        "max": 50
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 60,
+      "hypertrophy": 45,
+      "endurance": 20
+    },
+    "metValue": 3.0,
+    "intensityFactor": 0.38,
+    "contraindications": [
+      "hip_injury",
+      "knee_injury"
+    ],
+    "formCues": [
+      "Keep knee bent 90 degrees",
+      "Lift directly to side",
+      "Squeeze outer glute",
+      "Keep hips level",
+      "Core stays engaged"
+    ],
+    "commonMistakes": [
+      "Rotating hips open",
+      "Leaning to opposite side",
+      "Not lifting high enough",
+      "Back arching",
+      "Swinging the leg"
+    ],
+    "easierVariation": null,
+    "harderVariation": "banded-lateral-walk",
+    "alternativeExercises": [
+      "clamshell",
+      "banded-lateral-walk",
+      "hip-abduction-machine"
+    ],
+    "tags": [
+      "isolation",
+      "glutes",
+      "glute-medius",
+      "bodyweight",
+      "beginner-friendly"
+    ],
+    "suitableGoals": [
+      "GENERAL_FITNESS",
+      "MUSCLE_GAIN"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 5,
+      "lightlyActive": 5,
+      "moderatelyActive": 5,
+      "veryActive": 4,
+      "athlete": 3
+    },
+    "experienceLevelSuitability": {
+      "never": 5,
+      "lessThan6Mo": 5,
+      "sixTo24Mo": 4,
+      "twoTo5Yr": 3,
+      "fivePlusYr": 2
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.3,
+      "muscleGain": 0.58,
+      "strength": 0.42,
+      "endurance": 0.6,
+      "flexibility": 0.25,
+      "generalFitness": 0.68
+    },
+    "estimatedTimePerSet": 30,
+    "setupTimeSeconds": 5,
+    "homeCompatibility": 1.0,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.85
+  },
+  {
+    "name": "Clamshell",
+    "slug": "clamshell",
+    "description": "A side-lying glute medius exercise where knees open and close like a clamshell while feet stay together. This rehabilitation staple builds hip stability and targets the often-neglected outer glutes.",
+    "instructions": [
+      "Lie on side with knees bent 90 degrees, feet together",
+      "Stack hips vertically, head resting on arm or supported",
+      "Keep feet together as you raise top knee toward ceiling",
+      "Open legs like a clamshell, squeezing outer glute",
+      "Lower with control, complete all reps then switch sides"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "ABDUCTION",
+    "exerciseType": "ISOLATION",
+    "primaryMuscles": [
+      "glutes"
+    ],
+    "secondaryMuscles": [
+      "hip_flexors"
+    ],
+    "muscleActivationMap": {
+      "glutes": 0.78,
+      "hip_flexors": 0.35
+    },
+    "difficultyLevel": 1,
+    "skillRequirement": 1,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [],
+    "equipmentOptional": [
+      "resistance_band"
+    ],
+    "suitableLocations": [
+      "home",
+      "gym",
+      "outdoor"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 15,
+        "max": 20
+      },
+      "hypertrophy": {
+        "min": 20,
+        "max": 30
+      },
+      "endurance": {
+        "min": 40,
+        "max": 60
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 60,
+      "hypertrophy": 45,
+      "endurance": 20
+    },
+    "metValue": 2.5,
+    "intensityFactor": 0.35,
+    "contraindications": [
+      "hip_injury"
+    ],
+    "formCues": [
+      "Keep feet glued together",
+      "Don't roll hips backward",
+      "Squeeze at top",
+      "Control the movement",
+      "Equal reps both sides"
+    ],
+    "commonMistakes": [
+      "Rolling hips back",
+      "Lifting from foot instead of knee",
+      "Not squeezing at top",
+      "Rushing reps",
+      "Uneven work between sides"
+    ],
+    "easierVariation": null,
+    "harderVariation": "fire-hydrant",
+    "alternativeExercises": [
+      "fire-hydrant",
+      "banded-lateral-walk",
+      "hip-abduction-machine"
+    ],
+    "tags": [
+      "isolation",
+      "glutes",
+      "glute-medius",
+      "bodyweight",
+      "rehabilitation",
+      "beginner-friendly"
+    ],
+    "suitableGoals": [
+      "GENERAL_FITNESS",
+      "REHABILITATION"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 5,
+      "lightlyActive": 5,
+      "moderatelyActive": 5,
+      "veryActive": 4,
+      "athlete": 3
+    },
+    "experienceLevelSuitability": {
+      "never": 5,
+      "lessThan6Mo": 5,
+      "sixTo24Mo": 4,
+      "twoTo5Yr": 3,
+      "fivePlusYr": 2
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.25,
+      "muscleGain": 0.5,
+      "strength": 0.4,
+      "endurance": 0.6,
+      "flexibility": 0.3,
+      "generalFitness": 0.65
+    },
+    "estimatedTimePerSet": 30,
+    "setupTimeSeconds": 5,
+    "homeCompatibility": 1.0,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.9
+  },
+  {
+    "name": "Banded Lateral Walk",
+    "slug": "banded-lateral-walk",
+    "description": "A functional glute medius exercise walking sideways against band resistance. This movement builds hip stability, improves knee tracking, and is excellent for warm-ups or glute activation.",
+    "instructions": [
+      "Place resistance band above knees or around ankles",
+      "Stand in athletic position with slight knee bend",
+      "Take wide step to side, leading with one foot",
+      "Follow with other foot, maintaining band tension",
+      "Continue stepping same direction, then reverse"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "ABDUCTION",
+    "exerciseType": "ISOLATION",
+    "primaryMuscles": [
+      "glutes"
+    ],
+    "secondaryMuscles": [
+      "hip_flexors",
+      "quads"
+    ],
+    "muscleActivationMap": {
+      "glutes": 0.82,
+      "hip_flexors": 0.5,
+      "quads": 0.35
+    },
+    "difficultyLevel": 2,
+    "skillRequirement": 1,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [
+      "resistance_band"
+    ],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "gym",
+      "home",
+      "outdoor"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 10,
+        "max": 15
+      },
+      "hypertrophy": {
+        "min": 15,
+        "max": 20
+      },
+      "endurance": {
+        "min": 25,
+        "max": 40
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 60,
+      "hypertrophy": 45,
+      "endurance": 20
+    },
+    "metValue": 4.0,
+    "intensityFactor": 0.45,
+    "contraindications": [
+      "hip_injury",
+      "knee_injury"
+    ],
+    "formCues": [
+      "Stay low in athletic stance",
+      "Take wide steps",
+      "Keep constant tension on band",
+      "Don't let knees cave",
+      "Equal steps both directions"
+    ],
+    "commonMistakes": [
+      "Steps too narrow",
+      "Standing too upright",
+      "Letting band go slack",
+      "Knees caving in",
+      "Dragging feet"
+    ],
+    "easierVariation": "clamshell",
+    "harderVariation": "hip-abduction-machine",
+    "alternativeExercises": [
+      "fire-hydrant",
+      "clamshell",
+      "hip-abduction-machine"
+    ],
+    "tags": [
+      "isolation",
+      "glutes",
+      "glute-medius",
+      "resistance-band",
+      "activation",
+      "warm-up"
+    ],
+    "suitableGoals": [
+      "GENERAL_FITNESS",
+      "MUSCLE_GAIN"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 4,
+      "lightlyActive": 5,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 5,
+      "lessThan6Mo": 5,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 4
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.4,
+      "muscleGain": 0.62,
+      "strength": 0.5,
+      "endurance": 0.65,
+      "flexibility": 0.2,
+      "generalFitness": 0.75
+    },
+    "estimatedTimePerSet": 35,
+    "setupTimeSeconds": 15,
+    "homeCompatibility": 0.95,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.85
+  },
+  {
+    "name": "Hip Abduction Machine",
+    "slug": "hip-abduction-machine",
+    "description": "A machine exercise targeting the gluteus medius and outer hip by pushing legs outward against resistance. The seated position isolates the abductors and allows for progressive overload with adjustable weight.",
+    "instructions": [
+      "Sit in machine with back against pad, legs inside pads",
+      "Position pads against outer thighs near knees",
+      "Grip handles for stability",
+      "Push legs outward against resistance, spreading knees apart",
+      "Squeeze outer glutes at widest point, control return"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "ABDUCTION",
+    "exerciseType": "ISOLATION",
+    "primaryMuscles": [
+      "glutes"
+    ],
+    "secondaryMuscles": [
+      "hip_flexors"
+    ],
+    "muscleActivationMap": {
+      "glutes": 0.85,
+      "hip_flexors": 0.4
+    },
+    "difficultyLevel": 1,
+    "skillRequirement": 1,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [
+      "machine"
+    ],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "gym"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 10,
+        "max": 15
+      },
+      "hypertrophy": {
+        "min": 15,
+        "max": 20
+      },
+      "endurance": {
+        "min": 25,
+        "max": 35
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 75,
+      "hypertrophy": 45,
+      "endurance": 30
+    },
+    "metValue": 3.5,
+    "intensityFactor": 0.5,
+    "contraindications": [
+      "hip_injury",
+      "groin_injury"
+    ],
+    "formCues": [
+      "Full range of motion",
+      "Squeeze at widest point",
+      "Control the return",
+      "Don't use momentum",
+      "Keep back against pad"
+    ],
+    "commonMistakes": [
+      "Using momentum",
+      "Partial range of motion",
+      "Going too heavy",
+      "Not squeezing at end",
+      "Lifting off seat"
+    ],
+    "easierVariation": "banded-lateral-walk",
+    "harderVariation": "cable-hip-abduction",
+    "alternativeExercises": [
+      "banded-lateral-walk",
+      "fire-hydrant",
+      "clamshell"
+    ],
+    "tags": [
+      "isolation",
+      "glutes",
+      "glute-medius",
+      "machine",
+      "beginner-friendly"
+    ],
+    "suitableGoals": [
+      "MUSCLE_GAIN"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 4,
+      "lightlyActive": 5,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 4
+    },
+    "experienceLevelSuitability": {
+      "never": 5,
+      "lessThan6Mo": 5,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 4
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.3,
+      "muscleGain": 0.75,
+      "strength": 0.55,
+      "endurance": 0.5,
+      "flexibility": 0.2,
+      "generalFitness": 0.6
+    },
+    "estimatedTimePerSet": 30,
+    "setupTimeSeconds": 20,
+    "homeCompatibility": 0.05,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.0
+  },
+  {
+    "name": "Cable Hip Abduction",
+    "slug": "cable-hip-abduction",
+    "description": "A standing cable exercise where the leg is moved outward against resistance, targeting the gluteus medius. The standing position engages stabilizers and allows for functional hip abduction training.",
+    "instructions": [
+      "Attach ankle strap to low cable, secure around ankle",
+      "Stand sideways to machine, strap on outside leg",
+      "Hold frame for balance, standing leg slightly bent",
+      "Lift strapped leg out to side against resistance",
+      "Squeeze outer glute at top, control return, complete all reps then switch"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "ABDUCTION",
+    "exerciseType": "ISOLATION",
+    "primaryMuscles": [
+      "glutes"
+    ],
+    "secondaryMuscles": [
+      "hip_flexors",
+      "core"
+    ],
+    "muscleActivationMap": {
+      "glutes": 0.85,
+      "hip_flexors": 0.45,
+      "core": 0.4
+    },
+    "difficultyLevel": 2,
+    "skillRequirement": 2,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [
+      "cable"
+    ],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "gym"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 10,
+        "max": 15
+      },
+      "hypertrophy": {
+        "min": 15,
+        "max": 20
+      },
+      "endurance": {
+        "min": 25,
+        "max": 30
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 75,
+      "hypertrophy": 45,
+      "endurance": 30
+    },
+    "metValue": 3.5,
+    "intensityFactor": 0.52,
+    "contraindications": [
+      "hip_injury"
+    ],
+    "formCues": [
+      "Lead with heel not toe",
+      "Squeeze at top",
+      "Keep standing leg stable",
+      "Control the movement",
+      "Don't lean away"
+    ],
+    "commonMistakes": [
+      "Leaning away from cable",
+      "Swinging the leg",
+      "Not enough range of motion",
+      "Going too heavy",
+      "Rotating hips"
+    ],
+    "easierVariation": "hip-abduction-machine",
+    "harderVariation": "banded-lateral-walk",
+    "alternativeExercises": [
+      "hip-abduction-machine",
+      "banded-lateral-walk",
+      "fire-hydrant"
+    ],
+    "tags": [
+      "isolation",
+      "glutes",
+      "glute-medius",
+      "cable",
+      "unilateral"
+    ],
+    "suitableGoals": [
+      "MUSCLE_GAIN"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 3,
+      "lightlyActive": 4,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 4
+    },
+    "experienceLevelSuitability": {
+      "never": 4,
+      "lessThan6Mo": 5,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 4
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.3,
+      "muscleGain": 0.75,
+      "strength": 0.55,
+      "endurance": 0.5,
+      "flexibility": 0.25,
+      "generalFitness": 0.62
+    },
+    "estimatedTimePerSet": 40,
+    "setupTimeSeconds": 30,
+    "homeCompatibility": 0.15,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.0
+  },
+  {
+    "name": "Sumo Deadlift",
+    "slug": "sumo-deadlift",
+    "description": "A wide-stance deadlift variation with feet outside hands that places greater emphasis on the glutes and adductors. The more upright torso position and wide stance maximize glute engagement throughout the lift.",
+    "instructions": [
+      "Stand with very wide stance, toes pointed out 30-45 degrees",
+      "Grip bar between legs at shoulder width or narrower",
+      "Squat down with upright torso, hips close to bar",
+      "Drive through legs while pulling bar straight up",
+      "Stand tall, squeeze glutes at lockout, lower with control"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "HINGE",
+    "exerciseType": "COMPOUND",
+    "primaryMuscles": [
+      "glutes",
+      "quads"
+    ],
+    "secondaryMuscles": [
+      "hamstrings",
+      "back",
+      "hip_flexors",
+      "core"
+    ],
+    "muscleActivationMap": {
+      "glutes": 0.92,
+      "quads": 0.75,
+      "hamstrings": 0.7,
+      "back": 0.65,
+      "hip_flexors": 0.55,
+      "core": 0.6
+    },
+    "difficultyLevel": 4,
+    "skillRequirement": 4,
+    "isBeginnerFriendly": false,
+    "equipmentRequired": [
+      "barbell"
+    ],
+    "equipmentOptional": [
+      "belt"
+    ],
+    "suitableLocations": [
+      "gym"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 1,
+        "max": 5
+      },
+      "hypertrophy": {
+        "min": 6,
+        "max": 10
+      },
+      "endurance": {
+        "min": 12,
+        "max": 15
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 5
+    },
+    "restSeconds": {
+      "strength": 240,
+      "hypertrophy": 150,
+      "endurance": 90
+    },
+    "metValue": 7.5,
+    "intensityFactor": 0.92,
+    "contraindications": [
+      "hip_injury",
+      "knee_injury",
+      "lower_back_injury",
+      "groin_injury"
+    ],
+    "formCues": [
+      "Push knees out over toes",
+      "Keep torso upright",
+      "Drive legs into floor",
+      "Bar stays close to body",
+      "Lock out hips fully with glute squeeze"
+    ],
+    "commonMistakes": [
+      "Knees caving in",
+      "Hips shooting up first",
+      "Stance too wide or narrow",
+      "Back rounding",
+      "Not opening hips at setup"
+    ],
+    "easierVariation": "barbell-romanian-deadlift",
+    "harderVariation": "deficit-sumo-deadlift",
+    "alternativeExercises": [
+      "barbell-romanian-deadlift",
+      "barbell-hip-thrust",
+      "leg-press"
+    ],
+    "tags": [
+      "compound",
+      "hinge",
+      "glutes",
+      "quads",
+      "barbell",
+      "powerlifting"
+    ],
+    "suitableGoals": [
+      "STRENGTH",
+      "MUSCLE_GAIN"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 1,
+      "lightlyActive": 1,
+      "moderatelyActive": 3,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 1,
+      "lessThan6Mo": 1,
+      "sixTo24Mo": 3,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.6,
+      "muscleGain": 0.88,
+      "strength": 0.95,
+      "endurance": 0.35,
+      "flexibility": 0.3,
+      "generalFitness": 0.78
+    },
+    "estimatedTimePerSet": 55,
+    "setupTimeSeconds": 60,
+    "homeCompatibility": 0.25,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.1
+  },
+  {
+    "name": "Kettlebell Swing",
+    "slug": "kettlebell-swing",
+    "description": "A dynamic hip hinge movement swinging a kettlebell between the legs and up to shoulder height, driven primarily by explosive hip extension. This power exercise builds glute and hamstring strength while providing cardiovascular conditioning.",
+    "instructions": [
+      "Stand with feet wider than shoulder width, kettlebell on floor in front",
+      "Hinge at hips to grip kettlebell with both hands",
+      "Swing kettlebell back between legs, loading glutes and hamstrings",
+      "Explosively drive hips forward, propelling kettlebell to shoulder height",
+      "Let kettlebell swing back down, hinging at hips to absorb momentum"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "HINGE",
+    "exerciseType": "COMPOUND",
+    "primaryMuscles": [
+      "glutes",
+      "hamstrings"
+    ],
+    "secondaryMuscles": [
+      "back",
+      "core",
+      "front_delts"
+    ],
+    "muscleActivationMap": {
+      "glutes": 0.9,
+      "hamstrings": 0.82,
+      "back": 0.6,
+      "core": 0.65,
+      "front_delts": 0.45
+    },
+    "difficultyLevel": 3,
+    "skillRequirement": 3,
+    "isBeginnerFriendly": false,
+    "equipmentRequired": [
+      "kettlebell"
+    ],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "gym",
+      "home",
+      "outdoor"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 10,
+        "max": 15
+      },
+      "hypertrophy": {
+        "min": 15,
+        "max": 25
+      },
+      "endurance": {
+        "min": 30,
+        "max": 50
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 5
+    },
+    "restSeconds": {
+      "strength": 90,
+      "hypertrophy": 60,
+      "endurance": 30
+    },
+    "metValue": 9.0,
+    "intensityFactor": 0.75,
+    "contraindications": [
+      "lower_back_injury",
+      "shoulder_injury"
+    ],
+    "formCues": [
+      "Hip hinge, not squat",
+      "Explosive hip drive",
+      "Arms are just hooks",
+      "Let momentum work naturally",
+      "Squeeze glutes at top"
+    ],
+    "commonMistakes": [
+      "Squatting instead of hinging",
+      "Using arms to lift",
+      "Lower back rounding",
+      "Not using explosive hips",
+      "Swinging too high"
+    ],
+    "easierVariation": "cable-pull-through",
+    "harderVariation": "single-arm-kettlebell-swing",
+    "alternativeExercises": [
+      "cable-pull-through",
+      "barbell-hip-thrust",
+      "dumbbell-romanian-deadlift"
+    ],
+    "tags": [
+      "compound",
+      "hinge",
+      "glutes",
+      "hamstrings",
+      "kettlebell",
+      "explosive",
+      "cardio"
+    ],
+    "suitableGoals": [
+      "GENERAL_FITNESS",
+      "ENDURANCE",
+      "STRENGTH"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 1,
+      "lightlyActive": 2,
+      "moderatelyActive": 4,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 2,
+      "lessThan6Mo": 3,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.8,
+      "muscleGain": 0.72,
+      "strength": 0.75,
+      "endurance": 0.82,
+      "flexibility": 0.3,
+      "generalFitness": 0.9
+    },
+    "estimatedTimePerSet": 45,
+    "setupTimeSeconds": 15,
+    "homeCompatibility": 0.85,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.8
+  },
+  {
+    "name": "45-Degree Back Extension",
+    "slug": "45-degree-back-extension",
+    "description": "A posterior chain exercise performed on an angled back extension bench, targeting the glutes, hamstrings, and lower back through hip extension. The 45-degree angle allows for comfortable loading and progressive overload.",
+    "instructions": [
+      "Position yourself on 45-degree back extension with hips at top of pad",
+      "Cross arms over chest or hold weight plate",
+      "Lower torso toward floor by hinging at hips",
+      "Keep back flat, descend until comfortable stretch in hamstrings",
+      "Raise back up by squeezing glutes, don't hyperextend"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "EXTENSION",
+    "exerciseType": "COMPOUND",
+    "primaryMuscles": [
+      "glutes",
+      "hamstrings",
+      "back"
+    ],
+    "secondaryMuscles": [
+      "core"
+    ],
+    "muscleActivationMap": {
+      "glutes": 0.82,
+      "hamstrings": 0.78,
+      "back": 0.75,
+      "core": 0.45
+    },
+    "difficultyLevel": 2,
+    "skillRequirement": 2,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [
+      "machine"
+    ],
+    "equipmentOptional": [
+      "dumbbell"
+    ],
+    "suitableLocations": [
+      "gym"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 8,
+        "max": 12
+      },
+      "hypertrophy": {
+        "min": 12,
+        "max": 20
+      },
+      "endurance": {
+        "min": 25,
+        "max": 35
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 90,
+      "hypertrophy": 60,
+      "endurance": 30
+    },
+    "metValue": 4.5,
+    "intensityFactor": 0.58,
+    "contraindications": [
+      "lower_back_injury"
+    ],
+    "formCues": [
+      "Hinge at hips, not waist",
+      "Squeeze glutes at top",
+      "Don't hyperextend",
+      "Control the descent",
+      "Keep back neutral"
+    ],
+    "commonMistakes": [
+      "Hyperextending at top",
+      "Rounding lower back",
+      "Going too fast",
+      "Not enough hip hinge",
+      "Using momentum"
+    ],
+    "easierVariation": "glute-bridge",
+    "harderVariation": "barbell-romanian-deadlift",
+    "alternativeExercises": [
+      "reverse-hyper",
+      "glute-ham-raise",
+      "barbell-romanian-deadlift"
+    ],
+    "tags": [
+      "compound",
+      "glutes",
+      "hamstrings",
+      "back",
+      "machine",
+      "posterior-chain"
+    ],
+    "suitableGoals": [
+      "MUSCLE_GAIN",
+      "GENERAL_FITNESS"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 3,
+      "lightlyActive": 4,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 4,
+      "lessThan6Mo": 5,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 4
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.4,
+      "muscleGain": 0.78,
+      "strength": 0.68,
+      "endurance": 0.55,
+      "flexibility": 0.3,
+      "generalFitness": 0.75
+    },
+    "estimatedTimePerSet": 35,
+    "setupTimeSeconds": 20,
+    "homeCompatibility": 0.1,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.0
+  }
+]

@@ -1,0 +1,6202 @@
+[
+  {
+    "name": "Barbell Curl",
+    "slug": "barbell-curl",
+    "description": "The classic bicep exercise using a straight barbell to curl weight from arms extended to full contraction. This foundational movement allows for heavy loading and builds overall bicep mass.",
+    "instructions": [
+      "Stand with feet shoulder-width apart, grip barbell at shoulder width",
+      "Start with arms fully extended, barbell at thighs",
+      "Keep elbows pinned at sides throughout movement",
+      "Curl bar up by flexing biceps until forearms are vertical",
+      "Squeeze at top, lower with control to full extension"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "CURL",
+    "exerciseType": "ISOLATION",
+    "primaryMuscles": [
+      "biceps"
+    ],
+    "secondaryMuscles": [
+      "forearms"
+    ],
+    "muscleActivationMap": {
+      "biceps": 0.95,
+      "forearms": 0.45
+    },
+    "difficultyLevel": 2,
+    "skillRequirement": 2,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [
+      "barbell"
+    ],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "gym",
+      "home"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 6,
+        "max": 8
+      },
+      "hypertrophy": {
+        "min": 8,
+        "max": 12
+      },
+      "endurance": {
+        "min": 15,
+        "max": 20
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 90,
+      "hypertrophy": 60,
+      "endurance": 45
+    },
+    "metValue": 3.5,
+    "intensityFactor": 0.55,
+    "contraindications": [
+      "elbow_injury",
+      "wrist_injury"
+    ],
+    "formCues": [
+      "Elbows stay pinned at sides",
+      "No swinging or momentum",
+      "Full range of motion",
+      "Squeeze at contraction",
+      "Control the negative"
+    ],
+    "commonMistakes": [
+      "Swinging body for momentum",
+      "Elbows drifting forward",
+      "Partial range of motion",
+      "Going too heavy",
+      "Rushing the negative"
+    ],
+    "easierVariation": "ez-bar-curl",
+    "harderVariation": "drag-curl",
+    "alternativeExercises": [
+      "ez-bar-curl",
+      "dumbbell-curl",
+      "cable-curl"
+    ],
+    "tags": [
+      "isolation",
+      "biceps",
+      "barbell",
+      "fundamental",
+      "mass-builder"
+    ],
+    "suitableGoals": [
+      "MUSCLE_GAIN",
+      "STRENGTH"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 3,
+      "lightlyActive": 4,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 3,
+      "lessThan6Mo": 4,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.2,
+      "muscleGain": 0.9,
+      "strength": 0.7,
+      "endurance": 0.45,
+      "flexibility": 0.1,
+      "generalFitness": 0.55
+    },
+    "estimatedTimePerSet": 30,
+    "setupTimeSeconds": 15,
+    "homeCompatibility": 0.6,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.2
+  },
+  {
+    "name": "EZ-Bar Curl",
+    "slug": "ez-bar-curl",
+    "description": "A bicep curl using an EZ-bar with angled grips that reduce wrist strain compared to straight barbell curls. The semi-supinated grip provides a comfortable alternative while still allowing substantial loading.",
+    "instructions": [
+      "Grip EZ-bar on the angled portions, hands shoulder-width apart",
+      "Stand with arms extended, bar at thighs",
+      "Keep elbows fixed at sides throughout",
+      "Curl bar up to shoulder level by flexing biceps",
+      "Lower with control back to full arm extension"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "CURL",
+    "exerciseType": "ISOLATION",
+    "primaryMuscles": [
+      "biceps"
+    ],
+    "secondaryMuscles": [
+      "forearms",
+      "brachialis"
+    ],
+    "muscleActivationMap": {
+      "biceps": 0.92,
+      "forearms": 0.42,
+      "brachialis": 0.4
+    },
+    "difficultyLevel": 2,
+    "skillRequirement": 1,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [
+      "ez_bar"
+    ],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "gym",
+      "home"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 6,
+        "max": 8
+      },
+      "hypertrophy": {
+        "min": 8,
+        "max": 12
+      },
+      "endurance": {
+        "min": 15,
+        "max": 20
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 90,
+      "hypertrophy": 60,
+      "endurance": 45
+    },
+    "metValue": 3.5,
+    "intensityFactor": 0.52,
+    "contraindications": [
+      "elbow_injury"
+    ],
+    "formCues": [
+      "Grip on angled portion",
+      "Elbows stay at sides",
+      "Full range of motion",
+      "Control both phases",
+      "No body swing"
+    ],
+    "commonMistakes": [
+      "Using momentum",
+      "Elbows moving forward",
+      "Partial reps",
+      "Grip too wide or narrow",
+      "Leaning back"
+    ],
+    "easierVariation": "machine-curl",
+    "harderVariation": "barbell-curl",
+    "alternativeExercises": [
+      "barbell-curl",
+      "dumbbell-curl",
+      "cable-curl"
+    ],
+    "tags": [
+      "isolation",
+      "biceps",
+      "ez-bar",
+      "wrist-friendly",
+      "beginner-friendly"
+    ],
+    "suitableGoals": [
+      "MUSCLE_GAIN"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 4,
+      "lightlyActive": 5,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 4,
+      "lessThan6Mo": 5,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.2,
+      "muscleGain": 0.88,
+      "strength": 0.65,
+      "endurance": 0.45,
+      "flexibility": 0.1,
+      "generalFitness": 0.52
+    },
+    "estimatedTimePerSet": 30,
+    "setupTimeSeconds": 15,
+    "homeCompatibility": 0.55,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.2
+  },
+  {
+    "name": "Preacher Curl",
+    "slug": "preacher-curl",
+    "description": "A bicep curl performed on a preacher bench with upper arms braced against the angled pad, eliminating momentum and isolating the biceps. The fixed position emphasizes the stretched portion of the movement.",
+    "instructions": [
+      "Sit at preacher bench, armpits at top of pad",
+      "Grip EZ-bar or barbell with arms extended down the pad",
+      "Curl weight up while keeping upper arms on pad",
+      "Squeeze biceps at top of movement",
+      "Lower with control to full extension, maintaining pad contact"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "CURL",
+    "exerciseType": "ISOLATION",
+    "primaryMuscles": [
+      "biceps"
+    ],
+    "secondaryMuscles": [
+      "forearms",
+      "brachialis"
+    ],
+    "muscleActivationMap": {
+      "biceps": 0.95,
+      "forearms": 0.4,
+      "brachialis": 0.45
+    },
+    "difficultyLevel": 2,
+    "skillRequirement": 2,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [
+      "ez_bar",
+      "preacher_bench"
+    ],
+    "equipmentOptional": [
+      "barbell",
+      "dumbbell"
+    ],
+    "suitableLocations": [
+      "gym"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 6,
+        "max": 10
+      },
+      "hypertrophy": {
+        "min": 10,
+        "max": 15
+      },
+      "endurance": {
+        "min": 18,
+        "max": 25
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 75,
+      "hypertrophy": 60,
+      "endurance": 45
+    },
+    "metValue": 3.0,
+    "intensityFactor": 0.55,
+    "contraindications": [
+      "elbow_injury"
+    ],
+    "formCues": [
+      "Upper arms stay on pad",
+      "Armpits at pad top",
+      "Full stretch at bottom",
+      "Squeeze at contraction",
+      "Don't lift off pad"
+    ],
+    "commonMistakes": [
+      "Coming off the pad",
+      "Not full extension",
+      "Going too heavy",
+      "Elbows flaring",
+      "Rushing the negative"
+    ],
+    "easierVariation": "machine-curl",
+    "harderVariation": "spider-curl",
+    "alternativeExercises": [
+      "spider-curl",
+      "concentration-curl",
+      "cable-curl"
+    ],
+    "tags": [
+      "isolation",
+      "biceps",
+      "preacher",
+      "strict-form",
+      "stretch-emphasis"
+    ],
+    "suitableGoals": [
+      "MUSCLE_GAIN"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 3,
+      "lightlyActive": 4,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 3,
+      "lessThan6Mo": 4,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.15,
+      "muscleGain": 0.92,
+      "strength": 0.6,
+      "endurance": 0.45,
+      "flexibility": 0.15,
+      "generalFitness": 0.5
+    },
+    "estimatedTimePerSet": 30,
+    "setupTimeSeconds": 30,
+    "homeCompatibility": 0.2,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.0
+  },
+  {
+    "name": "Drag Curl",
+    "slug": "drag-curl",
+    "description": "A bicep curl variation where the barbell is dragged up along the body with elbows moving backward, keeping constant tension on the biceps and reducing front delt involvement.",
+    "instructions": [
+      "Stand holding barbell at thighs with shoulder-width grip",
+      "Instead of curling forward, drag bar up along torso",
+      "Pull elbows back behind body as bar rises",
+      "Keep bar in contact with or close to body throughout",
+      "Lower by reversing the drag motion"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "CURL",
+    "exerciseType": "ISOLATION",
+    "primaryMuscles": [
+      "biceps"
+    ],
+    "secondaryMuscles": [
+      "brachialis",
+      "rear_delts"
+    ],
+    "muscleActivationMap": {
+      "biceps": 0.92,
+      "brachialis": 0.55,
+      "rear_delts": 0.35
+    },
+    "difficultyLevel": 3,
+    "skillRequirement": 3,
+    "isBeginnerFriendly": false,
+    "equipmentRequired": [
+      "barbell"
+    ],
+    "equipmentOptional": [
+      "ez_bar"
+    ],
+    "suitableLocations": [
+      "gym",
+      "home"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 6,
+        "max": 10
+      },
+      "hypertrophy": {
+        "min": 10,
+        "max": 15
+      },
+      "endurance": {
+        "min": 15,
+        "max": 20
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 75,
+      "hypertrophy": 60,
+      "endurance": 45
+    },
+    "metValue": 3.5,
+    "intensityFactor": 0.58,
+    "contraindications": [
+      "elbow_injury",
+      "shoulder_injury"
+    ],
+    "formCues": [
+      "Drag bar along body",
+      "Elbows go backward",
+      "Keep bar close",
+      "Squeeze at top",
+      "Control the descent"
+    ],
+    "commonMistakes": [
+      "Bar drifting away from body",
+      "Elbows not going back",
+      "Using too much weight",
+      "Standard curl motion",
+      "No tension at top"
+    ],
+    "easierVariation": "barbell-curl",
+    "harderVariation": null,
+    "alternativeExercises": [
+      "barbell-curl",
+      "ez-bar-curl",
+      "cable-curl"
+    ],
+    "tags": [
+      "isolation",
+      "biceps",
+      "barbell",
+      "advanced",
+      "constant-tension"
+    ],
+    "suitableGoals": [
+      "MUSCLE_GAIN"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 1,
+      "lightlyActive": 2,
+      "moderatelyActive": 4,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 1,
+      "lessThan6Mo": 2,
+      "sixTo24Mo": 4,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.15,
+      "muscleGain": 0.88,
+      "strength": 0.62,
+      "endurance": 0.4,
+      "flexibility": 0.1,
+      "generalFitness": 0.48
+    },
+    "estimatedTimePerSet": 30,
+    "setupTimeSeconds": 15,
+    "homeCompatibility": 0.55,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.2
+  },
+  {
+    "name": "Reverse Curl",
+    "slug": "reverse-curl",
+    "description": "A curl performed with an overhand (pronated) grip that shifts emphasis from the biceps to the brachioradialis and forearm extensors. This movement builds forearm size and grip strength.",
+    "instructions": [
+      "Stand holding barbell with overhand grip, hands shoulder-width",
+      "Arms extended at thighs, palms facing down",
+      "Keep elbows at sides, curl bar up toward shoulders",
+      "Squeeze forearms at top of movement",
+      "Lower with control to full extension"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "CURL",
+    "exerciseType": "ISOLATION",
+    "primaryMuscles": [
+      "forearms",
+      "brachialis"
+    ],
+    "secondaryMuscles": [
+      "biceps"
+    ],
+    "muscleActivationMap": {
+      "forearms": 0.9,
+      "brachialis": 0.75,
+      "biceps": 0.55
+    },
+    "difficultyLevel": 2,
+    "skillRequirement": 2,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [
+      "barbell"
+    ],
+    "equipmentOptional": [
+      "ez_bar",
+      "dumbbell"
+    ],
+    "suitableLocations": [
+      "gym",
+      "home"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 8,
+        "max": 12
+      },
+      "hypertrophy": {
+        "min": 12,
+        "max": 15
+      },
+      "endurance": {
+        "min": 18,
+        "max": 25
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 75,
+      "hypertrophy": 45,
+      "endurance": 30
+    },
+    "metValue": 3.0,
+    "intensityFactor": 0.48,
+    "contraindications": [
+      "wrist_injury",
+      "elbow_injury"
+    ],
+    "formCues": [
+      "Maintain overhand grip throughout",
+      "Elbows stay at sides",
+      "Use lighter weight than regular curls",
+      "Full range of motion",
+      "Control both phases"
+    ],
+    "commonMistakes": [
+      "Using too much weight",
+      "Wrists bending",
+      "Elbows moving",
+      "Partial range",
+      "Using momentum"
+    ],
+    "easierVariation": "hammer-curl",
+    "harderVariation": "zottman-curl",
+    "alternativeExercises": [
+      "hammer-curl",
+      "zottman-curl",
+      "wrist-curl"
+    ],
+    "tags": [
+      "isolation",
+      "forearms",
+      "brachialis",
+      "barbell",
+      "grip-strength"
+    ],
+    "suitableGoals": [
+      "MUSCLE_GAIN",
+      "STRENGTH"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 3,
+      "lightlyActive": 4,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 3,
+      "lessThan6Mo": 4,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.15,
+      "muscleGain": 0.78,
+      "strength": 0.65,
+      "endurance": 0.5,
+      "flexibility": 0.1,
+      "generalFitness": 0.55
+    },
+    "estimatedTimePerSet": 30,
+    "setupTimeSeconds": 15,
+    "homeCompatibility": 0.55,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.2
+  },
+  {
+    "name": "Standing Dumbbell Curl",
+    "slug": "standing-dumbbell-curl",
+    "description": "The fundamental dumbbell bicep exercise performed standing, allowing for independent arm training and full supination. This versatile movement builds bicep size with freedom of wrist rotation.",
+    "instructions": [
+      "Stand with dumbbells at sides, palms facing thighs",
+      "Keep elbows pinned at sides throughout",
+      "Curl weights up while rotating palms to face shoulders",
+      "Squeeze biceps at full contraction",
+      "Lower with control while rotating back to neutral"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "CURL",
+    "exerciseType": "ISOLATION",
+    "primaryMuscles": [
+      "biceps"
+    ],
+    "secondaryMuscles": [
+      "forearms"
+    ],
+    "muscleActivationMap": {
+      "biceps": 0.95,
+      "forearms": 0.45
+    },
+    "difficultyLevel": 1,
+    "skillRequirement": 1,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [
+      "dumbbell"
+    ],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "gym",
+      "home"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 6,
+        "max": 10
+      },
+      "hypertrophy": {
+        "min": 10,
+        "max": 15
+      },
+      "endurance": {
+        "min": 18,
+        "max": 25
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 75,
+      "hypertrophy": 60,
+      "endurance": 45
+    },
+    "metValue": 3.5,
+    "intensityFactor": 0.5,
+    "contraindications": [
+      "elbow_injury"
+    ],
+    "formCues": [
+      "Supinate as you curl",
+      "Elbows stay pinned",
+      "Full range of motion",
+      "No swinging",
+      "Control the negative"
+    ],
+    "commonMistakes": [
+      "Swinging body",
+      "Elbows drifting",
+      "No supination",
+      "Partial reps",
+      "Going too heavy"
+    ],
+    "easierVariation": "seated-dumbbell-curl",
+    "harderVariation": "incline-dumbbell-curl",
+    "alternativeExercises": [
+      "barbell-curl",
+      "cable-curl",
+      "hammer-curl"
+    ],
+    "tags": [
+      "isolation",
+      "biceps",
+      "dumbbell",
+      "fundamental",
+      "beginner-friendly"
+    ],
+    "suitableGoals": [
+      "MUSCLE_GAIN"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 4,
+      "lightlyActive": 5,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 5,
+      "lessThan6Mo": 5,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.2,
+      "muscleGain": 0.88,
+      "strength": 0.62,
+      "endurance": 0.48,
+      "flexibility": 0.1,
+      "generalFitness": 0.55
+    },
+    "estimatedTimePerSet": 30,
+    "setupTimeSeconds": 10,
+    "homeCompatibility": 0.95,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.5
+  },
+  {
+    "name": "Seated Dumbbell Curl",
+    "slug": "seated-dumbbell-curl",
+    "description": "A dumbbell curl performed seated on a bench, reducing the ability to use body momentum and providing better isolation. The seated position enforces stricter form than standing variations.",
+    "instructions": [
+      "Sit on bench with back support, dumbbells at sides",
+      "Start with arms hanging straight, palms facing inward",
+      "Curl both dumbbells up, supinating as you lift",
+      "Squeeze biceps at peak contraction",
+      "Lower with control to starting position"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "CURL",
+    "exerciseType": "ISOLATION",
+    "primaryMuscles": [
+      "biceps"
+    ],
+    "secondaryMuscles": [
+      "forearms"
+    ],
+    "muscleActivationMap": {
+      "biceps": 0.92,
+      "forearms": 0.42
+    },
+    "difficultyLevel": 1,
+    "skillRequirement": 1,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [
+      "dumbbell",
+      "bench"
+    ],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "gym",
+      "home"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 8,
+        "max": 10
+      },
+      "hypertrophy": {
+        "min": 10,
+        "max": 15
+      },
+      "endurance": {
+        "min": 18,
+        "max": 25
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 75,
+      "hypertrophy": 60,
+      "endurance": 45
+    },
+    "metValue": 3.0,
+    "intensityFactor": 0.48,
+    "contraindications": [
+      "elbow_injury"
+    ],
+    "formCues": [
+      "Stay seated throughout",
+      "No momentum possible",
+      "Full supination",
+      "Control the weight",
+      "Squeeze at top"
+    ],
+    "commonMistakes": [
+      "Leaning forward",
+      "Using back momentum",
+      "Partial range",
+      "Not supinating",
+      "Going too fast"
+    ],
+    "easierVariation": "machine-curl",
+    "harderVariation": "standing-dumbbell-curl",
+    "alternativeExercises": [
+      "standing-dumbbell-curl",
+      "concentration-curl",
+      "cable-curl"
+    ],
+    "tags": [
+      "isolation",
+      "biceps",
+      "dumbbell",
+      "seated",
+      "strict-form"
+    ],
+    "suitableGoals": [
+      "MUSCLE_GAIN"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 4,
+      "lightlyActive": 5,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 4
+    },
+    "experienceLevelSuitability": {
+      "never": 5,
+      "lessThan6Mo": 5,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 4
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.18,
+      "muscleGain": 0.85,
+      "strength": 0.58,
+      "endurance": 0.48,
+      "flexibility": 0.1,
+      "generalFitness": 0.52
+    },
+    "estimatedTimePerSet": 30,
+    "setupTimeSeconds": 15,
+    "homeCompatibility": 0.85,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.3
+  },
+  {
+    "name": "Incline Dumbbell Curl",
+    "slug": "incline-dumbbell-curl",
+    "description": "A dumbbell curl performed on an incline bench that places the biceps in a stretched position at the start, emphasizing the long head. The angle prevents cheating and maximizes bicep tension.",
+    "instructions": [
+      "Set bench to 45-60 degree incline, sit with back against pad",
+      "Let arms hang straight down with dumbbells, palms forward",
+      "Keep upper arms stationary, curl weights toward shoulders",
+      "Squeeze at peak contraction",
+      "Lower slowly to full stretch at bottom"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "CURL",
+    "exerciseType": "ISOLATION",
+    "primaryMuscles": [
+      "biceps"
+    ],
+    "secondaryMuscles": [
+      "forearms"
+    ],
+    "muscleActivationMap": {
+      "biceps": 0.95,
+      "forearms": 0.4
+    },
+    "difficultyLevel": 2,
+    "skillRequirement": 2,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [
+      "dumbbell",
+      "bench"
+    ],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "gym",
+      "home"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 8,
+        "max": 10
+      },
+      "hypertrophy": {
+        "min": 10,
+        "max": 15
+      },
+      "endurance": {
+        "min": 15,
+        "max": 20
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 75,
+      "hypertrophy": 60,
+      "endurance": 45
+    },
+    "metValue": 3.0,
+    "intensityFactor": 0.55,
+    "contraindications": [
+      "elbow_injury",
+      "shoulder_injury"
+    ],
+    "formCues": [
+      "Arms hang straight at start",
+      "Feel the stretch at bottom",
+      "Upper arms stay still",
+      "Control the full range",
+      "Don't swing"
+    ],
+    "commonMistakes": [
+      "Bringing elbows forward",
+      "Not enough stretch",
+      "Going too heavy",
+      "Partial range",
+      "Lifting off bench"
+    ],
+    "easierVariation": "seated-dumbbell-curl",
+    "harderVariation": "spider-curl",
+    "alternativeExercises": [
+      "standing-dumbbell-curl",
+      "preacher-curl",
+      "bayesian-curl"
+    ],
+    "tags": [
+      "isolation",
+      "biceps",
+      "dumbbell",
+      "incline",
+      "long-head",
+      "stretch-emphasis"
+    ],
+    "suitableGoals": [
+      "MUSCLE_GAIN"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 3,
+      "lightlyActive": 4,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 3,
+      "lessThan6Mo": 4,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.15,
+      "muscleGain": 0.92,
+      "strength": 0.58,
+      "endurance": 0.42,
+      "flexibility": 0.15,
+      "generalFitness": 0.52
+    },
+    "estimatedTimePerSet": 30,
+    "setupTimeSeconds": 20,
+    "homeCompatibility": 0.7,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.1
+  },
+  {
+    "name": "Hammer Curl",
+    "slug": "hammer-curl",
+    "description": "A curl performed with a neutral (palms facing) grip that targets the brachialis and brachioradialis along with the biceps. This variation builds arm thickness and forearm development.",
+    "instructions": [
+      "Stand with dumbbells at sides, palms facing body (neutral grip)",
+      "Keep elbows pinned at sides throughout",
+      "Curl weights up while maintaining neutral grip",
+      "Squeeze at top of movement",
+      "Lower with control to full extension"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "CURL",
+    "exerciseType": "ISOLATION",
+    "primaryMuscles": [
+      "biceps",
+      "brachialis"
+    ],
+    "secondaryMuscles": [
+      "forearms"
+    ],
+    "muscleActivationMap": {
+      "biceps": 0.82,
+      "brachialis": 0.85,
+      "forearms": 0.6
+    },
+    "difficultyLevel": 1,
+    "skillRequirement": 1,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [
+      "dumbbell"
+    ],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "gym",
+      "home"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 8,
+        "max": 10
+      },
+      "hypertrophy": {
+        "min": 10,
+        "max": 15
+      },
+      "endurance": {
+        "min": 15,
+        "max": 20
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 75,
+      "hypertrophy": 60,
+      "endurance": 45
+    },
+    "metValue": 3.5,
+    "intensityFactor": 0.52,
+    "contraindications": [
+      "elbow_injury"
+    ],
+    "formCues": [
+      "Maintain neutral grip always",
+      "Elbows stay at sides",
+      "Full range of motion",
+      "No swinging",
+      "Control throughout"
+    ],
+    "commonMistakes": [
+      "Rotating wrists",
+      "Using momentum",
+      "Elbows drifting",
+      "Partial reps",
+      "Going too heavy"
+    ],
+    "easierVariation": "seated-dumbbell-curl",
+    "harderVariation": "incline-hammer-curl",
+    "alternativeExercises": [
+      "cross-body-curl",
+      "rope-cable-curl",
+      "reverse-curl"
+    ],
+    "tags": [
+      "isolation",
+      "biceps",
+      "brachialis",
+      "dumbbell",
+      "neutral-grip",
+      "arm-thickness"
+    ],
+    "suitableGoals": [
+      "MUSCLE_GAIN"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 4,
+      "lightlyActive": 5,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 5,
+      "lessThan6Mo": 5,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.18,
+      "muscleGain": 0.88,
+      "strength": 0.62,
+      "endurance": 0.48,
+      "flexibility": 0.1,
+      "generalFitness": 0.55
+    },
+    "estimatedTimePerSet": 30,
+    "setupTimeSeconds": 10,
+    "homeCompatibility": 0.95,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.5
+  },
+  {
+    "name": "Concentration Curl",
+    "slug": "concentration-curl",
+    "description": "A unilateral bicep curl performed seated with elbow braced against inner thigh, allowing complete focus on one arm at a time. This isolation movement maximizes mind-muscle connection.",
+    "instructions": [
+      "Sit on bench, spread legs wide with feet flat",
+      "Brace back of working arm's elbow against inner thigh",
+      "Let dumbbell hang at full extension",
+      "Curl weight up toward shoulder, squeezing bicep",
+      "Lower with control, complete reps then switch arms"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "CURL",
+    "exerciseType": "ISOLATION",
+    "primaryMuscles": [
+      "biceps"
+    ],
+    "secondaryMuscles": [
+      "forearms"
+    ],
+    "muscleActivationMap": {
+      "biceps": 0.95,
+      "forearms": 0.38
+    },
+    "difficultyLevel": 2,
+    "skillRequirement": 1,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [
+      "dumbbell",
+      "bench"
+    ],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "gym",
+      "home"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 8,
+        "max": 12
+      },
+      "hypertrophy": {
+        "min": 12,
+        "max": 15
+      },
+      "endurance": {
+        "min": 18,
+        "max": 25
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 60,
+      "hypertrophy": 45,
+      "endurance": 30
+    },
+    "metValue": 3.0,
+    "intensityFactor": 0.48,
+    "contraindications": [
+      "elbow_injury"
+    ],
+    "formCues": [
+      "Elbow braced on thigh",
+      "Focus on contraction",
+      "Full range of motion",
+      "Slow and controlled",
+      "Peak contraction squeeze"
+    ],
+    "commonMistakes": [
+      "Elbow leaving thigh",
+      "Using shoulder to lift",
+      "Rushing reps",
+      "Partial range",
+      "Swinging weight"
+    ],
+    "easierVariation": "machine-curl",
+    "harderVariation": "incline-dumbbell-curl",
+    "alternativeExercises": [
+      "preacher-curl",
+      "single-arm-cable-curl",
+      "spider-curl"
+    ],
+    "tags": [
+      "isolation",
+      "biceps",
+      "dumbbell",
+      "unilateral",
+      "mind-muscle",
+      "peak-contraction"
+    ],
+    "suitableGoals": [
+      "MUSCLE_GAIN"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 4,
+      "lightlyActive": 5,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 4,
+      "lessThan6Mo": 5,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.15,
+      "muscleGain": 0.88,
+      "strength": 0.55,
+      "endurance": 0.48,
+      "flexibility": 0.1,
+      "generalFitness": 0.5
+    },
+    "estimatedTimePerSet": 35,
+    "setupTimeSeconds": 10,
+    "homeCompatibility": 0.9,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.4
+  },
+  {
+    "name": "Zottman Curl",
+    "slug": "zottman-curl",
+    "description": "A comprehensive curl that combines supinated curling with pronated lowering, hitting both biceps and forearm extensors in one movement. The rotation at top provides complete arm development.",
+    "instructions": [
+      "Stand with dumbbells at sides, palms facing forward",
+      "Curl weights up with palms facing you (supinated)",
+      "At top, rotate wrists so palms face down (pronated)",
+      "Lower weights slowly with overhand grip",
+      "At bottom, rotate back to palms forward and repeat"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "CURL",
+    "exerciseType": "ISOLATION",
+    "primaryMuscles": [
+      "biceps",
+      "forearms"
+    ],
+    "secondaryMuscles": [
+      "brachialis"
+    ],
+    "muscleActivationMap": {
+      "biceps": 0.88,
+      "forearms": 0.85,
+      "brachialis": 0.55
+    },
+    "difficultyLevel": 3,
+    "skillRequirement": 3,
+    "isBeginnerFriendly": false,
+    "equipmentRequired": [
+      "dumbbell"
+    ],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "gym",
+      "home"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 8,
+        "max": 10
+      },
+      "hypertrophy": {
+        "min": 10,
+        "max": 12
+      },
+      "endurance": {
+        "min": 15,
+        "max": 18
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 75,
+      "hypertrophy": 60,
+      "endurance": 45
+    },
+    "metValue": 3.5,
+    "intensityFactor": 0.55,
+    "contraindications": [
+      "wrist_injury",
+      "elbow_injury"
+    ],
+    "formCues": [
+      "Full supination on way up",
+      "Rotate at top",
+      "Slow pronated descent",
+      "Control the rotation",
+      "Don't use momentum"
+    ],
+    "commonMistakes": [
+      "Incomplete rotation",
+      "Rushing the negative",
+      "Using too much weight",
+      "Inconsistent grip changes",
+      "Losing control"
+    ],
+    "easierVariation": "hammer-curl",
+    "harderVariation": null,
+    "alternativeExercises": [
+      "reverse-curl",
+      "hammer-curl",
+      "standing-dumbbell-curl"
+    ],
+    "tags": [
+      "isolation",
+      "biceps",
+      "forearms",
+      "dumbbell",
+      "rotation",
+      "comprehensive"
+    ],
+    "suitableGoals": [
+      "MUSCLE_GAIN"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 2,
+      "lightlyActive": 3,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 2,
+      "lessThan6Mo": 3,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.18,
+      "muscleGain": 0.88,
+      "strength": 0.62,
+      "endurance": 0.45,
+      "flexibility": 0.15,
+      "generalFitness": 0.58
+    },
+    "estimatedTimePerSet": 35,
+    "setupTimeSeconds": 10,
+    "homeCompatibility": 0.95,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.5
+  },
+  {
+    "name": "Spider Curl",
+    "slug": "spider-curl",
+    "description": "A bicep curl performed face down on an incline bench with arms hanging straight down, eliminating all momentum and emphasizing the peak contraction of the biceps.",
+    "instructions": [
+      "Lie face down on incline bench set to 45 degrees",
+      "Let arms hang straight down holding dumbbells or barbell",
+      "Curl weight up toward face, keeping upper arms still",
+      "Squeeze hard at peak contraction",
+      "Lower with control to full extension"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "CURL",
+    "exerciseType": "ISOLATION",
+    "primaryMuscles": [
+      "biceps"
+    ],
+    "secondaryMuscles": [
+      "brachialis",
+      "forearms"
+    ],
+    "muscleActivationMap": {
+      "biceps": 0.98,
+      "brachialis": 0.48,
+      "forearms": 0.38
+    },
+    "difficultyLevel": 3,
+    "skillRequirement": 2,
+    "isBeginnerFriendly": false,
+    "equipmentRequired": [
+      "dumbbell",
+      "bench"
+    ],
+    "equipmentOptional": [
+      "ez_bar"
+    ],
+    "suitableLocations": [
+      "gym"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 8,
+        "max": 10
+      },
+      "hypertrophy": {
+        "min": 10,
+        "max": 15
+      },
+      "endurance": {
+        "min": 15,
+        "max": 20
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 75,
+      "hypertrophy": 60,
+      "endurance": 45
+    },
+    "metValue": 3.0,
+    "intensityFactor": 0.55,
+    "contraindications": [
+      "elbow_injury"
+    ],
+    "formCues": [
+      "Stay prone on bench",
+      "Arms hang straight down",
+      "No momentum possible",
+      "Maximum squeeze at top",
+      "Full stretch at bottom"
+    ],
+    "commonMistakes": [
+      "Not lying flat enough",
+      "Using body movement",
+      "Partial range",
+      "Going too heavy",
+      "Rushing reps"
+    ],
+    "easierVariation": "preacher-curl",
+    "harderVariation": null,
+    "alternativeExercises": [
+      "preacher-curl",
+      "concentration-curl",
+      "cable-curl"
+    ],
+    "tags": [
+      "isolation",
+      "biceps",
+      "dumbbell",
+      "strict-form",
+      "peak-contraction",
+      "advanced"
+    ],
+    "suitableGoals": [
+      "MUSCLE_GAIN"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 2,
+      "lightlyActive": 3,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 2,
+      "lessThan6Mo": 3,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.12,
+      "muscleGain": 0.92,
+      "strength": 0.55,
+      "endurance": 0.42,
+      "flexibility": 0.1,
+      "generalFitness": 0.48
+    },
+    "estimatedTimePerSet": 30,
+    "setupTimeSeconds": 25,
+    "homeCompatibility": 0.6,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.0
+  },
+  {
+    "name": "Cross-Body Curl",
+    "slug": "cross-body-curl",
+    "description": "A hammer-grip curl that travels across the body toward the opposite shoulder, emphasizing the brachialis and creating a unique angle of contraction for the biceps.",
+    "instructions": [
+      "Stand with dumbbell in one hand, neutral grip",
+      "Curl dumbbell across body toward opposite shoulder",
+      "Keep elbow close to body throughout",
+      "Squeeze at top, lower with control",
+      "Complete reps then switch arms"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "CURL",
+    "exerciseType": "ISOLATION",
+    "primaryMuscles": [
+      "brachialis",
+      "biceps"
+    ],
+    "secondaryMuscles": [
+      "forearms"
+    ],
+    "muscleActivationMap": {
+      "brachialis": 0.88,
+      "biceps": 0.82,
+      "forearms": 0.52
+    },
+    "difficultyLevel": 2,
+    "skillRequirement": 2,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [
+      "dumbbell"
+    ],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "gym",
+      "home"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 8,
+        "max": 12
+      },
+      "hypertrophy": {
+        "min": 12,
+        "max": 15
+      },
+      "endurance": {
+        "min": 18,
+        "max": 22
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 60,
+      "hypertrophy": 45,
+      "endurance": 30
+    },
+    "metValue": 3.0,
+    "intensityFactor": 0.5,
+    "contraindications": [
+      "elbow_injury"
+    ],
+    "formCues": [
+      "Curl toward opposite shoulder",
+      "Keep neutral grip",
+      "Control the path",
+      "Squeeze at top",
+      "Don't rotate torso"
+    ],
+    "commonMistakes": [
+      "Not crossing enough",
+      "Rotating body",
+      "Using momentum",
+      "Partial range",
+      "Elbow drifting out"
+    ],
+    "easierVariation": "hammer-curl",
+    "harderVariation": "zottman-curl",
+    "alternativeExercises": [
+      "hammer-curl",
+      "rope-cable-curl",
+      "reverse-curl"
+    ],
+    "tags": [
+      "isolation",
+      "biceps",
+      "brachialis",
+      "dumbbell",
+      "unilateral",
+      "cross-body"
+    ],
+    "suitableGoals": [
+      "MUSCLE_GAIN"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 3,
+      "lightlyActive": 4,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 3,
+      "lessThan6Mo": 4,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.15,
+      "muscleGain": 0.85,
+      "strength": 0.58,
+      "endurance": 0.48,
+      "flexibility": 0.1,
+      "generalFitness": 0.52
+    },
+    "estimatedTimePerSet": 35,
+    "setupTimeSeconds": 10,
+    "homeCompatibility": 0.95,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.5
+  },
+  {
+    "name": "Cable Curl",
+    "slug": "cable-curl",
+    "description": "A bicep curl using a cable machine with straight bar attachment, providing constant tension throughout the entire range of motion. The cable eliminates dead spots found in free weight curls.",
+    "instructions": [
+      "Attach straight bar to low cable, stand facing machine",
+      "Grip bar at shoulder width, arms extended",
+      "Keep elbows pinned at sides throughout",
+      "Curl bar up toward shoulders",
+      "Squeeze at top, lower with constant tension"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "CURL",
+    "exerciseType": "ISOLATION",
+    "primaryMuscles": [
+      "biceps"
+    ],
+    "secondaryMuscles": [
+      "forearms"
+    ],
+    "muscleActivationMap": {
+      "biceps": 0.92,
+      "forearms": 0.42
+    },
+    "difficultyLevel": 1,
+    "skillRequirement": 1,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [
+      "cable"
+    ],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "gym"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 8,
+        "max": 12
+      },
+      "hypertrophy": {
+        "min": 12,
+        "max": 15
+      },
+      "endurance": {
+        "min": 18,
+        "max": 25
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 60,
+      "hypertrophy": 45,
+      "endurance": 30
+    },
+    "metValue": 3.0,
+    "intensityFactor": 0.5,
+    "contraindications": [
+      "elbow_injury"
+    ],
+    "formCues": [
+      "Constant cable tension",
+      "Elbows stay pinned",
+      "Full range of motion",
+      "Control both phases",
+      "Squeeze at contraction"
+    ],
+    "commonMistakes": [
+      "Letting cable go slack",
+      "Elbows moving forward",
+      "Using body momentum",
+      "Partial reps",
+      "Going too heavy"
+    ],
+    "easierVariation": "machine-curl",
+    "harderVariation": "bayesian-curl",
+    "alternativeExercises": [
+      "barbell-curl",
+      "dumbbell-curl",
+      "rope-cable-curl"
+    ],
+    "tags": [
+      "isolation",
+      "biceps",
+      "cable",
+      "constant-tension",
+      "beginner-friendly"
+    ],
+    "suitableGoals": [
+      "MUSCLE_GAIN"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 4,
+      "lightlyActive": 5,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 5,
+      "lessThan6Mo": 5,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.18,
+      "muscleGain": 0.88,
+      "strength": 0.58,
+      "endurance": 0.52,
+      "flexibility": 0.1,
+      "generalFitness": 0.55
+    },
+    "estimatedTimePerSet": 30,
+    "setupTimeSeconds": 20,
+    "homeCompatibility": 0.1,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.0
+  },
+  {
+    "name": "Rope Cable Curl",
+    "slug": "rope-cable-curl",
+    "description": "A cable curl using a rope attachment that allows for neutral grip and wrist rotation through the movement. The rope enables spreading at the top for enhanced peak contraction.",
+    "instructions": [
+      "Attach rope to low cable, grip with neutral palms-facing hold",
+      "Stand facing machine, arms extended down",
+      "Curl rope up while keeping elbows pinned",
+      "At top, spread rope ends apart for peak contraction",
+      "Lower with control to full extension"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "CURL",
+    "exerciseType": "ISOLATION",
+    "primaryMuscles": [
+      "biceps",
+      "brachialis"
+    ],
+    "secondaryMuscles": [
+      "forearms"
+    ],
+    "muscleActivationMap": {
+      "biceps": 0.88,
+      "brachialis": 0.7,
+      "forearms": 0.55
+    },
+    "difficultyLevel": 2,
+    "skillRequirement": 2,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [
+      "cable"
+    ],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "gym"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 10,
+        "max": 12
+      },
+      "hypertrophy": {
+        "min": 12,
+        "max": 15
+      },
+      "endurance": {
+        "min": 18,
+        "max": 25
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 60,
+      "hypertrophy": 45,
+      "endurance": 30
+    },
+    "metValue": 3.0,
+    "intensityFactor": 0.52,
+    "contraindications": [
+      "elbow_injury"
+    ],
+    "formCues": [
+      "Spread rope at top",
+      "Maintain tension throughout",
+      "Elbows stay at sides",
+      "Neutral grip start",
+      "Control the negative"
+    ],
+    "commonMistakes": [
+      "Not spreading at top",
+      "Elbows drifting",
+      "Cable going slack",
+      "Using momentum",
+      "Incomplete range"
+    ],
+    "easierVariation": "cable-curl",
+    "harderVariation": "high-cable-curl",
+    "alternativeExercises": [
+      "cable-curl",
+      "hammer-curl",
+      "single-arm-cable-curl"
+    ],
+    "tags": [
+      "isolation",
+      "biceps",
+      "brachialis",
+      "cable",
+      "rope",
+      "peak-contraction"
+    ],
+    "suitableGoals": [
+      "MUSCLE_GAIN"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 3,
+      "lightlyActive": 4,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 4,
+      "lessThan6Mo": 5,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.18,
+      "muscleGain": 0.88,
+      "strength": 0.55,
+      "endurance": 0.52,
+      "flexibility": 0.1,
+      "generalFitness": 0.55
+    },
+    "estimatedTimePerSet": 30,
+    "setupTimeSeconds": 20,
+    "homeCompatibility": 0.1,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.0
+  },
+  {
+    "name": "Single-Arm Cable Curl",
+    "slug": "single-arm-cable-curl",
+    "description": "A unilateral cable curl allowing focused work on each bicep independently with constant tension. This variation addresses strength imbalances and maximizes mind-muscle connection.",
+    "instructions": [
+      "Attach D-handle to low cable, stand facing machine",
+      "Grip handle with working arm extended down",
+      "Keep elbow pinned at side throughout",
+      "Curl handle toward shoulder with full contraction",
+      "Lower with control, complete reps then switch arms"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "CURL",
+    "exerciseType": "ISOLATION",
+    "primaryMuscles": [
+      "biceps"
+    ],
+    "secondaryMuscles": [
+      "forearms"
+    ],
+    "muscleActivationMap": {
+      "biceps": 0.92,
+      "forearms": 0.42
+    },
+    "difficultyLevel": 2,
+    "skillRequirement": 2,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [
+      "cable"
+    ],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "gym"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 10,
+        "max": 12
+      },
+      "hypertrophy": {
+        "min": 12,
+        "max": 15
+      },
+      "endurance": {
+        "min": 18,
+        "max": 22
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 60,
+      "hypertrophy": 45,
+      "endurance": 30
+    },
+    "metValue": 3.0,
+    "intensityFactor": 0.5,
+    "contraindications": [
+      "elbow_injury"
+    ],
+    "formCues": [
+      "Focus on each arm separately",
+      "Constant tension",
+      "Elbow stays pinned",
+      "Full range of motion",
+      "Equal work both sides"
+    ],
+    "commonMistakes": [
+      "Rotating torso",
+      "Elbow moving",
+      "Uneven reps per arm",
+      "Using momentum",
+      "Partial range"
+    ],
+    "easierVariation": "cable-curl",
+    "harderVariation": "bayesian-curl",
+    "alternativeExercises": [
+      "concentration-curl",
+      "cable-curl",
+      "dumbbell-curl"
+    ],
+    "tags": [
+      "isolation",
+      "biceps",
+      "cable",
+      "unilateral",
+      "mind-muscle"
+    ],
+    "suitableGoals": [
+      "MUSCLE_GAIN"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 3,
+      "lightlyActive": 4,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 4,
+      "lessThan6Mo": 5,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.15,
+      "muscleGain": 0.88,
+      "strength": 0.55,
+      "endurance": 0.5,
+      "flexibility": 0.1,
+      "generalFitness": 0.52
+    },
+    "estimatedTimePerSet": 35,
+    "setupTimeSeconds": 20,
+    "homeCompatibility": 0.1,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.0
+  },
+  {
+    "name": "High Cable Curl",
+    "slug": "high-cable-curl",
+    "description": "A cable curl performed with arms extended from high pulleys, curling toward the head in a double bicep pose position. This angle emphasizes the bicep peak and provides a unique contraction.",
+    "instructions": [
+      "Stand between high cable pulleys with handles in each hand",
+      "Extend arms out to sides at shoulder height, slight elbow bend",
+      "Curl handles toward ears by flexing biceps",
+      "Squeeze hard in contracted position",
+      "Extend arms back to starting position with control"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "CURL",
+    "exerciseType": "ISOLATION",
+    "primaryMuscles": [
+      "biceps"
+    ],
+    "secondaryMuscles": [
+      "forearms"
+    ],
+    "muscleActivationMap": {
+      "biceps": 0.9,
+      "forearms": 0.38
+    },
+    "difficultyLevel": 3,
+    "skillRequirement": 2,
+    "isBeginnerFriendly": false,
+    "equipmentRequired": [
+      "cable"
+    ],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "gym"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 10,
+        "max": 12
+      },
+      "hypertrophy": {
+        "min": 12,
+        "max": 15
+      },
+      "endurance": {
+        "min": 18,
+        "max": 22
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 60,
+      "hypertrophy": 45,
+      "endurance": 30
+    },
+    "metValue": 3.0,
+    "intensityFactor": 0.52,
+    "contraindications": [
+      "shoulder_injury",
+      "elbow_injury"
+    ],
+    "formCues": [
+      "Arms stay at shoulder height",
+      "Curl toward ears",
+      "Squeeze in flexed position",
+      "Control both directions",
+      "Keep tension on cables"
+    ],
+    "commonMistakes": [
+      "Arms dropping",
+      "Moving shoulders",
+      "Not full contraction",
+      "Uneven movement",
+      "Using momentum"
+    ],
+    "easierVariation": "cable-curl",
+    "harderVariation": null,
+    "alternativeExercises": [
+      "cable-curl",
+      "rope-cable-curl",
+      "concentration-curl"
+    ],
+    "tags": [
+      "isolation",
+      "biceps",
+      "cable",
+      "peak-contraction",
+      "double-bicep"
+    ],
+    "suitableGoals": [
+      "MUSCLE_GAIN"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 2,
+      "lightlyActive": 3,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 2,
+      "lessThan6Mo": 3,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.15,
+      "muscleGain": 0.85,
+      "strength": 0.52,
+      "endurance": 0.48,
+      "flexibility": 0.1,
+      "generalFitness": 0.5
+    },
+    "estimatedTimePerSet": 30,
+    "setupTimeSeconds": 25,
+    "homeCompatibility": 0.05,
+    "gymCompatibility": 0.9,
+    "outdoorCompatibility": 0.0
+  },
+  {
+    "name": "Lying Cable Curl",
+    "slug": "lying-cable-curl",
+    "description": "A cable curl performed lying on the floor with cable behind the head, providing maximum stretch on the biceps at the start position. This unique angle emphasizes the long head.",
+    "instructions": [
+      "Lie on floor with head toward low cable, grip bar or rope",
+      "Extend arms behind head toward cable",
+      "Keep upper arms stationary, curl toward forehead",
+      "Squeeze biceps at peak contraction",
+      "Lower with control to full stretch"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "CURL",
+    "exerciseType": "ISOLATION",
+    "primaryMuscles": [
+      "biceps"
+    ],
+    "secondaryMuscles": [
+      "forearms"
+    ],
+    "muscleActivationMap": {
+      "biceps": 0.92,
+      "forearms": 0.38
+    },
+    "difficultyLevel": 3,
+    "skillRequirement": 2,
+    "isBeginnerFriendly": false,
+    "equipmentRequired": [
+      "cable"
+    ],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "gym"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 10,
+        "max": 12
+      },
+      "hypertrophy": {
+        "min": 12,
+        "max": 15
+      },
+      "endurance": {
+        "min": 18,
+        "max": 22
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 60,
+      "hypertrophy": 45,
+      "endurance": 30
+    },
+    "metValue": 3.0,
+    "intensityFactor": 0.52,
+    "contraindications": [
+      "shoulder_injury",
+      "elbow_injury"
+    ],
+    "formCues": [
+      "Full stretch at start",
+      "Upper arms stay still",
+      "Curl toward forehead",
+      "Control the negative",
+      "Maintain cable tension"
+    ],
+    "commonMistakes": [
+      "Upper arms moving",
+      "Not enough stretch",
+      "Partial range",
+      "Losing tension",
+      "Neck strain"
+    ],
+    "easierVariation": "cable-curl",
+    "harderVariation": "incline-dumbbell-curl",
+    "alternativeExercises": [
+      "incline-dumbbell-curl",
+      "bayesian-curl",
+      "cable-curl"
+    ],
+    "tags": [
+      "isolation",
+      "biceps",
+      "cable",
+      "stretch-emphasis",
+      "long-head"
+    ],
+    "suitableGoals": [
+      "MUSCLE_GAIN"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 2,
+      "lightlyActive": 3,
+      "moderatelyActive": 4,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 2,
+      "lessThan6Mo": 3,
+      "sixTo24Mo": 4,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.12,
+      "muscleGain": 0.88,
+      "strength": 0.52,
+      "endurance": 0.45,
+      "flexibility": 0.15,
+      "generalFitness": 0.48
+    },
+    "estimatedTimePerSet": 30,
+    "setupTimeSeconds": 30,
+    "homeCompatibility": 0.05,
+    "gymCompatibility": 0.85,
+    "outdoorCompatibility": 0.0
+  },
+  {
+    "name": "Bayesian Curl",
+    "slug": "bayesian-curl",
+    "description": "A cable curl performed facing away from the machine with arm behind the body, maximizing stretch on the biceps long head. This exercise provides intense stretch-mediated hypertrophy stimulus.",
+    "instructions": [
+      "Attach handle to low cable, stand facing away from machine",
+      "Hold handle with arm behind body, palm up",
+      "Keep upper arm stationary behind torso",
+      "Curl handle forward and up toward shoulder",
+      "Lower with control to full stretch behind body"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "CURL",
+    "exerciseType": "ISOLATION",
+    "primaryMuscles": [
+      "biceps"
+    ],
+    "secondaryMuscles": [
+      "forearms"
+    ],
+    "muscleActivationMap": {
+      "biceps": 0.95,
+      "forearms": 0.4
+    },
+    "difficultyLevel": 3,
+    "skillRequirement": 3,
+    "isBeginnerFriendly": false,
+    "equipmentRequired": [
+      "cable"
+    ],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "gym"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 10,
+        "max": 12
+      },
+      "hypertrophy": {
+        "min": 12,
+        "max": 15
+      },
+      "endurance": {
+        "min": 15,
+        "max": 20
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 60,
+      "hypertrophy": 45,
+      "endurance": 30
+    },
+    "metValue": 3.0,
+    "intensityFactor": 0.55,
+    "contraindications": [
+      "shoulder_injury",
+      "elbow_injury"
+    ],
+    "formCues": [
+      "Arm starts behind body",
+      "Maximum stretch at bottom",
+      "Upper arm stays back",
+      "Control through full range",
+      "Feel the long head stretch"
+    ],
+    "commonMistakes": [
+      "Not enough arm extension",
+      "Upper arm moving forward",
+      "Using too much weight",
+      "Rushing the stretch",
+      "Poor cable angle"
+    ],
+    "easierVariation": "incline-dumbbell-curl",
+    "harderVariation": null,
+    "alternativeExercises": [
+      "incline-dumbbell-curl",
+      "lying-cable-curl",
+      "drag-curl"
+    ],
+    "tags": [
+      "isolation",
+      "biceps",
+      "cable",
+      "stretch-emphasis",
+      "long-head",
+      "advanced"
+    ],
+    "suitableGoals": [
+      "MUSCLE_GAIN"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 1,
+      "lightlyActive": 2,
+      "moderatelyActive": 4,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 1,
+      "lessThan6Mo": 2,
+      "sixTo24Mo": 4,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.12,
+      "muscleGain": 0.92,
+      "strength": 0.55,
+      "endurance": 0.42,
+      "flexibility": 0.2,
+      "generalFitness": 0.48
+    },
+    "estimatedTimePerSet": 35,
+    "setupTimeSeconds": 25,
+    "homeCompatibility": 0.05,
+    "gymCompatibility": 0.9,
+    "outdoorCompatibility": 0.0
+  },
+  {
+    "name": "Chin-Up",
+    "slug": "chin-up",
+    "description": "A compound pulling exercise using an underhand grip that emphasizes the biceps along with the back muscles. The supinated grip maximizes bicep involvement compared to overhand pull-ups.",
+    "instructions": [
+      "Grip pull-up bar with underhand grip, hands shoulder-width",
+      "Hang with arms fully extended",
+      "Pull body up until chin clears the bar",
+      "Focus on squeezing biceps at the top",
+      "Lower with control to full arm extension"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "VERTICAL_PULL",
+    "exerciseType": "COMPOUND",
+    "primaryMuscles": [
+      "biceps",
+      "back"
+    ],
+    "secondaryMuscles": [
+      "forearms",
+      "rear_delts",
+      "core"
+    ],
+    "muscleActivationMap": {
+      "biceps": 0.85,
+      "back": 0.9,
+      "forearms": 0.6,
+      "rear_delts": 0.45,
+      "core": 0.4
+    },
+    "difficultyLevel": 4,
+    "skillRequirement": 3,
+    "isBeginnerFriendly": false,
+    "equipmentRequired": [
+      "pull_up_bar"
+    ],
+    "equipmentOptional": [
+      "dip_belt",
+      "resistance_band"
+    ],
+    "suitableLocations": [
+      "gym",
+      "home",
+      "outdoor"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 3,
+        "max": 6
+      },
+      "hypertrophy": {
+        "min": 6,
+        "max": 12
+      },
+      "endurance": {
+        "min": 15,
+        "max": 25
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 5
+    },
+    "restSeconds": {
+      "strength": 150,
+      "hypertrophy": 90,
+      "endurance": 60
+    },
+    "metValue": 8.0,
+    "intensityFactor": 0.82,
+    "contraindications": [
+      "shoulder_injury",
+      "elbow_injury"
+    ],
+    "formCues": [
+      "Underhand grip",
+      "Full hang at bottom",
+      "Chin over bar",
+      "Control the descent",
+      "Squeeze biceps throughout"
+    ],
+    "commonMistakes": [
+      "Partial reps",
+      "Kipping or swinging",
+      "Not full extension",
+      "Going too fast",
+      "Grip too narrow or wide"
+    ],
+    "easierVariation": "band-assisted-chin-up",
+    "harderVariation": "weighted-chin-up",
+    "alternativeExercises": [
+      "lat-pulldown",
+      "barbell-curl",
+      "cable-curl"
+    ],
+    "tags": [
+      "compound",
+      "biceps",
+      "back",
+      "bodyweight",
+      "calisthenics",
+      "fundamental"
+    ],
+    "suitableGoals": [
+      "STRENGTH",
+      "MUSCLE_GAIN"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 1,
+      "lightlyActive": 2,
+      "moderatelyActive": 4,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 1,
+      "lessThan6Mo": 2,
+      "sixTo24Mo": 4,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.5,
+      "muscleGain": 0.88,
+      "strength": 0.85,
+      "endurance": 0.55,
+      "flexibility": 0.15,
+      "generalFitness": 0.82
+    },
+    "estimatedTimePerSet": 45,
+    "setupTimeSeconds": 10,
+    "homeCompatibility": 0.8,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.7
+  },
+  {
+    "name": "Band Curl",
+    "slug": "band-curl",
+    "description": "A bicep curl using a resistance band that provides increasing tension through the range of motion. This accessible exercise is perfect for home workouts and high-rep burnouts.",
+    "instructions": [
+      "Stand on center of band, grip handles or ends",
+      "Start with arms extended at sides",
+      "Keep elbows pinned, curl hands toward shoulders",
+      "Squeeze biceps at peak contraction",
+      "Lower with control against band resistance"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "CURL",
+    "exerciseType": "ISOLATION",
+    "primaryMuscles": [
+      "biceps"
+    ],
+    "secondaryMuscles": [
+      "forearms"
+    ],
+    "muscleActivationMap": {
+      "biceps": 0.82,
+      "forearms": 0.4
+    },
+    "difficultyLevel": 1,
+    "skillRequirement": 1,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [
+      "resistance_band"
+    ],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "home",
+      "gym",
+      "outdoor"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 12,
+        "max": 15
+      },
+      "hypertrophy": {
+        "min": 15,
+        "max": 25
+      },
+      "endurance": {
+        "min": 30,
+        "max": 50
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 60,
+      "hypertrophy": 45,
+      "endurance": 20
+    },
+    "metValue": 3.0,
+    "intensityFactor": 0.4,
+    "contraindications": [
+      "elbow_injury"
+    ],
+    "formCues": [
+      "Stand on band evenly",
+      "Elbows stay pinned",
+      "Full range of motion",
+      "Control the eccentric",
+      "Keep tension on band"
+    ],
+    "commonMistakes": [
+      "Band slipping",
+      "Using momentum",
+      "Partial range",
+      "Elbows moving",
+      "Uneven stance on band"
+    ],
+    "easierVariation": null,
+    "harderVariation": "dumbbell-curl",
+    "alternativeExercises": [
+      "dumbbell-curl",
+      "cable-curl",
+      "ez-bar-curl"
+    ],
+    "tags": [
+      "isolation",
+      "biceps",
+      "resistance-band",
+      "home-friendly",
+      "beginner-friendly",
+      "high-rep"
+    ],
+    "suitableGoals": [
+      "MUSCLE_GAIN",
+      "GENERAL_FITNESS"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 5,
+      "lightlyActive": 5,
+      "moderatelyActive": 5,
+      "veryActive": 4,
+      "athlete": 3
+    },
+    "experienceLevelSuitability": {
+      "never": 5,
+      "lessThan6Mo": 5,
+      "sixTo24Mo": 4,
+      "twoTo5Yr": 3,
+      "fivePlusYr": 3
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.2,
+      "muscleGain": 0.68,
+      "strength": 0.45,
+      "endurance": 0.6,
+      "flexibility": 0.1,
+      "generalFitness": 0.65
+    },
+    "estimatedTimePerSet": 30,
+    "setupTimeSeconds": 10,
+    "homeCompatibility": 1.0,
+    "gymCompatibility": 0.85,
+    "outdoorCompatibility": 0.9
+  },
+  {
+    "name": "Machine Curl",
+    "slug": "machine-curl",
+    "description": "A bicep curl performed on a machine with a fixed movement path and built-in elbow support. This beginner-friendly option provides consistent resistance and eliminates the need for stabilization.",
+    "instructions": [
+      "Adjust seat so elbows align with machine pivot point",
+      "Sit with arms on pad, grip handles",
+      "Curl handles toward shoulders",
+      "Squeeze biceps at full contraction",
+      "Lower with control to starting position"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "CURL",
+    "exerciseType": "ISOLATION",
+    "primaryMuscles": [
+      "biceps"
+    ],
+    "secondaryMuscles": [
+      "forearms"
+    ],
+    "muscleActivationMap": {
+      "biceps": 0.88,
+      "forearms": 0.35
+    },
+    "difficultyLevel": 1,
+    "skillRequirement": 1,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [
+      "machine"
+    ],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "gym"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 8,
+        "max": 12
+      },
+      "hypertrophy": {
+        "min": 12,
+        "max": 18
+      },
+      "endurance": {
+        "min": 20,
+        "max": 30
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 60,
+      "hypertrophy": 45,
+      "endurance": 30
+    },
+    "metValue": 3.0,
+    "intensityFactor": 0.45,
+    "contraindications": [
+      "elbow_injury"
+    ],
+    "formCues": [
+      "Elbows on pad correctly",
+      "Full range of motion",
+      "Squeeze at top",
+      "Control the negative",
+      "Adjust seat properly"
+    ],
+    "commonMistakes": [
+      "Poor seat adjustment",
+      "Partial reps",
+      "Using momentum",
+      "Not squeezing at top",
+      "Rushing through reps"
+    ],
+    "easierVariation": null,
+    "harderVariation": "preacher-curl",
+    "alternativeExercises": [
+      "preacher-curl",
+      "cable-curl",
+      "dumbbell-curl"
+    ],
+    "tags": [
+      "isolation",
+      "biceps",
+      "machine",
+      "beginner-friendly",
+      "safe-to-failure"
+    ],
+    "suitableGoals": [
+      "MUSCLE_GAIN"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 5,
+      "lightlyActive": 5,
+      "moderatelyActive": 5,
+      "veryActive": 4,
+      "athlete": 3
+    },
+    "experienceLevelSuitability": {
+      "never": 5,
+      "lessThan6Mo": 5,
+      "sixTo24Mo": 4,
+      "twoTo5Yr": 4,
+      "fivePlusYr": 3
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.15,
+      "muscleGain": 0.8,
+      "strength": 0.55,
+      "endurance": 0.5,
+      "flexibility": 0.08,
+      "generalFitness": 0.52
+    },
+    "estimatedTimePerSet": 30,
+    "setupTimeSeconds": 30,
+    "homeCompatibility": 0.05,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.0
+  },
+  {
+    "name": "Incline Hammer Curl",
+    "slug": "incline-hammer-curl",
+    "description": "A hammer curl performed on an incline bench that increases the stretch on the brachialis and long head of the biceps. The incline position eliminates momentum and emphasizes the stretched portion.",
+    "instructions": [
+      "Set bench to 45-60 degree incline, sit back",
+      "Let arms hang straight with dumbbells in neutral grip",
+      "Keep upper arms still, curl with palms facing each other",
+      "Squeeze at top, maintaining neutral grip throughout",
+      "Lower with control to full stretch"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "CURL",
+    "exerciseType": "ISOLATION",
+    "primaryMuscles": [
+      "biceps",
+      "brachialis"
+    ],
+    "secondaryMuscles": [
+      "forearms"
+    ],
+    "muscleActivationMap": {
+      "biceps": 0.88,
+      "brachialis": 0.85,
+      "forearms": 0.58
+    },
+    "difficultyLevel": 3,
+    "skillRequirement": 2,
+    "isBeginnerFriendly": false,
+    "equipmentRequired": [
+      "dumbbell",
+      "bench"
+    ],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "gym",
+      "home"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 8,
+        "max": 10
+      },
+      "hypertrophy": {
+        "min": 10,
+        "max": 15
+      },
+      "endurance": {
+        "min": 15,
+        "max": 20
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 75,
+      "hypertrophy": 60,
+      "endurance": 45
+    },
+    "metValue": 3.0,
+    "intensityFactor": 0.55,
+    "contraindications": [
+      "elbow_injury",
+      "shoulder_injury"
+    ],
+    "formCues": [
+      "Arms hang straight at start",
+      "Maintain neutral grip",
+      "Feel the stretch",
+      "Upper arms stay still",
+      "Control the negative"
+    ],
+    "commonMistakes": [
+      "Elbows moving forward",
+      "Not enough stretch",
+      "Rotating wrists",
+      "Going too heavy",
+      "Partial range"
+    ],
+    "easierVariation": "hammer-curl",
+    "harderVariation": "spider-curl",
+    "alternativeExercises": [
+      "hammer-curl",
+      "incline-dumbbell-curl",
+      "cross-body-curl"
+    ],
+    "tags": [
+      "isolation",
+      "biceps",
+      "brachialis",
+      "dumbbell",
+      "incline",
+      "stretch-emphasis"
+    ],
+    "suitableGoals": [
+      "MUSCLE_GAIN"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 2,
+      "lightlyActive": 3,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 2,
+      "lessThan6Mo": 3,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.15,
+      "muscleGain": 0.9,
+      "strength": 0.58,
+      "endurance": 0.42,
+      "flexibility": 0.15,
+      "generalFitness": 0.52
+    },
+    "estimatedTimePerSet": 30,
+    "setupTimeSeconds": 20,
+    "homeCompatibility": 0.7,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.1
+  },
+  {
+    "name": "Dumbbell Preacher Curl",
+    "slug": "dumbbell-preacher-curl",
+    "description": "A unilateral preacher curl using a dumbbell for independent arm training on the preacher bench. This allows focus on each bicep separately while benefiting from the strict form of the preacher position.",
+    "instructions": [
+      "Sit at preacher bench with one arm on pad",
+      "Hold dumbbell with arm fully extended on pad",
+      "Keep armpit at top of pad for proper position",
+      "Curl dumbbell up, squeezing bicep at top",
+      "Lower with control to full extension, complete reps then switch"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "CURL",
+    "exerciseType": "ISOLATION",
+    "primaryMuscles": [
+      "biceps"
+    ],
+    "secondaryMuscles": [
+      "forearms",
+      "brachialis"
+    ],
+    "muscleActivationMap": {
+      "biceps": 0.95,
+      "forearms": 0.4,
+      "brachialis": 0.42
+    },
+    "difficultyLevel": 2,
+    "skillRequirement": 2,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [
+      "dumbbell",
+      "preacher_bench"
+    ],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "gym"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 8,
+        "max": 10
+      },
+      "hypertrophy": {
+        "min": 10,
+        "max": 15
+      },
+      "endurance": {
+        "min": 18,
+        "max": 22
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 60,
+      "hypertrophy": 45,
+      "endurance": 30
+    },
+    "metValue": 3.0,
+    "intensityFactor": 0.52,
+    "contraindications": [
+      "elbow_injury"
+    ],
+    "formCues": [
+      "Arm stays on pad",
+      "Full stretch at bottom",
+      "Supinate for peak contraction",
+      "Control throughout",
+      "Equal work both arms"
+    ],
+    "commonMistakes": [
+      "Coming off pad",
+      "Not full extension",
+      "Uneven work between arms",
+      "Using body momentum",
+      "Going too heavy"
+    ],
+    "easierVariation": "machine-curl",
+    "harderVariation": "spider-curl",
+    "alternativeExercises": [
+      "preacher-curl",
+      "concentration-curl",
+      "cable-curl"
+    ],
+    "tags": [
+      "isolation",
+      "biceps",
+      "dumbbell",
+      "preacher",
+      "unilateral",
+      "strict-form"
+    ],
+    "suitableGoals": [
+      "MUSCLE_GAIN"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 3,
+      "lightlyActive": 4,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 3,
+      "lessThan6Mo": 4,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.12,
+      "muscleGain": 0.9,
+      "strength": 0.55,
+      "endurance": 0.45,
+      "flexibility": 0.12,
+      "generalFitness": 0.48
+    },
+    "estimatedTimePerSet": 35,
+    "setupTimeSeconds": 25,
+    "homeCompatibility": 0.15,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.0
+  },
+  {
+    "name": "Alternating Dumbbell Curl",
+    "slug": "alternating-dumbbell-curl",
+    "description": "A bicep curl performed alternating one arm at a time, extending time under tension and allowing focus on each arm independently. This variation provides continuous work while improving mind-muscle connection.",
+    "instructions": [
+      "Stand with dumbbells at sides, palms facing thighs",
+      "Curl one dumbbell up while supinating (rotating palm up)",
+      "Lower the first dumbbell while curling the second",
+      "Maintain controlled alternating rhythm",
+      "Keep elbows pinned at sides throughout"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "CURL",
+    "exerciseType": "ISOLATION",
+    "primaryMuscles": [
+      "biceps"
+    ],
+    "secondaryMuscles": [
+      "forearms"
+    ],
+    "muscleActivationMap": {
+      "biceps": 0.92,
+      "forearms": 0.45
+    },
+    "difficultyLevel": 1,
+    "skillRequirement": 1,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [
+      "dumbbell"
+    ],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "gym",
+      "home"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 10,
+        "max": 16
+      },
+      "hypertrophy": {
+        "min": 16,
+        "max": 24
+      },
+      "endurance": {
+        "min": 30,
+        "max": 40
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 75,
+      "hypertrophy": 60,
+      "endurance": 45
+    },
+    "metValue": 3.5,
+    "intensityFactor": 0.5,
+    "contraindications": [
+      "elbow_injury"
+    ],
+    "formCues": [
+      "Supinate as you curl",
+      "Elbows stay pinned",
+      "Smooth alternating rhythm",
+      "Full range each arm",
+      "Control the negative"
+    ],
+    "commonMistakes": [
+      "Swinging body",
+      "Uneven work between arms",
+      "Not supinating",
+      "Rushing the movement",
+      "Elbows drifting"
+    ],
+    "easierVariation": "seated-dumbbell-curl",
+    "harderVariation": "standing-dumbbell-curl",
+    "alternativeExercises": [
+      "standing-dumbbell-curl",
+      "hammer-curl",
+      "cable-curl"
+    ],
+    "tags": [
+      "isolation",
+      "biceps",
+      "dumbbell",
+      "alternating",
+      "beginner-friendly"
+    ],
+    "suitableGoals": [
+      "MUSCLE_GAIN"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 4,
+      "lightlyActive": 5,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 5,
+      "lessThan6Mo": 5,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.2,
+      "muscleGain": 0.85,
+      "strength": 0.58,
+      "endurance": 0.55,
+      "flexibility": 0.1,
+      "generalFitness": 0.58
+    },
+    "estimatedTimePerSet": 40,
+    "setupTimeSeconds": 10,
+    "homeCompatibility": 0.95,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.5
+  },
+  {
+    "name": "Close-Grip Bench Press",
+    "slug": "close-grip-bench-press",
+    "description": "A bench press variation with hands placed closer together to emphasize the triceps over the chest. This compound movement allows for heavy loading while building tricep mass and pressing strength.",
+    "instructions": [
+      "Lie on bench, grip barbell with hands 8-12 inches apart",
+      "Unrack bar over chest, arms extended",
+      "Lower bar to lower chest with elbows tucked at 45 degrees",
+      "Touch chest lightly, press back up explosively",
+      "Lock out fully at top, squeezing triceps"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "HORIZONTAL_PUSH",
+    "exerciseType": "COMPOUND",
+    "primaryMuscles": [
+      "triceps"
+    ],
+    "secondaryMuscles": [
+      "chest",
+      "front_delts"
+    ],
+    "muscleActivationMap": {
+      "triceps": 0.9,
+      "chest": 0.6,
+      "front_delts": 0.5
+    },
+    "difficultyLevel": 3,
+    "skillRequirement": 3,
+    "isBeginnerFriendly": false,
+    "equipmentRequired": [
+      "barbell",
+      "bench"
+    ],
+    "equipmentOptional": [
+      "squat_rack"
+    ],
+    "suitableLocations": [
+      "gym"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 4,
+        "max": 6
+      },
+      "hypertrophy": {
+        "min": 6,
+        "max": 12
+      },
+      "endurance": {
+        "min": 15,
+        "max": 20
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 5
+    },
+    "restSeconds": {
+      "strength": 180,
+      "hypertrophy": 120,
+      "endurance": 60
+    },
+    "metValue": 6.0,
+    "intensityFactor": 0.82,
+    "contraindications": [
+      "shoulder_injury",
+      "wrist_injury",
+      "elbow_injury"
+    ],
+    "formCues": [
+      "Hands 8-12 inches apart",
+      "Elbows tucked 45 degrees",
+      "Full lockout at top",
+      "Control the descent",
+      "Bar path to lower chest"
+    ],
+    "commonMistakes": [
+      "Grip too narrow",
+      "Elbows flaring out",
+      "Partial lockout",
+      "Bouncing off chest",
+      "Wrists bent back"
+    ],
+    "easierVariation": "machine-tricep-extension",
+    "harderVariation": "jm-press",
+    "alternativeExercises": [
+      "tricep-dips",
+      "diamond-push-up",
+      "skull-crusher"
+    ],
+    "tags": [
+      "compound",
+      "triceps",
+      "chest",
+      "barbell",
+      "pressing",
+      "mass-builder"
+    ],
+    "suitableGoals": [
+      "STRENGTH",
+      "MUSCLE_GAIN"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 1,
+      "lightlyActive": 2,
+      "moderatelyActive": 4,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 1,
+      "lessThan6Mo": 2,
+      "sixTo24Mo": 4,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.4,
+      "muscleGain": 0.9,
+      "strength": 0.92,
+      "endurance": 0.35,
+      "flexibility": 0.1,
+      "generalFitness": 0.7
+    },
+    "estimatedTimePerSet": 40,
+    "setupTimeSeconds": 45,
+    "homeCompatibility": 0.4,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.1
+  },
+  {
+    "name": "Diamond Push-Up",
+    "slug": "diamond-push-up",
+    "description": "A push-up variation with hands placed close together forming a diamond shape, dramatically increasing tricep involvement. This bodyweight exercise is excellent for building tricep strength and endurance.",
+    "instructions": [
+      "Start in push-up position with hands together, forming diamond with index fingers and thumbs",
+      "Keep body in straight line from head to heels",
+      "Lower chest toward hands, elbows tracking close to body",
+      "Descend until chest nearly touches hands",
+      "Press back up to full arm extension"
+    ],
+    "category": "CALISTHENICS",
+    "movementPattern": "HORIZONTAL_PUSH",
+    "exerciseType": "COMPOUND",
+    "primaryMuscles": [
+      "triceps"
+    ],
+    "secondaryMuscles": [
+      "chest",
+      "front_delts",
+      "core"
+    ],
+    "muscleActivationMap": {
+      "triceps": 0.9,
+      "chest": 0.55,
+      "front_delts": 0.5,
+      "core": 0.45
+    },
+    "difficultyLevel": 3,
+    "skillRequirement": 2,
+    "isBeginnerFriendly": false,
+    "equipmentRequired": [],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "home",
+      "gym",
+      "outdoor"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 6,
+        "max": 10
+      },
+      "hypertrophy": {
+        "min": 10,
+        "max": 20
+      },
+      "endurance": {
+        "min": 25,
+        "max": 40
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 90,
+      "hypertrophy": 60,
+      "endurance": 30
+    },
+    "metValue": 5.0,
+    "intensityFactor": 0.65,
+    "contraindications": [
+      "wrist_injury",
+      "shoulder_injury",
+      "elbow_injury"
+    ],
+    "formCues": [
+      "Hands form diamond shape",
+      "Elbows track close to body",
+      "Full range of motion",
+      "Core stays tight",
+      "Don't sag hips"
+    ],
+    "commonMistakes": [
+      "Hands too far apart",
+      "Elbows flaring out",
+      "Partial reps",
+      "Hips sagging",
+      "Head dropping"
+    ],
+    "easierVariation": "incline-diamond-push-up",
+    "harderVariation": "decline-diamond-push-up",
+    "alternativeExercises": [
+      "close-grip-bench-press",
+      "tricep-pushdown",
+      "bench-dips"
+    ],
+    "tags": [
+      "compound",
+      "triceps",
+      "chest",
+      "bodyweight",
+      "calisthenics",
+      "home-friendly"
+    ],
+    "suitableGoals": [
+      "MUSCLE_GAIN",
+      "STRENGTH",
+      "GENERAL_FITNESS"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 1,
+      "lightlyActive": 2,
+      "moderatelyActive": 4,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 2,
+      "lessThan6Mo": 3,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.45,
+      "muscleGain": 0.78,
+      "strength": 0.72,
+      "endurance": 0.65,
+      "flexibility": 0.15,
+      "generalFitness": 0.82
+    },
+    "estimatedTimePerSet": 35,
+    "setupTimeSeconds": 5,
+    "homeCompatibility": 1.0,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.95
+  },
+  {
+    "name": "Tricep Dips",
+    "slug": "tricep-dips",
+    "description": "A compound bodyweight exercise performed on parallel bars with an upright torso to emphasize the triceps over the chest. This challenging movement builds significant tricep mass and strength.",
+    "instructions": [
+      "Grip parallel bars, jump up to straight arm support",
+      "Keep torso upright, don't lean forward",
+      "Lower body by bending elbows until upper arms parallel to floor",
+      "Keep elbows close to body, pointing back",
+      "Press back up to full lockout"
+    ],
+    "category": "CALISTHENICS",
+    "movementPattern": "VERTICAL_PUSH",
+    "exerciseType": "COMPOUND",
+    "primaryMuscles": [
+      "triceps"
+    ],
+    "secondaryMuscles": [
+      "chest",
+      "front_delts"
+    ],
+    "muscleActivationMap": {
+      "triceps": 0.92,
+      "chest": 0.55,
+      "front_delts": 0.5
+    },
+    "difficultyLevel": 4,
+    "skillRequirement": 3,
+    "isBeginnerFriendly": false,
+    "equipmentRequired": [
+      "dip_bars"
+    ],
+    "equipmentOptional": [
+      "dip_belt"
+    ],
+    "suitableLocations": [
+      "gym",
+      "home",
+      "outdoor"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 5,
+        "max": 8
+      },
+      "hypertrophy": {
+        "min": 8,
+        "max": 15
+      },
+      "endurance": {
+        "min": 20,
+        "max": 30
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 150,
+      "hypertrophy": 90,
+      "endurance": 45
+    },
+    "metValue": 6.0,
+    "intensityFactor": 0.78,
+    "contraindications": [
+      "shoulder_injury",
+      "elbow_injury"
+    ],
+    "formCues": [
+      "Stay upright for triceps",
+      "Elbows point back",
+      "Lower to 90 degree elbows",
+      "Full lockout at top",
+      "Control the descent"
+    ],
+    "commonMistakes": [
+      "Leaning too far forward",
+      "Going too deep",
+      "Elbows flaring out",
+      "Partial reps",
+      "Swinging body"
+    ],
+    "easierVariation": "bench-dips",
+    "harderVariation": "ring-dips",
+    "alternativeExercises": [
+      "close-grip-bench-press",
+      "bench-dips",
+      "tricep-pushdown"
+    ],
+    "tags": [
+      "compound",
+      "triceps",
+      "bodyweight",
+      "calisthenics",
+      "advanced",
+      "mass-builder"
+    ],
+    "suitableGoals": [
+      "STRENGTH",
+      "MUSCLE_GAIN"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 1,
+      "lightlyActive": 1,
+      "moderatelyActive": 3,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 1,
+      "lessThan6Mo": 2,
+      "sixTo24Mo": 4,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.45,
+      "muscleGain": 0.9,
+      "strength": 0.88,
+      "endurance": 0.55,
+      "flexibility": 0.15,
+      "generalFitness": 0.78
+    },
+    "estimatedTimePerSet": 40,
+    "setupTimeSeconds": 10,
+    "homeCompatibility": 0.65,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.7
+  },
+  {
+    "name": "JM Press",
+    "slug": "jm-press",
+    "description": "A hybrid movement between close-grip bench press and skull crusher that heavily targets the triceps while allowing heavier loads. Named after powerlifter JM Blakley who popularized this exercise.",
+    "instructions": [
+      "Lie on bench with close grip on barbell",
+      "Lower bar toward upper chest/throat area",
+      "Allow elbows to drift forward during descent",
+      "Bar path is between bench press and skull crusher",
+      "Press back up by extending elbows to lockout"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "HORIZONTAL_PUSH",
+    "exerciseType": "COMPOUND",
+    "primaryMuscles": [
+      "triceps"
+    ],
+    "secondaryMuscles": [
+      "chest",
+      "front_delts"
+    ],
+    "muscleActivationMap": {
+      "triceps": 0.95,
+      "chest": 0.45,
+      "front_delts": 0.4
+    },
+    "difficultyLevel": 4,
+    "skillRequirement": 4,
+    "isBeginnerFriendly": false,
+    "equipmentRequired": [
+      "barbell",
+      "bench"
+    ],
+    "equipmentOptional": [
+      "squat_rack"
+    ],
+    "suitableLocations": [
+      "gym"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 4,
+        "max": 6
+      },
+      "hypertrophy": {
+        "min": 6,
+        "max": 10
+      },
+      "endurance": {
+        "min": 12,
+        "max": 15
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 5
+    },
+    "restSeconds": {
+      "strength": 180,
+      "hypertrophy": 120,
+      "endurance": 75
+    },
+    "metValue": 5.5,
+    "intensityFactor": 0.85,
+    "contraindications": [
+      "shoulder_injury",
+      "elbow_injury",
+      "wrist_injury"
+    ],
+    "formCues": [
+      "Bar toward throat/upper chest",
+      "Elbows drift forward",
+      "Lockout with triceps",
+      "Control throughout",
+      "Find the groove"
+    ],
+    "commonMistakes": [
+      "Bar too low",
+      "Too much shoulder involvement",
+      "Losing elbow position",
+      "Going too heavy initially",
+      "Not finding proper groove"
+    ],
+    "easierVariation": "close-grip-bench-press",
+    "harderVariation": null,
+    "alternativeExercises": [
+      "close-grip-bench-press",
+      "skull-crusher",
+      "tricep-dips"
+    ],
+    "tags": [
+      "compound",
+      "triceps",
+      "barbell",
+      "powerlifting",
+      "advanced",
+      "hybrid"
+    ],
+    "suitableGoals": [
+      "STRENGTH",
+      "MUSCLE_GAIN"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 1,
+      "lightlyActive": 1,
+      "moderatelyActive": 2,
+      "veryActive": 4,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 1,
+      "lessThan6Mo": 1,
+      "sixTo24Mo": 2,
+      "twoTo5Yr": 4,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.3,
+      "muscleGain": 0.88,
+      "strength": 0.95,
+      "endurance": 0.3,
+      "flexibility": 0.08,
+      "generalFitness": 0.6
+    },
+    "estimatedTimePerSet": 40,
+    "setupTimeSeconds": 45,
+    "homeCompatibility": 0.35,
+    "gymCompatibility": 0.95,
+    "outdoorCompatibility": 0.05
+  },
+  {
+    "name": "Board Press",
+    "slug": "board-press",
+    "description": "A bench press variation with boards placed on the chest to limit range of motion, emphasizing the lockout portion where triceps are most active. Common in powerlifting for building tricep strength.",
+    "instructions": [
+      "Lie on bench with close to moderate grip",
+      "Have partner hold 2-4 boards on chest",
+      "Lower bar to touch boards, pause briefly",
+      "Press explosively to full lockout",
+      "Focus on tricep drive through sticking point"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "HORIZONTAL_PUSH",
+    "exerciseType": "COMPOUND",
+    "primaryMuscles": [
+      "triceps"
+    ],
+    "secondaryMuscles": [
+      "chest",
+      "front_delts"
+    ],
+    "muscleActivationMap": {
+      "triceps": 0.92,
+      "chest": 0.5,
+      "front_delts": 0.45
+    },
+    "difficultyLevel": 4,
+    "skillRequirement": 3,
+    "isBeginnerFriendly": false,
+    "equipmentRequired": [
+      "barbell",
+      "bench",
+      "boards"
+    ],
+    "equipmentOptional": [
+      "squat_rack"
+    ],
+    "suitableLocations": [
+      "gym"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 3,
+        "max": 5
+      },
+      "hypertrophy": {
+        "min": 5,
+        "max": 8
+      },
+      "endurance": {
+        "min": 10,
+        "max": 12
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 5
+    },
+    "restSeconds": {
+      "strength": 210,
+      "hypertrophy": 150,
+      "endurance": 90
+    },
+    "metValue": 5.5,
+    "intensityFactor": 0.88,
+    "contraindications": [
+      "shoulder_injury",
+      "elbow_injury"
+    ],
+    "formCues": [
+      "Pause on boards",
+      "Explosive press",
+      "Full lockout",
+      "Boards stable on chest",
+      "Stay tight throughout"
+    ],
+    "commonMistakes": [
+      "Bouncing off boards",
+      "Boards moving",
+      "Not pausing",
+      "Partial lockout",
+      "Losing tightness"
+    ],
+    "easierVariation": "close-grip-bench-press",
+    "harderVariation": null,
+    "alternativeExercises": [
+      "close-grip-bench-press",
+      "floor-press",
+      "pin-press"
+    ],
+    "tags": [
+      "compound",
+      "triceps",
+      "barbell",
+      "powerlifting",
+      "overload",
+      "lockout"
+    ],
+    "suitableGoals": [
+      "STRENGTH"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 1,
+      "lightlyActive": 1,
+      "moderatelyActive": 2,
+      "veryActive": 4,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 1,
+      "lessThan6Mo": 1,
+      "sixTo24Mo": 2,
+      "twoTo5Yr": 4,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.25,
+      "muscleGain": 0.78,
+      "strength": 0.95,
+      "endurance": 0.25,
+      "flexibility": 0.05,
+      "generalFitness": 0.55
+    },
+    "estimatedTimePerSet": 40,
+    "setupTimeSeconds": 60,
+    "homeCompatibility": 0.2,
+    "gymCompatibility": 0.85,
+    "outdoorCompatibility": 0.0
+  },
+  {
+    "name": "Barbell Skull Crusher",
+    "slug": "barbell-skull-crusher",
+    "description": "A lying tricep extension lowering a barbell toward the forehead or behind the head, providing an intense stretch and contraction. This classic tricep builder targets all three heads.",
+    "instructions": [
+      "Lie on bench holding barbell with narrow grip, arms extended over chest",
+      "Keep upper arms stationary, pointing at ceiling",
+      "Lower bar toward forehead or just behind head by bending elbows",
+      "Feel stretch in triceps at bottom",
+      "Extend elbows to press bar back to start"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "EXTENSION",
+    "exerciseType": "ISOLATION",
+    "primaryMuscles": [
+      "triceps"
+    ],
+    "secondaryMuscles": [],
+    "muscleActivationMap": {
+      "triceps": 0.95
+    },
+    "difficultyLevel": 3,
+    "skillRequirement": 3,
+    "isBeginnerFriendly": false,
+    "equipmentRequired": [
+      "barbell",
+      "bench"
+    ],
+    "equipmentOptional": [
+      "ez_bar"
+    ],
+    "suitableLocations": [
+      "gym"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 6,
+        "max": 8
+      },
+      "hypertrophy": {
+        "min": 8,
+        "max": 12
+      },
+      "endurance": {
+        "min": 15,
+        "max": 20
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 90,
+      "hypertrophy": 60,
+      "endurance": 45
+    },
+    "metValue": 4.0,
+    "intensityFactor": 0.65,
+    "contraindications": [
+      "elbow_injury"
+    ],
+    "formCues": [
+      "Upper arms stay still",
+      "Lower behind head for more stretch",
+      "Full extension at top",
+      "Control the weight",
+      "Elbows in"
+    ],
+    "commonMistakes": [
+      "Upper arms moving",
+      "Elbows flaring",
+      "Going too heavy",
+      "Not enough stretch",
+      "Rushed reps"
+    ],
+    "easierVariation": "cable-pushdown",
+    "harderVariation": "dumbbell-skull-crusher",
+    "alternativeExercises": [
+      "dumbbell-skull-crusher",
+      "cable-overhead-extension",
+      "french-press"
+    ],
+    "tags": [
+      "isolation",
+      "triceps",
+      "barbell",
+      "skull-crusher",
+      "long-head"
+    ],
+    "suitableGoals": [
+      "MUSCLE_GAIN"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 2,
+      "lightlyActive": 3,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 2,
+      "lessThan6Mo": 3,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.15,
+      "muscleGain": 0.9,
+      "strength": 0.68,
+      "endurance": 0.42,
+      "flexibility": 0.1,
+      "generalFitness": 0.55
+    },
+    "estimatedTimePerSet": 30,
+    "setupTimeSeconds": 30,
+    "homeCompatibility": 0.45,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.1
+  },
+  {
+    "name": "Dumbbell Skull Crusher",
+    "slug": "dumbbell-skull-crusher",
+    "description": "A lying tricep extension using dumbbells that allows independent arm movement and various grip positions. The dumbbells provide freedom of motion and address strength imbalances.",
+    "instructions": [
+      "Lie on bench holding dumbbells with arms extended, palms facing each other",
+      "Keep upper arms vertical and stationary",
+      "Lower dumbbells toward temples or behind head by bending elbows",
+      "Stretch triceps at bottom of movement",
+      "Extend elbows to press dumbbells back up"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "EXTENSION",
+    "exerciseType": "ISOLATION",
+    "primaryMuscles": [
+      "triceps"
+    ],
+    "secondaryMuscles": [],
+    "muscleActivationMap": {
+      "triceps": 0.93
+    },
+    "difficultyLevel": 3,
+    "skillRequirement": 3,
+    "isBeginnerFriendly": false,
+    "equipmentRequired": [
+      "dumbbell",
+      "bench"
+    ],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "gym",
+      "home"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 6,
+        "max": 10
+      },
+      "hypertrophy": {
+        "min": 10,
+        "max": 15
+      },
+      "endurance": {
+        "min": 18,
+        "max": 22
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 75,
+      "hypertrophy": 60,
+      "endurance": 45
+    },
+    "metValue": 3.5,
+    "intensityFactor": 0.62,
+    "contraindications": [
+      "elbow_injury"
+    ],
+    "formCues": [
+      "Neutral or angled grip",
+      "Upper arms stay still",
+      "Lower toward temples",
+      "Full stretch at bottom",
+      "Control both arms evenly"
+    ],
+    "commonMistakes": [
+      "Dumbbells drifting apart",
+      "Upper arms moving",
+      "Uneven movement",
+      "Too much weight",
+      "Partial range"
+    ],
+    "easierVariation": "barbell-skull-crusher",
+    "harderVariation": null,
+    "alternativeExercises": [
+      "barbell-skull-crusher",
+      "cable-overhead-extension",
+      "tate-press"
+    ],
+    "tags": [
+      "isolation",
+      "triceps",
+      "dumbbell",
+      "skull-crusher",
+      "unilateral"
+    ],
+    "suitableGoals": [
+      "MUSCLE_GAIN"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 2,
+      "lightlyActive": 3,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 2,
+      "lessThan6Mo": 3,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.15,
+      "muscleGain": 0.88,
+      "strength": 0.62,
+      "endurance": 0.45,
+      "flexibility": 0.12,
+      "generalFitness": 0.52
+    },
+    "estimatedTimePerSet": 30,
+    "setupTimeSeconds": 20,
+    "homeCompatibility": 0.85,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.2
+  },
+  {
+    "name": "Dumbbell Overhead Tricep Extension",
+    "slug": "dumbbell-overhead-tricep-extension",
+    "description": "A seated or standing extension holding a dumbbell overhead and lowering it behind the head. This exercise emphasizes the long head of the triceps through the stretched overhead position.",
+    "instructions": [
+      "Hold one dumbbell with both hands, pressing it overhead",
+      "Keep upper arms close to head, pointing up",
+      "Lower dumbbell behind head by bending elbows",
+      "Feel stretch in triceps at bottom",
+      "Extend elbows to press dumbbell back overhead"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "EXTENSION",
+    "exerciseType": "ISOLATION",
+    "primaryMuscles": [
+      "triceps"
+    ],
+    "secondaryMuscles": [],
+    "muscleActivationMap": {
+      "triceps": 0.92
+    },
+    "difficultyLevel": 2,
+    "skillRequirement": 2,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [
+      "dumbbell"
+    ],
+    "equipmentOptional": [
+      "bench"
+    ],
+    "suitableLocations": [
+      "gym",
+      "home"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 8,
+        "max": 10
+      },
+      "hypertrophy": {
+        "min": 10,
+        "max": 15
+      },
+      "endurance": {
+        "min": 18,
+        "max": 25
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 75,
+      "hypertrophy": 60,
+      "endurance": 45
+    },
+    "metValue": 3.5,
+    "intensityFactor": 0.55,
+    "contraindications": [
+      "shoulder_injury",
+      "elbow_injury"
+    ],
+    "formCues": [
+      "Upper arms stay vertical",
+      "Lower behind head",
+      "Full stretch at bottom",
+      "Keep elbows in",
+      "Full lockout at top"
+    ],
+    "commonMistakes": [
+      "Elbows flaring out",
+      "Not enough stretch",
+      "Upper arms moving",
+      "Arching back",
+      "Using momentum"
+    ],
+    "easierVariation": "cable-pushdown",
+    "harderVariation": "single-arm-overhead-extension",
+    "alternativeExercises": [
+      "cable-overhead-extension",
+      "barbell-overhead-extension",
+      "french-press"
+    ],
+    "tags": [
+      "isolation",
+      "triceps",
+      "dumbbell",
+      "overhead",
+      "long-head"
+    ],
+    "suitableGoals": [
+      "MUSCLE_GAIN"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 3,
+      "lightlyActive": 4,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 4,
+      "lessThan6Mo": 5,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.15,
+      "muscleGain": 0.88,
+      "strength": 0.6,
+      "endurance": 0.48,
+      "flexibility": 0.15,
+      "generalFitness": 0.55
+    },
+    "estimatedTimePerSet": 30,
+    "setupTimeSeconds": 10,
+    "homeCompatibility": 0.95,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.5
+  },
+  {
+    "name": "Cable Overhead Tricep Extension",
+    "slug": "cable-overhead-tricep-extension",
+    "description": "An overhead tricep extension using a cable for constant tension throughout the movement. The cable resistance provides smooth resistance and excellent stretch on the long head.",
+    "instructions": [
+      "Attach rope or bar to high pulley, face away from machine",
+      "Step forward, lean slightly, hold attachment overhead",
+      "Keep upper arms fixed next to head",
+      "Extend elbows to press attachment forward",
+      "Lower with control to feel stretch behind head"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "EXTENSION",
+    "exerciseType": "ISOLATION",
+    "primaryMuscles": [
+      "triceps"
+    ],
+    "secondaryMuscles": [],
+    "muscleActivationMap": {
+      "triceps": 0.92
+    },
+    "difficultyLevel": 2,
+    "skillRequirement": 2,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [
+      "cable"
+    ],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "gym"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 10,
+        "max": 12
+      },
+      "hypertrophy": {
+        "min": 12,
+        "max": 18
+      },
+      "endurance": {
+        "min": 20,
+        "max": 30
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 60,
+      "hypertrophy": 45,
+      "endurance": 30
+    },
+    "metValue": 3.5,
+    "intensityFactor": 0.55,
+    "contraindications": [
+      "shoulder_injury",
+      "elbow_injury"
+    ],
+    "formCues": [
+      "Constant cable tension",
+      "Upper arms stay still",
+      "Lean slightly forward",
+      "Full stretch behind head",
+      "Complete extension"
+    ],
+    "commonMistakes": [
+      "Moving upper arms",
+      "Standing too upright",
+      "Not enough stretch",
+      "Elbows drifting",
+      "Losing tension"
+    ],
+    "easierVariation": "cable-pushdown",
+    "harderVariation": "dumbbell-overhead-tricep-extension",
+    "alternativeExercises": [
+      "dumbbell-overhead-tricep-extension",
+      "french-press",
+      "skull-crusher"
+    ],
+    "tags": [
+      "isolation",
+      "triceps",
+      "cable",
+      "overhead",
+      "long-head",
+      "constant-tension"
+    ],
+    "suitableGoals": [
+      "MUSCLE_GAIN"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 3,
+      "lightlyActive": 4,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 4,
+      "lessThan6Mo": 5,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.15,
+      "muscleGain": 0.88,
+      "strength": 0.58,
+      "endurance": 0.52,
+      "flexibility": 0.15,
+      "generalFitness": 0.55
+    },
+    "estimatedTimePerSet": 30,
+    "setupTimeSeconds": 25,
+    "homeCompatibility": 0.1,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.0
+  },
+  {
+    "name": "Barbell Overhead Tricep Extension",
+    "slug": "barbell-overhead-tricep-extension",
+    "description": "An overhead tricep extension using a barbell or EZ-bar, allowing heavier loading than dumbbell versions. This exercise emphasizes the long head and builds substantial tricep mass.",
+    "instructions": [
+      "Hold barbell overhead with narrow grip, arms extended",
+      "Keep upper arms close to head throughout",
+      "Lower bar behind head by bending elbows",
+      "Descend until feeling full tricep stretch",
+      "Extend elbows to press bar back overhead"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "EXTENSION",
+    "exerciseType": "ISOLATION",
+    "primaryMuscles": [
+      "triceps"
+    ],
+    "secondaryMuscles": [],
+    "muscleActivationMap": {
+      "triceps": 0.9
+    },
+    "difficultyLevel": 3,
+    "skillRequirement": 3,
+    "isBeginnerFriendly": false,
+    "equipmentRequired": [
+      "barbell"
+    ],
+    "equipmentOptional": [
+      "ez_bar",
+      "bench"
+    ],
+    "suitableLocations": [
+      "gym"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 6,
+        "max": 10
+      },
+      "hypertrophy": {
+        "min": 10,
+        "max": 15
+      },
+      "endurance": {
+        "min": 18,
+        "max": 22
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 90,
+      "hypertrophy": 60,
+      "endurance": 45
+    },
+    "metValue": 4.0,
+    "intensityFactor": 0.62,
+    "contraindications": [
+      "shoulder_injury",
+      "elbow_injury"
+    ],
+    "formCues": [
+      "Narrow grip on bar",
+      "Upper arms stay vertical",
+      "Lower behind head",
+      "Full stretch at bottom",
+      "Complete lockout"
+    ],
+    "commonMistakes": [
+      "Elbows flaring out",
+      "Not enough depth",
+      "Upper arms drifting",
+      "Arching back excessively",
+      "Going too heavy"
+    ],
+    "easierVariation": "dumbbell-overhead-tricep-extension",
+    "harderVariation": null,
+    "alternativeExercises": [
+      "dumbbell-overhead-tricep-extension",
+      "cable-overhead-extension",
+      "french-press"
+    ],
+    "tags": [
+      "isolation",
+      "triceps",
+      "barbell",
+      "overhead",
+      "long-head"
+    ],
+    "suitableGoals": [
+      "MUSCLE_GAIN"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 2,
+      "lightlyActive": 3,
+      "moderatelyActive": 4,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 2,
+      "lessThan6Mo": 3,
+      "sixTo24Mo": 4,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.15,
+      "muscleGain": 0.85,
+      "strength": 0.65,
+      "endurance": 0.45,
+      "flexibility": 0.12,
+      "generalFitness": 0.52
+    },
+    "estimatedTimePerSet": 30,
+    "setupTimeSeconds": 25,
+    "homeCompatibility": 0.45,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.1
+  },
+  {
+    "name": "Rope Tricep Pushdown",
+    "slug": "rope-tricep-pushdown",
+    "description": "A cable tricep extension using a rope attachment that allows the wrists to rotate and spread at the bottom for peak contraction. This popular exercise provides constant tension and excellent tricep pump.",
+    "instructions": [
+      "Attach rope to high cable, grip ends with neutral grip",
+      "Keep elbows pinned at sides, forearms parallel to floor",
+      "Push rope down by extending elbows",
+      "At bottom, spread rope ends apart for extra contraction",
+      "Return with control to starting position"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "EXTENSION",
+    "exerciseType": "ISOLATION",
+    "primaryMuscles": [
+      "triceps"
+    ],
+    "secondaryMuscles": [],
+    "muscleActivationMap": {
+      "triceps": 0.9
+    },
+    "difficultyLevel": 1,
+    "skillRequirement": 1,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [
+      "cable"
+    ],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "gym"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 10,
+        "max": 12
+      },
+      "hypertrophy": {
+        "min": 12,
+        "max": 18
+      },
+      "endurance": {
+        "min": 20,
+        "max": 30
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 60,
+      "hypertrophy": 45,
+      "endurance": 30
+    },
+    "metValue": 3.0,
+    "intensityFactor": 0.48,
+    "contraindications": [
+      "elbow_injury"
+    ],
+    "formCues": [
+      "Elbows stay pinned",
+      "Spread rope at bottom",
+      "Full extension",
+      "Control the return",
+      "Keep tension on cable"
+    ],
+    "commonMistakes": [
+      "Elbows drifting",
+      "Not spreading rope",
+      "Using momentum",
+      "Leaning forward",
+      "Partial reps"
+    ],
+    "easierVariation": "machine-tricep-extension",
+    "harderVariation": "straight-bar-pushdown",
+    "alternativeExercises": [
+      "straight-bar-pushdown",
+      "v-bar-pushdown",
+      "single-arm-pushdown"
+    ],
+    "tags": [
+      "isolation",
+      "triceps",
+      "cable",
+      "rope",
+      "beginner-friendly",
+      "pump"
+    ],
+    "suitableGoals": [
+      "MUSCLE_GAIN"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 4,
+      "lightlyActive": 5,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 5,
+      "lessThan6Mo": 5,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.15,
+      "muscleGain": 0.85,
+      "strength": 0.55,
+      "endurance": 0.55,
+      "flexibility": 0.1,
+      "generalFitness": 0.58
+    },
+    "estimatedTimePerSet": 30,
+    "setupTimeSeconds": 15,
+    "homeCompatibility": 0.1,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.0
+  },
+  {
+    "name": "Straight Bar Pushdown",
+    "slug": "straight-bar-pushdown",
+    "description": "A cable tricep extension using a straight bar attachment that allows for slightly heavier loading than rope variations. The fixed bar position emphasizes the lateral head of the triceps.",
+    "instructions": [
+      "Attach straight bar to high cable",
+      "Grip bar with overhand grip, shoulder-width or narrower",
+      "Keep elbows pinned at sides",
+      "Push bar down until arms fully extended",
+      "Return with control, keeping tension"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "EXTENSION",
+    "exerciseType": "ISOLATION",
+    "primaryMuscles": [
+      "triceps"
+    ],
+    "secondaryMuscles": [],
+    "muscleActivationMap": {
+      "triceps": 0.88
+    },
+    "difficultyLevel": 1,
+    "skillRequirement": 1,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [
+      "cable"
+    ],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "gym"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 8,
+        "max": 12
+      },
+      "hypertrophy": {
+        "min": 12,
+        "max": 18
+      },
+      "endurance": {
+        "min": 20,
+        "max": 28
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 60,
+      "hypertrophy": 45,
+      "endurance": 30
+    },
+    "metValue": 3.0,
+    "intensityFactor": 0.5,
+    "contraindications": [
+      "elbow_injury",
+      "wrist_injury"
+    ],
+    "formCues": [
+      "Elbows pinned at sides",
+      "Full extension at bottom",
+      "Control throughout",
+      "Grip at comfortable width",
+      "Wrists straight"
+    ],
+    "commonMistakes": [
+      "Elbows flaring",
+      "Using body momentum",
+      "Wrists bending",
+      "Partial range",
+      "Leaning into movement"
+    ],
+    "easierVariation": "rope-tricep-pushdown",
+    "harderVariation": "single-arm-pushdown",
+    "alternativeExercises": [
+      "rope-tricep-pushdown",
+      "v-bar-pushdown",
+      "single-arm-pushdown"
+    ],
+    "tags": [
+      "isolation",
+      "triceps",
+      "cable",
+      "straight-bar",
+      "beginner-friendly"
+    ],
+    "suitableGoals": [
+      "MUSCLE_GAIN"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 4,
+      "lightlyActive": 5,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 5,
+      "lessThan6Mo": 5,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.15,
+      "muscleGain": 0.82,
+      "strength": 0.55,
+      "endurance": 0.52,
+      "flexibility": 0.08,
+      "generalFitness": 0.55
+    },
+    "estimatedTimePerSet": 30,
+    "setupTimeSeconds": 15,
+    "homeCompatibility": 0.1,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.0
+  },
+  {
+    "name": "V-Bar Pushdown",
+    "slug": "v-bar-pushdown",
+    "description": "A cable tricep extension using a V-shaped bar attachment that provides a neutral grip angle. This variation is comfortable on the wrists while allowing good loading.",
+    "instructions": [
+      "Attach V-bar to high cable",
+      "Grip bar with palms facing each other",
+      "Keep elbows pinned at sides",
+      "Push bar down to full arm extension",
+      "Return with control, maintaining elbow position"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "EXTENSION",
+    "exerciseType": "ISOLATION",
+    "primaryMuscles": [
+      "triceps"
+    ],
+    "secondaryMuscles": [],
+    "muscleActivationMap": {
+      "triceps": 0.88
+    },
+    "difficultyLevel": 1,
+    "skillRequirement": 1,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [
+      "cable"
+    ],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "gym"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 8,
+        "max": 12
+      },
+      "hypertrophy": {
+        "min": 12,
+        "max": 18
+      },
+      "endurance": {
+        "min": 20,
+        "max": 28
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 60,
+      "hypertrophy": 45,
+      "endurance": 30
+    },
+    "metValue": 3.0,
+    "intensityFactor": 0.5,
+    "contraindications": [
+      "elbow_injury"
+    ],
+    "formCues": [
+      "Neutral grip on V-bar",
+      "Elbows stay at sides",
+      "Full lockout",
+      "Control the weight",
+      "Constant tension"
+    ],
+    "commonMistakes": [
+      "Elbows moving forward",
+      "Using momentum",
+      "Partial reps",
+      "Leaning too far forward",
+      "Rushing reps"
+    ],
+    "easierVariation": "rope-tricep-pushdown",
+    "harderVariation": "straight-bar-pushdown",
+    "alternativeExercises": [
+      "rope-tricep-pushdown",
+      "straight-bar-pushdown",
+      "single-arm-pushdown"
+    ],
+    "tags": [
+      "isolation",
+      "triceps",
+      "cable",
+      "v-bar",
+      "wrist-friendly"
+    ],
+    "suitableGoals": [
+      "MUSCLE_GAIN"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 4,
+      "lightlyActive": 5,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 5,
+      "lessThan6Mo": 5,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.15,
+      "muscleGain": 0.82,
+      "strength": 0.55,
+      "endurance": 0.52,
+      "flexibility": 0.08,
+      "generalFitness": 0.55
+    },
+    "estimatedTimePerSet": 30,
+    "setupTimeSeconds": 15,
+    "homeCompatibility": 0.1,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.0
+  },
+  {
+    "name": "Single-Arm Pushdown",
+    "slug": "single-arm-pushdown",
+    "description": "A unilateral cable tricep extension allowing focus on each arm independently. This exercise addresses strength imbalances and maximizes mind-muscle connection.",
+    "instructions": [
+      "Attach D-handle to high cable",
+      "Stand with working side toward machine",
+      "Keep elbow pinned at side",
+      "Push handle down to full extension",
+      "Return with control, complete reps then switch"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "EXTENSION",
+    "exerciseType": "ISOLATION",
+    "primaryMuscles": [
+      "triceps"
+    ],
+    "secondaryMuscles": [],
+    "muscleActivationMap": {
+      "triceps": 0.9
+    },
+    "difficultyLevel": 2,
+    "skillRequirement": 2,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [
+      "cable"
+    ],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "gym"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 10,
+        "max": 12
+      },
+      "hypertrophy": {
+        "min": 12,
+        "max": 18
+      },
+      "endurance": {
+        "min": 20,
+        "max": 25
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 45,
+      "hypertrophy": 30,
+      "endurance": 20
+    },
+    "metValue": 3.0,
+    "intensityFactor": 0.48,
+    "contraindications": [
+      "elbow_injury"
+    ],
+    "formCues": [
+      "Focus on each arm",
+      "Elbow stays pinned",
+      "Full extension",
+      "Control throughout",
+      "Equal work both sides"
+    ],
+    "commonMistakes": [
+      "Rotating torso",
+      "Elbow drifting",
+      "Uneven reps",
+      "Using momentum",
+      "Partial range"
+    ],
+    "easierVariation": "rope-tricep-pushdown",
+    "harderVariation": "kickback",
+    "alternativeExercises": [
+      "rope-tricep-pushdown",
+      "tricep-kickback",
+      "concentration-tricep-extension"
+    ],
+    "tags": [
+      "isolation",
+      "triceps",
+      "cable",
+      "unilateral",
+      "mind-muscle"
+    ],
+    "suitableGoals": [
+      "MUSCLE_GAIN"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 3,
+      "lightlyActive": 4,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 4,
+      "lessThan6Mo": 5,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.12,
+      "muscleGain": 0.85,
+      "strength": 0.52,
+      "endurance": 0.52,
+      "flexibility": 0.08,
+      "generalFitness": 0.52
+    },
+    "estimatedTimePerSet": 35,
+    "setupTimeSeconds": 15,
+    "homeCompatibility": 0.1,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.0
+  },
+  {
+    "name": "Tricep Kickback",
+    "slug": "tricep-kickback",
+    "description": "A dumbbell isolation exercise extending the arm backward while bent over, maximizing tricep contraction at full extension. This movement emphasizes the peak contraction of the triceps.",
+    "instructions": [
+      "Bend forward at hips, support on bench if needed",
+      "Hold dumbbell with upper arm parallel to floor, elbow at 90 degrees",
+      "Extend arm straight back by straightening elbow",
+      "Squeeze tricep hard at full extension",
+      "Lower with control back to 90 degrees"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "EXTENSION",
+    "exerciseType": "ISOLATION",
+    "primaryMuscles": [
+      "triceps"
+    ],
+    "secondaryMuscles": [],
+    "muscleActivationMap": {
+      "triceps": 0.88
+    },
+    "difficultyLevel": 2,
+    "skillRequirement": 2,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [
+      "dumbbell"
+    ],
+    "equipmentOptional": [
+      "bench"
+    ],
+    "suitableLocations": [
+      "gym",
+      "home"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 10,
+        "max": 15
+      },
+      "hypertrophy": {
+        "min": 15,
+        "max": 20
+      },
+      "endurance": {
+        "min": 22,
+        "max": 30
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 60,
+      "hypertrophy": 45,
+      "endurance": 30
+    },
+    "metValue": 3.0,
+    "intensityFactor": 0.45,
+    "contraindications": [
+      "elbow_injury",
+      "lower_back_injury"
+    ],
+    "formCues": [
+      "Upper arm stays parallel",
+      "Full extension behind",
+      "Squeeze at top",
+      "Control the movement",
+      "Don't swing"
+    ],
+    "commonMistakes": [
+      "Upper arm dropping",
+      "Swinging weight",
+      "Partial extension",
+      "Going too heavy",
+      "Rushing reps"
+    ],
+    "easierVariation": "rope-tricep-pushdown",
+    "harderVariation": "cable-kickback",
+    "alternativeExercises": [
+      "rope-tricep-pushdown",
+      "single-arm-pushdown",
+      "cable-kickback"
+    ],
+    "tags": [
+      "isolation",
+      "triceps",
+      "dumbbell",
+      "kickback",
+      "peak-contraction"
+    ],
+    "suitableGoals": [
+      "MUSCLE_GAIN"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 3,
+      "lightlyActive": 4,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 4
+    },
+    "experienceLevelSuitability": {
+      "never": 4,
+      "lessThan6Mo": 5,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 4
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.12,
+      "muscleGain": 0.8,
+      "strength": 0.48,
+      "endurance": 0.55,
+      "flexibility": 0.1,
+      "generalFitness": 0.52
+    },
+    "estimatedTimePerSet": 35,
+    "setupTimeSeconds": 15,
+    "homeCompatibility": 0.9,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.4
+  },
+  {
+    "name": "French Press",
+    "slug": "french-press",
+    "description": "A seated or lying tricep extension lowering weight behind the head with elbows pointing up, emphasizing the long head. This classic exercise provides excellent stretch and contraction.",
+    "instructions": [
+      "Sit or lie holding barbell or EZ-bar overhead",
+      "Keep elbows pointing up throughout movement",
+      "Lower weight behind head by bending elbows",
+      "Feel full stretch in triceps at bottom",
+      "Press back to starting position"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "EXTENSION",
+    "exerciseType": "ISOLATION",
+    "primaryMuscles": [
+      "triceps"
+    ],
+    "secondaryMuscles": [],
+    "muscleActivationMap": {
+      "triceps": 0.92
+    },
+    "difficultyLevel": 3,
+    "skillRequirement": 2,
+    "isBeginnerFriendly": false,
+    "equipmentRequired": [
+      "ez_bar"
+    ],
+    "equipmentOptional": [
+      "barbell",
+      "bench"
+    ],
+    "suitableLocations": [
+      "gym"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 6,
+        "max": 10
+      },
+      "hypertrophy": {
+        "min": 10,
+        "max": 15
+      },
+      "endurance": {
+        "min": 18,
+        "max": 22
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 75,
+      "hypertrophy": 60,
+      "endurance": 45
+    },
+    "metValue": 3.5,
+    "intensityFactor": 0.58,
+    "contraindications": [
+      "shoulder_injury",
+      "elbow_injury"
+    ],
+    "formCues": [
+      "Elbows stay pointing up",
+      "Lower behind head",
+      "Full stretch at bottom",
+      "Keep upper arms still",
+      "Control throughout"
+    ],
+    "commonMistakes": [
+      "Elbows flaring out",
+      "Not enough depth",
+      "Upper arms moving",
+      "Using momentum",
+      "Rushing the movement"
+    ],
+    "easierVariation": "cable-overhead-extension",
+    "harderVariation": "barbell-skull-crusher",
+    "alternativeExercises": [
+      "skull-crusher",
+      "cable-overhead-extension",
+      "dumbbell-overhead-extension"
+    ],
+    "tags": [
+      "isolation",
+      "triceps",
+      "ez-bar",
+      "overhead",
+      "long-head",
+      "classic"
+    ],
+    "suitableGoals": [
+      "MUSCLE_GAIN"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 2,
+      "lightlyActive": 3,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 2,
+      "lessThan6Mo": 3,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.12,
+      "muscleGain": 0.88,
+      "strength": 0.6,
+      "endurance": 0.45,
+      "flexibility": 0.15,
+      "generalFitness": 0.52
+    },
+    "estimatedTimePerSet": 30,
+    "setupTimeSeconds": 25,
+    "homeCompatibility": 0.5,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.1
+  },
+  {
+    "name": "Tate Press",
+    "slug": "tate-press",
+    "description": "A lying dumbbell tricep exercise where elbows flare out and dumbbells are lowered to the chest in an arcing motion. Named after powerlifter Dave Tate, this targets the triceps from a unique angle.",
+    "instructions": [
+      "Lie on bench holding dumbbells over chest, arms extended",
+      "Point elbows outward, palms facing feet",
+      "Lower dumbbells toward chest by bending elbows outward",
+      "Dumbbells touch or nearly touch chest at bottom",
+      "Press back up by extending elbows"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "EXTENSION",
+    "exerciseType": "ISOLATION",
+    "primaryMuscles": [
+      "triceps"
+    ],
+    "secondaryMuscles": [],
+    "muscleActivationMap": {
+      "triceps": 0.88
+    },
+    "difficultyLevel": 3,
+    "skillRequirement": 3,
+    "isBeginnerFriendly": false,
+    "equipmentRequired": [
+      "dumbbell",
+      "bench"
+    ],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "gym",
+      "home"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 8,
+        "max": 10
+      },
+      "hypertrophy": {
+        "min": 10,
+        "max": 15
+      },
+      "endurance": {
+        "min": 18,
+        "max": 22
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 75,
+      "hypertrophy": 60,
+      "endurance": 45
+    },
+    "metValue": 3.5,
+    "intensityFactor": 0.55,
+    "contraindications": [
+      "elbow_injury",
+      "shoulder_injury"
+    ],
+    "formCues": [
+      "Elbows flare out",
+      "Dumbbells to chest",
+      "Arc path of movement",
+      "Full lockout",
+      "Control throughout"
+    ],
+    "commonMistakes": [
+      "Elbows not flared enough",
+      "Dumbbells too far from chest",
+      "Pressing straight up",
+      "Using too much weight",
+      "Poor control"
+    ],
+    "easierVariation": "dumbbell-skull-crusher",
+    "harderVariation": null,
+    "alternativeExercises": [
+      "dumbbell-skull-crusher",
+      "close-grip-bench-press",
+      "jm-press"
+    ],
+    "tags": [
+      "isolation",
+      "triceps",
+      "dumbbell",
+      "powerlifting",
+      "advanced"
+    ],
+    "suitableGoals": [
+      "MUSCLE_GAIN"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 1,
+      "lightlyActive": 2,
+      "moderatelyActive": 4,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 1,
+      "lessThan6Mo": 2,
+      "sixTo24Mo": 4,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.12,
+      "muscleGain": 0.85,
+      "strength": 0.62,
+      "endurance": 0.42,
+      "flexibility": 0.08,
+      "generalFitness": 0.48
+    },
+    "estimatedTimePerSet": 30,
+    "setupTimeSeconds": 20,
+    "homeCompatibility": 0.8,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.1
+  },
+  {
+    "name": "Bench Dips",
+    "slug": "bench-dips",
+    "description": "A bodyweight tricep exercise using a bench or chair with hands behind body and feet on the floor. This accessible exercise is easier than parallel bar dips while still effectively targeting the triceps.",
+    "instructions": [
+      "Sit on bench edge, hands gripping edge beside hips",
+      "Slide forward off bench, supporting weight on hands",
+      "Keep feet flat on floor, legs bent or extended",
+      "Lower body by bending elbows to about 90 degrees",
+      "Press back up to full arm extension"
+    ],
+    "category": "CALISTHENICS",
+    "movementPattern": "VERTICAL_PUSH",
+    "exerciseType": "COMPOUND",
+    "primaryMuscles": [
+      "triceps"
+    ],
+    "secondaryMuscles": [
+      "chest",
+      "front_delts"
+    ],
+    "muscleActivationMap": {
+      "triceps": 0.85,
+      "chest": 0.45,
+      "front_delts": 0.4
+    },
+    "difficultyLevel": 2,
+    "skillRequirement": 1,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [
+      "bench"
+    ],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "home",
+      "gym",
+      "outdoor"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 8,
+        "max": 12
+      },
+      "hypertrophy": {
+        "min": 12,
+        "max": 20
+      },
+      "endurance": {
+        "min": 25,
+        "max": 40
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 75,
+      "hypertrophy": 60,
+      "endurance": 30
+    },
+    "metValue": 4.0,
+    "intensityFactor": 0.52,
+    "contraindications": [
+      "shoulder_injury",
+      "wrist_injury"
+    ],
+    "formCues": [
+      "Elbows point backward",
+      "Lower to 90 degrees",
+      "Full lockout at top",
+      "Stay close to bench",
+      "Keep body upright"
+    ],
+    "commonMistakes": [
+      "Going too deep",
+      "Elbows flaring",
+      "Body drifting forward",
+      "Partial reps",
+      "Shoulder stress"
+    ],
+    "easierVariation": "knee-bent-bench-dips",
+    "harderVariation": "tricep-dips",
+    "alternativeExercises": [
+      "tricep-dips",
+      "close-grip-push-up",
+      "rope-tricep-pushdown"
+    ],
+    "tags": [
+      "compound",
+      "triceps",
+      "bodyweight",
+      "calisthenics",
+      "beginner-friendly",
+      "home-friendly"
+    ],
+    "suitableGoals": [
+      "MUSCLE_GAIN",
+      "GENERAL_FITNESS"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 3,
+      "lightlyActive": 4,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 4
+    },
+    "experienceLevelSuitability": {
+      "never": 4,
+      "lessThan6Mo": 5,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 4
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.35,
+      "muscleGain": 0.72,
+      "strength": 0.62,
+      "endurance": 0.6,
+      "flexibility": 0.1,
+      "generalFitness": 0.75
+    },
+    "estimatedTimePerSet": 30,
+    "setupTimeSeconds": 10,
+    "homeCompatibility": 0.95,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.85
+  },
+  {
+    "name": "Ring Dips",
+    "slug": "ring-dips",
+    "description": "An advanced dip variation performed on gymnastic rings that adds significant instability challenge. The rings require intense stabilization effort while building exceptional tricep and pressing strength.",
+    "instructions": [
+      "Mount rings, pressing up to straight arm support",
+      "Turn rings out at top (RTO) for full lockout",
+      "Lower body by bending elbows, controlling ring movement",
+      "Descend until upper arms parallel to floor",
+      "Press back up to full lockout with rings turned out"
+    ],
+    "category": "CALISTHENICS",
+    "movementPattern": "VERTICAL_PUSH",
+    "exerciseType": "COMPOUND",
+    "primaryMuscles": [
+      "triceps",
+      "chest"
+    ],
+    "secondaryMuscles": [
+      "front_delts",
+      "core"
+    ],
+    "muscleActivationMap": {
+      "triceps": 0.92,
+      "chest": 0.75,
+      "front_delts": 0.6,
+      "core": 0.55
+    },
+    "difficultyLevel": 5,
+    "skillRequirement": 5,
+    "isBeginnerFriendly": false,
+    "equipmentRequired": [
+      "rings"
+    ],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "gym",
+      "home",
+      "outdoor"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 3,
+        "max": 6
+      },
+      "hypertrophy": {
+        "min": 6,
+        "max": 12
+      },
+      "endurance": {
+        "min": 15,
+        "max": 20
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 5
+    },
+    "restSeconds": {
+      "strength": 180,
+      "hypertrophy": 120,
+      "endurance": 60
+    },
+    "metValue": 7.0,
+    "intensityFactor": 0.92,
+    "contraindications": [
+      "shoulder_injury",
+      "elbow_injury"
+    ],
+    "formCues": [
+      "Rings turned out at top",
+      "Control the rings",
+      "Full depth with control",
+      "Stay tight throughout",
+      "Don't flare excessively"
+    ],
+    "commonMistakes": [
+      "Rings shaking wildly",
+      "Incomplete lockout",
+      "Going too deep",
+      "No ring turnout",
+      "Losing core tension"
+    ],
+    "easierVariation": "tricep-dips",
+    "harderVariation": null,
+    "alternativeExercises": [
+      "tricep-dips",
+      "close-grip-bench-press",
+      "diamond-push-up"
+    ],
+    "tags": [
+      "compound",
+      "triceps",
+      "chest",
+      "rings",
+      "calisthenics",
+      "advanced",
+      "stability"
+    ],
+    "suitableGoals": [
+      "STRENGTH",
+      "MUSCLE_GAIN"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 1,
+      "lightlyActive": 1,
+      "moderatelyActive": 2,
+      "veryActive": 4,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 1,
+      "lessThan6Mo": 1,
+      "sixTo24Mo": 2,
+      "twoTo5Yr": 4,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.45,
+      "muscleGain": 0.88,
+      "strength": 0.92,
+      "endurance": 0.48,
+      "flexibility": 0.15,
+      "generalFitness": 0.78
+    },
+    "estimatedTimePerSet": 45,
+    "setupTimeSeconds": 30,
+    "homeCompatibility": 0.6,
+    "gymCompatibility": 0.85,
+    "outdoorCompatibility": 0.7
+  },
+  {
+    "name": "Band Pushdown",
+    "slug": "band-pushdown",
+    "description": "A tricep pushdown using a resistance band anchored overhead, providing accommodating resistance. This accessible exercise is perfect for home workouts and warm-ups.",
+    "instructions": [
+      "Anchor band above head height",
+      "Grip band with both hands at chest level",
+      "Keep elbows pinned at sides",
+      "Push hands down until arms fully extended",
+      "Return with control, keeping band tension"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "EXTENSION",
+    "exerciseType": "ISOLATION",
+    "primaryMuscles": [
+      "triceps"
+    ],
+    "secondaryMuscles": [],
+    "muscleActivationMap": {
+      "triceps": 0.78
+    },
+    "difficultyLevel": 1,
+    "skillRequirement": 1,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [
+      "resistance_band"
+    ],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "home",
+      "gym",
+      "outdoor"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 12,
+        "max": 18
+      },
+      "hypertrophy": {
+        "min": 18,
+        "max": 30
+      },
+      "endurance": {
+        "min": 35,
+        "max": 50
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 45,
+      "hypertrophy": 30,
+      "endurance": 15
+    },
+    "metValue": 3.0,
+    "intensityFactor": 0.38,
+    "contraindications": [
+      "elbow_injury"
+    ],
+    "formCues": [
+      "Secure anchor point",
+      "Elbows stay pinned",
+      "Full extension",
+      "Control the return",
+      "Keep tension on band"
+    ],
+    "commonMistakes": [
+      "Band slipping",
+      "Elbows drifting",
+      "Partial reps",
+      "Using momentum",
+      "Unstable anchor"
+    ],
+    "easierVariation": null,
+    "harderVariation": "rope-tricep-pushdown",
+    "alternativeExercises": [
+      "rope-tricep-pushdown",
+      "diamond-push-up",
+      "bench-dips"
+    ],
+    "tags": [
+      "isolation",
+      "triceps",
+      "resistance-band",
+      "home-friendly",
+      "beginner-friendly",
+      "warmup"
+    ],
+    "suitableGoals": [
+      "MUSCLE_GAIN",
+      "GENERAL_FITNESS"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 5,
+      "lightlyActive": 5,
+      "moderatelyActive": 5,
+      "veryActive": 4,
+      "athlete": 3
+    },
+    "experienceLevelSuitability": {
+      "never": 5,
+      "lessThan6Mo": 5,
+      "sixTo24Mo": 4,
+      "twoTo5Yr": 3,
+      "fivePlusYr": 3
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.15,
+      "muscleGain": 0.62,
+      "strength": 0.42,
+      "endurance": 0.6,
+      "flexibility": 0.08,
+      "generalFitness": 0.65
+    },
+    "estimatedTimePerSet": 30,
+    "setupTimeSeconds": 15,
+    "homeCompatibility": 1.0,
+    "gymCompatibility": 0.85,
+    "outdoorCompatibility": 0.8
+  },
+  {
+    "name": "Machine Tricep Extension",
+    "slug": "machine-tricep-extension",
+    "description": "A tricep extension performed on a machine with fixed movement path and handles. This beginner-friendly option provides consistent resistance with built-in support.",
+    "instructions": [
+      "Adjust seat and handles for proper alignment",
+      "Grip handles, elbows bent at starting position",
+      "Push handles down/forward by extending elbows",
+      "Squeeze triceps at full extension",
+      "Return with control to starting position"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "EXTENSION",
+    "exerciseType": "ISOLATION",
+    "primaryMuscles": [
+      "triceps"
+    ],
+    "secondaryMuscles": [],
+    "muscleActivationMap": {
+      "triceps": 0.85
+    },
+    "difficultyLevel": 1,
+    "skillRequirement": 1,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [
+      "machine"
+    ],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "gym"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 10,
+        "max": 15
+      },
+      "hypertrophy": {
+        "min": 15,
+        "max": 22
+      },
+      "endurance": {
+        "min": 25,
+        "max": 35
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 60,
+      "hypertrophy": 45,
+      "endurance": 30
+    },
+    "metValue": 3.0,
+    "intensityFactor": 0.45,
+    "contraindications": [
+      "elbow_injury"
+    ],
+    "formCues": [
+      "Adjust machine properly",
+      "Full range of motion",
+      "Squeeze at extension",
+      "Control the weight",
+      "Don't use momentum"
+    ],
+    "commonMistakes": [
+      "Poor machine setup",
+      "Partial reps",
+      "Using momentum",
+      "Not squeezing",
+      "Going too fast"
+    ],
+    "easierVariation": null,
+    "harderVariation": "rope-tricep-pushdown",
+    "alternativeExercises": [
+      "rope-tricep-pushdown",
+      "cable-pushdown",
+      "bench-dips"
+    ],
+    "tags": [
+      "isolation",
+      "triceps",
+      "machine",
+      "beginner-friendly",
+      "safe-to-failure"
+    ],
+    "suitableGoals": [
+      "MUSCLE_GAIN"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 5,
+      "lightlyActive": 5,
+      "moderatelyActive": 5,
+      "veryActive": 4,
+      "athlete": 3
+    },
+    "experienceLevelSuitability": {
+      "never": 5,
+      "lessThan6Mo": 5,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 4,
+      "fivePlusYr": 3
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.12,
+      "muscleGain": 0.78,
+      "strength": 0.52,
+      "endurance": 0.52,
+      "flexibility": 0.08,
+      "generalFitness": 0.52
+    },
+    "estimatedTimePerSet": 30,
+    "setupTimeSeconds": 25,
+    "homeCompatibility": 0.05,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.0
+  },
+  {
+    "name": "Close-Grip Push-Up",
+    "slug": "close-grip-push-up",
+    "description": "A push-up variation with hands placed closer together than standard, increasing tricep involvement while maintaining chest and shoulder engagement. An accessible bodyweight tricep builder.",
+    "instructions": [
+      "Start in push-up position with hands closer than shoulder width",
+      "Keep body in straight line from head to heels",
+      "Lower chest toward floor, keeping elbows close to body",
+      "Descend until chest nearly touches floor",
+      "Push back up to full arm extension"
+    ],
+    "category": "CALISTHENICS",
+    "movementPattern": "HORIZONTAL_PUSH",
+    "exerciseType": "COMPOUND",
+    "primaryMuscles": [
+      "triceps",
+      "chest"
+    ],
+    "secondaryMuscles": [
+      "front_delts",
+      "core"
+    ],
+    "muscleActivationMap": {
+      "triceps": 0.82,
+      "chest": 0.65,
+      "front_delts": 0.5,
+      "core": 0.42
+    },
+    "difficultyLevel": 2,
+    "skillRequirement": 2,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "home",
+      "gym",
+      "outdoor"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 8,
+        "max": 15
+      },
+      "hypertrophy": {
+        "min": 15,
+        "max": 25
+      },
+      "endurance": {
+        "min": 30,
+        "max": 50
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 75,
+      "hypertrophy": 60,
+      "endurance": 30
+    },
+    "metValue": 4.5,
+    "intensityFactor": 0.55,
+    "contraindications": [
+      "wrist_injury",
+      "shoulder_injury"
+    ],
+    "formCues": [
+      "Hands closer than shoulder width",
+      "Elbows track close to body",
+      "Full range of motion",
+      "Core stays tight",
+      "Don't sag hips"
+    ],
+    "commonMistakes": [
+      "Hands too far apart",
+      "Elbows flaring",
+      "Partial reps",
+      "Hips sagging",
+      "Head dropping"
+    ],
+    "easierVariation": "incline-close-grip-push-up",
+    "harderVariation": "diamond-push-up",
+    "alternativeExercises": [
+      "diamond-push-up",
+      "bench-dips",
+      "tricep-pushdown"
+    ],
+    "tags": [
+      "compound",
+      "triceps",
+      "chest",
+      "bodyweight",
+      "calisthenics",
+      "home-friendly"
+    ],
+    "suitableGoals": [
+      "MUSCLE_GAIN",
+      "GENERAL_FITNESS"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 2,
+      "lightlyActive": 3,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 3,
+      "lessThan6Mo": 4,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.42,
+      "muscleGain": 0.72,
+      "strength": 0.65,
+      "endurance": 0.62,
+      "flexibility": 0.12,
+      "generalFitness": 0.78
+    },
+    "estimatedTimePerSet": 30,
+    "setupTimeSeconds": 5,
+    "homeCompatibility": 1.0,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.95
+  },
+  {
+    "name": "Cable Kickback",
+    "slug": "cable-kickback",
+    "description": "A tricep kickback using a cable for constant tension throughout the movement. The cable provides resistance in both directions unlike the dumbbell version.",
+    "instructions": [
+      "Attach handle to low cable, bend forward and grab",
+      "Keep upper arm parallel to floor",
+      "Extend arm backward by straightening elbow",
+      "Squeeze tricep at full extension",
+      "Return with control, complete reps then switch"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "EXTENSION",
+    "exerciseType": "ISOLATION",
+    "primaryMuscles": [
+      "triceps"
+    ],
+    "secondaryMuscles": [],
+    "muscleActivationMap": {
+      "triceps": 0.88
+    },
+    "difficultyLevel": 2,
+    "skillRequirement": 2,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [
+      "cable"
+    ],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "gym"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 12,
+        "max": 15
+      },
+      "hypertrophy": {
+        "min": 15,
+        "max": 22
+      },
+      "endurance": {
+        "min": 25,
+        "max": 30
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 60,
+      "hypertrophy": 45,
+      "endurance": 30
+    },
+    "metValue": 3.0,
+    "intensityFactor": 0.48,
+    "contraindications": [
+      "elbow_injury",
+      "lower_back_injury"
+    ],
+    "formCues": [
+      "Constant cable tension",
+      "Upper arm stays parallel",
+      "Full extension",
+      "Squeeze at top",
+      "Control both directions"
+    ],
+    "commonMistakes": [
+      "Upper arm dropping",
+      "Losing tension",
+      "Partial extension",
+      "Using momentum",
+      "Rushing reps"
+    ],
+    "easierVariation": "tricep-kickback",
+    "harderVariation": "single-arm-pushdown",
+    "alternativeExercises": [
+      "tricep-kickback",
+      "single-arm-pushdown",
+      "rope-tricep-pushdown"
+    ],
+    "tags": [
+      "isolation",
+      "triceps",
+      "cable",
+      "kickback",
+      "constant-tension"
+    ],
+    "suitableGoals": [
+      "MUSCLE_GAIN"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 3,
+      "lightlyActive": 4,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 4
+    },
+    "experienceLevelSuitability": {
+      "never": 4,
+      "lessThan6Mo": 5,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 4
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.12,
+      "muscleGain": 0.82,
+      "strength": 0.5,
+      "endurance": 0.55,
+      "flexibility": 0.1,
+      "generalFitness": 0.52
+    },
+    "estimatedTimePerSet": 35,
+    "setupTimeSeconds": 20,
+    "homeCompatibility": 0.1,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.0
+  },
+  {
+    "name": "Single-Arm Overhead Dumbbell Extension",
+    "slug": "single-arm-overhead-dumbbell-extension",
+    "description": "A unilateral overhead tricep extension using one dumbbell at a time, allowing focused work on each arm. This exercise maximizes long head stretch while addressing strength imbalances.",
+    "instructions": [
+      "Stand or sit holding one dumbbell overhead, arm extended",
+      "Keep upper arm close to head, pointing up",
+      "Lower dumbbell behind head by bending elbow",
+      "Feel stretch in tricep at bottom",
+      "Extend elbow to press back up, then switch arms"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "EXTENSION",
+    "exerciseType": "ISOLATION",
+    "primaryMuscles": [
+      "triceps"
+    ],
+    "secondaryMuscles": [],
+    "muscleActivationMap": {
+      "triceps": 0.92
+    },
+    "difficultyLevel": 2,
+    "skillRequirement": 2,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [
+      "dumbbell"
+    ],
+    "equipmentOptional": [
+      "bench"
+    ],
+    "suitableLocations": [
+      "gym",
+      "home"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 8,
+        "max": 12
+      },
+      "hypertrophy": {
+        "min": 12,
+        "max": 18
+      },
+      "endurance": {
+        "min": 20,
+        "max": 25
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 60,
+      "hypertrophy": 45,
+      "endurance": 30
+    },
+    "metValue": 3.0,
+    "intensityFactor": 0.52,
+    "contraindications": [
+      "shoulder_injury",
+      "elbow_injury"
+    ],
+    "formCues": [
+      "Upper arm stays vertical",
+      "Full stretch behind head",
+      "Elbow points up",
+      "Equal work both arms",
+      "Control throughout"
+    ],
+    "commonMistakes": [
+      "Elbow flaring out",
+      "Not enough stretch",
+      "Upper arm moving",
+      "Uneven reps",
+      "Using momentum"
+    ],
+    "easierVariation": "dumbbell-overhead-tricep-extension",
+    "harderVariation": "cable-overhead-extension",
+    "alternativeExercises": [
+      "dumbbell-overhead-tricep-extension",
+      "cable-overhead-extension",
+      "french-press"
+    ],
+    "tags": [
+      "isolation",
+      "triceps",
+      "dumbbell",
+      "overhead",
+      "unilateral",
+      "long-head"
+    ],
+    "suitableGoals": [
+      "MUSCLE_GAIN"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 3,
+      "lightlyActive": 4,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 4,
+      "lessThan6Mo": 5,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.12,
+      "muscleGain": 0.88,
+      "strength": 0.55,
+      "endurance": 0.5,
+      "flexibility": 0.15,
+      "generalFitness": 0.52
+    },
+    "estimatedTimePerSet": 40,
+    "setupTimeSeconds": 10,
+    "homeCompatibility": 0.95,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.5
+  },
+  {
+    "name": "Lying Dumbbell Tricep Extension",
+    "slug": "lying-dumbbell-tricep-extension",
+    "description": "A tricep extension performed lying on the floor or bench with dumbbells, providing a stable base for focused tricep work. The floor version eliminates excessive stretch that can stress the elbow.",
+    "instructions": [
+      "Lie on back holding dumbbells with arms extended over chest",
+      "Keep upper arms stationary, perpendicular to floor",
+      "Lower dumbbells toward shoulders by bending elbows",
+      "Stop just before touching shoulders",
+      "Extend elbows to press dumbbells back up"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "EXTENSION",
+    "exerciseType": "ISOLATION",
+    "primaryMuscles": [
+      "triceps"
+    ],
+    "secondaryMuscles": [],
+    "muscleActivationMap": {
+      "triceps": 0.9
+    },
+    "difficultyLevel": 2,
+    "skillRequirement": 2,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [
+      "dumbbell"
+    ],
+    "equipmentOptional": [
+      "bench"
+    ],
+    "suitableLocations": [
+      "gym",
+      "home"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 8,
+        "max": 12
+      },
+      "hypertrophy": {
+        "min": 12,
+        "max": 18
+      },
+      "endurance": {
+        "min": 20,
+        "max": 25
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 75,
+      "hypertrophy": 60,
+      "endurance": 45
+    },
+    "metValue": 3.5,
+    "intensityFactor": 0.55,
+    "contraindications": [
+      "elbow_injury"
+    ],
+    "formCues": [
+      "Upper arms stay still",
+      "Lower toward shoulders",
+      "Full extension at top",
+      "Control the weight",
+      "Keep elbows in"
+    ],
+    "commonMistakes": [
+      "Upper arms moving",
+      "Elbows flaring",
+      "Going too heavy",
+      "Partial reps",
+      "Rushing movement"
+    ],
+    "easierVariation": "rope-tricep-pushdown",
+    "harderVariation": "barbell-skull-crusher",
+    "alternativeExercises": [
+      "dumbbell-skull-crusher",
+      "barbell-skull-crusher",
+      "cable-pushdown"
+    ],
+    "tags": [
+      "isolation",
+      "triceps",
+      "dumbbell",
+      "lying",
+      "floor-friendly"
+    ],
+    "suitableGoals": [
+      "MUSCLE_GAIN"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 3,
+      "lightlyActive": 4,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 4,
+      "lessThan6Mo": 5,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.15,
+      "muscleGain": 0.85,
+      "strength": 0.58,
+      "endurance": 0.48,
+      "flexibility": 0.1,
+      "generalFitness": 0.52
+    },
+    "estimatedTimePerSet": 30,
+    "setupTimeSeconds": 15,
+    "homeCompatibility": 0.9,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.3
+  }
+]

@@ -1,0 +1,3878 @@
+[
+  {
+    "name": "High Plank",
+    "slug": "high-plank",
+    "description": "The standard plank performed on hands rather than forearms, maintaining a rigid straight line from head to heels. This fundamental position builds anti-extension strength and is the starting position for many exercises.",
+    "instructions": [
+      "Start in push-up position, hands directly under shoulders",
+      "Extend legs behind with feet hip-width apart",
+      "Form straight line from head to heels",
+      "Engage core by drawing navel toward spine",
+      "Hold position while breathing steadily"
+    ],
+    "category": "CALISTHENICS",
+    "movementPattern": "ANTI_EXTENSION",
+    "exerciseType": "ISOLATION",
+    "primaryMuscles": [
+      "core",
+      "rectus_abdominis"
+    ],
+    "secondaryMuscles": [
+      "shoulders",
+      "chest",
+      "obliques"
+    ],
+    "muscleActivationMap": {
+      "rectus_abdominis": 0.82,
+      "transverse_abdominis": 0.88,
+      "obliques": 0.55,
+      "shoulders": 0.5,
+      "chest": 0.35
+    },
+    "difficultyLevel": 1,
+    "skillRequirement": 1,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [],
+    "equipmentOptional": [
+      "mat"
+    ],
+    "suitableLocations": [
+      "home",
+      "gym",
+      "outdoor"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 30,
+        "max": 60
+      },
+      "hypertrophy": {
+        "min": 45,
+        "max": 90
+      },
+      "endurance": {
+        "min": 60,
+        "max": 180
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 60,
+      "hypertrophy": 45,
+      "endurance": 30
+    },
+    "metValue": 4.0,
+    "intensityFactor": 0.48,
+    "contraindications": [
+      "wrist_injury",
+      "shoulder_injury"
+    ],
+    "formCues": [
+      "Hands under shoulders",
+      "Straight line head to heels",
+      "Core braced throughout",
+      "Don't let hips sag or pike",
+      "Breathe steadily"
+    ],
+    "commonMistakes": [
+      "Hips sagging",
+      "Hips piking up",
+      "Hands too far forward",
+      "Head dropping",
+      "Holding breath"
+    ],
+    "easierVariation": "knee-plank",
+    "harderVariation": "forearm-plank",
+    "alternativeExercises": [
+      "forearm-plank",
+      "dead-bug",
+      "hollow-body-hold"
+    ],
+    "tags": [
+      "isometric",
+      "core",
+      "anti-extension",
+      "calisthenics",
+      "fundamental",
+      "beginner-friendly"
+    ],
+    "suitableGoals": [
+      "STRENGTH",
+      "GENERAL_FITNESS"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 4,
+      "lightlyActive": 5,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 5,
+      "lessThan6Mo": 5,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.35,
+      "muscleGain": 0.48,
+      "strength": 0.68,
+      "endurance": 0.72,
+      "flexibility": 0.15,
+      "generalFitness": 0.78
+    },
+    "estimatedTimePerSet": 45,
+    "setupTimeSeconds": 5,
+    "homeCompatibility": 1.0,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.95
+  },
+  {
+    "name": "Forearm Plank",
+    "slug": "forearm-plank",
+    "description": "The foundational core stability exercise performed on forearms and toes, maintaining a rigid straight line from head to heels. This isometric hold builds anti-extension strength and core endurance.",
+    "instructions": [
+      "Start face down, place forearms on floor with elbows under shoulders",
+      "Lift body onto forearms and toes, forming straight line",
+      "Engage core by drawing navel toward spine",
+      "Keep hips level, don't let them sag or pike up",
+      "Hold position while breathing steadily"
+    ],
+    "category": "CALISTHENICS",
+    "movementPattern": "ANTI_EXTENSION",
+    "exerciseType": "ISOLATION",
+    "primaryMuscles": [
+      "core",
+      "rectus_abdominis"
+    ],
+    "secondaryMuscles": [
+      "obliques",
+      "lower_back",
+      "shoulders"
+    ],
+    "muscleActivationMap": {
+      "rectus_abdominis": 0.85,
+      "transverse_abdominis": 0.9,
+      "obliques": 0.6,
+      "lower_back": 0.5,
+      "shoulders": 0.4
+    },
+    "difficultyLevel": 2,
+    "skillRequirement": 1,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [],
+    "equipmentOptional": [
+      "mat"
+    ],
+    "suitableLocations": [
+      "home",
+      "gym",
+      "outdoor"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 30,
+        "max": 60
+      },
+      "hypertrophy": {
+        "min": 45,
+        "max": 90
+      },
+      "endurance": {
+        "min": 60,
+        "max": 180
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 60,
+      "hypertrophy": 45,
+      "endurance": 30
+    },
+    "metValue": 4.0,
+    "intensityFactor": 0.5,
+    "contraindications": [
+      "shoulder_injury"
+    ],
+    "formCues": [
+      "Straight line head to heels",
+      "Elbows under shoulders",
+      "Core braced throughout",
+      "Breathe steadily",
+      "Don't hold breath"
+    ],
+    "commonMistakes": [
+      "Hips sagging",
+      "Hips piking up",
+      "Head dropping",
+      "Holding breath",
+      "Shoulders shrugging"
+    ],
+    "easierVariation": "knee-plank",
+    "harderVariation": "long-lever-plank",
+    "alternativeExercises": [
+      "high-plank",
+      "dead-bug",
+      "hollow-body-hold"
+    ],
+    "tags": [
+      "isometric",
+      "core",
+      "anti-extension",
+      "calisthenics",
+      "fundamental",
+      "beginner-friendly"
+    ],
+    "suitableGoals": [
+      "STRENGTH",
+      "GENERAL_FITNESS"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 3,
+      "lightlyActive": 4,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 4,
+      "lessThan6Mo": 5,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.35,
+      "muscleGain": 0.5,
+      "strength": 0.7,
+      "endurance": 0.75,
+      "flexibility": 0.15,
+      "generalFitness": 0.8
+    },
+    "estimatedTimePerSet": 45,
+    "setupTimeSeconds": 5,
+    "homeCompatibility": 1.0,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.9
+  },
+  {
+    "name": "Side Plank",
+    "slug": "side-plank",
+    "description": "A lateral core stability exercise performed on one forearm, targeting the obliques and lateral stabilizers. This anti-lateral flexion hold builds frontal plane stability essential for athletic performance.",
+    "instructions": [
+      "Lie on side with forearm on floor, elbow under shoulder",
+      "Stack feet or stagger them for balance",
+      "Lift hips off floor, creating straight line from head to feet",
+      "Keep top hip stacked directly over bottom hip",
+      "Hold position, then switch sides"
+    ],
+    "category": "CALISTHENICS",
+    "movementPattern": "ANTI_EXTENSION",
+    "exerciseType": "ISOLATION",
+    "primaryMuscles": [
+      "obliques"
+    ],
+    "secondaryMuscles": [
+      "core",
+      "hip_abductors",
+      "shoulders"
+    ],
+    "muscleActivationMap": {
+      "obliques": 0.92,
+      "transverse_abdominis": 0.7,
+      "quadratus_lumborum": 0.75,
+      "hip_abductors": 0.55,
+      "shoulders": 0.45
+    },
+    "difficultyLevel": 2,
+    "skillRequirement": 2,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [],
+    "equipmentOptional": [
+      "mat"
+    ],
+    "suitableLocations": [
+      "home",
+      "gym",
+      "outdoor"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 20,
+        "max": 45
+      },
+      "hypertrophy": {
+        "min": 30,
+        "max": 60
+      },
+      "endurance": {
+        "min": 45,
+        "max": 90
+      }
+    },
+    "typicalSets": {
+      "min": 2,
+      "max": 3
+    },
+    "restSeconds": {
+      "strength": 45,
+      "hypertrophy": 30,
+      "endurance": 20
+    },
+    "metValue": 4.0,
+    "intensityFactor": 0.52,
+    "contraindications": [
+      "shoulder_injury"
+    ],
+    "formCues": [
+      "Hips stacked vertically",
+      "Straight line head to feet",
+      "Don't let hips sag",
+      "Elbow under shoulder",
+      "Breathe steadily"
+    ],
+    "commonMistakes": [
+      "Hips dropping",
+      "Rotating forward or back",
+      "Elbow not under shoulder",
+      "Holding breath",
+      "Head dropping"
+    ],
+    "easierVariation": "knee-side-plank",
+    "harderVariation": "side-plank-with-hip-dip",
+    "alternativeExercises": [
+      "forearm-plank",
+      "pallof-press",
+      "suitcase-carry"
+    ],
+    "tags": [
+      "isometric",
+      "obliques",
+      "anti-lateral-flexion",
+      "calisthenics",
+      "unilateral"
+    ],
+    "suitableGoals": [
+      "STRENGTH",
+      "GENERAL_FITNESS"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 3,
+      "lightlyActive": 4,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 3,
+      "lessThan6Mo": 4,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.32,
+      "muscleGain": 0.48,
+      "strength": 0.68,
+      "endurance": 0.7,
+      "flexibility": 0.15,
+      "generalFitness": 0.75
+    },
+    "estimatedTimePerSet": 35,
+    "setupTimeSeconds": 5,
+    "homeCompatibility": 1.0,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.9
+  },
+  {
+    "name": "Dead Bug",
+    "slug": "dead-bug",
+    "description": "A supine core stability exercise extending opposite arm and leg while maintaining a flat lower back. This anti-extension movement is exceptionally safe for those with back issues while building deep core control.",
+    "instructions": [
+      "Lie on back with arms extended toward ceiling",
+      "Lift legs to 90 degrees at hips and knees (tabletop)",
+      "Press lower back firmly into floor",
+      "Slowly extend opposite arm and leg while maintaining back contact",
+      "Return to start, alternate sides"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "ANTI_EXTENSION",
+    "exerciseType": "ISOLATION",
+    "primaryMuscles": [
+      "core",
+      "rectus_abdominis"
+    ],
+    "secondaryMuscles": [
+      "hip_flexors",
+      "obliques"
+    ],
+    "muscleActivationMap": {
+      "transverse_abdominis": 0.9,
+      "rectus_abdominis": 0.75,
+      "obliques": 0.55,
+      "hip_flexors": 0.5
+    },
+    "difficultyLevel": 1,
+    "skillRequirement": 2,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [],
+    "equipmentOptional": [
+      "mat"
+    ],
+    "suitableLocations": [
+      "home",
+      "gym",
+      "outdoor"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 8,
+        "max": 12
+      },
+      "hypertrophy": {
+        "min": 12,
+        "max": 16
+      },
+      "endurance": {
+        "min": 16,
+        "max": 24
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 45,
+      "hypertrophy": 30,
+      "endurance": 20
+    },
+    "metValue": 3.0,
+    "intensityFactor": 0.4,
+    "contraindications": [],
+    "formCues": [
+      "Lower back stays flat on floor",
+      "Move slowly and controlled",
+      "Opposite arm and leg extend",
+      "Don't let back arch",
+      "Exhale as you extend"
+    ],
+    "commonMistakes": [
+      "Lower back arching",
+      "Moving too fast",
+      "Not fully extending",
+      "Holding breath",
+      "Same side arm and leg"
+    ],
+    "easierVariation": "single-leg-dead-bug",
+    "harderVariation": "dead-bug-with-band",
+    "alternativeExercises": [
+      "bird-dog",
+      "forearm-plank",
+      "hollow-body-hold"
+    ],
+    "tags": [
+      "core",
+      "anti-extension",
+      "rehab-friendly",
+      "back-safe",
+      "beginner-friendly",
+      "fundamental"
+    ],
+    "suitableGoals": [
+      "GENERAL_FITNESS",
+      "STRENGTH"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 5,
+      "lightlyActive": 5,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 4
+    },
+    "experienceLevelSuitability": {
+      "never": 5,
+      "lessThan6Mo": 5,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 4
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.25,
+      "muscleGain": 0.4,
+      "strength": 0.6,
+      "endurance": 0.55,
+      "flexibility": 0.2,
+      "generalFitness": 0.75
+    },
+    "estimatedTimePerSet": 40,
+    "setupTimeSeconds": 5,
+    "homeCompatibility": 1.0,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.85
+  },
+  {
+    "name": "Ab Wheel Rollout",
+    "slug": "ab-wheel-rollout",
+    "description": "An anti-extension exercise rolling an ab wheel forward while resisting spinal extension. Start from knees and progress to standing variation. This challenging movement builds exceptional anterior core strength and control.",
+    "instructions": [
+      "Kneel on mat (or stand for advanced), grip ab wheel handles",
+      "Brace core and maintain neutral spine",
+      "Roll wheel forward, extending body toward floor",
+      "Go as far as you can control without back arching",
+      "Pull wheel back using core, not hip flexors"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "ANTI_EXTENSION",
+    "exerciseType": "ISOLATION",
+    "primaryMuscles": [
+      "core",
+      "rectus_abdominis"
+    ],
+    "secondaryMuscles": [
+      "lats",
+      "shoulders",
+      "hip_flexors"
+    ],
+    "muscleActivationMap": {
+      "rectus_abdominis": 0.95,
+      "transverse_abdominis": 0.88,
+      "lats": 0.55,
+      "shoulders": 0.5,
+      "obliques": 0.45
+    },
+    "difficultyLevel": 3,
+    "skillRequirement": 3,
+    "isBeginnerFriendly": false,
+    "equipmentRequired": [
+      "ab_wheel"
+    ],
+    "equipmentOptional": [
+      "mat"
+    ],
+    "suitableLocations": [
+      "home",
+      "gym"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 6,
+        "max": 10
+      },
+      "hypertrophy": {
+        "min": 10,
+        "max": 15
+      },
+      "endurance": {
+        "min": 15,
+        "max": 20
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 90,
+      "hypertrophy": 60,
+      "endurance": 45
+    },
+    "metValue": 5.0,
+    "intensityFactor": 0.7,
+    "contraindications": [
+      "lower_back_injury",
+      "shoulder_injury"
+    ],
+    "formCues": [
+      "Core braced throughout",
+      "Don't let back arch",
+      "Control the rollout",
+      "Squeeze abs to return",
+      "Hips don't drop"
+    ],
+    "commonMistakes": [
+      "Lower back arching",
+      "Going too far too soon",
+      "Using momentum",
+      "Hips sagging",
+      "Not engaging core on return"
+    ],
+    "easierVariation": "stability-ball-rollout",
+    "harderVariation": "standing-ab-wheel-rollout",
+    "alternativeExercises": [
+      "body-saw",
+      "long-lever-plank",
+      "stability-ball-rollout"
+    ],
+    "tags": [
+      "core",
+      "anti-extension",
+      "ab-wheel",
+      "advanced",
+      "high-intensity",
+      "progression"
+    ],
+    "suitableGoals": [
+      "STRENGTH",
+      "MUSCLE_GAIN"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 1,
+      "lightlyActive": 2,
+      "moderatelyActive": 4,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 1,
+      "lessThan6Mo": 2,
+      "sixTo24Mo": 4,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.35,
+      "muscleGain": 0.72,
+      "strength": 0.85,
+      "endurance": 0.55,
+      "flexibility": 0.2,
+      "generalFitness": 0.7
+    },
+    "estimatedTimePerSet": 35,
+    "setupTimeSeconds": 10,
+    "homeCompatibility": 0.9,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.3
+  },
+  {
+    "name": "Body Saw",
+    "slug": "body-saw",
+    "description": "A dynamic plank variation using sliders to move the body forward and backward while maintaining rigid core position. This anti-extension exercise progressively increases lever arm and challenge.",
+    "instructions": [
+      "Start in forearm plank with feet on sliders or towels",
+      "Maintain rigid plank position throughout",
+      "Push body backward by pressing forearms into floor",
+      "Slide until arms are more extended, increasing difficulty",
+      "Pull body forward to return, keeping core braced"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "ANTI_EXTENSION",
+    "exerciseType": "ISOLATION",
+    "primaryMuscles": [
+      "core",
+      "rectus_abdominis"
+    ],
+    "secondaryMuscles": [
+      "shoulders",
+      "lats",
+      "obliques"
+    ],
+    "muscleActivationMap": {
+      "rectus_abdominis": 0.9,
+      "transverse_abdominis": 0.88,
+      "shoulders": 0.55,
+      "lats": 0.5,
+      "obliques": 0.45
+    },
+    "difficultyLevel": 3,
+    "skillRequirement": 3,
+    "isBeginnerFriendly": false,
+    "equipmentRequired": [
+      "sliders"
+    ],
+    "equipmentOptional": [
+      "mat"
+    ],
+    "suitableLocations": [
+      "home",
+      "gym"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 8,
+        "max": 12
+      },
+      "hypertrophy": {
+        "min": 12,
+        "max": 16
+      },
+      "endurance": {
+        "min": 16,
+        "max": 24
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 75,
+      "hypertrophy": 60,
+      "endurance": 45
+    },
+    "metValue": 5.0,
+    "intensityFactor": 0.68,
+    "contraindications": [
+      "lower_back_injury",
+      "shoulder_injury"
+    ],
+    "formCues": [
+      "Rigid plank position always",
+      "Push from forearms",
+      "Don't let hips sag",
+      "Control the slide",
+      "Core braced throughout"
+    ],
+    "commonMistakes": [
+      "Hips dropping",
+      "Going too far",
+      "Losing plank position",
+      "Rushing movement",
+      "Not enough core engagement"
+    ],
+    "easierVariation": "forearm-plank",
+    "harderVariation": "kneeling-ab-wheel-rollout",
+    "alternativeExercises": [
+      "kneeling-ab-wheel-rollout",
+      "long-lever-plank",
+      "stir-the-pot"
+    ],
+    "tags": [
+      "core",
+      "anti-extension",
+      "dynamic",
+      "sliders",
+      "plank-variation"
+    ],
+    "suitableGoals": [
+      "STRENGTH",
+      "MUSCLE_GAIN"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 1,
+      "lightlyActive": 2,
+      "moderatelyActive": 4,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 1,
+      "lessThan6Mo": 2,
+      "sixTo24Mo": 4,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.35,
+      "muscleGain": 0.65,
+      "strength": 0.78,
+      "endurance": 0.6,
+      "flexibility": 0.15,
+      "generalFitness": 0.7
+    },
+    "estimatedTimePerSet": 35,
+    "setupTimeSeconds": 15,
+    "homeCompatibility": 0.85,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.2
+  },
+  {
+    "name": "Hollow Body Hold",
+    "slug": "hollow-body-hold",
+    "description": "A gymnastics-derived core exercise holding a curved hollow position with arms overhead and legs extended. This anti-extension hold develops the total anterior chain tension essential for advanced movements.",
+    "instructions": [
+      "Lie on back with arms extended overhead",
+      "Press lower back firmly into floor",
+      "Lift shoulders and legs off floor simultaneously",
+      "Form a slight banana or hollow shape",
+      "Hold position while maintaining lower back contact"
+    ],
+    "category": "CALISTHENICS",
+    "movementPattern": "ANTI_EXTENSION",
+    "exerciseType": "ISOLATION",
+    "primaryMuscles": [
+      "core",
+      "rectus_abdominis"
+    ],
+    "secondaryMuscles": [
+      "hip_flexors",
+      "obliques"
+    ],
+    "muscleActivationMap": {
+      "rectus_abdominis": 0.92,
+      "transverse_abdominis": 0.85,
+      "hip_flexors": 0.6,
+      "obliques": 0.5
+    },
+    "difficultyLevel": 3,
+    "skillRequirement": 2,
+    "isBeginnerFriendly": false,
+    "equipmentRequired": [],
+    "equipmentOptional": [
+      "mat"
+    ],
+    "suitableLocations": [
+      "home",
+      "gym",
+      "outdoor"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 20,
+        "max": 40
+      },
+      "hypertrophy": {
+        "min": 30,
+        "max": 60
+      },
+      "endurance": {
+        "min": 45,
+        "max": 90
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 60,
+      "hypertrophy": 45,
+      "endurance": 30
+    },
+    "metValue": 4.5,
+    "intensityFactor": 0.62,
+    "contraindications": [
+      "lower_back_injury"
+    ],
+    "formCues": [
+      "Lower back stays flat",
+      "Arms by ears",
+      "Legs together and straight",
+      "Point toes",
+      "Breathe through position"
+    ],
+    "commonMistakes": [
+      "Lower back arching",
+      "Legs too high",
+      "Arms not overhead",
+      "Holding breath",
+      "Breaking position"
+    ],
+    "easierVariation": "tuck-hollow-hold",
+    "harderVariation": "hollow-body-rock",
+    "alternativeExercises": [
+      "dead-bug",
+      "forearm-plank",
+      "v-up"
+    ],
+    "tags": [
+      "isometric",
+      "core",
+      "anti-extension",
+      "gymnastics",
+      "calisthenics"
+    ],
+    "suitableGoals": [
+      "STRENGTH",
+      "GENERAL_FITNESS"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 1,
+      "lightlyActive": 2,
+      "moderatelyActive": 4,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 2,
+      "lessThan6Mo": 3,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.3,
+      "muscleGain": 0.55,
+      "strength": 0.75,
+      "endurance": 0.7,
+      "flexibility": 0.15,
+      "generalFitness": 0.72
+    },
+    "estimatedTimePerSet": 35,
+    "setupTimeSeconds": 5,
+    "homeCompatibility": 1.0,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.85
+  },
+  {
+    "name": "Long Lever Plank",
+    "slug": "long-lever-plank",
+    "description": "An advanced plank variation with arms extended further forward, increasing the lever arm and dramatically increasing core demand. This progression builds toward harder anti-extension exercises.",
+    "instructions": [
+      "Start in forearm plank position",
+      "Walk forearms forward 4-6 inches ahead of shoulders",
+      "Maintain rigid straight line from head to heels",
+      "Brace core maximally to resist extension",
+      "Hold position with increased lever arm"
+    ],
+    "category": "CALISTHENICS",
+    "movementPattern": "ANTI_EXTENSION",
+    "exerciseType": "ISOLATION",
+    "primaryMuscles": [
+      "core",
+      "rectus_abdominis"
+    ],
+    "secondaryMuscles": [
+      "shoulders",
+      "obliques",
+      "lats"
+    ],
+    "muscleActivationMap": {
+      "rectus_abdominis": 0.9,
+      "transverse_abdominis": 0.88,
+      "shoulders": 0.55,
+      "lats": 0.45,
+      "obliques": 0.5
+    },
+    "difficultyLevel": 3,
+    "skillRequirement": 2,
+    "isBeginnerFriendly": false,
+    "equipmentRequired": [],
+    "equipmentOptional": [
+      "mat"
+    ],
+    "suitableLocations": [
+      "home",
+      "gym",
+      "outdoor"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 20,
+        "max": 45
+      },
+      "hypertrophy": {
+        "min": 30,
+        "max": 60
+      },
+      "endurance": {
+        "min": 45,
+        "max": 90
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 75,
+      "hypertrophy": 60,
+      "endurance": 45
+    },
+    "metValue": 4.5,
+    "intensityFactor": 0.62,
+    "contraindications": [
+      "shoulder_injury",
+      "lower_back_injury"
+    ],
+    "formCues": [
+      "Arms forward of shoulders",
+      "Straight line maintained",
+      "Maximum core brace",
+      "Don't let hips sag",
+      "Breathe steadily"
+    ],
+    "commonMistakes": [
+      "Hips sagging",
+      "Arms not forward enough",
+      "Breaking form",
+      "Holding breath",
+      "Shoulder shrugging"
+    ],
+    "easierVariation": "forearm-plank",
+    "harderVariation": "body-saw",
+    "alternativeExercises": [
+      "forearm-plank",
+      "body-saw",
+      "hollow-body-hold"
+    ],
+    "tags": [
+      "isometric",
+      "core",
+      "anti-extension",
+      "plank-progression",
+      "calisthenics"
+    ],
+    "suitableGoals": [
+      "STRENGTH"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 1,
+      "lightlyActive": 2,
+      "moderatelyActive": 4,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 1,
+      "lessThan6Mo": 2,
+      "sixTo24Mo": 4,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.32,
+      "muscleGain": 0.52,
+      "strength": 0.78,
+      "endurance": 0.68,
+      "flexibility": 0.12,
+      "generalFitness": 0.7
+    },
+    "estimatedTimePerSet": 35,
+    "setupTimeSeconds": 5,
+    "homeCompatibility": 1.0,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.85
+  },
+  {
+    "name": "Weighted Plank",
+    "slug": "weighted-plank",
+    "description": "A loaded plank variation with weight placed on the back to increase resistance. This progression adds external load to the standard plank for continued strength development.",
+    "instructions": [
+      "Set up in forearm plank position",
+      "Have partner place weight plate on upper back",
+      "Alternatively use weighted vest",
+      "Maintain rigid plank position with added load",
+      "Hold for prescribed time"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "ANTI_EXTENSION",
+    "exerciseType": "ISOLATION",
+    "primaryMuscles": [
+      "core",
+      "rectus_abdominis"
+    ],
+    "secondaryMuscles": [
+      "obliques",
+      "lower_back",
+      "shoulders"
+    ],
+    "muscleActivationMap": {
+      "rectus_abdominis": 0.88,
+      "transverse_abdominis": 0.9,
+      "obliques": 0.6,
+      "lower_back": 0.55,
+      "shoulders": 0.5
+    },
+    "difficultyLevel": 3,
+    "skillRequirement": 2,
+    "isBeginnerFriendly": false,
+    "equipmentRequired": [
+      "weight_plate"
+    ],
+    "equipmentOptional": [
+      "mat",
+      "weighted_vest"
+    ],
+    "suitableLocations": [
+      "gym",
+      "home"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 30,
+        "max": 60
+      },
+      "hypertrophy": {
+        "min": 45,
+        "max": 75
+      },
+      "endurance": {
+        "min": 60,
+        "max": 120
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 90,
+      "hypertrophy": 60,
+      "endurance": 45
+    },
+    "metValue": 5.0,
+    "intensityFactor": 0.65,
+    "contraindications": [
+      "lower_back_injury",
+      "shoulder_injury"
+    ],
+    "formCues": [
+      "Weight centered on upper back",
+      "Maintain form despite load",
+      "Core braced maximally",
+      "Don't let hips sag",
+      "Breathe through position"
+    ],
+    "commonMistakes": [
+      "Weight too heavy",
+      "Losing form under load",
+      "Weight sliding",
+      "Hips dropping",
+      "Improper weight placement"
+    ],
+    "easierVariation": "forearm-plank",
+    "harderVariation": "body-saw",
+    "alternativeExercises": [
+      "long-lever-plank",
+      "body-saw",
+      "forearm-plank"
+    ],
+    "tags": [
+      "isometric",
+      "core",
+      "anti-extension",
+      "weighted",
+      "loaded"
+    ],
+    "suitableGoals": [
+      "STRENGTH",
+      "MUSCLE_GAIN"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 1,
+      "lightlyActive": 2,
+      "moderatelyActive": 4,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 1,
+      "lessThan6Mo": 2,
+      "sixTo24Mo": 4,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.35,
+      "muscleGain": 0.6,
+      "strength": 0.8,
+      "endurance": 0.65,
+      "flexibility": 0.1,
+      "generalFitness": 0.68
+    },
+    "estimatedTimePerSet": 40,
+    "setupTimeSeconds": 30,
+    "homeCompatibility": 0.7,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.3
+  },
+  {
+    "name": "Stir the Pot",
+    "slug": "stir-the-pot",
+    "description": "A dynamic stability ball plank making small circular motions with the forearms, challenging anti-extension and anti-rotation simultaneously. This exercise builds exceptional reflexive core stability.",
+    "instructions": [
+      "Place forearms on stability ball, feet on floor in plank",
+      "Maintain rigid plank position throughout",
+      "Make small circles with forearms, stirring the ball",
+      "Circle clockwise for prescribed reps",
+      "Reverse direction and repeat"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "ANTI_EXTENSION",
+    "exerciseType": "ISOLATION",
+    "primaryMuscles": [
+      "core",
+      "rectus_abdominis"
+    ],
+    "secondaryMuscles": [
+      "obliques",
+      "shoulders",
+      "lower_back"
+    ],
+    "muscleActivationMap": {
+      "rectus_abdominis": 0.88,
+      "transverse_abdominis": 0.92,
+      "obliques": 0.75,
+      "shoulders": 0.55,
+      "lower_back": 0.5
+    },
+    "difficultyLevel": 4,
+    "skillRequirement": 3,
+    "isBeginnerFriendly": false,
+    "equipmentRequired": [
+      "stability_ball"
+    ],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "gym",
+      "home"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 6,
+        "max": 10
+      },
+      "hypertrophy": {
+        "min": 10,
+        "max": 15
+      },
+      "endurance": {
+        "min": 15,
+        "max": 20
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 75,
+      "hypertrophy": 60,
+      "endurance": 45
+    },
+    "metValue": 5.0,
+    "intensityFactor": 0.72,
+    "contraindications": [
+      "lower_back_injury",
+      "shoulder_injury"
+    ],
+    "formCues": [
+      "Small controlled circles",
+      "Maintain plank position",
+      "Core braced throughout",
+      "Don't let hips rotate",
+      "Both directions equally"
+    ],
+    "commonMistakes": [
+      "Circles too big",
+      "Hips swaying",
+      "Losing plank position",
+      "Not bracing core",
+      "Rushing the movement"
+    ],
+    "easierVariation": "stability-ball-plank",
+    "harderVariation": null,
+    "alternativeExercises": [
+      "body-saw",
+      "kneeling-ab-wheel-rollout",
+      "pallof-press"
+    ],
+    "tags": [
+      "core",
+      "anti-extension",
+      "anti-rotation",
+      "stability-ball",
+      "dynamic",
+      "advanced"
+    ],
+    "suitableGoals": [
+      "STRENGTH",
+      "GENERAL_FITNESS"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 1,
+      "lightlyActive": 2,
+      "moderatelyActive": 3,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 1,
+      "lessThan6Mo": 2,
+      "sixTo24Mo": 3,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.35,
+      "muscleGain": 0.58,
+      "strength": 0.8,
+      "endurance": 0.62,
+      "flexibility": 0.15,
+      "generalFitness": 0.75
+    },
+    "estimatedTimePerSet": 35,
+    "setupTimeSeconds": 20,
+    "homeCompatibility": 0.75,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.2
+  },
+  {
+    "name": "Pallof Press",
+    "slug": "pallof-press",
+    "description": "An anti-rotation exercise pressing a cable or band handle away from the body while resisting rotational forces. This functional movement builds rotational stability essential for sports and daily activities.",
+    "instructions": [
+      "Stand perpendicular to cable machine, grab handle at chest",
+      "Step away to create tension, feet shoulder-width apart",
+      "Hold handle at chest with both hands",
+      "Press handle straight out from chest",
+      "Hold extended position, resist rotation, then return"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "ANTI_ROTATION",
+    "exerciseType": "ISOLATION",
+    "primaryMuscles": [
+      "core",
+      "obliques"
+    ],
+    "secondaryMuscles": [
+      "shoulders",
+      "rectus_abdominis"
+    ],
+    "muscleActivationMap": {
+      "obliques": 0.88,
+      "transverse_abdominis": 0.85,
+      "rectus_abdominis": 0.6,
+      "shoulders": 0.4
+    },
+    "difficultyLevel": 2,
+    "skillRequirement": 2,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [
+      "cable"
+    ],
+    "equipmentOptional": [
+      "resistance_band"
+    ],
+    "suitableLocations": [
+      "gym"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 8,
+        "max": 12
+      },
+      "hypertrophy": {
+        "min": 12,
+        "max": 16
+      },
+      "endurance": {
+        "min": 18,
+        "max": 24
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 60,
+      "hypertrophy": 45,
+      "endurance": 30
+    },
+    "metValue": 3.5,
+    "intensityFactor": 0.52,
+    "contraindications": [],
+    "formCues": [
+      "Resist rotation throughout",
+      "Press straight out",
+      "Hips and shoulders square",
+      "Core braced",
+      "Don't let cable pull you"
+    ],
+    "commonMistakes": [
+      "Rotating toward cable",
+      "Pressing at an angle",
+      "Not enough tension",
+      "Rushing the press",
+      "Feet too narrow"
+    ],
+    "easierVariation": "band-pallof-press",
+    "harderVariation": "tall-kneeling-pallof-press",
+    "alternativeExercises": [
+      "band-pallof-press",
+      "plank-shoulder-tap",
+      "bird-dog"
+    ],
+    "tags": [
+      "core",
+      "anti-rotation",
+      "cable",
+      "functional",
+      "stability",
+      "versatile"
+    ],
+    "suitableGoals": [
+      "STRENGTH",
+      "GENERAL_FITNESS"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 3,
+      "lightlyActive": 4,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 3,
+      "lessThan6Mo": 4,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.28,
+      "muscleGain": 0.55,
+      "strength": 0.72,
+      "endurance": 0.58,
+      "flexibility": 0.12,
+      "generalFitness": 0.75
+    },
+    "estimatedTimePerSet": 35,
+    "setupTimeSeconds": 20,
+    "homeCompatibility": 0.7,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.0
+  },
+  {
+    "name": "Bird Dog",
+    "slug": "bird-dog",
+    "description": "A fundamental anti-rotation and anti-extension exercise extending opposite arm and leg from a quadruped position. This safe movement builds core stability and is excellent for back health and rehab.",
+    "instructions": [
+      "Start on hands and knees, hands under shoulders, knees under hips",
+      "Brace core and maintain neutral spine",
+      "Extend right arm forward and left leg back simultaneously",
+      "Keep hips and shoulders level, don't rotate",
+      "Return to start, repeat on opposite side"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "ANTI_ROTATION",
+    "exerciseType": "ISOLATION",
+    "primaryMuscles": [
+      "core",
+      "lower_back"
+    ],
+    "secondaryMuscles": [
+      "glutes",
+      "shoulders",
+      "obliques"
+    ],
+    "muscleActivationMap": {
+      "transverse_abdominis": 0.8,
+      "erector_spinae": 0.75,
+      "glutes": 0.55,
+      "obliques": 0.5,
+      "shoulders": 0.4
+    },
+    "difficultyLevel": 1,
+    "skillRequirement": 1,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [],
+    "equipmentOptional": [
+      "mat"
+    ],
+    "suitableLocations": [
+      "home",
+      "gym",
+      "outdoor"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 8,
+        "max": 12
+      },
+      "hypertrophy": {
+        "min": 12,
+        "max": 16
+      },
+      "endurance": {
+        "min": 16,
+        "max": 24
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 45,
+      "hypertrophy": 30,
+      "endurance": 20
+    },
+    "metValue": 3.0,
+    "intensityFactor": 0.38,
+    "contraindications": [],
+    "formCues": [
+      "Opposite arm and leg",
+      "Keep hips level",
+      "Don't rotate",
+      "Neutral spine",
+      "Slow and controlled"
+    ],
+    "commonMistakes": [
+      "Hips rotating",
+      "Arching lower back",
+      "Same side arm and leg",
+      "Moving too fast",
+      "Head dropping or lifting"
+    ],
+    "easierVariation": "single-arm-bird-dog",
+    "harderVariation": "bird-dog-with-band",
+    "alternativeExercises": [
+      "dead-bug",
+      "forearm-plank",
+      "pallof-press"
+    ],
+    "tags": [
+      "core",
+      "anti-rotation",
+      "anti-extension",
+      "rehab-friendly",
+      "back-safe",
+      "beginner-friendly"
+    ],
+    "suitableGoals": [
+      "GENERAL_FITNESS",
+      "STRENGTH"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 5,
+      "lightlyActive": 5,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 4
+    },
+    "experienceLevelSuitability": {
+      "never": 5,
+      "lessThan6Mo": 5,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 4
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.22,
+      "muscleGain": 0.38,
+      "strength": 0.55,
+      "endurance": 0.52,
+      "flexibility": 0.25,
+      "generalFitness": 0.7
+    },
+    "estimatedTimePerSet": 40,
+    "setupTimeSeconds": 5,
+    "homeCompatibility": 1.0,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.85
+  },
+  {
+    "name": "Single-Arm Farmer Carry",
+    "slug": "single-arm-farmer-carry",
+    "description": "A unilateral loaded carry holding weight on one side while walking, forcing the core to resist lateral flexion. This functional anti-lateral flexion exercise builds real-world core stability and grip strength.",
+    "instructions": [
+      "Hold heavy dumbbell or kettlebell in one hand",
+      "Stand tall, shoulders level despite uneven load",
+      "Walk forward with controlled steps",
+      "Resist leaning toward or away from weight",
+      "Complete distance then switch hands"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "ANTI_ROTATION",
+    "exerciseType": "COMPOUND",
+    "primaryMuscles": [
+      "obliques",
+      "core"
+    ],
+    "secondaryMuscles": [
+      "forearms",
+      "shoulders",
+      "traps"
+    ],
+    "muscleActivationMap": {
+      "obliques": 0.85,
+      "quadratus_lumborum": 0.82,
+      "transverse_abdominis": 0.7,
+      "forearms": 0.75,
+      "traps": 0.55
+    },
+    "difficultyLevel": 2,
+    "skillRequirement": 1,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [
+      "dumbbell"
+    ],
+    "equipmentOptional": [
+      "kettlebell"
+    ],
+    "suitableLocations": [
+      "gym",
+      "home",
+      "outdoor"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 30,
+        "max": 50
+      },
+      "hypertrophy": {
+        "min": 40,
+        "max": 60
+      },
+      "endurance": {
+        "min": 60,
+        "max": 100
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 90,
+      "hypertrophy": 60,
+      "endurance": 45
+    },
+    "metValue": 5.0,
+    "intensityFactor": 0.58,
+    "contraindications": [
+      "shoulder_injury"
+    ],
+    "formCues": [
+      "Stay upright, don't lean",
+      "Shoulders level",
+      "Core braced throughout",
+      "Controlled steady steps",
+      "Heavy weight for challenge"
+    ],
+    "commonMistakes": [
+      "Leaning away from weight",
+      "Shoulder hiking",
+      "Walking too fast",
+      "Weight too light",
+      "Uneven steps"
+    ],
+    "easierVariation": "two-arm-farmer-carry",
+    "harderVariation": "overhead-carry",
+    "alternativeExercises": [
+      "suitcase-deadlift",
+      "side-plank",
+      "pallof-press"
+    ],
+    "tags": [
+      "core",
+      "anti-lateral-flexion",
+      "loaded-carry",
+      "functional",
+      "grip-strength"
+    ],
+    "suitableGoals": [
+      "STRENGTH",
+      "GENERAL_FITNESS"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 3,
+      "lightlyActive": 4,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 4,
+      "lessThan6Mo": 5,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.45,
+      "muscleGain": 0.55,
+      "strength": 0.72,
+      "endurance": 0.65,
+      "flexibility": 0.1,
+      "generalFitness": 0.8
+    },
+    "estimatedTimePerSet": 45,
+    "setupTimeSeconds": 10,
+    "homeCompatibility": 0.8,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.9
+  },
+  {
+    "name": "Renegade Row",
+    "slug": "renegade-row",
+    "description": "A combination plank and row exercise alternating rowing dumbbells while maintaining a rigid plank position. This anti-rotation movement challenges core stability under dynamic loading.",
+    "instructions": [
+      "Start in high plank with hands on dumbbells, feet wide",
+      "Maintain rigid plank position throughout",
+      "Row one dumbbell to hip while pressing other into floor",
+      "Lower with control, keeping hips square",
+      "Alternate sides with each rep"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "ANTI_ROTATION",
+    "exerciseType": "COMPOUND",
+    "primaryMuscles": [
+      "core",
+      "back"
+    ],
+    "secondaryMuscles": [
+      "obliques",
+      "biceps",
+      "shoulders"
+    ],
+    "muscleActivationMap": {
+      "transverse_abdominis": 0.85,
+      "obliques": 0.8,
+      "lats": 0.75,
+      "biceps": 0.5,
+      "shoulders": 0.55
+    },
+    "difficultyLevel": 4,
+    "skillRequirement": 3,
+    "isBeginnerFriendly": false,
+    "equipmentRequired": [
+      "dumbbell"
+    ],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "gym",
+      "home"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 6,
+        "max": 10
+      },
+      "hypertrophy": {
+        "min": 10,
+        "max": 16
+      },
+      "endurance": {
+        "min": 18,
+        "max": 24
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 90,
+      "hypertrophy": 60,
+      "endurance": 45
+    },
+    "metValue": 6.0,
+    "intensityFactor": 0.72,
+    "contraindications": [
+      "wrist_injury",
+      "shoulder_injury",
+      "lower_back_injury"
+    ],
+    "formCues": [
+      "Wide foot stance for stability",
+      "Hips stay level",
+      "Don't rotate on row",
+      "Row to hip",
+      "Core braced always"
+    ],
+    "commonMistakes": [
+      "Hips rotating",
+      "Feet too narrow",
+      "Rushing rows",
+      "Losing plank position",
+      "Weight too heavy"
+    ],
+    "easierVariation": "plank-shoulder-tap",
+    "harderVariation": "weighted-renegade-row",
+    "alternativeExercises": [
+      "plank-shoulder-tap",
+      "pallof-press",
+      "dead-bug"
+    ],
+    "tags": [
+      "core",
+      "anti-rotation",
+      "compound",
+      "dumbbell",
+      "advanced",
+      "full-body"
+    ],
+    "suitableGoals": [
+      "STRENGTH",
+      "MUSCLE_GAIN"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 1,
+      "lightlyActive": 2,
+      "moderatelyActive": 3,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 1,
+      "lessThan6Mo": 2,
+      "sixTo24Mo": 3,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.5,
+      "muscleGain": 0.7,
+      "strength": 0.78,
+      "endurance": 0.55,
+      "flexibility": 0.12,
+      "generalFitness": 0.75
+    },
+    "estimatedTimePerSet": 40,
+    "setupTimeSeconds": 15,
+    "homeCompatibility": 0.85,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.4
+  },
+  {
+    "name": "Plank with Shoulder Tap",
+    "slug": "plank-shoulder-tap",
+    "description": "A dynamic plank variation tapping each shoulder alternately while resisting hip rotation. This anti-rotation exercise progresses the basic plank by adding movement and instability.",
+    "instructions": [
+      "Start in high plank position, hands under shoulders",
+      "Feet wider than hip-width for stability",
+      "Lift one hand to tap opposite shoulder",
+      "Keep hips square, don't rotate",
+      "Return hand, alternate sides"
+    ],
+    "category": "CALISTHENICS",
+    "movementPattern": "ANTI_ROTATION",
+    "exerciseType": "ISOLATION",
+    "primaryMuscles": [
+      "core",
+      "obliques"
+    ],
+    "secondaryMuscles": [
+      "shoulders",
+      "rectus_abdominis"
+    ],
+    "muscleActivationMap": {
+      "transverse_abdominis": 0.82,
+      "obliques": 0.78,
+      "rectus_abdominis": 0.65,
+      "shoulders": 0.55
+    },
+    "difficultyLevel": 2,
+    "skillRequirement": 2,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [],
+    "equipmentOptional": [
+      "mat"
+    ],
+    "suitableLocations": [
+      "home",
+      "gym",
+      "outdoor"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 10,
+        "max": 16
+      },
+      "hypertrophy": {
+        "min": 16,
+        "max": 24
+      },
+      "endurance": {
+        "min": 24,
+        "max": 40
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 60,
+      "hypertrophy": 45,
+      "endurance": 30
+    },
+    "metValue": 4.5,
+    "intensityFactor": 0.55,
+    "contraindications": [
+      "wrist_injury",
+      "shoulder_injury"
+    ],
+    "formCues": [
+      "Wide foot stance",
+      "Hips stay level",
+      "Quick controlled taps",
+      "Don't rotate",
+      "Core braced throughout"
+    ],
+    "commonMistakes": [
+      "Hips rotating",
+      "Feet too narrow",
+      "Rushing taps",
+      "Losing plank form",
+      "Head dropping"
+    ],
+    "easierVariation": "forearm-plank",
+    "harderVariation": "renegade-row",
+    "alternativeExercises": [
+      "forearm-plank",
+      "bird-dog",
+      "pallof-press"
+    ],
+    "tags": [
+      "core",
+      "anti-rotation",
+      "dynamic",
+      "calisthenics",
+      "plank-variation"
+    ],
+    "suitableGoals": [
+      "STRENGTH",
+      "GENERAL_FITNESS"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 2,
+      "lightlyActive": 3,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 3,
+      "lessThan6Mo": 4,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.35,
+      "muscleGain": 0.5,
+      "strength": 0.68,
+      "endurance": 0.65,
+      "flexibility": 0.12,
+      "generalFitness": 0.75
+    },
+    "estimatedTimePerSet": 35,
+    "setupTimeSeconds": 5,
+    "homeCompatibility": 1.0,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.9
+  },
+  {
+    "name": "Anti-Rotation Press",
+    "slug": "anti-rotation-press",
+    "description": "A half-kneeling anti-rotation exercise pressing weight or cable away from the body while resisting rotational forces. This position emphasizes hip and core stability in a split stance commonly used in sports.",
+    "instructions": [
+      "Kneel in half-kneeling position perpendicular to cable or band anchor",
+      "Inside knee down, outside foot planted",
+      "Hold handle at chest with both hands",
+      "Press straight out while resisting rotation",
+      "Hold extended position, return with control, then switch sides"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "ANTI_ROTATION",
+    "exerciseType": "ISOLATION",
+    "primaryMuscles": [
+      "core",
+      "obliques"
+    ],
+    "secondaryMuscles": [
+      "glutes",
+      "hip_flexors",
+      "shoulders"
+    ],
+    "muscleActivationMap": {
+      "obliques": 0.9,
+      "transverse_abdominis": 0.88,
+      "glutes": 0.55,
+      "hip_flexors": 0.5,
+      "shoulders": 0.4
+    },
+    "difficultyLevel": 2,
+    "skillRequirement": 2,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [
+      "cable"
+    ],
+    "equipmentOptional": [
+      "resistance_band"
+    ],
+    "suitableLocations": [
+      "gym",
+      "home"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 8,
+        "max": 12
+      },
+      "hypertrophy": {
+        "min": 12,
+        "max": 16
+      },
+      "endurance": {
+        "min": 18,
+        "max": 24
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 60,
+      "hypertrophy": 45,
+      "endurance": 30
+    },
+    "metValue": 3.5,
+    "intensityFactor": 0.55,
+    "contraindications": [
+      "knee_injury"
+    ],
+    "formCues": [
+      "Half-kneeling position stable",
+      "Resist rotation throughout",
+      "Press straight forward",
+      "Hips stay square",
+      "Core braced"
+    ],
+    "commonMistakes": [
+      "Rotating toward cable",
+      "Unstable kneeling position",
+      "Pressing at angle",
+      "Hip shifting",
+      "Rushing movement"
+    ],
+    "easierVariation": "band-pallof-press",
+    "harderVariation": "standing-anti-rotation-press",
+    "alternativeExercises": [
+      "cable-pallof-press",
+      "bird-dog",
+      "plank-shoulder-tap"
+    ],
+    "tags": [
+      "core",
+      "anti-rotation",
+      "cable",
+      "half-kneeling",
+      "functional",
+      "athletic"
+    ],
+    "suitableGoals": [
+      "STRENGTH",
+      "GENERAL_FITNESS"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 3,
+      "lightlyActive": 4,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 3,
+      "lessThan6Mo": 4,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.3,
+      "muscleGain": 0.55,
+      "strength": 0.72,
+      "endurance": 0.55,
+      "flexibility": 0.15,
+      "generalFitness": 0.75
+    },
+    "estimatedTimePerSet": 35,
+    "setupTimeSeconds": 20,
+    "homeCompatibility": 0.6,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.3
+  },
+  {
+    "name": "Crunch",
+    "slug": "crunch",
+    "description": "The classic abdominal flexion exercise curling the upper spine off the floor to contract the rectus abdominis. This isolation movement targets the upper abs through a short range of motion.",
+    "instructions": [
+      "Lie on back with knees bent, feet flat on floor",
+      "Place hands behind head or across chest",
+      "Contract abs to curl shoulders off floor",
+      "Lift shoulder blades, keeping lower back on floor",
+      "Lower with control to starting position"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "FLEXION",
+    "exerciseType": "ISOLATION",
+    "primaryMuscles": [
+      "rectus_abdominis"
+    ],
+    "secondaryMuscles": [
+      "obliques"
+    ],
+    "muscleActivationMap": {
+      "rectus_abdominis": 0.85,
+      "obliques": 0.35
+    },
+    "difficultyLevel": 1,
+    "skillRequirement": 1,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [],
+    "equipmentOptional": [
+      "mat"
+    ],
+    "suitableLocations": [
+      "home",
+      "gym",
+      "outdoor"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 15,
+        "max": 20
+      },
+      "hypertrophy": {
+        "min": 20,
+        "max": 30
+      },
+      "endurance": {
+        "min": 35,
+        "max": 50
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 45,
+      "hypertrophy": 30,
+      "endurance": 20
+    },
+    "metValue": 3.5,
+    "intensityFactor": 0.4,
+    "contraindications": [
+      "lower_back_injury",
+      "neck_injury"
+    ],
+    "formCues": [
+      "Don't pull on neck",
+      "Lower back stays on floor",
+      "Curl up, don't sit up",
+      "Control the movement",
+      "Exhale on the way up"
+    ],
+    "commonMistakes": [
+      "Pulling on neck",
+      "Using momentum",
+      "Coming up too high",
+      "Lower back lifting",
+      "Rushing reps"
+    ],
+    "easierVariation": null,
+    "harderVariation": "weighted-crunch",
+    "alternativeExercises": [
+      "bicycle-crunch",
+      "cable-crunch",
+      "v-up"
+    ],
+    "tags": [
+      "core",
+      "flexion",
+      "abs",
+      "isolation",
+      "fundamental",
+      "beginner-friendly"
+    ],
+    "suitableGoals": [
+      "MUSCLE_GAIN",
+      "GENERAL_FITNESS"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 4,
+      "lightlyActive": 5,
+      "moderatelyActive": 5,
+      "veryActive": 4,
+      "athlete": 3
+    },
+    "experienceLevelSuitability": {
+      "never": 5,
+      "lessThan6Mo": 5,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 4,
+      "fivePlusYr": 3
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.2,
+      "muscleGain": 0.6,
+      "strength": 0.5,
+      "endurance": 0.55,
+      "flexibility": 0.1,
+      "generalFitness": 0.55
+    },
+    "estimatedTimePerSet": 30,
+    "setupTimeSeconds": 5,
+    "homeCompatibility": 1.0,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.85
+  },
+  {
+    "name": "Bicycle Crunch",
+    "slug": "bicycle-crunch",
+    "description": "A dynamic crunch alternating elbow to opposite knee in a cycling motion, targeting both rectus abdominis and obliques. This combined flexion and rotation movement provides comprehensive ab training.",
+    "instructions": [
+      "Lie on back, hands behind head, legs lifted",
+      "Bring right elbow toward left knee while extending right leg",
+      "Rotate through the movement, engaging obliques",
+      "Switch sides in continuous cycling motion",
+      "Keep shoulder blades off floor throughout"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "FLEXION",
+    "exerciseType": "ISOLATION",
+    "primaryMuscles": [
+      "rectus_abdominis",
+      "obliques"
+    ],
+    "secondaryMuscles": [
+      "hip_flexors"
+    ],
+    "muscleActivationMap": {
+      "rectus_abdominis": 0.88,
+      "obliques": 0.82,
+      "hip_flexors": 0.55
+    },
+    "difficultyLevel": 2,
+    "skillRequirement": 2,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [],
+    "equipmentOptional": [
+      "mat"
+    ],
+    "suitableLocations": [
+      "home",
+      "gym",
+      "outdoor"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 12,
+        "max": 20
+      },
+      "hypertrophy": {
+        "min": 20,
+        "max": 30
+      },
+      "endurance": {
+        "min": 30,
+        "max": 50
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 45,
+      "hypertrophy": 30,
+      "endurance": 20
+    },
+    "metValue": 4.0,
+    "intensityFactor": 0.52,
+    "contraindications": [
+      "lower_back_injury",
+      "neck_injury"
+    ],
+    "formCues": [
+      "Rotate through the core",
+      "Elbow to opposite knee",
+      "Keep shoulders off floor",
+      "Extend legs fully",
+      "Controlled rhythm"
+    ],
+    "commonMistakes": [
+      "Moving too fast",
+      "Pulling on neck",
+      "Shallow rotations",
+      "Legs not extending",
+      "Dropping shoulders"
+    ],
+    "easierVariation": "crunch",
+    "harderVariation": "v-up",
+    "alternativeExercises": [
+      "crunch",
+      "russian-twist",
+      "cable-crunch"
+    ],
+    "tags": [
+      "core",
+      "flexion",
+      "rotation",
+      "abs",
+      "obliques",
+      "dynamic"
+    ],
+    "suitableGoals": [
+      "MUSCLE_GAIN",
+      "GENERAL_FITNESS"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 3,
+      "lightlyActive": 4,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 4,
+      "lessThan6Mo": 5,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.35,
+      "muscleGain": 0.65,
+      "strength": 0.55,
+      "endurance": 0.65,
+      "flexibility": 0.15,
+      "generalFitness": 0.7
+    },
+    "estimatedTimePerSet": 35,
+    "setupTimeSeconds": 5,
+    "homeCompatibility": 1.0,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.85
+  },
+  {
+    "name": "Reverse Crunch",
+    "slug": "reverse-crunch",
+    "description": "An abdominal flexion exercise lifting the hips and pelvis toward the ribcage rather than curling the upper body down. This lower-ab emphasis variation builds strength through hip flexion with spinal flexion.",
+    "instructions": [
+      "Lie on back with arms at sides, palms down",
+      "Lift legs to 90 degrees at hips and knees",
+      "Contract lower abs to curl pelvis toward chest",
+      "Lift hips off floor, bringing knees toward face",
+      "Lower with control to starting position"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "FLEXION",
+    "exerciseType": "ISOLATION",
+    "primaryMuscles": [
+      "rectus_abdominis"
+    ],
+    "secondaryMuscles": [
+      "hip_flexors",
+      "obliques"
+    ],
+    "muscleActivationMap": {
+      "rectus_abdominis": 0.88,
+      "hip_flexors": 0.5,
+      "obliques": 0.4
+    },
+    "difficultyLevel": 2,
+    "skillRequirement": 2,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [],
+    "equipmentOptional": [
+      "mat"
+    ],
+    "suitableLocations": [
+      "home",
+      "gym",
+      "outdoor"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 12,
+        "max": 18
+      },
+      "hypertrophy": {
+        "min": 18,
+        "max": 25
+      },
+      "endurance": {
+        "min": 25,
+        "max": 40
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 45,
+      "hypertrophy": 30,
+      "endurance": 20
+    },
+    "metValue": 3.5,
+    "intensityFactor": 0.48,
+    "contraindications": [
+      "lower_back_injury"
+    ],
+    "formCues": [
+      "Curl pelvis toward ribs",
+      "Lift hips off floor",
+      "Control the descent",
+      "Don't swing legs",
+      "Use abs not momentum"
+    ],
+    "commonMistakes": [
+      "Using momentum",
+      "Not lifting hips",
+      "Swinging legs",
+      "Going too fast",
+      "Arching lower back"
+    ],
+    "easierVariation": "crunch",
+    "harderVariation": "hanging-leg-raise",
+    "alternativeExercises": [
+      "lying-leg-raise",
+      "hanging-knee-raise",
+      "v-up"
+    ],
+    "tags": [
+      "core",
+      "flexion",
+      "abs",
+      "lower-abs",
+      "isolation"
+    ],
+    "suitableGoals": [
+      "MUSCLE_GAIN",
+      "GENERAL_FITNESS"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 3,
+      "lightlyActive": 4,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 4,
+      "lessThan6Mo": 5,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.25,
+      "muscleGain": 0.65,
+      "strength": 0.58,
+      "endurance": 0.55,
+      "flexibility": 0.15,
+      "generalFitness": 0.62
+    },
+    "estimatedTimePerSet": 30,
+    "setupTimeSeconds": 5,
+    "homeCompatibility": 1.0,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.85
+  },
+  {
+    "name": "Hanging Leg Raise",
+    "slug": "hanging-leg-raise",
+    "description": "An advanced abdominal flexion exercise raising legs while hanging from a bar, challenging grip and abs simultaneously. This exercise provides intense lower ab activation through a large range of motion.",
+    "instructions": [
+      "Hang from pull-up bar with overhand grip",
+      "Start with legs straight, body in dead hang",
+      "Contract abs to lift legs toward bar",
+      "Raise until legs parallel to floor or higher",
+      "Lower with control to full extension"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "FLEXION",
+    "exerciseType": "ISOLATION",
+    "primaryMuscles": [
+      "rectus_abdominis",
+      "hip_flexors"
+    ],
+    "secondaryMuscles": [
+      "obliques",
+      "forearms"
+    ],
+    "muscleActivationMap": {
+      "rectus_abdominis": 0.92,
+      "hip_flexors": 0.75,
+      "obliques": 0.5,
+      "forearms": 0.6
+    },
+    "difficultyLevel": 4,
+    "skillRequirement": 3,
+    "isBeginnerFriendly": false,
+    "equipmentRequired": [
+      "pull_up_bar"
+    ],
+    "equipmentOptional": [
+      "ab_straps"
+    ],
+    "suitableLocations": [
+      "gym",
+      "home",
+      "outdoor"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 6,
+        "max": 10
+      },
+      "hypertrophy": {
+        "min": 10,
+        "max": 15
+      },
+      "endurance": {
+        "min": 15,
+        "max": 25
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 90,
+      "hypertrophy": 60,
+      "endurance": 45
+    },
+    "metValue": 5.5,
+    "intensityFactor": 0.75,
+    "contraindications": [
+      "lower_back_injury",
+      "shoulder_injury"
+    ],
+    "formCues": [
+      "Straight legs if possible",
+      "Control the swing",
+      "Lift with abs not momentum",
+      "Full extension at bottom",
+      "Don't kip"
+    ],
+    "commonMistakes": [
+      "Swinging wildly",
+      "Using momentum",
+      "Bending knees too much",
+      "Not controlling descent",
+      "Grip failing first"
+    ],
+    "easierVariation": "hanging-knee-raise",
+    "harderVariation": "toes-to-bar",
+    "alternativeExercises": [
+      "lying-leg-raise",
+      "reverse-crunch",
+      "captain-chair-leg-raise"
+    ],
+    "tags": [
+      "core",
+      "flexion",
+      "abs",
+      "hanging",
+      "advanced",
+      "grip-intensive"
+    ],
+    "suitableGoals": [
+      "STRENGTH",
+      "MUSCLE_GAIN"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 1,
+      "lightlyActive": 2,
+      "moderatelyActive": 3,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 1,
+      "lessThan6Mo": 2,
+      "sixTo24Mo": 3,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.35,
+      "muscleGain": 0.78,
+      "strength": 0.82,
+      "endurance": 0.55,
+      "flexibility": 0.2,
+      "generalFitness": 0.7
+    },
+    "estimatedTimePerSet": 40,
+    "setupTimeSeconds": 10,
+    "homeCompatibility": 0.7,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.6
+  },
+  {
+    "name": "Lying Leg Raise",
+    "slug": "lying-leg-raise",
+    "description": "An abdominal flexion exercise raising straight legs while lying on the floor. This exercise emphasizes the lower abdominals and hip flexors through controlled hip flexion.",
+    "instructions": [
+      "Lie flat on back, legs straight, hands under hips for support",
+      "Keep lower back pressed into floor",
+      "Raise straight legs until perpendicular to floor",
+      "Lower legs slowly, keeping them straight",
+      "Stop just before feet touch floor and repeat"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "FLEXION",
+    "exerciseType": "ISOLATION",
+    "primaryMuscles": [
+      "rectus_abdominis",
+      "hip_flexors"
+    ],
+    "secondaryMuscles": [
+      "obliques"
+    ],
+    "muscleActivationMap": {
+      "rectus_abdominis": 0.85,
+      "hip_flexors": 0.72,
+      "obliques": 0.4
+    },
+    "difficultyLevel": 2,
+    "skillRequirement": 2,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [],
+    "equipmentOptional": [
+      "mat"
+    ],
+    "suitableLocations": [
+      "home",
+      "gym",
+      "outdoor"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 10,
+        "max": 15
+      },
+      "hypertrophy": {
+        "min": 15,
+        "max": 25
+      },
+      "endurance": {
+        "min": 25,
+        "max": 40
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 45,
+      "hypertrophy": 30,
+      "endurance": 20
+    },
+    "metValue": 4.0,
+    "intensityFactor": 0.52,
+    "contraindications": [
+      "lower_back_injury"
+    ],
+    "formCues": [
+      "Keep legs straight",
+      "Lower back stays flat",
+      "Control the descent",
+      "Don't touch floor between reps",
+      "Breathe throughout"
+    ],
+    "commonMistakes": [
+      "Lower back arching",
+      "Bending knees",
+      "Using momentum",
+      "Dropping legs",
+      "Holding breath"
+    ],
+    "easierVariation": "bent-knee-leg-raise",
+    "harderVariation": "hanging-leg-raise",
+    "alternativeExercises": [
+      "reverse-crunch",
+      "hanging-knee-raise",
+      "v-up"
+    ],
+    "tags": [
+      "core",
+      "flexion",
+      "abs",
+      "lower-abs",
+      "hip-flexors"
+    ],
+    "suitableGoals": [
+      "MUSCLE_GAIN",
+      "GENERAL_FITNESS"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 3,
+      "lightlyActive": 4,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 3,
+      "lessThan6Mo": 4,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.28,
+      "muscleGain": 0.68,
+      "strength": 0.6,
+      "endurance": 0.58,
+      "flexibility": 0.18,
+      "generalFitness": 0.65
+    },
+    "estimatedTimePerSet": 35,
+    "setupTimeSeconds": 5,
+    "homeCompatibility": 1.0,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.85
+  },
+  {
+    "name": "V-Up",
+    "slug": "v-up",
+    "description": "A full-body abdominal exercise simultaneously lifting torso and legs to touch hands to feet in a V position. This challenging flexion movement requires significant core strength and coordination.",
+    "instructions": [
+      "Lie flat on back with arms extended overhead",
+      "Keep legs straight, press lower back into floor",
+      "Simultaneously lift upper body and legs",
+      "Reach hands toward feet at top, forming V shape",
+      "Lower with control to starting position"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "FLEXION",
+    "exerciseType": "ISOLATION",
+    "primaryMuscles": [
+      "rectus_abdominis"
+    ],
+    "secondaryMuscles": [
+      "hip_flexors",
+      "obliques"
+    ],
+    "muscleActivationMap": {
+      "rectus_abdominis": 0.92,
+      "hip_flexors": 0.68,
+      "obliques": 0.45
+    },
+    "difficultyLevel": 3,
+    "skillRequirement": 3,
+    "isBeginnerFriendly": false,
+    "equipmentRequired": [],
+    "equipmentOptional": [
+      "mat"
+    ],
+    "suitableLocations": [
+      "home",
+      "gym",
+      "outdoor"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 8,
+        "max": 12
+      },
+      "hypertrophy": {
+        "min": 12,
+        "max": 20
+      },
+      "endurance": {
+        "min": 20,
+        "max": 35
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 60,
+      "hypertrophy": 45,
+      "endurance": 30
+    },
+    "metValue": 5.0,
+    "intensityFactor": 0.65,
+    "contraindications": [
+      "lower_back_injury",
+      "neck_injury"
+    ],
+    "formCues": [
+      "Arms and legs lift together",
+      "Meet at the top",
+      "Control the descent",
+      "Keep legs straight",
+      "Don't strain neck"
+    ],
+    "commonMistakes": [
+      "Bending knees",
+      "Using momentum",
+      "Not touching feet",
+      "Flopping down",
+      "Arching back"
+    ],
+    "easierVariation": "crunch",
+    "harderVariation": "weighted-v-up",
+    "alternativeExercises": [
+      "bicycle-crunch",
+      "hanging-leg-raise",
+      "toe-touch"
+    ],
+    "tags": [
+      "core",
+      "flexion",
+      "abs",
+      "full-body",
+      "coordination",
+      "challenging"
+    ],
+    "suitableGoals": [
+      "MUSCLE_GAIN",
+      "STRENGTH"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 1,
+      "lightlyActive": 2,
+      "moderatelyActive": 4,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 2,
+      "lessThan6Mo": 3,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.35,
+      "muscleGain": 0.72,
+      "strength": 0.7,
+      "endurance": 0.58,
+      "flexibility": 0.2,
+      "generalFitness": 0.68
+    },
+    "estimatedTimePerSet": 35,
+    "setupTimeSeconds": 5,
+    "homeCompatibility": 1.0,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.85
+  },
+  {
+    "name": "Toe Touch",
+    "slug": "toe-touch",
+    "description": "A crunch variation reaching straight up to touch toes with legs extended vertically. This upper ab focused movement provides a good range of motion for abdominal flexion.",
+    "instructions": [
+      "Lie on back with legs extended straight up toward ceiling",
+      "Arms extended toward ceiling as well",
+      "Crunch up, reaching hands toward toes",
+      "Lift shoulder blades off floor, touch or reach for toes",
+      "Lower with control to starting position"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "FLEXION",
+    "exerciseType": "ISOLATION",
+    "primaryMuscles": [
+      "rectus_abdominis"
+    ],
+    "secondaryMuscles": [
+      "obliques"
+    ],
+    "muscleActivationMap": {
+      "rectus_abdominis": 0.85,
+      "obliques": 0.4
+    },
+    "difficultyLevel": 2,
+    "skillRequirement": 2,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [],
+    "equipmentOptional": [
+      "mat"
+    ],
+    "suitableLocations": [
+      "home",
+      "gym",
+      "outdoor"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 12,
+        "max": 18
+      },
+      "hypertrophy": {
+        "min": 18,
+        "max": 28
+      },
+      "endurance": {
+        "min": 30,
+        "max": 45
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 45,
+      "hypertrophy": 30,
+      "endurance": 20
+    },
+    "metValue": 3.5,
+    "intensityFactor": 0.48,
+    "contraindications": [
+      "lower_back_injury",
+      "neck_injury"
+    ],
+    "formCues": [
+      "Legs stay vertical",
+      "Reach for toes each rep",
+      "Shoulders lift off floor",
+      "Control the movement",
+      "Exhale on the way up"
+    ],
+    "commonMistakes": [
+      "Legs dropping forward",
+      "Not reaching fully",
+      "Using momentum",
+      "Straining neck",
+      "Shallow reps"
+    ],
+    "easierVariation": "crunch",
+    "harderVariation": "v-up",
+    "alternativeExercises": [
+      "crunch",
+      "v-up",
+      "bicycle-crunch"
+    ],
+    "tags": [
+      "core",
+      "flexion",
+      "abs",
+      "upper-abs",
+      "isolation"
+    ],
+    "suitableGoals": [
+      "MUSCLE_GAIN",
+      "GENERAL_FITNESS"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 3,
+      "lightlyActive": 4,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 4,
+      "lessThan6Mo": 5,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.25,
+      "muscleGain": 0.62,
+      "strength": 0.55,
+      "endurance": 0.55,
+      "flexibility": 0.18,
+      "generalFitness": 0.6
+    },
+    "estimatedTimePerSet": 30,
+    "setupTimeSeconds": 5,
+    "homeCompatibility": 1.0,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.85
+  },
+  {
+    "name": "Cable Crunch",
+    "slug": "cable-crunch",
+    "description": "A weighted abdominal flexion exercise kneeling before a cable and crunching downward against resistance. This loaded movement allows progressive overload for ab strength and hypertrophy.",
+    "instructions": [
+      "Kneel facing cable machine, rope attachment overhead",
+      "Hold rope behind head or at sides of face",
+      "Crunch down, bringing elbows toward knees",
+      "Focus on spinal flexion, not hip flexion",
+      "Return to starting position with control"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "FLEXION",
+    "exerciseType": "ISOLATION",
+    "primaryMuscles": [
+      "rectus_abdominis"
+    ],
+    "secondaryMuscles": [
+      "obliques"
+    ],
+    "muscleActivationMap": {
+      "rectus_abdominis": 0.92,
+      "obliques": 0.45
+    },
+    "difficultyLevel": 2,
+    "skillRequirement": 2,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [
+      "cable"
+    ],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "gym"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 10,
+        "max": 15
+      },
+      "hypertrophy": {
+        "min": 15,
+        "max": 20
+      },
+      "endurance": {
+        "min": 22,
+        "max": 30
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 60,
+      "hypertrophy": 45,
+      "endurance": 30
+    },
+    "metValue": 4.0,
+    "intensityFactor": 0.55,
+    "contraindications": [
+      "lower_back_injury",
+      "neck_injury"
+    ],
+    "formCues": [
+      "Curl spine, don't just bow",
+      "Elbows toward knees",
+      "Focus on ab contraction",
+      "Control the return",
+      "Don't use hip flexion"
+    ],
+    "commonMistakes": [
+      "Just bending at hips",
+      "Using arms too much",
+      "Going too heavy",
+      "Neck strain",
+      "Losing cable tension"
+    ],
+    "easierVariation": "crunch",
+    "harderVariation": null,
+    "alternativeExercises": [
+      "crunch",
+      "v-up",
+      "hanging-leg-raise"
+    ],
+    "tags": [
+      "core",
+      "flexion",
+      "abs",
+      "cable",
+      "weighted",
+      "progressive-overload"
+    ],
+    "suitableGoals": [
+      "MUSCLE_GAIN",
+      "STRENGTH"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 2,
+      "lightlyActive": 3,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 3,
+      "lessThan6Mo": 4,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.28,
+      "muscleGain": 0.78,
+      "strength": 0.72,
+      "endurance": 0.52,
+      "flexibility": 0.1,
+      "generalFitness": 0.62
+    },
+    "estimatedTimePerSet": 35,
+    "setupTimeSeconds": 20,
+    "homeCompatibility": 0.1,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.0
+  },
+  {
+    "name": "Russian Twist",
+    "slug": "russian-twist",
+    "description": "A seated rotational core exercise twisting side to side with or without weight. This classic rotation movement targets the obliques through loaded spinal rotation.",
+    "instructions": [
+      "Sit with knees bent, lean back to engage core",
+      "Lift feet off floor slightly, or keep planted for easier version",
+      "Hold weight at chest or clasp hands together",
+      "Rotate torso to one side, touching weight to floor",
+      "Rotate to other side, alternating continuously"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "ROTATION",
+    "exerciseType": "ISOLATION",
+    "primaryMuscles": [
+      "obliques"
+    ],
+    "secondaryMuscles": [
+      "rectus_abdominis",
+      "hip_flexors"
+    ],
+    "muscleActivationMap": {
+      "obliques": 0.88,
+      "rectus_abdominis": 0.6,
+      "hip_flexors": 0.45
+    },
+    "difficultyLevel": 2,
+    "skillRequirement": 2,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [],
+    "equipmentOptional": [
+      "dumbbell",
+      "medicine_ball",
+      "weight_plate"
+    ],
+    "suitableLocations": [
+      "home",
+      "gym",
+      "outdoor"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 12,
+        "max": 20
+      },
+      "hypertrophy": {
+        "min": 20,
+        "max": 30
+      },
+      "endurance": {
+        "min": 30,
+        "max": 50
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 45,
+      "hypertrophy": 30,
+      "endurance": 20
+    },
+    "metValue": 4.0,
+    "intensityFactor": 0.52,
+    "contraindications": [
+      "lower_back_injury"
+    ],
+    "formCues": [
+      "Rotate through torso",
+      "Touch weight to floor each side",
+      "Keep chest up",
+      "Control the rotation",
+      "Feet can be up or down"
+    ],
+    "commonMistakes": [
+      "Just moving arms",
+      "Not rotating fully",
+      "Rounding back excessively",
+      "Moving too fast",
+      "Holding breath"
+    ],
+    "easierVariation": "seated-twist",
+    "harderVariation": "weighted-russian-twist",
+    "alternativeExercises": [
+      "bicycle-crunch",
+      "cable-woodchop",
+      "landmine-rotation"
+    ],
+    "tags": [
+      "core",
+      "rotation",
+      "obliques",
+      "dynamic",
+      "versatile"
+    ],
+    "suitableGoals": [
+      "MUSCLE_GAIN",
+      "GENERAL_FITNESS"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 3,
+      "lightlyActive": 4,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 4,
+      "lessThan6Mo": 5,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.32,
+      "muscleGain": 0.65,
+      "strength": 0.58,
+      "endurance": 0.62,
+      "flexibility": 0.2,
+      "generalFitness": 0.68
+    },
+    "estimatedTimePerSet": 35,
+    "setupTimeSeconds": 5,
+    "homeCompatibility": 1.0,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.85
+  },
+  {
+    "name": "Cable Woodchop",
+    "slug": "cable-woodchop",
+    "description": "A rotational core exercise pulling a cable diagonally across the body from high to low or low to high. This functional movement trains the diagonal sling patterns used in athletics and daily life.",
+    "instructions": [
+      "Stand perpendicular to cable machine, cable at high or low position",
+      "Grip handle with both hands, arms extended",
+      "Rotate torso, pulling cable diagonally across body",
+      "Keep arms relatively straight, rotate through hips and core",
+      "Return with control, complete reps then switch sides"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "ROTATION",
+    "exerciseType": "ISOLATION",
+    "primaryMuscles": [
+      "obliques"
+    ],
+    "secondaryMuscles": [
+      "rectus_abdominis",
+      "shoulders",
+      "hip_rotators"
+    ],
+    "muscleActivationMap": {
+      "obliques": 0.88,
+      "transverse_abdominis": 0.7,
+      "rectus_abdominis": 0.55,
+      "shoulders": 0.45
+    },
+    "difficultyLevel": 2,
+    "skillRequirement": 2,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [
+      "cable"
+    ],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "gym"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 10,
+        "max": 15
+      },
+      "hypertrophy": {
+        "min": 15,
+        "max": 20
+      },
+      "endurance": {
+        "min": 20,
+        "max": 30
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 60,
+      "hypertrophy": 45,
+      "endurance": 30
+    },
+    "metValue": 4.5,
+    "intensityFactor": 0.55,
+    "contraindications": [
+      "lower_back_injury"
+    ],
+    "formCues": [
+      "Rotate through core",
+      "Arms stay relatively straight",
+      "Full rotation each rep",
+      "Control the return",
+      "Hip rotation contributes"
+    ],
+    "commonMistakes": [
+      "Just using arms",
+      "Not rotating fully",
+      "Using too much weight",
+      "Rushing the movement",
+      "Poor stance"
+    ],
+    "easierVariation": "band-woodchop",
+    "harderVariation": "medicine-ball-woodchop",
+    "alternativeExercises": [
+      "medicine-ball-woodchop",
+      "landmine-rotation",
+      "russian-twist"
+    ],
+    "tags": [
+      "core",
+      "rotation",
+      "obliques",
+      "cable",
+      "functional",
+      "athletic"
+    ],
+    "suitableGoals": [
+      "STRENGTH",
+      "GENERAL_FITNESS"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 2,
+      "lightlyActive": 3,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 3,
+      "lessThan6Mo": 4,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.38,
+      "muscleGain": 0.62,
+      "strength": 0.68,
+      "endurance": 0.55,
+      "flexibility": 0.22,
+      "generalFitness": 0.75
+    },
+    "estimatedTimePerSet": 40,
+    "setupTimeSeconds": 25,
+    "homeCompatibility": 0.1,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.0
+  },
+  {
+    "name": "Medicine Ball Woodchop",
+    "slug": "medicine-ball-woodchop",
+    "description": "An explosive rotational exercise swinging a medicine ball diagonally across the body. This power-focused movement develops rotational power for sports while building core strength.",
+    "instructions": [
+      "Stand with feet shoulder-width apart, hold medicine ball",
+      "Start with ball at one hip or above shoulder",
+      "Rotate explosively, swinging ball diagonally across body",
+      "Pivot on feet to allow full hip rotation",
+      "Control the deceleration, return and repeat, then switch directions"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "ROTATION",
+    "exerciseType": "ISOLATION",
+    "primaryMuscles": [
+      "obliques"
+    ],
+    "secondaryMuscles": [
+      "rectus_abdominis",
+      "shoulders",
+      "hip_rotators"
+    ],
+    "muscleActivationMap": {
+      "obliques": 0.85,
+      "transverse_abdominis": 0.72,
+      "rectus_abdominis": 0.55,
+      "shoulders": 0.5
+    },
+    "difficultyLevel": 3,
+    "skillRequirement": 2,
+    "isBeginnerFriendly": false,
+    "equipmentRequired": [
+      "medicine_ball"
+    ],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "gym",
+      "home",
+      "outdoor"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 8,
+        "max": 12
+      },
+      "hypertrophy": {
+        "min": 12,
+        "max": 18
+      },
+      "endurance": {
+        "min": 18,
+        "max": 25
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 75,
+      "hypertrophy": 60,
+      "endurance": 45
+    },
+    "metValue": 5.5,
+    "intensityFactor": 0.62,
+    "contraindications": [
+      "lower_back_injury",
+      "shoulder_injury"
+    ],
+    "formCues": [
+      "Explosive rotation",
+      "Pivot on feet",
+      "Use whole body",
+      "Control at end range",
+      "Full rotation each rep"
+    ],
+    "commonMistakes": [
+      "Not rotating hips",
+      "Moving too slow",
+      "Ball too heavy",
+      "Not controlling deceleration",
+      "Poor stance"
+    ],
+    "easierVariation": "cable-woodchop",
+    "harderVariation": "medicine-ball-slam",
+    "alternativeExercises": [
+      "cable-woodchop",
+      "landmine-rotation",
+      "russian-twist"
+    ],
+    "tags": [
+      "core",
+      "rotation",
+      "obliques",
+      "medicine-ball",
+      "power",
+      "explosive"
+    ],
+    "suitableGoals": [
+      "STRENGTH",
+      "GENERAL_FITNESS"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 1,
+      "lightlyActive": 2,
+      "moderatelyActive": 4,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 2,
+      "lessThan6Mo": 3,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.45,
+      "muscleGain": 0.58,
+      "strength": 0.7,
+      "endurance": 0.55,
+      "flexibility": 0.2,
+      "generalFitness": 0.75
+    },
+    "estimatedTimePerSet": 40,
+    "setupTimeSeconds": 10,
+    "homeCompatibility": 0.75,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.8
+  },
+  {
+    "name": "Landmine Rotation",
+    "slug": "landmine-rotation",
+    "description": "A standing rotational exercise swinging a barbell anchored at one end from side to side. This unique setup provides smooth resistance for rotational power development.",
+    "instructions": [
+      "Set barbell in landmine attachment or corner",
+      "Stand facing barbell end, grip with both hands extended",
+      "Rotate torso, sweeping bar in arc from side to side",
+      "Pivot on feet to allow full hip rotation",
+      "Control throughout the full range of motion"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "ROTATION",
+    "exerciseType": "ISOLATION",
+    "primaryMuscles": [
+      "obliques"
+    ],
+    "secondaryMuscles": [
+      "rectus_abdominis",
+      "shoulders",
+      "hip_rotators"
+    ],
+    "muscleActivationMap": {
+      "obliques": 0.85,
+      "transverse_abdominis": 0.7,
+      "rectus_abdominis": 0.55,
+      "shoulders": 0.55
+    },
+    "difficultyLevel": 2,
+    "skillRequirement": 2,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [
+      "barbell",
+      "landmine"
+    ],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "gym"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 10,
+        "max": 15
+      },
+      "hypertrophy": {
+        "min": 15,
+        "max": 22
+      },
+      "endurance": {
+        "min": 22,
+        "max": 30
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 60,
+      "hypertrophy": 45,
+      "endurance": 30
+    },
+    "metValue": 4.5,
+    "intensityFactor": 0.55,
+    "contraindications": [
+      "lower_back_injury",
+      "shoulder_injury"
+    ],
+    "formCues": [
+      "Full rotation side to side",
+      "Pivot on feet",
+      "Arms stay extended",
+      "Control the weight",
+      "Rotate through core"
+    ],
+    "commonMistakes": [
+      "Just using arms",
+      "Not pivoting feet",
+      "Too much weight",
+      "Poor range of motion",
+      "Rushing movement"
+    ],
+    "easierVariation": "cable-woodchop",
+    "harderVariation": "medicine-ball-woodchop",
+    "alternativeExercises": [
+      "cable-woodchop",
+      "medicine-ball-woodchop",
+      "russian-twist"
+    ],
+    "tags": [
+      "core",
+      "rotation",
+      "obliques",
+      "landmine",
+      "functional",
+      "athletic"
+    ],
+    "suitableGoals": [
+      "STRENGTH",
+      "GENERAL_FITNESS"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 2,
+      "lightlyActive": 3,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 3,
+      "lessThan6Mo": 4,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.38,
+      "muscleGain": 0.6,
+      "strength": 0.68,
+      "endurance": 0.55,
+      "flexibility": 0.2,
+      "generalFitness": 0.72
+    },
+    "estimatedTimePerSet": 40,
+    "setupTimeSeconds": 30,
+    "homeCompatibility": 0.3,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.1
+  },
+  {
+    "name": "Windshield Wiper",
+    "slug": "windshield-wiper",
+    "description": "An advanced rotational exercise sweeping legs side to side while hanging or lying. This challenging movement requires significant oblique strength and control through a large rotational range.",
+    "instructions": [
+      "Lie on back with arms out to sides, or hang from bar",
+      "Raise legs to vertical (lying) or horizontal (hanging)",
+      "Lower legs to one side while keeping shoulders flat",
+      "Sweep legs to other side in controlled arc",
+      "Continue alternating like windshield wipers"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "ROTATION",
+    "exerciseType": "ISOLATION",
+    "primaryMuscles": [
+      "obliques"
+    ],
+    "secondaryMuscles": [
+      "rectus_abdominis",
+      "hip_flexors"
+    ],
+    "muscleActivationMap": {
+      "obliques": 0.92,
+      "rectus_abdominis": 0.7,
+      "hip_flexors": 0.55
+    },
+    "difficultyLevel": 4,
+    "skillRequirement": 4,
+    "isBeginnerFriendly": false,
+    "equipmentRequired": [],
+    "equipmentOptional": [
+      "pull_up_bar",
+      "mat"
+    ],
+    "suitableLocations": [
+      "gym",
+      "home"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 6,
+        "max": 10
+      },
+      "hypertrophy": {
+        "min": 10,
+        "max": 16
+      },
+      "endurance": {
+        "min": 16,
+        "max": 24
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 4
+    },
+    "restSeconds": {
+      "strength": 90,
+      "hypertrophy": 60,
+      "endurance": 45
+    },
+    "metValue": 5.5,
+    "intensityFactor": 0.78,
+    "contraindications": [
+      "lower_back_injury",
+      "shoulder_injury"
+    ],
+    "formCues": [
+      "Legs stay together",
+      "Control through full range",
+      "Shoulders stay flat (lying version)",
+      "Don't let legs drop",
+      "Breathe throughout"
+    ],
+    "commonMistakes": [
+      "Swinging out of control",
+      "Not enough range",
+      "Legs separating",
+      "Holding breath",
+      "Going too fast"
+    ],
+    "easierVariation": "lying-bent-knee-windshield-wiper",
+    "harderVariation": "hanging-windshield-wiper",
+    "alternativeExercises": [
+      "russian-twist",
+      "hanging-leg-raise",
+      "bicycle-crunch"
+    ],
+    "tags": [
+      "core",
+      "rotation",
+      "obliques",
+      "advanced",
+      "challenging",
+      "full-range"
+    ],
+    "suitableGoals": [
+      "STRENGTH",
+      "MUSCLE_GAIN"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 1,
+      "lightlyActive": 1,
+      "moderatelyActive": 2,
+      "veryActive": 4,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 1,
+      "lessThan6Mo": 1,
+      "sixTo24Mo": 2,
+      "twoTo5Yr": 4,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.35,
+      "muscleGain": 0.72,
+      "strength": 0.78,
+      "endurance": 0.55,
+      "flexibility": 0.25,
+      "generalFitness": 0.68
+    },
+    "estimatedTimePerSet": 40,
+    "setupTimeSeconds": 10,
+    "homeCompatibility": 0.85,
+    "gymCompatibility": 1.0,
+    "outdoorCompatibility": 0.5
+  },
+  {
+    "name": "Medicine Ball Slam",
+    "slug": "medicine-ball-slam",
+    "description": "An explosive full-body exercise slamming a medicine ball into the ground with maximal force. This power movement develops core power, coordination, and serves as excellent conditioning.",
+    "instructions": [
+      "Stand with feet shoulder-width apart holding medicine ball",
+      "Raise ball overhead, extending onto toes",
+      "Slam ball into ground with maximum force",
+      "Use entire body, hinging at hips and engaging core",
+      "Catch ball on bounce and repeat immediately"
+    ],
+    "category": "STRENGTH",
+    "movementPattern": "ROTATION",
+    "exerciseType": "COMPOUND",
+    "primaryMuscles": [
+      "core",
+      "rectus_abdominis"
+    ],
+    "secondaryMuscles": [
+      "shoulders",
+      "lats",
+      "hip_flexors"
+    ],
+    "muscleActivationMap": {
+      "rectus_abdominis": 0.82,
+      "obliques": 0.65,
+      "shoulders": 0.6,
+      "lats": 0.55,
+      "hip_flexors": 0.5
+    },
+    "difficultyLevel": 2,
+    "skillRequirement": 2,
+    "isBeginnerFriendly": true,
+    "equipmentRequired": [
+      "medicine_ball"
+    ],
+    "equipmentOptional": [],
+    "suitableLocations": [
+      "gym",
+      "outdoor"
+    ],
+    "repRanges": {
+      "strength": {
+        "min": 8,
+        "max": 12
+      },
+      "hypertrophy": {
+        "min": 12,
+        "max": 18
+      },
+      "endurance": {
+        "min": 20,
+        "max": 30
+      }
+    },
+    "typicalSets": {
+      "min": 3,
+      "max": 5
+    },
+    "restSeconds": {
+      "strength": 60,
+      "hypertrophy": 45,
+      "endurance": 30
+    },
+    "metValue": 7.0,
+    "intensityFactor": 0.7,
+    "contraindications": [
+      "shoulder_injury",
+      "lower_back_injury"
+    ],
+    "formCues": [
+      "Maximum force each slam",
+      "Use whole body",
+      "Hinge at hips",
+      "Catch and repeat quickly",
+      "Explosive from start"
+    ],
+    "commonMistakes": [
+      "Just using arms",
+      "Not enough force",
+      "Poor catch technique",
+      "Rounding back excessively",
+      "Ball too heavy"
+    ],
+    "easierVariation": "medicine-ball-woodchop",
+    "harderVariation": "rotational-slam",
+    "alternativeExercises": [
+      "cable-woodchop",
+      "medicine-ball-woodchop",
+      "battle-ropes"
+    ],
+    "tags": [
+      "core",
+      "power",
+      "explosive",
+      "medicine-ball",
+      "conditioning",
+      "full-body"
+    ],
+    "suitableGoals": [
+      "STRENGTH",
+      "GENERAL_FITNESS",
+      "WEIGHT_LOSS"
+    ],
+    "fitnessLevelSuitability": {
+      "sedentary": 2,
+      "lightlyActive": 3,
+      "moderatelyActive": 5,
+      "veryActive": 5,
+      "athlete": 5
+    },
+    "experienceLevelSuitability": {
+      "never": 3,
+      "lessThan6Mo": 4,
+      "sixTo24Mo": 5,
+      "twoTo5Yr": 5,
+      "fivePlusYr": 5
+    },
+    "goalEffectiveness": {
+      "weightLoss": 0.65,
+      "muscleGain": 0.55,
+      "strength": 0.68,
+      "endurance": 0.72,
+      "flexibility": 0.15,
+      "generalFitness": 0.82
+    },
+    "estimatedTimePerSet": 40,
+    "setupTimeSeconds": 10,
+    "homeCompatibility": 0.3,
+    "gymCompatibility": 0.9,
+    "outdoorCompatibility": 0.85
+  }
+]
