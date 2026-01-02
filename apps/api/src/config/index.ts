@@ -25,8 +25,8 @@ const envSchema = z.object({
   ANTHROPIC_API_KEY: z.string().optional(),
   OPENAI_API_KEY: z.string().optional(),
 
-  // Vector Search
-  VECTOR_DIMENSIONS: z.string().default('384'),
+  // Vector Search (OpenAI text-embedding-3-small = 1536 dimensions)
+  VECTOR_DIMENSIONS: z.string().default('1536'),
   SIMILARITY_THRESHOLD: z.string().default('0.7'),
 
   // Rate Limiting
