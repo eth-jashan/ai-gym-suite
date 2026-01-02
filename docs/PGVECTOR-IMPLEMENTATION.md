@@ -1,10 +1,19 @@
 # pgvector Semantic Search Implementation Guide
 
-This document details how semantic search was implemented for exercise recommendations in AI Gym Suite using OpenAI embeddings and PostgreSQL's pgvector extension.
+This document details how semantic search was implemented for exercise recommendations in AI Gym Suite using embeddings (Gemini or OpenAI) and PostgreSQL's pgvector extension.
 
 ## Overview
 
 The system enables natural language search for exercises. Instead of keyword matching, users can search with queries like "exercises for building chest muscles at home" and get semantically relevant results.
+
+## Embedding Providers
+
+| Provider | Model | Dimensions | Cost | Best For |
+|----------|-------|------------|------|----------|
+| **Gemini** (default) | text-embedding-004 | 768 | **FREE** | Development, production |
+| OpenAI | text-embedding-3-small | 1536 | ~$0.02/1M tokens | Higher precision needs |
+
+**Recommendation:** Use Gemini - it's free and provides excellent quality for semantic search.
 
 ## Architecture
 
@@ -16,9 +25,10 @@ The system enables natural language search for exercises. Instead of keyword mat
                       │
                       ▼
 ┌─────────────────────────────────────────────────────────────────┐
-│                    OpenAI Embeddings API                         │
-│                  text-embedding-3-small                          │
-│                    (1536 dimensions)                             │
+│              Embedding Provider (Gemini or OpenAI)               │
+│                                                                  │
+│   Gemini: text-embedding-004 (768 dims) - FREE                  │
+│   OpenAI: text-embedding-3-small (1536 dims) - Paid             │
 └─────────────────────┬───────────────────────────────────────────┘
                       │
                       ▼
@@ -133,34 +143,45 @@ muscle gain | difficulty level 3 | intermediate
 
 **File: `apps/api/scripts/generate-embeddings.ts`**
 
+The script supports both Gemini (free, default) and OpenAI providers:
+
 ```typescript
-import OpenAI from 'openai';
+import { GoogleGenerativeAI } from '@google/generative-ai';
 
-const EMBEDDING_MODEL = 'text-embedding-3-small';
-const EMBEDDING_DIMENSIONS = 1536;
-const BATCH_SIZE = 100;
+// Provider configurations
+const PROVIDERS = {
+  gemini: {
+    model: 'text-embedding-004',
+    dimensions: 768,
+    batchSize: 100,
+  },
+  openai: {
+    model: 'text-embedding-3-small',
+    dimensions: 1536,
+    batchSize: 100,
+  },
+};
 
-async function generateEmbeddingsBatch(
-  openai: OpenAI,
-  texts: string[]
-): Promise<number[][]> {
-  const response = await openai.embeddings.create({
-    model: EMBEDDING_MODEL,
-    input: texts,
-    dimensions: EMBEDDING_DIMENSIONS,
-  });
-
-  return response.data
-    .sort((a, b) => a.index - b.index)
-    .map((item) => item.embedding);
+// Gemini embedder (FREE)
+class GeminiEmbedder {
+  async embedBatch(texts: string[]): Promise<number[][]> {
+    const model = this.client.getGenerativeModel({ model: 'text-embedding-004' });
+    const result = await model.batchEmbedContents({
+      requests: texts.map((text) => ({
+        content: { parts: [{ text }], role: 'user' },
+      })),
+    });
+    return result.embeddings.map((e) => e.values);
+  }
 }
 ```
 
-**Why text-embedding-3-small?**
-- 1536 dimensions (good balance of quality and size)
-- Cost-effective (~$0.02 per 1M tokens)
+**Why Gemini (default)?**
+- **FREE** - No cost for embeddings
+- 768 dimensions (efficient storage)
 - Fast inference
 - High quality for semantic similarity
+- Generous rate limits
 
 **Batch Processing:**
 - Process 100 exercises per API call
@@ -321,11 +342,25 @@ npm run db:push
 # 2. Import exercises (generates searchText)
 npm run import:exercises
 
-# 3. Set up pgvector extension and indexes
-npm run db:setup-vector
-
-# 4. Generate embeddings (requires OPENAI_API_KEY)
+# 3. Generate embeddings (Gemini is FREE and default)
+# Get free API key: https://aistudio.google.com/app/apikey
 npm run generate:embeddings
+
+# Or specify provider explicitly:
+npm run generate:embeddings -- --provider=gemini   # FREE (default)
+npm run generate:embeddings -- --provider=openai   # Paid
+
+# 4. Set up pgvector extension and indexes
+npm run db:setup-vector
+```
+
+### Environment Variables
+
+```bash
+# .env file
+GEMINI_API_KEY=your-gemini-key    # FREE - Get from https://aistudio.google.com/app/apikey
+OPENAI_API_KEY=sk-...              # Optional, paid alternative
+EMBEDDING_PROVIDER=gemini          # 'gemini' (default) or 'openai'
 ```
 
 ### Using the Service
@@ -414,7 +449,12 @@ CREATE INDEX ... WITH (lists = 316);
 
 ### Cost Estimation
 
-OpenAI Embeddings (text-embedding-3-small):
+**Gemini (Recommended):**
+- **FREE** - No cost for embeddings
+- Generous rate limits (1500 requests/minute)
+- 400 exercises: $0.00
+
+**OpenAI (Alternative):**
 - ~$0.02 per 1M tokens
 - Average exercise searchText: ~100 tokens
 - 400 exercises: ~40,000 tokens = ~$0.0008
