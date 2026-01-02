@@ -183,21 +183,25 @@ export class EmbeddingService {
     const queryEmbedding = await this.generateEmbedding(query);
     const dims = this.dimensions;
 
+    // Format embedding as PostgreSQL array literal
+    const embeddingArray = `[${queryEmbedding.join(',')}]`;
+
     // Use raw SQL for vector similarity search
-    const results = await prisma.$queryRaw<SimilarExercise[]>`
+    // Use Prisma.sql for raw SQL parts that shouldn't be parameterized
+    const results = await prisma.$queryRawUnsafe<SimilarExercise[]>(`
       SELECT
         e.id,
         e.name,
         e.slug,
-        1 - (e.embedding::vector(${dims}) <=> ${queryEmbedding}::vector(${dims})) as similarity
+        1 - (e.embedding::vector <=> '${embeddingArray}'::vector) as similarity
       FROM exercises e
       WHERE e.is_active = true
         AND e.embedding IS NOT NULL
         AND array_length(e.embedding, 1) = ${dims}
-        AND 1 - (e.embedding::vector(${dims}) <=> ${queryEmbedding}::vector(${dims})) > ${threshold}
-      ORDER BY e.embedding::vector(${dims}) <=> ${queryEmbedding}::vector(${dims})
+        AND 1 - (e.embedding::vector <=> '${embeddingArray}'::vector) > ${threshold}
+      ORDER BY e.embedding::vector <=> '${embeddingArray}'::vector
       LIMIT ${limit}
-    `;
+    `);
 
     if (results.length === 0) {
       return [];
@@ -254,20 +258,23 @@ export class EmbeddingService {
 
     const dims = exercise.embedding.length;
 
-    const results = await prisma.$queryRaw<SimilarExercise[]>`
+    // Format embedding as PostgreSQL array literal
+    const embeddingArray = `[${exercise.embedding.join(',')}]`;
+
+    const results = await prisma.$queryRawUnsafe<SimilarExercise[]>(`
       SELECT
         e.id,
         e.name,
         e.slug,
-        1 - (e.embedding::vector(${dims}) <=> ${exercise.embedding}::vector(${dims})) as similarity
+        1 - (e.embedding::vector <=> '${embeddingArray}'::vector) as similarity
       FROM exercises e
       WHERE e.is_active = true
-        AND e.id != ${exerciseId}
+        AND e.id != '${exerciseId}'
         AND e.embedding IS NOT NULL
         AND array_length(e.embedding, 1) = ${dims}
-      ORDER BY e.embedding::vector(${dims}) <=> ${exercise.embedding}::vector(${dims})
+      ORDER BY e.embedding::vector <=> '${embeddingArray}'::vector
       LIMIT ${limit}
-    `;
+    `);
 
     if (results.length === 0) {
       return [];

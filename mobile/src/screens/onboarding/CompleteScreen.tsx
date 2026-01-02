@@ -13,10 +13,8 @@ export default function CompleteScreen() {
   const {
     name,
     goToStep,
-    submitOnboarding,
-    isSubmitting,
-    submissionError,
-    clearSubmissionError,
+    personalizedPlan,
+    calculatedPlan,
   } = useOnboardingStore();
   const { completeOnboarding } = useAuthStore();
   const [isLoading, setIsLoading] = useState(false);
@@ -27,39 +25,37 @@ export default function CompleteScreen() {
     Haptics.notificationAsync(Haptics.NotificationFeedbackType.Success);
   }, [goToStep]);
 
-  useEffect(() => {
-    if (submissionError) {
-      Alert.alert(
-        'Error',
-        submissionError,
-        [{ text: 'OK', onPress: clearSubmissionError }]
-      );
-    }
-  }, [submissionError, clearSubmissionError]);
-
   const handleGetStarted = useCallback(async () => {
     setIsLoading(true);
 
     try {
-      // Submit onboarding data and get personalized plan
-      // useMock=true for UI testing without backend
-      const plan = await submitOnboarding(true);
+      // Use personalizedPlan from API (set in ProcessingScreen) or fallback to calculatedPlan
+      // NO API call here - it was already made in ProcessingScreen
+      const plan = personalizedPlan || (calculatedPlan ? {
+        dailyCalories: calculatedPlan.dailyCalories,
+        macros: {
+          protein: calculatedPlan.protein,
+          carbs: calculatedPlan.carbs,
+          fat: calculatedPlan.fat,
+        },
+        weeklyWorkouts: calculatedPlan.weeklyWorkouts,
+        workoutSchedule: calculatedPlan.workoutSchedule,
+        bmr: calculatedPlan.bmr,
+        tdee: calculatedPlan.tdee,
+        estimatedEndDate: calculatedPlan.estimatedEndDate.toISOString(),
+        weeklyWeightChange: 0.5,
+      } : undefined);
 
-      if (plan) {
-        // Store the plan in auth store and mark onboarding complete
-        await completeOnboarding(plan);
-        // Navigation will happen automatically via RootNavigator
-      } else {
-        // If submission failed, show error via the useEffect above
-        setIsLoading(false);
-      }
+      // Mark onboarding complete in auth store (saves locally)
+      await completeOnboarding(plan);
+      // Navigation will happen automatically via RootNavigator
     } catch {
       setIsLoading(false);
       Alert.alert('Error', 'Something went wrong. Please try again.');
     }
-  }, [submitOnboarding, completeOnboarding]);
+  }, [personalizedPlan, calculatedPlan, completeOnboarding]);
 
-  const buttonDisabled = isLoading || isSubmitting;
+  const buttonDisabled = isLoading;
 
   return (
     <View style={[styles.container, { backgroundColor: colors.background.base }]}>

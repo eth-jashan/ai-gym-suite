@@ -42,9 +42,11 @@ export default function ProcessingScreen({ navigation }: ProcessingScreenProps) 
     equipment,
     unitSystem,
     calculatePlan,
+    submitOnboarding,
     goToStep,
   } = useOnboardingStore();
   const [progress, setProgress] = useState(0);
+  const [statusText, setStatusText] = useState('Creating your personalized plan...');
 
   const rotation = useSharedValue(0);
 
@@ -69,11 +71,37 @@ export default function ProcessingScreen({ navigation }: ProcessingScreenProps) 
       });
     }, 60);
 
-    // Calculate plan and navigate after animation
-    const timer = setTimeout(() => {
-      calculatePlan();
-      navigation.navigate('Summary');
-    }, 3500);
+    // Submit to API and calculate local plan
+    const submitAndNavigate = async () => {
+      try {
+        setStatusText('Saving your profile...');
+
+        // Calculate local plan first
+        calculatePlan();
+
+        // Submit to backend (useMock = false to use real API)
+        const result = await submitOnboarding(false);
+
+        if (result) {
+          console.log('Onboarding submitted successfully');
+          setStatusText('Plan created!');
+          navigation.navigate('Summary');
+        } else {
+          // If API fails, still navigate but with local plan
+          console.warn('API submission failed, using local plan');
+          setStatusText('Plan created (offline mode)');
+          navigation.navigate('Summary');
+        }
+      } catch (error) {
+        console.error('Onboarding submission error:', error);
+        // Still navigate with local plan on error
+        setStatusText('Plan created (offline mode)');
+        navigation.navigate('Summary');
+      }
+    };
+
+    // Wait for animations then submit
+    const timer = setTimeout(submitAndNavigate, 3000);
 
     return () => {
       clearInterval(progressInterval);
@@ -171,7 +199,7 @@ export default function ProcessingScreen({ navigation }: ProcessingScreenProps) 
         style={styles.progressContainer}
       >
         <Text style={[styles.progressText, { color: colors.text.primary }]}>
-          Creating your personalized plan...
+          {statusText}
         </Text>
         <View style={[styles.progressBar, { backgroundColor: colors.background.surface }]}>
           <View

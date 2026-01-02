@@ -2,7 +2,7 @@ import axios, { AxiosInstance, AxiosError, InternalAxiosRequestConfig } from 'ax
 
 // API Configuration - Update this with your backend URL
 // For ngrok: replace with your ngrok URL (e.g., 'https://abc123.ngrok-free.app/api/v1')
-const NGROK_URL = 'https://f2a1ecdb94e7.ngrok-free.app/api/v1'; // Set your ngrok URL here when testing
+const NGROK_URL = 'https://2c00f625489d.ngrok-free.app/api/v1'; // Set your ngrok URL here when testing
 
 const API_URL = NGROK_URL || (__DEV__
   ? 'http://localhost:3001/api/v1'  // Development
@@ -32,6 +32,19 @@ class ApiClient {
     this.client.interceptors.response.use(
       (response) => response,
       (error: AxiosError) => {
+        // Log full error details for debugging
+        console.error('=== API Error ===');
+        console.error('URL:', error.config?.url);
+        console.error('Method:', error.config?.method?.toUpperCase());
+        console.error('Status:', error.response?.status);
+        console.error('Status Text:', error.response?.statusText);
+        console.error('Response Data:', JSON.stringify(error.response?.data, null, 2));
+        console.error('Request Headers:', JSON.stringify(error.config?.headers, null, 2));
+        if (error.config?.data) {
+          console.error('Request Body:', error.config.data);
+        }
+        console.error('=================');
+
         const message = this.getErrorMessage(error);
         return Promise.reject(new Error(message));
       }
