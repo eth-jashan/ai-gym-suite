@@ -33,6 +33,131 @@ const VALID_CATEGORIES = Object.values(ExerciseCategory);
 const VALID_MOVEMENT_PATTERNS = Object.values(MovementPattern);
 const VALID_EXERCISE_TYPES = Object.values(ExerciseType);
 
+// ============================================================================
+// AUTO-FIX MAPPINGS FOR INVALID ENUM VALUES
+// ============================================================================
+
+// Map invalid categories to valid ones
+const CATEGORY_MAPPINGS: Record<string, ExerciseCategory> = {
+  'WARMUP': ExerciseCategory.FLEXIBILITY,
+  'MOBILITY': ExerciseCategory.FLEXIBILITY,
+  'COOLDOWN': ExerciseCategory.FLEXIBILITY,
+  'STRETCHING': ExerciseCategory.FLEXIBILITY,
+  'HIIT': ExerciseCategory.CARDIO,
+  'CONDITIONING': ExerciseCategory.CARDIO,
+};
+
+// Map invalid exercise types to valid ones
+const EXERCISE_TYPE_MAPPINGS: Record<string, ExerciseType> = {
+  'STRENGTH': ExerciseType.ISOLATION,  // Most "STRENGTH" exercises are isolation
+  'POWER': ExerciseType.COMPOUND,
+  'HYPERTROPHY': ExerciseType.ISOLATION,
+  'ENDURANCE': ExerciseType.CARDIO_STEADY,
+};
+
+// Map invalid movement patterns to valid ones
+const MOVEMENT_PATTERN_MAPPINGS: Record<string, MovementPattern> = {
+  // Arm movements
+  'CURL': MovementPattern.FLEXION,
+  'TRICEP_EXTENSION': MovementPattern.EXTENSION,
+
+  // Hip/Leg abduction movements
+  'ABDUCTION': MovementPattern.ISOLATION,
+  'ADDUCTION': MovementPattern.ISOLATION,
+  'HIP_ABDUCTION': MovementPattern.ISOLATION,
+
+  // Core/Anti-movement patterns
+  'ANTI_EXTENSION': MovementPattern.ANTI_ROTATION,
+  'ANTI_FLEXION': MovementPattern.ANTI_ROTATION,
+  'ANTI_LATERAL_FLEXION': MovementPattern.ANTI_ROTATION,
+
+  // Full body / Cardio
+  'FULL_BODY': MovementPattern.CARDIO,
+  'PLYOMETRIC': MovementPattern.SQUAT,
+  'JUMPING': MovementPattern.SQUAT,
+
+  // Running/Walking
+  'RUNNING': MovementPattern.CARDIO,
+  'WALKING': MovementPattern.CARDIO,
+  'SPRINTING': MovementPattern.CARDIO,
+
+  // Cycling
+  'CYCLING': MovementPattern.CARDIO,
+  'ARM_CYCLING': MovementPattern.CARDIO,
+
+  // Other cardio
+  'ROWING': MovementPattern.HORIZONTAL_PULL,
+  'SWIMMING': MovementPattern.CARDIO,
+  'ELLIPTICAL': MovementPattern.CARDIO,
+  'STAIR_CLIMBING': MovementPattern.CARDIO,
+
+  // Lateral movements
+  'LATERAL': MovementPattern.LUNGE,
+  'LATERAL_FLEXION': MovementPattern.ROTATION,
+
+  // Hip movements
+  'HIP_HINGE': MovementPattern.HINGE,
+  'HIP_EXTENSION': MovementPattern.EXTENSION,
+  'HIP_ROTATION': MovementPattern.ROTATION,
+  'HIP_MOBILITY': MovementPattern.ROTATION,
+
+  // Spinal movements
+  'SPINAL_FLEXION': MovementPattern.FLEXION,
+  'SPINAL_EXTENSION': MovementPattern.EXTENSION,
+
+  // Shoulder movements
+  'SHOULDER_FLEXION': MovementPattern.VERTICAL_PUSH,
+  'SHOULDER_EXTENSION': MovementPattern.EXTENSION,
+  'SHOULDER_ROTATION': MovementPattern.ROTATION,
+  'SHOULDER_ADDUCTION': MovementPattern.ISOLATION,
+
+  // Knee/Ankle
+  'KNEE_FLEXION': MovementPattern.FLEXION,
+  'ANKLE_DORSIFLEXION': MovementPattern.FLEXION,
+};
+
+// Auto-fix category
+function fixCategory(category: string): ExerciseCategory {
+  if (VALID_CATEGORIES.includes(category as ExerciseCategory)) {
+    return category as ExerciseCategory;
+  }
+  const mapped = CATEGORY_MAPPINGS[category.toUpperCase()];
+  if (mapped) {
+    console.log(`    📝 Auto-fixed category: ${category} → ${mapped}`);
+    return mapped;
+  }
+  console.log(`    ⚠️  Unknown category "${category}", defaulting to STRENGTH`);
+  return ExerciseCategory.STRENGTH;
+}
+
+// Auto-fix exercise type
+function fixExerciseType(exerciseType: string): ExerciseType {
+  if (VALID_EXERCISE_TYPES.includes(exerciseType as ExerciseType)) {
+    return exerciseType as ExerciseType;
+  }
+  const mapped = EXERCISE_TYPE_MAPPINGS[exerciseType.toUpperCase()];
+  if (mapped) {
+    console.log(`    📝 Auto-fixed exerciseType: ${exerciseType} → ${mapped}`);
+    return mapped;
+  }
+  console.log(`    ⚠️  Unknown exerciseType "${exerciseType}", defaulting to ISOLATION`);
+  return ExerciseType.ISOLATION;
+}
+
+// Auto-fix movement pattern
+function fixMovementPattern(pattern: string): MovementPattern {
+  if (VALID_MOVEMENT_PATTERNS.includes(pattern as MovementPattern)) {
+    return pattern as MovementPattern;
+  }
+  const mapped = MOVEMENT_PATTERN_MAPPINGS[pattern.toUpperCase()];
+  if (mapped) {
+    console.log(`    📝 Auto-fixed movementPattern: ${pattern} → ${mapped}`);
+    return mapped;
+  }
+  console.log(`    ⚠️  Unknown movementPattern "${pattern}", defaulting to ISOLATION`);
+  return MovementPattern.ISOLATION;
+}
+
 interface RawExercise {
   name: string;
   slug: string;
@@ -99,6 +224,7 @@ function generateSearchText(exercise: RawExercise): string {
 function validateExercise(exercise: RawExercise, index: number, filename: string): string[] {
   const errors: string[] = [];
 
+  // Only check for required fields - enums will be auto-fixed
   if (!exercise.name) {
     errors.push(`Exercise ${index}: missing name`);
   }
@@ -107,22 +233,16 @@ function validateExercise(exercise: RawExercise, index: number, filename: string
     errors.push(`Exercise ${index} (${exercise.name}): missing slug`);
   }
 
-  if (!exercise.category || !VALID_CATEGORIES.includes(exercise.category as ExerciseCategory)) {
-    errors.push(
-      `Exercise ${index} (${exercise.name}): invalid category "${exercise.category}". Valid: ${VALID_CATEGORIES.join(', ')}`
-    );
+  if (!exercise.category) {
+    errors.push(`Exercise ${index} (${exercise.name}): missing category`);
   }
 
-  if (!exercise.movementPattern || !VALID_MOVEMENT_PATTERNS.includes(exercise.movementPattern as MovementPattern)) {
-    errors.push(
-      `Exercise ${index} (${exercise.name}): invalid movementPattern "${exercise.movementPattern}". Valid: ${VALID_MOVEMENT_PATTERNS.join(', ')}`
-    );
+  if (!exercise.movementPattern) {
+    errors.push(`Exercise ${index} (${exercise.name}): missing movementPattern`);
   }
 
-  if (!exercise.exerciseType || !VALID_EXERCISE_TYPES.includes(exercise.exerciseType as ExerciseType)) {
-    errors.push(
-      `Exercise ${index} (${exercise.name}): invalid exerciseType "${exercise.exerciseType}". Valid: ${VALID_EXERCISE_TYPES.join(', ')}`
-    );
+  if (!exercise.exerciseType) {
+    errors.push(`Exercise ${index} (${exercise.name}): missing exerciseType`);
   }
 
   if (!exercise.primaryMuscles || exercise.primaryMuscles.length === 0) {
@@ -138,14 +258,19 @@ function transformExercise(raw: RawExercise) {
     ? raw.instructions.join('\n')
     : raw.instructions;
 
+  // Auto-fix enum values
+  const category = fixCategory(raw.category);
+  const movementPattern = fixMovementPattern(raw.movementPattern);
+  const exerciseType = fixExerciseType(raw.exerciseType);
+
   return {
     name: raw.name,
     slug: raw.slug,
     description: raw.description || '',
     instructions: instructions || '',
-    category: raw.category as ExerciseCategory,
-    movementPattern: raw.movementPattern as MovementPattern,
-    exerciseType: raw.exerciseType as ExerciseType,
+    category,
+    movementPattern,
+    exerciseType,
     primaryMuscles: raw.primaryMuscles || [],
     secondaryMuscles: raw.secondaryMuscles || [],
     muscleActivationMap: raw.muscleActivationMap || {},
