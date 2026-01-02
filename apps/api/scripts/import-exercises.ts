@@ -271,10 +271,19 @@ async function loadJsonFiles(): Promise<{ filename: string; exercises: RawExerci
 }
 
 async function importExercises() {
+  const shouldClean = process.argv.includes('--clean');
+
   console.log('='.repeat(60));
   console.log('Exercise Import Script');
   console.log('='.repeat(60));
   console.log();
+
+  // Clear existing exercises if --clean flag is passed
+  if (shouldClean) {
+    console.log('🧹 Clearing existing exercises...');
+    const deleted = await prisma.exercise.deleteMany({});
+    console.log(`   Deleted ${deleted.count} existing exercises\n`);
+  }
 
   // Load all JSON files
   const allFiles = await loadJsonFiles();

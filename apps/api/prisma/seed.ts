@@ -1,5 +1,5 @@
 import { PrismaClient, QuestionType } from '@prisma/client';
-import { EXERCISES_SEED_DATA } from './data/exercises.js';
+// Old exercises removed - use 'npm run import:exercises' for the new 360 generated exercises
 
 const prisma = new PrismaClient();
 
@@ -50,20 +50,6 @@ async function seedOnboardingQuestions() {
   console.log(`✅ Seeded ${ONBOARDING_QUESTIONS_SEED.length} onboarding questions`);
 }
 
-async function seedExercises() {
-  console.log('🔄 Seeding exercises...');
-
-  for (const exercise of EXERCISES_SEED_DATA) {
-    await prisma.exercise.upsert({
-      where: { slug: exercise.slug },
-      update: exercise,
-      create: exercise as any,
-    });
-  }
-
-  console.log(`✅ Seeded ${EXERCISES_SEED_DATA.length} exercises`);
-}
-
 async function seedAchievements() {
   console.log('🔄 Seeding achievements...');
 
@@ -110,10 +96,10 @@ async function main() {
 
   try {
     await seedOnboardingQuestions();
-    await seedExercises();
     await seedAchievements();
 
     console.log('\n✅ Database seeding completed successfully!');
+    console.log('📝 Note: Run "npm run import:exercises" to import the 360 generated exercises');
   } catch (error) {
     console.error('❌ Seeding failed:', error);
     throw error;

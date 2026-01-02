@@ -13,6 +13,7 @@
     "db:seed": "tsx prisma/seed.ts",
     "db:studio": "prisma studio",
     "import:exercises": "tsx scripts/import-exercises.ts",
+    "import:exercises:clean": "tsx scripts/import-exercises.ts --clean",
     "lint": "eslint src --ext .ts",
     "lint:fix": "eslint src --ext .ts --fix",
     "test": "jest",
