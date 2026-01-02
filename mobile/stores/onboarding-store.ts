@@ -188,7 +188,21 @@ export const useOnboardingStore = create<OnboardingState>((set, get) => ({
     const state = get();
     const { gender, age, height, currentWeight, targetWeight, activityLevel, weightLossRate, workoutDays, workoutDuration, primaryGoal } = state;
 
+    // Debug logging
+    console.log('=== Calculate Plan Debug ===');
+    console.log('gender:', gender);
+    console.log('age:', age);
+    console.log('height:', height);
+    console.log('currentWeight:', currentWeight);
+    console.log('targetWeight:', targetWeight);
+    console.log('activityLevel:', activityLevel);
+    console.log('weightLossRate:', weightLossRate);
+    console.log('primaryGoal:', primaryGoal);
+    console.log('workoutDays:', workoutDays);
+    console.log('============================');
+
     if (!gender || !age || !height || !currentWeight || !targetWeight || !activityLevel || !weightLossRate) {
+      console.warn('calculatePlan: Missing required fields, skipping calculation');
       return;
     }
 
@@ -336,7 +350,7 @@ export const useOnboardingStore = create<OnboardingState>((set, get) => ({
   },
 
   // Submit onboarding to API
-  submitOnboarding: async (useMock = true) => {
+  submitOnboarding: async (useMock = false) => {
     const payload = get().buildApiPayload();
 
     if (!payload) {

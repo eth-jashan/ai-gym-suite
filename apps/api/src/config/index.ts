@@ -24,9 +24,13 @@ const envSchema = z.object({
   // AI Services
   ANTHROPIC_API_KEY: z.string().optional(),
   OPENAI_API_KEY: z.string().optional(),
+  GEMINI_API_KEY: z.string().optional(),
 
-  // Vector Search
-  VECTOR_DIMENSIONS: z.string().default('384'),
+  // Embedding Provider: 'gemini' (free) or 'openai'
+  EMBEDDING_PROVIDER: z.enum(['gemini', 'openai']).default('gemini'),
+
+  // Vector Search (Gemini = 768, OpenAI = 1536)
+  VECTOR_DIMENSIONS: z.string().default('1536'),
   SIMILARITY_THRESHOLD: z.string().default('0.7'),
 
   // Rate Limiting
@@ -65,6 +69,11 @@ export const config = {
   ai: {
     anthropicApiKey: env.ANTHROPIC_API_KEY,
     openaiApiKey: env.OPENAI_API_KEY,
+    geminiApiKey: env.GEMINI_API_KEY,
+  },
+
+  embedding: {
+    provider: env.EMBEDDING_PROVIDER,
   },
 
   vector: {

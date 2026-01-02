@@ -37,6 +37,9 @@ model User {
   exerciseLogs         ExerciseLog[]
   progressSnapshots    ProgressSnapshot[]
   achievements         UserAchievement[]
+  exerciseHistory      UserExerciseHistory[]
+  exerciseSuggestions  ExerciseSuggestion[]
+  weeklyPlans          WeeklyPlan[]
 
   @@map("users")
 }
@@ -259,6 +262,7 @@ model Exercise {
 
   // Vector Embedding for Semantic Search
   embedding             Float[]  @default([])
+  searchText            String?  @map("search_text") @db.Text
 
   // Metadata
   tags                  String[] @default([])
@@ -268,6 +272,33 @@ model Exercise {
   timesRecommended      Int      @default(0) @map("times_recommended")
   timesCompleted        Int      @default(0) @map("times_completed")
 
+  // ========== NEW FIELDS FOR EXERCISE SUGGESTIONS ==========
+
+  // Fitness Level Suitability (1-5 scale)
+  // {sedentary: 2, lightlyActive: 3, moderatelyActive: 4, veryActive: 5, athlete: 5}
+  fitnessLevelSuitability   Json     @default("{}") @map("fitness_level_suitability")
+
+  // Experience Level Suitability (1-5 scale)
+  // {never: 2, lessThan6Mo: 3, sixTo24Mo: 4, twoTo5Yr: 5, fivePlusYr: 5}
+  experienceLevelSuitability Json    @default("{}") @map("experience_level_suitability")
+
+  // Goal-Specific Effectiveness (0.0-1.0)
+  // {weightLoss: 0.6, muscleGain: 0.9, strength: 0.85, endurance: 0.3, flexibility: 0.1, generalFitness: 0.7}
+  goalEffectiveness         Json     @default("{}") @map("goal_effectiveness")
+
+  // Time Estimates (seconds)
+  estimatedTimePerSet       Int      @default(45) @map("estimated_time_per_set")
+  setupTimeSeconds          Int      @default(30) @map("setup_time_seconds")
+
+  // Location Compatibility Scores (0.0-1.0)
+  homeCompatibility         Float    @default(0.5) @map("home_compatibility")
+  gymCompatibility          Float    @default(0.5) @map("gym_compatibility")
+  outdoorCompatibility      Float    @default(0.5) @map("outdoor_compatibility")
+
+  // Progression Metadata
+  progressionOrder          Int?     @map("progression_order")
+  progressionChainId        String?  @map("progression_chain_id")
+
   isActive              Boolean  @default(true) @map("is_active")
 
   createdAt             DateTime @default(now()) @map("created_at")
@@ -276,10 +307,14 @@ model Exercise {
   // Relations
   workoutExercises      WorkoutExercise[]
   exerciseLogs          ExerciseLog[]
+  userHistory           UserExerciseHistory[]
+  suggestions           ExerciseSuggestion[]
 
   @@index([category])
   @@index([movementPattern])
   @@index([difficultyLevel])
+  @@index([homeCompatibility])
+  @@index([gymCompatibility])
   @@map("exercises")
 }
 
@@ -488,6 +523,100 @@ model UserAchievement {
 
   @@unique([userId, achievementId])
   @@map("user_achievements")
+}
+
+// ============================================================================
+// EXERCISE SUGGESTION MODELS
+// ============================================================================
+
+// User's relationship with specific exercises
+model UserExerciseHistory {
+  id              String    @id @default(uuid())
+  userId          String    @map("user_id")
+  exerciseId      String    @map("exercise_id")
+
+  // Performance tracking
+  timesPerformed  Int       @default(0) @map("times_performed")
+  lastPerformed   DateTime? @map("last_performed")
+  personalBest    Json?     @map("personal_best") // {weight: 100, reps: 12, date: "2024-01-15"}
+  averageRPE      Float?    @map("average_rpe")
+
+  // Preference
+  isFavorite      Boolean   @default(false) @map("is_favorite")
+  isDisliked      Boolean   @default(false) @map("is_disliked")
+  userDifficulty  Int?      @map("user_difficulty") // 1-5 user-rated difficulty
+
+  // Notes
+  notes           String?
+
+  createdAt       DateTime  @default(now()) @map("created_at")
+  updatedAt       DateTime  @updatedAt @map("updated_at")
+
+  // Relations
+  user            User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  exercise        Exercise  @relation(fields: [exerciseId], references: [id])
+
+  @@unique([userId, exerciseId])
+  @@index([userId])
+  @@index([exerciseId])
+  @@map("user_exercise_history")
+}
+
+// Suggestion tracking for ML improvement
+model ExerciseSuggestion {
+  id              String    @id @default(uuid())
+  userId          String    @map("user_id")
+  exerciseId      String    @map("exercise_id")
+
+  // Context
+  suggestionType  String    @map("suggestion_type") // "initial_plan", "progression", "variety", "weakness_focus"
+  dayOfWeek       Int?      @map("day_of_week") // 0-6 (which day in plan)
+  weekNumber      Int?      @map("week_number") // which week of training
+
+  // Outcome
+  wasAccepted     Boolean?  @map("was_accepted")
+  wasCompleted    Boolean?  @map("was_completed")
+  performance     Json?     // {sets, reps, weight, rpe, duration}
+  userFeedback    String?   @map("user_feedback") // "too_easy", "too_hard", "enjoyed", "boring"
+
+  createdAt       DateTime  @default(now()) @map("created_at")
+
+  // Relations
+  user            User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  exercise        Exercise  @relation(fields: [exerciseId], references: [id])
+
+  @@index([userId])
+  @@index([exerciseId])
+  @@index([suggestionType])
+  @@map("exercise_suggestions")
+}
+
+// Weekly training plan
+model WeeklyPlan {
+  id              String    @id @default(uuid())
+  userId          String    @map("user_id")
+  weekNumber      Int       @map("week_number") // sequential week (1, 2, 3...)
+  startDate       DateTime  @map("start_date")
+
+  // Plan structure
+  // [{dayIndex: 0, dayName: "Push", muscles: ["chest", "triceps"], exercises: [{exerciseId, sets, reps, rest}]}]
+  days            Json
+
+  splitType       String    @map("split_type") // "PPL", "ULUL", "FULL_BODY", etc.
+
+  // Progress
+  isActive        Boolean   @default(true) @map("is_active")
+  completedDays   Int[]     @default([]) @map("completed_days")
+
+  createdAt       DateTime  @default(now()) @map("created_at")
+  updatedAt       DateTime  @updatedAt @map("updated_at")
+
+  // Relations
+  user            User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId, weekNumber])
+  @@index([userId, isActive])
+  @@map("weekly_plans")
 }
 
 // ============================================================================

@@ -4,6 +4,7 @@ import { onboardingRouter } from './onboarding.routes.js';
 import { workoutRouter } from './workout.routes.js';
 import { exerciseRouter } from './exercise.routes.js';
 import { progressRouter } from './progress.routes.js';
+import { suggestionRouter } from './suggestion.routes.js';
 
 export const apiRouter = Router();
 
@@ -18,6 +19,7 @@ apiRouter.get('/', (_req, res) => {
       workouts: '/workouts',
       exercises: '/exercises',
       progress: '/progress',
+      suggestions: '/suggestions',
     },
   });
 });
@@ -28,3 +30,4 @@ apiRouter.use('/onboarding', onboardingRouter);
 apiRouter.use('/workouts', workoutRouter);
 apiRouter.use('/exercises', exerciseRouter);
 apiRouter.use('/progress', progressRouter);
+apiRouter.use('/suggestions', suggestionRouter);
