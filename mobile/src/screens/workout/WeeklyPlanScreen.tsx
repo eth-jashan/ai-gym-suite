@@ -315,15 +315,53 @@ export default function WeeklyPlanScreen() {
             { backgroundColor: colors.background.elevated, borderRadius: radius['2xl'] },
           ]}
         >
-          <View style={[styles.restDayIcon, { backgroundColor: colors.primary.subtle }]}>
-            <Ionicons name="moon-outline" size={32} color={colors.primary.base} />
+          {/* Badge */}
+          <View style={[styles.restBadge, { backgroundColor: colors.background.surface }]}>
+            <Ionicons name="moon" size={16} color={colors.primary.base} />
+            <Text style={[styles.restBadgeText, { color: colors.primary.base }]}>
+              REST & RECOVERY
+            </Text>
           </View>
+
+          {/* Title & Subtitle */}
           <Text style={[styles.restDayTitle, { color: colors.text.primary }]}>
-            Rest Day
+            It's a rest day.
           </Text>
           <Text style={[styles.restDaySubtitle, { color: colors.text.secondary }]}>
-            Recovery is essential for muscle growth.
+            Your body rebuilds during rest. Focus on mobility, hydration, and mental clarity today.
           </Text>
+
+          {/* Bottom Row */}
+          <View style={styles.restDayBottom}>
+            {/* Avatar Stack */}
+            <View style={styles.avatarStack}>
+              <View style={[styles.stackAvatar, { backgroundColor: colors.background.surface }]}>
+                <Text style={[styles.stackAvatarText, { color: colors.text.secondary }]}>JD</Text>
+              </View>
+              <View style={[styles.stackAvatar, styles.stackAvatarOverlap, { backgroundColor: colors.background.raised }]}>
+                <Text style={[styles.stackAvatarText, { color: colors.text.secondary }]}>AM</Text>
+              </View>
+              <View style={[styles.stackAvatar, styles.stackAvatarOverlap, { backgroundColor: colors.background.surface }]}>
+                <Text style={[styles.stackAvatarText, { color: colors.text.tertiary }]}>+3</Text>
+              </View>
+            </View>
+
+            {/* View Tips Button */}
+            <Pressable
+              style={({ pressed }) => [
+                styles.viewTipsButton,
+                {
+                  backgroundColor: colors.text.primary,
+                  opacity: pressed ? 0.9 : 1,
+                },
+              ]}
+            >
+              <Text style={[styles.viewTipsText, { color: colors.background.base }]}>
+                VIEW TIPS
+              </Text>
+              <Ionicons name="arrow-forward" size={16} color={colors.background.base} />
+            </Pressable>
+          </View>
         </Animated.View>
       );
     }
@@ -768,25 +806,69 @@ const styles = StyleSheet.create({
 
   // Rest Day
   restDayCard: {
-    alignItems: 'center',
-    padding: 40,
+    padding: 20,
   },
-  restDayIcon: {
-    width: 64,
-    height: 64,
-    borderRadius: 32,
+  restBadge: {
+    flexDirection: 'row',
     alignItems: 'center',
-    justifyContent: 'center',
-    marginBottom: 16,
+    alignSelf: 'flex-start',
+    gap: 8,
+    paddingHorizontal: 14,
+    paddingVertical: 8,
+    borderRadius: 20,
+    marginBottom: 24,
+  },
+  restBadgeText: {
+    fontSize: 12,
+    fontWeight: '600',
+    letterSpacing: 0.5,
   },
   restDayTitle: {
-    fontSize: 20,
+    fontSize: 26,
     fontWeight: '700',
-    marginBottom: 8,
+    letterSpacing: -0.5,
+    marginBottom: 12,
   },
   restDaySubtitle: {
-    fontSize: 14,
-    textAlign: 'center',
+    fontSize: 15,
+    lineHeight: 22,
+    marginBottom: 24,
+  },
+  restDayBottom: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+  },
+  avatarStack: {
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
+  stackAvatar: {
+    width: 34,
+    height: 34,
+    borderRadius: 17,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  stackAvatarOverlap: {
+    marginLeft: -10,
+  },
+  stackAvatarText: {
+    fontSize: 11,
+    fontWeight: '600',
+  },
+  viewTipsButton: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 8,
+    paddingHorizontal: 18,
+    paddingVertical: 10,
+    borderRadius: 22,
+  },
+  viewTipsText: {
+    fontSize: 13,
+    fontWeight: '700',
+    letterSpacing: 0.3,
   },
 
   // Section

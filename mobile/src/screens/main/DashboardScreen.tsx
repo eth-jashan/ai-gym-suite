@@ -326,22 +326,54 @@ export default function DashboardScreen() {
           },
         ]}
       >
-        <LinearGradient
-          colors={[colors.primary.muted, 'transparent']}
-          start={{ x: 0, y: 0 }}
-          end={{ x: 1, y: 1 }}
-          style={[styles.heroGradient, { borderRadius: radius['2xl'] }]}
-        />
-        <View style={styles.restDayContent}>
-          <View style={[styles.restDayIcon, { backgroundColor: colors.primary.subtle }]}>
-            <Ionicons name="moon-outline" size={32} color={colors.primary.base} />
+        <View style={[styles.heroContent, { padding: spacing[5] }]}>
+          {/* Badge */}
+          <View style={[styles.restBadge, { backgroundColor: colors.background.surface }]}>
+            <Ionicons name="moon" size={16} color={colors.primary.base} />
+            <Text style={[styles.restBadgeText, { color: colors.primary.base }]}>
+              REST & RECOVERY
+            </Text>
           </View>
+
+          {/* Title & Subtitle */}
           <Text style={[styles.restDayTitle, { color: colors.text.primary }]}>
-            Rest Day
+            It's a rest day.
           </Text>
           <Text style={[styles.restDaySubtitle, { color: colors.text.secondary }]}>
-            Recovery is essential. Your muscles grow while you rest.
+            Your body rebuilds during rest. Focus on mobility, hydration, and mental clarity today.
           </Text>
+
+          {/* Bottom Row */}
+          <View style={styles.restDayBottom}>
+            {/* Avatar Stack */}
+            <View style={styles.avatarStack}>
+              <View style={[styles.stackAvatar, { backgroundColor: colors.background.surface }]}>
+                <Text style={[styles.stackAvatarText, { color: colors.text.secondary }]}>JD</Text>
+              </View>
+              <View style={[styles.stackAvatar, styles.stackAvatarOverlap, { backgroundColor: colors.background.raised }]}>
+                <Text style={[styles.stackAvatarText, { color: colors.text.secondary }]}>AM</Text>
+              </View>
+              <View style={[styles.stackAvatar, styles.stackAvatarOverlap, { backgroundColor: colors.background.surface }]}>
+                <Text style={[styles.stackAvatarText, { color: colors.text.tertiary }]}>+3</Text>
+              </View>
+            </View>
+
+            {/* View Tips Button */}
+            <Pressable
+              style={({ pressed }) => [
+                styles.viewTipsButton,
+                {
+                  backgroundColor: colors.text.primary,
+                  opacity: pressed ? 0.9 : 1,
+                },
+              ]}
+            >
+              <Text style={[styles.viewTipsText, { color: colors.background.base }]}>
+                VIEW TIPS
+              </Text>
+              <Ionicons name="arrow-forward" size={16} color={colors.background.base} />
+            </Pressable>
+          </View>
         </View>
       </View>
     </Animated.View>
@@ -919,30 +951,67 @@ const styles = StyleSheet.create({
   },
 
   // Rest Day
-  restDayContent: {
+  restBadge: {
+    flexDirection: 'row',
     alignItems: 'center',
-    justifyContent: 'center',
-    paddingVertical: 48,
-    paddingHorizontal: 24,
+    alignSelf: 'flex-start',
+    gap: 8,
+    paddingHorizontal: 14,
+    paddingVertical: 8,
+    borderRadius: 20,
+    marginBottom: 24,
   },
-  restDayIcon: {
-    width: 72,
-    height: 72,
-    borderRadius: 36,
-    alignItems: 'center',
-    justifyContent: 'center',
-    marginBottom: 16,
+  restBadgeText: {
+    fontSize: 12,
+    fontWeight: '600',
+    letterSpacing: 0.5,
   },
   restDayTitle: {
-    fontSize: 22,
+    fontSize: 28,
     fontWeight: '700',
-    marginBottom: 8,
+    letterSpacing: -0.5,
+    marginBottom: 12,
   },
   restDaySubtitle: {
-    fontSize: 15,
-    textAlign: 'center',
-    lineHeight: 22,
-    maxWidth: 260,
+    fontSize: 16,
+    lineHeight: 24,
+    marginBottom: 28,
+  },
+  restDayBottom: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+  },
+  avatarStack: {
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
+  stackAvatar: {
+    width: 36,
+    height: 36,
+    borderRadius: 18,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  stackAvatarOverlap: {
+    marginLeft: -10,
+  },
+  stackAvatarText: {
+    fontSize: 12,
+    fontWeight: '600',
+  },
+  viewTipsButton: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 8,
+    paddingHorizontal: 20,
+    paddingVertical: 12,
+    borderRadius: 24,
+  },
+  viewTipsText: {
+    fontSize: 14,
+    fontWeight: '700',
+    letterSpacing: 0.3,
   },
 
   // Section Header
