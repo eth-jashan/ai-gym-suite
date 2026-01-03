@@ -104,10 +104,13 @@ export const useWorkoutStore = create<WorkoutState>((set, get) => ({
     set({ isLoading: true, error: null });
     try {
       // Try to get from API first
+      console.log('[WorkoutStore] Fetching weekly plan from API...');
       const response = await workoutService.getWeeklyPlan();
+      console.log('[WorkoutStore] API response:', JSON.stringify(response, null, 2));
 
       if (response.success && response.plan) {
         const plan = response.plan;
+        console.log('[WorkoutStore] Plan received with', plan.days?.length, 'days, daysPerWeek:', plan.daysPerWeek);
 
         // Save to storage
         await SecureStore.setItemAsync(WEEKLY_PLAN_KEY, JSON.stringify(plan));
@@ -130,30 +133,42 @@ export const useWorkoutStore = create<WorkoutState>((set, get) => ({
           isLoading: false,
         });
       } else {
+        console.log('[WorkoutStore] API returned success=false or no plan');
         throw new Error('No plan available');
       }
     } catch (error) {
+      console.error('[WorkoutStore] API fetch failed:', error);
+
       // Try loading from cache
       try {
         const cached = await SecureStore.getItemAsync(WEEKLY_PLAN_KEY);
         if (cached) {
+          console.log('[WorkoutStore] Loading from cache...');
           const plan = JSON.parse(cached) as WeeklyPlan;
+          console.log('[WorkoutStore] Cached plan has', plan.days?.length, 'days');
           const today = new Date().getDay();
           const todayDay = plan.days.find(d => d.dayIndex === today);
           const todayWorkout = todayDay ? convertDayToWorkout(todayDay, plan) : null;
 
+          const upcoming = plan.days
+            .filter(d => d.dayIndex > today)
+            .slice(0, 3)
+            .map(d => convertDayToWorkout(d, plan));
+
           set({
             weeklyPlan: plan,
             todayWorkout,
+            upcomingWorkouts: upcoming,
             isLoading: false,
           });
           return;
         }
-      } catch {
-        // Cache read failed
+      } catch (cacheError) {
+        console.error('[WorkoutStore] Cache read failed:', cacheError);
       }
 
       // Fall back to mock data for UI testing
+      console.log('[WorkoutStore] Falling back to mock data');
       const mockResponse = workoutService.mockGetWeeklyPlan();
       const plan = mockResponse.plan;
       const today = new Date().getDay();
@@ -172,7 +187,11 @@ export const useWorkoutStore = create<WorkoutState>((set, get) => ({
   generateWeeklyPlan: async () => {
     set({ isGeneratingPlan: true, error: null });
     try {
+      // Clear old cache before generating new plan
+      await SecureStore.deleteItemAsync(WEEKLY_PLAN_KEY);
+
       const response = await workoutService.generateWeeklyPlan();
+      console.log('[WorkoutStore] generateWeeklyPlan response:', JSON.stringify(response, null, 2));
 
       if (response.success && response.plan) {
         const plan = response.plan;
@@ -182,13 +201,23 @@ export const useWorkoutStore = create<WorkoutState>((set, get) => ({
         const todayDay = plan.days.find(d => d.dayIndex === today);
         const todayWorkout = todayDay ? convertDayToWorkout(todayDay, plan) : null;
 
+        // Get upcoming workouts
+        const upcoming = plan.days
+          .filter(d => d.dayIndex > today)
+          .slice(0, 3)
+          .map(d => convertDayToWorkout(d, plan));
+
         set({
           weeklyPlan: plan,
           todayWorkout,
+          upcomingWorkouts: upcoming,
           isGeneratingPlan: false,
         });
+      } else {
+        throw new Error(response.message || 'Failed to generate plan');
       }
     } catch (error) {
+      console.error('[WorkoutStore] generateWeeklyPlan error:', error);
       const message = error instanceof Error ? error.message : 'Failed to generate plan';
       set({ error: message, isGeneratingPlan: false });
     }

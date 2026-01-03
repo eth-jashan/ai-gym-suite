@@ -9,3 +9,5 @@ export { BottomSheet } from './BottomSheet';
 export { NumberInput } from './NumberInput';
 export { Collapsible } from './collapsible';
 export { ProgressRing } from './ProgressRing';
+export { WorkoutImage, SplitImage, HeroImage } from './WorkoutImage';
+export { MuscleMap } from './MuscleMap';

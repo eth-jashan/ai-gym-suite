@@ -1,15 +1,14 @@
 /**
  * Dashboard Screen
  *
- * Premium home screen with Apple/Stripe/Linear quality design:
- * - Refined visual hierarchy with careful spacing
- * - Smooth spring animations throughout
- * - Subtle gradients and shadows for depth
- * - Animated progress ring for weekly tracking
- * - Quick stats grid for key metrics
+ * Premium fitness dashboard inspired by Nike Training Club & Stitch design:
+ * - Tab navigation (Today/Progress/Insights)
+ * - Hero workout card with clean metrics
+ * - Horizontal scrolling progress cards
+ * - Upcoming workouts with date badges
  */
 
-import React, { useEffect, useCallback } from 'react';
+import React, { useEffect, useCallback, useState } from 'react';
 import {
   View,
   Text,
@@ -17,6 +16,8 @@ import {
   RefreshControl,
   Pressable,
   StyleSheet,
+  Dimensions,
+  Image,
 } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import Animated, {
@@ -27,7 +28,7 @@ import Animated, {
   useAnimatedStyle,
   useSharedValue,
   withSpring,
-  interpolateColor,
+  withTiming,
 } from 'react-native-reanimated';
 import { Ionicons } from '@expo/vector-icons';
 import { LinearGradient } from 'expo-linear-gradient';
@@ -38,17 +39,22 @@ import * as Haptics from 'expo-haptics';
 import { useTheme } from '@/providers/theme-provider';
 import { useAuthStore } from '@/stores/auth-store';
 import { useWorkoutStore } from '@/stores/workout-store';
-import { Card, Button, Badge, ProgressRing } from '@/components/ui';
+import { Button } from '@/components/ui';
 import { SPLIT_TYPE_COLORS, SPLIT_TYPE_LABELS, SplitType } from '@/lib/types/workout';
 import type { MainStackParamList } from '@/src/navigation/types';
 
 type NavigationProp = NativeStackNavigationProp<MainStackParamList>;
 
+const { width: SCREEN_WIDTH } = Dimensions.get('window');
+const PROGRESS_CARD_WIDTH = SCREEN_WIDTH * 0.75;
+
 const AnimatedPressable = Animated.createAnimatedComponent(Pressable);
+
+type TabType = 'today' | 'progress' | 'insights';
 
 export default function DashboardScreen() {
   const navigation = useNavigation<NavigationProp>();
-  const { colors, spacing, typography, radius, isDark } = useTheme();
+  const { colors, spacing, typography, radius } = useTheme();
   const { user, logout } = useAuthStore();
   const {
     weeklyPlan,
@@ -62,6 +68,8 @@ export default function DashboardScreen() {
     startWorkout,
   } = useWorkoutStore();
 
+  const [activeTab, setActiveTab] = useState<TabType>('today');
+
   useEffect(() => {
     fetchWeeklyPlan();
   }, [fetchWeeklyPlan]);
@@ -72,17 +80,17 @@ export default function DashboardScreen() {
 
   const getGreeting = () => {
     const hour = new Date().getHours();
-    if (hour < 12) return 'Good morning';
-    if (hour < 17) return 'Good afternoon';
-    return 'Good evening';
+    if (hour < 12) return 'Good morning,';
+    if (hour < 17) return 'Good afternoon,';
+    return 'Good evening,';
   };
 
-  const formatDate = () => {
+  const formatDateHeader = () => {
     return new Date().toLocaleDateString('en-US', {
       weekday: 'long',
+      day: '2-digit',
       month: 'short',
-      day: 'numeric',
-    });
+    }).toUpperCase();
   };
 
   const handleStartWorkout = async () => {
@@ -113,118 +121,109 @@ export default function DashboardScreen() {
       style={styles.header}
     >
       <View style={styles.headerLeft}>
-        <Text
-          style={[
-            styles.greeting,
-            { color: colors.text.secondary, fontSize: typography.sizes.sm },
-          ]}
-        >
+        <Text style={[styles.dateText, { color: colors.text.tertiary }]}>
+          {formatDateHeader()}
+        </Text>
+        <Text style={[styles.greeting, { color: colors.text.primary }]}>
           {getGreeting()}
         </Text>
-        <Text
-          style={[
-            styles.userName,
-            { color: colors.text.primary, fontSize: typography.sizes['2xl'] },
-          ]}
-        >
+        <Text style={[styles.userName, { color: colors.text.primary }]}>
           {user?.name || 'Athlete'}
         </Text>
-        <View style={styles.dateRow}>
-          <View
-            style={[
-              styles.dateDot,
-              { backgroundColor: colors.primary.base },
-            ]}
-          />
-          <Text
-            style={[
-              styles.date,
-              { color: colors.text.tertiary, fontSize: typography.sizes.sm },
-            ]}
-          >
-            {formatDate()}
-          </Text>
-        </View>
       </View>
 
-      <Pressable
-        onPress={logout}
-        style={({ pressed }) => [
-          styles.profileButton,
-          {
-            backgroundColor: colors.background.surface,
-            borderColor: colors.border.muted,
-            transform: [{ scale: pressed ? 0.95 : 1 }],
-          },
-        ]}
-      >
-        <Ionicons name="person" size={20} color={colors.text.secondary} />
-      </Pressable>
+      <View style={styles.headerRight}>
+        <Pressable
+          style={({ pressed }) => [
+            styles.headerIconButton,
+            { backgroundColor: colors.background.surface, opacity: pressed ? 0.7 : 1 },
+          ]}
+        >
+          <Ionicons name="search" size={20} color={colors.text.secondary} />
+        </Pressable>
+        <Pressable
+          style={({ pressed }) => [
+            styles.headerIconButton,
+            { backgroundColor: colors.background.surface, opacity: pressed ? 0.7 : 1 },
+          ]}
+        >
+          <Ionicons name="notifications-outline" size={20} color={colors.text.secondary} />
+          <View style={[styles.notificationBadge, { backgroundColor: colors.primary.base }]} />
+        </Pressable>
+        <Pressable
+          onPress={logout}
+          style={({ pressed }) => [
+            styles.avatarButton,
+            { borderColor: colors.primary.base, opacity: pressed ? 0.7 : 1 },
+          ]}
+        >
+          <View style={[styles.avatarInner, { backgroundColor: colors.background.elevated }]}>
+            <Ionicons name="person" size={18} color={colors.text.secondary} />
+          </View>
+        </Pressable>
+      </View>
     </Animated.View>
   );
 
   // ============================================================================
-  // TODAY'S WORKOUT CARD
+  // TAB NAVIGATION
   // ============================================================================
 
-  const renderTodayWorkoutCard = () => {
-    if (!todayWorkout) {
-      return (
-        <Animated.View entering={FadeInUp.delay(100).duration(500).springify()}>
-          <View
-            style={[
-              styles.restDayCard,
-              {
-                backgroundColor: colors.background.surface,
-                borderRadius: radius['2xl'],
-              },
-            ]}
+  const renderTabs = () => {
+    const tabs: { key: TabType; label: string }[] = [
+      { key: 'today', label: 'Today' },
+      { key: 'progress', label: 'Progress' },
+      { key: 'insights', label: 'Insights' },
+    ];
+
+    return (
+      <Animated.View
+        entering={FadeIn.delay(100).duration(400)}
+        style={[styles.tabContainer, { marginBottom: spacing[5] }]}
+      >
+        {tabs.map((tab) => (
+          <Pressable
+            key={tab.key}
+            onPress={() => {
+              Haptics.selectionAsync();
+              setActiveTab(tab.key);
+            }}
+            style={styles.tabButton}
           >
-            <LinearGradient
-              colors={[colors.primary.muted, 'transparent']}
-              start={{ x: 0, y: 0 }}
-              end={{ x: 1, y: 1 }}
-              style={[styles.restDayGradient, { borderRadius: radius['2xl'] }]}
-            />
-            <View style={styles.restDayContent}>
-              <View
-                style={[
-                  styles.restDayIconWrapper,
-                  { backgroundColor: colors.primary.subtle },
-                ]}
-              >
-                <Ionicons
-                  name="moon-outline"
-                  size={32}
-                  color={colors.primary.base}
-                />
-              </View>
-              <Text
-                style={[
-                  styles.restDayTitle,
-                  { color: colors.text.primary, fontSize: typography.sizes.xl },
-                ]}
-              >
-                Rest Day
-              </Text>
-              <Text
-                style={[
-                  styles.restDaySubtitle,
-                  { color: colors.text.secondary, fontSize: typography.sizes.sm },
-                ]}
-              >
-                Recovery is essential. Your muscles grow while you rest.
-              </Text>
-            </View>
-          </View>
-        </Animated.View>
-      );
+            <Text
+              style={[
+                styles.tabText,
+                {
+                  color: activeTab === tab.key ? colors.text.primary : colors.text.tertiary,
+                  fontWeight: activeTab === tab.key ? '600' : '400',
+                },
+              ]}
+            >
+              {tab.label}
+            </Text>
+            {activeTab === tab.key && (
+              <View style={[styles.tabIndicator, { backgroundColor: colors.primary.base }]} />
+            )}
+          </Pressable>
+        ))}
+      </Animated.View>
+    );
+  };
+
+  // ============================================================================
+  // HERO WORKOUT CARD
+  // ============================================================================
+
+  const renderHeroCard = () => {
+    if (!todayWorkout) {
+      return renderRestDayCard();
     }
 
     const splitColor = SPLIT_TYPE_COLORS[todayWorkout.workoutType as SplitType] || colors.primary.base;
+    const estimatedCalories = Math.round(todayWorkout.estimatedDuration * 7); // Rough estimate
 
     return (
-      <Animated.View entering={FadeInUp.delay(100).duration(500).springify()}>
+      <Animated.View entering={FadeInUp.delay(150).duration(500).springify()}>
         <Pressable
           onPress={() => handleWorkoutPress(todayWorkout.id, todayWorkout.dayOfWeek)}
           style={({ pressed }) => [
@@ -236,83 +235,76 @@ export default function DashboardScreen() {
             },
           ]}
         >
-          {/* Gradient Accent */}
+          {/* Subtle gradient overlay */}
           <LinearGradient
-            colors={[splitColor + '25', 'transparent']}
+            colors={[splitColor + '15', 'transparent', 'transparent']}
             start={{ x: 0, y: 0 }}
             end={{ x: 1, y: 1 }}
             style={[styles.heroGradient, { borderRadius: radius['2xl'] }]}
           />
 
-          {/* Left Color Bar */}
-          <View
-            style={[
-              styles.heroColorBar,
-              { backgroundColor: splitColor, borderRadius: radius.sm },
-            ]}
-          />
-
           <View style={[styles.heroContent, { padding: spacing[5] }]}>
-            {/* Header Row */}
-            <View style={styles.heroHeader}>
-              <Badge color={splitColor} size="sm">
-                {SPLIT_TYPE_LABELS[todayWorkout.workoutType as SplitType] || todayWorkout.workoutType}
-              </Badge>
-              <View style={styles.todayBadge}>
-                <View style={[styles.todayDot, { backgroundColor: colors.status.success }]} />
-                <Text style={[styles.todayLabel, { color: colors.status.success }]}>
-                  Today
+            {/* Top Row: Badge + Icon */}
+            <View style={styles.heroTopRow}>
+              <View style={[styles.splitBadge, { backgroundColor: colors.background.surface }]}>
+                <Text style={[styles.splitBadgeText, { color: colors.text.primary }]}>
+                  {SPLIT_TYPE_LABELS[todayWorkout.workoutType as SplitType] || todayWorkout.workoutType}
                 </Text>
+              </View>
+              <View style={[styles.heroIconWrapper, { backgroundColor: splitColor + '20' }]}>
+                <Ionicons name="barbell" size={20} color={splitColor} />
               </View>
             </View>
 
-            {/* Title */}
-            <Text
-              style={[
-                styles.heroTitle,
-                { color: colors.text.primary, fontSize: typography.sizes['2xl'] },
-              ]}
-            >
+            {/* Title & Muscles */}
+            <Text style={[styles.heroTitle, { color: colors.text.primary }]}>
               {todayWorkout.title}
             </Text>
-
-            {/* Muscles */}
-            <Text
-              style={[
-                styles.heroMuscles,
-                { color: colors.text.secondary, fontSize: typography.sizes.sm },
-              ]}
-            >
-              {todayWorkout.focusMuscles.slice(0, 4).join(' • ')}
+            <Text style={[styles.heroMuscles, { color: colors.text.secondary }]}>
+              {todayWorkout.focusMuscles.slice(0, 3).join(' • ')}
             </Text>
 
-            {/* Meta Row */}
-            <View style={[styles.heroMeta, { marginTop: spacing[4] }]}>
-              <View style={[styles.metaItem, { backgroundColor: colors.background.surface }]}>
-                <Ionicons name="time-outline" size={16} color={colors.text.secondary} />
-                <Text style={[styles.metaText, { color: colors.text.primary }]}>
-                  {todayWorkout.estimatedDuration} min
+            {/* Metrics Row */}
+            <View style={[styles.metricsRow, { marginTop: spacing[4] }]}>
+              <View style={[styles.metricPill, { backgroundColor: colors.background.surface }]}>
+                <Ionicons name="time-outline" size={14} color={colors.primary.base} />
+                <Text style={[styles.metricText, { color: colors.text.primary }]}>
+                  {todayWorkout.estimatedDuration}m
                 </Text>
               </View>
-              <View style={[styles.metaItem, { backgroundColor: colors.background.surface }]}>
-                <Ionicons name="barbell-outline" size={16} color={colors.text.secondary} />
-                <Text style={[styles.metaText, { color: colors.text.primary }]}>
-                  {todayWorkout.exercises.length} exercises
+              <View style={[styles.metricPill, { backgroundColor: colors.background.surface }]}>
+                <Ionicons name="barbell-outline" size={14} color={colors.primary.base} />
+                <Text style={[styles.metricText, { color: colors.text.primary }]}>
+                  {todayWorkout.exercises.length} Ex
+                </Text>
+              </View>
+              <View style={[styles.metricPill, { backgroundColor: colors.background.surface }]}>
+                <Ionicons name="flame-outline" size={14} color="#F97316" />
+                <Text style={[styles.metricText, { color: colors.text.primary }]}>
+                  {estimatedCalories} kcal
                 </Text>
               </View>
             </View>
 
-            {/* Start Button */}
-            <Button
-              onPress={handleStartWorkout}
-              variant="primary"
-              size="lg"
-              fullWidth
-              icon="play"
-              style={{ marginTop: spacing[5] }}
+            {/* Dive In Button */}
+            <Pressable
+              onPress={handleViewPlan}
+              style={({ pressed }) => [
+                styles.startButton,
+                {
+                  backgroundColor: colors.text.primary,
+                  opacity: pressed ? 0.9 : 1,
+                  marginTop: spacing[5],
+                },
+              ]}
             >
-              Start Workout
-            </Button>
+              <Text style={[styles.startButtonText, { color: colors.background.base }]}>
+                LET'S DIVE IN
+              </Text>
+              <View style={[styles.playCircle, { backgroundColor: colors.primary.base }]}>
+                <Ionicons name="arrow-forward" size={16} color={colors.background.base} />
+              </View>
+            </Pressable>
           </View>
         </Pressable>
       </Animated.View>
@@ -320,7 +312,43 @@ export default function DashboardScreen() {
   };
 
   // ============================================================================
-  // WEEKLY PROGRESS
+  // REST DAY CARD
+  // ============================================================================
+
+  const renderRestDayCard = () => (
+    <Animated.View entering={FadeInUp.delay(150).duration(500).springify()}>
+      <View
+        style={[
+          styles.heroCard,
+          {
+            backgroundColor: colors.background.elevated,
+            borderRadius: radius['2xl'],
+          },
+        ]}
+      >
+        <LinearGradient
+          colors={[colors.primary.muted, 'transparent']}
+          start={{ x: 0, y: 0 }}
+          end={{ x: 1, y: 1 }}
+          style={[styles.heroGradient, { borderRadius: radius['2xl'] }]}
+        />
+        <View style={styles.restDayContent}>
+          <View style={[styles.restDayIcon, { backgroundColor: colors.primary.subtle }]}>
+            <Ionicons name="moon-outline" size={32} color={colors.primary.base} />
+          </View>
+          <Text style={[styles.restDayTitle, { color: colors.text.primary }]}>
+            Rest Day
+          </Text>
+          <Text style={[styles.restDaySubtitle, { color: colors.text.secondary }]}>
+            Recovery is essential. Your muscles grow while you rest.
+          </Text>
+        </View>
+      </View>
+    </Animated.View>
+  );
+
+  // ============================================================================
+  // WEEKLY PROGRESS SECTION
   // ============================================================================
 
   const renderWeeklyProgress = () => {
@@ -328,205 +356,167 @@ export default function DashboardScreen() {
 
     const completedDays = 0; // TODO: Calculate from actual data
     const totalDays = weeklyPlan.daysPerWeek;
-    const progress = totalDays > 0 ? completedDays / totalDays : 0;
+    const currentStreak = 4; // TODO: Calculate actual streak
 
     return (
-      <Animated.View entering={FadeInUp.delay(200).duration(500).springify()}>
-        <View
-          style={[
-            styles.progressCard,
-            {
-              backgroundColor: colors.background.surface,
-              borderRadius: radius['2xl'],
-              padding: spacing[5],
-              marginTop: spacing[4],
-            },
-          ]}
-        >
-          {/* Header */}
-          <View style={styles.progressHeader}>
-            <View>
-              <Text
-                style={[
-                  styles.progressTitle,
-                  { color: colors.text.primary, fontSize: typography.sizes.lg },
-                ]}
-              >
-                Weekly Progress
-              </Text>
-              <Text
-                style={[
-                  styles.progressSubtitle,
-                  { color: colors.text.tertiary, fontSize: typography.sizes.sm },
-                ]}
-              >
-                Week {weeklyPlan.weekNumber}
-              </Text>
-            </View>
-            <Pressable
-              onPress={handleViewPlan}
-              style={({ pressed }) => [
-                styles.viewPlanButton,
-                {
-                  backgroundColor: colors.primary.subtle,
-                  opacity: pressed ? 0.7 : 1,
-                },
-              ]}
-            >
-              <Text style={[styles.viewPlanText, { color: colors.primary.base }]}>
-                View Plan
-              </Text>
-              <Ionicons name="chevron-forward" size={14} color={colors.primary.base} />
-            </Pressable>
+      <Animated.View entering={FadeInUp.delay(250).duration(500).springify()}>
+        {/* Section Header */}
+        <View style={[styles.sectionHeader, { marginTop: spacing[6] }]}>
+          <Text style={[styles.sectionTitle, { color: colors.text.primary }]}>
+            Weekly Progress
+          </Text>
+          <View style={styles.paginationDots}>
+            <View style={[styles.dot, styles.dotActive, { backgroundColor: colors.primary.base }]} />
+            <View style={[styles.dot, { backgroundColor: colors.text.tertiary }]} />
+            <View style={[styles.dot, { backgroundColor: colors.text.tertiary }]} />
+            <View style={[styles.dot, { backgroundColor: colors.text.tertiary }]} />
           </View>
+        </View>
 
-          {/* Progress Ring + Days */}
-          <View style={[styles.progressContent, { marginTop: spacing[5] }]}>
-            <ProgressRing
-              progress={progress}
-              size={90}
-              strokeWidth={10}
-              delay={300}
-            >
-              <Text
-                style={[
-                  styles.progressValue,
-                  { color: colors.text.primary, fontSize: typography.sizes.xl },
-                ]}
-              >
-                {completedDays}
+        {/* Horizontal Scroll Cards */}
+        <ScrollView
+          horizontal
+          showsHorizontalScrollIndicator={false}
+          contentContainerStyle={[styles.progressScrollContent, { paddingLeft: spacing[4] }]}
+          style={{ marginTop: spacing[4] }}
+          decelerationRate="fast"
+          snapToInterval={PROGRESS_CARD_WIDTH + spacing[3]}
+        >
+          {/* Consistency Card */}
+          <Animated.View
+            entering={SlideInRight.delay(300).duration(400)}
+            style={[
+              styles.progressCard,
+              {
+                backgroundColor: colors.background.elevated,
+                borderRadius: radius['2xl'],
+                width: PROGRESS_CARD_WIDTH,
+                marginRight: spacing[3],
+              },
+            ]}
+          >
+            <View style={styles.progressCardContent}>
+              <View style={styles.progressCardHeader}>
+                <View style={styles.consistencyLabel}>
+                  <View style={[styles.consistencyDot, { backgroundColor: colors.primary.base }]} />
+                  <Text style={[styles.consistencyText, { color: colors.primary.base }]}>
+                    CONSISTENCY
+                  </Text>
+                </View>
+                <View style={[styles.streakBadge, { backgroundColor: colors.primary.base + '20' }]}>
+                  <Ionicons name="checkmark-circle" size={16} color={colors.primary.base} />
+                </View>
+              </View>
+
+              <Text style={[styles.streakValue, { color: colors.text.primary }]}>
+                {currentStreak} Day Streak
               </Text>
-              <Text
-                style={[
-                  styles.progressLabel,
-                  { color: colors.text.tertiary, fontSize: typography.sizes.xs },
-                ]}
-              >
-                of {totalDays}
-              </Text>
-            </ProgressRing>
 
-            {/* Week Days */}
-            <View style={styles.weekDaysContainer}>
-              {['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'].map((day, index) => {
-                const dayIndex = index === 6 ? 0 : index + 1;
-                const hasWorkout = weeklyPlan.days.some(d => d.dayIndex === dayIndex);
-                const isCompleted = false;
-                const isToday = new Date().getDay() === dayIndex;
+              {/* Week Day Pills */}
+              <View style={styles.weekDayRow}>
+                {['M', 'T', 'W', 'T', 'F', 'S', 'S'].map((day, index) => {
+                  const isCompleted = index < 2; // First 2 days completed
+                  const isToday = index === 3; // Thursday
+                  const hasWorkout = weeklyPlan.days.some(d => {
+                    const dayIndex = index === 6 ? 0 : index + 1;
+                    return d.dayIndex === dayIndex;
+                  });
 
-                return (
-                  <Animated.View
-                    key={index}
-                    entering={FadeIn.delay(400 + index * 50)}
-                  >
+                  return (
                     <View
+                      key={index}
                       style={[
                         styles.dayPill,
                         {
                           backgroundColor: isCompleted
                             ? colors.primary.base
-                            : hasWorkout
-                            ? colors.background.raised
-                            : 'transparent',
-                          borderWidth: isToday ? 2 : hasWorkout ? 0 : 1,
-                          borderColor: isToday
-                            ? colors.primary.base
-                            : colors.border.muted,
+                            : colors.background.surface,
+                          borderWidth: isToday ? 2 : 0,
+                          borderColor: colors.primary.base,
                         },
                       ]}
                     >
                       <Text
                         style={[
-                          styles.dayLetter,
+                          styles.dayPillText,
                           {
                             color: isCompleted
-                              ? colors.text.onPrimary
+                              ? colors.background.base
                               : isToday
                               ? colors.primary.base
-                              : colors.text.secondary,
-                            fontSize: typography.sizes.xs,
+                              : colors.text.tertiary,
                           },
                         ]}
                       >
-                        {day.charAt(0)}
+                        {day}
                       </Text>
-                      {hasWorkout && !isCompleted && (
-                        <View
-                          style={[
-                            styles.workoutIndicator,
-                            { backgroundColor: colors.primary.base },
-                          ]}
-                        />
-                      )}
-                      {isCompleted && (
-                        <Ionicons
-                          name="checkmark"
-                          size={10}
-                          color={colors.text.onPrimary}
-                          style={styles.checkIcon}
-                        />
-                      )}
                     </View>
-                  </Animated.View>
-                );
-              })}
-            </View>
-          </View>
-        </View>
-      </Animated.View>
-    );
-  };
-
-  // ============================================================================
-  // QUICK STATS
-  // ============================================================================
-
-  const renderQuickStats = () => {
-    const stats = [
-      { label: 'Streak', value: '0', icon: 'flame-outline' as const, color: '#F97316' },
-      { label: 'This Week', value: '0h', icon: 'time-outline' as const, color: colors.primary.base },
-      { label: 'Volume', value: '0kg', icon: 'trending-up-outline' as const, color: '#8B5CF6' },
-    ];
-
-    return (
-      <Animated.View entering={FadeInUp.delay(300).duration(500).springify()}>
-        <View style={[styles.statsRow, { marginTop: spacing[5] }]}>
-          {stats.map((stat, index) => (
-            <Animated.View
-              key={stat.label}
-              entering={SlideInRight.delay(350 + index * 100).duration(400)}
-              style={[
-                styles.statCard,
-                {
-                  backgroundColor: colors.background.surface,
-                  borderRadius: radius.xl,
-                  flex: 1,
-                  marginRight: index < stats.length - 1 ? spacing[3] : 0,
-                },
-              ]}
-            >
-              <View style={[styles.statIconWrapper, { backgroundColor: stat.color + '15' }]}>
-                <Ionicons name={stat.icon} size={18} color={stat.color} />
+                  );
+                })}
               </View>
-              <Text
-                style={[
-                  styles.statValue,
-                  { color: colors.text.primary, fontSize: typography.sizes.lg },
-                ]}
-              >
-                {stat.value}
+            </View>
+
+            {/* Decorative Grid */}
+            <View style={styles.streakGrid}>
+              {[...Array(12)].map((_, i) => (
+                <View
+                  key={i}
+                  style={[
+                    styles.gridCell,
+                    {
+                      backgroundColor: i < 8 ? colors.primary.base + '30' : colors.background.surface,
+                    },
+                  ]}
+                />
+              ))}
+            </View>
+          </Animated.View>
+
+          {/* Weekly Goal Card */}
+          <Animated.View
+            entering={SlideInRight.delay(400).duration(400)}
+            style={[
+              styles.progressCard,
+              {
+                backgroundColor: colors.background.elevated,
+                borderRadius: radius['2xl'],
+                width: PROGRESS_CARD_WIDTH,
+                marginRight: spacing[4],
+              },
+            ]}
+          >
+            <View style={styles.progressCardContent}>
+              <View style={styles.progressCardHeader}>
+                <View style={styles.consistencyLabel}>
+                  <View style={[styles.consistencyDot, { backgroundColor: '#3B82F6' }]} />
+                  <Text style={[styles.consistencyText, { color: '#3B82F6' }]}>
+                    WEEKLY GOAL
+                  </Text>
+                </View>
+              </View>
+
+              <Text style={[styles.streakValue, { color: colors.text.primary }]}>
+                {completedDays} of {totalDays}
               </Text>
-              <Text
-                style={[
-                  styles.statLabel,
-                  { color: colors.text.tertiary, fontSize: typography.sizes.xs },
-                ]}
-              >
-                {stat.label}
+              <Text style={[styles.progressSubtext, { color: colors.text.tertiary }]}>
+                Workouts completed
               </Text>
-            </Animated.View>
-          ))}
-        </View>
+
+              {/* Progress Bar */}
+              <View style={[styles.progressBarBg, { backgroundColor: colors.background.surface }]}>
+                <View
+                  style={[
+                    styles.progressBarFill,
+                    {
+                      backgroundColor: '#3B82F6',
+                      width: totalDays > 0 ? `${(completedDays / totalDays) * 100}%` : '0%',
+                    },
+                  ]}
+                />
+              </View>
+            </View>
+          </Animated.View>
+        </ScrollView>
       </Animated.View>
     );
   };
@@ -535,117 +525,78 @@ export default function DashboardScreen() {
   // UPCOMING WORKOUTS
   // ============================================================================
 
-  const renderUpcomingWorkouts = () => {
+  const renderUpcoming = () => {
     if (!upcomingWorkouts.length) return null;
 
     return (
-      <Animated.View entering={FadeInUp.delay(400).duration(500).springify()}>
+      <Animated.View entering={FadeInUp.delay(350).duration(500).springify()}>
         <View style={[styles.sectionHeader, { marginTop: spacing[6] }]}>
-          <Text
-            style={[
-              styles.sectionTitle,
-              { color: colors.text.primary, fontSize: typography.sizes.lg },
-            ]}
-          >
-            Coming Up
+          <Text style={[styles.sectionTitle, { color: colors.text.primary }]}>
+            Upcoming
           </Text>
-          <Text
-            style={[
-              styles.sectionSubtitle,
-              { color: colors.text.tertiary, fontSize: typography.sizes.sm },
-            ]}
-          >
-            Next {Math.min(upcomingWorkouts.length, 3)} workouts
-          </Text>
+          <Pressable onPress={handleViewPlan}>
+            <Text style={[styles.seeAllText, { color: colors.primary.base }]}>
+              SEE ALL
+            </Text>
+          </Pressable>
         </View>
 
-        <View style={[styles.upcomingList, { marginTop: spacing[3] }]}>
-          {upcomingWorkouts.slice(0, 3).map((workout, index) => {
+        <View style={[styles.upcomingList, { marginTop: spacing[4] }]}>
+          {upcomingWorkouts.slice(0, 2).map((workout, index) => {
             const splitColor = SPLIT_TYPE_COLORS[workout.workoutType as SplitType] || colors.primary.base;
             const date = new Date(workout.scheduledDate);
-            const dayName = date.toLocaleDateString('en-US', { weekday: 'short' });
+            const dayNum = date.getDate();
+            const monthName = date.toLocaleDateString('en-US', { month: 'short' }).toUpperCase();
+            const estimatedCalories = Math.round(workout.estimatedDuration * 7);
 
             return (
               <Animated.View
                 key={workout.id}
-                entering={FadeInUp.delay(450 + index * 80).duration(400)}
+                entering={FadeInUp.delay(400 + index * 80).duration(400)}
               >
                 <Pressable
                   onPress={() => handleWorkoutPress(workout.id, workout.dayOfWeek)}
                   style={({ pressed }) => [
                     styles.upcomingCard,
                     {
-                      backgroundColor: colors.background.surface,
+                      backgroundColor: colors.background.elevated,
                       borderRadius: radius.xl,
                       marginBottom: spacing[3],
                       opacity: pressed ? 0.8 : 1,
-                      transform: [{ scale: pressed ? 0.98 : 1 }],
                     },
                   ]}
                 >
-                  <View style={styles.upcomingRow}>
-                    {/* Day Badge */}
-                    <View
-                      style={[
-                        styles.dayBadge,
-                        { backgroundColor: splitColor + '15' },
-                      ]}
-                    >
-                      <Text
-                        style={[
-                          styles.dayBadgeText,
-                          { color: splitColor, fontSize: typography.sizes.sm },
-                        ]}
-                      >
-                        {dayName}
-                      </Text>
-                    </View>
-
-                    {/* Info */}
-                    <View style={styles.upcomingInfo}>
-                      <Text
-                        style={[
-                          styles.upcomingTitle,
-                          { color: colors.text.primary, fontSize: typography.sizes.base },
-                        ]}
-                      >
-                        {workout.title}
-                      </Text>
-                      <View style={styles.upcomingMetaRow}>
-                        <Ionicons name="time-outline" size={12} color={colors.text.tertiary} />
-                        <Text
-                          style={[
-                            styles.upcomingMeta,
-                            { color: colors.text.tertiary, fontSize: typography.sizes.xs },
-                          ]}
-                        >
-                          {workout.estimatedDuration} min
-                        </Text>
-                        <View style={[styles.metaDot, { backgroundColor: colors.text.tertiary }]} />
-                        <Text
-                          style={[
-                            styles.upcomingMeta,
-                            { color: colors.text.tertiary, fontSize: typography.sizes.xs },
-                          ]}
-                        >
-                          {workout.exercises.length} exercises
-                        </Text>
-                      </View>
-                    </View>
-
-                    {/* Arrow */}
-                    <View
-                      style={[
-                        styles.arrowWrapper,
-                        { backgroundColor: colors.background.raised },
-                      ]}
-                    >
+                  {/* Date Badge */}
+                  <View style={[styles.dateBadge, { backgroundColor: colors.background.surface }]}>
+                    <Text style={[styles.dateBadgeDay, { color: colors.text.primary }]}>
+                      {dayNum}
+                    </Text>
+                    <Text style={[styles.dateBadgeMonth, { color: colors.text.tertiary }]}>
+                      {monthName}
+                    </Text>
+                    {/* Workout illustration placeholder */}
+                    <View style={[styles.workoutIllustration, { backgroundColor: splitColor + '20' }]}>
                       <Ionicons
-                        name="chevron-forward"
-                        size={16}
-                        color={colors.text.tertiary}
+                        name={workout.workoutType.includes('LEG') ? 'walk' : 'body'}
+                        size={20}
+                        color={splitColor}
                       />
                     </View>
+                  </View>
+
+                  {/* Workout Info */}
+                  <View style={styles.upcomingInfo}>
+                    <Text style={[styles.upcomingTitle, { color: colors.text.primary }]}>
+                      {workout.title}
+                    </Text>
+                    <Text style={[styles.upcomingMeta, { color: colors.text.tertiary }]}>
+                      {workout.estimatedDuration} min • ~{estimatedCalories} kcal
+                    </Text>
+                  </View>
+
+                  {/* Chevron */}
+                  <View style={[styles.chevronWrapper, { backgroundColor: colors.background.surface }]}>
+                    <Ionicons name="chevron-forward" size={16} color={colors.text.tertiary} />
                   </View>
                 </Pressable>
               </Animated.View>
@@ -665,37 +616,14 @@ export default function DashboardScreen() {
       entering={FadeInDown.delay(200).duration(500).springify()}
       style={styles.emptyState}
     >
-      <LinearGradient
-        colors={[colors.primary.muted, 'transparent']}
-        style={styles.emptyGradient}
-      />
-      <View
-        style={[
-          styles.emptyIconWrapper,
-          { backgroundColor: colors.primary.subtle },
-        ]}
-      >
-        <Ionicons
-          name="barbell-outline"
-          size={48}
-          color={colors.primary.base}
-        />
+      <View style={[styles.emptyIconWrapper, { backgroundColor: colors.primary.subtle }]}>
+        <Ionicons name="barbell-outline" size={48} color={colors.primary.base} />
       </View>
-      <Text
-        style={[
-          styles.emptyTitle,
-          { color: colors.text.primary, fontSize: typography.sizes.xl },
-        ]}
-      >
+      <Text style={[styles.emptyTitle, { color: colors.text.primary }]}>
         Ready to Get Started?
       </Text>
-      <Text
-        style={[
-          styles.emptySubtitle,
-          { color: colors.text.secondary, fontSize: typography.sizes.base },
-        ]}
-      >
-        Generate your personalized workout plan based on your goals and preferences.
+      <Text style={[styles.emptySubtitle, { color: colors.text.secondary }]}>
+        Generate your personalized workout plan based on your goals.
       </Text>
       <Button
         onPress={generateWeeklyPlan}
@@ -730,9 +658,7 @@ export default function DashboardScreen() {
         ]}
       >
         <Ionicons name="cloud-offline" size={16} color={colors.status.error} />
-        <Text style={[styles.errorText, { color: colors.status.error }]}>
-          {error}
-        </Text>
+        <Text style={[styles.errorText, { color: colors.status.error }]}>{error}</Text>
       </Animated.View>
     );
   };
@@ -762,17 +688,39 @@ export default function DashboardScreen() {
         }
       >
         {renderHeader()}
+        {renderTabs()}
         {renderError()}
 
-        {!weeklyPlan && !isLoading ? (
-          renderEmptyState()
-        ) : (
+        {activeTab === 'today' && (
           <>
-            {renderTodayWorkoutCard()}
-            {renderWeeklyProgress()}
-            {renderQuickStats()}
-            {renderUpcomingWorkouts()}
+            {!weeklyPlan && !isLoading ? (
+              renderEmptyState()
+            ) : (
+              <>
+                {renderHeroCard()}
+                {renderWeeklyProgress()}
+                {renderUpcoming()}
+              </>
+            )}
           </>
+        )}
+
+        {activeTab === 'progress' && (
+          <View style={styles.placeholderContent}>
+            <Ionicons name="stats-chart" size={48} color={colors.text.tertiary} />
+            <Text style={[styles.placeholderText, { color: colors.text.tertiary }]}>
+              Progress tracking coming soon
+            </Text>
+          </View>
+        )}
+
+        {activeTab === 'insights' && (
+          <View style={styles.placeholderContent}>
+            <Ionicons name="bulb-outline" size={48} color={colors.text.tertiary} />
+            <Text style={[styles.placeholderText, { color: colors.text.tertiary }]}>
+              AI insights coming soon
+            </Text>
+          </View>
         )}
       </ScrollView>
     </SafeAreaView>
@@ -799,40 +747,80 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'space-between',
     alignItems: 'flex-start',
-    marginBottom: 24,
+    marginBottom: 20,
     marginTop: 8,
   },
   headerLeft: {},
+  dateText: {
+    fontSize: 12,
+    fontWeight: '500',
+    letterSpacing: 1,
+    marginBottom: 4,
+  },
   greeting: {
+    fontSize: 24,
     fontWeight: '400',
-    letterSpacing: 0.2,
+    letterSpacing: -0.3,
   },
   userName: {
+    fontSize: 24,
     fontWeight: '700',
-    marginTop: 2,
     letterSpacing: -0.5,
   },
-  dateRow: {
+  headerRight: {
     flexDirection: 'row',
     alignItems: 'center',
-    marginTop: 6,
+    gap: 10,
   },
-  dateDot: {
-    width: 6,
-    height: 6,
-    borderRadius: 3,
-    marginRight: 8,
-  },
-  date: {
-    fontWeight: '500',
-  },
-  profileButton: {
-    width: 44,
-    height: 44,
-    borderRadius: 22,
+  headerIconButton: {
+    width: 40,
+    height: 40,
+    borderRadius: 20,
     alignItems: 'center',
     justifyContent: 'center',
-    borderWidth: 1,
+  },
+  notificationBadge: {
+    position: 'absolute',
+    top: 8,
+    right: 8,
+    width: 8,
+    height: 8,
+    borderRadius: 4,
+  },
+  avatarButton: {
+    width: 42,
+    height: 42,
+    borderRadius: 21,
+    borderWidth: 2,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  avatarInner: {
+    width: 36,
+    height: 36,
+    borderRadius: 18,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+
+  // Tabs
+  tabContainer: {
+    flexDirection: 'row',
+    gap: 24,
+  },
+  tabButton: {
+    paddingBottom: 8,
+  },
+  tabText: {
+    fontSize: 16,
+  },
+  tabIndicator: {
+    position: 'absolute',
+    bottom: 0,
+    left: 0,
+    right: 0,
+    height: 2,
+    borderRadius: 1,
   },
 
   // Error
@@ -856,47 +844,45 @@ const styles = StyleSheet.create({
   heroGradient: {
     ...StyleSheet.absoluteFillObject,
   },
-  heroColorBar: {
-    position: 'absolute',
-    left: 0,
-    top: 20,
-    bottom: 20,
-    width: 4,
-  },
   heroContent: {},
-  heroHeader: {
+  heroTopRow: {
     flexDirection: 'row',
     justifyContent: 'space-between',
     alignItems: 'center',
-    marginBottom: 16,
+    marginBottom: 24,
   },
-  todayBadge: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    gap: 6,
+  splitBadge: {
+    paddingHorizontal: 12,
+    paddingVertical: 6,
+    borderRadius: 8,
   },
-  todayDot: {
-    width: 8,
-    height: 8,
-    borderRadius: 4,
-  },
-  todayLabel: {
+  splitBadgeText: {
+    fontSize: 12,
     fontWeight: '600',
-    fontSize: 13,
+    letterSpacing: 0.5,
+  },
+  heroIconWrapper: {
+    width: 40,
+    height: 40,
+    borderRadius: 12,
+    alignItems: 'center',
+    justifyContent: 'center',
   },
   heroTitle: {
+    fontSize: 32,
     fontWeight: '700',
     letterSpacing: -0.5,
     marginBottom: 6,
   },
   heroMuscles: {
+    fontSize: 15,
     fontWeight: '500',
   },
-  heroMeta: {
+  metricsRow: {
     flexDirection: 'row',
     gap: 10,
   },
-  metaItem: {
+  metricPill: {
     flexDirection: 'row',
     alignItems: 'center',
     gap: 6,
@@ -904,27 +890,42 @@ const styles = StyleSheet.create({
     paddingVertical: 8,
     borderRadius: 20,
   },
-  metaText: {
-    fontSize: 13,
+  metricText: {
+    fontSize: 14,
     fontWeight: '600',
+  },
+  startButton: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
+    paddingVertical: 16,
+    paddingHorizontal: 24,
+    borderRadius: 16,
+    gap: 12,
+  },
+  startButtonText: {
+    fontSize: 15,
+    fontWeight: '700',
+    letterSpacing: 0.5,
+    flex: 1,
+    textAlign: 'center',
+  },
+  playCircle: {
+    width: 36,
+    height: 36,
+    borderRadius: 18,
+    alignItems: 'center',
+    justifyContent: 'center',
   },
 
   // Rest Day
-  restDayCard: {
-    position: 'relative',
-    overflow: 'hidden',
-    minHeight: 200,
-  },
-  restDayGradient: {
-    ...StyleSheet.absoluteFillObject,
-  },
   restDayContent: {
     alignItems: 'center',
     justifyContent: 'center',
-    paddingVertical: 40,
+    paddingVertical: 48,
     paddingHorizontal: 24,
   },
-  restDayIconWrapper: {
+  restDayIcon: {
     width: 72,
     height: 72,
     borderRadius: 36,
@@ -933,157 +934,179 @@ const styles = StyleSheet.create({
     marginBottom: 16,
   },
   restDayTitle: {
+    fontSize: 22,
     fontWeight: '700',
     marginBottom: 8,
-    letterSpacing: -0.3,
   },
   restDaySubtitle: {
+    fontSize: 15,
     textAlign: 'center',
-    lineHeight: 20,
+    lineHeight: 22,
     maxWidth: 260,
-  },
-
-  // Progress Card
-  progressCard: {},
-  progressHeader: {
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-    alignItems: 'flex-start',
-  },
-  progressTitle: {
-    fontWeight: '700',
-    letterSpacing: -0.3,
-  },
-  progressSubtitle: {
-    marginTop: 2,
-  },
-  viewPlanButton: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    paddingHorizontal: 12,
-    paddingVertical: 6,
-    borderRadius: 20,
-    gap: 4,
-  },
-  viewPlanText: {
-    fontWeight: '600',
-    fontSize: 13,
-  },
-  progressContent: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    justifyContent: 'space-between',
-  },
-  progressValue: {
-    fontWeight: '700',
-  },
-  progressLabel: {
-    fontWeight: '500',
-    marginTop: -2,
-  },
-  weekDaysContainer: {
-    flexDirection: 'row',
-    gap: 8,
-    flex: 1,
-    justifyContent: 'flex-end',
-  },
-  dayPill: {
-    width: 28,
-    height: 40,
-    borderRadius: 14,
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-  dayLetter: {
-    fontWeight: '600',
-  },
-  workoutIndicator: {
-    width: 4,
-    height: 4,
-    borderRadius: 2,
-    marginTop: 3,
-  },
-  checkIcon: {
-    marginTop: 2,
-  },
-
-  // Stats
-  statsRow: {
-    flexDirection: 'row',
-  },
-  statCard: {
-    padding: 16,
-    alignItems: 'center',
-  },
-  statIconWrapper: {
-    width: 36,
-    height: 36,
-    borderRadius: 18,
-    alignItems: 'center',
-    justifyContent: 'center',
-    marginBottom: 10,
-  },
-  statValue: {
-    fontWeight: '700',
-    letterSpacing: -0.3,
-  },
-  statLabel: {
-    fontWeight: '500',
-    marginTop: 2,
   },
 
   // Section Header
   sectionHeader: {
     flexDirection: 'row',
     justifyContent: 'space-between',
-    alignItems: 'baseline',
+    alignItems: 'center',
   },
   sectionTitle: {
+    fontSize: 18,
     fontWeight: '700',
     letterSpacing: -0.3,
   },
-  sectionSubtitle: {},
+  seeAllText: {
+    fontSize: 14,
+    fontWeight: '600',
+  },
+  paginationDots: {
+    flexDirection: 'row',
+    gap: 6,
+  },
+  dot: {
+    width: 6,
+    height: 6,
+    borderRadius: 3,
+  },
+  dotActive: {
+    width: 8,
+    height: 8,
+    borderRadius: 4,
+  },
+
+  // Progress Cards
+  progressScrollContent: {
+    paddingRight: 16,
+  },
+  progressCard: {
+    padding: 20,
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+  },
+  progressCardContent: {
+    flex: 1,
+  },
+  progressCardHeader: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    marginBottom: 12,
+  },
+  consistencyLabel: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 6,
+  },
+  consistencyDot: {
+    width: 6,
+    height: 6,
+    borderRadius: 3,
+  },
+  consistencyText: {
+    fontSize: 11,
+    fontWeight: '600',
+    letterSpacing: 0.5,
+  },
+  streakBadge: {
+    width: 28,
+    height: 28,
+    borderRadius: 8,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  streakValue: {
+    fontSize: 24,
+    fontWeight: '700',
+    letterSpacing: -0.5,
+    marginBottom: 16,
+  },
+  progressSubtext: {
+    fontSize: 13,
+    marginBottom: 16,
+  },
+  weekDayRow: {
+    flexDirection: 'row',
+    gap: 8,
+  },
+  dayPill: {
+    width: 28,
+    height: 28,
+    borderRadius: 14,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  dayPillText: {
+    fontSize: 11,
+    fontWeight: '600',
+  },
+  streakGrid: {
+    width: 60,
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    gap: 4,
+    alignSelf: 'center',
+  },
+  gridCell: {
+    width: 12,
+    height: 12,
+    borderRadius: 3,
+  },
+  progressBarBg: {
+    height: 8,
+    borderRadius: 4,
+    overflow: 'hidden',
+  },
+  progressBarFill: {
+    height: '100%',
+    borderRadius: 4,
+  },
 
   // Upcoming
   upcomingList: {},
   upcomingCard: {
-    padding: 14,
-  },
-  upcomingRow: {
     flexDirection: 'row',
     alignItems: 'center',
+    padding: 12,
   },
-  dayBadge: {
-    width: 48,
-    height: 48,
-    borderRadius: 12,
+  dateBadge: {
+    width: 72,
+    height: 80,
+    borderRadius: 16,
     alignItems: 'center',
     justifyContent: 'center',
     marginRight: 14,
   },
-  dayBadgeText: {
+  dateBadgeDay: {
+    fontSize: 18,
     fontWeight: '700',
+  },
+  dateBadgeMonth: {
+    fontSize: 11,
+    fontWeight: '500',
+    marginTop: 2,
+  },
+  workoutIllustration: {
+    position: 'absolute',
+    bottom: 8,
+    width: 32,
+    height: 32,
+    borderRadius: 16,
+    alignItems: 'center',
+    justifyContent: 'center',
   },
   upcomingInfo: {
     flex: 1,
   },
   upcomingTitle: {
+    fontSize: 16,
     fontWeight: '600',
     marginBottom: 4,
   },
-  upcomingMetaRow: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    gap: 4,
+  upcomingMeta: {
+    fontSize: 13,
   },
-  upcomingMeta: {},
-  metaDot: {
-    width: 3,
-    height: 3,
-    borderRadius: 1.5,
-    marginHorizontal: 4,
-  },
-  arrowWrapper: {
+  chevronWrapper: {
     width: 28,
     height: 28,
     borderRadius: 14,
@@ -1099,10 +1122,6 @@ const styles = StyleSheet.create({
     paddingVertical: 60,
     paddingHorizontal: 32,
   },
-  emptyGradient: {
-    ...StyleSheet.absoluteFillObject,
-    borderRadius: 32,
-  },
   emptyIconWrapper: {
     width: 96,
     height: 96,
@@ -1112,14 +1131,28 @@ const styles = StyleSheet.create({
     marginBottom: 24,
   },
   emptyTitle: {
+    fontSize: 22,
     fontWeight: '700',
     textAlign: 'center',
     marginBottom: 12,
-    letterSpacing: -0.3,
   },
   emptySubtitle: {
+    fontSize: 15,
     textAlign: 'center',
-    lineHeight: 24,
+    lineHeight: 22,
     maxWidth: 280,
+  },
+
+  // Placeholder
+  placeholderContent: {
+    flex: 1,
+    alignItems: 'center',
+    justifyContent: 'center',
+    paddingVertical: 100,
+    gap: 16,
+  },
+  placeholderText: {
+    fontSize: 16,
+    fontWeight: '500',
   },
 });

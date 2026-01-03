@@ -2,6 +2,7 @@ import { create } from 'zustand';
 import * as SecureStore from 'expo-secure-store';
 import { api } from '@/lib/api';
 import { PersonalizedPlan } from '@/lib/types/onboarding';
+import { useWorkoutStore } from './workout-store';
 
 interface User {
   id: string;
@@ -177,6 +178,10 @@ export const useAuthStore = create<AuthState>((set, get) => ({
         user.onboardingCompleted = true;
         await SecureStore.setItemAsync(USER_KEY, JSON.stringify(user));
       }
+
+      // Reset workout store to clear old cached data and force fresh API fetch
+      console.log('[AuthStore] Resetting workout store after onboarding');
+      useWorkoutStore.getState().reset();
 
       set({
         hasCompletedOnboarding: true,

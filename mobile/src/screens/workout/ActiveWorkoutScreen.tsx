@@ -74,7 +74,7 @@ export default function ActiveWorkoutScreen() {
   const [notes, setNotes] = useState('');
   const [showRestTimer, setShowRestTimer] = useState(false);
   const [restSeconds, setRestSeconds] = useState(0);
-
+  console.log('restSeconds',selectCurrentExercise, activeSession);
   // Timer updates
   const [displayTime, setDisplayTime] = useState('00:00');
 
