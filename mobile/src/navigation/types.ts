@@ -1,4 +1,5 @@
 import type { NativeStackScreenProps } from '@react-navigation/native-stack';
+import type { WorkoutStats } from '@/lib/types/workout';
 
 export type AuthStackParamList = {
   Welcome: undefined;
@@ -8,6 +9,22 @@ export type AuthStackParamList = {
 
 export type OnboardingStackParamList = {
   Onboarding: undefined;
+};
+
+export type MainStackParamList = {
+  Dashboard: undefined;
+  WeeklyPlan: undefined;
+  WorkoutDayDetail: {
+    workoutId: string;
+    dayIndex?: number;
+  };
+  ActiveWorkout: {
+    workoutId: string;
+  };
+  WorkoutComplete: {
+    workoutId: string;
+    stats: WorkoutStats;
+  };
 };
 
 export type RootStackParamList = {
@@ -24,3 +41,6 @@ export type OnboardingStackScreenProps<T extends keyof OnboardingStackParamList>
 
 export type RootStackScreenProps<T extends keyof RootStackParamList> =
   NativeStackScreenProps<RootStackParamList, T>;
+
+export type MainStackScreenProps<T extends keyof MainStackParamList> =
+  NativeStackScreenProps<MainStackParamList, T>;

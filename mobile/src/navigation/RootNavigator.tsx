@@ -6,7 +6,7 @@ import { useAuthStore } from '../../stores/auth-store';
 import { useTheme } from '../../providers/theme-provider';
 import AuthStack from './AuthStack';
 import OnboardingStack from './OnboardingStack';
-import HomeScreen from '../screens/main/HomeScreen';
+import MainStack from './MainStack';
 
 const Stack = createNativeStackNavigator<RootStackParamList>();
 
@@ -34,7 +34,7 @@ export default function RootNavigator() {
       ) : !hasCompletedOnboarding ? (
         <Stack.Screen name="Onboarding" component={OnboardingStack} />
       ) : (
-        <Stack.Screen name="Main" component={HomeScreen} />
+        <Stack.Screen name="Main" component={MainStack} />
       )}
     </Stack.Navigator>
   );

@@ -1163,44 +1163,45 @@ function calculateExerciseScore(exercise: Exercise, profile: UserProfile): numbe
 
 ## Implementation Checklist
 
-### Phase 1: Database & Schema
-- [ ] Add new fields to Exercise model
-- [ ] Create UserExerciseHistory table
-- [ ] Create ExerciseSuggestion table
-- [ ] Create WeeklyPlan table
-- [ ] Run migrations
+### Phase 1: Database & Schema ✅ COMPLETED
+- [x] Add new fields to Exercise model
+- [x] Create UserExerciseHistory table
+- [x] Create ExerciseSuggestion table
+- [x] Create WeeklyPlan table
+- [x] Run migrations
 
-### Phase 2: Exercise Generation
-- [ ] Generate Chest exercises (35)
-- [ ] Generate Back exercises (40)
-- [ ] Generate Leg exercises (55)
-- [ ] Generate Shoulder & Arm exercises (85)
-- [ ] Generate Core exercises (25)
-- [ ] Generate Cardio exercises (70)
-- [ ] Generate Flexibility exercises (50)
-- [ ] Generate Glute & Calf exercises (45)
-- [ ] Import all exercises to database
+### Phase 2: Exercise Generation ✅ COMPLETED
+- [x] Generate 360 exercises via Claude Web (10 batches)
+- [x] Create import script with auto-fix enum mappings
+- [x] Import all exercises to database
+- [x] Generate searchText for each exercise
 
-### Phase 3: Pgvector Setup
-- [ ] Enable pgvector extension
-- [ ] Add embedding column
-- [ ] Create vector index
-- [ ] Generate embeddings for all exercises
-- [ ] Test similarity search
+### Phase 3: Pgvector Setup ✅ COMPLETED
+- [x] Enable pgvector extension in Prisma schema
+- [x] Add embedding column (Float[])
+- [x] Create setup-pgvector.ts script for index creation
+- [x] Create generate-embeddings.ts script (supports Gemini FREE + OpenAI)
+- [x] Create embedding.service.ts for similarity search
 
-### Phase 4: Suggestion Engine
-- [ ] Implement initial plan generation
-- [ ] Implement exercise selection algorithm
-- [ ] Implement progress-based adaptation
-- [ ] Implement swap/alternative suggestions
+### Phase 4: Suggestion Engine ✅ COMPLETED
+- [x] Implement initial plan generation
+- [x] Implement exercise selection algorithm with scoring
+- [x] Implement contraindication filtering (injuries)
+- [x] Implement workout split configurations (2-7 days)
+- [x] Implement swap/alternative suggestions via embeddings
 
-### Phase 5: API Implementation
-- [ ] Create exercise-suggestions routes
-- [ ] Integrate with existing workout system
-- [ ] Add feedback endpoints
-- [ ] Test all endpoints
+### Phase 5: API Implementation ✅ COMPLETED
+- [x] Create suggestion.routes.ts with all endpoints
+- [x] GET /suggestions/status - Check readiness
+- [x] GET /suggestions/exercises - Scored exercises for muscles
+- [x] POST /suggestions/search - Semantic search
+- [x] GET /suggestions/weekly-plan - Generate plan (preview)
+- [x] POST /suggestions/weekly-plan - Generate and save plan
+- [x] GET /suggestions/similar/:id - Find alternatives
+- [x] POST /suggestions/recommend - Multi-criteria search
 
-### Phase 6: Mobile Integration
+### Phase 6: Mobile Integration 🔄 IN PROGRESS
+- [x] Create comprehensive MOBILE-INTEGRATION.md guide
 - [ ] Display initial plan after onboarding
 - [ ] Show daily workout with exercises
 - [ ] Implement exercise swap UI
@@ -1209,11 +1210,55 @@ function calculateExerciseScore(exercise: Exercise, profile: UserProfile): numbe
 
 ---
 
-## Next Steps
+## Documentation
 
-1. **Immediate**: Generate exercises using the batch prompts above via Claude web interface
-2. **Short-term**: Implement database schema changes and import exercises
-3. **Medium-term**: Set up pgvector and generate embeddings
-4. **Long-term**: Build and test the full suggestion engine
+| Document | Description |
+|----------|-------------|
+| `PLAN-EXERCISE-SUGGESTIONS.md` | This file - Overall implementation plan |
+| `EXERCISE-GENERATION-PROMPTS.md` | Prompts used for Claude Web exercise generation |
+| `PGVECTOR-IMPLEMENTATION.md` | How semantic search works (embeddings, indexes) |
+| `MOBILE-INTEGRATION.md` | Complete API guide for mobile apps |
 
-Would you like me to start with any specific phase or provide more details on any section?
+---
+
+## Quick Start for Mobile Development
+
+```bash
+# 1. Set up database
+npm run db:push
+
+# 2. Import exercises (360 exercises)
+npm run import:exercises
+
+# 3. Get FREE Gemini API key: https://aistudio.google.com/app/apikey
+# Add to .env: GEMINI_API_KEY=your-key
+
+# 4. Generate embeddings
+npm run generate:embeddings
+
+# 5. Set up vector index
+npm run db:setup-vector
+
+# 6. Start API server
+npm run dev
+```
+
+## API Base URL
+```
+http://localhost:3001/api/v1
+```
+
+## Key Endpoints for Mobile
+
+| Endpoint | Method | Description |
+|----------|--------|-------------|
+| `/auth/register` | POST | Create account |
+| `/auth/login` | POST | Login |
+| `/onboarding/phase/:n` | GET/POST | Onboarding flow |
+| `/suggestions/weekly-plan` | GET | Preview plan |
+| `/suggestions/weekly-plan` | POST | Save plan |
+| `/workouts` | GET | Get scheduled workouts |
+| `/workouts/:id/start` | POST | Start workout |
+| `/workouts/:id/complete` | POST | Complete workout |
+
+See `MOBILE-INTEGRATION.md` for complete API documentation with request/response examples.
