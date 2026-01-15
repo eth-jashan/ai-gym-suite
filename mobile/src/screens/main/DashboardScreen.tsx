@@ -39,8 +39,10 @@ import * as Haptics from 'expo-haptics';
 import { useTheme } from '@/providers/theme-provider';
 import { useAuthStore } from '@/stores/auth-store';
 import { useWorkoutStore } from '@/stores/workout-store';
+import { useProgramStore } from '@/stores/program-store';
 import { Button } from '@/components/ui';
 import { SPLIT_TYPE_COLORS, SPLIT_TYPE_LABELS, SplitType } from '@/lib/types/workout';
+import { PHASE_COLORS, getPhaseForDay } from '@/lib/types/program';
 import type { MainStackParamList } from '@/src/navigation/types';
 
 type NavigationProp = NativeStackNavigationProp<MainStackParamList>;
@@ -68,15 +70,26 @@ export default function DashboardScreen() {
     startWorkout,
   } = useWorkoutStore();
 
+  const {
+    program,
+    loadProgram,
+    getStats,
+    getPhaseProgress,
+    getTodayDayNumber,
+    getCurrentDay,
+  } = useProgramStore();
+
   const [activeTab, setActiveTab] = useState<TabType>('today');
 
   useEffect(() => {
     fetchWeeklyPlan();
-  }, [fetchWeeklyPlan]);
+    loadProgram();
+  }, [fetchWeeklyPlan, loadProgram]);
 
   const onRefresh = useCallback(() => {
     fetchWeeklyPlan();
-  }, [fetchWeeklyPlan]);
+    loadProgram();
+  }, [fetchWeeklyPlan, loadProgram]);
 
   const getGreeting = () => {
     const hour = new Date().getHours();
@@ -103,7 +116,22 @@ export default function DashboardScreen() {
 
   const handleViewPlan = () => {
     Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
-    navigation.navigate('WeeklyPlan');
+    // Navigate to 28-day program calendar if program exists, otherwise weekly plan
+    if (program) {
+      navigation.navigate('ProgramCalendar');
+    } else {
+      navigation.navigate('WeeklyPlan');
+    }
+  };
+
+  const handleViewProgram = () => {
+    Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
+    navigation.navigate('ProgramCalendar');
+  };
+
+  const handleViewProgramDay = (dayNumber: number) => {
+    Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
+    navigation.navigate('ProgramDay', { dayNumber });
   };
 
   const handleWorkoutPress = (workoutId: string, dayIndex: number) => {
@@ -307,6 +335,158 @@ export default function DashboardScreen() {
             </Pressable>
           </View>
         </Pressable>
+      </Animated.View>
+    );
+  };
+
+  // ============================================================================
+  // 28-DAY PROGRAM CARD
+  // ============================================================================
+
+  const renderProgramCard = () => {
+    if (!program) return null;
+
+    const stats = getStats();
+    const phaseProgress = getPhaseProgress();
+    const todayDay = getCurrentDay();
+    const todayDayNum = getTodayDayNumber();
+
+    return (
+      <Animated.View entering={FadeInUp.delay(100).duration(500).springify()}>
+        <Pressable
+          onPress={handleViewProgram}
+          style={({ pressed }) => [
+            styles.heroCard,
+            {
+              backgroundColor: colors.background.elevated,
+              borderRadius: radius['2xl'],
+              transform: [{ scale: pressed ? 0.98 : 1 }],
+              marginBottom: spacing[4],
+            },
+          ]}
+        >
+          <LinearGradient
+            colors={[phaseProgress.color + '15', 'transparent', 'transparent']}
+            start={{ x: 0, y: 0 }}
+            end={{ x: 1, y: 1 }}
+            style={[styles.heroGradient, { borderRadius: radius['2xl'] }]}
+          />
+
+          <View style={[styles.heroContent, { padding: spacing[5] }]}>
+            {/* Top Row */}
+            <View style={styles.heroTopRow}>
+              <View style={[styles.splitBadge, { backgroundColor: phaseProgress.color + '20' }]}>
+                <Text style={[styles.splitBadgeText, { color: phaseProgress.color }]}>
+                  {phaseProgress.phase.toUpperCase()} PHASE
+                </Text>
+              </View>
+              <View style={[styles.heroIconWrapper, { backgroundColor: colors.primary.base + '20' }]}>
+                <Ionicons name="calendar" size={20} color={colors.primary.base} />
+              </View>
+            </View>
+
+            {/* Title */}
+            <Text style={[styles.heroTitle, { color: colors.text.primary, fontSize: 26 }]}>
+              28-Day Program
+            </Text>
+            <Text style={[styles.heroMuscles, { color: colors.text.secondary }]}>
+              Day {todayDayNum} of 28 • {stats.completionPercentage}% Complete
+            </Text>
+
+            {/* Progress Bar */}
+            <View style={{ marginTop: spacing[3] }}>
+              <View style={[styles.progressBarBg, { backgroundColor: colors.background.surface, height: 6 }]}>
+                <View
+                  style={[
+                    styles.progressBarFill,
+                    {
+                      backgroundColor: phaseProgress.color,
+                      width: `${stats.completionPercentage}%`,
+                    },
+                  ]}
+                />
+              </View>
+            </View>
+
+            {/* Metrics Row */}
+            <View style={[styles.metricsRow, { marginTop: spacing[4] }]}>
+              <View style={[styles.metricPill, { backgroundColor: colors.background.surface }]}>
+                <Ionicons name="checkmark-circle" size={14} color={colors.primary.base} />
+                <Text style={[styles.metricText, { color: colors.text.primary }]}>
+                  {stats.completedWorkouts}/{program.totalWorkouts}
+                </Text>
+              </View>
+              <View style={[styles.metricPill, { backgroundColor: colors.background.surface }]}>
+                <Ionicons name="flame" size={14} color="#F97316" />
+                <Text style={[styles.metricText, { color: colors.text.primary }]}>
+                  {stats.currentStreak} Streak
+                </Text>
+              </View>
+              <View style={[styles.metricPill, { backgroundColor: colors.background.surface }]}>
+                <Ionicons name="time-outline" size={14} color="#3B82F6" />
+                <Text style={[styles.metricText, { color: colors.text.primary }]}>
+                  {stats.totalMinutes}m
+                </Text>
+              </View>
+            </View>
+
+            {/* View Calendar Button */}
+            <Pressable
+              onPress={handleViewProgram}
+              style={({ pressed }) => [
+                styles.startButton,
+                {
+                  backgroundColor: colors.text.primary,
+                  opacity: pressed ? 0.9 : 1,
+                  marginTop: spacing[5],
+                },
+              ]}
+            >
+              <Text style={[styles.startButtonText, { color: colors.background.base }]}>
+                VIEW FULL CALENDAR
+              </Text>
+              <View style={[styles.playCircle, { backgroundColor: colors.primary.base }]}>
+                <Ionicons name="arrow-forward" size={16} color={colors.background.base} />
+              </View>
+            </Pressable>
+          </View>
+        </Pressable>
+
+        {/* Today's Workout Quick Access */}
+        {todayDay && !todayDay.isRestDay && !todayDay.isCompleted && (
+          <Pressable
+            onPress={() => handleViewProgramDay(todayDayNum)}
+            style={({ pressed }) => [
+              styles.upcomingCard,
+              {
+                backgroundColor: colors.background.elevated,
+                borderRadius: radius.xl,
+                marginBottom: spacing[2],
+                opacity: pressed ? 0.8 : 1,
+              },
+            ]}
+          >
+            <View style={[styles.dateBadge, { backgroundColor: colors.primary.base, width: 56, height: 56 }]}>
+              <Text style={[styles.dateBadgeDay, { color: colors.background.base, fontSize: 20 }]}>
+                {todayDayNum}
+              </Text>
+              <Text style={[styles.dateBadgeMonth, { color: colors.background.base, fontSize: 9 }]}>
+                DAY
+              </Text>
+            </View>
+            <View style={styles.upcomingInfo}>
+              <Text style={[styles.upcomingTitle, { color: colors.text.primary }]}>
+                {todayDay.title}
+              </Text>
+              <Text style={[styles.upcomingMeta, { color: colors.text.tertiary }]}>
+                {todayDay.estimatedDuration} min • {todayDay.exercises.length} exercises
+              </Text>
+            </View>
+            <View style={[styles.chevronWrapper, { backgroundColor: colors.primary.base }]}>
+              <Ionicons name="play" size={14} color={colors.background.base} />
+            </View>
+          </Pressable>
+        )}
       </Animated.View>
     );
   };
@@ -725,13 +905,14 @@ export default function DashboardScreen() {
 
         {activeTab === 'today' && (
           <>
-            {!weeklyPlan && !isLoading ? (
+            {!weeklyPlan && !program && !isLoading ? (
               renderEmptyState()
             ) : (
               <>
-                {renderHeroCard()}
+                {program && renderProgramCard()}
+                {!program && renderHeroCard()}
                 {renderWeeklyProgress()}
-                {renderUpcoming()}
+                {!program && renderUpcoming()}
               </>
             )}
           </>

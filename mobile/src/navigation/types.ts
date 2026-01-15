@@ -25,6 +25,15 @@ export type MainStackParamList = {
     workoutId: string;
     stats: WorkoutStats;
   };
+  // 28-Day Program Screens
+  ProgramCalendar: undefined;
+  ProgramDay: {
+    dayNumber: number;
+  };
+  ExerciseDetail: {
+    exerciseId: string;
+    dayNumber: number;
+  };
 };
 
 export type RootStackParamList = {

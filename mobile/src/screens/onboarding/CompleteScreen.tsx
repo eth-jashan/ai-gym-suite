@@ -5,6 +5,7 @@ import * as Haptics from 'expo-haptics';
 
 import { useOnboardingStore } from '../../../stores/onboarding-store';
 import { useAuthStore } from '../../../stores/auth-store';
+import { useProgramStore } from '../../../stores/program-store';
 import { useTheme } from '../../../providers/theme-provider';
 import { MascotAvatar, ContinueButton } from '../../../components/onboarding';
 
@@ -15,8 +16,14 @@ export default function CompleteScreen() {
     goToStep,
     personalizedPlan,
     calculatedPlan,
+    workoutDays,
+    workoutDuration,
+    fitnessLevel,
+    primaryGoal,
+    equipment,
   } = useOnboardingStore();
-  const { completeOnboarding } = useAuthStore();
+  const { completeOnboarding, user } = useAuthStore();
+  const { generateProgram } = useProgramStore();
   const [isLoading, setIsLoading] = useState(false);
 
   useEffect(() => {
@@ -46,14 +53,48 @@ export default function CompleteScreen() {
         weeklyWeightChange: 0.5,
       } : undefined);
 
+      // Generate 28-day program based on user preferences
+      const dayMapping: Record<string, number> = {
+        sunday: 0,
+        monday: 1,
+        tuesday: 2,
+        wednesday: 3,
+        thursday: 4,
+        friday: 5,
+        saturday: 6,
+      };
+
+      const workoutDayIndices = workoutDays.map((day) => dayMapping[day] ?? 1);
+
+      const fitnessLevelMapping: Record<string, 'beginner' | 'intermediate' | 'advanced'> = {
+        beginner: 'beginner',
+        some_experience: 'intermediate',
+        intermediate: 'intermediate',
+        advanced: 'advanced',
+        expert: 'advanced',
+      };
+
+      await generateProgram({
+        userId: user?.id || 'local_user',
+        userName: name,
+        daysPerWeek: workoutDays.length || 4,
+        workoutDays: workoutDayIndices.length > 0 ? workoutDayIndices : [1, 2, 4, 5], // Default Mon, Tue, Thu, Fri
+        fitnessLevel: fitnessLevelMapping[fitnessLevel || 'beginner'] || 'beginner',
+        primaryGoal: (primaryGoal as 'lose_weight' | 'build_muscle' | 'get_fitter' | 'maintain') || 'get_fitter',
+        workoutDuration: workoutDuration || 45,
+        equipment: equipment.length > 0 ? equipment : ['body_weight'],
+        startDate: new Date(),
+      });
+
       // Mark onboarding complete in auth store (saves locally)
       await completeOnboarding(plan);
       // Navigation will happen automatically via RootNavigator
-    } catch {
+    } catch (error) {
+      console.error('Error completing onboarding:', error);
       setIsLoading(false);
       Alert.alert('Error', 'Something went wrong. Please try again.');
     }
-  }, [personalizedPlan, calculatedPlan, completeOnboarding]);
+  }, [personalizedPlan, calculatedPlan, completeOnboarding, generateProgram, name, workoutDays, workoutDuration, fitnessLevel, primaryGoal, equipment, user]);
 
   const buttonDisabled = isLoading;
 
